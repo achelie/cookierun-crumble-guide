@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.cookieruncrumbles.com"),
   title: { default: "CookieRun: Crumble Guide", template: "%s | Crumble Guide" },
   description: "CookieRun: Crumble cookies, pets, current tier lists, team ideas, and active coupon codes in one fast fan guide.",
+  alternates: { canonical: "/" },
   applicationName: "Crumble Guide",
   keywords: ["CookieRun Crumble", "CookieRun Crumble tier list", "CookieRun Crumble codes", "CookieRun Crumble cookies"],
   openGraph: { siteName: "CookieRun: Crumble Guide", type: "website", locale: "en_US", images: [{ url: "/opengraph-image" }] },
