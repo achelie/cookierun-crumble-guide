@@ -11,6 +11,7 @@
   "routes": [
     {
       "pattern": "www.cookieruncrumbles.com",
+      "zone_name": "cookieruncrumbles.com",
       "custom_domain": true
     }
   ],
