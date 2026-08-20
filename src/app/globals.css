@@ -172,10 +172,10 @@ main { min-height: 70dvh; }
 .entity-card__copy span { color: var(--rarity-color, var(--muted)); font-size: 0.73rem; font-weight: 900; letter-spacing: 0.08em; }
 .entity-card__copy h3 { margin: 4px 0 0; font-family: var(--font-display), sans-serif; font-size: 1rem; line-height: 1.18; overflow-wrap: anywhere; }
 .cookie-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(235px, 1fr)); gap: 15px; align-items: start; }
-.cookie-card { position: relative; min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-card); background: linear-gradient(154deg, color-mix(in srgb, var(--paper-2), transparent 1%), color-mix(in srgb, var(--accent-soft), var(--paper) 93%)); box-shadow: 0 14px 32px var(--shadow); transition: transform var(--duration-fast) var(--ease-smooth-out), border-color var(--duration-fast) var(--ease-smooth-out), box-shadow var(--duration-fast) var(--ease-smooth-out); }
+.cookie-card { position: relative; min-width: 0; height: 460px; display: grid; grid-template-rows: minmax(0, 1fr) auto; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-card); background: linear-gradient(154deg, color-mix(in srgb, var(--paper-2), transparent 1%), color-mix(in srgb, var(--accent-soft), var(--paper) 93%)); box-shadow: 0 14px 32px var(--shadow); transition: transform var(--duration-fast) var(--ease-smooth-out), border-color var(--duration-fast) var(--ease-smooth-out), box-shadow var(--duration-fast) var(--ease-smooth-out); }
 .cookie-card::before { content: ""; position: absolute; inset: 0 0 auto; z-index: 1; height: 5px; background: var(--rarity-color, var(--line)); }
 .cookie-card:hover { z-index: 1; border-color: color-mix(in srgb, var(--rarity-color, var(--accent)), var(--line) 45%); transform: translateY(-4px) rotate(-0.2deg); box-shadow: 0 22px 44px var(--shadow); }
-.cookie-card__art { position: relative; aspect-ratio: 1.32; display: grid; place-items: center; padding: 8px; background: radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--rarity-color, var(--accent)), transparent 76%), transparent 64%); }
+.cookie-card__art { position: relative; min-height: 0; display: grid; place-items: center; overflow: hidden; padding: 8px; background: radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--rarity-color, var(--accent)), transparent 76%), transparent 64%); }
 .cookie-card__art > img { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 10px 9px rgba(67, 37, 26, 0.19)); transition: transform var(--duration-fast) var(--ease-smooth-out); }
 .cookie-card:hover .cookie-card__art > img { transform: scale(1.035) rotate(0.7deg); }
 .cookie-card__body { padding: 13px; }
@@ -202,7 +202,8 @@ main { min-height: 70dvh; }
 .cookie-taxonomy-badges--compact { top: 5px; left: 5px; gap: 2px; }
 .cookie-taxonomy-badges--compact .cookie-taxonomy-badge { width: 23px; height: 23px; border-radius: 7px; }
 .cookie-taxonomy-badges--compact .cookie-taxonomy-badge img { width: 19px; height: 19px; }
-.pet-card { height: auto; }
+.pet-card { height: 410px; display: grid; grid-template-rows: minmax(0, 1fr) auto; }
+.pet-card .entity-card__art { min-height: 0; aspect-ratio: auto; overflow: hidden; }
 .pet-card .entity-card__copy { min-height: 0; }
 .pet-card__effects { margin-top: 12px; padding-top: 10px; border-top: 1px solid color-mix(in srgb, var(--line), transparent 18%); }
 .pet-card__effects > small { display: block; margin-bottom: 6px; color: var(--accent-dark); font-size: 0.65rem; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; }
@@ -418,6 +419,8 @@ button.builder-slot { padding: 0; border-style: solid; cursor: pointer; }
   .explore-grid { grid-template-columns: 1fr 1fr; grid-template-areas: "one two" "three three" "four four"; }
   .explore-card--1 { min-height: 300px; }
   .cookie-grid { grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); }
+  .cookie-card { height: 430px; }
+  .pet-card { height: 380px; }
   .team-showcase, .team-showcase:nth-child(even) { grid-template-columns: 1fr; }
   .team-showcase:nth-child(even) .team-showcase__copy, .team-showcase:nth-child(even) .team-showcase__formation { grid-column: 1; grid-row: auto; }
   .builder-formation { grid-template-columns: 1fr; }
@@ -461,7 +464,8 @@ button.builder-slot { padding: 0; border-style: solid; cursor: pointer; }
   .result-count { min-width: 0; }
   .entity-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .cookie-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-  .cookie-card__art { aspect-ratio: 1.25; }
+  .cookie-card { height: 380px; }
+  .pet-card { height: 350px; }
   .cookie-card__body { padding: 9px; }
   .cookie-card__identity { min-height: 0; }
   .cookie-card__identity h3 { font-size: 0.82rem; }
