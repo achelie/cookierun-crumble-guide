@@ -1,5 +1,3 @@
-export type ShareImageResult = "shared" | "downloaded" | "cancelled";
-
 async function waitForImages(node: HTMLElement) {
   const images = Array.from(node.querySelectorAll("img"));
   await Promise.all(images.map(async (image) => {
@@ -20,7 +18,7 @@ function downloadBlob(blob: Blob, filename: string) {
   window.setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
-export async function shareNodeAsPng(node: HTMLElement, filename: string): Promise<ShareImageResult> {
+export async function downloadNodeAsPng(node: HTMLElement, filename: string): Promise<void> {
   await document.fonts?.ready;
   await waitForImages(node);
   const { toBlob } = await import("html-to-image");
@@ -32,16 +30,5 @@ export async function shareNodeAsPng(node: HTMLElement, filename: string): Promi
 
   if (!blob) throw new Error("The image could not be generated.");
 
-  const file = new File([blob], filename, { type: "image/png" });
-  if (navigator.share && navigator.canShare?.({ files: [file] })) {
-    try {
-      await navigator.share({ files: [file], title: "CookieRun: Crumble build" });
-      return "shared";
-    } catch (error) {
-      if (error instanceof DOMException && error.name === "AbortError") return "cancelled";
-    }
-  }
-
   downloadBlob(blob, filename);
-  return "downloaded";
 }

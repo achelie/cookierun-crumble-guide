@@ -10,7 +10,7 @@ import { AppIcon } from "@/components/ui/icon";
 import { cookies, cookieById, type Cookie } from "@/data/cookies";
 import { tierList, tierRanks, type TierRank } from "@/data/tier-list";
 import { copyText } from "@/lib/copy-text";
-import { shareNodeAsPng } from "@/lib/share-image";
+import { downloadNodeAsPng } from "@/lib/share-image";
 import {
   emptyTierBuilderState,
   getUnrankedCookieIds,
@@ -60,13 +60,14 @@ function TierCookieItem({ cookie, rank, onClick }: { cookie: Cookie; rank: TierD
     <button
       ref={setRef}
       type="button"
-      className={`tier-builder-cookie${drop.isDropTarget ? " is-drop-target" : ""}${drag.isDragging ? " is-dragging" : ""}`}
+      className={`tier-builder-cookie rarity-${cookie.rarity.toLowerCase()}${drop.isDropTarget ? " is-drop-target" : ""}${drag.isDragging ? " is-dragging" : ""}`}
       onClick={onClick}
       aria-label={`${cookie.name}. ${rank === "unranked" ? "Add to S Tier" : `Remove from ${rank} Tier`}. Drag to rank.`}
       title={`${cookie.name} - drag to rank`}
     >
       <span className="tier-builder-cookie__portrait">
         <CookieTaxonomyBadges element={cookie.element} role={cookie.role} compact />
+        <span className="tier-builder-cookie__rarity">{cookie.rarity}</span>
         <Image src={cookie.image} alt="" width={104} height={104} sizes="92px" />
       </span>
       <strong>{cookie.name}</strong>
@@ -77,8 +78,9 @@ function TierCookieItem({ cookie, rank, onClick }: { cookie: Cookie; rank: TierD
 
 function TierDragPreview({ cookie }: { cookie: Cookie }) {
   return (
-    <div className="builder-drag-preview builder-drag-preview--tier">
+    <div className={`builder-drag-preview builder-drag-preview--tier rarity-${cookie.rarity.toLowerCase()}`}>
       <CookieTaxonomyBadges element={cookie.element} role={cookie.role} compact />
+      <span className="builder-drag-preview__rarity">{cookie.rarity}</span>
       <Image src={cookie.image} alt="" width={130} height={130} />
       <strong>{cookie.name}</strong>
     </div>
@@ -109,12 +111,13 @@ export function TierListBuilder() {
     setState(next);
     const serialized = serializeTierBuilderState(next);
     const search = new URLSearchParams(params.toString());
-    search.set("tool", "tier");
+    search.delete("tool");
     tierRanks.forEach((rank) => {
       const key = rank.toLowerCase() as Lowercase<TierRank>;
       if (serialized[key]) search.set(key, serialized[key]); else search.delete(key);
     });
-    router.replace(`/tools/?${search.toString()}#tier-builder`, { scroll: false });
+    const query = search.size ? `?${search.toString()}` : "";
+    router.replace(`/tools/tier-builder/${query}`, { scroll: false });
     setCopied(false);
   }
 
@@ -136,19 +139,14 @@ export function TierListBuilder() {
     window.setTimeout(() => setCopied(false), 1800);
   }
 
-  async function shareImage() {
+  async function downloadImage() {
     if (!exportRef.current || shareState === "working") return;
     setShareState("working");
-    setShareMessage("Building your PNG...");
+    setShareMessage("Preparing your PNG...");
     try {
-      const result = await shareNodeAsPng(exportRef.current, "cookierun-crumble-tier-list.png");
-      if (result === "cancelled") {
-        setShareState("idle");
-        setShareMessage("");
-        return;
-      }
+      await downloadNodeAsPng(exportRef.current, "cookierun-crumble-tier-list.png");
       setShareState("done");
-      setShareMessage(result === "shared" ? "Image shared." : "PNG downloaded.");
+      setShareMessage("PNG downloaded.");
     } catch {
       setShareState("error");
       setShareMessage("Image export failed. Try once more.");
@@ -162,7 +160,7 @@ export function TierListBuilder() {
           <div><span className="eyebrow">Build tier list</span><h2 id="tier-builder-title">Rank every Cookie your way.</h2><p>Drag Cookies between S and D, reorder them inside a row, or drop them back into Unranked.</p></div>
           <div className="builder-share-actions">
             <button className="secondary-button" type="button" onClick={copyLink}><AppIcon name={copied ? "check" : "link"} size={18} />{copied ? "Link copied" : "Copy link"}</button>
-            <button className="share-button" type="button" onClick={shareImage} disabled={shareState === "working"}><AppIcon name="image" size={18} />{shareState === "working" ? "Making PNG" : "Share image"}</button>
+            <button className="share-button" type="button" onClick={downloadImage} disabled={shareState === "working"}><AppIcon name="download" size={18} />{shareState === "working" ? "Making PNG" : "Download PNG"}</button>
           </div>
         </div>
         <p className={`builder-share-status${shareState === "error" ? " is-error" : ""}`} aria-live="polite">{shareMessage}</p>
@@ -202,7 +200,7 @@ export function TierListBuilder() {
 
         <TierShareCard ref={exportRef} state={state} />
       </section>
-      <DragOverlay>{(source) => {
+      <DragOverlay dropAnimation={null}>{(source) => {
         const data = source?.data as TierDragData | undefined;
         const cookie = data ? cookieById.get(data.cookieId) : undefined;
         return cookie ? <TierDragPreview cookie={cookie} /> : null;

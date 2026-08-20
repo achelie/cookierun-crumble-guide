@@ -10,8 +10,8 @@ export function LegacyTeamQueryRedirect() {
   useEffect(() => {
     if (!params.has("team") && !params.has("pets")) return;
     const next = new URLSearchParams(params.toString());
-    next.set("tool", "team");
-    router.replace(`/tools/?${next.toString()}#team-builder`);
+    next.delete("tool");
+    router.replace(`/tools/team-builder/?${next.toString()}`);
   }, [params, router]);
 
   return null;

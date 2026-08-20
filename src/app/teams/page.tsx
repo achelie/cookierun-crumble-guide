@@ -20,7 +20,7 @@ export default function TeamsPage() {
       </section>
       <aside className="team-tools-callout">
         <div><span className="eyebrow">Your turn</span><h2>Build beyond the presets.</h2><p>Place 12 Cookies and 3 Pets exactly where you want them, then share the lineup as a link or PNG.</p></div>
-        <Link className="primary-button" href="/tools/?tool=team#team-builder"><AppIcon name="tools" size={18} />Open Team Builder</Link>
+        <Link className="primary-button" href="/tools/team-builder/"><AppIcon name="tools" size={18} />Open Team Builder</Link>
       </aside>
     </div>
   );

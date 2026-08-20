@@ -11,7 +11,7 @@ import { AppIcon } from "@/components/ui/icon";
 import { cookies, cookieById, type Cookie } from "@/data/cookies";
 import { pets, petById, type Pet } from "@/data/pets";
 import { copyText } from "@/lib/copy-text";
-import { shareNodeAsPng } from "@/lib/share-image";
+import { downloadNodeAsPng } from "@/lib/share-image";
 import { placeFormationMember } from "@/lib/team-formation";
 import { cookieSlotCount, parseTeamQuery, petSlotCount, serializeTeamQuery } from "@/lib/team-query";
 
@@ -26,6 +26,7 @@ type BuilderDragData = {
   slot?: number;
   name: string;
   image: string;
+  rarity: string;
 };
 type BuilderDropData = { entity: BuilderEntity; slot: number };
 
@@ -40,7 +41,7 @@ function TeamDropSlot({ entity, index, member, onRemove }: {
     id: member ? `team-${entity}-member-${member.id}` : `team-${entity}-empty-${index}`,
     type: entity,
     disabled: !member,
-    data: member ? { entity, id: member.id, source: "slot", slot: index, name: member.name, image: member.image } : undefined,
+    data: member ? { entity, id: member.id, source: "slot", slot: index, name: member.name, image: member.image, rarity: member.rarity } : undefined,
   });
   const setRef = useCallback((node: Element | null) => {
     drop.ref(node);
@@ -56,12 +57,13 @@ function TeamDropSlot({ entity, index, member, onRemove }: {
     <button
       ref={setRef}
       type="button"
-      className={`builder-slot is-filled builder-slot--${entity}${drop.isDropTarget ? " is-drop-target" : ""}${drag.isDragging ? " is-dragging" : ""}`}
+      className={`builder-slot is-filled builder-slot--${entity} rarity-${member.rarity.toLowerCase()}${drop.isDropTarget ? " is-drop-target" : ""}${drag.isDragging ? " is-dragging" : ""}`}
       onClick={() => onRemove(index)}
       aria-label={`Remove ${member.name}. Drag to reorder.`}
       title={`${member.name} - drag to reorder or click to remove`}
     >
       {cookie && <CookieTaxonomyBadges element={cookie.element} role={cookie.role} compact />}
+      <span className="builder-slot__rarity">{member.rarity}</span>
       <Image src={member.image} alt={member.name} width={150} height={150} sizes="(max-width: 720px) 25vw, 150px" />
       <span className="builder-slot__number">{index + 1}</span>
       <span className="builder-slot__remove"><AppIcon name="x" size={16} /></span>
@@ -71,7 +73,7 @@ function TeamDropSlot({ entity, index, member, onRemove }: {
 
 function RosterDragButton({ entity, member, disabled, children, onClick }: {
   entity: BuilderEntity;
-  member: { id: string; name: string; image: string };
+  member: { id: string; name: string; image: string; rarity: string };
   disabled: boolean;
   children: React.ReactNode;
   onClick: () => void;
@@ -80,11 +82,11 @@ function RosterDragButton({ entity, member, disabled, children, onClick }: {
     id: `roster-${entity}-${member.id}`,
     type: entity,
     disabled,
-    data: { entity, id: member.id, source: "roster", name: member.name, image: member.image },
+    data: { entity, id: member.id, source: "roster", name: member.name, image: member.image, rarity: member.rarity },
   });
 
   return (
-    <button ref={drag.ref} type="button" onClick={onClick} disabled={disabled} className={drag.isDragging ? "is-dragging" : ""} aria-label={`Add or drag ${member.name}`}>
+    <button ref={drag.ref} type="button" onClick={onClick} disabled={disabled} className={`rarity-${member.rarity.toLowerCase()}${drag.isDragging ? " is-dragging" : ""}`} aria-label={`Add or drag ${member.name}`}>
       {children}
     </button>
   );
@@ -93,8 +95,9 @@ function RosterDragButton({ entity, member, disabled, children, onClick }: {
 function TeamDragPreview({ data }: { data: BuilderDragData }) {
   const cookie = data.entity === "cookie" ? cookieById.get(data.id) : undefined;
   return (
-    <div className={`builder-drag-preview builder-drag-preview--${data.entity}`}>
+    <div className={`builder-drag-preview builder-drag-preview--${data.entity} rarity-${data.rarity.toLowerCase()}`}>
       {cookie && <CookieTaxonomyBadges element={cookie.element} role={cookie.role} compact />}
+      <span className="builder-drag-preview__rarity">{data.rarity}</span>
       <Image src={data.image} alt="" width={130} height={130} />
       <strong>{data.name}</strong>
     </div>
@@ -128,10 +131,11 @@ export function TeamBuilder() {
     setFormation({ cookies: nextCookies, pets: nextPets });
     const nextQuery = serializeTeamQuery(nextCookies, nextPets);
     const search = new URLSearchParams(params.toString());
-    search.set("tool", "team");
+    search.delete("tool");
     if (nextQuery.team) search.set("team", nextQuery.team); else search.delete("team");
     if (nextQuery.pets) search.set("pets", nextQuery.pets); else search.delete("pets");
-    router.replace(`/tools/?${search.toString()}#team-builder`, { scroll: false });
+    const query = search.size ? `?${search.toString()}` : "";
+    router.replace(`/tools/team-builder/${query}`, { scroll: false });
     setCopied(false);
   }
 
@@ -178,19 +182,14 @@ export function TeamBuilder() {
     window.setTimeout(() => setCopied(false), 1800);
   }
 
-  async function shareImage() {
+  async function downloadImage() {
     if (!exportRef.current || shareState === "working") return;
     setShareState("working");
-    setShareMessage("Building your PNG...");
+    setShareMessage("Preparing your PNG...");
     try {
-      const result = await shareNodeAsPng(exportRef.current, "cookierun-crumble-team.png");
-      if (result === "cancelled") {
-        setShareState("idle");
-        setShareMessage("");
-        return;
-      }
+      await downloadNodeAsPng(exportRef.current, "cookierun-crumble-team.png");
       setShareState("done");
-      setShareMessage(result === "shared" ? "Image shared." : "PNG downloaded.");
+      setShareMessage("PNG downloaded.");
     } catch {
       setShareState("error");
       setShareMessage("Image export failed. Try once more.");
@@ -204,7 +203,7 @@ export function TeamBuilder() {
           <div><span className="eyebrow">Build team</span><h2 id="builder-title">Drag a lineup into place.</h2><p>Fill 12 Cookie slots and 3 Pet slots. Drag to an exact position, or tap a roster card to use the next empty slot.</p></div>
           <div className="builder-share-actions">
             <button className="secondary-button" type="button" onClick={copyLink} aria-live="polite"><AppIcon name={copied ? "check" : "link"} size={18} />{copied ? "Link copied" : "Copy link"}</button>
-            <button className="share-button" type="button" onClick={shareImage} disabled={shareState === "working"}><AppIcon name="image" size={18} />{shareState === "working" ? "Making PNG" : "Share image"}</button>
+            <button className="share-button" type="button" onClick={downloadImage} disabled={shareState === "working"}><AppIcon name="download" size={18} />{shareState === "working" ? "Making PNG" : "Download PNG"}</button>
           </div>
         </div>
         <p className={`builder-share-status${shareState === "error" ? " is-error" : ""}`} aria-live="polite">{shareMessage}</p>
@@ -256,7 +255,7 @@ export function TeamBuilder() {
         {(selectedCookieIds.size > 0 || selectedPetIds.size > 0) && <button type="button" className="text-button builder-clear" onClick={clearTeam}>Clear formation</button>}
         <TeamShareCard ref={exportRef} cookieIds={formation.cookies} petIds={formation.pets} />
       </section>
-      <DragOverlay>{(source) => {
+      <DragOverlay dropAnimation={null}>{(source) => {
         const data = source?.data as BuilderDragData | undefined;
         return data ? <TeamDragPreview data={data} /> : null;
       }}</DragOverlay>

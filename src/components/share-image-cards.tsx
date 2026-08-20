@@ -52,9 +52,10 @@ export const TeamShareCard = forwardRef<HTMLDivElement, { cookieIds: (string | n
             {cookieIds.map((id, index) => {
               const cookie = id ? cookieById.get(id) : undefined;
               return (
-                <div className={`team-share-slot${cookie ? " is-filled" : ""}`} key={index}>
+                <div className={`team-share-slot${cookie ? ` is-filled rarity-${cookie.rarity.toLowerCase()}` : ""}`} key={index}>
                   {cookie ? <>
                     <ExportBadges element={cookie.element} role={cookie.role} />
+                    <span className="export-rarity">{cookie.rarity}</span>
                     <img className="team-share-slot__portrait" src={cookie.image} alt="" />
                     <span className="team-share-slot__number">{index + 1}</span>
                     <small>{cookie.name}</small>
@@ -114,8 +115,9 @@ export const TierShareCard = forwardRef<HTMLDivElement, { state: TierBuilderStat
               <div className="tier-share-units">
                 {state[rank].map((id) => {
                   const cookie = cookieById.get(id);
-                  return cookie ? <div className="tier-share-cookie" key={id}>
+                  return cookie ? <div className={`tier-share-cookie rarity-${cookie.rarity.toLowerCase()}`} key={id}>
                     <ExportBadges element={cookie.element} role={cookie.role} />
+                    <span className="export-rarity">{cookie.rarity}</span>
                     <img src={cookie.image} alt="" />
                     <small>{cookie.name}</small>
                   </div> : null;
