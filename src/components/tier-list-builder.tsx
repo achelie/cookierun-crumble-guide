@@ -10,6 +10,7 @@ import { AppIcon } from "@/components/ui/icon";
 import { cookies, cookieById, type Cookie } from "@/data/cookies";
 import { tierList, tierRanks, type TierRank } from "@/data/tier-list";
 import { copyText } from "@/lib/copy-text";
+import { sortByRarityHighToLow } from "@/lib/rarity-order";
 import { downloadNodeAsPng } from "@/lib/share-image";
 import {
   emptyTierBuilderState,
@@ -100,10 +101,10 @@ export function TierListBuilder() {
   const unrankedIds = useMemo(() => getUnrankedCookieIds(allCookieIds, state), [state]);
   const visibleUnranked = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    return unrankedIds.flatMap((id) => {
+    return sortByRarityHighToLow(unrankedIds.flatMap((id) => {
       const cookie = cookieById.get(id);
       return cookie && (!needle || cookie.name.toLowerCase().includes(needle)) ? [cookie] : [];
-    });
+    }));
   }, [query, unrankedIds]);
   const rankedCount = allCookieIds.length - unrankedIds.length;
 

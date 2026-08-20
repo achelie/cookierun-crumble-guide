@@ -4,9 +4,10 @@ import { useMemo, useState } from "react";
 import { CookieCard } from "@/components/cookie-card";
 import { EntityCard } from "@/components/entity-card";
 import { AppIcon } from "@/components/ui/icon";
-import { elements, roles, type Cookie } from "@/data/cookies";
+import { elements, rarities, roles, type Cookie } from "@/data/cookies";
 import type { Pet } from "@/data/pets";
 import { filterCookies } from "@/lib/filter-cookies";
+import { sortByRarityHighToLow } from "@/lib/rarity-order";
 
 type EntityCodexProps =
   | { kind: "cookie"; items: Cookie[] }
@@ -17,14 +18,17 @@ export function EntityCodex(props: EntityCodexProps) {
   const [rarity, setRarity] = useState("All");
   const [element, setElement] = useState("All");
   const [role, setRole] = useState("All");
-  const rarityOptions = useMemo(() => ["All", ...Array.from(new Set(props.items.map((item) => item.rarity)))], [props.items]);
+  const rarityOptions = useMemo(() => {
+    const availableRarities = new Set(props.items.map((item) => item.rarity));
+    return ["All", ...rarities.filter((option) => availableRarities.has(option))];
+  }, [props.items]);
   const filtered = useMemo(() => {
-    if (props.kind === "cookie") return filterCookies(props.items, { query, rarity, element, role });
+    if (props.kind === "cookie") return sortByRarityHighToLow(filterCookies(props.items, { query, rarity, element, role }));
     const needle = query.trim().toLowerCase();
-    return props.items.filter((item) => {
+    return sortByRarityHighToLow(props.items.filter((item) => {
       const searchable = [item.name, ...item.effects].join(" ").toLowerCase();
       return (!needle || searchable.includes(needle)) && (rarity === "All" || item.rarity === rarity);
-    });
+    }));
   }, [props, query, rarity, element, role]);
 
   function resetFilters() {

@@ -11,6 +11,7 @@ import { AppIcon } from "@/components/ui/icon";
 import { cookies, cookieById, type Cookie } from "@/data/cookies";
 import { pets, petById, type Pet } from "@/data/pets";
 import { copyText } from "@/lib/copy-text";
+import { sortByRarityHighToLow } from "@/lib/rarity-order";
 import { downloadNodeAsPng } from "@/lib/share-image";
 import { placeFormationMember } from "@/lib/team-formation";
 import { cookieSlotCount, parseTeamQuery, petSlotCount, serializeTeamQuery } from "@/lib/team-query";
@@ -120,11 +121,11 @@ export function TeamBuilder() {
   const selectedCookies = useMemo(() => formation.cookies.flatMap((id) => id && cookieById.get(id) ? [cookieById.get(id) as Cookie] : []), [formation.cookies]);
   const availableCookies = useMemo(() => {
     const needle = cookieQuery.trim().toLowerCase();
-    return cookies.filter((cookie) => !selectedCookieIds.has(cookie.id) && (!needle || cookie.name.toLowerCase().includes(needle)));
+    return sortByRarityHighToLow(cookies.filter((cookie) => !selectedCookieIds.has(cookie.id) && (!needle || cookie.name.toLowerCase().includes(needle))));
   }, [cookieQuery, selectedCookieIds]);
   const availablePets = useMemo(() => {
     const needle = petQuery.trim().toLowerCase();
-    return pets.filter((pet) => !selectedPetIds.has(pet.id) && (!needle || pet.name.toLowerCase().includes(needle)));
+    return sortByRarityHighToLow(pets.filter((pet) => !selectedPetIds.has(pet.id) && (!needle || pet.name.toLowerCase().includes(needle))));
   }, [petQuery, selectedPetIds]);
 
   function sync(nextCookies: (string | null)[], nextPets: (string | null)[]) {
