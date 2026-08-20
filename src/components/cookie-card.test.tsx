@@ -27,6 +27,13 @@ describe("CookieCard", () => {
     expect(html).not.toContain("href=");
   });
 
+  it("pins compact element and role badges over the portrait", () => {
+    const html = renderToStaticMarkup(<CookieCard cookie={cookie} />);
+    expect(html).toContain('class="cookie-taxonomy-badges"');
+    expect(html).toContain('aria-label="Fire element"');
+    expect(html).toContain('aria-label="Charge role"');
+  });
+
   it("shows None for empty combat lists", () => {
     const html = renderToStaticMarkup(
       <CookieCard cookie={{ ...cookie, grantedSynergies: [], receivedSynergies: [], buffs: [] }} />,

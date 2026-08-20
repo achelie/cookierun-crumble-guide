@@ -1,7 +1,13 @@
-// Public coupon snapshot checked on 2026-08-19. No expired codes were listed.
+// Public coupon snapshot checked on 2026-08-20. No expired codes were listed.
+export type CodeReward = {
+  label: string;
+  amount: string;
+  image: string;
+};
+
 export type RedeemCode = {
   code: string;
-  rewards: string[];
+  rewards: CodeReward[];
   expires: string;
   status: "active" | "expired";
 };
@@ -9,13 +15,23 @@ export type RedeemCode = {
 export const codes: RedeemCode[] = [
   {
     code: "COOKIERUNCRUMBLENO1",
-    rewards: ["10,000 Crystals", "1,000 Flames of Bravery", "1,000 Lucky Dough", "1,000 Rune Crystals"],
+    rewards: [
+      { label: "Crystals", amount: "10,000", image: "/images/rewards/crystal.webp" },
+      { label: "Flames of Bravery", amount: "1,000", image: "/images/rewards/flame-of-bravery.webp" },
+      { label: "Lucky Dough", amount: "1,000", image: "/images/rewards/lucky-dough.webp" },
+      { label: "Rune Crystals", amount: "1,000", image: "/images/rewards/rune-crystal.webp" },
+    ],
     expires: "Aug 25, 2026 at 23:59 KST",
     status: "active",
   },
   {
     code: "COOKIERUNCRUMBLE1ST",
-    rewards: ["10,000 Crystals", "1,000 Flames of Bravery", "1,000 Stellar Points", "10 x 1-hour Auto-Hunt Coins"],
+    rewards: [
+      { label: "Crystals", amount: "10,000", image: "/images/rewards/crystal.webp" },
+      { label: "Flames of Bravery", amount: "1,000", image: "/images/rewards/flame-of-bravery.webp" },
+      { label: "Stellar Points", amount: "1,000", image: "/images/rewards/stellar-point.webp" },
+      { label: "1-hour Auto-Hunt Coins", amount: "10", image: "/images/rewards/auto-hunt-coin.webp" },
+    ],
     expires: "Aug 25, 2026 at 23:59 KST",
     status: "active",
   },

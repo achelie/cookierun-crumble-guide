@@ -1,7 +1,7 @@
 "use client";
 
 import { useLayoutEffect, useRef, useState } from "react";
-import { EntityCard } from "@/components/entity-card";
+import { CookieMiniCard } from "@/components/cookie-mini-card";
 import { cookieById } from "@/data/cookies";
 import { tierList, tierRanks, type TierMode } from "@/data/tier-list";
 
@@ -66,7 +66,7 @@ export function TierBoard() {
             <div className="tier-units">
               {tierList[mode][rank].length ? tierList[mode][rank].map((id) => {
                 const cookie = cookieById.get(id);
-                return cookie ? <EntityCard key={id} {...cookie} compact /> : null;
+                return cookie ? <CookieMiniCard key={id} cookie={cookie} /> : null;
               }) : <p className="tier-pending">Still under review. Nobody gets thrown into D just for decoration.</p>}
             </div>
           </section>

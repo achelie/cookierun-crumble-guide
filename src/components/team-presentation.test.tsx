@@ -17,7 +17,7 @@ const cookie = (id: string, granted: Cookie["grantedSynergies"], received: Cooki
   buffs: [],
 });
 
-const pet: Pet = { id: "pet0001", name: "Choco Drop", rarity: "C", image: "/images/pets/pet0001.webp" };
+const pet: Pet = { id: "pet0001", name: "Choco Drop", rarity: "C", image: "/images/pets/pet0001.webp", effects: [] };
 
 describe("team presentation", () => {
   it("shows distinct Granted and Active synergy panels", () => {

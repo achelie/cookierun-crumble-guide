@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { CookieTaxonomyBadges } from "@/components/cookie-taxonomy-badges";
 import { PetSlots } from "@/components/pet-slots";
 import { SynergySummary } from "@/components/synergy-summary";
 import { cookieById, type Cookie } from "@/data/cookies";
@@ -20,8 +21,9 @@ export function TeamShowcase({ team }: { team: RecommendedTeam; index: number })
         <div className="team-lineup" aria-label={`${team.name} lineup`}>
           {selectedCookies.map((cookie, slot) => (
               <div className="team-unit" key={`${cookie.id}-${slot}`} title={cookie.name}>
+                <CookieTaxonomyBadges element={cookie.element} role={cookie.role} compact />
                 <Image src={cookie.image} alt={cookie.name} width={120} height={120} sizes="80px" />
-                <span>{slot + 1}</span>
+                <span className="team-unit__slot">{slot + 1}</span>
               </div>
           ))}
         </div>

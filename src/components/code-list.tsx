@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { AppIcon } from "@/components/ui/icon";
 import type { RedeemCode } from "@/data/codes";
@@ -30,7 +31,14 @@ export function CodeList({ items }: { items: RedeemCode[] }) {
                   {copied === item.code ? "Copied" : "Copy"}
                 </button>
               </div>
-              <ul>{item.rewards.map((reward) => <li key={reward}>{reward}</li>)}</ul>
+              <ul className="code-card__rewards">
+                {item.rewards.map((reward) => (
+                  <li key={reward.label}>
+                    <span className="code-card__reward-icon"><Image src={reward.image} alt="" width={52} height={52} /></span>
+                    <span><small>{reward.label}</small><strong>{reward.amount}</strong></span>
+                  </li>
+                ))}
+              </ul>
               <p>Expires {item.expires}</p>
             </article>
           ))}

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 import { PetSlots } from "@/components/pet-slots";
+import { CookieTaxonomyBadges } from "@/components/cookie-taxonomy-badges";
 import { SynergySummary } from "@/components/synergy-summary";
 import { AppIcon } from "@/components/ui/icon";
 import { cookies, cookieById, type Cookie } from "@/data/cookies";
@@ -103,6 +104,7 @@ export function TeamBuilder() {
               const cookie = id ? cookieById.get(id) : undefined;
               return cookie ? (
                 <button key={`${cookie.id}-${index}`} type="button" className="builder-slot is-filled" onClick={() => removeCookie(index)} aria-label={`Remove ${cookie.name}`} title={cookie.name}>
+                  <CookieTaxonomyBadges element={cookie.element} role={cookie.role} compact />
                   <Image src={cookie.image} alt={cookie.name} width={120} height={120} sizes="80px" />
                   <span><AppIcon name="x" size={14} /></span>
                 </button>
@@ -129,7 +131,10 @@ export function TeamBuilder() {
           <div className="builder-options">
             {availableCookies.map((cookie) => (
               <button type="button" key={cookie.id} onClick={() => addCookie(cookie.id)} disabled={selectedCookieIds.size >= cookieSlotCount}>
-                <Image src={cookie.image} alt="" width={72} height={72} sizes="56px" />
+                <span className="builder-option__portrait">
+                  <CookieTaxonomyBadges element={cookie.element} role={cookie.role} compact />
+                  <Image src={cookie.image} alt="" width={72} height={72} sizes="56px" />
+                </span>
                 <span><strong>{cookie.name}</strong><small>{cookie.rarity} / {cookie.element} / {cookie.role}</small></span>
                 <AppIcon name="plus" size={17} />
               </button>

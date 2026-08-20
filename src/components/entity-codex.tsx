@@ -21,7 +21,10 @@ export function EntityCodex(props: EntityCodexProps) {
   const filtered = useMemo(() => {
     if (props.kind === "cookie") return filterCookies(props.items, { query, rarity, element, role });
     const needle = query.trim().toLowerCase();
-    return props.items.filter((item) => (!needle || item.name.toLowerCase().includes(needle)) && (rarity === "All" || item.rarity === rarity));
+    return props.items.filter((item) => {
+      const searchable = [item.name, ...item.effects].join(" ").toLowerCase();
+      return (!needle || searchable.includes(needle)) && (rarity === "All" || item.rarity === rarity);
+    });
   }, [props, query, rarity, element, role]);
 
   function resetFilters() {
