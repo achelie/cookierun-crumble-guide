@@ -16,6 +16,9 @@ import linkIcon from "@iconify-icons/lucide/link";
 import chevronRightIcon from "@iconify-icons/lucide/chevron-right";
 import sparklesIcon from "@iconify-icons/lucide/sparkles";
 import menuIcon from "@iconify-icons/lucide/menu";
+import wrenchIcon from "@iconify-icons/lucide/wrench";
+import imageIcon from "@iconify-icons/lucide/image";
+import gripVerticalIcon from "@iconify-icons/lucide/grip-vertical";
 
 const icons = {
   search: searchIcon,
@@ -33,6 +36,9 @@ const icons = {
   chevron: chevronRightIcon,
   sparkles: sparklesIcon,
   menu: menuIcon,
+  tools: wrenchIcon,
+  image: imageIcon,
+  grip: gripVerticalIcon,
 } satisfies Record<string, IconData>;
 
 export type IconName = keyof typeof icons;

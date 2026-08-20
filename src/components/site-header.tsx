@@ -6,6 +6,7 @@ const nav: { href: string; label: string; icon: IconName }[] = [
   { href: "/pets/", label: "Pets", icon: "paw" },
   { href: "/tier-list/", label: "Tier List", icon: "trophy" },
   { href: "/teams/", label: "Teams", icon: "users" },
+  { href: "/tools/", label: "Tools", icon: "tools" },
   { href: "/codes/", label: "Codes", icon: "ticket" },
 ];
 

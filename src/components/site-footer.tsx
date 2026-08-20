@@ -10,6 +10,7 @@ export function SiteFooter() {
       <nav aria-label="Footer navigation">
         <Link href="/cookies/">Cookies</Link>
         <Link href="/tier-list/">Tier List</Link>
+        <Link href="/tools/">Tools</Link>
         <Link href="/codes/">Codes</Link>
       </nav>
       <p className="site-footer__legal">Unofficial fan guide. Game names and artwork belong to Devsisters.</p>
