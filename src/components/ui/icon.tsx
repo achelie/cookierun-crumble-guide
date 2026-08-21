@@ -20,6 +20,10 @@ import wrenchIcon from "@iconify-icons/lucide/wrench";
 import imageIcon from "@iconify-icons/lucide/image";
 import gripVerticalIcon from "@iconify-icons/lucide/grip-vertical";
 import downloadIcon from "@iconify-icons/lucide/download";
+import bookOpenIcon from "@iconify-icons/lucide/book-open";
+import clockIcon from "@iconify-icons/lucide/clock";
+import calendarDaysIcon from "@iconify-icons/lucide/calendar-days";
+import chevronLeftIcon from "@iconify-icons/lucide/chevron-left";
 
 const icons = {
   search: searchIcon,
@@ -41,6 +45,10 @@ const icons = {
   image: imageIcon,
   grip: gripVerticalIcon,
   download: downloadIcon,
+  book: bookOpenIcon,
+  clock: clockIcon,
+  calendar: calendarDaysIcon,
+  "chevron-left": chevronLeftIcon,
 } satisfies Record<string, IconData>;
 
 export type IconName = keyof typeof icons;

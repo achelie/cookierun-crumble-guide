@@ -14,6 +14,10 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   applicationName: "Crumble Guide",
   keywords: ["CookieRun Crumble", "CookieRun Crumble tier list", "CookieRun Crumble codes", "CookieRun Crumble cookies"],
+  icons: {
+    icon: [{ url: "/favicon.png", type: "image/png", sizes: "96x96" }],
+    apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
+  },
   openGraph: { siteName: "CookieRun: Crumble Guide", type: "website", locale: "en_US", images: [{ url: "/opengraph-image" }] },
   twitter: { card: "summary_large_image", images: ["/opengraph-image"] },
 };

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 import { LegacyToolsQueryRedirect } from "@/components/legacy-tools-query-redirect";
-import { PageIntro } from "@/components/page-intro";
 import { AppIcon } from "@/components/ui/icon";
 import { cookieById } from "@/data/cookies";
 import { pageMetadata } from "@/lib/metadata";
@@ -27,7 +26,7 @@ export default function ToolsPage() {
   return (
     <div className="page-shell page-shell--tools">
       <Suspense fallback={null}><LegacyToolsQueryRedirect /></Suspense>
-      <PageIntro eyebrow="Tools" title="Pick a board. Make it yours." description="Build a team or rank every Cookie, then keep the URL and download a clean PNG." icon="tools" />
+      <h1 className="sr-only">CookieRun Crumble Tools</h1>
       <section className="tools-directory" aria-label="Builder tools">
         <Link className="tool-directory-card tool-directory-card--team" href="/tools/team-builder/">
           <span className="tool-directory-card__copy">
