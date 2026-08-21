@@ -7,7 +7,7 @@ import { codes } from "@/data/codes";
 
 const explore: { href: string; icon: IconName; label: string; text: string; stat: string }[] = [
   { href: "/cookies/", icon: "cookie", label: "Cookie Index", text: "Search the full launch roster by name or rarity.", stat: `${cookies.length} cookies` },
-  { href: "/tier-list/", icon: "trophy", label: "Current Tier List", text: "Switch between stage PvE and arena PvP rankings.", stat: "2 modes" },
+  { href: "/tier-list/", icon: "trophy", label: "Current Tier List", text: "Check one combined PvP and PvE ranking for the full roster.", stat: `${cookies.length} ranked` },
   { href: "/teams/", icon: "users", label: "Teams + Builder", text: "Start with a proven lineup, then make your own share link.", stat: "12 slots" },
   { href: "/codes/", icon: "ticket", label: "Active Codes", text: "Copy every live coupon without hunting through posts.", stat: `${codes.filter((code) => code.status === "active").length} live now` },
 ];
@@ -36,7 +36,7 @@ export default function Home() {
       <section className="home-ticker" aria-label="Guide coverage">
         <p><strong>{cookies.length}</strong> cookies catalogued</p>
         <p><strong>{pets.length}</strong> pets catalogued</p>
-        <p><strong>Aug 19</strong> data check</p>
+        <p><strong>Aug 21</strong> data check</p>
       </section>
 
       <section className="home-explore">

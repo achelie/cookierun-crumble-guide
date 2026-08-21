@@ -9,7 +9,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = pageMetadata(
   "Tier List Builder",
-  "Rank every Cookie from S through D, load PvE or PvP presets, copy the URL, and download a watermarked PNG.",
+  "Rank every Cookie from S through D, load the current combined ranking, copy the URL, and download a watermarked PNG.",
   "/tools/tier-builder/",
 );
 
