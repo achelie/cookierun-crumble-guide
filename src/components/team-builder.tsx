@@ -213,13 +213,13 @@ export function TeamBuilder() {
           <div>
             <div className="builder-section-label"><span>Cookies</span><b>{selectedCookieIds.size}/{cookieSlotCount}</b></div>
             <div className="builder-slots" aria-label="Selected cookies">
-              {formation.cookies.map((id, index) => <TeamDropSlot key={`cookie-${index}`} entity="cookie" index={index} member={id ? cookieById.get(id) : undefined} onRemove={removeCookie} />)}
+              {formation.cookies.map((id, index) => <TeamDropSlot key={`cookie-${index}-${id ?? "empty"}`} entity="cookie" index={index} member={id ? cookieById.get(id) : undefined} onRemove={removeCookie} />)}
             </div>
           </div>
           <aside className="builder-pets">
             <div className="builder-section-label"><span>Pets</span><b>{selectedPetIds.size}/{petSlotCount}</b></div>
             <div className="pet-slots" aria-label="Selected pets">
-              {formation.pets.map((id, index) => <TeamDropSlot key={`pet-${index}`} entity="pet" index={index} member={id ? petById.get(id) : undefined} onRemove={removePet} />)}
+              {formation.pets.map((id, index) => <TeamDropSlot key={`pet-${index}-${id ?? "empty"}`} entity="pet" index={index} member={id ? petById.get(id) : undefined} onRemove={removePet} />)}
             </div>
           </aside>
         </div>

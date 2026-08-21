@@ -130,8 +130,8 @@ export function TierListBuilder() {
     sync(moveTierCookie(state, source.cookieId, target.targetRank, target.beforeCookieId));
   }
 
-  function loadPreset(mode: "pve" | "pvp") {
-    sync(normalizeTierPreset(tierList[mode], validCookieIds));
+  function loadPreset() {
+    sync(normalizeTierPreset(tierList, validCookieIds));
   }
 
   async function copyLink() {
@@ -168,8 +168,7 @@ export function TierListBuilder() {
 
         <div className="tier-builder__controls" aria-label="Tier list presets">
           <div><b>{rankedCount}</b><span>Cookies ranked</span></div>
-          <button type="button" onClick={() => loadPreset("pve")}>Load PvE</button>
-          <button type="button" onClick={() => loadPreset("pvp")}>Load PvP</button>
+          <button type="button" onClick={loadPreset}>Load current ranking</button>
           <button type="button" onClick={() => sync(emptyTierBuilderState())}>Clear list</button>
         </div>
 

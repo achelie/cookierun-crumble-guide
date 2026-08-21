@@ -44,7 +44,7 @@ export default function ToolsPage() {
           <span className="tool-directory-card__copy">
             <small>S through D</small>
             <strong>Tier List Builder</strong>
-            <span>Start empty or load the current PvE and PvP ranks.</span>
+            <span>Start empty or load the current combined PvP and PvE ranking.</span>
             <b>Open builder <AppIcon name="chevron" size={18} /></b>
           </span>
           <span className="tool-directory-card__tiers" aria-hidden="true">
