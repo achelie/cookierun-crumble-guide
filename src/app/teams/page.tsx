@@ -8,13 +8,13 @@ import { AppIcon } from "@/components/ui/icon";
 import { recommendedTeams } from "@/data/teams";
 import { pageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = pageMetadata("Best Teams", "Try practical CookieRun: Crumble teams for general play, free-to-play progress, and bosses.", "/teams/");
+export const metadata: Metadata = pageMetadata("Best Teams", "Try practical CookieRun: Crumble teams for story stages, bosses, tower floors, and daily dungeons.", "/teams/");
 
 export default function TeamsPage() {
   return (
     <div className="page-shell page-shell--teams">
       <Suspense fallback={null}><LegacyTeamQueryRedirect /></Suspense>
-      <PageIntro eyebrow="Teams" title="Borrow a lineup. Then break it." description="Start with three practical formations, then take the full roster into the drag-and-drop builder." icon="users" />
+      <PageIntro eyebrow="Teams" title="Borrow a lineup. Then break it." description="Start with nine field-tested formations, then take the full roster into the drag-and-drop builder." icon="users" />
       <section className="recommended-teams" aria-label="Recommended teams">
         {recommendedTeams.map((team, index) => <TeamShowcase team={team} index={index} key={team.id} />)}
       </section>

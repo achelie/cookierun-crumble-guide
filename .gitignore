@@ -9,3 +9,4 @@ cloudflare-env.d.ts
 .agents
 .playwright-cli
 output
+temp-team
