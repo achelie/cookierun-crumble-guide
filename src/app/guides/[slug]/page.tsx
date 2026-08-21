@@ -22,7 +22,9 @@ type GuidePageProps = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return guides.map((guide) => ({ slug: guide.slug }));
+  return guides
+    .filter((guide) => guide.slug !== "cookie-run-crumble-beginner-progression-guide")
+    .map((guide) => ({ slug: guide.slug }));
 }
 
 export async function generateMetadata({ params }: GuidePageProps): Promise<Metadata> {
