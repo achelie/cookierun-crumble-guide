@@ -24,7 +24,10 @@ export const dynamicParams = false;
 
 export function generateStaticParams() {
   return guides
-    .filter((guide) => guide.slug !== "cookie-run-crumble-beginner-progression-guide")
+    .filter((guide) => ![
+      "cookie-run-crumble-beginner-progression-guide",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+    ].includes(guide.slug))
     .map((guide) => ({ slug: guide.slug }));
 }
 
