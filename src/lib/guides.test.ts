@@ -12,6 +12,8 @@ function guide(overrides: Partial<GuideSummary>): GuideSummary {
   return {
     slug: "example",
     title: "Example Guide",
+    seoTitle: "Example Guide | Crumble Guide",
+    seoDescription: "Example search description for the guide fixture.",
     excerpt: "Example summary",
     category: "cookies",
     tags: ["Damage"],
@@ -28,7 +30,7 @@ function guide(overrides: Partial<GuideSummary>): GuideSummary {
 
 describe("guide filtering", () => {
   it("searches the title, excerpt, category label, and tags", () => {
-    expect(filterGuides(guides, { query: "stuck" })).toHaveLength(1);
+    expect(filterGuides(guides, { query: "beginner guide" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "burning crystals" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "getting started" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "free to play" })).toHaveLength(1);

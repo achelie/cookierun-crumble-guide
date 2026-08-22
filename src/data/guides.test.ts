@@ -14,6 +14,9 @@ describe("guide registry", () => {
     const categorySlugs = new Set(guideCategories.map((category) => category.slug));
     guides.forEach((guide) => {
       expect(guide.title).toBeTruthy();
+      expect(guide.seoTitle).toContain("CookieRun: Crumble");
+      expect(guide.seoDescription.length).toBeGreaterThanOrEqual(120);
+      expect(guide.seoDescription.length).toBeLessThanOrEqual(165);
       expect(guide.excerpt).toBeTruthy();
       expect(categorySlugs.has(guide.category)).toBe(true);
       expect(Date.parse(guide.publishedAt)).not.toBeNaN();

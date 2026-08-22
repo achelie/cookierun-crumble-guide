@@ -27,4 +27,4 @@ export const tierList: Record<TierRank, string[]> = {
   ],
 };
 
-export const tierUpdatedAt = "August 21, 2026";
+export const tierUpdatedAt = "2026-08-21";

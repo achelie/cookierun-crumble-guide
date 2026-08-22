@@ -7,6 +7,8 @@ export type RecommendedTeam = {
   pets: string[];
 };
 
+export const teamsUpdatedAt = "2026-08-21";
+
 export const recommendedTeams: RecommendedTeam[] = [
   {
     id: "f2p",

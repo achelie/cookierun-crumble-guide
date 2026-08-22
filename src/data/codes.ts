@@ -1,4 +1,5 @@
 // Public coupon snapshot checked on 2026-08-20. No expired codes were listed.
+export const codesUpdatedAt = "2026-08-20";
 export type CodeReward = {
   label: string;
   amount: string;

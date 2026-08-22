@@ -1,14 +1,26 @@
 import type { Metadata } from "next";
+import { absoluteUrl, siteName, type SeoPageDefinition } from "@/lib/seo";
 
-const siteName = "CookieRun: Crumble Guide";
-
-export function pageMetadata(title: string, description: string, path: string): Metadata {
-  const url = `https://www.cookieruncrumbles.com${path}`;
+export function pageMetadata(page: SeoPageDefinition): Metadata {
+  const url = absoluteUrl(page.path);
   return {
-    title,
-    description,
+    title: { absolute: page.title },
+    description: page.description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, siteName, type: "website" },
-    twitter: { card: "summary_large_image", title, description },
+    openGraph: {
+      title: page.title,
+      description: page.description,
+      url,
+      siteName,
+      type: "website",
+      locale: "en_US",
+      images: [{ url: "/opengraph-image", alt: page.h1 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: page.title,
+      description: page.description,
+      images: ["/opengraph-image"],
+    },
   };
 }

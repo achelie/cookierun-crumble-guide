@@ -1,9 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import { StructuredData } from "@/components/structured-data";
 import { AppIcon, type IconName } from "@/components/ui/icon";
 import { cookies } from "@/data/cookies";
 import { pets } from "@/data/pets";
 import { codes } from "@/data/codes";
+import { seoPages } from "@/lib/seo";
+import { homeSchema } from "@/lib/structured-data";
 
 const explore: { href: string; icon: IconName; label: string; text: string; stat: string }[] = [
   { href: "/cookies/", icon: "cookie", label: "Cookie Index", text: "Search the full launch roster by name or rarity.", stat: `${cookies.length} cookies` },
@@ -15,11 +18,12 @@ const explore: { href: string; icon: IconName; label: string; text: string; stat
 export default function Home() {
   return (
     <div className="home-page">
+      <StructuredData data={homeSchema(seoPages.home)} />
       <section className="home-hero">
         <div className="home-hero__copy">
           <span className="eyebrow">Unofficial player guide</span>
-          <h1><span>Less guessing.</span><span><strong>More crumbling.</strong></span></h1>
-          <p>Cookies, pets, teams, tiers, and coupon codes. The useful bits are up front, because nobody opens a guide for a motivational speech.</p>
+          <h1><span>CookieRun:</span><span><strong>Crumble Guide</strong></span></h1>
+          <p>{seoPages.home.summary}</p>
           <div className="hero-actions">
             <Link href="/tier-list/">See the tier list <AppIcon name="chevron" size={18} /></Link>
             <Link href="/teams/" className="secondary-link">Build a team</Link>

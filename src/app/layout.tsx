@@ -2,24 +2,50 @@ import type { Metadata, Viewport } from "next";
 import { Fredoka, Nunito_Sans } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { seoPages, siteName, siteUrl } from "@/lib/seo";
 import "./globals.css";
 
 const display = Fredoka({ subsets: ["latin"], variable: "--font-display", weight: ["500", "600", "700"] });
 const body = Nunito_Sans({ subsets: ["latin"], variable: "--font-body", weight: ["400", "600", "700", "800"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.cookieruncrumbles.com"),
-  title: { default: "CookieRun: Crumble Guide", template: "%s | Crumble Guide" },
-  description: "CookieRun: Crumble cookies, pets, current tier lists, team ideas, and active coupon codes in one fast fan guide.",
+  metadataBase: new URL(siteUrl),
+  title: { default: seoPages.home.title, template: "%s" },
+  description: seoPages.home.description,
   alternates: { canonical: "/" },
   applicationName: "Crumble Guide",
-  keywords: ["CookieRun Crumble", "CookieRun Crumble tier list", "CookieRun Crumble codes", "CookieRun Crumble cookies"],
+  creator: siteName,
+  publisher: siteName,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   icons: {
     icon: [{ url: "/favicon.png", type: "image/png", sizes: "96x96" }],
     apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
   },
-  openGraph: { siteName: "CookieRun: Crumble Guide", type: "website", locale: "en_US", images: [{ url: "/opengraph-image" }] },
-  twitter: { card: "summary_large_image", images: ["/opengraph-image"] },
+  openGraph: {
+    title: seoPages.home.title,
+    description: seoPages.home.description,
+    url: "/",
+    siteName,
+    type: "website",
+    locale: "en_US",
+    images: [{ url: "/opengraph-image", alt: seoPages.home.h1 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: seoPages.home.title,
+    description: seoPages.home.description,
+    images: ["/opengraph-image"],
+  },
 };
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#d94f3f", colorScheme: "light dark" };

@@ -22,6 +22,8 @@ export type GuideFaqItem = {
 export type GuideSummary = {
   slug: string;
   title: string;
+  seoTitle: string;
+  seoDescription: string;
   excerpt: string;
   category: GuideCategorySlug;
   tags: string[];
@@ -39,7 +41,9 @@ export const guidePageSize = 6;
 export const guides: GuideSummary[] = [
   {
     slug: "cookie-run-crumble-beginner-progression-guide",
-    title: "Stuck in CookieRun: Crumble? Fix Your Progression Route",
+    title: "CookieRun: Crumble Beginner Guide: Fix Your Progression Route",
+    seoTitle: "CookieRun: Crumble Beginner Guide | Progress Faster",
+    seoDescription: "A practical CookieRun: Crumble beginner guide for faster progression: crystals, Gacha, Oven gear, dungeons, Resolve, teams, Pets, guilds, and Auto Hunt.",
     excerpt: "Stop burning crystals and upgrade materials on the wrong systems. This beginner route covers summons, gear, dungeons, teams, Pets, and idle rewards.",
     category: "getting-started",
     tags: ["Beginner Guide", "Progression", "Free to Play", "Team Building"],

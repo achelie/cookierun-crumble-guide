@@ -1,4 +1,5 @@
 export const rarities = ["TSSR", "SSR", "SR", "R", "U", "C"] as const;
+export const cookiesUpdatedAt = "2026-08-21";
 export type Rarity = (typeof rarities)[number];
 
 export const elements = ["Fire", "Water", "Grass", "Light", "Dark"] as const;

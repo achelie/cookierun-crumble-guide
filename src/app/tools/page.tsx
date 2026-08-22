@@ -3,15 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 import { LegacyToolsQueryRedirect } from "@/components/legacy-tools-query-redirect";
+import { SeoPageHeader } from "@/components/seo-page-header";
+import { StructuredData } from "@/components/structured-data";
 import { AppIcon } from "@/components/ui/icon";
 import { cookieById } from "@/data/cookies";
 import { pageMetadata } from "@/lib/metadata";
+import { absoluteUrl, seoPages } from "@/lib/seo";
+import { collectionPageSchema } from "@/lib/structured-data";
 
-export const metadata: Metadata = pageMetadata(
-  "Team Builder and Tier List Tools",
-  "Choose a dedicated team builder or tier list maker, save the result in the URL, and download a watermarked PNG.",
-  "/tools/",
-);
+const page = seoPages.tools;
+export const metadata: Metadata = pageMetadata(page);
 
 export default function ToolsPage() {
   const teamCookies = ["cookie0070", "cookie0181", "cookie3001"].flatMap((id) => {
@@ -25,8 +26,12 @@ export default function ToolsPage() {
 
   return (
     <div className="page-shell page-shell--tools">
+      <StructuredData data={collectionPageSchema(page, [
+        { "@type": "WebApplication", name: seoPages.teamBuilder.h1, url: absoluteUrl(seoPages.teamBuilder.path), description: seoPages.teamBuilder.description, applicationCategory: "GameApplication", operatingSystem: "Any", isAccessibleForFree: true },
+        { "@type": "WebApplication", name: seoPages.tierBuilder.h1, url: absoluteUrl(seoPages.tierBuilder.path), description: seoPages.tierBuilder.description, applicationCategory: "GameApplication", operatingSystem: "Any", isAccessibleForFree: true },
+      ])} />
       <Suspense fallback={null}><LegacyToolsQueryRedirect /></Suspense>
-      <h1 className="sr-only">CookieRun Crumble Tools</h1>
+      <SeoPageHeader page={page} icon="tools" />
       <section className="tools-directory" aria-label="Builder tools">
         <Link className="tool-directory-card tool-directory-card--team" href="/tools/team-builder/">
           <span className="tool-directory-card__copy">

@@ -4,12 +4,13 @@ import { notFound } from "next/navigation";
 import { GuideCard } from "@/components/guide-card";
 import { GuideCover } from "@/components/guide-cover";
 import { QuickNavigation } from "@/components/quick-navigation";
+import { StructuredData } from "@/components/structured-data";
 import { AppIcon } from "@/components/ui/icon";
 import { getGuideBySlug, getGuideCategory, guides } from "@/data/guides";
 import { loadGuideContent } from "@/lib/guide-content";
 import { getRelatedGuides } from "@/lib/guides";
+import { absoluteUrl, siteName, siteUrl } from "@/lib/seo";
 
-const siteUrl = "https://www.cookieruncrumbles.com";
 const dateFormatter = new Intl.DateTimeFormat("en", {
   month: "long",
   day: "numeric",
@@ -34,24 +35,23 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
   const url = `${siteUrl}/guides/${guide.slug}/`;
 
   return {
-    title: guide.title,
-    description: guide.excerpt,
-    keywords: ["CookieRun Crumble beginner guide", "CookieRun Crumble progression", ...guide.tags],
+    title: { absolute: guide.seoTitle },
+    description: guide.seoDescription,
     authors: [{ name: guide.author }],
     alternates: { canonical: url },
     openGraph: {
       type: "article",
-      title: guide.title,
-      description: guide.excerpt,
+      title: guide.seoTitle,
+      description: guide.seoDescription,
       url,
-      siteName: "CookieRun: Crumble Guide",
+      siteName,
       publishedTime: `${guide.publishedAt}T00:00:00Z`,
       modifiedTime: `${guide.updatedAt}T00:00:00Z`,
       authors: [guide.author],
       tags: guide.tags,
-      images: [{ url: "/opengraph-image" }],
+      images: [{ url: "/opengraph-image", alt: guide.title }],
     },
-    twitter: { card: "summary_large_image", title: guide.title, description: guide.excerpt, images: ["/opengraph-image"] },
+    twitter: { card: "summary_large_image", title: guide.seoTitle, description: guide.seoDescription, images: ["/opengraph-image"] },
   };
 }
 
@@ -67,12 +67,17 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
   const articleJsonLd = {
     "@type": "BlogPosting",
     headline: guide.title,
-    description: guide.excerpt,
+    description: guide.seoDescription,
     datePublished: guide.publishedAt,
     dateModified: guide.updatedAt,
     author: { "@type": "Organization", name: guide.author },
-    publisher: { "@type": "Organization", name: "CookieRun: Crumble Guide", url: siteUrl },
-    image: `${siteUrl}/opengraph-image`,
+    publisher: {
+      "@type": "Organization",
+      name: siteName,
+      url: siteUrl,
+      logo: { "@type": "ImageObject", url: absoluteUrl("/favicon.png"), width: 96, height: 96 },
+    },
+    image: absoluteUrl("/opengraph-image"),
     mainEntityOfPage: canonical,
     url: canonical,
     keywords: guide.tags.join(", "),
@@ -104,7 +109,7 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
 
   return (
     <div className="page-shell guide-detail">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+      <StructuredData data={jsonLd} />
       <Link className="guide-back" href="/guides/"><AppIcon name="chevron-left" size={17} />All guides</Link>
 
       <header className="guide-hero">

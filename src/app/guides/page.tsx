@@ -1,27 +1,28 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { GuidesExplorer, GuidesExplorerFallback } from "@/components/guides-explorer";
-import { AppIcon } from "@/components/ui/icon";
+import { SeoPageHeader } from "@/components/seo-page-header";
+import { StructuredData } from "@/components/structured-data";
 import { guides } from "@/data/guides";
 import { pageMetadata } from "@/lib/metadata";
+import { absoluteUrl, seoPages } from "@/lib/seo";
+import { collectionPageSchema } from "@/lib/structured-data";
 
-export const metadata: Metadata = pageMetadata(
-  "CookieRun: Crumble Guides",
-  "Practical CookieRun: Crumble guides for first teams, Synergy, Cookies, Pets, stages, bosses, events, and codes.",
-  "/guides/",
-);
+const page = seoPages.guides;
+export const metadata: Metadata = pageMetadata(page);
 
 export default function GuidesPage() {
   return (
     <div className="page-shell guides-page">
-      <header className="guides-heading">
-        <div className="guides-heading__icon"><AppIcon name="book" size={26} /></div>
-        <div>
-          <span className="eyebrow">Field notes</span>
-          <h1>Guides</h1>
-          <p>Clear builds, smarter upgrades, and quick fixes for the run in front of you.</p>
-        </div>
-      </header>
+      <StructuredData data={collectionPageSchema(page, guides.map((guide) => ({
+        "@type": "Article",
+        headline: guide.title,
+        description: guide.seoDescription,
+        url: absoluteUrl(`/guides/${guide.slug}/`),
+        datePublished: guide.publishedAt,
+        dateModified: guide.updatedAt,
+      })))} />
+      <SeoPageHeader page={page} icon="book" />
       <Suspense fallback={<GuidesExplorerFallback guides={guides} />}>
         <GuidesExplorer guides={guides} />
       </Suspense>

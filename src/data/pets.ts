@@ -1,6 +1,7 @@
 import type { Rarity } from "./cookies";
 
 // Public game-data snapshot checked on 2026-08-19.
+export const petsUpdatedAt = "2026-08-19";
 
 export type Pet = {
   id: string;
