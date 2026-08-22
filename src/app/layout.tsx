@@ -7,6 +7,8 @@ import "./globals.css";
 
 const display = Fredoka({ subsets: ["latin"], variable: "--font-display", weight: ["500", "600", "700"] });
 const body = Nunito_Sans({ subsets: ["latin"], variable: "--font-body", weight: ["400", "600", "700", "800"] });
+const ahrefsAnalyticsSrc = "https://analytics.ahrefs.com/analytics.js";
+const ahrefsAnalyticsKey = "9FgL6cL8Tu31DN6c7YYLRQ";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -53,6 +55,13 @@ export const viewport: Viewport = { width: "device-width", initialScale: 1, them
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
+      <head>
+        <script
+          src={ahrefsAnalyticsSrc}
+          data-key={ahrefsAnalyticsKey}
+          async
+        />
+      </head>
       <body>
         <a className="skip-link" href="#main-content">Skip to content</a>
         <SiteHeader />
