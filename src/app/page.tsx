@@ -2,17 +2,86 @@ import Image from "next/image";
 import Link from "next/link";
 import { StructuredData } from "@/components/structured-data";
 import { AppIcon, type IconName } from "@/components/ui/icon";
-import { cookies } from "@/data/cookies";
-import { pets } from "@/data/pets";
 import { codes } from "@/data/codes";
+import { cookies } from "@/data/cookies";
+import { guides } from "@/data/guides";
+import { pets } from "@/data/pets";
+import { recommendedTeams } from "@/data/teams";
+import { tierUpdatedAt } from "@/data/tier-list";
 import { seoPages } from "@/lib/seo";
 import { homeSchema } from "@/lib/structured-data";
 
-const explore: { href: string; icon: IconName; label: string; text: string; stat: string }[] = [
-  { href: "/cookies/", icon: "cookie", label: "Cookie Index", text: "Search the full launch roster by name or rarity.", stat: `${cookies.length} cookies` },
-  { href: "/tier-list/", icon: "trophy", label: "Current Tier List", text: "Check one combined PvP and PvE ranking for the full roster.", stat: `${cookies.length} ranked` },
-  { href: "/teams/", icon: "users", label: "Teams + Builder", text: "Start with a proven lineup, then make your own share link.", stat: "12 slots" },
-  { href: "/codes/", icon: "ticket", label: "Active Codes", text: "Copy every live coupon without hunting through posts.", stat: `${codes.filter((code) => code.status === "active").length} live now` },
+type Destination = {
+  href: string;
+  icon: IconName;
+  label: string;
+  text: string;
+  stat: string;
+  action: string;
+  area: "tier" | "teams" | "codes" | "cookies" | "pets" | "guides";
+};
+
+const activeCodeCount = codes.filter((code) => code.status === "active").length;
+const tierMonth = new Intl.DateTimeFormat("en", { month: "long", timeZone: "UTC" })
+  .format(new Date(`${tierUpdatedAt}T00:00:00Z`));
+const beginnerGuide = guides[0];
+const tierFeatureCookie = cookies.find((cookie) => cookie.id === "cookie0070")!;
+
+const destinations: Destination[] = [
+  {
+    href: "/tier-list/",
+    icon: "trophy",
+    label: "Tier List",
+    text: "See the combined PvP and PvE ranking before you spend another upgrade.",
+    stat: `${cookies.length} Cookies ranked`,
+    action: "View rankings",
+    area: "tier",
+  },
+  {
+    href: "/teams/",
+    icon: "users",
+    label: "Best Teams",
+    text: "Copy lineups for F2P progress, bosses, stages, tower floors, and dungeons.",
+    stat: `${recommendedTeams.length} tested teams`,
+    action: "See team setups",
+    area: "teams",
+  },
+  {
+    href: "/codes/",
+    icon: "ticket",
+    label: "Codes",
+    text: "Grab every current reward before it expires.",
+    stat: `${activeCodeCount} active ${activeCodeCount === 1 ? "code" : "codes"}`,
+    action: "Copy codes",
+    area: "codes",
+  },
+  {
+    href: "/cookies/",
+    icon: "cookie",
+    label: "Cookies",
+    text: "Compare rarity, element, role, Synergy, and buffs.",
+    stat: `${cookies.length} Cookies`,
+    action: "Browse Cookies",
+    area: "cookies",
+  },
+  {
+    href: "/pets/",
+    icon: "paw",
+    label: "Pets",
+    text: "Check every Pet effect before filling your three slots.",
+    stat: `${pets.length} Pets`,
+    action: "Browse Pets",
+    area: "pets",
+  },
+  {
+    href: "/guides/",
+    icon: "book",
+    label: "Guides",
+    text: "Fix progression mistakes and learn the systems that matter first.",
+    stat: `${guides.length} ${guides.length === 1 ? "guide" : "guides"}`,
+    action: "Read guides",
+    area: "guides",
+  },
 ];
 
 export default function Home() {
@@ -25,8 +94,8 @@ export default function Home() {
           <h1><span>CookieRun:</span><span><strong>Crumble Guide</strong></span></h1>
           <p>{seoPages.home.summary}</p>
           <div className="hero-actions">
-            <Link href="/tier-list/">See the tier list <AppIcon name="chevron" size={18} /></Link>
-            <Link href="/teams/" className="secondary-link">Build a team</Link>
+            <Link href="/tier-list/">View {tierMonth} Tier List <AppIcon name="chevron" size={18} /></Link>
+            <Link href={`/guides/${beginnerGuide.slug}/`} className="secondary-link">Start the Beginner Guide</Link>
           </div>
         </div>
         <div className="cookie-stack" aria-label="Featured CookieRun Crumble cookies">
@@ -37,32 +106,55 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="home-ticker" aria-label="Guide coverage">
-        <p><strong>{cookies.length}</strong> cookies catalogued</p>
-        <p><strong>{pets.length}</strong> pets catalogued</p>
-        <p><strong>Aug 21</strong> data check</p>
-      </section>
-
-      <section className="home-explore">
-        <div className="section-heading"><span>Pick your shortcut</span><h2>Get the answer. Get back in game.</h2></div>
+      <section className="home-explore" aria-labelledby="browse-guide">
+        <div className="home-explore__heading">
+          <h2 id="browse-guide">Browse the guide</h2>
+          <p>Choose the page that matches what is stopping your run.</p>
+        </div>
         <div className="explore-grid">
-          {explore.map((item, index) => (
-            <Link href={item.href} className={`explore-card explore-card--${index + 1}`} key={item.href}>
+          {destinations.map((item) => (
+            <Link href={item.href} className={`explore-card explore-card--${item.area}`} key={item.href}>
               <div className="explore-card__icon"><AppIcon name={item.icon} size={28} /></div>
-              <span>{item.stat}</span>
-              <h3>{item.label}</h3>
-              <p>{item.text}</p>
-              <b>Open guide <AppIcon name="chevron" size={17} /></b>
+              {item.area === "tier" && <Image className="explore-card__art" src={tierFeatureCookie.image} alt="" width={340} height={340} sizes="(max-width: 720px) 0px, 260px" />}
+              <div className="explore-card__copy">
+                <span>{item.stat}</span>
+                <h3>{item.label}</h3>
+                <p>{item.text}</p>
+              </div>
+              <b>{item.action} <AppIcon name="chevron" size={17} /></b>
             </Link>
           ))}
         </div>
       </section>
 
-      <section className="home-note">
-        <div><AppIcon name="sparkles" size={28} /><span>Fresh crumbs only</span></div>
-        <h2>The roster moves fast.<br />This guide says when it was checked.</h2>
-        <p>Core data is stored in the site, so the pages stay quick even if another guide goes offline.</p>
-        <Link href="/cookies/">Browse every cookie <AppIcon name="chevron" size={18} /></Link>
+      <section className="builder-shortcuts" aria-labelledby="builder-shortcuts-title">
+        <div className="builder-shortcuts__heading">
+          <div>
+            <h2 id="builder-shortcuts-title">Build your own</h2>
+            <p>Drag the roster into place, keep the share link, or download a clean PNG.</p>
+          </div>
+          <Link href="/tools/" className="builder-shortcuts__all">View all tools <AppIcon name="chevron" size={16} /></Link>
+        </div>
+        <div className="builder-shortcuts__list">
+          <Link href="/tools/team-builder/" className="builder-shortcut">
+            <div className="builder-shortcut__icon"><AppIcon name="users" size={26} /></div>
+            <div>
+              <span>12 Cookies + 3 Pets</span>
+              <h3>Team Builder</h3>
+              <p>Place every Cookie and Pet in an exact slot, then check the Synergy.</p>
+            </div>
+            <b>Open builder <AppIcon name="chevron" size={17} /></b>
+          </Link>
+          <Link href="/tools/tier-builder/" className="builder-shortcut">
+            <div className="builder-shortcut__icon"><AppIcon name="trophy" size={26} /></div>
+            <div>
+              <span>S to D ranking</span>
+              <h3>Tier List Maker</h3>
+              <p>Move all {cookies.length} Cookies into your own ranking and save the result.</p>
+            </div>
+            <b>Open maker <AppIcon name="chevron" size={17} /></b>
+          </Link>
+        </div>
       </section>
     </div>
   );
