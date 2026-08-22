@@ -1,6 +1,12 @@
+import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { cookieById } from "@/data/cookies";
 import { guideCategories, guides } from "@/data/guides";
+
+const gearRuneGuideSource = readFileSync(
+  new URL("../content/guides/cookie-run-crumble-gear-sugar-rune-stats-guide.mdx", import.meta.url),
+  "utf8",
+);
 
 describe("guide registry", () => {
   it("keeps slugs and table of contents anchors unique", () => {
@@ -32,5 +38,22 @@ describe("guide registry", () => {
       expect(guide.coverCookieIds).toHaveLength(3);
       guide.coverCookieIds.forEach((id) => expect(cookieById.has(id)).toBe(true));
     });
+  });
+
+  it("publishes the gear guide at the top and keeps the old test article removed", () => {
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-gear-sugar-rune-stats-guide");
+    expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
+  });
+
+  it("keeps the gear guide long-form, original, and free of production notes", () => {
+    const prose = gearRuneGuideSource
+      .replace(/^import .*$/gm, "")
+      .replace(/<[^>]+>/g, "");
+    const wordCount = prose.match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length ?? 0;
+
+    expect(wordCount).toBeGreaterThanOrEqual(2_000);
+    expect(wordCount).toBeLessThanOrEqual(2_500);
+    expect(prose).not.toMatch(/\b(?:youtube|video|subtitle|source)\b/i);
+    expect(prose).not.toMatch(/[—–]/);
   });
 });

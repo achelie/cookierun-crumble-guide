@@ -7,9 +7,10 @@ import { collectionPageSchema, homeSchema, webApplicationSchema } from "@/lib/st
 describe("SEO page registry", () => {
   const pages = Object.values(seoPages);
 
-  it("covers ten route pages plus every registered guide", () => {
+  it("keeps ten route pages and complete metadata for every registered guide", () => {
     expect(pages).toHaveLength(10);
-    expect(pages.length + guides.length).toBe(11);
+    expect(guides.length).toBeGreaterThan(0);
+    expect(guides.every((guide) => guide.seoTitle && guide.seoDescription && guide.updatedAt)).toBe(true);
   });
 
   it("uses unique routes, titles, and search-sized descriptions", () => {
