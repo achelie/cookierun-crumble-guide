@@ -45,14 +45,14 @@ describe("guide registry", () => {
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 
-  it("keeps the gear guide long-form, original, and free of production notes", () => {
+  it("keeps the gear guide concise, original, and free of production notes", () => {
     const prose = gearRuneGuideSource
       .replace(/^import .*$/gm, "")
       .replace(/<[^>]+>/g, "");
     const wordCount = prose.match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length ?? 0;
 
-    expect(wordCount).toBeGreaterThanOrEqual(2_000);
-    expect(wordCount).toBeLessThanOrEqual(2_500);
+    expect(wordCount).toBeGreaterThanOrEqual(1_000);
+    expect(wordCount).toBeLessThanOrEqual(1_500);
     expect(prose).not.toMatch(/\b(?:youtube|video|subtitle|source)\b/i);
     expect(prose).not.toMatch(/[—–]/);
   });
