@@ -40,6 +40,37 @@ export const guidePageSize = 6;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-cool-mint-cookie-build-team",
+    title: "CookieRun: Crumble Cool Mint Build: Fix Her Fragile Summons",
+    seoTitle: "CookieRun: Crumble Cool Mint Cookie Build & Best Team",
+    seoDescription: "Build Cool Mint Cookie with Licorice and Witchberry, choose the best Sugar Rune stats, activate both synergies, and avoid boss fights that punish summons.",
+    excerpt: "Cool Mint feels unreliable alone. Pair her with Licorice and Witchberry, activate Multi-shot and Duration, then use the core where split bosses make it matter.",
+    category: "team-building",
+    tags: ["Cool Mint Cookie", "Team Building", "Summons", "Sugar Runes", "Boss Teams"],
+    publishedAt: "2026-08-23",
+    updatedAt: "2026-08-23",
+    readingMinutes: 7,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4006", "cookie0503", "cookie2006"],
+    toc: [
+      { id: "why-cool-mint-fails", label: "Why Cool Mint feels weak" },
+      { id: "summon-core", label: "Build the three-Cookie core" },
+      { id: "synergy-providers", label: "Activate both synergies" },
+      { id: "sugar-rune-stats", label: "Choose Sugar Rune stats" },
+      { id: "best-content", label: "Use the team's best matchups" },
+      { id: "bad-matchups", label: "Know when to bench it" },
+      { id: "quick-build", label: "Follow the quick build" },
+      { id: "cool-mint-faq", label: "Cool Mint Cookie FAQ" },
+    ],
+    faq: [
+      { question: "What is the best Cool Mint Cookie team core?", answer: "Use Cool Mint Cookie, Licorice Cookie, and Witchberry Cookie. Licorice adds summons that absorb pressure, while Witchberry punishes split or grouped enemies with wide block damage." },
+      { question: "Which synergies does Cool Mint Cookie need?", answer: "Cool Mint receives Multi-shot and Duration. Use Cheesecake Cookie, Herb Cookie, or Tiger Lily Cookie for Multi-shot, then add Milk Cookie's Crunchy Strong Pediatrician for Duration." },
+      { question: "What are the best Sugar Rune stats for Cool Mint Cookie?", answer: "Start with ATK% because her summons scale with ATK. Skill Amp and Skill Haste are good follow-ups. Keep a defensive stat when she dies before getting another summon cycle." },
+      { question: "Is Skill Haste good on Witchberry Cookie?", answer: "It is usable, but her blocks already last 5.5 seconds on a 4-second cooldown. ATK, CRIT Chance, CRIT DMG, and Skill Amp usually deserve priority." },
+      { question: "Is Cool Mint Cookie good for every boss?", answer: "No. She performs best against split targets, crowded waves, and enemies that waste attacks on summons. Frequent area damage and strict single-target checks can make a focused damage team safer." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-gear-sugar-rune-stats-guide",
     title: "CookieRun: Crumble Gear Guide: Stop Letting Bad Stats Fake Your Power",
     seoTitle: "CookieRun: Crumble Gear & Sugar Rune Guide | Best Stats",

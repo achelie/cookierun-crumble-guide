@@ -7,6 +7,26 @@ const gearRuneGuideSource = readFileSync(
   new URL("../content/guides/cookie-run-crumble-gear-sugar-rune-stats-guide.mdx", import.meta.url),
   "utf8",
 );
+const coolMintGuideSource = readFileSync(
+  new URL("../content/guides/cookie-run-crumble-cool-mint-cookie-build-team.mdx", import.meta.url),
+  "utf8",
+);
+
+function guideProse(source: string) {
+  return source
+    .replace(/^import .*$/gm, "")
+    .replace(/<[^>]+>/g, "");
+}
+
+function expectPublishableGuide(source: string) {
+  const prose = guideProse(source);
+  const wordCount = prose.match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length ?? 0;
+
+  expect(wordCount).toBeGreaterThanOrEqual(1_000);
+  expect(wordCount).toBeLessThanOrEqual(1_500);
+  expect(prose).not.toMatch(/\b(?:youtube|video|subtitle|source)\b/i);
+  expect(prose).not.toMatch(/[—–]/);
+}
 
 describe("guide registry", () => {
   it("keeps slugs and table of contents anchors unique", () => {
@@ -40,20 +60,19 @@ describe("guide registry", () => {
     });
   });
 
-  it("publishes the gear guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-gear-sugar-rune-stats-guide");
+  it("publishes the newest guide at the top and keeps the old test article removed", () => {
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-cool-mint-cookie-build-team");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 
   it("keeps the gear guide concise, original, and free of production notes", () => {
-    const prose = gearRuneGuideSource
-      .replace(/^import .*$/gm, "")
-      .replace(/<[^>]+>/g, "");
-    const wordCount = prose.match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length ?? 0;
+    expectPublishableGuide(gearRuneGuideSource);
+  });
 
-    expect(wordCount).toBeGreaterThanOrEqual(1_000);
-    expect(wordCount).toBeLessThanOrEqual(1_500);
-    expect(prose).not.toMatch(/\b(?:youtube|video|subtitle|source)\b/i);
-    expect(prose).not.toMatch(/[—–]/);
+  it("keeps the Cool Mint guide concise, original, and free of production notes", () => {
+    expectPublishableGuide(coolMintGuideSource);
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-cool-mint-cookie-build-team");
+    const sectionIds = [...coolMintGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
   });
 });
