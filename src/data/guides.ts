@@ -40,6 +40,38 @@ export const guidePageSize = 6;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-rye-cookie-build-team",
+    title: "CookieRun: Crumble Rye Cookie Build: Stop Judging Her Before 5 Stars",
+    seoTitle: "CookieRun: Crumble Rye Cookie Build | Best Team & Runes",
+    seoDescription: "Build Rye Cookie at her five-star breakpoint with the best Sugar Rune stats, Multi-strike partners, Fire Pets, and practical PvE or PvP team swaps.",
+    excerpt: "Rye looks ordinary before five stars. Promote the part that matters, pair her with Orange and Scorpion, then build the stats that make every four-second cast count.",
+    category: "cookies",
+    tags: ["Rye Cookie", "Cookie Builds", "Sugar Runes", "Multi-strike", "Free to Play"],
+    publishedAt: "2026-08-24",
+    updatedAt: "2026-08-24",
+    readingMinutes: 7,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0515", "cookie0053", "cookie0181"],
+    toc: [
+      { id: "five-star-breakpoint", label: "Reach Rye's five-star breakpoint" },
+      { id: "why-the-skill-works", label: "Understand Rye's short cooldown" },
+      { id: "orange-multistrike-core", label: "Pair Rye with Orange Cookie" },
+      { id: "teams-by-mode", label: "Build for PvE, bosses, and PvP" },
+      { id: "sugar-rune-stats", label: "Choose Rye's Sugar Rune stats" },
+      { id: "fire-pets", label: "Pick Pets for the Fire core" },
+      { id: "bad-matchups", label: "Know when to swap Rye out" },
+      { id: "quick-build", label: "Follow the quick build" },
+      { id: "rye-cookie-faq", label: "Rye Cookie FAQ" },
+    ],
+    faq: [
+      { question: "Does Rye Cookie need five stars?", answer: "Five stars is the important breakpoint because it adds two hits and raises the skill from roughly 400% to 600% total damage per cast. She can fill a slot earlier, but the promoted version is the one worth building around." },
+      { question: "What are the best Sugar Rune stats for Rye Cookie?", answer: "Prioritize ATK%, CRIT Chance, CRIT DMG, and Skill Amp. Skill Haste is acceptable, but the four-second base cooldown makes it less urgent than a strong offensive roll." },
+      { question: "Who is Rye Cookie's best teammate?", answer: "Orange Cookie is the cleanest partner because she grants Multi-strike and CRIT Chance Up with near-continuous uptime. Scorpion Cookie is the best addition when the team needs more single-target boss damage." },
+      { question: "Is Rye Cookie good in PvP?", answer: "Yes, especially as a burst finisher. She can remove damaged enemies quickly, although another Cookie may show more total damage over the full fight." },
+      { question: "Which Pets work with Rye Cookie?", answer: "Sweet n' Sour, Floral Froglet, and Holy Baby Drop form a strong Fire damage setup by adding CRIT DMG, Fire ally CRIT DMG, and ATK. Hot Doggie or Gold Drop can replace one slot when the account needs Skill Amp or CRIT Chance." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-cool-mint-cookie-build-team",
     title: "CookieRun: Crumble Cool Mint Build: Fix Her Fragile Summons",
     seoTitle: "CookieRun: Crumble Cool Mint Cookie Build & Best Team",

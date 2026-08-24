@@ -33,7 +33,10 @@ describe("guide filtering", () => {
     expect(filterGuides(guides, { query: "beginner guide" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "burning crystals" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "getting started" })).toHaveLength(1);
-    expect(filterGuides(guides, { query: "free to play" })).toHaveLength(1);
+    expect(filterGuides(guides, { query: "free to play" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-rye-cookie-build-team",
+      "cookie-run-crumble-beginner-progression-guide",
+    ]);
     expect(filterGuides(guides, { query: "not here" })).toHaveLength(0);
   });
 

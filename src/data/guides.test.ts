@@ -11,6 +11,10 @@ const coolMintGuideSource = readFileSync(
   new URL("../content/guides/cookie-run-crumble-cool-mint-cookie-build-team.mdx", import.meta.url),
   "utf8",
 );
+const ryeGuideSource = readFileSync(
+  new URL("../content/guides/cookie-run-crumble-rye-cookie-build-team.mdx", import.meta.url),
+  "utf8",
+);
 
 function guideProse(source: string) {
   return source
@@ -61,7 +65,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-cool-mint-cookie-build-team");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-rye-cookie-build-team");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 
@@ -73,6 +77,13 @@ describe("guide registry", () => {
     expectPublishableGuide(coolMintGuideSource);
     const guide = guides.find((item) => item.slug === "cookie-run-crumble-cool-mint-cookie-build-team");
     const sectionIds = [...coolMintGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
+  });
+
+  it("keeps the Rye guide concise, original, and free of production notes", () => {
+    expectPublishableGuide(ryeGuideSource);
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-rye-cookie-build-team");
+    const sectionIds = [...ryeGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
     expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
   });
 });
