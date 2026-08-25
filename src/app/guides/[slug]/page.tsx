@@ -29,6 +29,7 @@ export function generateStaticParams() {
       "cookie-run-crumble-gear-sugar-rune-stats-guide",
       "cookie-run-crumble-cool-mint-cookie-build-team",
       "cookie-run-crumble-rye-cookie-build-team",
+      "cookie-run-crumble-accuracy-focus-guide",
     ].includes(guide.slug))
     .map((guide) => ({ slug: guide.slug }));
 }

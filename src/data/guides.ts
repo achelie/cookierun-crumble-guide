@@ -40,6 +40,38 @@ export const guidePageSize = 6;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-accuracy-focus-guide",
+    title: "CookieRun: Crumble Accuracy & Focus Guide: Why Your Skills Keep Missing",
+    seoTitle: "CookieRun: Crumble Accuracy & Focus Guide | Gear Setup",
+    seoDescription: "Fix missed skills and failed debuffs in CookieRun: Crumble with late-stage Accuracy and Focus targets, gear slot priorities, and practical boss checks.",
+    excerpt: "Your damage build may be fine. Learn why late stages dodge skills, resist Venom Sting and DEF Down, and which gear slots fix the problem.",
+    category: "stages-bosses",
+    tags: ["Accuracy", "Focus", "Gear", "Stage Progression", "Boss Teams"],
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-08-25",
+    readingMinutes: 7,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0181", "cookie0023", "cookie0103"],
+    toc: [
+      { id: "accuracy-vs-focus", label: "Separate Accuracy from Focus" },
+      { id: "late-stage-checks", label: "Prepare for late-stage checks" },
+      { id: "diagnose-missed-skills", label: "Read missed skills and debuffs" },
+      { id: "gear-slot-setup", label: "Set up each gear group" },
+      { id: "scorpion-and-debuffers", label: "Build Scorpion and debuffers" },
+      { id: "power-still-matters", label: "Balance Power with consistency" },
+      { id: "upgrade-without-perfect-gear", label: "Progress with imperfect gear" },
+      { id: "quick-checklist", label: "Use the failure checklist" },
+      { id: "accuracy-focus-faq", label: "Accuracy and Focus FAQ" },
+    ],
+    faq: [
+      { question: "What does Accuracy do in CookieRun: Crumble?", answer: "Accuracy counters enemy Evasion. If a Cookie has too little Accuracy for the fight, an attack or skill can miss completely." },
+      { question: "What does Focus do in CookieRun: Crumble?", answer: "Focus counters enemy Resistance. It helps poison, DEF Down, and other debuffs land after the skill hits." },
+      { question: "How much Accuracy and Focus do I need?", answer: "Match the current stage check instead of using one permanent target. A Chapter 83 example asks for 558 Accuracy and 473 Focus, but earlier stages need less and later stages can ask for more." },
+      { question: "What is the best late-stage equipment setup?", answer: "Favor Skill Amp on the top six slots, then add Accuracy to three or four of those pieces. Use Focus and Skill Haste on the bottom-right group, while the other slots cover Power and role-specific needs." },
+      { question: "Can I clear a stage below the Accuracy or Focus check?", answer: "Yes. Repeated attempts can produce a run where the important hits and debuffs land. That is acceptable for one clear, but meeting the checks makes farming and repeated boss runs far more consistent." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-rye-cookie-build-team",
     title: "CookieRun: Crumble Rye Cookie Build: Stop Judging Her Before 5 Stars",
     seoTitle: "CookieRun: Crumble Rye Cookie Build | Best Team & Runes",
