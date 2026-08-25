@@ -58,19 +58,30 @@ export function paginateGuides(items: GuideSummary[], pageValue?: string | numbe
 }
 
 export function getRelatedGuides(current: GuideSummary, items: GuideSummary[], limit = 3) {
-  return items
+  const guidesBySlug = new Map(items.map((guide) => [guide.slug, guide]));
+  const curated = current.relatedGuideSlugs
+    .map((slug) => guidesBySlug.get(slug))
+    .filter((guide): guide is GuideSummary => guide !== undefined && guide.slug !== current.slug)
+    .slice(0, limit);
+
+  if (curated.length >= limit) return curated;
+
+  const curatedSlugs = new Set(curated.map((guide) => guide.slug));
+  const fallback = items
     .filter((guide) => guide.slug !== current.slug)
+    .filter((guide) => !curatedSlugs.has(guide.slug))
     .map((guide) => ({
       guide,
       categoryMatch: guide.category === current.category ? 1 : 0,
       sharedTags: guide.tags.filter((tag) => current.tags.includes(tag)).length,
     }))
-    .filter((candidate) => candidate.categoryMatch > 0 || candidate.sharedTags > 0)
     .sort((a, b) =>
       b.categoryMatch - a.categoryMatch
       || b.sharedTags - a.sharedTags
       || b.guide.updatedAt.localeCompare(a.guide.updatedAt),
     )
-    .slice(0, limit)
+    .slice(0, limit - curated.length)
     .map((candidate) => candidate.guide);
+
+  return [...curated, ...fallback];
 }

@@ -32,6 +32,7 @@ export type GuideSummary = {
   readingMinutes: number;
   author: string;
   coverCookieIds: [string, string, string];
+  relatedGuideSlugs: [string, string, string];
   toc: GuideTocItem[];
   faq: GuideFaqItem[];
 };
@@ -52,6 +53,11 @@ export const guides: GuideSummary[] = [
     readingMinutes: 7,
     author: "Crumble Guide",
     coverCookieIds: ["cookie0181", "cookie0023", "cookie0103"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-rye-cookie-build-team",
+      "cookie-run-crumble-cool-mint-cookie-build-team",
+    ],
     toc: [
       { id: "accuracy-vs-focus", label: "Separate Accuracy from Focus" },
       { id: "late-stage-checks", label: "Prepare for late-stage checks" },
@@ -84,6 +90,11 @@ export const guides: GuideSummary[] = [
     readingMinutes: 7,
     author: "Crumble Guide",
     coverCookieIds: ["cookie0515", "cookie0053", "cookie0181"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-accuracy-focus-guide",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-cool-mint-cookie-build-team",
+    ],
     toc: [
       { id: "five-star-breakpoint", label: "Reach Rye's five-star breakpoint" },
       { id: "why-the-skill-works", label: "Understand Rye's short cooldown" },
@@ -116,6 +127,11 @@ export const guides: GuideSummary[] = [
     readingMinutes: 7,
     author: "Crumble Guide",
     coverCookieIds: ["cookie4006", "cookie0503", "cookie2006"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-rye-cookie-build-team",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-accuracy-focus-guide",
+    ],
     toc: [
       { id: "why-cool-mint-fails", label: "Why Cool Mint feels weak" },
       { id: "summon-core", label: "Build the three-Cookie core" },
@@ -147,6 +163,11 @@ export const guides: GuideSummary[] = [
     readingMinutes: 7,
     author: "Crumble Guide",
     coverCookieIds: ["cookie0181", "cookie0023", "cookie0059"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-accuracy-focus-guide",
+      "cookie-run-crumble-rye-cookie-build-team",
+      "cookie-run-crumble-cool-mint-cookie-build-team",
+    ],
     toc: [
       { id: "check-the-failure", label: "Check why the team failed" },
       { id: "stat-glossary", label: "Know what every stat buys" },
@@ -179,6 +200,11 @@ export const guides: GuideSummary[] = [
     readingMinutes: 14,
     author: "Crumble Guide",
     coverCookieIds: ["cookie4012", "cookie0053", "cookie0037"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-cool-mint-cookie-build-team",
+      "cookie-run-crumble-rye-cookie-build-team",
+    ],
     toc: [
       { id: "protect-your-crystals", label: "Protect your crystals" },
       { id: "use-the-quest-loop", label: "Use the quest loop" },

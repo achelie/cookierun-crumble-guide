@@ -58,6 +58,12 @@ describe("guide registry", () => {
       expect(guide.readingMinutes).toBeGreaterThan(0);
       expect(guide.tags.length).toBeGreaterThan(0);
       expect(guide.faq.length).toBeGreaterThan(0);
+      expect(guide.relatedGuideSlugs).toHaveLength(3);
+      expect(new Set(guide.relatedGuideSlugs).size).toBe(3);
+      expect(guide.relatedGuideSlugs).not.toContain(guide.slug);
+      guide.relatedGuideSlugs.forEach((slug) => {
+        expect(guides.some((candidate) => candidate.slug === slug)).toBe(true);
+      });
     });
   });
 

@@ -22,6 +22,7 @@ function guide(overrides: Partial<GuideSummary>): GuideSummary {
     readingMinutes: 5,
     author: "Crumble Guide",
     coverCookieIds: ["cookie0136", "cookie0181", "cookie0059"],
+    relatedGuideSlugs: ["two-tags", "same-category", "one-tag"],
     toc: [],
     faq: [],
     ...overrides,
@@ -74,8 +75,22 @@ describe("related guides", () => {
     guide({ slug: "unrelated", category: "events-codes", tags: ["Codes"] }),
   ];
 
-  it("prefers category, then shared tags, excludes current, and limits output", () => {
-    expect(getRelatedGuides(current, candidates, 2).map((item) => item.slug)).toEqual(["same-category", "two-tags"]);
+  it("uses the curated order, excludes current, and limits output", () => {
+    expect(getRelatedGuides(current, candidates, 2).map((item) => item.slug)).toEqual(["two-tags", "same-category"]);
+  });
+
+  it("fills missing curated guides by category, shared tags, and recency", () => {
+    const missing = guide({
+      slug: "missing-current",
+      category: "cookies",
+      tags: ["Damage", "Boss"],
+      relatedGuideSlugs: ["unknown-a", "unknown-b", "unknown-c"],
+    });
+    expect(getRelatedGuides(missing, [missing, ...candidates.filter((item) => item.slug !== "current")], 3).map((item) => item.slug)).toEqual([
+      "same-category",
+      "two-tags",
+      "one-tag",
+    ]);
   });
 
   it("returns no block when there is nothing related", () => {

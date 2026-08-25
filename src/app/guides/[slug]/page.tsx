@@ -141,8 +141,8 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
 
       {related.length > 0 && (
         <section className="related-guides">
-          <div className="section-heading"><span className="eyebrow">Keep going</span><h2>Related guides</h2></div>
-          <div className="related-guides__grid">{related.map((item) => <GuideCard key={item.slug} guide={item} />)}</div>
+          <div className="section-heading"><h2>Related guides</h2></div>
+          <div className="related-guides__grid">{related.map((item) => <GuideCard key={item.slug} guide={item} compact />)}</div>
         </section>
       )}
     </div>

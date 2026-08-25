@@ -10,20 +10,29 @@ const dateFormatter = new Intl.DateTimeFormat("en", {
   timeZone: "UTC",
 });
 
-export function GuideCard({ guide, featured = false }: { guide: GuideSummary; featured?: boolean }) {
+export function GuideCard({
+  guide,
+  featured = false,
+  compact = false,
+}: {
+  guide: GuideSummary;
+  featured?: boolean;
+  compact?: boolean;
+}) {
   const category = getGuideCategory(guide.category);
+  const Heading = compact ? "h3" : "h2";
 
   return (
-    <article className={`guide-card${featured ? " guide-card--featured" : ""}`}>
+    <article className={`guide-card${featured ? " guide-card--featured" : ""}${compact ? " guide-card--related" : ""}`}>
       <Link href={`/guides/${guide.slug}/`} className="guide-card__cover" aria-label={`Read ${guide.title}`}>
-        <GuideCover cookieIds={guide.coverCookieIds} compact={!featured} priority={featured} />
+        <GuideCover cookieIds={guide.coverCookieIds} compact={!featured || compact} priority={featured} />
       </Link>
       <div className="guide-card__copy">
         <Link className="guide-card__category" href={`/guides/?category=${category.slug}`}>{category.label}</Link>
-        <h2><Link href={`/guides/${guide.slug}/`}>{guide.title}</Link></h2>
-        <p>{guide.excerpt}</p>
+        <Heading><Link href={`/guides/${guide.slug}/`}>{guide.title}</Link></Heading>
+        {!compact && <p>{guide.excerpt}</p>}
         <div className="guide-card__meta">
-          <span><AppIcon name="calendar" size={15} />Updated {dateFormatter.format(new Date(`${guide.updatedAt}T00:00:00Z`))}</span>
+          {!compact && <span><AppIcon name="calendar" size={15} />Updated {dateFormatter.format(new Date(`${guide.updatedAt}T00:00:00Z`))}</span>}
           <span><AppIcon name="clock" size={15} />{guide.readingMinutes} min read</span>
         </div>
         <Link className="guide-card__read" href={`/guides/${guide.slug}/`}>Read guide <AppIcon name="chevron" size={16} /></Link>
