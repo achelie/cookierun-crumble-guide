@@ -25,6 +25,10 @@
 - Lorem Ipsum 占位文本
 - 被动语态和长句
 
+### Guide 内链
+
+- 每篇新 Guide 都要在语义自然的位置加入 `/tier-list/` 与 `/teams/` 内链；这两个页面是站内内容重心，不要把链接生硬堆在文末。
+
 ### 组件禁止
 
 - Shadcn/Material UI 默认组件（必须深度定制）
