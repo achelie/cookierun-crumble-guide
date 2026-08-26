@@ -41,6 +41,44 @@ export const guidePageSize = 6;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-tips-hidden-mechanics",
+    title: "CookieRun: Crumble Tips: 9 Mistakes That Quietly Waste Progress",
+    seoTitle: "CookieRun: Crumble Tips | 9 Progress Mistakes to Fix",
+    seoDescription: "Fix nine CookieRun: Crumble mistakes involving debuff stacks, crystals, Stellar Links, team Power, shop currency, and Auto Hunt rewards.",
+    excerpt: "A bigger Power number can still lose, and a harmless Auto Hunt setup can waste hours. Fix nine easy-to-miss systems before they drain your account.",
+    category: "getting-started",
+    tags: ["Tips", "Hidden Mechanics", "Stellar Links", "Auto Hunt", "Crystals"],
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0181", "cookie0070", "cookie0063"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-beginner-progression-guide",
+      "cookie-run-crumble-power-guide-stage-damage",
+      "cookie-run-crumble-accuracy-focus-guide",
+    ],
+    toc: [
+      { id: "read-battle-icons", label: "Check whether debuffs landed" },
+      { id: "scorpion-five-star", label: "Use Scorpion's five-star jump" },
+      { id: "spend-crystals-on-cookies", label: "Stop feeding crystals to Pets" },
+      { id: "stop-perfect-stellar-links", label: "Quit chasing perfect Stellar Links" },
+      { id: "power-is-not-a-verdict", label: "Judge more than team Power" },
+      { id: "shop-for-bottlenecks", label: "Buy the scarce shop currency" },
+      { id: "separate-auto-hunt-rewards", label: "Separate both Auto Hunt rewards" },
+      { id: "leave-a-survival-farm-team", label: "Leave a team that stays alive" },
+      { id: "know-offline-progress", label: "Know what offline play cannot do" },
+      { id: "hidden-mechanics-faq", label: "Hidden mechanics FAQ" },
+    ],
+    faq: [
+      { question: "How do I know whether a debuff landed in CookieRun: Crumble?", answer: "Watch the status icons beside the target and the stack counter. If the expected icon or stack does not appear after the hit connects, the debuff failed and the rest of that damage plan may be weaker." },
+      { question: "Should I spend crystals on Cookies or Pets?", answer: "Cookie pickup banners are usually the stronger crystal target because Cookie promotions affect more progression systems, including Stellar content. Use free Pet tickets first and spend crystals on a Cookie you plan to promote and keep using." },
+      { question: "How much Stellar Link coverage is enough?", answer: "Stop at a result that fits your income. Around 70% can be acceptable for a free account, the 80s suit a light spender, and low 90s or better cost much more. Chasing 100% can erase a huge stockpile for a tiny gain." },
+      { question: "Why can a lower-Power team beat me?", answer: "Displayed Power misses important context. Promotion breakpoints, gear effects, active synergies, positioning, and a team built for the mode can beat a slightly larger number." },
+      { question: "Does offline Auto Hunt clear new story stages?", answer: "No. Offline Auto Hunt keeps farming the current stage and stores passive rewards. It does not push the campaign forward, even when the account is strong enough to clear the next stage." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-power-guide-stage-damage",
     title: "CookieRun: Crumble Power Guide: Why Your Damage Suddenly Drops",
     seoTitle: "CookieRun: Crumble Power Guide | Fix Stage Damage Penalties",
@@ -240,9 +278,9 @@ export const guides: GuideSummary[] = [
     author: "Crumble Guide",
     coverCookieIds: ["cookie4012", "cookie0053", "cookie0037"],
     relatedGuideSlugs: [
+      "cookie-run-crumble-tips-hidden-mechanics",
       "cookie-run-crumble-power-guide-stage-damage",
       "cookie-run-crumble-gear-sugar-rune-stats-guide",
-      "cookie-run-crumble-cool-mint-cookie-build-team",
     ],
     toc: [
       { id: "protect-your-crystals", label: "Protect your crystals" },

@@ -33,7 +33,10 @@ describe("guide filtering", () => {
   it("searches the title, excerpt, category label, and tags", () => {
     expect(filterGuides(guides, { query: "beginner guide" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "burning crystals" })).toHaveLength(1);
-    expect(filterGuides(guides, { query: "getting started" })).toHaveLength(1);
+    expect(filterGuides(guides, { query: "getting started" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-tips-hidden-mechanics",
+      "cookie-run-crumble-beginner-progression-guide",
+    ]);
     expect(filterGuides(guides, { query: "free to play" }).map((item) => item.slug)).toEqual([
       "cookie-run-crumble-rye-cookie-build-team",
       "cookie-run-crumble-beginner-progression-guide",
@@ -42,7 +45,10 @@ describe("guide filtering", () => {
   });
 
   it("filters by category and treats an invalid category as all", () => {
-    expect(filterGuides(guides, { category: "getting-started" })).toHaveLength(1);
+    expect(filterGuides(guides, { category: "getting-started" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-tips-hidden-mechanics",
+      "cookie-run-crumble-beginner-progression-guide",
+    ]);
     expect(filterGuides(guides, { category: "pets" })).toHaveLength(0);
     expect(normalizeGuideCategory("broken")).toBe("all");
     expect(filterGuides(guides, { category: "broken" })).toHaveLength(guides.length);

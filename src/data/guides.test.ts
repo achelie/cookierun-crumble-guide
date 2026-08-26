@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { cookieById } from "@/data/cookies";
 import { guideCategories, guides } from "@/data/guides";
@@ -23,6 +23,10 @@ const powerGuideSource = readFileSync(
   new URL("../content/guides/cookie-run-crumble-power-guide-stage-damage.mdx", import.meta.url),
   "utf8",
 );
+const hiddenMechanicsGuideSource = readFileSync(
+  new URL("../content/guides/cookie-run-crumble-tips-hidden-mechanics.mdx", import.meta.url),
+  "utf8",
+);
 
 function guideProse(source: string) {
   return source
@@ -41,6 +45,21 @@ function expectPublishableGuide(source: string) {
 }
 
 describe("guide registry", () => {
+  it("publishes the hidden mechanics tips guide as the newest article", () => {
+    const guidePath = new URL(
+      "../content/guides/cookie-run-crumble-tips-hidden-mechanics.mdx",
+      import.meta.url,
+    );
+
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
+    expect(existsSync(guidePath)).toBe(true);
+    expectPublishableGuide(hiddenMechanicsGuideSource);
+    const sectionIds = [...hiddenMechanicsGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guides[0]?.toc.map((item) => item.id));
+    expect(hiddenMechanicsGuideSource).toContain("[Teams](/teams/)");
+    expect(hiddenMechanicsGuideSource).toContain("[Tier List](/tier-list/)");
+  });
+
   it("keeps slugs and table of contents anchors unique", () => {
     expect(new Set(guides.map((guide) => guide.slug)).size).toBe(guides.length);
     guides.forEach((guide) => {
@@ -79,7 +98,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-power-guide-stage-damage");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 
