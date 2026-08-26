@@ -19,6 +19,10 @@ const accuracyFocusGuideSource = readFileSync(
   new URL("../content/guides/cookie-run-crumble-accuracy-focus-guide.mdx", import.meta.url),
   "utf8",
 );
+const powerGuideSource = readFileSync(
+  new URL("../content/guides/cookie-run-crumble-power-guide-stage-damage.mdx", import.meta.url),
+  "utf8",
+);
 
 function guideProse(source: string) {
   return source
@@ -75,8 +79,17 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-accuracy-focus-guide");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-power-guide-stage-damage");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
+  });
+
+  it("keeps the Power guide concise, original, and free of production notes", () => {
+    expectPublishableGuide(powerGuideSource);
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-power-guide-stage-damage");
+    const sectionIds = [...powerGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
+    expect(powerGuideSource).toContain("[recommended Teams](/teams/)");
+    expect(powerGuideSource).toContain("[Tier List](/tier-list/)");
   });
 
   it("keeps the gear guide concise, original, and free of production notes", () => {

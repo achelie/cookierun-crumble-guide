@@ -41,6 +41,43 @@ export const guidePageSize = 6;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-power-guide-stage-damage",
+    title: "CookieRun: Crumble Power Guide: Why Your Damage Suddenly Drops",
+    seoTitle: "CookieRun: Crumble Power Guide | Fix Stage Damage Penalties",
+    seoDescription: "Learn how CookieRun: Crumble Power affects stage damage, why small Resolve upgrades break walls, and when a better team matters more than raw Power.",
+    excerpt: "Your team can be built correctly and still lose damage to a hidden Power gap. Learn why small upgrades suddenly turn a brutal stage into an easy clear.",
+    category: "stages-bosses",
+    tags: ["Combat Power", "Recommended Power", "Stage Progression", "Resolve", "PvE"],
+    publishedAt: "2026-08-26",
+    updatedAt: "2026-08-26",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0070", "cookie0573", "cookie0515"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-accuracy-focus-guide",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-beginner-progression-guide",
+    ],
+    toc: [
+      { id: "why-power-walls-happen", label: "Understand sudden Power walls" },
+      { id: "read-the-damage-penalty", label: "Read the stage damage penalty" },
+      { id: "stage-35-10-example", label: "Use the 35-10 example" },
+      { id: "team-versus-power", label: "Balance teams with raw Power" },
+      { id: "cheap-power-upgrades", label: "Buy the cheapest useful Power" },
+      { id: "gear-power-tradeoff", label: "Judge gear beyond the green arrow" },
+      { id: "f2p-power-walls", label: "Plan for the F2P slowdown" },
+      { id: "power-failure-checklist", label: "Diagnose the failed run" },
+      { id: "power-guide-faq", label: "CookieRun: Crumble Power FAQ" },
+    ],
+    faq: [
+      { question: "Does Power reduce my damage in CookieRun: Crumble story stages?", answer: "Falling below a stage's Recommended Power can reduce the damage your lineup deals. The exact curve is not shown clearly in-game, so compare the Power gap with what happens during the fight." },
+      { question: "Should I choose Power or a better team composition?", answer: "Use the right composition first, then raise its Power. Boss mechanics still decide whether you need AoE, single-target damage, healing, or defense, while Power helps that lineup avoid a severe stage penalty." },
+      { question: "Why did a small Resolve upgrade make a boss much easier?", answer: "The Resolve stats helped, but the extra team Power may also have crossed a better damage band. That can make a modest upgrade feel much larger than its printed ATK increase." },
+      { question: "Is Accuracy gear worth using only for Power?", answer: "It can be worth a temporary test when you are just below a stage threshold. After the lineup reaches a workable multiplier, compare the clear and return to better-fitting stats if the Accuracy is unnecessary." },
+      { question: "Can F2P players get past late Power walls?", answer: "Yes, but progress slows. Claim idle rewards, push dungeon first clears, finish cheap research, spend Resolve, and promote the main lineup instead of emptying every resource into one Cookie." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-accuracy-focus-guide",
     title: "CookieRun: Crumble Accuracy & Focus Guide: Why Your Skills Keep Missing",
     seoTitle: "CookieRun: Crumble Accuracy & Focus Guide | Gear Setup",
@@ -54,9 +91,9 @@ export const guides: GuideSummary[] = [
     author: "Crumble Guide",
     coverCookieIds: ["cookie0181", "cookie0023", "cookie0103"],
     relatedGuideSlugs: [
+      "cookie-run-crumble-power-guide-stage-damage",
       "cookie-run-crumble-gear-sugar-rune-stats-guide",
       "cookie-run-crumble-rye-cookie-build-team",
-      "cookie-run-crumble-cool-mint-cookie-build-team",
     ],
     toc: [
       { id: "accuracy-vs-focus", label: "Separate Accuracy from Focus" },
@@ -166,9 +203,9 @@ export const guides: GuideSummary[] = [
     author: "Crumble Guide",
     coverCookieIds: ["cookie0181", "cookie0023", "cookie0059"],
     relatedGuideSlugs: [
+      "cookie-run-crumble-power-guide-stage-damage",
       "cookie-run-crumble-accuracy-focus-guide",
       "cookie-run-crumble-rye-cookie-build-team",
-      "cookie-run-crumble-cool-mint-cookie-build-team",
     ],
     toc: [
       { id: "check-the-failure", label: "Check why the team failed" },
@@ -203,9 +240,9 @@ export const guides: GuideSummary[] = [
     author: "Crumble Guide",
     coverCookieIds: ["cookie4012", "cookie0053", "cookie0037"],
     relatedGuideSlugs: [
+      "cookie-run-crumble-power-guide-stage-damage",
       "cookie-run-crumble-gear-sugar-rune-stats-guide",
       "cookie-run-crumble-cool-mint-cookie-build-team",
-      "cookie-run-crumble-rye-cookie-build-team",
     ],
     toc: [
       { id: "protect-your-crystals", label: "Protect your crystals" },
