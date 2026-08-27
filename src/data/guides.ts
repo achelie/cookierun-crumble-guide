@@ -41,6 +41,44 @@ export const guidePageSize = 6;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-resource-guide-account-traps",
+    title: "CookieRun: Crumble Resource Guide: 8 Traps That Cost You Days",
+    seoTitle: "CookieRun: Crumble Resource Guide | 8 Costly Account Traps",
+    seoDescription: "Avoid eight CookieRun: Crumble resource mistakes involving Auto Hunt teams, pickup banners, Guild Medals, Arena tickets, research, and pull rewards.",
+    excerpt: "One lazy preset or missed claim can erase days of progress. Fix the eight resource traps that punish an account long after the button press.",
+    category: "getting-started",
+    tags: ["Resource Guide", "Progression", "Auto Hunt", "Guild Medals", "Arena"],
+    publishedAt: "2026-08-27",
+    updatedAt: "2026-08-27",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4012", "cookie0181", "cookie0053"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-tips-hidden-mechanics",
+      "cookie-run-crumble-beginner-progression-guide",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+    ],
+    toc: [
+      { id: "leave-the-right-auto-hunt-team", label: "Leave the right Auto Hunt team" },
+      { id: "skip-the-standard-banner", label: "Skip the standard banner" },
+      { id: "protect-guild-medals", label: "Protect your Guild Medals" },
+      { id: "claim-hidden-mission-rewards", label: "Claim the rewards behind tabs" },
+      { id: "spend-arena-tickets", label: "Spend every Arena ticket" },
+      { id: "climb-the-research-tree", label: "Climb before filling research" },
+      { id: "stop-rerolling-stellar-links", label: "Stop rerolling a good Stellar Link" },
+      { id: "claim-equipment-milestones", label: "Claim equipment pull milestones" },
+      { id: "resource-recovery-route", label: "Use the recovery route" },
+      { id: "resource-guide-faq", label: "Resource guide FAQ" },
+    ],
+    faq: [
+      { question: "Does my Auto Hunt team matter while CookieRun: Crumble is closed?", answer: "Yes. The game keeps using the selected farming formation, so leave a fast team that survives the current stage without losing a Cookie. Closing the game does not fix a weak preset." },
+      { question: "Should I pull the standard or pickup Cookie banner?", answer: "Save crystals for a pickup banner that features a Cookie you plan to promote. A standard banner has no focused promotion target, while a useful pickup can turn the same spending into a real five-star breakpoint." },
+      { question: "What should I buy with Guild Medals?", answer: "Protect Guild Medals for scarce account upgrades and the dungeon keys that solve your current bottleneck. Avoid spending them on materials the account already earns reliably elsewhere." },
+      { question: "Why should I use Arena tickets if I lose often?", answer: "Arena attempts still build Fame and earn seasonal currency. Fame bonuses help account performance outside Arena, so unused tickets throw away permanent progress even when your rank is modest." },
+      { question: "Do equipment pull milestone rewards carry over?", answer: "Do not assume they do. Claim the visible reward when the equipment pull counter reaches its milestone before making more pulls, or later progress may be wasted behind an unclaimed reward." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-tips-hidden-mechanics",
     title: "CookieRun: Crumble Tips: 9 Mistakes That Quietly Waste Progress",
     seoTitle: "CookieRun: Crumble Tips | 9 Progress Mistakes to Fix",
@@ -54,9 +92,9 @@ export const guides: GuideSummary[] = [
     author: "Crumble Guide",
     coverCookieIds: ["cookie0181", "cookie0070", "cookie0063"],
     relatedGuideSlugs: [
+      "cookie-run-crumble-resource-guide-account-traps",
       "cookie-run-crumble-beginner-progression-guide",
       "cookie-run-crumble-power-guide-stage-damage",
-      "cookie-run-crumble-accuracy-focus-guide",
     ],
     toc: [
       { id: "read-battle-icons", label: "Check whether debuffs landed" },
@@ -278,9 +316,9 @@ export const guides: GuideSummary[] = [
     author: "Crumble Guide",
     coverCookieIds: ["cookie4012", "cookie0053", "cookie0037"],
     relatedGuideSlugs: [
+      "cookie-run-crumble-resource-guide-account-traps",
       "cookie-run-crumble-tips-hidden-mechanics",
       "cookie-run-crumble-power-guide-stage-damage",
-      "cookie-run-crumble-gear-sugar-rune-stats-guide",
     ],
     toc: [
       { id: "protect-your-crystals", label: "Protect your crystals" },

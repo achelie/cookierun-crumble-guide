@@ -25,6 +25,7 @@ export const dynamicParams = false;
 export function generateStaticParams() {
   return guides
     .filter((guide) => ![
+      "cookie-run-crumble-resource-guide-account-traps",
       "cookie-run-crumble-tips-hidden-mechanics",
       "cookie-run-crumble-power-guide-stage-damage",
       "cookie-run-crumble-beginner-progression-guide",

@@ -34,6 +34,7 @@ describe("guide filtering", () => {
     expect(filterGuides(guides, { query: "beginner guide" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "burning crystals" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "getting started" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-resource-guide-account-traps",
       "cookie-run-crumble-tips-hidden-mechanics",
       "cookie-run-crumble-beginner-progression-guide",
     ]);
@@ -46,6 +47,7 @@ describe("guide filtering", () => {
 
   it("filters by category and treats an invalid category as all", () => {
     expect(filterGuides(guides, { category: "getting-started" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-resource-guide-account-traps",
       "cookie-run-crumble-tips-hidden-mechanics",
       "cookie-run-crumble-beginner-progression-guide",
     ]);

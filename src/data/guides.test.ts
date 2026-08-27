@@ -27,6 +27,10 @@ const hiddenMechanicsGuideSource = readFileSync(
   new URL("../content/guides/cookie-run-crumble-tips-hidden-mechanics.mdx", import.meta.url),
   "utf8",
 );
+const resourceGuideSource = readFileSync(
+  new URL("../content/guides/cookie-run-crumble-resource-guide-account-traps.mdx", import.meta.url),
+  "utf8",
+);
 
 function guideProse(source: string) {
   return source
@@ -45,17 +49,37 @@ function expectPublishableGuide(source: string) {
 }
 
 describe("guide registry", () => {
-  it("publishes the hidden mechanics tips guide as the newest article", () => {
+  it("publishes the resource guide as the newest article", () => {
+    const guidePath = new URL(
+      "../content/guides/cookie-run-crumble-resource-guide-account-traps.mdx",
+      import.meta.url,
+    );
+    const guide = guides[0];
+
+    expect(guide?.slug).toBe("cookie-run-crumble-resource-guide-account-traps");
+    expect(existsSync(guidePath)).toBe(true);
+    expectPublishableGuide(resourceGuideSource);
+    const sectionIds = [...resourceGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
+    expect(resourceGuideSource).toContain("[Teams](/teams/)");
+    expect(resourceGuideSource).toContain("[Tier List](/tier-list/)");
+    guide?.faq.forEach((item) => {
+      expect(resourceGuideSource).toContain(`### ${item.question}`);
+      expect(resourceGuideSource).toContain(item.answer);
+    });
+  });
+
+  it("keeps the hidden mechanics tips guide published behind the resource guide", () => {
     const guidePath = new URL(
       "../content/guides/cookie-run-crumble-tips-hidden-mechanics.mdx",
       import.meta.url,
     );
 
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
+    expect(guides[1]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
     expect(existsSync(guidePath)).toBe(true);
     expectPublishableGuide(hiddenMechanicsGuideSource);
     const sectionIds = [...hiddenMechanicsGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
-    expect(sectionIds).toEqual(guides[0]?.toc.map((item) => item.id));
+    expect(sectionIds).toEqual(guides[1]?.toc.map((item) => item.id));
     expect(hiddenMechanicsGuideSource).toContain("[Teams](/teams/)");
     expect(hiddenMechanicsGuideSource).toContain("[Tier List](/tier-list/)");
   });
@@ -98,7 +122,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-resource-guide-account-traps");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 
