@@ -4,6 +4,8 @@ import { guides } from "@/data/guides";
 import { pets } from "@/data/pets";
 import { absoluteUrl, seoPages } from "@/lib/seo";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const imagesByPath = new Map<string, string[]>([
     [seoPages.cookies.path, cookies.map((cookie) => absoluteUrl(cookie.image))],

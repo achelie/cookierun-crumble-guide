@@ -23,19 +23,7 @@ type GuidePageProps = { params: Promise<{ slug: string }> };
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return guides
-    .filter((guide) => ![
-      "cookie-run-crumble-pinot-noir-cookie-build",
-      "cookie-run-crumble-resource-guide-account-traps",
-      "cookie-run-crumble-tips-hidden-mechanics",
-      "cookie-run-crumble-power-guide-stage-damage",
-      "cookie-run-crumble-beginner-progression-guide",
-      "cookie-run-crumble-gear-sugar-rune-stats-guide",
-      "cookie-run-crumble-cool-mint-cookie-build-team",
-      "cookie-run-crumble-rye-cookie-build-team",
-      "cookie-run-crumble-accuracy-focus-guide",
-    ].includes(guide.slug))
-    .map((guide) => ({ slug: guide.slug }));
+  return guides.map((guide) => ({ slug: guide.slug }));
 }
 
 export async function generateMetadata({ params }: GuidePageProps): Promise<Metadata> {
