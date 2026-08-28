@@ -1,5 +1,5 @@
 export const rarities = ["TSSR", "SSR", "SR", "R", "U", "C"] as const;
-export const cookiesUpdatedAt = "2026-08-21";
+export const cookiesUpdatedAt = "2026-08-28";
 export type Rarity = (typeof rarities)[number];
 
 export const elements = ["Fire", "Water", "Grass", "Light", "Dark"] as const;
@@ -8,6 +8,7 @@ export const synergies = ["Area", "Chain", "Duration", "Multi-shot", "Multi-stri
 export const buffs = [
   "ATK Down", "ATK Up", "Accuracy Down", "Accuracy Up", "Damage Taken Down", "DEF Down", "DEF Up",
   "Shield", "Skill Amp Up", "Move Speed Down", "Move Speed Up", "CRIT DMG Up", "CRIT Chance Up", "Healing",
+  "Boss DMG Up", "Healing Received Down", "Knock-up Resistance Up",
 ] as const;
 
 export type Element = (typeof elements)[number];
@@ -119,6 +120,7 @@ export const cookies: Cookie[] = [
   { id: "cookie0518", name: "Strawberry Crepe Cookie", rarity: "SSR", image: "/images/cookies/cookie0518.webp", element: "Light", role: "Defense", grantedSynergies: [], receivedSynergies: ["Multi-strike"], buffs: [] },
   { id: "cookie0522", name: "Lilac Cookie", rarity: "R", image: "/images/cookies/cookie0522.webp", element: "Dark", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Pierce"], buffs: [] },
   { id: "cookie0527", name: "Twizzly Gummy Cookie", rarity: "SSR", image: "/images/cookies/cookie0527.webp", element: "Dark", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Chain"], buffs: [] },
+  { id: "cookie0532", name: "Tea Knight Cookie", rarity: "SSR", image: "/images/cookies/cookie0532.webp", element: "Light", role: "Defense", grantedSynergies: [], receivedSynergies: ["Area"], buffs: ["DEF Up", "Boss DMG Up"] },
   { id: "cookie0570", name: "Schwarzwälder", rarity: "SSR", image: "/images/cookies/cookie0570.webp", element: "Fire", role: "Defense", grantedSynergies: [], receivedSynergies: ["Area"], buffs: [] },
   { id: "cookie0573", name: "Milky Way Cookie", rarity: "SSR", image: "/images/cookies/cookie0573.webp", element: "Light", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Area"], buffs: [] },
   { id: "cookie1004", name: "Cream Soda Cookie", rarity: "SSR", image: "/images/cookies/cookie1004.webp", element: "Water", role: "Charge", grantedSynergies: ["Area"], receivedSynergies: ["Projectile Speed"], buffs: [] },
@@ -128,7 +130,9 @@ export const cookies: Cookie[] = [
   { id: "cookie4002", name: "Berry Yogurt Cookie", rarity: "R", image: "/images/cookies/cookie4002.webp", element: "Water", role: "Defense", grantedSynergies: [], receivedSynergies: ["Area"], buffs: [] },
   { id: "cookie4003", name: "Grapevine Cookie", rarity: "R", image: "/images/cookies/cookie4003.webp", element: "Grass", role: "Support", grantedSynergies: ["Multi-strike"], receivedSynergies: ["Area"], buffs: ["Healing"] },
   { id: "cookie4006", name: "Cool Mint Cookie", rarity: "SSR", image: "/images/cookies/cookie4006.webp", element: "Water", role: "Charge", grantedSynergies: [], receivedSynergies: ["Multi-shot", "Duration"], buffs: [] },
+  { id: "cookie4010", name: "Pinot Noir Cookie", rarity: "SSR", image: "/images/cookies/cookie4010.webp", element: "Dark", role: "Support", grantedSynergies: ["Multi-strike"], receivedSynergies: ["Chain"], buffs: ["Healing Received Down", "Knock-up Resistance Up"] },
   { id: "cookie4012", name: "Oven Wanderer Cookie", rarity: "TSSR", image: "/images/cookies/cookie4012.webp", element: "Fire", role: "Charge", grantedSynergies: [], receivedSynergies: ["Chain"], buffs: [] },
+  { id: "cookie4013", name: "Brightseeker Cookie", rarity: "TSSR", image: "/images/cookies/cookie4013.webp", element: "Light", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: [] },
   { id: "cookie4017", name: "Toothpaste Cookie", rarity: "SSR", image: "/images/cookies/cookie4017.webp", element: "Grass", role: "Support", grantedSynergies: ["Area"], receivedSynergies: ["Multi-shot"], buffs: ["Healing"] },
   { id: "cookie4018", name: "Space Doughnut's Royal Excellence", rarity: "SSR", image: "/images/cookies/cookie4018.webp", element: "Light", role: "Support", grantedSynergies: [], receivedSynergies: ["Multi-strike", "Duration"], buffs: [] },
   { id: "cookie4019", name: "Milk Cookie's Crunchy Strong Pediatrician", rarity: "SSR", image: "/images/cookies/cookie4019.webp", element: "Light", role: "Support", grantedSynergies: ["Duration"], receivedSynergies: ["Projectile Speed"], buffs: ["ATK Up", "Healing"] },

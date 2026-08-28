@@ -39,6 +39,7 @@ describe("guide filtering", () => {
       "cookie-run-crumble-beginner-progression-guide",
     ]);
     expect(filterGuides(guides, { query: "free to play" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-pinot-noir-cookie-build",
       "cookie-run-crumble-rye-cookie-build-team",
       "cookie-run-crumble-beginner-progression-guide",
     ]);

@@ -23,8 +23,14 @@ describe("cookie catalog", () => {
   });
 
   it("keeps all current cookie IDs unique", () => {
-    expect(cookies).toHaveLength(70);
+    expect(cookies).toHaveLength(73);
     expect(new Set(cookies.map(({ id }) => id)).size).toBe(cookies.length);
+  });
+
+  it("includes the latest Cookie additions", () => {
+    expect(cookies.find(({ id }) => id === "cookie4013")?.name).toBe("Brightseeker Cookie");
+    expect(cookies.find(({ id }) => id === "cookie0532")?.buffs).toEqual(["DEF Up", "Boss DMG Up"]);
+    expect(cookies.find(({ id }) => id === "cookie4010")?.grantedSynergies).toEqual(["Multi-strike"]);
   });
 
   it("uses only declared taxonomy values", () => {

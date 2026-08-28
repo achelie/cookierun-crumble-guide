@@ -3,7 +3,7 @@ import { cookies, cookiesUpdatedAt } from "@/data/cookies";
 import { guides } from "@/data/guides";
 import { pets, petsUpdatedAt } from "@/data/pets";
 import { recommendedTeams, teamsUpdatedAt } from "@/data/teams";
-import { tierUpdatedAt } from "@/data/tier-list";
+import { tierList, tierRanks, tierUpdatedAt } from "@/data/tier-list";
 
 export const siteUrl = "https://www.cookieruncrumbles.com";
 export const siteName = "CookieRun: Crumble Guide";
@@ -30,6 +30,7 @@ function formatFullDate(value: string) {
 }
 
 const activeCodes = codes.filter((code) => code.status === "active");
+const rankedCookieCount = tierRanks.reduce((count, rank) => count + tierList[rank].length, 0);
 const guideUpdatedAt = guides.reduce(
   (latest, guide) => guide.updatedAt > latest ? guide.updatedAt : latest,
   "1970-01-01",
@@ -67,8 +68,8 @@ export const seoPages = {
     path: "/tier-list/",
     title: `CookieRun: Crumble Tier List (${formatMonthYear(tierUpdatedAt)}) | Best Cookies`,
     h1: "CookieRun: Crumble Tier List",
-    summary: `Updated ${formatFullDate(tierUpdatedAt)}: all ${cookies.length} Cookies ranked from S to D for combined PvP and PvE value.`,
-    description: `Updated ${formatFullDate(tierUpdatedAt)}. Rank all ${cookies.length} CookieRun: Crumble Cookies from S to D for combined PvP and PvE value, with rarity, element, and role.`,
+    summary: `Updated ${formatFullDate(tierUpdatedAt)}: ${rankedCookieCount} Cookies ranked from S to D for combined PvP and PvE value.`,
+    description: `Updated ${formatFullDate(tierUpdatedAt)}. Rank ${rankedCookieCount} CookieRun: Crumble Cookies from S to D for combined PvP and PvE value, with rarity, element, and role.`,
     breadcrumb: "Tier List",
     updatedAt: tierUpdatedAt,
   },

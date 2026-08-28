@@ -31,6 +31,10 @@ const resourceGuideSource = readFileSync(
   new URL("../content/guides/cookie-run-crumble-resource-guide-account-traps.mdx", import.meta.url),
   "utf8",
 );
+const pinotNoirGuideSource = readFileSync(
+  new URL("../content/guides/cookie-run-crumble-pinot-noir-cookie-build.mdx", import.meta.url),
+  "utf8",
+);
 
 function guideProse(source: string) {
   return source
@@ -49,12 +53,27 @@ function expectPublishableGuide(source: string) {
 }
 
 describe("guide registry", () => {
+  it("publishes the Pinot Noir guide as the newest article", () => {
+    const guide = guides[0];
+
+    expect(guide?.slug).toBe("cookie-run-crumble-pinot-noir-cookie-build");
+    expectPublishableGuide(pinotNoirGuideSource);
+    const sectionIds = [...pinotNoirGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
+    expect(pinotNoirGuideSource).toContain("[CookieRun: Crumble Tier List](/tier-list/)");
+    expect(pinotNoirGuideSource).toContain("[CookieRun: Crumble Teams](/teams/)");
+    guide?.faq.forEach((item) => {
+      expect(pinotNoirGuideSource).toContain(`### ${item.question}`);
+      expect(pinotNoirGuideSource).toContain(item.answer);
+    });
+  });
+
   it("publishes the resource guide as the newest article", () => {
     const guidePath = new URL(
       "../content/guides/cookie-run-crumble-resource-guide-account-traps.mdx",
       import.meta.url,
     );
-    const guide = guides[0];
+    const guide = guides[1];
 
     expect(guide?.slug).toBe("cookie-run-crumble-resource-guide-account-traps");
     expect(existsSync(guidePath)).toBe(true);
@@ -75,11 +94,11 @@ describe("guide registry", () => {
       import.meta.url,
     );
 
-    expect(guides[1]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
+    expect(guides[2]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
     expect(existsSync(guidePath)).toBe(true);
     expectPublishableGuide(hiddenMechanicsGuideSource);
     const sectionIds = [...hiddenMechanicsGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
-    expect(sectionIds).toEqual(guides[1]?.toc.map((item) => item.id));
+    expect(sectionIds).toEqual(guides[2]?.toc.map((item) => item.id));
     expect(hiddenMechanicsGuideSource).toContain("[Teams](/teams/)");
     expect(hiddenMechanicsGuideSource).toContain("[Tier List](/tier-list/)");
   });
@@ -122,7 +141,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-resource-guide-account-traps");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-pinot-noir-cookie-build");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 

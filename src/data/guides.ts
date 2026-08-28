@@ -41,6 +41,43 @@ export const guidePageSize = 6;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-pinot-noir-cookie-build",
+    title: "CookieRun: Crumble Pinot Noir Build: Make Healer Teams Stay Hurt",
+    seoTitle: "CookieRun: Crumble Pinot Noir Build | Best Stats & Teams",
+    seoDescription: "Build Pinot Noir Cookie with the best Sugar Rune stats, five-star target, Multi-strike teammates, Chargemellow Pet, and a smarter F2P pull plan.",
+    excerpt: "Enemy healers keep erasing your damage? Pinot Noir brings anti-heal, Multi-strike, and a five-star breakpoint worth planning around.",
+    category: "cookies",
+    tags: ["Pinot Noir Cookie", "Cookie Build", "Multi-strike", "PvP", "Free to Play"],
+    publishedAt: "2026-08-28",
+    updatedAt: "2026-08-28",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4010", "cookie0515", "cookie0063"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-rye-cookie-build-team",
+      "cookie-run-crumble-cool-mint-cookie-build-team",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+    ],
+    toc: [
+      { id: "why-pinot-noir-matters", label: "See why Pinot Noir matters" },
+      { id: "five-star-breakpoint", label: "Plan the five-star breakpoint" },
+      { id: "best-sugar-rune-stats", label: "Build the best Sugar Rune stats" },
+      { id: "multi-strike-teammates", label: "Choose Multi-strike teammates" },
+      { id: "chargemellow-pet", label: "Use Chargemellow correctly" },
+      { id: "pull-plan", label: "Follow a safer pull plan" },
+      { id: "mistakes-to-avoid", label: "Avoid expensive mistakes" },
+      { id: "quick-build", label: "Copy the quick build" },
+      { id: "pinot-noir-faq", label: "Pinot Noir Cookie FAQ" },
+    ],
+    faq: [
+      { question: "Is Pinot Noir Cookie worth pulling?", answer: "Pinot Noir is a strong target for Multi-strike and PvP accounts because the kit combines a synergy grant with Healing Received Down and Knock-up Resistance Up. Accounts that still lack basic five-star damage dealers should fix those promotion gaps before chasing a luxury ten-star support." },
+      { question: "What are the best Sugar Rune stats for Pinot Noir Cookie?", answer: "Skill Amp is the first choice. Focus helps against resistant bosses, and Accuracy has occasional use when attacks miss. Skill Haste is less urgent because the important effects can already overlap their cooldowns." },
+      { question: "Does Pinot Noir need five stars?", answer: "Five stars is the best first stopping point. It raises the Multi-strike grant to two points and improves the healing reduction. Pinot Noir works earlier, but that promotion makes team building much easier." },
+      { question: "Who works well with Pinot Noir Cookie?", answer: "Rye, Melon Soda, Macaron, Herb, and Space Doughnut's Royal Excellence all receive Multi-strike. Pick two or three that fit the mode, then add frontline and healing instead of filling every slot with damage." },
+      { question: "Is Chargemellow worth using with Pinot Noir?", answer: "Yes, when the pet's extra Multi-strike point activates the core. Chargemellow also raises ATK for synergy receivers, which helps damage dealers and improves Herb Cookie's healing." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-resource-guide-account-traps",
     title: "CookieRun: Crumble Resource Guide: 8 Traps That Cost You Days",
     seoTitle: "CookieRun: Crumble Resource Guide | 8 Costly Account Traps",

@@ -1,7 +1,7 @@
 import type { Rarity } from "./cookies";
 
-// Public game-data snapshot checked on 2026-08-19.
-export const petsUpdatedAt = "2026-08-19";
+// Public game-data snapshot checked on 2026-08-28.
+export const petsUpdatedAt = "2026-08-28";
 
 export type Pet = {
   id: string;
@@ -47,6 +47,7 @@ const effectsById: Partial<Record<string, string[]>> = {
   pet4001: ["All allies gain ATK"],
   pet4003: ["Max HP Up"],
   pet4004: ["All allies gain CRIT DMG"],
+  pet4005: ["Grants Multi-strike synergy", "Multi-strike receivers gain ATK"],
 };
 
 const raw = [
@@ -77,6 +78,7 @@ const raw = [
   ["pet0517", "Constable Whiskers", "SSR"], ["pet1004", "Soda Dollop", "SR"],
   ["pet4001", "Holy Baby Drop", "SSR"], ["pet4002", "Toofie", "R"],
   ["pet4003", "Majestic King Choco Drop", "SSR"], ["pet4004", "Sweet n' Sour", "SSR"],
+  ["pet4005", "Chargemellow", "SSR"],
 ] as const;
 
 export const pets: Pet[] = raw.map(([id, name, rarity]) => ({
