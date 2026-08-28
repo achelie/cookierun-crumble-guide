@@ -110,6 +110,18 @@ describe("guide registry", () => {
     });
   });
 
+  it("connects every guide to the tier list and recommended teams", () => {
+    for (const guide of guides) {
+      const source = readFileSync(
+        new URL(`../content/guides/${guide.slug}.mdx`, import.meta.url),
+        "utf8",
+      );
+
+      expect(source, guide.slug).toContain("(/tier-list/)");
+      expect(source, guide.slug).toContain("(/teams/)");
+    }
+  });
+
   it("contains complete metadata and valid category references", () => {
     const categorySlugs = new Set(guideCategories.map((category) => category.slug));
     guides.forEach((guide) => {

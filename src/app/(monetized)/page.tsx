@@ -24,7 +24,7 @@ type Destination = {
 const activeCodeCount = codes.filter((code) => code.status === "active").length;
 const tierMonth = new Intl.DateTimeFormat("en", { month: "long", timeZone: "UTC" })
   .format(new Date(`${tierUpdatedAt}T00:00:00Z`));
-const beginnerGuide = guides[0];
+const beginnerGuide = guides.find((guide) => guide.slug === "cookie-run-crumble-beginner-progression-guide")!;
 const tierFeatureCookie = cookies.find((cookie) => cookie.id === "cookie0070")!;
 
 const destinations: Destination[] = [

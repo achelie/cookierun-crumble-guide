@@ -1,5 +1,7 @@
 import { readFileSync } from "node:fs";
+import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
+import HomePage from "./page";
 
 const homeSource = readFileSync(new URL("./page.tsx", import.meta.url), "utf8");
 
@@ -31,5 +33,12 @@ describe("home navigation", () => {
 
   it("keeps visible copy free of long dash separators", () => {
     expect(homeSource).not.toMatch(/[—–]/);
+  });
+
+  it("sends the beginner CTA to the beginner progression guide", () => {
+    const html = renderToStaticMarkup(<HomePage />);
+
+    expect(html).toContain('href="/guides/cookie-run-crumble-beginner-progression-guide"');
+    expect(html).not.toContain('href="/guides/cookie-run-crumble-pinot-noir-cookie-build" class="secondary-link"');
   });
 });
