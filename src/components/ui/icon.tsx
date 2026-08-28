@@ -24,6 +24,10 @@ import bookOpenIcon from "@iconify-icons/lucide/book-open";
 import clockIcon from "@iconify-icons/lucide/clock";
 import calendarDaysIcon from "@iconify-icons/lucide/calendar-days";
 import chevronLeftIcon from "@iconify-icons/lucide/chevron-left";
+import infoIcon from "@iconify-icons/lucide/info";
+import mailIcon from "@iconify-icons/lucide/mail";
+import shieldCheckIcon from "@iconify-icons/lucide/shield-check";
+import scaleIcon from "@iconify-icons/lucide/scale";
 
 const icons = {
   search: searchIcon,
@@ -49,6 +53,10 @@ const icons = {
   clock: clockIcon,
   calendar: calendarDaysIcon,
   "chevron-left": chevronLeftIcon,
+  info: infoIcon,
+  mail: mailIcon,
+  privacy: shieldCheckIcon,
+  scale: scaleIcon,
 } satisfies Record<string, IconData>;
 
 export type IconName = keyof typeof icons;

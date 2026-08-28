@@ -7,10 +7,19 @@ import { collectionPageSchema, homeSchema, webApplicationSchema } from "@/lib/st
 describe("SEO page registry", () => {
   const pages = Object.values(seoPages);
 
-  it("keeps ten route pages and complete metadata for every registered guide", () => {
-    expect(pages).toHaveLength(10);
+  it("keeps fourteen route pages and complete metadata for every registered guide", () => {
+    expect(pages).toHaveLength(14);
     expect(guides.length).toBeGreaterThan(0);
     expect(guides.every((guide) => guide.seoTitle && guide.seoDescription && guide.updatedAt)).toBe(true);
+  });
+
+  it("publishes the four trust routes with stable public paths", () => {
+    expect(pages.map((page) => page.path)).toEqual(expect.arrayContaining([
+      "/about/",
+      "/contact/",
+      "/privacy/",
+      "/disclaimer/",
+    ]));
   });
 
   it("uses unique routes, titles, and search-sized descriptions", () => {

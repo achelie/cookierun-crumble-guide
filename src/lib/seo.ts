@@ -7,7 +7,7 @@ import { tierList, tierRanks, tierUpdatedAt } from "@/data/tier-list";
 
 export const siteUrl = "https://www.cookieruncrumbles.com";
 export const siteName = "CookieRun: Crumble Guide";
-export const siteUpdatedAt = "2026-08-22";
+export const siteUpdatedAt = "2026-08-28";
 
 export type SeoPageDefinition = {
   path: string;
@@ -126,6 +126,42 @@ export const seoPages = {
     description: "CookieRun: Crumble guides for beginners, progression, teams, Synergy, Cookies, Pets, bosses, dungeons, events, and active codes.",
     breadcrumb: "Guides",
     updatedAt: guideUpdatedAt,
+  },
+  about: {
+    path: "/about/",
+    title: "About Crumble Guide | How We Test and Update",
+    h1: "About Crumble Guide",
+    summary: "Meet the independent editorial team behind the guides, rankings, and tools on this site.",
+    description: "Meet the Crumble Guide Editorial Team and learn how we test CookieRun: Crumble mechanics, mark estimates, update guides, and correct mistakes.",
+    breadcrumb: "About",
+    updatedAt: siteUpdatedAt,
+  },
+  contact: {
+    path: "/contact/",
+    title: "Contact Crumble Guide | Corrections & Copyright",
+    h1: "Contact Crumble Guide",
+    summary: "Report a bad number, flag an outdated guide, ask a privacy question, or send a copyright request.",
+    description: "Contact the Crumble Guide Editorial Team about guide corrections, outdated CookieRun: Crumble data, privacy questions, or copyright requests.",
+    breadcrumb: "Contact",
+    updatedAt: siteUpdatedAt,
+  },
+  privacy: {
+    path: "/privacy/",
+    title: "Privacy Policy | CookieRun: Crumble Guide",
+    h1: "Privacy Policy",
+    summary: "A plain-English account of the limited data used to run, measure, protect, and fund this site.",
+    description: "Read how CookieRun: Crumble Guide uses Cloudflare, Ahrefs Web Analytics, email, cookies, identifiers, consent choices, and Google AdSense.",
+    breadcrumb: "Privacy",
+    updatedAt: siteUpdatedAt,
+  },
+  disclaimer: {
+    path: "/disclaimer/",
+    title: "Disclaimer | CookieRun: Crumble Unofficial Fan Guide",
+    h1: "Fan Guide Disclaimer",
+    summary: "The short version: this is an independent player guide, not an official Devsisters website.",
+    description: "Read the independence, Fan Kit, intellectual property, accuracy, external-link, and no-endorsement notices for this unofficial player guide.",
+    breadcrumb: "Disclaimer",
+    updatedAt: siteUpdatedAt,
   },
 } as const satisfies Record<string, SeoPageDefinition>;
 
