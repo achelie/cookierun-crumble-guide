@@ -37,7 +37,7 @@ export type GuideSummary = {
   faq: GuideFaqItem[];
 };
 
-export const guidePageSize = 6;
+export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {

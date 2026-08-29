@@ -64,9 +64,9 @@ describe("guide filtering", () => {
 describe("guide pagination", () => {
   const items = Array.from({ length: 13 }, (_, index) => guide({ slug: `guide-${index}` }));
 
-  it("uses six items per page and clamps page boundaries", () => {
-    expect(paginateGuides(items, 1).items).toHaveLength(6);
-    expect(paginateGuides(items, 3).items).toHaveLength(1);
+  it("uses five items per page and clamps page boundaries", () => {
+    expect(paginateGuides(items, 1).items).toHaveLength(5);
+    expect(paginateGuides(items, 3).items).toHaveLength(3);
     expect(paginateGuides(items, 99).page).toBe(3);
     expect(normalizeGuidePage("nope", items.length)).toBe(1);
     expect(normalizeGuidePage(-4, items.length)).toBe(1);
