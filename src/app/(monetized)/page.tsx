@@ -50,9 +50,11 @@ const destinations: Destination[] = [
     href: "/codes/",
     icon: "ticket",
     label: "Codes",
-    text: "Grab every current reward before it expires.",
+    text: activeCodeCount
+      ? "Grab every current reward before it expires."
+      : "See the expired launch coupons and check whether a new code is live.",
     stat: `${activeCodeCount} active ${activeCodeCount === 1 ? "code" : "codes"}`,
-    action: "Copy codes",
+    action: activeCodeCount ? "Copy codes" : "Check code status",
     area: "codes",
   },
   {

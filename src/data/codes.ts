@@ -1,5 +1,5 @@
-// Public coupon snapshot checked on 2026-08-20. No expired codes were listed.
-export const codesUpdatedAt = "2026-08-20";
+// Public coupon snapshot checked on 2026-08-29.
+export const codesUpdatedAt = "2026-08-29";
 export type CodeReward = {
   label: string;
   amount: string;
@@ -23,7 +23,7 @@ export const codes: RedeemCode[] = [
       { label: "Rune Crystals", amount: "1,000", image: "/images/rewards/rune-crystal.webp" },
     ],
     expires: "Aug 25, 2026 at 23:59 KST",
-    status: "active",
+    status: "expired",
   },
   {
     code: "COOKIERUNCRUMBLE1ST",
@@ -34,6 +34,6 @@ export const codes: RedeemCode[] = [
       { label: "1-hour Auto-Hunt Coins", amount: "10", image: "/images/rewards/auto-hunt-coin.webp" },
     ],
     expires: "Aug 25, 2026 at 23:59 KST",
-    status: "active",
+    status: "expired",
   },
 ];

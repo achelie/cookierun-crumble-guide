@@ -30,6 +30,12 @@ function formatFullDate(value: string) {
 }
 
 const activeCodes = codes.filter((code) => code.status === "active");
+const codesSummary = activeCodes.length
+  ? `Copy ${activeCodes.length} active ${activeCodes.length === 1 ? "code" : "codes"}, check every reward and expiry time, then open the official redemption page.`
+  : "No active CookieRun: Crumble codes are available right now. Check the expired codes and return after the next coupon update.";
+const codesDescription = activeCodes.length
+  ? `All active CookieRun: Crumble codes for ${formatMonthYear(codesUpdatedAt)}, including rewards, expiry times, one-click copy, expired codes, and the official redemption link.`
+  : `CookieRun: Crumble codes checked in ${formatMonthYear(codesUpdatedAt)}. No active codes are available right now; review expired coupons and the official redemption link.`;
 const rankedCookieCount = tierRanks.reduce((count, rank) => count + tierList[rank].length, 0);
 const guideUpdatedAt = guides.reduce(
   (latest, guide) => guide.updatedAt > latest ? guide.updatedAt : latest,
@@ -86,8 +92,8 @@ export const seoPages = {
     path: "/codes/",
     title: `CookieRun: Crumble Codes (${formatMonthYear(codesUpdatedAt)}) | Active Codes`,
     h1: "CookieRun: Crumble Codes",
-    summary: `Copy ${activeCodes.length} active codes, check every reward and expiry time, then open the official redemption page.`,
-    description: `All active CookieRun: Crumble codes for ${formatMonthYear(codesUpdatedAt)}, including rewards, expiry times, one-click copy, expired codes, and the official redemption link.`,
+    summary: codesSummary,
+    description: codesDescription,
     breadcrumb: "Codes",
     updatedAt: codesUpdatedAt,
   },

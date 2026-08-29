@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AppIcon, type IconName } from "@/components/ui/icon";
+import { MobileNavigation, type MobileNavigationItem } from "@/components/mobile-navigation";
+import { AppIcon } from "@/components/ui/icon";
 
-const nav: { href: string; label: string; icon: IconName }[] = [
+const nav: MobileNavigationItem[] = [
   { href: "/cookies/", label: "Cookies", icon: "cookie" },
   { href: "/pets/", label: "Pets", icon: "paw" },
   { href: "/tier-list/", label: "Tier List", icon: "trophy" },
@@ -28,6 +29,7 @@ export function SiteHeader() {
             </Link>
           ))}
         </nav>
+        <MobileNavigation items={nav} />
       </div>
     </header>
   );

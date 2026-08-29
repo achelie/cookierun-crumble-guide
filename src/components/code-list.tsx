@@ -20,9 +20,9 @@ export function CodeList({ items }: { items: RedeemCode[] }) {
   return (
     <div className="codes-layout">
       <section>
-        <div className="section-heading"><span>Active</span><h2>Grab these before Aug 25</h2></div>
+        <div className="section-heading"><span>Active</span><h2>Available codes</h2></div>
         <div className="code-stack">
-          {active.map((item) => (
+          {active.length ? active.map((item) => (
             <article className="code-card" key={item.code}>
               <div className="code-card__top">
                 <div><span>Coupon code</span><h3>{item.code}</h3></div>
@@ -41,16 +41,32 @@ export function CodeList({ items }: { items: RedeemCode[] }) {
               </ul>
               <p>Expires {item.expires}</p>
             </article>
-          ))}
+          )) : (
+            <div className="empty-state empty-state--small codes-empty-state">
+              <AppIcon name="ticket" size={28} />
+              <strong>No active codes right now.</strong>
+              <p>We will move the next working code here after it is confirmed.</p>
+            </div>
+          )}
         </div>
       </section>
       <aside>
         <div className="section-heading"><span>Expired</span><h2>Too late for these</h2></div>
-        {expired.length ? expired.map((item) => <p key={item.code}>{item.code}</p>) : (
+        {expired.length ? (
+          <div className="expired-code-list">
+            {expired.map((item) => (
+              <article className="expired-code" key={item.code}>
+                <span>Expired coupon</span>
+                <strong>{item.code}</strong>
+                <small>Expired {item.expires}</small>
+              </article>
+            ))}
+          </div>
+        ) : (
           <div className="empty-state empty-state--small">
             <AppIcon name="sparkles" size={26} />
             <strong>Nothing expired yet.</strong>
-            <p>A rare win. Both launch codes are still active.</p>
+            <p>Expired codes will stay here for reference.</p>
           </div>
         )}
       </aside>
