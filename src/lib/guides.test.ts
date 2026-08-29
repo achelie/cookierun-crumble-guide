@@ -31,6 +31,9 @@ function guide(overrides: Partial<GuideSummary>): GuideSummary {
 
 describe("guide filtering", () => {
   it("searches the title, excerpt, category label, and tags", () => {
+    expect(filterGuides(guides, { query: "Skill Amp" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-skill-amp-fix-rune-refund",
+    ]);
     expect(filterGuides(guides, { query: "beginner guide" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "burning crystals" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "getting started" }).map((item) => item.slug)).toEqual([

@@ -7,7 +7,7 @@ import { tierList, tierRanks, tierUpdatedAt } from "@/data/tier-list";
 
 export const siteUrl = "https://www.cookieruncrumbles.com";
 export const siteName = "CookieRun: Crumble Guide";
-export const siteUpdatedAt = "2026-08-28";
+export const siteUpdatedAt = "2026-08-29";
 
 export type SeoPageDefinition = {
   path: string;
