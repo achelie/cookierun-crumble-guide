@@ -41,6 +41,42 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-brightseeker-cookie-build-team",
+    title: "CookieRun: Crumble Brightseeker Build: Escape the Scorpion Reset Loop",
+    seoTitle: "CookieRun: Crumble Brightseeker Build | Teams & Runes",
+    seoDescription: "Build Brightseeker Cookie for easier auto clears with five-star advice, best Sugar Rune stats, two full teams, Pet swaps, Arena limits, and Scorpion comparisons.",
+    excerpt: "Tired of steering Scorpion and watching Venom Sting stacks? Brightseeker gives up some ceiling for calmer auto clears, especially after five stars.",
+    category: "cookies",
+    tags: ["Brightseeker Cookie", "Pinot Noir Cookie", "Cookie Builds", "Auto Battle", "Sugar Runes"],
+    publishedAt: "2026-08-30",
+    updatedAt: "2026-08-30",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4013", "cookie4010", "cookie0181"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-pinot-noir-cookie-build",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-power-guide-stage-damage",
+    ],
+    toc: [
+      { id: "brightseeker-vs-scorpion", label: "Compare Brightseeker and Scorpion" },
+      { id: "five-star-breakpoint", label: "Plan the five-star breakpoint" },
+      { id: "general-pve-team", label: "Copy the general PvE team" },
+      { id: "arena-team", label: "Use the Arena team" },
+      { id: "mode-swaps", label: "Make mode-specific swaps" },
+      { id: "sugar-runes", label: "Build the best Sugar Runes" },
+      { id: "who-should-build", label: "Decide whether to invest" },
+      { id: "brightseeker-faq", label: "Brightseeker Cookie FAQ" },
+    ],
+    faq: [
+      { question: "Is Brightseeker Cookie better than Scorpion Cookie?", answer: "Scorpion has the higher damage ceiling with strong Sugar Runes, clean Venom Sting stacks, and active control. Brightseeker is easier to run on auto and produces steadier results across PvE modes, so the better choice depends on promotion, Runes, and how much control you want to use." },
+      { question: "Does Brightseeker Cookie need five stars?", answer: "Brightseeker works below five stars, especially when your Scorpion build is weak, but five stars adds another drone and is the promotion breakpoint that makes a full replacement much easier to justify." },
+      { question: "What are the best Sugar Rune stats for Brightseeker Cookie?", answer: "Prioritize ATK, Skill Amp, CRIT DMG, and CRIT Chance for Brightseeker. These stats improve the damage cycle directly without asking the Cookie to fill a control or survival role." },
+      { question: "Which team should I use with Brightseeker and Pinot Noir?", answer: "Start with the general PvE lineup shown above: Macaron, Rye, Melon Soda, Pomegranate, Milk Cookie's Crunchy Strong Pediatrician, Strawberry Crepe, Brightseeker, Licorice, Pinot Noir, Skating Queen, Nameless Cake Hound, and Herb, with Holy Baby Drop, Hot Doggie, and Chargemellow." },
+      { question: "Is Brightseeker Cookie good in Arena?", answer: "Brightseeker is usable in Arena, but Espresso usually brings stronger pressure in serious matches. Brightseeker makes more sense as an EXP-saving replacement when you farm medals against weaker opponents and do not care about pushing the highest rank." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-skill-amp-fix-rune-refund",
     title: "CookieRun: Crumble Skill Amp Fix: Rebuild These Cookies Before the Refund",
     seoTitle: "CookieRun: Crumble Skill Amp Fix & Sugar Rune Refund",
@@ -91,9 +127,9 @@ export const guides: GuideSummary[] = [
     author: "Crumble Guide",
     coverCookieIds: ["cookie4010", "cookie0515", "cookie0063"],
     relatedGuideSlugs: [
+      "cookie-run-crumble-brightseeker-cookie-build-team",
       "cookie-run-crumble-skill-amp-fix-rune-refund",
       "cookie-run-crumble-gear-sugar-rune-stats-guide",
-      "cookie-run-crumble-rye-cookie-build-team",
     ],
     toc: [
       { id: "why-pinot-noir-matters", label: "See why Pinot Noir matters" },

@@ -39,6 +39,10 @@ const skillAmpGuideSource = readFileSync(
   new URL("../content/guides/cookie-run-crumble-skill-amp-fix-rune-refund.mdx", import.meta.url),
   "utf8",
 );
+const brightseekerGuideSource = readFileSync(
+  new URL("../content/guides/cookie-run-crumble-brightseeker-cookie-build-team.mdx", import.meta.url),
+  "utf8",
+);
 
 function guideProse(source: string) {
   return source
@@ -57,8 +61,28 @@ function expectPublishableGuide(source: string) {
 }
 
 describe("guide registry", () => {
-  it("publishes the Skill Amp fix as the newest article", () => {
+  it("publishes the Brightseeker build as the newest article with both complete teams", () => {
     const guide = guides[0];
+
+    expect(guide?.slug).toBe("cookie-run-crumble-brightseeker-cookie-build-team");
+    expectPublishableGuide(brightseekerGuideSource);
+    const sectionIds = [...brightseekerGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
+    expect(brightseekerGuideSource).toContain("[CookieRun: Crumble Tier List](/tier-list/)");
+    expect(brightseekerGuideSource).toContain("[recommended teams](/teams/)");
+    expect(brightseekerGuideSource.match(/<GuideTeamFormation/g)).toHaveLength(2);
+    expect(brightseekerGuideSource).toContain('cookieIds={["cookie0059", "cookie0515", "cookie3001", "cookie0126", "cookie4019", "cookie0518", "cookie4013", "cookie0503", "cookie4010", "cookie0018", "cookie4024", "cookie0063"]}');
+    expect(brightseekerGuideSource).toContain('petIds={["pet4001", "pet0111", "pet4005"]}');
+    expect(brightseekerGuideSource).toContain('cookieIds={["cookie0070", "cookie0515", "cookie3001", "cookie0037", "cookie0513", "cookie4024", "cookie0059", "cookie4018", "cookie4010", "cookie0126", "cookie4019", "cookie0063"]}');
+    expect(brightseekerGuideSource).toContain('petIds={["pet4001", "pet0111", "pet4003"]}');
+    guide?.faq.forEach((item) => {
+      expect(brightseekerGuideSource).toContain(`### ${item.question}`);
+      expect(brightseekerGuideSource).toContain(item.answer);
+    });
+  });
+
+  it("keeps the Skill Amp fix directly behind the newest article", () => {
+    const guide = guides[1];
 
     expect(guide?.slug).toBe("cookie-run-crumble-skill-amp-fix-rune-refund");
     expectPublishableGuide(skillAmpGuideSource);
@@ -72,8 +96,8 @@ describe("guide registry", () => {
     });
   });
 
-  it("keeps the Pinot Noir guide directly behind the newest article", () => {
-    const guide = guides[1];
+  it("keeps the Pinot Noir guide near the newest article", () => {
+    const guide = guides[2];
 
     expect(guide?.slug).toBe("cookie-run-crumble-pinot-noir-cookie-build");
     expectPublishableGuide(pinotNoirGuideSource);
@@ -92,7 +116,7 @@ describe("guide registry", () => {
       "../content/guides/cookie-run-crumble-resource-guide-account-traps.mdx",
       import.meta.url,
     );
-    const guide = guides[2];
+    const guide = guides[3];
 
     expect(guide?.slug).toBe("cookie-run-crumble-resource-guide-account-traps");
     expect(existsSync(guidePath)).toBe(true);
@@ -113,11 +137,11 @@ describe("guide registry", () => {
       import.meta.url,
     );
 
-    expect(guides[3]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
+    expect(guides[4]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
     expect(existsSync(guidePath)).toBe(true);
     expectPublishableGuide(hiddenMechanicsGuideSource);
     const sectionIds = [...hiddenMechanicsGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
-    expect(sectionIds).toEqual(guides[3]?.toc.map((item) => item.id));
+    expect(sectionIds).toEqual(guides[4]?.toc.map((item) => item.id));
     expect(hiddenMechanicsGuideSource).toContain("[Teams](/teams/)");
     expect(hiddenMechanicsGuideSource).toContain("[Tier List](/tier-list/)");
   });
@@ -172,7 +196,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-skill-amp-fix-rune-refund");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-brightseeker-cookie-build-team");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 
