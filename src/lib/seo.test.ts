@@ -46,6 +46,12 @@ describe("SEO page registry", () => {
       expect(metadata.twitter?.title).toBe(page.title);
     }
   });
+
+  it("exposes the Teams update date in search-facing copy", () => {
+    expect(seoPages.teams.summary).toContain("Updated August 31, 2026");
+    expect(seoPages.teams.description).toContain("Updated August 31, 2026");
+    expect(seoPages.teams.updatedAt).toBe("2026-08-31");
+  });
 });
 
 describe("SEO structured data", () => {
