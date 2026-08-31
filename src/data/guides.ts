@@ -41,6 +41,42 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-gingercraven-boss-guide",
+    title: "CookieRun: Crumble GingerCraven Guide: Stop Losing to the Final Push",
+    seoTitle: "CookieRun: Crumble GingerCraven Guide | Sustain Team",
+    seoDescription: "Beat GingerCraven with a 12-Cookie sustain team, Scorpion leader setup, exact Pet loadout, Sugar Rune priorities, movement timing, and safer swaps.",
+    excerpt: "GingerCraven keeps surviving the final push? Copy the 12-Cookie sustain team, wait for the heal before moving, and let Scorpion finish the job.",
+    category: "stages-bosses",
+    tags: ["GingerCraven", "Boss Guide", "Scorpion Cookie", "Sustain Team", "PvE"],
+    publishedAt: "2026-08-31",
+    updatedAt: "2026-08-31",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0181", "cookie0126", "cookie4003"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-power-guide-stage-damage",
+      "cookie-run-crumble-skill-amp-fix-rune-refund",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+    ],
+    toc: [
+      { id: "why-gingercraven-wipes-teams", label: "Diagnose the GingerCraven wipe" },
+      { id: "recommended-gingercraven-team", label: "Copy the 12-Cookie team" },
+      { id: "cookie-jobs", label: "Learn every Cookie's job" },
+      { id: "sugar-rune-priorities", label: "Build the right Sugar Runes" },
+      { id: "pet-loadout", label: "Choose the three Pets" },
+      { id: "fight-sequence", label: "Survive the knockback" },
+      { id: "replacement-checklist", label: "Fix the failed run" },
+      { id: "gingercraven-faq", label: "GingerCraven boss FAQ" },
+    ],
+    faq: [
+      { question: "What is the best team for GingerCraven in CookieRun: Crumble?", answer: "Use Macaron, Pomegranate, Grapevine, Lime, Nameless Cake Hound, Dark Choco, Scorpion, Skating Queen, Tiger Lily, Milk Cookie's Crunchy Strong Pediatrician, Herb, and GingerBright. Pair them with Octo Wasabi, Holy Baby Drop, and Majestic King Choco Drop." },
+      { question: "Who should be the leader against GingerCraven?", answer: "Scorpion Cookie should lead. Her damage over time is the main finisher, and the other eleven Cookies protect or amplify that plan." },
+      { question: "Why does the correct GingerCraven team still lose?", answer: "A large Power gap can reduce your damage, and one early support death can break the healing cycle. Restart a bad opening, then raise account Power or defensive Runes if the same Cookie keeps dying." },
+      { question: "Do I need Majestic King Choco Drop for GingerCraven?", answer: "No. Majestic King Choco Drop's Max HP is excellent for this fight, but Kiwi Bird can replace it with DEF Up when you need a free defensive option." },
+      { question: "Should I use GingerBrave or GingerBright for ATK Down?", answer: "Use GingerBright. GingerBright applies the ATK Down effect used by this formation, while GingerBrave does not fill that exact role." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-brightseeker-cookie-build-team",
     title: "CookieRun: Crumble Brightseeker Build: Escape the Scorpion Reset Loop",
     seoTitle: "CookieRun: Crumble Brightseeker Build | Teams & Runes",
