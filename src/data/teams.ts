@@ -7,9 +7,33 @@ export type RecommendedTeam = {
   pets: string[];
 };
 
-export const teamsUpdatedAt = "2026-08-21";
+export const teamsUpdatedAt = "2026-08-31";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "brightseeker-stage-core",
+    name: "Brightseeker Stage Core",
+    kicker: "The five-star default for story pushes",
+    description: "Use this as the default stage team once Brightseeker reaches five stars. Swap Milky Way for Scorpion when a fight with three or fewer bosses needs more damage, or swap Pinot Noir for Grapevine when Biker-style openings keep killing the front line.",
+    cookies: ["cookie0059", "cookie4013", "cookie3001", "cookie0126", "cookie4019", "cookie0063", "cookie0573", "cookie0515", "cookie4010", "cookie0018", "cookie4024", "cookie0103"],
+    pets: ["pet4001", "pet0111", "pet4003"],
+  },
+  {
+    id: "forest-stump",
+    name: "Forest Stump Team",
+    kicker: "A specialist answer for the Forest stump",
+    description: "Use this Licorice formation only for the stump encounter in Forest. Apple Rabbit supports the Fire-heavy damage package. If the team still cannot survive, replace Brightseeker with Lime Cookie instead of rerolling the same failed opening.",
+    cookies: ["cookie0059", "cookie0181", "cookie0503", "cookie0126", "cookie4019", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4003", "cookie4024", "cookie0103"],
+    pets: ["pet4001", "pet0111", "pet0046"],
+  },
+  {
+    id: "hammer-princess",
+    name: "Hammer Princess Team",
+    kicker: "Built for the Kingdom boss",
+    description: "Save this formation for Hammer Princess in Kingdom. Use Milk's Welfare at 2%, then add Medical Insurance when the extra mercenary slot opens. If survival forces you to use repair, replace Skating Queen with Strawberry Crepe.",
+    cookies: ["cookie0059", "cookie0181", "cookie0126", "cookie0018", "cookie0054", "cookie4024", "cookie4013", "cookie4010", "cookie0023", "cookie4003", "cookie4019", "cookie0063"],
+    pets: ["pet4001", "pet4003", "pet0069"],
+  },
   {
     id: "f2p",
     name: "F2P Team",

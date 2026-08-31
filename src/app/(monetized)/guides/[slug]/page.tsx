@@ -6,6 +6,7 @@ import { GuideCover } from "@/components/guide-cover";
 import { QuickNavigation } from "@/components/quick-navigation";
 import { StructuredData } from "@/components/structured-data";
 import { AppIcon } from "@/components/ui/icon";
+import { cookieById } from "@/data/cookies";
 import { getGuideBySlug, getGuideCategory, guides } from "@/data/guides";
 import { loadGuideContent } from "@/lib/guide-content";
 import { getRelatedGuides } from "@/lib/guides";
@@ -31,6 +32,8 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
   const url = `${siteUrl}/guides/${guide.slug}/`;
+  const coverCookie = cookieById.get(guide.coverCookieIds[0]);
+  const socialImage = absoluteUrl(coverCookie?.image ?? "/opengraph-image");
 
   return {
     title: { absolute: guide.seoTitle },
@@ -47,9 +50,9 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
       modifiedTime: `${guide.updatedAt}T00:00:00Z`,
       authors: [guide.author],
       tags: guide.tags,
-      images: [{ url: "/opengraph-image", alt: guide.title }],
+      images: [{ url: socialImage, alt: coverCookie?.name ?? guide.title }],
     },
-    twitter: { card: "summary_large_image", title: guide.seoTitle, description: guide.seoDescription, images: ["/opengraph-image"] },
+    twitter: { card: "summary_large_image", title: guide.seoTitle, description: guide.seoDescription, images: [socialImage] },
   };
 }
 
@@ -62,6 +65,7 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
   const category = getGuideCategory(guide.category);
   const related = getRelatedGuides(guide, guides);
   const canonical = `${siteUrl}/guides/${guide.slug}/`;
+  const socialImage = absoluteUrl(cookieById.get(guide.coverCookieIds[0])?.image ?? "/opengraph-image");
   const articleJsonLd = {
     "@type": "BlogPosting",
     headline: guide.title,
@@ -75,7 +79,7 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
       url: siteUrl,
       logo: { "@type": "ImageObject", url: absoluteUrl("/favicon.png"), width: 96, height: 96 },
     },
-    image: absoluteUrl("/opengraph-image"),
+    image: socialImage,
     mainEntityOfPage: canonical,
     url: canonical,
     keywords: guide.tags.join(", "),

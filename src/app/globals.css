@@ -348,6 +348,7 @@ main { min-height: 70dvh; }
 .team-showcase__copy { position: relative; z-index: 1; }
 .team-showcase h2 { margin: 0; font-family: var(--font-display), sans-serif; font-size: clamp(2.1rem, 4vw, 4.3rem); line-height: 0.95; letter-spacing: -0.045em; }
 .team-showcase__copy p { max-width: 43ch; color: var(--muted); line-height: 1.55; }
+.team-showcase__meta { display: inline-flex; align-items: center; gap: 6px; margin-top: 16px; color: var(--muted); font-size: 0.78rem; font-weight: 750; }
 .team-lineup { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
 .team-showcase__formation { position: relative; z-index: 1; display: grid; gap: 13px; }
 .team-showcase__support { display: grid; grid-template-columns: minmax(175px, 0.7fr) minmax(0, 1.3fr); gap: 10px; align-items: stretch; }
