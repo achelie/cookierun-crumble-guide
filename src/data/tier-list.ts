@@ -1,10 +1,10 @@
-// Combined PvP and PvE ranking checked on 2026-08-21.
+// Combined PvP and PvE ranking checked on 2026-08-31.
 export const tierRanks = ["S", "A", "B", "C", "D"] as const;
 export type TierRank = (typeof tierRanks)[number];
 
 export const tierList: Record<TierRank, string[]> = {
   S: [
-    "cookie0070", "cookie4019", "cookie0126", "cookie0181", "cookie3001", "cookie0035", "cookie0573",
+    "cookie4013", "cookie4010", "cookie0070", "cookie4019", "cookie0126", "cookie0181", "cookie3001", "cookie0035", "cookie0573",
     "cookie4024", "cookie0059", "cookie0063", "cookie0515", "cookie0040", "cookie4003", "cookie0023",
   ],
   A: [
@@ -12,7 +12,7 @@ export const tierList: Record<TierRank, string[]> = {
     "cookie0054", "cookie0101", "cookie0037", "cookie0003",
   ],
   B: [
-    "cookie4012", "cookie4018", "cookie4006", "cookie1004", "cookie0018", "cookie0027", "cookie0069",
+    "cookie0532", "cookie4012", "cookie4018", "cookie4006", "cookie1004", "cookie0018", "cookie0027", "cookie0069",
     "cookie0038",
   ],
   C: [
@@ -27,4 +27,4 @@ export const tierList: Record<TierRank, string[]> = {
   ],
 };
 
-export const tierUpdatedAt = "2026-08-21";
+export const tierUpdatedAt = "2026-08-31";
