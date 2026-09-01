@@ -41,6 +41,43 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-guild-conquest-team-guide",
+    title: "CookieRun: Crumble Guild Conquest Guide: Fix Your Piñata Damage",
+    seoTitle: "CookieRun: Crumble Guild Conquest Teams | Piñata Guide",
+    seoDescription: "Build the best CookieRun: Crumble Guild Conquest teams for Extra-Stuffed Piñata, with 12-Cookie lineups, Pets, Sugar Runes, swaps, and retry rules.",
+    excerpt: "Low Guild Conquest damage is usually a lineup problem, not a Power problem. Copy two 12-Cookie Piñata teams, then use retries to chase the clean run.",
+    category: "stages-bosses",
+    tags: ["Guild Conquest", "Extra-Stuffed Piñata", "Boss Teams", "Scorpion Cookie", "Brightseeker Cookie"],
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-01",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4013", "cookie0532", "cookie0181"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-brightseeker-cookie-build-team",
+      "cookie-run-crumble-pinot-noir-cookie-build",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+    ],
+    toc: [
+      { id: "guild-conquest-rules", label: "Raise your Guild Conquest score" },
+      { id: "wind-archer-team", label: "Copy the Wind Archer team" },
+      { id: "milky-way-team", label: "Copy the Milky Way team" },
+      { id: "cookie-jobs", label: "Keep every Cookie's job" },
+      { id: "sugar-runes", label: "Set up the Sugar Runes" },
+      { id: "pet-loadout", label: "Use the three-Pet package" },
+      { id: "brightseeker-tea-knight", label: "Add Brightseeker and Tea Knight" },
+      { id: "retry-method", label: "Use retries for a higher score" },
+      { id: "guild-conquest-faq", label: "Guild Conquest team FAQ" },
+    ],
+    faq: [
+      { question: "What is the best CookieRun: Crumble Guild Conquest team without Brightseeker?", answer: "Use Wind Archer, Scorpion, Tiger Lily, Pomegranate, Melon Soda, Nameless Cake Hound, Macaron, Rye, Pinot Noir, Skating Queen, Milk Cookie's Crunchy Strong Pediatrician, and Dark Choco. Replace Wind Archer with Milky Way if Milky Way has much better investment." },
+      { question: "Which Pets should I use against Extra-Stuffed Piñata?", answer: "Use Holy Baby Drop, Hot Doggie, and Panda Dumpling. The loadout adds ATK and Skill Amp while supporting the formation's resistance to lift effects." },
+      { question: "Is Wind Archer or Milky Way better for Guild Conquest?", answer: "Wind Archer has the higher result when both have similar investment. A promoted Milky Way with stronger Sugar Runes can still beat an underbuilt Wind Archer, so run both presets several times." },
+      { question: "Who should Brightseeker replace in Guild Conquest?", answer: "Brightseeker replaces Wind Archer or Milky Way. If you also add Tea Knight, replace the weaker of Rye and Melon Soda. Keep Dark Choco for DEF Down." },
+      { question: "Why does my Guild Conquest damage change between attempts?", answer: "Targeting, crits, debuff applications, and cast timing introduce variance. Entries are unlimited, so repeat a sound lineup several times and use its best score before spending more resources." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-gingercraven-boss-guide",
     title: "CookieRun: Crumble GingerCraven Guide: Stop Losing to the Final Push",
     seoTitle: "CookieRun: Crumble GingerCraven Guide | Sustain Team",
