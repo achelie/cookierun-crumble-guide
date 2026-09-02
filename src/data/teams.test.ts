@@ -21,6 +21,21 @@ const newStageTeams = [
   },
 ] as const;
 
+const addedTeams = [
+  {
+    id: "strawberry-crepe-rapid-aoe",
+    cookies: ["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"],
+    pets: ["pet4005", "pet4001", "pet0111"],
+    updatedAt: "2026-09-02",
+  },
+  {
+    id: "wind-archer-guild-conquest",
+    cookies: ["cookie0070", "cookie0181", "cookie0040", "cookie0126", "cookie3001", "cookie4024", "cookie0059", "cookie0515", "cookie4010", "cookie0018", "cookie4019", "cookie0103"],
+    pets: ["pet4001", "pet0111", "pet0069"],
+    updatedAt: "2026-09-02",
+  },
+] as const;
+
 describe("recommended teams", () => {
   it("contains 12 valid cookies and 3 valid pets per team", () => {
     const petById = (petData as typeof petData & { petById?: Map<string, unknown> }).petById;
@@ -34,15 +49,29 @@ describe("recommended teams", () => {
     }
   });
 
-  it("keeps the three screenshot formations first and in exact slot order", () => {
-    expect(teamsUpdatedAt).toBe("2026-08-31");
-    expect(recommendedTeams.slice(0, 3).map((team) => team.id)).toEqual(newStageTeams.map((team) => team.id));
+  it("puts the newly added formations first with the latest date", () => {
+    expect(teamsUpdatedAt).toBe("2026-09-02");
+    expect(recommendedTeams.slice(0, 2).map((team) => team.id)).toEqual(addedTeams.map((team) => team.id));
+
+    for (const expected of addedTeams) {
+      const team = recommendedTeams.find((candidate) => candidate.id === expected.id);
+      expect(team?.cookies).toEqual(expected.cookies);
+      expect(team?.pets).toEqual(expected.pets);
+      expect(team?.updatedAt).toBe(expected.updatedAt);
+    }
+  });
+
+  it("preserves the previous team order and update date", () => {
+    expect(recommendedTeams.slice(2, 5).map((team) => team.id)).toEqual(newStageTeams.map((team) => team.id));
 
     for (const expected of newStageTeams) {
       const team = recommendedTeams.find((candidate) => candidate.id === expected.id);
       expect(team?.cookies).toEqual(expected.cookies);
       expect(team?.pets).toEqual(expected.pets);
+      expect(team?.updatedAt).toBe("2026-08-31");
     }
+
+    expect(recommendedTeams.slice(2).every((team) => team.updatedAt === "2026-08-31")).toBe(true);
   });
 
   it("uses distinct ids and copy without long dash characters", () => {
