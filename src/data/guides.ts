@@ -41,6 +41,42 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-strawberry-crepe-cookie-build-team",
+    title: "CookieRun: Crumble Strawberry Crepe Build: Stop Building Them Like a Tank",
+    seoTitle: "CookieRun: Crumble Strawberry Crepe Build | Best Team",
+    seoDescription: "Build Strawberry Crepe Cookie as an AoE damage dealer with the best Sugar Rune stats, two full teams, Chargemellow Pets, Arena swaps, and survival fixes.",
+    excerpt: "Your Tank build is wasting Strawberry Crepe's four-second AoE cycle. Copy two Rapid Fire teams, then use the Runes that let Crepe Crasher carry.",
+    category: "cookies",
+    tags: ["Strawberry Crepe Cookie", "Cookie Builds", "Rapid Fire", "Sugar Runes", "Arena"],
+    publishedAt: "2026-09-02",
+    updatedAt: "2026-09-02",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0518", "cookie4010", "cookie4013"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-pinot-noir-cookie-build",
+      "cookie-run-crumble-brightseeker-cookie-build-team",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+    ],
+    toc: [
+      { id: "role-mismatch", label: "Stop building Strawberry Crepe as a tank" },
+      { id: "aoe-team", label: "Copy the full AoE team" },
+      { id: "devil-team", label: "Use the Devil burst team" },
+      { id: "pet-loadout", label: "Use the three-Pet package" },
+      { id: "sugar-runes", label: "Build the best Sugar Runes" },
+      { id: "damage-tests", label: "Read the damage tests" },
+      { id: "investment", label: "Decide whether to invest" },
+      { id: "strawberry-crepe-faq", label: "Strawberry Crepe Cookie FAQ" },
+    ],
+    faq: [
+      { question: "Is Strawberry Crepe Cookie a tank or a damage dealer?", answer: "They have the Tank role, but this build treats them as an AoE damage dealer. Crepe Crasher provides damage and pushback without enough built-in protection to justify a full defensive Sugar Rune page." },
+      { question: "What are the best Sugar Rune stats for Strawberry Crepe Cookie?", answer: "Prioritize ATK Amp, CRIT Chance, CRIT DMG, and Skill Amp. Skill Haste is a useful secondary roll. Add one HP Amp or Damage Reduction line only when they repeatedly die before another cast." },
+      { question: "Which Pets work best with Strawberry Crepe Cookie?", answer: "Use Chargemellow, Holy Baby Drop, and Hot Doggie. Chargemellow grants Rapid Fire and ATK to its receivers, Holy Baby Drop raises team ATK, and Hot Doggie adds Skill Amp." },
+      { question: "Is Strawberry Crepe Cookie good in Arena?", answer: "Yes, especially against grouped teams that cannot remove or control them early. Rye burst and heavy control can end the run before the damage cycle develops, so test several opponents instead of judging one result." },
+      { question: "Should I use Dark Choco or Devil Cookie?", answer: "Dark Choco is the safer DEF Down option. Devil can create a stronger offensive window but dies more easily. Use Devil when the opponent gives the team time, then return to Dark Choco when survival becomes unreliable." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-guild-conquest-team-guide",
     title: "CookieRun: Crumble Guild Conquest Guide: Fix Your Piñata Damage",
     seoTitle: "CookieRun: Crumble Guild Conquest Teams | Piñata Guide",
