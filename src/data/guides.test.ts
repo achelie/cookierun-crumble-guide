@@ -84,8 +84,8 @@ describe("guide registry", () => {
     expect(strawberryCrepeGuideSource).toContain("[recommended teams page](/teams/)");
     expect(strawberryCrepeGuideSource.match(/\]\(\/[^)]+\)/g)).toHaveLength(4);
     expect(strawberryCrepeGuideSource.match(/<GuideTeamFormation/g)).toHaveLength(2);
-    expect(strawberryCrepeGuideSource).toContain('cookieIds={["cookie0059", "cookie0035", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"]}');
-    expect(strawberryCrepeGuideSource).toContain('cookieIds={["cookie0059", "cookie0035", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0023"]}');
+    expect(strawberryCrepeGuideSource).toContain('cookieIds={["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"]}');
+    expect(strawberryCrepeGuideSource).toContain('cookieIds={["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0023"]}');
     expect(strawberryCrepeGuideSource.match(/petIds=\{\["pet4005", "pet4001", "pet0111"\]\}/g)).toHaveLength(2);
     guide?.faq.forEach((item) => {
       expect(strawberryCrepeGuideSource).toContain(`### ${item.question}`);
