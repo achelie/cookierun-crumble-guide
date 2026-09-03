@@ -34,9 +34,13 @@ describe("guide filtering", () => {
     expect(filterGuides(guides, { query: "Skill Amp" }).map((item) => item.slug)).toEqual([
       "cookie-run-crumble-skill-amp-fix-rune-refund",
     ]);
-    expect(filterGuides(guides, { query: "beginner guide" })).toHaveLength(1);
+    expect(filterGuides(guides, { query: "beginner guide" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-fast-account-growth-guide",
+      "cookie-run-crumble-beginner-progression-guide",
+    ]);
     expect(filterGuides(guides, { query: "burning crystals" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "getting started" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-fast-account-growth-guide",
       "cookie-run-crumble-resource-guide-account-traps",
       "cookie-run-crumble-tips-hidden-mechanics",
       "cookie-run-crumble-beginner-progression-guide",
@@ -51,6 +55,7 @@ describe("guide filtering", () => {
 
   it("filters by category and treats an invalid category as all", () => {
     expect(filterGuides(guides, { category: "getting-started" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-fast-account-growth-guide",
       "cookie-run-crumble-resource-guide-account-traps",
       "cookie-run-crumble-tips-hidden-mechanics",
       "cookie-run-crumble-beginner-progression-guide",

@@ -41,6 +41,43 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-fast-account-growth-guide",
+    title: "CookieRun: Crumble Fast Progression Guide: Stop Wasting Daily Power",
+    seoTitle: "CookieRun: Crumble Fast Account Growth Guide",
+    seoDescription: "Grow your CookieRun: Crumble account faster with the right stage, dungeon, Arena, enhancement, Stellar Link, research, guild, and banner order.",
+    excerpt: "Playing every day but barely moving? Fix the order of stage pushes, dungeon keys, Arena tickets, research, Stellar Links, and guild spending.",
+    category: "getting-started",
+    tags: ["Account Progression", "Beginner Guide", "Daily Dungeons", "Stellar Links", "Arena Fame"],
+    publishedAt: "2026-09-03",
+    updatedAt: "2026-09-03",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0070", "cookie0532", "cookie4019"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-beginner-progression-guide",
+      "cookie-run-crumble-resource-guide-account-traps",
+      "cookie-run-crumble-power-guide-stage-damage",
+    ],
+    toc: [
+      { id: "push-before-claiming", label: "Push stages before claiming rewards" },
+      { id: "enhancement-order", label: "Plan +5, +10, and +15 upgrades" },
+      { id: "gear-tie-breakers", label: "Choose early gear upgrades" },
+      { id: "push-dungeon-floors", label: "Push higher Daily Dungeon floors" },
+      { id: "spend-arena-tickets", label: "Turn Arena into permanent stats" },
+      { id: "save-stellar-points", label: "Save scarce Stellar Points" },
+      { id: "research-and-guild", label: "Climb research and join a guild" },
+      { id: "daily-growth-route", label: "Follow the 15-minute daily route" },
+      { id: "fast-growth-faq", label: "Fast progression FAQ" },
+    ],
+    faq: [
+      { question: "Should I use Lucky Reward rolls before or after pushing stages?", answer: "Push first when the next reward milestone is within reach, then use the rolls on the improved table. Spend them before reset if the alternative is losing them." },
+      { question: "What should I enhance to +15 first?", answer: "Accuracy is the safest first choice for normal progression because missed attacks deal no damage. Follow with Focus when debuffs matter, then Skill Amp or ATK. Move defense forward only when the team dies early." },
+      { question: "Should I repeat an easy Daily Dungeon floor?", answer: "Try the highest uncleared floor first. Higher floors improve each key's payout, and first clears add more rewards. Repeat the previous floor only after the next one has genuinely stopped your lineup." },
+      { question: "How much Stellar Link coverage is enough for a beginner?", answer: "About 70% is a reasonable early stopping point for a free account. Later sections offer larger gains, while locking and rerolling the opening board can drain scarce Stellar Points." },
+      { question: "What should I buy first from the guild exchange?", answer: "Save for Tea Knight if you do not own him and plan to play Guild Conquest. After the first useful copy, Stellar Points are a strong recurring choice because dependable free sources are limited." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-strawberry-crepe-cookie-build-team",
     title: "CookieRun: Crumble Strawberry Crepe Build: Stop Building Them Like a Tank",
     seoTitle: "CookieRun: Crumble Strawberry Crepe Build | Best Team",

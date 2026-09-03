@@ -55,6 +55,10 @@ const strawberryCrepeGuideSource = readFileSync(
   new URL("../content/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team.mdx", import.meta.url),
   "utf8",
 );
+const fastAccountGrowthGuideSource = readFileSync(
+  new URL("../content/guides/cookie-run-crumble-fast-account-growth-guide.mdx", import.meta.url),
+  "utf8",
+);
 
 function guideProse(source: string) {
   return source
@@ -73,8 +77,24 @@ function expectPublishableGuide(source: string) {
 }
 
 describe("guide registry", () => {
-  it("publishes the Strawberry Crepe build with both complete lineups", () => {
+  it("publishes the fast account growth guide as the newest article", () => {
     const guide = guides[0];
+
+    expect(guide?.slug).toBe("cookie-run-crumble-fast-account-growth-guide");
+    expectPublishableGuide(fastAccountGrowthGuideSource);
+    const sectionIds = [...fastAccountGrowthGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
+    expect(fastAccountGrowthGuideSource).toContain("[CookieRun: Crumble Tier List](/tier-list/)");
+    expect(fastAccountGrowthGuideSource).toContain("[recommended teams page](/teams/)");
+    expect(fastAccountGrowthGuideSource.match(/\]\(\/[^)]+\)/g)).toHaveLength(4);
+    guide?.faq.forEach((item) => {
+      expect(fastAccountGrowthGuideSource).toContain(`### ${item.question}`);
+      expect(fastAccountGrowthGuideSource).toContain(item.answer);
+    });
+  });
+
+  it("publishes the Strawberry Crepe build with both complete lineups", () => {
+    const guide = guides[1];
 
     expect(guide?.slug).toBe("cookie-run-crumble-strawberry-crepe-cookie-build-team");
     expectPublishableGuide(strawberryCrepeGuideSource);
@@ -94,7 +114,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the Guild Conquest guide with both supplied lineups", () => {
-    const guide = guides[1];
+    const guide = guides[2];
 
     expect(guide?.slug).toBe("cookie-run-crumble-guild-conquest-team-guide");
     expectPublishableGuide(guildConquestGuideSource);
@@ -114,7 +134,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the GingerCraven boss guide with the complete sustain team", () => {
-    const guide = guides[2];
+    const guide = guides[3];
 
     expect(guide?.slug).toBe("cookie-run-crumble-gingercraven-boss-guide");
     expectPublishableGuide(gingercravenGuideSource);
@@ -132,7 +152,7 @@ describe("guide registry", () => {
   });
 
   it("keeps the Brightseeker build directly behind the newest article", () => {
-    const guide = guides[3];
+    const guide = guides[4];
 
     expect(guide?.slug).toBe("cookie-run-crumble-brightseeker-cookie-build-team");
     expectPublishableGuide(brightseekerGuideSource);
@@ -152,7 +172,7 @@ describe("guide registry", () => {
   });
 
   it("keeps the Skill Amp fix directly behind the newest article", () => {
-    const guide = guides[4];
+    const guide = guides[5];
 
     expect(guide?.slug).toBe("cookie-run-crumble-skill-amp-fix-rune-refund");
     expectPublishableGuide(skillAmpGuideSource);
@@ -167,7 +187,7 @@ describe("guide registry", () => {
   });
 
   it("keeps the Pinot Noir guide near the newest article", () => {
-    const guide = guides[5];
+    const guide = guides[6];
 
     expect(guide?.slug).toBe("cookie-run-crumble-pinot-noir-cookie-build");
     expectPublishableGuide(pinotNoirGuideSource);
@@ -186,7 +206,7 @@ describe("guide registry", () => {
       "../content/guides/cookie-run-crumble-resource-guide-account-traps.mdx",
       import.meta.url,
     );
-    const guide = guides[6];
+    const guide = guides[7];
 
     expect(guide?.slug).toBe("cookie-run-crumble-resource-guide-account-traps");
     expect(existsSync(guidePath)).toBe(true);
@@ -207,11 +227,11 @@ describe("guide registry", () => {
       import.meta.url,
     );
 
-    expect(guides[7]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
+    expect(guides[8]?.slug).toBe("cookie-run-crumble-tips-hidden-mechanics");
     expect(existsSync(guidePath)).toBe(true);
     expectPublishableGuide(hiddenMechanicsGuideSource);
     const sectionIds = [...hiddenMechanicsGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
-    expect(sectionIds).toEqual(guides[7]?.toc.map((item) => item.id));
+    expect(sectionIds).toEqual(guides[8]?.toc.map((item) => item.id));
     expect(hiddenMechanicsGuideSource).toContain("[Teams](/teams/)");
     expect(hiddenMechanicsGuideSource).toContain("[Tier List](/tier-list/)");
   });
@@ -266,7 +286,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-strawberry-crepe-cookie-build-team");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-fast-account-growth-guide");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 
