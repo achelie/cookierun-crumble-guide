@@ -5,11 +5,51 @@ export type RecommendedTeam = {
   description: string;
   cookies: string[];
   pets: string[];
+  updatedAt: string;
+  guideReference?: {
+    href: string;
+    leadIn: string;
+    anchor: string;
+    followUp: string;
+  };
 };
 
-export const teamsUpdatedAt = "2026-08-31";
+const previousTeamsUpdatedAt = "2026-08-31";
+export const teamsUpdatedAt = "2026-09-02";
 
-export const recommendedTeams: RecommendedTeam[] = [
+type RecommendedTeamInput = Omit<RecommendedTeam, "updatedAt"> & { updatedAt?: string };
+
+const recommendedTeamInputs: RecommendedTeamInput[] = [
+  {
+    id: "strawberry-crepe-rapid-aoe",
+    name: "Strawberry Crepe Rapid AoE Team",
+    kicker: "Clear packed stages before they snowball",
+    description: "Use this wave-clearing formation for crowded stages and tower rooms. Strawberry Crepe gets a Rapid Fire package, while Macaron, Pomegranate, and the support core keep the short-range damage cycle alive. Chargemellow, Holy Baby Drop, and Hot Doggie complete the setup.",
+    cookies: ["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"],
+    pets: ["pet4005", "pet4001", "pet0111"],
+    updatedAt: teamsUpdatedAt,
+    guideReference: {
+      href: "/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team/",
+      leadIn: "For exact Sugar Rune priorities and the safer Devil swap, read the ",
+      anchor: "Strawberry Crepe build guide",
+      followUp: ".",
+    },
+  },
+  {
+    id: "wind-archer-guild-conquest",
+    name: "Wind Archer Guild Conquest Team",
+    kicker: "A higher ceiling for Guild Conquest bosses",
+    description: "Use this when a Guild Conquest boss survives your final push. Wind Archer, Scorpion, Rye, and Melon Soda carry the damage window, while Pomegranate, Milk, and the support core keep buffs, healing, DEF Down, and Lift Resistance online. If Wind Archer is underpromoted, use Milky Way only when its stars and Runes are clearly ahead.",
+    cookies: ["cookie0070", "cookie0181", "cookie0040", "cookie0126", "cookie3001", "cookie4024", "cookie0059", "cookie0515", "cookie4010", "cookie0018", "cookie4019", "cookie0103"],
+    pets: ["pet4001", "pet0111", "pet0069"],
+    updatedAt: teamsUpdatedAt,
+    guideReference: {
+      href: "/guides/cookie-run-crumble-guild-conquest-team-guide/",
+      leadIn: "The ",
+      anchor: "Guild Conquest team guide",
+      followUp: " covers the Milky Way comparison, Runes, and retry method.",
+    },
+  },
   {
     id: "brightseeker-stage-core",
     name: "Brightseeker Stage Core",
@@ -107,6 +147,11 @@ export const recommendedTeams: RecommendedTeam[] = [
     pets: ["pet4004", "pet0029", "pet4001"],
   },
 ];
+
+export const recommendedTeams: RecommendedTeam[] = recommendedTeamInputs.map((team) => ({
+  ...team,
+  updatedAt: team.updatedAt ?? previousTeamsUpdatedAt,
+}));
 
 export const teamSize = 12;
 export const petTeamSize = 3;

@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import { LegacyTeamQueryRedirect } from "@/components/legacy-team-query-redirect";
 import { SeoPageHeader } from "@/components/seo-page-header";
 import { StructuredData } from "@/components/structured-data";
-import { TeamShowcase } from "@/components/team-showcase";
+import { TeamsExplorer, TeamsExplorerFallback } from "@/components/teams-explorer";
 import { AppIcon } from "@/components/ui/icon";
 import { recommendedTeams } from "@/data/teams";
 import { pageMetadata } from "@/lib/metadata";
@@ -20,13 +20,19 @@ export default function TeamsPage() {
       <StructuredData data={collectionPageSchema(page, recommendedTeams.map((team) => ({ "@type": "CreativeWork", name: team.name, description: team.description })))} />
       <Suspense fallback={null}><LegacyTeamQueryRedirect /></Suspense>
       <SeoPageHeader page={page} icon="users" />
-      <aside className="team-tools-callout">
-        <div><span className="eyebrow">Your turn</span><h2>Build beyond the presets.</h2><p>Place 12 Cookies and 3 Pets exactly where you want them, then share the lineup as a link or PNG.</p></div>
-        <Link className="primary-button" href="/tools/team-builder/"><AppIcon name="tools" size={18} />Open Team Builder</Link>
+      <aside className="page-crosslink" aria-label="Related Cookie rankings">
+        <AppIcon name="trophy" size={16} />
+        <span>Not sure which Cookie deserves your next upgrade?</span>
+        <Link href="/tier-list/">Check the current tier list<AppIcon name="chevron" size={14} /></Link>
       </aside>
-      <section className="recommended-teams" aria-label="Recommended teams">
-        {recommendedTeams.map((team, index) => <TeamShowcase team={team} index={index} key={team.id} />)}
-      </section>
+      <aside className="builder-inline-link" aria-label="Team Builder">
+        <AppIcon name="tools" size={15} />
+        <span>Need a custom lineup?</span>
+        <Link href="/tools/team-builder/">Open Team Builder<AppIcon name="chevron" size={13} /></Link>
+      </aside>
+      <Suspense fallback={<TeamsExplorerFallback teams={recommendedTeams} />}>
+        <TeamsExplorer teams={recommendedTeams} />
+      </Suspense>
     </div>
   );
 }

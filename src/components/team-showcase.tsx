@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 import { CookieTaxonomyBadges } from "@/components/cookie-taxonomy-badges";
 import { PetSlots } from "@/components/pet-slots";
 import { SynergySummary } from "@/components/synergy-summary";
 import { AppIcon } from "@/components/ui/icon";
 import { cookieById, type Cookie } from "@/data/cookies";
 import { petById } from "@/data/pets";
-import { teamsUpdatedAt, type RecommendedTeam } from "@/data/teams";
+import type { RecommendedTeam } from "@/data/teams";
 
 const dateFormatter = new Intl.DateTimeFormat("en", {
   month: "short",
@@ -14,7 +15,7 @@ const dateFormatter = new Intl.DateTimeFormat("en", {
   timeZone: "UTC",
 });
 
-export function TeamShowcase({ team }: { team: RecommendedTeam; index: number }) {
+export function TeamShowcase({ team }: { team: RecommendedTeam }) {
   const selectedCookies = team.cookies.map((id) => cookieById.get(id)).filter((cookie): cookie is Cookie => Boolean(cookie));
   const selectedPets = team.pets.map((id) => petById.get(id));
 
@@ -23,10 +24,15 @@ export function TeamShowcase({ team }: { team: RecommendedTeam; index: number })
       <div className="team-showcase__copy">
         <span>{team.kicker}</span>
         <h2>{team.name}</h2>
-        <p>{team.description}</p>
+        <p>
+          {team.description}
+          {team.guideReference && (
+            <> {team.guideReference.leadIn}<Link href={team.guideReference.href}>{team.guideReference.anchor}</Link>{team.guideReference.followUp}</>
+          )}
+        </p>
         <div className="team-showcase__meta">
           <AppIcon name="calendar" size={15} />
-          <span>Updated {dateFormatter.format(new Date(`${teamsUpdatedAt}T00:00:00Z`))}</span>
+          <span>Updated {dateFormatter.format(new Date(`${team.updatedAt}T00:00:00Z`))}</span>
         </div>
       </div>
       <div className="team-showcase__formation">
