@@ -10,14 +10,15 @@ export type MobileNavigationItem = {
   icon: IconName;
 };
 
-const closeDuration = 220;
+const closeDuration = 250;
 
 export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const closeTimerRef = useRef<number | null>(null);
+  const openFrameRef = useRef<number | null>(null);
   const [isOpen, setIsOpen] = useState(false);
-  const [isClosing, setIsClosing] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
   function clearCloseTimer() {
     if (closeTimerRef.current !== null) {
@@ -26,19 +27,40 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
     }
   }
 
+  function clearOpenFrame() {
+    if (openFrameRef.current !== null) {
+      window.cancelAnimationFrame(openFrameRef.current);
+      openFrameRef.current = null;
+    }
+  }
+
   function openMenu() {
     const dialog = dialogRef.current;
     if (!dialog || dialog.open) return;
     clearCloseTimer();
-    setIsClosing(false);
+    clearOpenFrame();
+    setIsVisible(false);
     dialog.showModal();
     setIsOpen(true);
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setIsVisible(true);
+      return;
+    }
+
+    openFrameRef.current = window.requestAnimationFrame(() => {
+      openFrameRef.current = window.requestAnimationFrame(() => {
+        setIsVisible(true);
+        openFrameRef.current = null;
+      });
+    });
   }
 
   function closeMenu(immediate = false) {
     const dialog = dialogRef.current;
     if (!dialog?.open) return;
     clearCloseTimer();
+    clearOpenFrame();
 
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (immediate || reduceMotion) {
@@ -46,7 +68,7 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
       return;
     }
 
-    setIsClosing(true);
+    setIsVisible(false);
     closeTimerRef.current = window.setTimeout(() => dialog.close(), closeDuration);
   }
 
@@ -59,7 +81,10 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
     };
   }, [isOpen]);
 
-  useEffect(() => () => clearCloseTimer(), []);
+  useEffect(() => () => {
+    clearCloseTimer();
+    clearOpenFrame();
+  }, []);
 
   useEffect(() => {
     const desktopQuery = window.matchMedia("(min-width: 981px)");
@@ -77,7 +102,7 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
         className="mobile-nav-toggle"
         type="button"
         aria-label="Open navigation menu"
-        aria-expanded={isOpen && !isClosing}
+        aria-expanded={isOpen && isVisible}
         aria-controls="mobile-navigation"
         onClick={openMenu}
       >
@@ -87,7 +112,7 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
       <dialog
         ref={dialogRef}
         id="mobile-navigation"
-        className={`mobile-nav-drawer${isClosing ? " is-closing" : ""}`}
+        className={`mobile-nav-drawer${isVisible ? " is-open" : ""}`}
         aria-label="Mobile navigation"
         onCancel={(event) => {
           event.preventDefault();
@@ -95,8 +120,9 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
         }}
         onClose={() => {
           clearCloseTimer();
+          clearOpenFrame();
           setIsOpen(false);
-          setIsClosing(false);
+          setIsVisible(false);
           triggerRef.current?.focus();
         }}
         onClick={(event) => {

@@ -6,6 +6,12 @@ export type RecommendedTeam = {
   cookies: string[];
   pets: string[];
   updatedAt: string;
+  guideReference?: {
+    href: string;
+    leadIn: string;
+    anchor: string;
+    followUp: string;
+  };
 };
 
 const previousTeamsUpdatedAt = "2026-08-31";
@@ -22,6 +28,12 @@ const recommendedTeamInputs: RecommendedTeamInput[] = [
     cookies: ["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"],
     pets: ["pet4005", "pet4001", "pet0111"],
     updatedAt: teamsUpdatedAt,
+    guideReference: {
+      href: "/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team/",
+      leadIn: "For exact Sugar Rune priorities and the safer Devil swap, read the ",
+      anchor: "Strawberry Crepe build guide",
+      followUp: ".",
+    },
   },
   {
     id: "wind-archer-guild-conquest",
@@ -31,6 +43,12 @@ const recommendedTeamInputs: RecommendedTeamInput[] = [
     cookies: ["cookie0070", "cookie0181", "cookie0040", "cookie0126", "cookie3001", "cookie4024", "cookie0059", "cookie0515", "cookie4010", "cookie0018", "cookie4019", "cookie0103"],
     pets: ["pet4001", "pet0111", "pet0069"],
     updatedAt: teamsUpdatedAt,
+    guideReference: {
+      href: "/guides/cookie-run-crumble-guild-conquest-team-guide/",
+      leadIn: "The ",
+      anchor: "Guild Conquest team guide",
+      followUp: " covers the Milky Way comparison, Runes, and retry method.",
+    },
   },
   {
     id: "brightseeker-stage-core",

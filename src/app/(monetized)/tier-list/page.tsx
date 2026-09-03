@@ -27,9 +27,15 @@ export default function TierListPage() {
     <div className="page-shell">
       <StructuredData data={collectionPageSchema(page, schemaItems)} />
       <SeoPageHeader page={page} icon="trophy" />
-      <aside className="team-tools-callout tier-tools-callout">
-        <div><span className="eyebrow">Make your own</span><h2>Move every Cookie where you want.</h2><p>Load this ranking into the Tier List Builder, drag any Cookie to a new tier, then save the result as a link or PNG.</p></div>
-        <Link className="primary-button" href="/tools/tier-builder/"><AppIcon name="tools" size={18} />Open Tier Builder</Link>
+      <aside className="page-crosslink" aria-label="Related team recommendations">
+        <AppIcon name="users" size={16} />
+        <span>Want to turn these rankings into a working lineup?</span>
+        <Link href="/teams/">Browse tested teams<AppIcon name="chevron" size={14} /></Link>
+      </aside>
+      <aside className="builder-inline-link" aria-label="Tier List Builder">
+        <AppIcon name="tools" size={15} />
+        <span>Want your own ranking?</span>
+        <Link href="/tools/tier-builder/">Open Tier Builder<AppIcon name="chevron" size={13} /></Link>
       </aside>
       <TierBoard />
     </div>
