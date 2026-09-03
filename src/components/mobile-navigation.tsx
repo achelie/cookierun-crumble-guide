@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { AppIcon, type IconName } from "@/components/ui/icon";
 
 export type MobileNavigationItem = {
@@ -17,8 +17,7 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
   const triggerRef = useRef<HTMLButtonElement>(null);
   const closeTimerRef = useRef<number | null>(null);
   const openFrameRef = useRef<number | null>(null);
-  const [isOpen, setIsOpen] = useState(false);
-  const [isVisible, setIsVisible] = useState(false);
+  const previousOverflowRef = useRef<string | null>(null);
 
   function clearCloseTimer() {
     if (closeTimerRef.current !== null) {
@@ -27,11 +26,16 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
     }
   }
 
+  function unlockPageScroll() {
+    if (previousOverflowRef.current === null) return;
+    document.body.style.overflow = previousOverflowRef.current;
+    previousOverflowRef.current = null;
+  }
+
   function clearOpenFrame() {
-    if (openFrameRef.current !== null) {
-      window.cancelAnimationFrame(openFrameRef.current);
-      openFrameRef.current = null;
-    }
+    if (openFrameRef.current === null) return;
+    window.cancelAnimationFrame(openFrameRef.current);
+    openFrameRef.current = null;
   }
 
   function openMenu() {
@@ -39,20 +43,18 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
     if (!dialog || dialog.open) return;
     clearCloseTimer();
     clearOpenFrame();
-    setIsVisible(false);
+    dialog.classList.remove("is-open");
+    previousOverflowRef.current = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
     dialog.showModal();
-    setIsOpen(true);
+    triggerRef.current?.setAttribute("aria-expanded", "true");
 
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setIsVisible(true);
-      return;
-    }
-
+    // Commit the dialog itself at translateX(100%), fully outside the viewport,
+    // before moving it left into its right-aligned resting position.
+    void dialog.offsetWidth;
     openFrameRef.current = window.requestAnimationFrame(() => {
-      openFrameRef.current = window.requestAnimationFrame(() => {
-        setIsVisible(true);
-        openFrameRef.current = null;
-      });
+      dialog.classList.add("is-open");
+      openFrameRef.current = null;
     });
   }
 
@@ -68,22 +70,15 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
       return;
     }
 
-    setIsVisible(false);
+    dialog.classList.remove("is-open");
     closeTimerRef.current = window.setTimeout(() => dialog.close(), closeDuration);
   }
-
-  useEffect(() => {
-    if (!isOpen) return;
-    const previousOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.body.style.overflow = previousOverflow;
-    };
-  }, [isOpen]);
 
   useEffect(() => () => {
     clearCloseTimer();
     clearOpenFrame();
+    if (dialogRef.current?.open) dialogRef.current.close();
+    unlockPageScroll();
   }, []);
 
   useEffect(() => {
@@ -102,7 +97,7 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
         className="mobile-nav-toggle"
         type="button"
         aria-label="Open navigation menu"
-        aria-expanded={isOpen && isVisible}
+        aria-expanded={false}
         aria-controls="mobile-navigation"
         onClick={openMenu}
       >
@@ -112,7 +107,7 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
       <dialog
         ref={dialogRef}
         id="mobile-navigation"
-        className={`mobile-nav-drawer${isVisible ? " is-open" : ""}`}
+        className="mobile-nav-drawer"
         aria-label="Mobile navigation"
         onCancel={(event) => {
           event.preventDefault();
@@ -121,12 +116,24 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
         onClose={() => {
           clearCloseTimer();
           clearOpenFrame();
-          setIsOpen(false);
-          setIsVisible(false);
+          dialogRef.current?.classList.remove("is-open");
+          triggerRef.current?.setAttribute("aria-expanded", "false");
+          unlockPageScroll();
           triggerRef.current?.focus();
         }}
         onClick={(event) => {
           if (event.target === event.currentTarget) closeMenu();
+        }}
+        onTransitionEnd={(event) => {
+          if (
+            event.target === event.currentTarget &&
+            event.propertyName === "transform" &&
+            dialogRef.current?.open &&
+            !dialogRef.current.classList.contains("is-open")
+          ) {
+            clearCloseTimer();
+            dialogRef.current.close();
+          }
         }}
       >
         <div className="mobile-nav-drawer__panel">
