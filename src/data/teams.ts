@@ -15,11 +15,26 @@ export type RecommendedTeam = {
 };
 
 const previousTeamsUpdatedAt = "2026-08-31";
-export const teamsUpdatedAt = "2026-09-02";
+export const teamsUpdatedAt = "2026-09-04";
 
 type RecommendedTeamInput = Omit<RecommendedTeam, "updatedAt"> & { updatedAt?: string };
 
 const recommendedTeamInputs: RecommendedTeamInput[] = [
+  {
+    id: "pinot-noir-multistrike-boss",
+    name: "Pinot Noir Multi-strike Boss Team",
+    kicker: "Let the repeated hits reach full speed",
+    description: "Use this as the general Pinot Noir boss preset. Wind Archer, Brightseeker, Melon Soda, and Rye carry the damage while Macaron, Pomegranate, Milk, Herb, Nameless Cake Hound, and Dark Choco keep the full cycle alive. Panda Dumpling adds anti-lift stability beside Pinot Noir.",
+    cookies: ["cookie0070", "cookie4013", "cookie3001", "cookie0126", "cookie4019", "cookie0063", "cookie0059", "cookie0515", "cookie4010", "cookie0018", "cookie4024", "cookie0103"],
+    pets: ["pet0069", "pet4005", "pet4001"],
+    updatedAt: teamsUpdatedAt,
+    guideReference: {
+      href: "/guides/cookie-run-crumble-pinot-noir-multistrike-scorpion-teams/",
+      leadIn: "The ",
+      anchor: "Pinot Noir team guide",
+      followUp: " explains the Scorpion alternative, anti-knock-up setup, and safe slot swaps.",
+    },
+  },
   {
     id: "strawberry-crepe-rapid-aoe",
     name: "Strawberry Crepe Rapid AoE Team",
@@ -27,7 +42,7 @@ const recommendedTeamInputs: RecommendedTeamInput[] = [
     description: "Use this wave-clearing formation for crowded stages and tower rooms. Strawberry Crepe gets a Rapid Fire package, while Macaron, Pomegranate, and the support core keep the short-range damage cycle alive. Chargemellow, Holy Baby Drop, and Hot Doggie complete the setup.",
     cookies: ["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"],
     pets: ["pet4005", "pet4001", "pet0111"],
-    updatedAt: teamsUpdatedAt,
+    updatedAt: "2026-09-02",
     guideReference: {
       href: "/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team/",
       leadIn: "For exact Sugar Rune priorities and the safer Devil swap, read the ",
@@ -42,7 +57,7 @@ const recommendedTeamInputs: RecommendedTeamInput[] = [
     description: "Use this when a Guild Conquest boss survives your final push. Wind Archer, Scorpion, Rye, and Melon Soda carry the damage window, while Pomegranate, Milk, and the support core keep buffs, healing, DEF Down, and Lift Resistance online. If Wind Archer is underpromoted, use Milky Way only when its stars and Runes are clearly ahead.",
     cookies: ["cookie0070", "cookie0181", "cookie0040", "cookie0126", "cookie3001", "cookie4024", "cookie0059", "cookie0515", "cookie4010", "cookie0018", "cookie4019", "cookie0103"],
     pets: ["pet4001", "pet0111", "pet0069"],
-    updatedAt: teamsUpdatedAt,
+    updatedAt: "2026-09-02",
     guideReference: {
       href: "/guides/cookie-run-crumble-guild-conquest-team-guide/",
       leadIn: "The ",

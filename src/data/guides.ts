@@ -41,6 +41,43 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams",
+    title: "CookieRun: Crumble Team Guide: Your Copied Pinot Noir Team Is Failing for a Reason",
+    seoTitle: "CookieRun: Crumble Pinot Noir Teams | Multi-strike vs Scorpion",
+    seoDescription: "Fix failing CookieRun: Crumble Pinot Noir teams with complete Multi-strike and Scorpion lineups, exact Pets, Sugar Rune priorities, and smart swaps.",
+    excerpt: "Copied a strong Pinot Noir lineup and still lost? Pick the right Multi-strike or Scorpion core, then fix the exact slot your account cannot support.",
+    category: "team-building",
+    tags: ["Pinot Noir Cookie", "Multi-strike", "Scorpion Cookie", "Boss Teams", "Team Building"],
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    readingMinutes: 9,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4010", "cookie0181", "cookie4013"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-pinot-noir-cookie-build",
+      "cookie-run-crumble-guild-conquest-team-guide",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+    ],
+    toc: [
+      { id: "why-copied-teams-fail", label: "Diagnose the copied team's failure" },
+      { id: "choose-team-path", label: "Choose Multi-strike or Scorpion" },
+      { id: "multistrike-team", label: "Copy the Multi-strike team" },
+      { id: "scorpion-team", label: "Copy the Scorpion team" },
+      { id: "fix-boss-control", label: "Counter boss knock-up" },
+      { id: "swap-rules", label: "Make one useful swap" },
+      { id: "rune-priorities", label: "Set Sugar Rune priorities" },
+      { id: "hybrid-team", label: "Build a late-game hybrid" },
+      { id: "pinot-team-faq", label: "Pinot Noir team FAQ" },
+    ],
+    faq: [
+      { question: "Which Pinot Noir team should I build first?", answer: "Start with the Multi-strike team. It has the broader damage package and works as the better general boss preset. Use the Scorpion team when damage over time, Duration support, or anti-knock-up stability matters more." },
+      { question: "Why does Multi-strike damage look low at the start?", answer: "Its repeated attacks, buffs, and debuffs need time to overlap. The boss HP can move slowly at first, then fall much faster once the full cycle starts. Judge the completed attempt, not the opening seconds." },
+      { question: "Do multiple Multi-shot providers stack their buffs?", answer: "No. The strongest identical active synergy applies. Multiple providers still improve uptime because each Cookie activates the effect during a different skill window." },
+      { question: "Should I use Dark Choco or Devil Cookie for DEF Down?", answer: "Use a well-promoted Dark Choco as the safe default. Try Devil only when the team survives comfortably and needs a stronger short damage window." },
+      { question: "When should I remove Herb Cookie?", answer: "Remove Herb only when Milk Cookie's Crunchy Strong Pediatrician already keeps the team healthy. If a Cookie dies before the next skill cycle, Herb was not the problem." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-fast-account-growth-guide",
     title: "CookieRun: Crumble Fast Progression Guide: Stop Wasting Daily Power",
     seoTitle: "CookieRun: Crumble Fast Account Growth Guide",

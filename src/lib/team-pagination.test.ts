@@ -30,10 +30,10 @@ function guideFormations() {
 }
 
 describe("teams pagination", () => {
-  it("shows 14 teams across pages of 6, 6, and 2", () => {
+  it("shows 15 teams across pages of 6, 6, and 3", () => {
     expect(teamsPageSize).toBe(6);
-    expect([1, 2, 3].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([6, 6, 2]);
-    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 3, total: 14 });
+    expect([1, 2, 3].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([6, 6, 3]);
+    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 3, total: 15 });
   });
 
   it("normalizes missing, malformed, negative, and oversized page values", () => {
@@ -55,6 +55,7 @@ describe("team guide references", () => {
     const linkedTeams = recommendedTeams.filter((team) => team.guideReference);
 
     expect(exactMatches.map((team) => team.id)).toEqual([
+      "pinot-noir-multistrike-boss",
       "strawberry-crepe-rapid-aoe",
       "wind-archer-guild-conquest",
     ]);

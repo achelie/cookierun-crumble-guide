@@ -23,6 +23,12 @@ const newStageTeams = [
 
 const addedTeams = [
   {
+    id: "pinot-noir-multistrike-boss",
+    cookies: ["cookie0070", "cookie4013", "cookie3001", "cookie0126", "cookie4019", "cookie0063", "cookie0059", "cookie0515", "cookie4010", "cookie0018", "cookie4024", "cookie0103"],
+    pets: ["pet0069", "pet4005", "pet4001"],
+    updatedAt: "2026-09-04",
+  },
+  {
     id: "strawberry-crepe-rapid-aoe",
     cookies: ["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"],
     pets: ["pet4005", "pet4001", "pet0111"],
@@ -50,8 +56,8 @@ describe("recommended teams", () => {
   });
 
   it("puts the newly added formations first with the latest date", () => {
-    expect(teamsUpdatedAt).toBe("2026-09-02");
-    expect(recommendedTeams.slice(0, 2).map((team) => team.id)).toEqual(addedTeams.map((team) => team.id));
+    expect(teamsUpdatedAt).toBe("2026-09-04");
+    expect(recommendedTeams.slice(0, 3).map((team) => team.id)).toEqual(addedTeams.map((team) => team.id));
 
     for (const expected of addedTeams) {
       const team = recommendedTeams.find((candidate) => candidate.id === expected.id);
@@ -62,7 +68,7 @@ describe("recommended teams", () => {
   });
 
   it("preserves the previous team order and update date", () => {
-    expect(recommendedTeams.slice(2, 5).map((team) => team.id)).toEqual(newStageTeams.map((team) => team.id));
+    expect(recommendedTeams.slice(3, 6).map((team) => team.id)).toEqual(newStageTeams.map((team) => team.id));
 
     for (const expected of newStageTeams) {
       const team = recommendedTeams.find((candidate) => candidate.id === expected.id);
@@ -71,7 +77,7 @@ describe("recommended teams", () => {
       expect(team?.updatedAt).toBe("2026-08-31");
     }
 
-    expect(recommendedTeams.slice(2).every((team) => team.updatedAt === "2026-08-31")).toBe(true);
+    expect(recommendedTeams.slice(3).every((team) => team.updatedAt === "2026-08-31")).toBe(true);
   });
 
   it("uses distinct ids and copy without long dash characters", () => {
