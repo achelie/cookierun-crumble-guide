@@ -32,7 +32,7 @@ const addedTeams = [
     id: "strawberry-crepe-rapid-aoe",
     cookies: ["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"],
     pets: ["pet4005", "pet4001", "pet0111"],
-    updatedAt: "2026-09-02",
+    updatedAt: "2026-09-05",
   },
   {
     id: "wind-archer-guild-conquest",
@@ -56,8 +56,10 @@ describe("recommended teams", () => {
   });
 
   it("puts the newly added formations first with the latest date", () => {
-    expect(teamsUpdatedAt).toBe("2026-09-04");
-    expect(recommendedTeams.slice(0, 3).map((team) => team.id)).toEqual(addedTeams.map((team) => team.id));
+    expect(teamsUpdatedAt).toBe("2026-09-05");
+    expect(recommendedTeams.slice(0, 3).map((team) => team.id)).toEqual([
+      "strawberry-crepe-rapid-aoe", "pinot-noir-multistrike-boss", "wind-archer-guild-conquest",
+    ]);
 
     for (const expected of addedTeams) {
       const team = recommendedTeams.find((candidate) => candidate.id === expected.id);

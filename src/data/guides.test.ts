@@ -71,19 +71,57 @@ function guideProse(source: string) {
     .replace(/<[^>]+>/g, "");
 }
 
-function expectPublishableGuide(source: string) {
+function expectPublishableGuide(source: string, maxWords = 1_500) {
   const prose = guideProse(source);
   const wordCount = prose.match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length ?? 0;
 
   expect(wordCount).toBeGreaterThanOrEqual(1_000);
-  expect(wordCount).toBeLessThanOrEqual(1_500);
+  expect(wordCount).toBeLessThanOrEqual(maxWords);
   expect(prose).not.toMatch(/\b(?:youtube|video|subtitle|source)\b/i);
   expect(prose).not.toMatch(/[—–]/);
 }
 
 describe("guide registry", () => {
-  it("publishes the Pinot Noir team guide as the newest article", () => {
-    const guide = guides[0];
+  it("publishes the Arena guide with the pictured lineup and matching FAQ", () => {
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-arena-healing-down-team-guide");
+    const content = readFileSync(
+      new URL("../content/guides/cookie-run-crumble-arena-healing-down-team-guide.mdx", import.meta.url),
+      "utf8",
+    );
+    expect(guide).toBeDefined();
+    expectPublishableGuide(content, 1_800);
+    expect([...content.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]))
+      .toEqual(guide?.toc.map((item) => item.id));
+    expect(content.match(/\]\(\/[^)]+\)/g)).toHaveLength(4);
+    expect(content.match(/<GuideTeamFormation/g)).toHaveLength(1);
+    expect(content).toContain('cookieIds={["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"]}');
+    expect(content).toContain('petIds={["pet4005", "pet4001", "pet0111"]}');
+    guide?.faq.forEach((item) => {
+      expect(content).toContain(`### ${item.question}`);
+      expect(content).toContain(item.answer);
+    });
+  });
+
+  it("publishes the level 100 guide with matching content, navigation, and FAQ", () => {
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-level-100-exp-priority-guide");
+    const content = readFileSync(
+      new URL("../content/guides/cookie-run-crumble-level-100-exp-priority-guide.mdx", import.meta.url),
+      "utf8",
+    );
+
+    expect(guide?.slug).toBe("cookie-run-crumble-level-100-exp-priority-guide");
+    expectPublishableGuide(content, 1_800);
+    expect([...content.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]))
+      .toEqual(guide?.toc.map((item) => item.id));
+    expect(content.match(/\]\(\/[^)]+\)/g)).toHaveLength(4);
+    guide?.faq.forEach((item) => {
+      expect(content).toContain(`### ${item.question}`);
+      expect(content).toContain(item.answer);
+    });
+  });
+
+  it("keeps the Pinot Noir team guide published", () => {
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams");
 
     expect(guide?.slug).toBe("cookie-run-crumble-pinot-noir-multistrike-scorpion-teams");
     expectPublishableGuide(pinotTeamGuideSource);
@@ -316,7 +354,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-pinot-noir-multistrike-scorpion-teams");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-arena-healing-down-team-guide");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 

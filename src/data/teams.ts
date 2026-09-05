@@ -15,11 +15,26 @@ export type RecommendedTeam = {
 };
 
 const previousTeamsUpdatedAt = "2026-08-31";
-export const teamsUpdatedAt = "2026-09-04";
+export const teamsUpdatedAt = "2026-09-05";
 
 type RecommendedTeamInput = Omit<RecommendedTeam, "updatedAt"> & { updatedAt?: string };
 
 const recommendedTeamInputs: RecommendedTeamInput[] = [
+  {
+    id: "strawberry-crepe-rapid-aoe",
+    name: "Strawberry Crepe Rapid AoE Team",
+    kicker: "Keep the damage core, tune Arena survival",
+    description: "Use this Rapid AoE formation for packed stages or as an Arena baseline. Herb and Milk still provide recovery, so this is not a no-healer team. Keep the damage core, then test Rockstar or extra control when healing reduction makes survival unreliable.",
+    cookies: ["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"],
+    pets: ["pet4005", "pet4001", "pet0111"],
+    updatedAt: "2026-09-05",
+    guideReference: {
+      href: "/guides/cookie-run-crumble-arena-healing-down-team-guide/",
+      leadIn: "The ",
+      anchor: "Arena healing reduction guide",
+      followUp: " explains when to keep Herb and when shields or control help more.",
+    },
+  },
   {
     id: "pinot-noir-multistrike-boss",
     name: "Pinot Noir Multi-strike Boss Team",
@@ -27,27 +42,12 @@ const recommendedTeamInputs: RecommendedTeamInput[] = [
     description: "Use this as the general Pinot Noir boss preset. Wind Archer, Brightseeker, Melon Soda, and Rye carry the damage while Macaron, Pomegranate, Milk, Herb, Nameless Cake Hound, and Dark Choco keep the full cycle alive. Panda Dumpling adds anti-lift stability beside Pinot Noir.",
     cookies: ["cookie0070", "cookie4013", "cookie3001", "cookie0126", "cookie4019", "cookie0063", "cookie0059", "cookie0515", "cookie4010", "cookie0018", "cookie4024", "cookie0103"],
     pets: ["pet0069", "pet4005", "pet4001"],
-    updatedAt: teamsUpdatedAt,
+    updatedAt: "2026-09-04",
     guideReference: {
       href: "/guides/cookie-run-crumble-pinot-noir-multistrike-scorpion-teams/",
       leadIn: "The ",
       anchor: "Pinot Noir team guide",
       followUp: " explains the Scorpion alternative, anti-knock-up setup, and safe slot swaps.",
-    },
-  },
-  {
-    id: "strawberry-crepe-rapid-aoe",
-    name: "Strawberry Crepe Rapid AoE Team",
-    kicker: "Clear packed stages before they snowball",
-    description: "Use this wave-clearing formation for crowded stages and tower rooms. Strawberry Crepe gets a Rapid Fire package, while Macaron, Pomegranate, and the support core keep the short-range damage cycle alive. Chargemellow, Holy Baby Drop, and Hot Doggie complete the setup.",
-    cookies: ["cookie0059", "cookie0181", "cookie3001", "cookie0126", "cookie4024", "cookie0063", "cookie4013", "cookie0515", "cookie4010", "cookie4019", "cookie0518", "cookie0103"],
-    pets: ["pet4005", "pet4001", "pet0111"],
-    updatedAt: "2026-09-02",
-    guideReference: {
-      href: "/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team/",
-      leadIn: "For exact Sugar Rune priorities and the safer Devil swap, read the ",
-      anchor: "Strawberry Crepe build guide",
-      followUp: ".",
     },
   },
   {

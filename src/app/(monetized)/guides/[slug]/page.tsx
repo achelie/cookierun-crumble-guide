@@ -125,7 +125,7 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
             <span>By {guide.author}</span>
           </div>
         </div>
-        <GuideCover cookieIds={guide.coverCookieIds} priority />
+        <GuideCover cookieIds={guide.coverCookieIds} compact priority />
       </header>
 
       <div className="guide-reading-layout">

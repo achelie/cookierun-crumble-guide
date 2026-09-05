@@ -55,8 +55,8 @@ describe("team guide references", () => {
     const linkedTeams = recommendedTeams.filter((team) => team.guideReference);
 
     expect(exactMatches.map((team) => team.id)).toEqual([
-      "pinot-noir-multistrike-boss",
       "strawberry-crepe-rapid-aoe",
+      "pinot-noir-multistrike-boss",
       "wind-archer-guild-conquest",
     ]);
     expect(linkedTeams.map((team) => team.id)).toEqual(exactMatches.map((team) => team.id));
