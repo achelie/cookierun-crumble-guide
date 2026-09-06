@@ -81,10 +81,10 @@ export const seoPages = {
   },
   teams: {
     path: "/teams/",
-    title: "CookieRun: Crumble Best Teams | Story, Boss & F2P",
+    title: "CookieRun: Crumble Best Teams | Bosses, Dungeons & Arena",
     h1: "CookieRun: Crumble Best Teams",
-    summary: `Updated ${formatFullDate(teamsUpdatedAt)}. Copy ${recommendedTeams.length} teams for Brightseeker pushes, F2P progress, bosses, tower floors, and daily dungeons.`,
-    description: `Updated ${formatFullDate(teamsUpdatedAt)}. Copy CookieRun: Crumble teams for story, bosses, F2P progress, tower floors, and daily dungeons, with Pets and Synergy.`,
+    summary: `Updated ${formatFullDate(teamsUpdatedAt)}. Copy ${recommendedTeams.length} teams for story, bosses, dungeons, Plaque Tower, and Arena. Each includes Pets and quick setup tips.`,
+    description: `Updated ${formatFullDate(teamsUpdatedAt)}. CookieRun: Crumble teams for Gingercraven, Cool Mint, dungeons, Plaque Tower, and Arena, with ordered Cookies and Pets.`,
     breadcrumb: "Teams",
     updatedAt: teamsUpdatedAt,
   },

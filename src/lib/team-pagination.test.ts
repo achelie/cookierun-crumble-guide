@@ -30,10 +30,10 @@ function guideFormations() {
 }
 
 describe("teams pagination", () => {
-  it("shows 15 teams across pages of 6, 6, and 3", () => {
-    expect(teamsPageSize).toBe(6);
-    expect([1, 2, 3].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([6, 6, 3]);
-    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 3, total: 15 });
+  it("shows 10 teams across pages of 7 and 3", () => {
+    expect(teamsPageSize).toBe(7);
+    expect([1, 2].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([7, 3]);
+    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 2, total: 10 });
   });
 
   it("normalizes missing, malformed, negative, and oversized page values", () => {
@@ -41,7 +41,7 @@ describe("teams pagination", () => {
     expect(normalizeTeamsPage("nope", recommendedTeams.length)).toBe(1);
     expect(normalizeTeamsPage("2oops", recommendedTeams.length)).toBe(1);
     expect(normalizeTeamsPage(-4, recommendedTeams.length)).toBe(1);
-    expect(normalizeTeamsPage(99, recommendedTeams.length)).toBe(3);
+    expect(normalizeTeamsPage(99, recommendedTeams.length)).toBe(2);
   });
 });
 
@@ -55,6 +55,7 @@ describe("team guide references", () => {
     const linkedTeams = recommendedTeams.filter((team) => team.guideReference);
 
     expect(exactMatches.map((team) => team.id)).toEqual([
+      "september-general-purpose",
       "strawberry-crepe-rapid-aoe",
       "pinot-noir-multistrike-boss",
       "wind-archer-guild-conquest",
