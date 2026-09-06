@@ -41,6 +41,40 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-equipment-choice-guide",
+    title: "CookieRun: Crumble equipment guide: Stop keeping the wrong upgrade",
+    seoTitle: "CookieRun: Crumble Equipment Guide | Which Roll to Keep?",
+    seoDescription: "Choose better CookieRun: Crumble equipment: compare power, Accuracy, and Focus, plan +10 and +15 upgrades, and avoid costly Arena preset and Eternal filter mistakes.",
+    excerpt: "Left or right? Compare power and missing stats before replacing gear. Use a clear enhancement order and check your preset before spending Dough.",
+    category: "getting-started",
+    tags: ["Equipment", "Oven", "Accuracy", "Focus", "Enhancement"],
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    readingMinutes: 7,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0181", "cookie4019", "cookie0126"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-accuracy-focus-guide",
+      "cookie-run-crumble-power-guide-stage-damage",
+    ],
+    toc: [
+      { id: "left-or-right", label: "Choose between two rolls" },
+      { id: "accuracy-check", label: "Check Accuracy and misses" },
+      { id: "focus-and-power", label: "Balance Focus and power" },
+      { id: "enhancement-order", label: "Plan +10 and +15 upgrades" },
+      { id: "arena-presets", label: "Check Arena stats and presets" },
+      { id: "eternal-filter", label: "Set the rarity filter" },
+      { id: "equipment-faq", label: "Equipment choice FAQ" },
+    ],
+    faq: [
+      { question: "Should I always keep the higher-power equipment?", answer: "No. It is a reasonable shortcut before roughly Oven level 10. Later, weigh large power gains against useful stats. When power is similar, fix missing Accuracy before considering Focus, Skill Amp, and Skill Haste." },
+      { question: "Is 900 Accuracy enough for every stage?", answer: "No. Roughly 900 Accuracy is a reference around chapter 200, not a universal requirement or cap. Check your current stage, research, and visible misses before deciding whether to add more." },
+      { question: "What Focus number should I aim for?", answer: "There is no single target here. Your power relative to the stage affects debuff reliability. Watch the debuff you need and compare Focus upgrades under the same battle conditions." },
+      { question: "Which equipment should reach +15 first?", answer: "Bring the set to +10 first. For stage progression, prioritize Accuracy, then Focus, then usually Skill Amp. Weapon-first investment is another option; leave DEF, HP, and Evasion until later unless survival needs attention." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-arena-healing-down-team-guide",
     title: "CookieRun: Crumble Arena guide: Stop losing before your heals land",
     seoTitle: "CookieRun: Crumble Arena Team | Counter Healing Reduction",

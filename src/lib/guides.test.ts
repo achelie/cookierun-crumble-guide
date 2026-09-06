@@ -40,6 +40,7 @@ describe("guide filtering", () => {
     ]);
     expect(filterGuides(guides, { query: "burning crystals" })).toHaveLength(1);
     expect(filterGuides(guides, { query: "getting started" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-equipment-choice-guide",
       "cookie-run-crumble-fast-account-growth-guide",
       "cookie-run-crumble-resource-guide-account-traps",
       "cookie-run-crumble-tips-hidden-mechanics",
@@ -55,6 +56,7 @@ describe("guide filtering", () => {
 
   it("filters by category and treats an invalid category as all", () => {
     expect(filterGuides(guides, { category: "getting-started" }).map((item) => item.slug)).toEqual([
+      "cookie-run-crumble-equipment-choice-guide",
       "cookie-run-crumble-fast-account-growth-guide",
       "cookie-run-crumble-resource-guide-account-traps",
       "cookie-run-crumble-tips-hidden-mechanics",
