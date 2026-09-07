@@ -82,6 +82,21 @@ function expectPublishableGuide(source: string, maxWords = 1_500) {
 }
 
 describe("guide registry", () => {
+  it("publishes the endgame guide without presenting proposals as confirmed updates", () => {
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-endgame-grind-guide");
+    const content = readFileSync(new URL("../content/guides/cookie-run-crumble-endgame-grind-guide.mdx", import.meta.url), "utf8");
+    expect(guide).toBeDefined();
+    expectPublishableGuide(content, 1_800);
+    expect([...content.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1])).toEqual(guide?.toc.map((item) => item.id));
+    expect(content.match(/\]\(\/[^)]+\)/g)).toHaveLength(4);
+    expect(content).toContain("](/teams/)");
+    expect(content).toContain("](/tier-list/)");
+    expect(content).toContain("Suggestions, not an update announcement");
+    guide?.faq.forEach((item) => {
+      expect(content).toContain(`### ${item.question}`);
+      expect(content).toContain(item.answer);
+    });
+  });
   it("publishes the equipment comparison guide with matched navigation and FAQ", () => {
     const guide = guides.find((item) => item.slug === "cookie-run-crumble-equipment-choice-guide");
     const content = readFileSync(
@@ -373,7 +388,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-equipment-choice-guide");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-endgame-grind-guide");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 

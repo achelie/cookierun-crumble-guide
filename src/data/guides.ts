@@ -41,6 +41,35 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-endgame-grind-guide",
+    title: "CookieRun: Crumble endgame guide: When progress starts feeling like homework",
+    seoTitle: "CookieRun: Crumble Endgame Guide | Tired of the Grind?",
+    seoDescription: "Cut wasted attempts in CookieRun: Crumble's late game. Plan EXP and team tests, judge Mileage purchases, and separate useful feature ideas from confirmed updates.",
+    excerpt: "Slow retries, costly level swaps, and spare Mileage can wear you down. Make each session more focused, and see which proposed changes would help.",
+    category: "getting-started",
+    tags: ["Endgame", "Progression", "Cookie EXP", "Mileage", "Quality of Life"],
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0181", "cookie0126", "cookie4019"],
+    relatedGuideSlugs: ["cookie-run-crumble-level-100-exp-priority-guide", "cookie-run-crumble-fast-account-growth-guide", "cookie-run-crumble-equipment-choice-guide"],
+    toc: [
+      { id: "slow-stage-attempts", label: "Make stage attempts count" },
+      { id: "battle-feedback", label: "Understand failed runs" },
+      { id: "exp-and-build-swaps", label: "Reduce EXP and build friction" },
+      { id: "mileage-and-wishlists", label: "Judge duplicates and Mileage" },
+      { id: "better-modes", label: "What new modes could offer" },
+      { id: "shorter-session", label: "Plan a shorter session" },
+      { id: "endgame-faq", label: "Late-game FAQ" },
+    ],
+    faq: [
+      { question: "Does this guide confirm level synchronization or a wishlist?", answer: "No. Both are proposed improvements, not confirmed additions. The level 88 synchronization example illustrates a possible design rather than a feature you can unlock." },
+      { question: "Should I reset Cookies whenever I get stuck?", answer: "Only when you have a specific replacement to test. Repeated resets add work and can weaken your Arena defense. Keep a stable core and check affected lineups after moving levels." },
+      { question: "Should I buy random SSR Cookies with Mileage?", answer: "Judge the purchase against your roster. A developing account may benefit more than one with many promoted SSR Cookies. Extra stock is not automatically useful just because it is cheap." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-equipment-choice-guide",
     title: "CookieRun: Crumble equipment guide: Stop keeping the wrong upgrade",
     seoTitle: "CookieRun: Crumble Equipment Guide | Which Roll to Keep?",
