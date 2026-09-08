@@ -41,6 +41,36 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-dungeon-milk-buff-guide",
+    title: "CookieRun: Crumble Dungeon guide: Your strongest Cookies may be costing you damage",
+    seoTitle: "CookieRun: Crumble Dungeon Guide | Milk Buff Setup for 50G",
+    seoDescription: "Improve Crumble Dungeon damage with Milk's leader and Welfare setup. Control the initial 40 Cookies, Pomegranate targets, and Cheesecake's ATK buff conflict.",
+    excerpt: "A bigger power number can hide missed buffs. Keep the group together, direct effects toward Milk, and compare two Pomegranate target plans.",
+    category: "stages-bosses",
+    tags: ["Crumble Dungeon", "Milk Cookie", "Pomegranate Cookie", "Welfare", "50G"],
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4019", "cookie0126", "cookie0059"],
+    relatedGuideSlugs: ["cookie-run-crumble-level-100-exp-priority-guide", "cookie-run-crumble-guild-conquest-team-guide", "cookie-run-crumble-equipment-choice-guide"],
+    toc: [
+      { id: "entry-and-position", label: "Control entry and positioning" },
+      { id: "milk-leader", label: "Set Milk's leader and Welfare effects" },
+      { id: "pomegranate-targets", label: "Remove beam target competition" },
+      { id: "cheesecake-conflict", label: "Avoid Cheesecake's buff conflict" },
+      { id: "two-target-plans", label: "Compare two target plans" },
+      { id: "attempt-checklist", label: "Check the next attempt" },
+      { id: "dungeon-faq", label: "Dungeon setup FAQ" },
+    ],
+    faq: [
+      { question: "Does choosing Milk as leader guarantee the Welfare target?", answer: "No. The highest-ATK check still matters. Include the relevant 10% leader bonus in the comparison and verify the actual recipient." },
+      { question: "Which Cookies should stay out of this setup?", answer: "Exclude Zombie, Cocoa, Blackberry, Lemon, Strawberry Shortcake, and Madeleine to reduce Projectile Speed target competition. Exclude Cheesecake separately because her ATK buff can interrupt Milk's stacks." },
+      { question: "Do Macaron and Skating Queen have to receive the beam?", answer: "No. They are the more demanding support-target option. Milk and two invested damage dealers offer a simpler alternative when forcing the supports' ATK rankings costs too much." },
+      { question: "Will this setup guarantee 50G damage?", answer: "No. Roughly 52G is the reference result. Your levels, promotions, stats, positioning, and actual buff recipients affect the score." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-endgame-grind-guide",
     title: "CookieRun: Crumble endgame guide: When progress starts feeling like homework",
     seoTitle: "CookieRun: Crumble Endgame Guide | Tired of the Grind?",
