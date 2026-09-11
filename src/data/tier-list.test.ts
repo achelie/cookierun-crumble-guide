@@ -18,7 +18,7 @@ describe("combined tier list", () => {
       A: 11,
       B: 9,
       C: 11,
-      D: 32,
+      D: 33,
     });
   });
 

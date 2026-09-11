@@ -41,6 +41,71 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-cherry-cola-cookie-guide",
+    title: "Cherry Cola Cookie: Is 5 stars enough to stop wasting pulls?",
+    seoTitle: "Cherry Cola Cookie: Stop at 5 Stars? | CookieRun: Crumble",
+    seoDescription: "Decide where to stop pulling Cherry Cola Cookie in CookieRun: Crumble. Check the 5-star plan, Milk targeting, Arena survival, and Pinot Noir priority.",
+    excerpt: "Milk survives the dive, your new SSR drops, and the Crystals are gone. Set a promotion limit and check whether Cherry Cola earns an Arena slot.",
+    category: "cookies",
+    tags: [
+      "Cherry Cola Cookie",
+      "Arena",
+      "Milk Cookie",
+      "Stellar Link",
+      "Pull Priority"
+    ],
+    publishedAt: "2026-09-11",
+    updatedAt: "2026-09-11",
+    readingMinutes: 7,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie0250",
+      "cookie4019",
+      "cookie4010"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-pinot-noir-cookie-build",
+      "cookie-run-crumble-arena-healing-down-team-guide",
+      "cookie-run-crumble-dungeon-milk-buff-guide"
+    ],
+    toc: [
+      {
+        id: "pull-budget",
+        label: "Decide what you are buying before you pull"
+      },
+      {
+        id: "milk-targeting",
+        label: "Why Cherry Cola goes after Milk"
+      },
+      {
+        id: "arena-survival",
+        label: "The first problem is staying alive"
+      },
+      {
+        id: "kill-check",
+        label: "A win can hide a failed assassination"
+      },
+      {
+        id: "rune-spending",
+        label: "Avoid expensive rune guesses"
+      },
+      {
+        id: "pinot-priority",
+        label: "Finish Pinot Noir before chasing more stars"
+      },
+      {
+        id: "cherry-cola-faq",
+        label: "Cherry Cola pull and Arena FAQ"
+      }
+    ],
+    faq: [
+      { question: "Should I stop Cherry Cola Cookie at five stars?", answer: "Five stars is a reasonable Stellar Link target. Reassess before going further, especially if Pinot Noir still needs seven stars. Extra promotions do not guarantee that Cherry Cola will survive an Arena dive or finish Milk." },
+      { question: "Does Cherry Cola always target Milk?", answer: "No. The relevant targeting rule checks the enemy with the highest ATK. Milk becomes the target when the opponent's ATK investment and captain setup put Milk first." },
+      { question: "What is the best Sugar Rune for Cherry Cola?", answer: "This early assessment does not establish a best Sugar Rune. Test with existing gear, watch survival and target damage, and avoid expensive rolls until you know what your lineup needs." },
+      { question: "Is Cherry Cola already a reliable Arena counter?", answer: "The early attempts do not support that claim. Milk survived several dives, and some wins came from the remaining team's damage after Cherry Cola fell. Judge the opening kill and the match result separately." },
+    ]
+  },
+  {
     slug: "cookie-run-crumble-dungeon-milk-buff-guide",
     title: "CookieRun: Crumble Dungeon guide: Your strongest Cookies may be costing you damage",
     seoTitle: "CookieRun: Crumble Dungeon Guide | Milk Buff Setup for 50G",

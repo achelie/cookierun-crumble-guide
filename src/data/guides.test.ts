@@ -82,6 +82,22 @@ function expectPublishableGuide(source: string, maxWords = 1_500) {
 }
 
 describe("guide registry", () => {
+  it("publishes Cherry Cola with matching visible FAQs and a limited set of body links", () => {
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-cherry-cola-cookie-guide");
+    const content = readFileSync(new URL("../content/guides/cookie-run-crumble-cherry-cola-cookie-guide.mdx", import.meta.url), "utf8");
+    expect(guide).toBeDefined();
+    expectPublishableGuide(content, 1_800);
+    expect([...content.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1])).toEqual(guide?.toc.map((item) => item.id));
+    expect(content.match(/\]\(\/[^)]+\)/g)).toHaveLength(2);
+    expect(content).toContain("](/tier-list/)");
+    expect(content).toContain("](/teams/)");
+    expect(guide?.faq).toHaveLength(4);
+    guide?.faq.forEach((item) => {
+      expect(item.question).not.toContain("\n");
+      expect(content).toContain(`### ${item.question}`);
+      expect(content).toContain(item.answer);
+    });
+  });
   it("publishes the dungeon buff guide with complete navigation and qualified score claims", () => {
     const guide = guides.find((item) => item.slug === "cookie-run-crumble-dungeon-milk-buff-guide");
     const content = readFileSync(new URL("../content/guides/cookie-run-crumble-dungeon-milk-buff-guide.mdx", import.meta.url), "utf8");
@@ -403,7 +419,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-dungeon-milk-buff-guide");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-cherry-cola-cookie-guide");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 
