@@ -14,9 +14,41 @@ export type RecommendedTeam = {
   };
 };
 
-export const teamsUpdatedAt = "2026-09-06";
+export const teamsUpdatedAt = "2026-09-12";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "cherry-cola-auto-story",
+    name: "Cherry Cola Auto Story Team",
+    kicker: "Story progression with fewer manual retries",
+    description: "Use Cherry Cola with two Damage Reduction Rune lines and favor Skill Amp. Keep Milk as captain and ahead in ATK for the intended buffs. Rye is the comfortable auto choice; Melon Soda needs closer positioning. Swap Chargemellow for Icy Birdie or Crepe for Ion when survival fails.",
+    cookies: [
+      "cookie0059",
+      "cookie0515",
+      "cookie0126",
+      "cookie4019",
+      "cookie0518",
+      "cookie0063",
+      "cookie4013",
+      "cookie4010",
+      "cookie0018",
+      "cookie4024",
+      "cookie0250",
+      "cookie0103"
+    ],
+    pets: [
+      "pet4005",
+      "pet0111",
+      "pet4001"
+    ],
+    updatedAt: "2026-09-12",
+    guideReference: {
+      href: "/guides/cookie-run-crumble-cherry-cola-auto-stage-team/",
+      leadIn: "The ",
+      anchor: "Cherry Cola auto story guide",
+      followUp: " covers the complete Rune plan, defensive Pet swaps, and boss positioning."
+    }
+  },
   {
     id: "september-general-purpose",
     name: "General Purpose Team",

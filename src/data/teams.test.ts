@@ -38,8 +38,8 @@ describe("recommended teams", () => {
   });
 
   it("puts the newly added formations first with the latest date", () => {
-    expect(teamsUpdatedAt).toBe("2026-09-06");
-    expect(recommendedTeams.slice(7).map((team) => team.id)).toEqual([
+    expect(teamsUpdatedAt).toBe("2026-09-12");
+    expect(recommendedTeams.slice(8).map((team) => team.id)).toEqual([
       "strawberry-crepe-rapid-aoe", "pinot-noir-multistrike-boss", "wind-archer-guild-conquest",
     ]);
 
@@ -52,7 +52,7 @@ describe("recommended teams", () => {
   });
 
   it("replaces August 31 teams with the seven ordered September formations", () => {
-    expect(recommendedTeams).toHaveLength(10);
+    expect(recommendedTeams).toHaveLength(11);
     expect(recommendedTeams.some((team) => team.updatedAt === "2026-08-31")).toBe(false);
     const expected = [
     {
@@ -211,7 +211,7 @@ describe("recommended teams", () => {
     }
 ];
     expected.forEach((formation, index) => {
-      expect(recommendedTeams[index]).toMatchObject({ ...formation, updatedAt: "2026-09-06" });
+      expect(recommendedTeams[index + 1]).toMatchObject({ ...formation, updatedAt: "2026-09-06" });
     });
   });
 

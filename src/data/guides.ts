@@ -41,6 +41,87 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-cherry-cola-auto-stage-team",
+    title: "Cherry Cola auto team: Stop babysitting every story stage",
+    seoTitle: "Cherry Cola Auto Team & Runes | CookieRun: Crumble",
+    seoDescription: "Build a Cherry Cola auto team in CookieRun: Crumble. Copy all 12 Cookies and 3 Pets, set survival Runes, protect Milk's buffs, and fix stalled boss fights.",
+    excerpt: "Give Cherry Cola two survival lines, keep Milk ahead in ATK, and let Rye handle distant targets. Copy the full story preset, then fix the stages that still stall.",
+    category: "team-building",
+    tags: [
+      "Cherry Cola Cookie",
+      "Story Stages",
+      "Auto Team",
+      "Pinot Noir Cookie",
+      "Sugar Runes"
+    ],
+    publishedAt: "2026-09-12",
+    updatedAt: "2026-09-12",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie0250",
+      "cookie4010",
+      "cookie0515"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-cherry-cola-cookie-guide",
+      "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide"
+    ],
+    toc: [
+      {
+        id: "story-lineup",
+        label: "Copy the full story team first"
+      },
+      {
+        id: "cherry-cola-runes",
+        label: "Give Cherry Cola enough time to deal damage"
+      },
+      {
+        id: "support-runes",
+        label: "Keep the support buffs on the intended Cookies"
+      },
+      {
+        id: "rye-or-melon",
+        label: "Use Rye when you want to leave auto running"
+      },
+      {
+        id: "defensive-swaps",
+        label: "Change protection before replacing the whole team"
+      },
+      {
+        id: "boss-positioning",
+        label: "Rescue a stuck boss with one positioning change"
+      },
+      {
+        id: "story-and-arena",
+        label: "Judge story progress separately from Arena"
+      },
+      {
+        id: "auto-team-faq",
+        label: "Cherry Cola auto team FAQ"
+      }
+    ],
+    faq: [
+      {
+        question: "Which Sugar Runes should Cherry Cola use for story stages?",
+        answer: "Start with two Damage Reduction lines and favor Skill Amp for the remaining choices. Some ATK Amp is usable, but check that Cherry Cola does not take highest-ATK benefits intended for Milk."
+      },
+      {
+        question: "Can Melon Soda replace Rye in this team?",
+        answer: "Yes. Melon Soda works better when you move close enough for the missiles to connect. Rye is the more comfortable default when you want to leave ordinary story stages on auto."
+      },
+      {
+        question: "What should I change if the team dies too quickly?",
+        answer: "Try Icy Birdie instead of Chargemellow for damage reduction. If necessary, consider Majestic King Choco Drop instead of Holy Baby Drop, or Ion Cookie Robot instead of Strawberry Crepe. Test each change separately."
+      },
+      {
+        question: "Does Brightseeker need five stars for this formation?",
+        answer: "No. Five stars is not required to try the formation. Your promotions, Runes, and overall stats still affect how far the team can progress."
+      }
+    ]
+  },
+  {
     slug: "cookie-run-crumble-cherry-cola-cookie-guide",
     title: "Cherry Cola Cookie: Is 5 stars enough to stop wasting pulls?",
     seoTitle: "Cherry Cola Cookie: Stop at 5 Stars? | CookieRun: Crumble",

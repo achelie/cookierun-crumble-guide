@@ -3,6 +3,7 @@ import type { ComponentType } from "react";
 type GuideModule = { default: ComponentType };
 
 const guideLoaders: Record<string, () => Promise<GuideModule>> = {
+  "cookie-run-crumble-cherry-cola-auto-stage-team": () => import("@/content/guides/cookie-run-crumble-cherry-cola-auto-stage-team.mdx"),
   "cookie-run-crumble-cherry-cola-cookie-guide": () => import("@/content/guides/cookie-run-crumble-cherry-cola-cookie-guide.mdx"),
   "cookie-run-crumble-dungeon-milk-buff-guide": () => import("@/content/guides/cookie-run-crumble-dungeon-milk-buff-guide.mdx"),
   "cookie-run-crumble-endgame-grind-guide": () => import("@/content/guides/cookie-run-crumble-endgame-grind-guide.mdx"),

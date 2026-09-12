@@ -30,10 +30,10 @@ function guideFormations() {
 }
 
 describe("teams pagination", () => {
-  it("shows 10 teams across pages of 7 and 3", () => {
+  it("shows 11 teams across pages of 7 and 4", () => {
     expect(teamsPageSize).toBe(7);
-    expect([1, 2].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([7, 3]);
-    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 2, total: 10 });
+    expect([1, 2].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([7, 4]);
+    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 2, total: 11 });
   });
 
   it("normalizes missing, malformed, negative, and oversized page values", () => {
@@ -55,6 +55,7 @@ describe("team guide references", () => {
     const linkedTeams = recommendedTeams.filter((team) => team.guideReference);
 
     expect(exactMatches.map((team) => team.id)).toEqual([
+      "cherry-cola-auto-story",
       "september-general-purpose",
       "strawberry-crepe-rapid-aoe",
       "pinot-noir-multistrike-boss",
