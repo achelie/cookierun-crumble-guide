@@ -41,6 +41,352 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-cherry-cola-auto-stage-team",
+    title: "Cherry Cola auto team: Stop babysitting every story stage",
+    seoTitle: "Cherry Cola Auto Team & Runes | CookieRun: Crumble",
+    seoDescription: "Build a Cherry Cola auto team in CookieRun: Crumble. Copy all 12 Cookies and 3 Pets, set survival Runes, protect Milk's buffs, and fix stalled boss fights.",
+    excerpt: "Give Cherry Cola two survival lines, keep Milk ahead in ATK, and let Rye handle distant targets. Copy the full story preset, then fix the stages that still stall.",
+    category: "team-building",
+    tags: [
+      "Cherry Cola Cookie",
+      "Story Stages",
+      "Auto Team",
+      "Pinot Noir Cookie",
+      "Sugar Runes"
+    ],
+    publishedAt: "2026-09-12",
+    updatedAt: "2026-09-12",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie0250",
+      "cookie4010",
+      "cookie0515"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-cherry-cola-cookie-guide",
+      "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide"
+    ],
+    toc: [
+      {
+        id: "story-lineup",
+        label: "Copy the full story team first"
+      },
+      {
+        id: "cherry-cola-runes",
+        label: "Give Cherry Cola enough time to deal damage"
+      },
+      {
+        id: "support-runes",
+        label: "Keep the support buffs on the intended Cookies"
+      },
+      {
+        id: "rye-or-melon",
+        label: "Use Rye when you want to leave auto running"
+      },
+      {
+        id: "defensive-swaps",
+        label: "Change protection before replacing the whole team"
+      },
+      {
+        id: "boss-positioning",
+        label: "Rescue a stuck boss with one positioning change"
+      },
+      {
+        id: "story-and-arena",
+        label: "Judge story progress separately from Arena"
+      },
+      {
+        id: "auto-team-faq",
+        label: "Cherry Cola auto team FAQ"
+      }
+    ],
+    faq: [
+      {
+        question: "Which Sugar Runes should Cherry Cola use for story stages?",
+        answer: "Start with two Damage Reduction lines and favor Skill Amp for the remaining choices. Some ATK Amp is usable, but check that Cherry Cola does not take highest-ATK benefits intended for Milk."
+      },
+      {
+        question: "Can Melon Soda replace Rye in this team?",
+        answer: "Yes. Melon Soda works better when you move close enough for the missiles to connect. Rye is the more comfortable default when you want to leave ordinary story stages on auto."
+      },
+      {
+        question: "What should I change if the team dies too quickly?",
+        answer: "Try Icy Birdie instead of Chargemellow for damage reduction. If necessary, consider Majestic King Choco Drop instead of Holy Baby Drop, or Ion Cookie Robot instead of Strawberry Crepe. Test each change separately."
+      },
+      {
+        question: "Does Brightseeker need five stars for this formation?",
+        answer: "No. Five stars is not required to try the formation. Your promotions, Runes, and overall stats still affect how far the team can progress."
+      }
+    ]
+  },
+  {
+    slug: "cookie-run-crumble-cherry-cola-cookie-guide",
+    title: "Cherry Cola Cookie: Is 5 stars enough to stop wasting pulls?",
+    seoTitle: "Cherry Cola Cookie: Stop at 5 Stars? | CookieRun: Crumble",
+    seoDescription: "Decide where to stop pulling Cherry Cola Cookie in CookieRun: Crumble. Check the 5-star plan, Milk targeting, Arena survival, and Pinot Noir priority.",
+    excerpt: "Milk survives the dive, your new SSR drops, and the Crystals are gone. Set a promotion limit and check whether Cherry Cola earns an Arena slot.",
+    category: "cookies",
+    tags: [
+      "Cherry Cola Cookie",
+      "Arena",
+      "Milk Cookie",
+      "Stellar Link",
+      "Pull Priority"
+    ],
+    publishedAt: "2026-09-11",
+    updatedAt: "2026-09-11",
+    readingMinutes: 7,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie0250",
+      "cookie4019",
+      "cookie4010"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-pinot-noir-cookie-build",
+      "cookie-run-crumble-arena-healing-down-team-guide",
+      "cookie-run-crumble-dungeon-milk-buff-guide"
+    ],
+    toc: [
+      {
+        id: "pull-budget",
+        label: "Decide what you are buying before you pull"
+      },
+      {
+        id: "milk-targeting",
+        label: "Why Cherry Cola goes after Milk"
+      },
+      {
+        id: "arena-survival",
+        label: "The first problem is staying alive"
+      },
+      {
+        id: "kill-check",
+        label: "A win can hide a failed assassination"
+      },
+      {
+        id: "rune-spending",
+        label: "Avoid expensive rune guesses"
+      },
+      {
+        id: "pinot-priority",
+        label: "Finish Pinot Noir before chasing more stars"
+      },
+      {
+        id: "cherry-cola-faq",
+        label: "Cherry Cola pull and Arena FAQ"
+      }
+    ],
+    faq: [
+      { question: "Should I stop Cherry Cola Cookie at five stars?", answer: "Five stars is a reasonable Stellar Link target. Reassess before going further, especially if Pinot Noir still needs seven stars. Extra promotions do not guarantee that Cherry Cola will survive an Arena dive or finish Milk." },
+      { question: "Does Cherry Cola always target Milk?", answer: "No. The relevant targeting rule checks the enemy with the highest ATK. Milk becomes the target when the opponent's ATK investment and captain setup put Milk first." },
+      { question: "What is the best Sugar Rune for Cherry Cola?", answer: "This early assessment does not establish a best Sugar Rune. Test with existing gear, watch survival and target damage, and avoid expensive rolls until you know what your lineup needs." },
+      { question: "Is Cherry Cola already a reliable Arena counter?", answer: "The early attempts do not support that claim. Milk survived several dives, and some wins came from the remaining team's damage after Cherry Cola fell. Judge the opening kill and the match result separately." },
+    ]
+  },
+  {
+    slug: "cookie-run-crumble-dungeon-milk-buff-guide",
+    title: "CookieRun: Crumble Dungeon guide: Your strongest Cookies may be costing you damage",
+    seoTitle: "CookieRun: Crumble Dungeon Guide | Milk Buff Setup for 50G",
+    seoDescription: "Improve Crumble Dungeon damage with Milk's leader and Welfare setup. Control the initial 40 Cookies, Pomegranate targets, and Cheesecake's ATK buff conflict.",
+    excerpt: "A bigger power number can hide missed buffs. Keep the group together, direct effects toward Milk, and compare two Pomegranate target plans.",
+    category: "stages-bosses",
+    tags: ["Crumble Dungeon", "Milk Cookie", "Pomegranate Cookie", "Welfare", "50G"],
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4019", "cookie0126", "cookie0059"],
+    relatedGuideSlugs: ["cookie-run-crumble-level-100-exp-priority-guide", "cookie-run-crumble-guild-conquest-team-guide", "cookie-run-crumble-equipment-choice-guide"],
+    toc: [
+      { id: "entry-and-position", label: "Control entry and positioning" },
+      { id: "milk-leader", label: "Set Milk's leader and Welfare effects" },
+      { id: "pomegranate-targets", label: "Remove beam target competition" },
+      { id: "cheesecake-conflict", label: "Avoid Cheesecake's buff conflict" },
+      { id: "two-target-plans", label: "Compare two target plans" },
+      { id: "attempt-checklist", label: "Check the next attempt" },
+      { id: "dungeon-faq", label: "Dungeon setup FAQ" },
+    ],
+    faq: [
+      { question: "Does choosing Milk as leader guarantee the Welfare target?", answer: "No. The highest-ATK check still matters. Include the relevant 10% leader bonus in the comparison and verify the actual recipient." },
+      { question: "Which Cookies should stay out of this setup?", answer: "Exclude Zombie, Cocoa, Blackberry, Lemon, Strawberry Shortcake, and Madeleine to reduce Projectile Speed target competition. Exclude Cheesecake separately because her ATK buff can interrupt Milk's stacks." },
+      { question: "Do Macaron and Skating Queen have to receive the beam?", answer: "No. They are the more demanding support-target option. Milk and two invested damage dealers offer a simpler alternative when forcing the supports' ATK rankings costs too much." },
+      { question: "Will this setup guarantee 50G damage?", answer: "No. Roughly 52G is the reference result. Your levels, promotions, stats, positioning, and actual buff recipients affect the score." },
+    ],
+  },
+  {
+    slug: "cookie-run-crumble-endgame-grind-guide",
+    title: "CookieRun: Crumble endgame guide: When progress starts feeling like homework",
+    seoTitle: "CookieRun: Crumble Endgame Guide | Tired of the Grind?",
+    seoDescription: "Cut wasted attempts in CookieRun: Crumble's late game. Plan EXP and team tests, judge Mileage purchases, and separate useful feature ideas from confirmed updates.",
+    excerpt: "Slow retries, costly level swaps, and spare Mileage can wear you down. Make each session more focused, and see which proposed changes would help.",
+    category: "getting-started",
+    tags: ["Endgame", "Progression", "Cookie EXP", "Mileage", "Quality of Life"],
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0181", "cookie0126", "cookie4019"],
+    relatedGuideSlugs: ["cookie-run-crumble-level-100-exp-priority-guide", "cookie-run-crumble-fast-account-growth-guide", "cookie-run-crumble-equipment-choice-guide"],
+    toc: [
+      { id: "slow-stage-attempts", label: "Make stage attempts count" },
+      { id: "battle-feedback", label: "Understand failed runs" },
+      { id: "exp-and-build-swaps", label: "Reduce EXP and build friction" },
+      { id: "mileage-and-wishlists", label: "Judge duplicates and Mileage" },
+      { id: "better-modes", label: "What new modes could offer" },
+      { id: "shorter-session", label: "Plan a shorter session" },
+      { id: "endgame-faq", label: "Late-game FAQ" },
+    ],
+    faq: [
+      { question: "Does this guide confirm level synchronization or a wishlist?", answer: "No. Both are proposed improvements, not confirmed additions. The level 88 synchronization example illustrates a possible design rather than a feature you can unlock." },
+      { question: "Should I reset Cookies whenever I get stuck?", answer: "Only when you have a specific replacement to test. Repeated resets add work and can weaken your Arena defense. Keep a stable core and check affected lineups after moving levels." },
+      { question: "Should I buy random SSR Cookies with Mileage?", answer: "Judge the purchase against your roster. A developing account may benefit more than one with many promoted SSR Cookies. Extra stock is not automatically useful just because it is cheap." },
+    ],
+  },
+  {
+    slug: "cookie-run-crumble-equipment-choice-guide",
+    title: "CookieRun: Crumble equipment guide: Stop keeping the wrong upgrade",
+    seoTitle: "CookieRun: Crumble Equipment Guide | Which Roll to Keep?",
+    seoDescription: "Choose better CookieRun: Crumble equipment: compare power, Accuracy, and Focus, plan +10 and +15 upgrades, and avoid costly Arena preset and Eternal filter mistakes.",
+    excerpt: "Left or right? Compare power and missing stats before replacing gear. Use a clear enhancement order and check your preset before spending Dough.",
+    category: "getting-started",
+    tags: ["Equipment", "Oven", "Accuracy", "Focus", "Enhancement"],
+    publishedAt: "2026-09-06",
+    updatedAt: "2026-09-06",
+    readingMinutes: 7,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie0181", "cookie4019", "cookie0126"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-accuracy-focus-guide",
+      "cookie-run-crumble-power-guide-stage-damage",
+    ],
+    toc: [
+      { id: "left-or-right", label: "Choose between two rolls" },
+      { id: "accuracy-check", label: "Check Accuracy and misses" },
+      { id: "focus-and-power", label: "Balance Focus and power" },
+      { id: "enhancement-order", label: "Plan +10 and +15 upgrades" },
+      { id: "arena-presets", label: "Check Arena stats and presets" },
+      { id: "eternal-filter", label: "Set the rarity filter" },
+      { id: "equipment-faq", label: "Equipment choice FAQ" },
+    ],
+    faq: [
+      { question: "Should I always keep the higher-power equipment?", answer: "No. It is a reasonable shortcut before roughly Oven level 10. Later, weigh large power gains against useful stats. When power is similar, fix missing Accuracy before considering Focus, Skill Amp, and Skill Haste." },
+      { question: "Is 900 Accuracy enough for every stage?", answer: "No. Roughly 900 Accuracy is a reference around chapter 200, not a universal requirement or cap. Check your current stage, research, and visible misses before deciding whether to add more." },
+      { question: "What Focus number should I aim for?", answer: "There is no single target here. Your power relative to the stage affects debuff reliability. Watch the debuff you need and compare Focus upgrades under the same battle conditions." },
+      { question: "Which equipment should reach +15 first?", answer: "Bring the set to +10 first. For stage progression, prioritize Accuracy, then Focus, then usually Skill Amp. Weapon-first investment is another option; leave DEF, HP, and Evasion until later unless survival needs attention." },
+    ],
+  },
+  {
+    slug: "cookie-run-crumble-arena-healing-down-team-guide",
+    title: "CookieRun: Crumble Arena guide: Stop losing before your heals land",
+    seoTitle: "CookieRun: Crumble Arena Team | Counter Healing Reduction",
+    seoDescription: "Fix your CookieRun: Crumble Arena team against Pinot Noir's healing reduction. Copy a full lineup, then test shields, control, and smarter healer swaps.",
+    excerpt: "More healers are not always the answer to Pinot Noir. Copy the full Strawberry Crepe lineup, then decide whether Herb, Rockstar, or more control helps.",
+    category: "team-building",
+    tags: ["Arena", "Pinot Noir Cookie", "Healing Reduction", "Rockstar Cookie", "Strawberry Crepe Cookie"],
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4010", "cookie0518", "cookie0027"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-strawberry-crepe-cookie-build-team",
+      "cookie-run-crumble-pinot-noir-cookie-build",
+      "cookie-run-crumble-level-100-exp-priority-guide",
+    ],
+    toc: [
+      { id: "arena-lineup", label: "Copy the complete lineup" },
+      { id: "healing-and-buffs", label: "Check healing and buff overlap" },
+      { id: "pinot-damage-core", label: "Keep the damage core working" },
+      { id: "rockstar-shields", label: "Test Rockstar's shields" },
+      { id: "arena-control", label: "Add control where it helps" },
+      { id: "arena-pets", label: "Choose the Pet setup" },
+      { id: "keep-or-cut-herb", label: "Decide whether to keep Herb" },
+      { id: "arena-faq", label: "Arena healing reduction FAQ" },
+    ],
+    faq: [
+      { question: "Is this lineup a no-healer team?", answer: "No. The displayed formation contains Herb and Milk. It is a damage-focused baseline that keeps recovery, with suggested swaps for players who want to test less healing." },
+      { question: "Should I remove Herb when I use Pinot Noir?", answer: "Not automatically. Keep Herb if his healing helps your attackers survive another skill cycle. Test Rockstar or a control Cookie when healing reduction makes that slot less useful." },
+      { question: "Does Rockstar's shield avoid healing reduction?", answer: "Healing reduction does not reduce shields in the same way it reduces healing. Rockstar's shield scales with his maximum HP, but the team still needs enough durability to survive incoming damage." },
+      { question: "Should Milk and Cheesecake share an Arena team?", answer: "Do not pair them solely to stack the same ATK buff. The stronger applicable buff takes over. Keep both only when their other contributions justify the two slots." },
+    ],
+  },
+  {
+    slug: "cookie-run-crumble-level-100-exp-priority-guide",
+    title: "CookieRun: Crumble EXP Guide: Who Deserves Your First Level 100?",
+    seoTitle: "CookieRun: Crumble EXP Guide | Level 100 Priority",
+    seoDescription: "Spend CookieRun: Crumble EXP wisely: choose your first level 100, fix Arena survival, adjust Crumble Dungeon entry, and direct the highest-ATK Welfare buff.",
+    excerpt: "Running out of Cookie EXP? Put Milk first, then fund the carries you use. Adjust support levels for survival, dungeon entry, and Welfare targeting.",
+    category: "cookies",
+    tags: ["Cookie EXP", "Level 100", "Milk Cookie", "Crumble Dungeon", "Welfare"],
+    publishedAt: "2026-09-05",
+    updatedAt: "2026-09-05",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4019", "cookie0063", "cookie0126"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-fast-account-growth-guide",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams",
+    ],
+    toc: [
+      { id: "exp-priority", label: "Choose your EXP priorities" },
+      { id: "milk-first", label: "Give Milk the first level 100" },
+      { id: "arena-survival", label: "Adjust for Arena survival" },
+      { id: "dungeon-entry", label: "Change dungeon entry order" },
+      { id: "welfare-atk", label: "Direct the highest-ATK Welfare effect" },
+      { id: "reset-tradeoffs", label: "Weigh level-reset tradeoffs" },
+      { id: "next-exp-batch", label: "Plan the next EXP batch" },
+      { id: "level-100-faq", label: "Cookie EXP FAQ" },
+    ],
+    faq: [
+      { question: "Who should reach level 100 first?", answer: "For a stage team using Milk Cookie's Crunchy Strong Pediatrician, prioritize Milk, then your active damage dealers, then your healer. Raise other supports when they need more survival." },
+      { question: "Does Pomegranate need level 100?", answer: "Not immediately if she survives and delivers her buffs. Her core buff does not benefit from personal ATK in the same way Milk's does, so other active Cookies can take priority." },
+      { question: "Can levels change Crumble Dungeon entry order?", answer: "Yes. Levels change individual Combat Power, which determines the initial 40-Cookie selection and entry priority. Recheck the entry display after adjusting the roster." },
+      { question: "Will choosing Milk as leader guarantee the Welfare buff?", answer: "No. The Welfare effect that targets the highest-ATK ally still checks ATK. Milk must exceed the other relevant allies, and lowering their levels can cost damage." },
+    ],
+  },
+  {
+    slug: "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams",
+    title: "CookieRun: Crumble Team Guide: Your Copied Pinot Noir Team Is Failing for a Reason",
+    seoTitle: "CookieRun: Crumble Pinot Noir Teams | Multi-strike vs Scorpion",
+    seoDescription: "Fix failing CookieRun: Crumble Pinot Noir teams with complete Multi-strike and Scorpion lineups, exact Pets, Sugar Rune priorities, and smart swaps.",
+    excerpt: "Copied a strong Pinot Noir lineup and still lost? Pick the right Multi-strike or Scorpion core, then fix the exact slot your account cannot support.",
+    category: "team-building",
+    tags: ["Pinot Noir Cookie", "Multi-strike", "Scorpion Cookie", "Boss Teams", "Team Building"],
+    publishedAt: "2026-09-04",
+    updatedAt: "2026-09-04",
+    readingMinutes: 9,
+    author: "Crumble Guide",
+    coverCookieIds: ["cookie4010", "cookie0181", "cookie4013"],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-pinot-noir-cookie-build",
+      "cookie-run-crumble-guild-conquest-team-guide",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+    ],
+    toc: [
+      { id: "why-copied-teams-fail", label: "Diagnose the copied team's failure" },
+      { id: "choose-team-path", label: "Choose Multi-strike or Scorpion" },
+      { id: "multistrike-team", label: "Copy the Multi-strike team" },
+      { id: "scorpion-team", label: "Copy the Scorpion team" },
+      { id: "fix-boss-control", label: "Counter boss knock-up" },
+      { id: "swap-rules", label: "Make one useful swap" },
+      { id: "rune-priorities", label: "Set Sugar Rune priorities" },
+      { id: "hybrid-team", label: "Build a late-game hybrid" },
+      { id: "pinot-team-faq", label: "Pinot Noir team FAQ" },
+    ],
+    faq: [
+      { question: "Which Pinot Noir team should I build first?", answer: "Start with the Multi-strike team. It has the broader damage package and works as the better general boss preset. Use the Scorpion team when damage over time, Duration support, or anti-knock-up stability matters more." },
+      { question: "Why does Multi-strike damage look low at the start?", answer: "Its repeated attacks, buffs, and debuffs need time to overlap. The boss HP can move slowly at first, then fall much faster once the full cycle starts. Judge the completed attempt, not the opening seconds." },
+      { question: "Do multiple Multi-shot providers stack their buffs?", answer: "No. The strongest identical active synergy applies. Multiple providers still improve uptime because each Cookie activates the effect during a different skill window." },
+      { question: "Should I use Dark Choco or Devil Cookie for DEF Down?", answer: "Use a well-promoted Dark Choco as the safe default. Try Devil only when the team survives comfortably and needs a stronger short damage window." },
+      { question: "When should I remove Herb Cookie?", answer: "Remove Herb only when Milk Cookie's Crunchy Strong Pediatrician already keeps the team healthy. If a Cookie dies before the next skill cycle, Herb was not the problem." },
+    ],
+  },
+  {
     slug: "cookie-run-crumble-fast-account-growth-guide",
     title: "CookieRun: Crumble Fast Progression Guide: Stop Wasting Daily Power",
     seoTitle: "CookieRun: Crumble Fast Account Growth Guide",

@@ -3,6 +3,14 @@ import type { ComponentType } from "react";
 type GuideModule = { default: ComponentType };
 
 const guideLoaders: Record<string, () => Promise<GuideModule>> = {
+  "cookie-run-crumble-cherry-cola-auto-stage-team": () => import("@/content/guides/cookie-run-crumble-cherry-cola-auto-stage-team.mdx"),
+  "cookie-run-crumble-cherry-cola-cookie-guide": () => import("@/content/guides/cookie-run-crumble-cherry-cola-cookie-guide.mdx"),
+  "cookie-run-crumble-dungeon-milk-buff-guide": () => import("@/content/guides/cookie-run-crumble-dungeon-milk-buff-guide.mdx"),
+  "cookie-run-crumble-endgame-grind-guide": () => import("@/content/guides/cookie-run-crumble-endgame-grind-guide.mdx"),
+  "cookie-run-crumble-equipment-choice-guide": () => import("@/content/guides/cookie-run-crumble-equipment-choice-guide.mdx"),
+  "cookie-run-crumble-arena-healing-down-team-guide": () => import("@/content/guides/cookie-run-crumble-arena-healing-down-team-guide.mdx"),
+  "cookie-run-crumble-level-100-exp-priority-guide": () => import("@/content/guides/cookie-run-crumble-level-100-exp-priority-guide.mdx"),
+  "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams": () => import("@/content/guides/cookie-run-crumble-pinot-noir-multistrike-scorpion-teams.mdx"),
   "cookie-run-crumble-fast-account-growth-guide": () => import("@/content/guides/cookie-run-crumble-fast-account-growth-guide.mdx"),
   "cookie-run-crumble-strawberry-crepe-cookie-build-team": () => import("@/content/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team.mdx"),
   "cookie-run-crumble-guild-conquest-team-guide": () => import("@/content/guides/cookie-run-crumble-guild-conquest-team-guide.mdx"),
@@ -19,6 +27,8 @@ const guideLoaders: Record<string, () => Promise<GuideModule>> = {
   "cookie-run-crumble-gear-sugar-rune-stats-guide": () => import("@/content/guides/cookie-run-crumble-gear-sugar-rune-stats-guide.mdx"),
   "cookie-run-crumble-beginner-progression-guide": () => import("@/content/guides/cookie-run-crumble-beginner-progression-guide.mdx"),
 };
+
+export const guideContentSlugs = Object.keys(guideLoaders);
 
 export async function loadGuideContent(slug: string) {
   const loader = guideLoaders[slug];

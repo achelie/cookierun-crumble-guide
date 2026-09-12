@@ -1,6 +1,6 @@
 import type { RecommendedTeam } from "@/data/teams";
 
-export const teamsPageSize = 6;
+export const teamsPageSize = 7;
 
 export function normalizeTeamsPage(value: string | number | undefined, totalItems: number) {
   const raw = typeof value === "number" ? value : Number(value ?? "1");

@@ -1,5 +1,5 @@
 export const rarities = ["TSSR", "SSR", "SR", "R", "U", "C"] as const;
-export const cookiesUpdatedAt = "2026-08-28";
+export const cookiesUpdatedAt = "2026-09-11";
 export type Rarity = (typeof rarities)[number];
 
 export const elements = ["Fire", "Water", "Grass", "Light", "Dark"] as const;
@@ -112,6 +112,7 @@ export const cookies: Cookie[] = [
   { id: "cookie0136", name: "Ion Cookie Robot", rarity: "SSR", image: "/images/cookies/cookie0136.webp", element: "Water", role: "Defense", grantedSynergies: [], receivedSynergies: ["Multi-shot"], buffs: ["Shield"] },
   { id: "cookie0181", name: "Scorpion Cookie", rarity: "SSR", image: "/images/cookies/cookie0181.webp", element: "Fire", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Multi-shot", "Duration"], buffs: [] },
   { id: "cookie0195", name: "Dr. Bones Cookie", rarity: "SR", image: "/images/cookies/cookie0195.webp", element: "Grass", role: "Support", grantedSynergies: [], receivedSynergies: ["Chain"], buffs: [] },
+  { id: "cookie0250", name: "Cherry Cola Cookie", rarity: "SSR", image: "/images/cookies/cookie0250.webp", element: "Water", role: "Charge", grantedSynergies: [], receivedSynergies: ["Multi-strike", "Multi-shot"], buffs: [] },
   { id: "cookie0502", name: "Poison Mushroom Cookie", rarity: "R", image: "/images/cookies/cookie0502.webp", element: "Dark", role: "Charge", grantedSynergies: [], receivedSynergies: ["Area"], buffs: [] },
   { id: "cookie0503", name: "Licorice Cookie", rarity: "SR", image: "/images/cookies/cookie0503.webp", element: "Dark", role: "Defense", grantedSynergies: [], receivedSynergies: ["Multi-shot"], buffs: [] },
   { id: "cookie0511", name: "Madeleine Cookie", rarity: "SSR", image: "/images/cookies/cookie0511.webp", element: "Light", role: "Defense", grantedSynergies: [], receivedSynergies: ["Projectile Speed", "Area"], buffs: [] },

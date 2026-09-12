@@ -23,7 +23,7 @@ describe("cookie catalog", () => {
   });
 
   it("keeps all current cookie IDs unique", () => {
-    expect(cookies).toHaveLength(73);
+    expect(cookies).toHaveLength(74);
     expect(new Set(cookies.map(({ id }) => id)).size).toBe(cookies.length);
   });
 
