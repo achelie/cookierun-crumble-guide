@@ -444,7 +444,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-cherry-cola-auto-stage-team");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-sugar-rune-investment-priority");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 

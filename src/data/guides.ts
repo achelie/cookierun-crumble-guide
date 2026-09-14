@@ -41,6 +41,87 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    "slug": "cookie-run-crumble-sugar-rune-investment-priority",
+    "title": "Sugar Rune priority: Stop spending on the wrong Cookies",
+    "seoTitle": "Sugar Rune Investment Priority | CookieRun: Crumble",
+    "seoDescription": "Spend Sugar Runes where they help in CookieRun: Crumble. Set Milk's ATK, choose support stats, and plan Pinot Noir promotions before chasing another damage dealer.",
+    "excerpt": "Another Rune upgrade, the same failed stage. Fix Milk's buff targeting, set a support budget, and decide which promotions deserve your next Crystals.",
+    "category": "team-building",
+    "tags": [
+      "Sugar Runes",
+      "Investment Priority",
+      "Milk Cookie",
+      "Pomegranate Cookie",
+      "Pinot Noir Cookie"
+    ],
+    "publishedAt": "2026-09-14",
+    "updatedAt": "2026-09-14",
+    "readingMinutes": 8,
+    "author": "Crumble Guide",
+    "coverCookieIds": [
+      "cookie4019",
+      "cookie0126",
+      "cookie4010"
+    ],
+    "relatedGuideSlugs": [
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-dungeon-milk-buff-guide",
+      "cookie-run-crumble-level-100-exp-priority-guide"
+    ],
+    "toc": [
+      {
+        "id": "milk-rune-budget",
+        "label": "Give Milk the first serious Rune budget"
+      },
+      {
+        "id": "check-buff-targets",
+        "label": "Check the 10% leader bonus before rerolling"
+      },
+      {
+        "id": "support-rune-stats",
+        "label": "Build Pomegranate, Skating Queen, and Macaron next"
+      },
+      {
+        "id": "survival-and-debuffs",
+        "label": "Keep the debuffers and healers alive"
+      },
+      {
+        "id": "crystal-priorities",
+        "label": "Spend Crystals on promotion breakpoints"
+      },
+      {
+        "id": "chargemellow-level-10",
+        "label": "Make Chargemellow a limited Pet exception"
+      },
+      {
+        "id": "exp-allocation",
+        "label": "Allocate EXP after choosing your buff targets"
+      },
+      {
+        "id": "rune-priority-faq",
+        "label": "Sugar Rune spending FAQ"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who should get Sugar Runes first?",
+        "answer": "Start with Milk for the highest-ATK support setup, then Pomegranate and the supports you use across several teams. Move a fragile healer or failing debuffer ahead when that Cookie is the reason attempts collapse."
+      },
+      {
+        "question": "Does Milk need ATK Amp on every line?",
+        "answer": "No. One or two Skill Amp or Skill Haste lines can stay if Milk still meets the intended ATK ranking. Include the relevant 10% leader bonus and check Macaron's opening recipient before replacing useful Runes."
+      },
+      {
+        "question": "Should I force SSR on every Pomegranate line?",
+        "answer": "Aim for SSR Skill Amp on the cheaper first line. A second SSR is optional; SR Skill Amp on later lines is a reasonable stopping point when materials need to cover several Cookies."
+      },
+      {
+        "question": "Is five-star Scorpion guaranteed to land debuffs?",
+        "answer": "No. Five stars does not remove the enemy Resistance check. Focus helps when failed applications disrupt the run, so keep it in consideration even after promotion."
+      }
+    ]
+  },
+  {
     slug: "cookie-run-crumble-cherry-cola-auto-stage-team",
     title: "Cherry Cola auto team: Stop babysitting every story stage",
     seoTitle: "Cherry Cola Auto Team & Runes | CookieRun: Crumble",
