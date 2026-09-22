@@ -41,6 +41,87 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-arena-power-gap-guide",
+    title: "More power, still losing Arena? Fix the stats that count",
+    seoTitle: "Losing Arena With More Power? | CookieRun: Crumble",
+    seoDescription: "Losing Arena to lower-power teams in CookieRun: Crumble? Check which upgrades count, choose useful gear stats, and equip the right Plate preset before attacking.",
+    excerpt: "Your Power lead did not stop another Arena loss. Check which upgrades count, fix the equipment preset, and choose stats for the opponents you actually face.",
+    category: "team-building",
+    tags: [
+      "Arena",
+      "Combat Power",
+      "Equipment",
+      "Plate Presets",
+      "Sugar Runes"
+    ],
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie4010",
+      "cookie4019",
+      "cookie0250"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-arena-healing-down-team-guide",
+      "cookie-run-crumble-equipment-choice-guide",
+      "cookie-run-crumble-power-guide-stage-damage"
+    ],
+    toc: [
+      {
+        id: "arena-growth-rules",
+        label: "Check which upgrades Arena carries over"
+      },
+      {
+        id: "equipment-power-gap",
+        label: "Read the equipment options behind the number"
+      },
+      {
+        id: "arena-stat-priorities",
+        label: "Start with broadly useful Arena stats"
+      },
+      {
+        id: "accuracy-and-focus",
+        label: "Add Accuracy or Focus for a visible reason"
+      },
+      {
+        id: "arena-plate-preset",
+        label: "Farm an Arena Plate without replacing your stage set"
+      },
+      {
+        id: "team-matchups",
+        label: "Inspect the lineup before buying another upgrade"
+      },
+      {
+        id: "stage-power-tradeoff",
+        label: "Keep raising Power when stages are the problem"
+      },
+      {
+        id: "arena-power-faq",
+        label: "Arena Combat Power FAQ"
+      }
+    ],
+    faq: [
+      {
+        question: "Why do I lose to lower-Power Arena teams?",
+        answer: "Arena applies only part of account growth. Better equipment options, Sugar Runes, and a stronger matchup can outweigh your displayed Power lead. Check your attack team's Plate and active Cookie builds before buying more general upgrades."
+      },
+      {
+        question: "What equipment stats should I start with for Arena?",
+        answer: "Start with Skill Amp where it applies, Skill Haste, and Damage Reduction. Consider CRIT Chance and CRIT DMG for offense. Add Accuracy or Focus when your opponents and failed attempts give you a reason to need them."
+      },
+      {
+        question: "Do I need a separate Arena equipment preset?",
+        answer: "No. A shared set can work while you prioritize stages. If you farm another Plate for Arena, select it in the attack-team settings so the team uses the equipment you prepared."
+      },
+      {
+        question: "Should I ignore Combat Power after an Arena loss?",
+        answer: "No. Keep it as context, then inspect the actual build and matchup. Power remains important for stage damage scaling, so a disappointing Arena result does not make your wider account upgrades useless."
+      }
+    ]
+  },
+  {
     "slug": "cookie-run-crumble-sugar-rune-investment-priority",
     "title": "Sugar Rune priority: Stop spending on the wrong Cookies",
     "seoTitle": "Sugar Rune Investment Priority | CookieRun: Crumble",
