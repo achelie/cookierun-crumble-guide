@@ -4,8 +4,8 @@ import { describe, expect, it } from "vitest";
 import { pets } from "./pets";
 
 describe("pet catalog", () => {
-  it("keeps all 55 IDs unique and defines an effect list for every pet", () => {
-    expect(pets).toHaveLength(55);
+  it("keeps all 57 IDs unique and defines an effect list for every pet", () => {
+    expect(pets).toHaveLength(57);
     expect(new Set(pets.map(({ id }) => id)).size).toBe(pets.length);
     for (const pet of pets) expect(pet.effects, `${pet.name} effects`).toBeInstanceOf(Array);
   });

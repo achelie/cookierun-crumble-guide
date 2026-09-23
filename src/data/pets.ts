@@ -1,7 +1,7 @@
 import type { Rarity } from "./cookies";
 
-// Public game-data snapshot checked on 2026-08-28.
-export const petsUpdatedAt = "2026-08-28";
+// Catalog checked against https://crumblehub.co/en on 2026-09-24.
+export const petsUpdatedAt = "2026-09-24";
 
 export type Pet = {
   id: string;
@@ -32,12 +32,14 @@ const effectsById: Partial<Record<string, string[]>> = {
   pet0141: ["Ranged allies gain CRIT DMG"],
   pet0142: ["Support allies gain Skill Amp"],
   pet0154: ["Dodge Up"],
+  pet0167: ["All allies gain Boss DMG in the Dimensional Rift"],
   pet0183: ["Accuracy Up"],
   pet0184: ["Fire allies gain CRIT DMG"],
   pet0186: ["Grass allies gain CRIT DMG"],
   pet0187: ["Light allies gain CRIT DMG"],
   pet0207: ["Focus Chance Up"],
   pet0216: ["ATK Up"],
+  pet0228: ["All allies gain Knock-up Resistance", "All allies gain Max HP"],
   pet0230: ["Damage Reduction Up"],
   pet0239: ["Charge allies gain Damage Reduction"],
   pet0243: ["Defense allies gain Dodge"],
@@ -69,11 +71,13 @@ const raw = [
   ["pet0132", "Carrot Cake Rabbit", "R"], ["pet0134", "Firestarter", "SR"],
   ["pet0135", "Milk Angel", "SR"], ["pet0141", "Junior Sleuth Ted", "SR"],
   ["pet0142", "Lord Crumbles III", "SR"], ["pet0147", "Jingle Deer", "R"],
-  ["pet0154", "Mango Toucan", "SSR"], ["pet0183", "Rooty", "SSR"],
+  ["pet0154", "Mango Toucan", "SSR"], ["pet0167", "Continuum Cog", "SSR"],
+  ["pet0183", "Rooty", "SSR"],
   ["pet0184", "Floral Froglet", "SSR"], ["pet0186", "Pterosatchel", "SSR"],
   ["pet0187", "Bonbon Birdy", "SSR"], ["pet0197", "Floofy Fruity", "R"],
   ["pet0207", "Yakgwa Pupper", "SSR"], ["pet0216", "Creamtese", "SR"],
-  ["pet0230", "Icy Birdie", "SR"], ["pet0239", "Eggbeak", "SSR"],
+  ["pet0228", "Candy Shade Pouch", "SSR"], ["pet0230", "Icy Birdie", "SR"],
+  ["pet0239", "Eggbeak", "SSR"],
   ["pet0243", "Breadog", "SSR"], ["pet0252", "Berry Angrybeak", "SSR"],
   ["pet0517", "Constable Whiskers", "SSR"], ["pet1004", "Soda Dollop", "SR"],
   ["pet4001", "Holy Baby Drop", "SSR"], ["pet4002", "Toofie", "R"],
