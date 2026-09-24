@@ -1,11 +1,8 @@
-const publisherId = "ca-pub-7443237558968985";
-const adSenseBootstrapSrc = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${publisherId}`;
+import { SiteDocument, metadata as siteMetadata, viewport as siteViewport } from "@/components/site-document";
+
+export const metadata = siteMetadata;
+export const viewport = siteViewport;
 
 export default function AdSenseContentLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return (
-    <>
-      {children}
-      <script async src={adSenseBootstrapSrc} crossOrigin="anonymous" />
-    </>
-  );
+  return <SiteDocument advertising>{children}</SiteDocument>;
 }

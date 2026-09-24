@@ -3,7 +3,7 @@ import { Fredoka, Nunito_Sans } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { seoPages, siteName, siteUrl } from "@/lib/seo";
-import "./globals.css";
+import "@/app/globals.css";
 
 const display = Fredoka({ subsets: ["latin"], variable: "--font-display", weight: ["500", "600", "700"] });
 const body = Nunito_Sans({ subsets: ["latin"], variable: "--font-body", weight: ["400", "600", "700", "800"] });
@@ -52,10 +52,11 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#d94f3f", colorScheme: "light dark" };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export function SiteDocument({ children, advertising = false }: Readonly<{ children: React.ReactNode; advertising?: boolean }>) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <head>
+        {advertising && <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7443237558968985" crossOrigin="anonymous" />}
         <script
           src={ahrefsAnalyticsSrc}
           data-key={ahrefsAnalyticsKey}
