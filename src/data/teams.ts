@@ -14,9 +14,41 @@ export type RecommendedTeam = {
   };
 };
 
-export const teamsUpdatedAt = "2026-09-12";
+export const teamsUpdatedAt = "2026-09-24";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "princess-bari-story",
+    name: "Princess Bari Story Team",
+    kicker: "Charge protection with two optional Herb swaps",
+    description: "Use Bari with Scorpion for extra boss poison damage. If allies keep dying, replace Strawberry Crepe or Scorpion with Herb. Start with useful offensive Rune rolls for story when Bari survives; this developed roster still needs enough Power for the stage.",
+    cookies: [
+      "cookie0059",
+      "cookie0181",
+      "cookie0037",
+      "cookie0018",
+      "cookie4019",
+      "cookie0518",
+      "cookie4013",
+      "cookie4010",
+      "cookie0126",
+      "cookie0081",
+      "cookie4024",
+      "cookie0103"
+    ],
+    pets: [
+      "pet0111",
+      "pet4005",
+      "pet4001"
+    ],
+    updatedAt: "2026-09-24",
+    guideReference: {
+      href: "/guides/cookie-run-crumble-princess-bari-cookie-build-team/",
+      leadIn: "The ",
+      anchor: "Princess Bari build guide",
+      followUp: " explains the complete lineup, Herb swaps, and separate Rune priorities for story and Arena."
+    }
+  },
   {
     id: "cherry-cola-auto-story",
     name: "Cherry Cola Auto Story Team",

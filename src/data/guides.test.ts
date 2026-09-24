@@ -83,6 +83,28 @@ function expectPublishableGuide(source: string, maxWords = 1_500) {
 }
 
 describe("guide registry", () => {
+  it("keeps the pictured Princess Bari lineup identical in the guide and Teams", () => {
+    const slug = "cookie-run-crumble-princess-bari-cookie-build-team";
+    const guide = guides.find((item) => item.slug === slug);
+    const content = readFileSync(new URL(`../content/guides/${slug}.mdx`, import.meta.url), "utf8");
+    const team = recommendedTeams.find((item) => item.id === "princess-bari-story");
+    const cookieIds = ["cookie0059", "cookie0181", "cookie0037", "cookie0018", "cookie4019", "cookie0518", "cookie4013", "cookie4010", "cookie0126", "cookie0081", "cookie4024", "cookie0103"];
+    const petIds = ["pet0111", "pet4005", "pet4001"];
+    expect(team?.cookies).toEqual(cookieIds);
+    expect(team?.pets).toEqual(petIds);
+    expect(team?.guideReference?.href).toBe(`/guides/${slug}/`);
+    expectPublishableGuide(content, 1_800);
+    expect(guideProse(content).match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length).toBeGreaterThanOrEqual(1_500);
+    expect(JSON.parse(content.match(/cookieIds=\{(\[[^\]]+\])\}/)?.[1] ?? "null")).toEqual(cookieIds);
+    expect(JSON.parse(content.match(/petIds=\{(\[[^\]]+\])\}/)?.[1] ?? "null")).toEqual(petIds);
+    expect(content.match(/\]\(\/[^)]+\)/g)).toHaveLength(4);
+    expect([...content.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1])).toEqual(guide?.toc.map((item) => item.id));
+    expect(guide?.faq).toHaveLength(4);
+    guide?.faq.forEach((item) => {
+      expect(content).toContain(`### ${item.question}`);
+      expect(content).toContain(item.answer);
+    });
+  });
   it("keeps the Cherry Cola story formation identical in the guide and Teams", () => {
     const slug = "cookie-run-crumble-cherry-cola-auto-stage-team";
     const guide = guides.find((item) => item.slug === slug);
@@ -444,7 +466,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-arena-power-gap-guide");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-princess-bari-cookie-build-team");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 

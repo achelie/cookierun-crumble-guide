@@ -41,6 +41,83 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-princess-bari-cookie-build-team",
+    title: "Princess Bari build: Stop your Charge team dying on arrival",
+    seoTitle: "Princess Bari Build & Story Team | CookieRun: Crumble",
+    seoDescription: "Build Princess Bari Cookie with practical Sugar Rune priorities, a complete 12-Cookie story team, Herb swaps, and Arena advice for Charge teams that die too fast.",
+    excerpt: "Your Charge team reaches its target, then falls apart. Build Bari for the right fight, copy a complete story lineup, and know when to bring Herb.",
+    category: "cookies",
+    tags: [
+      "Princess Bari",
+      "Charge",
+      "Sugar Runes",
+      "Story Teams",
+      "Arena"
+    ],
+    publishedAt: "2026-09-24",
+    updatedAt: "2026-09-24",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie0081",
+      "cookie0181",
+      "cookie4019"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-cherry-cola-auto-stage-team",
+      "cookie-run-crumble-sugar-rune-investment-priority",
+      "cookie-run-crumble-arena-power-gap-guide"
+    ],
+    toc: [
+      {
+        id: "bari-charge-protection",
+        label: "What Princess Bari actually fixes"
+      },
+      {
+        id: "bari-story-team",
+        label: "A complete Princess Bari story team"
+      },
+      {
+        id: "bari-herb-swaps",
+        label: "When to bring Herb instead"
+      },
+      {
+        id: "bari-sugar-runes",
+        label: "Sugar Runes: separate story from Arena"
+      },
+      {
+        id: "bari-arena-matchups",
+        label: "Why a Bari Arena team can still collapse"
+      },
+      {
+        id: "bari-upgrade-priorities",
+        label: "Spend after checking one failed fight"
+      },
+      {
+        id: "bari-build-faq",
+        label: "Princess Bari build FAQ"
+      }
+    ],
+    faq: [
+      {
+        question: "Does Princess Bari need Cherry Cola?",
+        answer: "No. They can work together in story, but the 12-Cookie preset here uses Bari without Cherry Cola. Try the complete formation first, then judge swaps by survival, damage, and targeting in your own fights."
+      },
+      {
+        question: "Is Skill Amp wasted on Princess Bari?",
+        answer: "No. Skill Amp affects her damage, even though it does not scale the protective buffs covered by the skill's exclusion. Keep a strong roll if it improves your available set; do not expect stronger protection from it."
+      },
+      {
+        question: "Who should Herb replace in this story team?",
+        answer: "Try Strawberry Crepe or Scorpion. Keep Scorpion when poison helps you finish a single boss. If survival is the main problem, compare the two swaps on the same stage before deciding which damage slot to give up."
+      },
+      {
+        question: "Does Bari make a Charge team safe against ranged burst?",
+        answer: "No. A strong ranged team can still kill the Charge group on entry. Damage Reduction helps with survival, but promotion gaps, enemy damage, and whether your team finishes its first target still matter."
+      }
+    ]
+  },
+  {
     slug: "cookie-run-crumble-arena-power-gap-guide",
     title: "More power, still losing Arena? Fix the stats that count",
     seoTitle: "Losing Arena With More Power? | CookieRun: Crumble",
