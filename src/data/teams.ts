@@ -14,9 +14,105 @@ export type RecommendedTeam = {
   };
 };
 
-export const teamsUpdatedAt = "2026-09-24";
+export const teamsUpdatedAt = "2026-09-26";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "bari-cherry-cola-story",
+    name: "Bari & Cherry Cola Story Team",
+    kicker: "Default story progression",
+    description: "Start here for ordinary story stages. Keep Cherry Cola while testing Strawberry Crepe swaps: Ion adds a shield, while Herb adds healing. For Redberry, replace Bari and Cherry Cola with Tiger Lily and Cool Mint, then fight just below the southern stairs.",
+    cookies: [
+      "cookie0059",
+      "cookie0181",
+      "cookie0037",
+      "cookie0018",
+      "cookie4019",
+      "cookie0250",
+      "cookie4013",
+      "cookie4010",
+      "cookie0126",
+      "cookie0081",
+      "cookie0518",
+      "cookie0103"
+    ],
+    pets: [
+      "pet0111",
+      "pet4005",
+      "pet4001"
+    ],
+    updatedAt: "2026-09-26",
+    guideReference: {
+      href: "/guides/cookie-run-crumble-bari-story-boss-team-presets/",
+      leadIn: "The ",
+      anchor: "story boss preset guide",
+      followUp: " covers all three teams, survival swaps, and boss positioning."
+    }
+  },
+  {
+    id: "story-knock-up-resistance",
+    name: "Story Knock-up Resistance Team",
+    kicker: "Hammer bosses and Cool Mint",
+    description: "Use Candy Shade Pouch for knock-up resistance and extra HP; Panda Dumpling is the fallback if you lack it. This Wind Archer version already includes Ion and Herb. Against Cool Mint, try the seven or eleven o’clock corner before rebuilding the team.",
+    cookies: [
+      "cookie0070",
+      "cookie4013",
+      "cookie4010",
+      "cookie0018",
+      "cookie0136",
+      "cookie0063",
+      "cookie0059",
+      "cookie0181",
+      "cookie0126",
+      "cookie4019",
+      "cookie0518",
+      "cookie0103"
+    ],
+    pets: [
+      "pet0228",
+      "pet0111",
+      "pet4001"
+    ],
+    updatedAt: "2026-09-26",
+    guideReference: {
+      href: "/guides/cookie-run-crumble-bari-story-boss-team-presets/",
+      leadIn: "The ",
+      anchor: "story boss preset guide",
+      followUp: " covers all three teams, survival swaps, and boss positioning."
+    }
+  },
+  {
+    id: "bari-gingercraven-power",
+    name: "Bari & Wind Archer GingerCraven Team",
+    kicker: "When the team survives but damage stalls",
+    description: "Use Wind Archer when his investment raises useful team Power; Cherry Cola can take his slot. Bari and Herb stay in this preset. Keep GingerBright as an early survival option, then reconsider that slot once incoming damage becomes manageable.",
+    cookies: [
+      "cookie0070",
+      "cookie4013",
+      "cookie4010",
+      "cookie0126",
+      "cookie0081",
+      "cookie0063",
+      "cookie0059",
+      "cookie0181",
+      "cookie0037",
+      "cookie0018",
+      "cookie4019",
+      "cookie0103"
+    ],
+    pets: [
+      "pet4001",
+      "pet0111",
+      "pet4005"
+    ],
+    updatedAt: "2026-09-26",
+    guideReference: {
+      href: "/guides/cookie-run-crumble-bari-story-boss-team-presets/",
+      leadIn: "The ",
+      anchor: "story boss preset guide",
+      followUp: " covers all three teams, survival swaps, and boss positioning."
+    }
+  },
   {
     id: "princess-bari-story",
     name: "Princess Bari Story Team",

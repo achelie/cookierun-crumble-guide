@@ -30,10 +30,10 @@ function guideFormations() {
 }
 
 describe("teams pagination", () => {
-  it("shows 12 teams across pages of 7 and 5", () => {
+  it("shows 15 teams across pages of 7, 7, and 1", () => {
     expect(teamsPageSize).toBe(7);
-    expect([1, 2].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([7, 5]);
-    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 2, total: 12 });
+    expect([1, 2, 3].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([7, 7, 1]);
+    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 3, total: 15 });
   });
 
   it("normalizes missing, malformed, negative, and oversized page values", () => {
@@ -41,7 +41,7 @@ describe("teams pagination", () => {
     expect(normalizeTeamsPage("nope", recommendedTeams.length)).toBe(1);
     expect(normalizeTeamsPage("2oops", recommendedTeams.length)).toBe(1);
     expect(normalizeTeamsPage(-4, recommendedTeams.length)).toBe(1);
-    expect(normalizeTeamsPage(99, recommendedTeams.length)).toBe(2);
+    expect(normalizeTeamsPage(99, recommendedTeams.length)).toBe(3);
   });
 });
 
@@ -55,6 +55,9 @@ describe("team guide references", () => {
     const linkedTeams = recommendedTeams.filter((team) => team.guideReference);
 
     expect(exactMatches.map((team) => team.id)).toEqual([
+      "bari-cherry-cola-story",
+      "story-knock-up-resistance",
+      "bari-gingercraven-power",
       "princess-bari-story",
       "cherry-cola-auto-story",
       "september-general-purpose",

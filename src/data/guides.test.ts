@@ -83,6 +83,35 @@ function expectPublishableGuide(source: string, maxWords = 1_500) {
 }
 
 describe("guide registry", () => {
+  it("preserves all three story preset screenshots in the guide and Teams", () => {
+    const slug = "cookie-run-crumble-bari-story-boss-team-presets";
+    const guide = guides.find((item) => item.slug === slug);
+    const content = readFileSync(new URL(`../content/guides/${slug}.mdx`, import.meta.url), "utf8");
+    const expected = [
+      { id: "bari-cherry-cola-story", cookies: ["cookie0059", "cookie0181", "cookie0037", "cookie0018", "cookie4019", "cookie0250", "cookie4013", "cookie4010", "cookie0126", "cookie0081", "cookie0518", "cookie0103"], pets: ["pet0111", "pet4005", "pet4001"] },
+      { id: "story-knock-up-resistance", cookies: ["cookie0070", "cookie4013", "cookie4010", "cookie0018", "cookie0136", "cookie0063", "cookie0059", "cookie0181", "cookie0126", "cookie4019", "cookie0518", "cookie0103"], pets: ["pet0228", "pet0111", "pet4001"] },
+      { id: "bari-gingercraven-power", cookies: ["cookie0070", "cookie4013", "cookie4010", "cookie0126", "cookie0081", "cookie0063", "cookie0059", "cookie0181", "cookie0037", "cookie0018", "cookie4019", "cookie0103"], pets: ["pet4001", "pet0111", "pet4005"] },
+    ];
+    const formations = [...content.matchAll(/<GuideTeamFormation[\s\S]*?cookieIds=\{(\[[^\]]+\])\}[\s\S]*?petIds=\{(\[[^\]]+\])\}/g)];
+    expect(formations).toHaveLength(3);
+    expected.forEach((formation, index) => {
+      expect(JSON.parse(formations[index][1])).toEqual(formation.cookies);
+      expect(JSON.parse(formations[index][2])).toEqual(formation.pets);
+      expect(new Set(formation.cookies).size).toBe(12);
+      expect(recommendedTeams.find((team) => team.id === formation.id)).toMatchObject({
+        ...formation, updatedAt: "2026-09-26", guideReference: { href: `/guides/${slug}/` },
+      });
+    });
+    expectPublishableGuide(content, 1_800);
+    expect(guideProse(content).match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length).toBeGreaterThanOrEqual(1_500);
+    expect(content.match(/\]\(\/[^)]+\)/g)).toHaveLength(4);
+    expect([...content.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1])).toEqual(guide?.toc.map((item) => item.id));
+    expect(guide?.faq).toHaveLength(4);
+    guide?.faq.forEach((item) => {
+      expect(content).toContain(`### ${item.question}`);
+      expect(content).toContain(item.answer);
+    });
+  });
   it("keeps the pictured Princess Bari lineup identical in the guide and Teams", () => {
     const slug = "cookie-run-crumble-princess-bari-cookie-build-team";
     const guide = guides.find((item) => item.slug === slug);
@@ -466,7 +495,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-princess-bari-cookie-build-team");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-bari-story-boss-team-presets");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 

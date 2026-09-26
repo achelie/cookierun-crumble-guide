@@ -1,14 +1,13 @@
 import { cookies } from "./cookies";
 
-// Combined PvP and PvE ranking updated on 2026-09-12.
-// Cherry Cola joins S for story performance with survival Runes and Pinot Noir support.
+// Combined PvP and PvE ranking updated on 2026-09-26.
 export const tierRanks = ["S", "A", "B", "C", "D"] as const;
 export type TierRank = (typeof tierRanks)[number];
 
 const placedTierList: Record<Exclude<TierRank, "D">, string[]> = {
   S: [
     "cookie4013", "cookie4010", "cookie0070", "cookie0250", "cookie4019", "cookie0126", "cookie0532", "cookie0103",
-    "cookie0181", "cookie0059", "cookie0003",
+    "cookie0181", "cookie0059", "cookie0003", "cookie4025", "cookie0081",
   ],
   A: [
     "cookie0518", "cookie0018", "cookie3001", "cookie4024", "cookie0573", "cookie0513", "cookie0063",
@@ -31,4 +30,4 @@ export const tierList: Record<TierRank, string[]> = {
   D: cookies.map(({ id }) => id).filter((id) => !placedCookieIds.has(id)),
 };
 
-export const tierUpdatedAt = "2026-09-12";
+export const tierUpdatedAt = "2026-09-26";

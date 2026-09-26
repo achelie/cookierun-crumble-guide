@@ -48,9 +48,9 @@ describe("SEO page registry", () => {
   });
 
   it("exposes the Teams update date in search-facing copy", () => {
-    expect(seoPages.teams.summary).toContain("Updated September 24, 2026");
-    expect(seoPages.teams.description).toContain("Updated September 24, 2026");
-    expect(seoPages.teams.updatedAt).toBe("2026-09-24");
+    expect(seoPages.teams.summary).toContain("Updated September 26, 2026");
+    expect(seoPages.teams.description).toContain("Updated September 26, 2026");
+    expect(seoPages.teams.updatedAt).toBe("2026-09-26");
   });
 });
 

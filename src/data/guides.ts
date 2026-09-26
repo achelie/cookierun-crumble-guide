@@ -41,6 +41,87 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-bari-story-boss-team-presets",
+    title: "Bari story teams: Stop rebuilding for every boss",
+    seoTitle: "Princess Bari Story Teams & Boss Swaps | CookieRun: Crumble",
+    seoDescription: "Stuck on story bosses in CookieRun: Crumble? Copy three complete teams, choose the right Pet, and adjust for knock-ups, GingerCraven, and Redberry.",
+    excerpt: "Save three complete story teams and switch for the fight that stopped you. Includes Candy Shade Pouch, GingerCraven Power choices, and the Redberry stair position.",
+    category: "team-building",
+    tags: [
+      "Princess Bari",
+      "Story Teams",
+      "Cherry Cola",
+      "GingerCraven",
+      "Knock-up Resistance"
+    ],
+    publishedAt: "2026-09-26",
+    updatedAt: "2026-09-26",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie0081",
+      "cookie0250",
+      "cookie0070"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-princess-bari-cookie-build-team",
+      "cookie-run-crumble-cherry-cola-auto-stage-team",
+      "cookie-run-crumble-power-guide-stage-damage"
+    ],
+    toc: [
+      {
+        id: "choose-story-preset",
+        label: "Choose the preset from the failed fight"
+      },
+      {
+        id: "bari-cherry-cola-team",
+        label: "The everyday Bari and Cherry Cola team"
+      },
+      {
+        id: "anti-knock-up-team",
+        label: "The anti-knock-up team and its Pet slot"
+      },
+      {
+        id: "gingercraven-power-team",
+        label: "GingerCraven: check Power before adding more protection"
+      },
+      {
+        id: "story-survival-swaps",
+        label: "Fix survival without replacing the whole roster"
+      },
+      {
+        id: "redberry-staircase",
+        label: "Redberry: stop chasing and use the stairs"
+      },
+      {
+        id: "story-retry-check",
+        label: "Keep the next retry useful"
+      },
+      {
+        id: "story-presets-faq",
+        label: "Story team FAQ"
+      }
+    ],
+    faq: [
+      {
+        question: "Which team should I try first?",
+        answer: "Start with the Bari and Cherry Cola preset for routine story stages. Switch when a specific failure gives you a reason: repeated knock-ups, a GingerCraven damage problem, or Redberry teleporting away from close-range attackers."
+      },
+      {
+        question: "Should I level Candy Shade Pouch before using it?",
+        answer: "Try it in the anti-knock-up slot as soon as you have it. The recommendation favors its resistance and HP contribution even at low level. Keep Panda Dumpling as the fallback when you do not own the pouch."
+      },
+      {
+        question: "Is Wind Archer required for GingerCraven?",
+        answer: "No. His role in this preset is to help an account raise Power when damage barely lands. Cherry Cola can replace him. Choose the version that works with your promotion and equipment instead of forcing an underbuilt Wind Archer into the team."
+      },
+      {
+        question: "Where should I stop when pulling Redberry south?",
+        answer: "Stop just below the southern staircase while the enemies remain above it. Head toward six or seven o'clock from the start, but do not retreat all the way to the arena's bottom edge."
+      }
+    ]
+  },
+  {
     slug: "cookie-run-crumble-princess-bari-cookie-build-team",
     title: "Princess Bari build: Stop your Charge team dying on arrival",
     seoTitle: "Princess Bari Build & Story Team | CookieRun: Crumble",
