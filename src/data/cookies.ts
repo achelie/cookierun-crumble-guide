@@ -1,5 +1,6 @@
 export const rarities = ["TSSR", "SSR", "SR", "R", "U", "C"] as const;
-export const cookiesUpdatedAt = "2026-09-11";
+// Catalog checked against https://crumblehub.co/en on 2026-09-24.
+export const cookiesUpdatedAt = "2026-09-24";
 export type Rarity = (typeof rarities)[number];
 
 export const elements = ["Fire", "Water", "Grass", "Light", "Dark"] as const;
@@ -9,6 +10,7 @@ export const buffs = [
   "ATK Down", "ATK Up", "Accuracy Down", "Accuracy Up", "Damage Taken Down", "DEF Down", "DEF Up",
   "Shield", "Skill Amp Up", "Move Speed Down", "Move Speed Up", "CRIT DMG Up", "CRIT Chance Up", "Healing",
   "Boss DMG Up", "Healing Received Down", "Knock-up Resistance Up",
+  "Knock-up Immunity", "Knockback Immunity", "CRIT Chance Down",
 ] as const;
 
 export type Element = (typeof elements)[number];
@@ -104,6 +106,7 @@ export const cookies: Cookie[] = [
   { id: "cookie0069", name: "Pancake Cookie", rarity: "SR", image: "/images/cookies/cookie0069.webp", element: "Grass", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: ["DEF Down"] },
   { id: "cookie0070", name: "Wind Archer Cookie", rarity: "TSSR", image: "/images/cookies/cookie0070.webp", element: "Grass", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Pierce"], buffs: [] },
   { id: "cookie0072", name: "Strawberry Shortcake Cookie", rarity: "SSR", image: "/images/cookies/cookie0072.webp", element: "Grass", role: "Charge", grantedSynergies: ["Pierce"], receivedSynergies: ["Projectile Speed"], buffs: ["Move Speed Up"] },
+  { id: "cookie0081", name: "Princess Bari Cookie", rarity: "TSSR", image: "/images/cookies/cookie0081.webp", element: "Fire", role: "Charge", grantedSynergies: [], receivedSynergies: ["Area"], buffs: ["Damage Taken Down", "Knock-up Immunity", "Knockback Immunity"] },
   { id: "cookie0101", name: "Popcorn Cookie", rarity: "SR", image: "/images/cookies/cookie0101.webp", element: "Light", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: [] },
   { id: "cookie0103", name: "Dark Choco Cookie", rarity: "SSR", image: "/images/cookies/cookie0103.webp", element: "Dark", role: "Defense", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: ["DEF Down"] },
   { id: "cookie0106", name: "Space Doughnut", rarity: "R", image: "/images/cookies/cookie0106.webp", element: "Light", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Pierce"], buffs: [] },
@@ -141,6 +144,7 @@ export const cookies: Cookie[] = [
   { id: "cookie4022", name: "Sugar Gnome", rarity: "C", image: "/images/cookies/cookie4022.webp", element: "Grass", role: "Charge", grantedSynergies: [], receivedSynergies: ["Area"], buffs: [] },
   { id: "cookie4023", name: "Bear Jelly Worker", rarity: "R", image: "/images/cookies/cookie4023.webp", element: "Fire", role: "Charge", grantedSynergies: [], receivedSynergies: ["Multi-strike"], buffs: [] },
   { id: "cookie4024", name: "Nameless Cake Hound", rarity: "SSR", image: "/images/cookies/cookie4024.webp", element: "Fire", role: "Defense", grantedSynergies: [], receivedSynergies: ["Area"], buffs: ["Damage Taken Down"] },
+  { id: "cookie4025", name: "Moon Rabbit Cookie's Pampered with Persimmon", rarity: "SSR", image: "/images/cookies/cookie4025.webp", element: "Grass", role: "Defense", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: ["ATK Down", "CRIT Chance Down"] },
 ];
 
 export const cookieById = new Map(cookies.map((cookie) => [cookie.id, cookie]));

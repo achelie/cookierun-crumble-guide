@@ -1,4 +1,14 @@
-import type { RecommendedTeam } from "@/data/teams";
+import { teamCategories, type RecommendedTeam, type TeamCategory } from "@/data/teams";
+
+export type TeamFilter = TeamCategory | "all";
+
+export function normalizeTeamCategory(value: string | null | undefined): TeamFilter {
+  return teamCategories.find((category) => category.slug === value)?.slug ?? "all";
+}
+
+export function filterTeams(items: RecommendedTeam[], category: TeamFilter) {
+  return category === "all" ? items : items.filter((team) => team.category === category);
+}
 
 export const teamsPageSize = 7;
 

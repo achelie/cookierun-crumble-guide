@@ -41,6 +41,326 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-bari-story-boss-team-presets",
+    title: "Bari story teams: Stop rebuilding for every boss",
+    seoTitle: "Princess Bari Story Teams & Boss Swaps | CookieRun: Crumble",
+    seoDescription: "Stuck on story bosses in CookieRun: Crumble? Copy three complete teams, choose the right Pet, and adjust for knock-ups, GingerCraven, and Redberry.",
+    excerpt: "Save three complete story teams and switch for the fight that stopped you. Includes Candy Shade Pouch, GingerCraven Power choices, and the Redberry stair position.",
+    category: "team-building",
+    tags: [
+      "Princess Bari",
+      "Story Teams",
+      "Cherry Cola",
+      "GingerCraven",
+      "Knock-up Resistance"
+    ],
+    publishedAt: "2026-09-26",
+    updatedAt: "2026-09-26",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie0081",
+      "cookie0250",
+      "cookie0070"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-princess-bari-cookie-build-team",
+      "cookie-run-crumble-cherry-cola-auto-stage-team",
+      "cookie-run-crumble-power-guide-stage-damage"
+    ],
+    toc: [
+      {
+        id: "choose-story-preset",
+        label: "Choose the preset from the failed fight"
+      },
+      {
+        id: "bari-cherry-cola-team",
+        label: "The everyday Bari and Cherry Cola team"
+      },
+      {
+        id: "anti-knock-up-team",
+        label: "The anti-knock-up team and its Pet slot"
+      },
+      {
+        id: "gingercraven-power-team",
+        label: "GingerCraven: check Power before adding more protection"
+      },
+      {
+        id: "story-survival-swaps",
+        label: "Fix survival without replacing the whole roster"
+      },
+      {
+        id: "redberry-staircase",
+        label: "Redberry: stop chasing and use the stairs"
+      },
+      {
+        id: "story-retry-check",
+        label: "Keep the next retry useful"
+      },
+      {
+        id: "story-presets-faq",
+        label: "Story team FAQ"
+      }
+    ],
+    faq: [
+      {
+        question: "Which team should I try first?",
+        answer: "Start with the Bari and Cherry Cola preset for routine story stages. Switch when a specific failure gives you a reason: repeated knock-ups, a GingerCraven damage problem, or Redberry teleporting away from close-range attackers."
+      },
+      {
+        question: "Should I level Candy Shade Pouch before using it?",
+        answer: "Try it in the anti-knock-up slot as soon as you have it. The recommendation favors its resistance and HP contribution even at low level. Keep Panda Dumpling as the fallback when you do not own the pouch."
+      },
+      {
+        question: "Is Wind Archer required for GingerCraven?",
+        answer: "No. His role in this preset is to help an account raise Power when damage barely lands. Cherry Cola can replace him. Choose the version that works with your promotion and equipment instead of forcing an underbuilt Wind Archer into the team."
+      },
+      {
+        question: "Where should I stop when pulling Redberry south?",
+        answer: "Stop just below the southern staircase while the enemies remain above it. Head toward six or seven o'clock from the start, but do not retreat all the way to the arena's bottom edge."
+      }
+    ]
+  },
+  {
+    slug: "cookie-run-crumble-princess-bari-cookie-build-team",
+    title: "Princess Bari build: Stop your Charge team dying on arrival",
+    seoTitle: "Princess Bari Build & Story Team | CookieRun: Crumble",
+    seoDescription: "Build Princess Bari Cookie with practical Sugar Rune priorities, a complete 12-Cookie story team, Herb swaps, and Arena advice for Charge teams that die too fast.",
+    excerpt: "Your Charge team reaches its target, then falls apart. Build Bari for the right fight, copy a complete story lineup, and know when to bring Herb.",
+    category: "cookies",
+    tags: [
+      "Princess Bari",
+      "Charge",
+      "Sugar Runes",
+      "Story Teams",
+      "Arena"
+    ],
+    publishedAt: "2026-09-24",
+    updatedAt: "2026-09-24",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie0081",
+      "cookie0181",
+      "cookie4019"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-cherry-cola-auto-stage-team",
+      "cookie-run-crumble-sugar-rune-investment-priority",
+      "cookie-run-crumble-arena-power-gap-guide"
+    ],
+    toc: [
+      {
+        id: "bari-charge-protection",
+        label: "What Princess Bari actually fixes"
+      },
+      {
+        id: "bari-story-team",
+        label: "A complete Princess Bari story team"
+      },
+      {
+        id: "bari-herb-swaps",
+        label: "When to bring Herb instead"
+      },
+      {
+        id: "bari-sugar-runes",
+        label: "Sugar Runes: separate story from Arena"
+      },
+      {
+        id: "bari-arena-matchups",
+        label: "Why a Bari Arena team can still collapse"
+      },
+      {
+        id: "bari-upgrade-priorities",
+        label: "Spend after checking one failed fight"
+      },
+      {
+        id: "bari-build-faq",
+        label: "Princess Bari build FAQ"
+      }
+    ],
+    faq: [
+      {
+        question: "Does Princess Bari need Cherry Cola?",
+        answer: "No. They can work together in story, but the 12-Cookie preset here uses Bari without Cherry Cola. Try the complete formation first, then judge swaps by survival, damage, and targeting in your own fights."
+      },
+      {
+        question: "Is Skill Amp wasted on Princess Bari?",
+        answer: "No. Skill Amp affects her damage, even though it does not scale the protective buffs covered by the skill's exclusion. Keep a strong roll if it improves your available set; do not expect stronger protection from it."
+      },
+      {
+        question: "Who should Herb replace in this story team?",
+        answer: "Try Strawberry Crepe or Scorpion. Keep Scorpion when poison helps you finish a single boss. If survival is the main problem, compare the two swaps on the same stage before deciding which damage slot to give up."
+      },
+      {
+        question: "Does Bari make a Charge team safe against ranged burst?",
+        answer: "No. A strong ranged team can still kill the Charge group on entry. Damage Reduction helps with survival, but promotion gaps, enemy damage, and whether your team finishes its first target still matter."
+      }
+    ]
+  },
+  {
+    slug: "cookie-run-crumble-arena-power-gap-guide",
+    title: "More power, still losing Arena? Fix the stats that count",
+    seoTitle: "Losing Arena With More Power? | CookieRun: Crumble",
+    seoDescription: "Losing Arena to lower-power teams in CookieRun: Crumble? Check which upgrades count, choose useful gear stats, and equip the right Plate preset before attacking.",
+    excerpt: "Your Power lead did not stop another Arena loss. Check which upgrades count, fix the equipment preset, and choose stats for the opponents you actually face.",
+    category: "team-building",
+    tags: [
+      "Arena",
+      "Combat Power",
+      "Equipment",
+      "Plate Presets",
+      "Sugar Runes"
+    ],
+    publishedAt: "2026-09-22",
+    updatedAt: "2026-09-22",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "cookie4010",
+      "cookie4019",
+      "cookie0250"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-arena-healing-down-team-guide",
+      "cookie-run-crumble-equipment-choice-guide",
+      "cookie-run-crumble-power-guide-stage-damage"
+    ],
+    toc: [
+      {
+        id: "arena-growth-rules",
+        label: "Check which upgrades Arena carries over"
+      },
+      {
+        id: "equipment-power-gap",
+        label: "Read the equipment options behind the number"
+      },
+      {
+        id: "arena-stat-priorities",
+        label: "Start with broadly useful Arena stats"
+      },
+      {
+        id: "accuracy-and-focus",
+        label: "Add Accuracy or Focus for a visible reason"
+      },
+      {
+        id: "arena-plate-preset",
+        label: "Farm an Arena Plate without replacing your stage set"
+      },
+      {
+        id: "team-matchups",
+        label: "Inspect the lineup before buying another upgrade"
+      },
+      {
+        id: "stage-power-tradeoff",
+        label: "Keep raising Power when stages are the problem"
+      },
+      {
+        id: "arena-power-faq",
+        label: "Arena Combat Power FAQ"
+      }
+    ],
+    faq: [
+      {
+        question: "Why do I lose to lower-Power Arena teams?",
+        answer: "Arena applies only part of account growth. Better equipment options, Sugar Runes, and a stronger matchup can outweigh your displayed Power lead. Check your attack team's Plate and active Cookie builds before buying more general upgrades."
+      },
+      {
+        question: "What equipment stats should I start with for Arena?",
+        answer: "Start with Skill Amp where it applies, Skill Haste, and Damage Reduction. Consider CRIT Chance and CRIT DMG for offense. Add Accuracy or Focus when your opponents and failed attempts give you a reason to need them."
+      },
+      {
+        question: "Do I need a separate Arena equipment preset?",
+        answer: "No. A shared set can work while you prioritize stages. If you farm another Plate for Arena, select it in the attack-team settings so the team uses the equipment you prepared."
+      },
+      {
+        question: "Should I ignore Combat Power after an Arena loss?",
+        answer: "No. Keep it as context, then inspect the actual build and matchup. Power remains important for stage damage scaling, so a disappointing Arena result does not make your wider account upgrades useless."
+      }
+    ]
+  },
+  {
+    "slug": "cookie-run-crumble-sugar-rune-investment-priority",
+    "title": "Sugar Rune priority: Stop spending on the wrong Cookies",
+    "seoTitle": "Sugar Rune Investment Priority | CookieRun: Crumble",
+    "seoDescription": "Spend Sugar Runes where they help in CookieRun: Crumble. Set Milk's ATK, choose support stats, and plan Pinot Noir promotions before chasing another damage dealer.",
+    "excerpt": "Another Rune upgrade, the same failed stage. Fix Milk's buff targeting, set a support budget, and decide which promotions deserve your next Crystals.",
+    "category": "team-building",
+    "tags": [
+      "Sugar Runes",
+      "Investment Priority",
+      "Milk Cookie",
+      "Pomegranate Cookie",
+      "Pinot Noir Cookie"
+    ],
+    "publishedAt": "2026-09-14",
+    "updatedAt": "2026-09-14",
+    "readingMinutes": 8,
+    "author": "Crumble Guide",
+    "coverCookieIds": [
+      "cookie4019",
+      "cookie0126",
+      "cookie4010"
+    ],
+    "relatedGuideSlugs": [
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-dungeon-milk-buff-guide",
+      "cookie-run-crumble-level-100-exp-priority-guide"
+    ],
+    "toc": [
+      {
+        "id": "milk-rune-budget",
+        "label": "Give Milk the first serious Rune budget"
+      },
+      {
+        "id": "check-buff-targets",
+        "label": "Check the 10% leader bonus before rerolling"
+      },
+      {
+        "id": "support-rune-stats",
+        "label": "Build Pomegranate, Skating Queen, and Macaron next"
+      },
+      {
+        "id": "survival-and-debuffs",
+        "label": "Keep the debuffers and healers alive"
+      },
+      {
+        "id": "crystal-priorities",
+        "label": "Spend Crystals on promotion breakpoints"
+      },
+      {
+        "id": "chargemellow-level-10",
+        "label": "Make Chargemellow a limited Pet exception"
+      },
+      {
+        "id": "exp-allocation",
+        "label": "Allocate EXP after choosing your buff targets"
+      },
+      {
+        "id": "rune-priority-faq",
+        "label": "Sugar Rune spending FAQ"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who should get Sugar Runes first?",
+        "answer": "Start with Milk for the highest-ATK support setup, then Pomegranate and the supports you use across several teams. Move a fragile healer or failing debuffer ahead when that Cookie is the reason attempts collapse."
+      },
+      {
+        "question": "Does Milk need ATK Amp on every line?",
+        "answer": "No. One or two Skill Amp or Skill Haste lines can stay if Milk still meets the intended ATK ranking. Include the relevant 10% leader bonus and check Macaron's opening recipient before replacing useful Runes."
+      },
+      {
+        "question": "Should I force SSR on every Pomegranate line?",
+        "answer": "Aim for SSR Skill Amp on the cheaper first line. A second SSR is optional; SR Skill Amp on later lines is a reasonable stopping point when materials need to cover several Cookies."
+      },
+      {
+        "question": "Is five-star Scorpion guaranteed to land debuffs?",
+        "answer": "No. Five stars does not remove the enemy Resistance check. Focus helps when failed applications disrupt the run, so keep it in consideration even after promotion."
+      }
+    ]
+  },
+  {
     slug: "cookie-run-crumble-cherry-cola-auto-stage-team",
     title: "Cherry Cola auto team: Stop babysitting every story stage",
     seoTitle: "Cherry Cola Auto Team & Runes | CookieRun: Crumble",

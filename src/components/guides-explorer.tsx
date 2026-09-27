@@ -56,6 +56,7 @@ export function GuidesExplorer({ guides }: { guides: GuideSummary[] }) {
           </button>
           {guideCategories.map((item) => {
             const count = guides.filter((guide) => guide.category === item.slug).length;
+            if (count === 0) return null;
             return (
               <button key={item.slug} type="button" className={category === item.slug ? "is-active" : ""} onClick={() => updateParams({ category: item.slug, page: 1 })}>
                 {item.label} <span>{count}</span>

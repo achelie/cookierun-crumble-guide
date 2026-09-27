@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { recommendedTeams } from "@/data/teams";
-import { normalizeTeamsPage, paginateTeams, teamsPageSize } from "./team-pagination";
+import { filterTeams, normalizeTeamCategory, normalizeTeamsPage, paginateTeams, teamsPageSize } from "./team-pagination";
 
 type GuideFormation = {
   slug: string;
@@ -30,10 +30,31 @@ function guideFormations() {
 }
 
 describe("teams pagination", () => {
-  it("shows 11 teams across pages of 7 and 4", () => {
+  it("filters all teams before calculating category pages", () => {
+    expect(filterTeams(recommendedTeams, "all")).toHaveLength(26);
+    for (const [category, total] of [["story", 7], ["bosses", 8], ["dungeons", 7], ["pvp", 4]] as const) {
+      const filtered = filterTeams(recommendedTeams, category);
+      expect(filtered).toHaveLength(total);
+      expect(filtered.every((team) => team.category === category)).toBe(true);
+      expect(paginateTeams(filtered, 99).pageCount).toBe(category === "bosses" ? 2 : 1);
+    }
+    expect(paginateTeams(filterTeams(recommendedTeams, "bosses"), 2).items).toHaveLength(1);
+    expect(paginateTeams(filterTeams(recommendedTeams, "pvp"), 4)).toMatchObject({ page: 1, total: 4 });
+  });
+
+  it("accepts only the supported category slugs", () => {
+    for (const category of ["all", "story", "bosses", "dungeons", "pvp"] as const) {
+      expect(normalizeTeamCategory(category)).toBe(category);
+    }
+    for (const invalid of [null, undefined, "", "store", "PVP", "unknown"]) {
+      expect(normalizeTeamCategory(invalid)).toBe("all");
+    }
+    expect(paginateTeams([], 99)).toMatchObject({ items: [], page: 1, pageCount: 1, total: 0 });
+  });
+  it("shows 26 teams across pages of 7, 7, 7, and 5", () => {
     expect(teamsPageSize).toBe(7);
-    expect([1, 2].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([7, 4]);
-    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 2, total: 11 });
+    expect([1, 2, 3, 4].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([7, 7, 7, 5]);
+    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 4, total: 26 });
   });
 
   it("normalizes missing, malformed, negative, and oversized page values", () => {
@@ -41,7 +62,7 @@ describe("teams pagination", () => {
     expect(normalizeTeamsPage("nope", recommendedTeams.length)).toBe(1);
     expect(normalizeTeamsPage("2oops", recommendedTeams.length)).toBe(1);
     expect(normalizeTeamsPage(-4, recommendedTeams.length)).toBe(1);
-    expect(normalizeTeamsPage(99, recommendedTeams.length)).toBe(2);
+    expect(normalizeTeamsPage(99, recommendedTeams.length)).toBe(4);
   });
 });
 
@@ -55,6 +76,10 @@ describe("team guide references", () => {
     const linkedTeams = recommendedTeams.filter((team) => team.guideReference);
 
     expect(exactMatches.map((team) => team.id)).toEqual([
+      "bari-cherry-cola-story",
+      "story-knock-up-resistance",
+      "bari-gingercraven-power",
+      "princess-bari-story",
       "cherry-cola-auto-story",
       "september-general-purpose",
       "strawberry-crepe-rapid-aoe",
