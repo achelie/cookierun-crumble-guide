@@ -6,7 +6,7 @@ import { SynergySummary } from "@/components/synergy-summary";
 import { AppIcon } from "@/components/ui/icon";
 import { cookieById, type Cookie } from "@/data/cookies";
 import { petById } from "@/data/pets";
-import type { RecommendedTeam } from "@/data/teams";
+import { teamCategories, type RecommendedTeam } from "@/data/teams";
 
 const dateFormatter = new Intl.DateTimeFormat("en", {
   month: "short",
@@ -31,6 +31,7 @@ export function TeamShowcase({ team }: { team: RecommendedTeam }) {
           )}
         </p>
         <div className="team-showcase__meta">
+          <span className="team-category-badge">{teamCategories.find((category) => category.slug === team.category)?.label}</span>
           <AppIcon name="calendar" size={15} />
           <span>Updated {dateFormatter.format(new Date(`${team.updatedAt}T00:00:00Z`))}</span>
         </div>

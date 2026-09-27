@@ -38,8 +38,8 @@ describe("recommended teams", () => {
   });
 
   it("puts the newly added formations first with the latest date", () => {
-    expect(teamsUpdatedAt).toBe("2026-09-26");
-    expect(recommendedTeams.slice(0, 3).map((team) => team.id)).toEqual([
+    expect(teamsUpdatedAt).toBe("2026-09-27");
+    expect(recommendedTeams.slice(11, 14).map((team) => team.id)).toEqual([
       "bari-cherry-cola-story", "story-knock-up-resistance", "bari-gingercraven-power",
     ]);
     expect(recommendedTeams.slice(-3).map((team) => team.id)).toEqual([
@@ -55,7 +55,7 @@ describe("recommended teams", () => {
   });
 
   it("replaces August 31 teams with the seven ordered September formations", () => {
-    expect(recommendedTeams).toHaveLength(15);
+    expect(recommendedTeams).toHaveLength(26);
     expect(recommendedTeams.some((team) => team.updatedAt === "2026-08-31")).toBe(false);
     const expected = [
     {
@@ -223,6 +223,88 @@ describe("recommended teams", () => {
     expect(new Set(recommendedTeams.map((team) => team.id)).size).toBe(recommendedTeams.length);
     recommendedTeams.forEach((team) => {
       expect(`${team.name} ${team.kicker} ${team.description}`).not.toMatch(/[—–]/);
+    });
+  });
+});
+
+// Ordered lineup slots and pets from the eleven approved formations.
+const latestFormations = [
+  [
+    "moon-rabbit-general-purpose",
+    "story",
+    "0059 0181 3001 0126 0518 0103 4013 0515 4010 4019 0063 4025",
+    "4005 4001 0111"
+  ],
+  [
+    "bari-general-purpose-aoe",
+    "story",
+    "0059 0126 0081 4024 0250 0103 4010 0018 4019 0518 0063 4025",
+    "0111 4001 4005"
+  ],
+  [
+    "moon-rabbit-gingercraven",
+    "bosses",
+    "0059 0181 0126 4003 4024 0103 4013 0515 0018 4019 0063 4025",
+    "4001 0230 0111"
+  ],
+  [
+    "moon-rabbit-cool-mint",
+    "bosses",
+    "0059 0181 4010 0023 4019 0063 4013 0515 0126 0018 4024 4025",
+    "0228 0111 4005"
+  ],
+  [
+    "rowdy-bikers-three-target-summons",
+    "bosses",
+    "0059 0181 0503 4003 4024 0063 4013 0515 0126 4019 4006 0103",
+    "0111 4001 0110"
+  ],
+  [
+    "moon-rabbit-exp-dungeon",
+    "dungeons",
+    "4013 0037 4003 4019 0136 0103 4010 0126 0054 4024 0063 4025",
+    "0230 4001 0228"
+  ],
+  [
+    "bari-other-dungeons",
+    "dungeons",
+    "0059 3001 4003 4019 0518 0063 0573 0126 0081 4024 0250 0103",
+    "4005 0111 4001"
+  ],
+  [
+    "moon-rabbit-rune-crystal",
+    "dungeons",
+    "0059 0181 0126 4003 4024 0063 4013 0515 0023 4019 0250 4025",
+    "0110 4001 0111"
+  ],
+  [
+    "moon-rabbit-arena",
+    "pvp",
+    "0059 4018 0126 4024 0518 0103 0515 4010 4019 0136 0063 4025",
+    "4005 4001 0111"
+  ],
+  [
+    "bari-rumble-arena",
+    "pvp",
+    "0059 0037 0081 4024 0518 0063 4010 0126 4019 0136 0250 4025",
+    "0230 0111 4001"
+  ],
+  [
+    "espresso-witchberry-plaque-tower",
+    "dungeons",
+    "0059 0126 4003 0513 4024 0063 0515 0018 2006 4019 0518 0103",
+    "4004 0111 4001"
+  ]
+] as const;
+
+describe("September 27 formations", () => {
+  it("preserves all eleven ordered lineups and their categories", () => {
+    latestFormations.forEach(([id, category, cookies, pets], index) => {
+      expect(recommendedTeams[index]).toMatchObject({
+        id, category, updatedAt: "2026-09-27",
+        cookies: cookies.split(" ").map((code) => `cookie${code}`),
+        pets: pets.split(" ").map((code) => `pet${code}`),
+      });
     });
   });
 });
