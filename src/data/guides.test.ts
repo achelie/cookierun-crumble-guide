@@ -509,7 +509,21 @@ describe("guide registry", () => {
   });
 
   it("keeps the gear guide concise, original, and free of production notes", () => {
-    expectPublishableGuide(gearRuneGuideSource);
+    expectPublishableGuide(gearRuneGuideSource, 1_800);
+    const readable = guideProse(gearRuneGuideSource
+      .replace(/<GuideSection id="[^"]+" title="([^"]+)">/g, "$1"))
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1");
+    expect(readable.match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length).toBeGreaterThanOrEqual(1_500);
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-gear-sugar-rune-stats-guide");
+    expect(guide?.publishedAt).toBe("2026-08-22");
+    expect(guide?.updatedAt).toBe("2026-09-30");
+    const sectionIds = [...gearRuneGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
+    expect([...gearRuneGuideSource.matchAll(/\]\(\/[^)]+\)/g)]).toHaveLength(4);
+    for (const faq of guide?.faq ?? []) {
+      expect(gearRuneGuideSource).toContain(`### ${faq.question}`);
+      expect(gearRuneGuideSource).toContain(faq.answer);
+    }
   });
 
   it("keeps the Cool Mint guide concise, original, and free of production notes", () => {

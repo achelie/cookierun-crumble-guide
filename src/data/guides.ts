@@ -1189,40 +1189,88 @@ export const guides: GuideSummary[] = [
   },
   {
     slug: "cookie-run-crumble-gear-sugar-rune-stats-guide",
-    title: "CookieRun: Crumble Gear Guide: Stop Letting Bad Stats Fake Your Power",
-    seoTitle: "CookieRun: Crumble Gear & Sugar Rune Guide | Best Stats",
-    seoDescription: "CookieRun: Crumble gear and Sugar Rune guide with the best stats for supports, DPS, tanks, and debuffers, plus reroll rules that protect rare materials.",
-    excerpt: "A bigger power number can still make your team worse. Learn which Oven gear and Sugar Rune stats deserve a lock, and which rolls only look expensive.",
+    title: "CookieRun: Crumble Sugar Runes: Stop Wasting Rerolls",
+    seoTitle: "CookieRun: Crumble Sugar Rune Guide | Best Stats by Cookie",
+    seoDescription: "Pick Sugar Rune stats for DPS, healers, buffers, Bari, Moon Rabbit, and more in CookieRun: Crumble. Keep useful SR rolls and stop wasting reroll materials.",
+    excerpt: "Cherry Cola needs to survive. Milk needs ATK for more than healing. Choose Rune stats that fit each Cookie's job, and keep the SR rolls that already work.",
     category: "cookies",
-    tags: ["Gear", "Sugar Runes", "Stats", "Cookie Builds", "Progression"],
+    tags: [
+      "Sugar Runes",
+      "Gear",
+      "Cookie Builds",
+      "Skill Amp",
+      "Skill Haste"
+    ],
     publishedAt: "2026-08-22",
-    updatedAt: "2026-08-22",
-    readingMinutes: 7,
+    updatedAt: "2026-09-30",
+    readingMinutes: 8,
     author: "Crumble Guide",
-    coverCookieIds: ["cookie0181", "cookie0023", "cookie0059"],
+    coverCookieIds: [
+      "cookie0181",
+      "cookie0023",
+      "cookie0059"
+    ],
     relatedGuideSlugs: [
-      "cookie-run-crumble-power-guide-stage-damage",
+      "cookie-run-crumble-skill-amp-fix-rune-refund",
       "cookie-run-crumble-accuracy-focus-guide",
-      "cookie-run-crumble-rye-cookie-build-team",
+      "cookie-run-crumble-princess-bari-cookie-build-team"
     ],
     toc: [
-      { id: "check-the-failure", label: "Check why the team failed" },
-      { id: "stat-glossary", label: "Know what every stat buys" },
-      { id: "power-breakpoints", label: "Respect power breakpoints" },
-      { id: "judge-oven-gear", label: "Judge Oven gear in 20 seconds" },
-      { id: "runes-by-role", label: "Build Sugar Runes by role" },
-      { id: "focus-debuffers", label: "Use Focus on debuffers" },
-      { id: "upgrade-budget", label: "Control upgrades and rerolls" },
-      { id: "quick-build-sheet", label: "Use the quick build sheet" },
-      { id: "gear-rune-faq", label: "Gear and Sugar Rune FAQ" },
+      {
+        id: "upgrade-budget",
+        label: "Spend less on rerolls"
+      },
+      {
+        id: "damage-runes",
+        label: "Build damage dealers"
+      },
+      {
+        id: "healer-runes",
+        label: "Strengthen healing"
+      },
+      {
+        id: "buff-scaling",
+        label: "Read each buff"
+      },
+      {
+        id: "focus-debuffers",
+        label: "Keep debuffs active"
+      },
+      {
+        id: "charge-survival",
+        label: "Protect Charge Cookies"
+      },
+      {
+        id: "shields-and-summons",
+        label: "Build shields and summons"
+      },
+      {
+        id: "check-the-failure",
+        label: "Check gear and test"
+      },
+      {
+        id: "gear-rune-faq",
+        label: "Sugar Rune FAQ"
+      }
     ],
     faq: [
-      { question: "What are the best general gear stats in CookieRun: Crumble?", answer: "Skill Amp and Skill Haste are the safest general gear stats because damage dealers, supports, and tanks all rely on skills. Add ATK and CRIT stats for damage, Damage Reduction for fragile tanks, and Focus for debuff consistency." },
-      { question: "Should I always equip the item with higher combat power?", answer: "Use the higher-power item when it crosses a stage damage breakpoint. After the penalty is gone, compare the substats and the actual clear because Accuracy or Evasion can raise displayed power without fixing the team's problem." },
-      { question: "What should I lock on support Sugar Runes?", answer: "Lock strong Skill Amp and Skill Haste lines on supports used across several modes. Consider ATK when the Cookie's healing or support effect scales with it, and stop when the increasing lock cost threatens the rest of the main team." },
-      { question: "Does Scorpion Cookie need Focus?", answer: "Focus makes Venom Sting applications more consistent against Resistance. A full offense build can still clear bosses by restarting until the applications land, so choose Focus for repeatable clears and offense for a one-clear push." },
-      { question: "When is an SSR Sugar Rune worth keeping?", answer: "Keep an SSR Sugar Rune when its stat fits the Cookie, the roll is strong enough to matter, and the Cookie stays in your active teams. Rarity alone does not make a poor-fit stat useful." },
-    ],
+      {
+        question: "Should free players chase SSR Sugar Runes?",
+        answer: "Useful SR rolls are enough to build a working set. Keep a suitable SSR when it appears, but do not spend the whole budget chasing one exact stat or the highest value within its rarity."
+      },
+      {
+        question: "Is Skill Haste the best stat for every Cookie?",
+        answer: "No. Pure damage dealers usually prefer ATK%, CRIT Chance, CRIT DMG, or Skill Amp. Haste becomes more useful when you need faster stacking, repeated control, or better coverage on effects such as Moon Rabbit's debuffs."
+      },
+      {
+        question: "Should every support use ATK%?",
+        answer: "No. Herb, Grapevine, and Milk benefit through ATK-based healing, and Milk's buff also scales with personal ATK. Macaron and Cheesecake do not strengthen their buffs by stacking their own ATK. Read the scaling line first."
+      },
+      {
+        question: "Does Skill Amp improve every defensive effect?",
+        answer: "No. Ion's shield can benefit, while the separate Damage Reduction effect does not. Nameless Cake Hound's Damage Reduction also does not scale with Skill Amp. Evaluate each effect separately before locking the stat."
+      }
+    ]
   },
   {
     slug: "cookie-run-crumble-beginner-progression-guide",
