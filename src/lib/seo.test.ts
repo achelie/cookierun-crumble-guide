@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import sitemap from "@/app/sitemap";
 import { guides } from "@/data/guides";
 import { pageMetadata } from "@/lib/metadata";
 import { absoluteUrl, seoPages } from "@/lib/seo";
@@ -51,6 +52,16 @@ describe("SEO page registry", () => {
     expect(seoPages.teams.summary).toContain("Updated September 27, 2026");
     expect(seoPages.teams.description).toContain("Updated September 27, 2026");
     expect(seoPages.teams.updatedAt).toBe("2026-09-27");
+  });
+
+  it("keeps the tier list update date consistent without embedding it in summary copy", () => {
+    const page = seoPages.tierList;
+    expect(page.updatedAt).toBe("2026-09-30");
+    expect(page.summary).not.toMatch(/updated|September|2026/i);
+    expect(page.description).not.toMatch(/updated|September|2026/i);
+    expect(collectionPageSchema(page, [])["@graph"][0].dateModified).toBe(page.updatedAt);
+    expect(sitemap().find((entry) => entry.url === absoluteUrl(page.path))?.lastModified)
+      .toEqual(new Date("2026-09-30T00:00:00Z"));
   });
 });
 

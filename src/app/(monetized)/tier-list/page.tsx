@@ -26,7 +26,7 @@ export default function TierListPage() {
   return (
     <div className="page-shell">
       <StructuredData data={collectionPageSchema(page, schemaItems)} />
-      <SeoPageHeader page={page} icon="trophy" />
+      <SeoPageHeader page={page} icon="trophy" showUpdatedAt />
       <aside className="page-crosslink" aria-label="Related team recommendations">
         <AppIcon name="users" size={16} />
         <span>Want to turn these rankings into a working lineup?</span>

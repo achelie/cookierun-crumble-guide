@@ -24,8 +24,9 @@ describe("combined tier list", () => {
 
   it("matches the supplied S through C ranking order", () => {
     expect(tierList.S).toEqual([
+      "cookie4025", "cookie0081",
       "cookie4013", "cookie4010", "cookie0070", "cookie0250", "cookie4019", "cookie0126", "cookie0532", "cookie0103",
-      "cookie0181", "cookie0059", "cookie0003", "cookie4025", "cookie0081",
+      "cookie0181", "cookie0059", "cookie0003",
     ]);
     expect(tierList.A).toEqual([
       "cookie0518", "cookie0018", "cookie3001", "cookie4024", "cookie0573", "cookie0513", "cookie0063",
@@ -46,6 +47,6 @@ describe("combined tier list", () => {
     const expectedDTier = cookies.map(({ id }) => id).filter((id) => !placedIds.has(id));
 
     expect(tierList.D).toEqual(expectedDTier);
-    expect(tierUpdatedAt).toBe("2026-09-26");
+    expect(tierUpdatedAt).toBe("2026-09-30");
   });
 });
