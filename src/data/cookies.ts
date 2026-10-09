@@ -1,6 +1,7 @@
 export const rarities = ["TSSR", "SSR", "SR", "R", "U", "C"] as const;
 // Catalog checked against https://crumblehub.co/en on 2026-09-24.
-export const cookiesUpdatedAt = "2026-09-24";
+// Chardonnay checked against https://crumbles.fun/en/dex/chardonnay on 2026-10-09.
+export const cookiesUpdatedAt = "2026-10-09";
 export type Rarity = (typeof rarities)[number];
 
 export const elements = ["Fire", "Water", "Grass", "Light", "Dark"] as const;
@@ -10,7 +11,7 @@ export const buffs = [
   "ATK Down", "ATK Up", "Accuracy Down", "Accuracy Up", "Damage Taken Down", "DEF Down", "DEF Up",
   "Shield", "Skill Amp Up", "Move Speed Down", "Move Speed Up", "CRIT DMG Up", "CRIT Chance Up", "Healing",
   "Boss DMG Up", "Healing Received Down", "Knock-up Resistance Up",
-  "Knock-up Immunity", "Knockback Immunity", "CRIT Chance Down",
+  "Knock-up Immunity", "Knockback Immunity", "CRIT Chance Down", "Knockback Resistance Up",
 ] as const;
 
 export type Element = (typeof elements)[number];
@@ -145,6 +146,7 @@ export const cookies: Cookie[] = [
   { id: "cookie4023", name: "Bear Jelly Worker", rarity: "R", image: "/images/cookies/cookie4023.webp", element: "Fire", role: "Charge", grantedSynergies: [], receivedSynergies: ["Multi-strike"], buffs: [] },
   { id: "cookie4024", name: "Nameless Cake Hound", rarity: "SSR", image: "/images/cookies/cookie4024.webp", element: "Fire", role: "Defense", grantedSynergies: [], receivedSynergies: ["Area"], buffs: ["Damage Taken Down"] },
   { id: "cookie4025", name: "Moon Rabbit Cookie's Pampered with Persimmon", rarity: "SSR", image: "/images/cookies/cookie4025.webp", element: "Grass", role: "Defense", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: ["ATK Down", "CRIT Chance Down"] },
+  { id: "chardonnay", name: "Chardonnay Cookie", rarity: "SSR", image: "/images/cookies/chardonnay.webp", element: "Grass", role: "Support", grantedSynergies: ["Multi-shot"], receivedSynergies: ["Projectile Speed"], buffs: ["CRIT Chance Up", "Knockback Resistance Up"] },
 ];
 
 export const cookieById = new Map(cookies.map((cookie) => [cookie.id, cookie]));

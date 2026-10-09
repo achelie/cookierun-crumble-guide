@@ -56,12 +56,12 @@ describe("SEO page registry", () => {
 
   it("keeps the tier list update date consistent without embedding it in summary copy", () => {
     const page = seoPages.tierList;
-    expect(page.updatedAt).toBe("2026-09-30");
-    expect(page.summary).not.toMatch(/updated|September|2026/i);
-    expect(page.description).not.toMatch(/updated|September|2026/i);
+    expect(page.updatedAt).toBe("2026-10-09");
+    expect(page.summary).not.toMatch(/updated|October|2026/i);
+    expect(page.description).not.toMatch(/updated|October|2026/i);
     expect(collectionPageSchema(page, [])["@graph"][0].dateModified).toBe(page.updatedAt);
     expect(sitemap().find((entry) => entry.url === absoluteUrl(page.path))?.lastModified)
-      .toEqual(new Date("2026-09-30T00:00:00Z"));
+      .toEqual(new Date("2026-10-09T00:00:00Z"));
   });
 });
 
