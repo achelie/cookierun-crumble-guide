@@ -1,0 +1,388 @@
+{
+  "evidenceId": "local-plate-deep-native-review-20261016-v1",
+  "date": "2026-10-16",
+  "createdAtUtc": "2026-10-15T17:34:35.336668+00:00",
+  "status": "expanded native code recovery and bounded caller/field search; exact refund rounding remains unknown",
+  "nativeSourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+  "currentPackage": {
+    "version": "1.5.002",
+    "versionCode": 2026100217,
+    "reaIdentityEvidenceId": "ev_46d168ed9a0fae65cbc4d1474bb0ff1075c7d0c634eb6d2f91c156cc58200bc5"
+  },
+  "coverage": {
+    "recoveredAssembliesIndexed": 174,
+    "indexedMethodDeclarations": 194692,
+    "nonemptyMethodIntervals": 194691,
+    "codeSectionBytes": 114551548,
+    "declaredMethodBytes": 40602056,
+    "decodedDeclaredMethodBytes": 40597239,
+    "incompleteDeclaredMethods": 1208,
+    "undecodedDeclaredBytes": 4817,
+    "unboundSectionBytes": 73949492,
+    "declaredIntervalSharePercent": 35.44435383797694,
+    "rawE8E9ScanBytes": 114551548,
+    "validatedDirectReferencesToFiveTargets": 2,
+    "unmappedE8E9TargetCandidates": 0,
+    "literalPlus70CandidateMethods": 9600,
+    "literalPlus70CandidateInstructions": 22818,
+    "relatedMethodsSeparatelyDecoded": 275,
+    "semanticallyCorroboratedRefundFieldSites": 4,
+    "wholeClientRefundFormulaProven": false,
+    "candidateMethodsSemanticallyReviewed": 35,
+    "candidateMethodsConfirmedRefund": 4,
+    "candidateMethodsOtherReceivers": 20,
+    "candidateMethodsUnresolvedReceivers": 11,
+    "candidateInstructionsReviewed": 100,
+    "candidateInstructionsConfirmedRefund": 4,
+    "candidateInstructionsOther": 85,
+    "candidateInstructionsUnresolved": 11
+  },
+  "inputs": [
+    {
+      "path": "evidence/plate-package-deep-20261016/rea-current-package.json",
+      "sha256": "ec96b7684adcd3daf3d8ba0f6d32184c0f3a7900e45a587330e81e6c237cd5aa",
+      "bytes": 1308
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/rea-start-game.json",
+      "sha256": "5a44256ce34e14a08688e4fe6bb0b4a1ce867f96ad9f006158f4e7f677022d00",
+      "bytes": 1079
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/rea-stop-game.json",
+      "sha256": "94effbb4223f99a9bbaecfc2c1f7008996ee17188fab4fceab2e497dfab12b64",
+      "bytes": 889
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/metadata-native-index-core4.json",
+      "sha256": "2a33c8667e2e55f7e15c02dd1e07ea09d3144f368f4ce8af129eae42409e9ecf",
+      "bytes": 53897110
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/metadata-native-index-all.json",
+      "sha256": "eceeed3fa9e7099cd0c1e2144b3cecee1ba3c1e88357ac063ad8f776efa126e8",
+      "bytes": 154564614
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/metadata-native-index-all.intervals.tsv",
+      "sha256": "c7fab1e9460f20adcb76ce58f2ebabc22a05ddf6d6f9a4ddc6a58580ad451273",
+      "bytes": 9537633
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/native-refund-xrefs-core4.json",
+      "sha256": "3639b3e3c4c21d58563c0e84d6c96933cf2e877ad9b0f376975b0df5b8dcbc6a",
+      "bytes": 2094719
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/native-refund-xrefs-all.json",
+      "sha256": "847cdf511e8e4f48a3168f3fd608a35c0e99a16b02a426f2d6f04865b27971e5",
+      "bytes": 6041503
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/runtime-code-01/capture.json",
+      "sha256": "c6e1a413163dc82fc4dfb78cbe006ecc65b460d2a7feb304f44504451d85d04b",
+      "bytes": 11043
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/runtime-code-01/il2cpp-executable-section.bin",
+      "sha256": "5585346d25f3db7d3656072a5f2f999ea37509ed3068707cb0e99d767185a6d8",
+      "bytes": 114551548
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/runtime-code-overlay-manifest.json",
+      "sha256": "43be74335add910f0649e10b94b15f6bf60e3a22d24a0fa4f47a53ba89fe47e5",
+      "bytes": 1581
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/libil2cpp.runtime-code-overlay.so",
+      "sha256": "0aeb6478edaa1886317e74e0c13d2dcc0d6b8ae5c621a12d0cfab0cdc998bfd3",
+      "bytes": 232028792
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/inline-cost-review/method-extraction.json",
+      "sha256": "7425d4d9bbc23b85543e020999f0a95a36483bbb0d6519b2a76b1254f3239aaf",
+      "bytes": 652980
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/build_metadata_native_index.py",
+      "sha256": "edc1e1fcd8faa5c9c41ae9454fce3a75b8536f941bdf27b6c6c5077fb4bee13b",
+      "bytes": 16233
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/build_metadata_native_index_core4.py",
+      "sha256": "66ec1f40367aaeb19e22dcd10b439c496c7107afaf9a5d8f128dd529f0c0f88b",
+      "bytes": 14007
+    },
+    {
+      "path": "tools/capture_plate_executable_section.py",
+      "sha256": "d1f322db14dc88453e35c432abcf3f1a049d63b6d2494efc965a87e91d8fd4ca",
+      "bytes": 6973
+    },
+    {
+      "path": "tools/scan_plate_refund_native.py",
+      "sha256": "a9a49ae154397411573cc30ff86cb378c0ae98a9540d7b53de1b8cb38eeae58f",
+      "bytes": 7993
+    },
+    {
+      "path": "evidence/plate-package-deep-20261016/inline-cost-review/inline-cost-review.json",
+      "sha256": "e3ceb7b6917027b786229e7658e0b3743ffc0c56bd412e5ae9abf679af6c236e",
+      "bytes": 93759
+    }
+  ],
+  "corroboratedFieldSites": [
+    {
+      "address": "0x631e1b2",
+      "bytesHex": "488b4770c3",
+      "role": "getter reads costInfo+0x70"
+    },
+    {
+      "address": "0x631e1b7",
+      "bytesHex": "48897770c3",
+      "role": "setter writes costInfo+0x70"
+    },
+    {
+      "address": "0x631e42b",
+      "bytesHex": "48894370",
+      "role": "configuration constructor stores raw BasisPoint"
+    },
+    {
+      "address": "0x6668506",
+      "bytesHex": "498b4670",
+      "role": "detail display reads row refund BasisPoint"
+    }
+  ],
+  "directReferences": [
+    {
+      "address": "0x631e763",
+      "target": "0x631e1c3",
+      "targetName": "Crumble.Table.PlateUpgradeCostInfo::.ctor",
+      "bytes": "e85bfaffff",
+      "caller": {
+        "assembly": "Crumble.Base",
+        "methodDefToken": "0x06002798",
+        "fullName": "Crumble.Table.PlateUpgradeCostTable::Create",
+        "candidateElfVirtualAddress": 103933162,
+        "length": 1004
+      },
+      "callerFullyDecoded": true,
+      "instruction": [
+        103933795,
+        5,
+        "call",
+        "0x631e1c3"
+      ]
+    },
+    {
+      "address": "0x66680a4",
+      "target": "0x66680af",
+      "targetName": "Crumble.PlateDetailView::SetData",
+      "bytes": "e906000000",
+      "caller": {
+        "assembly": "Crumble.Feature",
+        "methodDefToken": "0x06001762",
+        "fullName": "Crumble.PlateDetailPresenter::SetContent",
+        "candidateElfVirtualAddress": 107380877,
+        "length": 34
+      },
+      "callerFullyDecoded": true,
+      "instruction": [
+        107380900,
+        5,
+        "jmp",
+        "0x66680af"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "status": "bound-byte-observation-and-derived-semantics",
+      "finding": "Getter and setter preserve the raw+0x70 value; the configuration constructor stores a BasisPoint obtained from the protobuf cost row. PlateDetailView obtains a cost row by clamped grade, converts the refund BasisPoint to a double and supplies it as localized display text."
+    },
+    {
+      "status": "derived-within-reviewed-cost-methods",
+      "finding": "Upgrade, decline/break protection and repair costs read their own ItemIdAndAmount fields. A+0x70 displacement on a presenter, view, stack or another object is not the cost-row refund field."
+    },
+    {
+      "status": "observed-search-result",
+      "finding": "The full executable section E8/E9 scan found no validated direct calls to the refund getter or setter. Two references to the other three targets are the configuration-row constructor call and the detail-view SetData tail jump. Inlined reads therefore require separate receiver analysis."
+    },
+    {
+      "status": "previous-normal-response-chain-corroborated",
+      "finding": "Current acquisition matches all15 prior refund-chain method byte fixtures before and after capture. That normal response/conversion/merge/display path consumes server-supplied integer reward quantities."
+    }
+  ],
+  "unresolved": [
+    "Exact all-grade refund integer rounding: ceil and minimum1 variants remain compatible with the one current unprotected+0 sample.",
+    "Whether paid decline/break protection materials are refundable.",
+    "Untyped displacement candidates, adjusted pointer aliases, indirect calls and code without recovered method declarations; no exhaustive whole-client absence claim."
+  ],
+  "artifacts": {
+    "codeSection": "runtime-code-01/il2cpp-executable-section.bin",
+    "analysisCarrier": "libil2cpp.runtime-code-overlay.so",
+    "analysisCarrierLimit": "Only the executable il2cpp section is replaced. Other file bytes remain original; this is not a loadable reconstructed game."
+  },
+  "evidenceProviders": {
+    "rea": "Actual package identity and owned start/stop CLI Evidence; MCP adb call could not locate adb, resolved by selecting existing REA_ADB_PATH for CLI.",
+    "nativeAcquisition": "ordinary root ADB read-only executable section, base64 transport; not REA native Evidence",
+    "nativeAnalysis": "offline Capstone5.0.7 and metadata AddressAttribute candidates; native REA decompiler provider remains unconfigured"
+  },
+  "actions": {
+    "initialGameRunning": false,
+    "ownedGameLaunchedThenStopped": true,
+    "gameUiInputs": 0,
+    "manualEnhancementTransactions": 0,
+    "manualMaterialSpendActions": 0,
+    "memoryPatches": 0,
+    "gameFileWrites": 0,
+    "accountBalanceReconciliationPerformed": false,
+    "deployment": false
+  },
+  "toolImplication": "Preserve verified probability/grade/protection rules, gross material forecasts and unknown global refund formula. Add recovered native artifacts and exact bounded search coverage.",
+  "limitations": [
+    "All174 recovered DLLs indexed does not mean the full executable section has method identities: only35.4444% lies in declared nonempty intervals.",
+    "1208 declared method ranges stop before a complete final instruction or otherwise do not fully decode; no full-body claim for them.",
+    "A literal+0x70 candidate does not prove its receiver type. Adjusted aliases or overlapping bulk copies need additional analysis.",
+    "Static byte decoding does not establish execution or RNG frequencies. The current configuration tables were not reread from game UI in this code-only pass.",
+    "No server implementation or actual protected Super response was recovered.",
+    "275 related methods were extracted and fully decoded; semantic audit covers35 flagged contexts and the listed cost/BasisPoint chains, not all275 methods. ToDouble divisor data and formatter internals were not newly recovered."
+  ],
+  "semanticReview": {
+    "path": "evidence/plate-package-deep-20261016/inline-cost-review/inline-cost-review.json",
+    "sha256": "e3ceb7b6917027b786229e7658e0b3743ffc0c56bd412e5ae9abf679af6c236e",
+    "bytes": 93759
+  },
+  "semanticFindings": {
+    "costInfoLayout": {
+      "type": "Crumble.Table.PlateUpgradeCostInfo",
+      "source": "captured getter/setter and640-byte constructor ranges, not Cpp2IL stub logic",
+      "fields": {
+        "0x10": "PlateGrade int32",
+        "0x18/0x20": "Upgrade ItemId int32 / amount int64",
+        "0x28/0x30/0x38": "DeclineProtect nullable flag / ItemId / amount",
+        "0x40/0x48/0x50": "DestroyProtect nullable flag / ItemId / amount",
+        "0x58/0x60/0x68": "DestroyRecovery nullable flag / ItemId / amount",
+        "0x70": "GreatSuccessRefundRate BasisPoint raw int64 storage, not an integer refund quantity"
+      },
+      "constructorFlow": [
+        {
+          "address": "0x631e1d1",
+          "claim": "R14 receives protobuf row argument; RBX receives this costInfo at0x631e1d4."
+        },
+        {
+          "address": "0x631e420",
+          "claim": "Loads protobuf row pointer field+0x40."
+        },
+        {
+          "address": "0x631e426",
+          "claim": "Calls Crumble.BasisPoint.op_Implicit at0x6280397; that helper returns input object raw qword+0x18."
+        },
+        {
+          "address": "0x631e42b",
+          "claim": "Stores returned raw BasisPoint value to costInfo+0x70. No refund material collection or rounding calculation is constructed here."
+        }
+      ],
+      "getter": {
+        "rva": "0x631e1b2",
+        "formula": "return *(int64*)(this+0x70)"
+      },
+      "setter": {
+        "rva": "0x631e1b7",
+        "formula": "*(int64*)(this+0x70)=incoming raw BasisPoint"
+      },
+      "factoryLink": {
+        "caller": "Crumble.Table.PlateUpgradeCostTable.Create",
+        "callAddress": "0x631e763",
+        "constructorRva": "0x631e1c3",
+        "claim": "Factory enumerates parsed row objects, allocates costInfo, calls the protobuf constructor, appends the object to a list, then constructs the typed table."
+      }
+    },
+    "displayFlow": {
+      "method": "Crumble.PlateDetailView.SetData",
+      "rva": "0x66680af",
+      "steps": [
+        {
+          "address": "0x6668323",
+          "claim": "Loads view dependency+0x78, used as cost table."
+        },
+        {
+          "address": "0x6668338",
+          "claim": "Calls PlateUpgradeCostTable.ClampGrade."
+        },
+        {
+          "address": "0x666834c",
+          "claim": "Calls generic table lookup0xa8871d5; returned row is moved to R14 at0x6668367."
+        },
+        {
+          "address": "0x666836e",
+          "claim": "Reads row UpgradeItem ID+0x18, and amount+0x20 at0x6668392, corroborating the row layout."
+        },
+        {
+          "address": "0x66683d0",
+          "claim": "Reads nullable repair item starting row+0x58 for preview; this is not an upfront protection fee."
+        },
+        {
+          "address": "0x6668506",
+          "claim": "Reads row+0x70 raw BasisPoint."
+        },
+        {
+          "address": "0x6668514",
+          "claim": "Converts raw BasisPoint through ToDouble0x628030d, then boxes double at0x6668530."
+        },
+        {
+          "address": "0x666858e",
+          "claim": "Passes the boxed double as TString.Text formatting argument. This chain displays a refund percentage, not an integer refunded item amount."
+        }
+      ],
+      "callLink": {
+        "caller": "Crumble.PlateDetailPresenter.SetContent",
+        "tailJumpAddress": "0x66680a4",
+        "callee": "0x66680af"
+      },
+      "importantBoundary": "The presenter passes a packed view Data value (slot/grade/animation), not a costInfo object. The view independently resolves its table row."
+    },
+    "presenterCostFlow": {
+      "presenterResultTableField": "0x70",
+      "presenterCostTableField": "0x78",
+      "evidence": [
+        "Presenter constructor stores a dependency at+0x70 at0x666998e and cost table at+0x78 at0x66699a3.",
+        "HandleOnProtectDeclineToggle reads presenter+0x70 at0x666bb03 then calls PlateUpgradeResultTable.HasDeclineRisk at0x666bb16.",
+        "HandleOnProtectDestroyToggle reads presenter+0x70 at0x666bd08 then calls PlateUpgradeResultTable.HasDestroyRisk at0x666bd1b."
+      ],
+      "upgradeCost": {
+        "rva": "0x666ab1a",
+        "tableLoad": "0x666ab47",
+        "rowReads": [
+          "0x666ab71:+0x18 ItemId",
+          "0x666ab74:+0x20 amount"
+        ],
+        "refundFieldRead": false
+      },
+      "protectCost": {
+        "rva": "0x666ab8b",
+        "tableLoad": "0x666abd3",
+        "rowFields": [
+          "+0x28/+0x30/+0x38 decline optional",
+          "+0x40/+0x48/+0x50 destroy optional"
+        ],
+        "selectionFlags": "presenter+0xd8/+0xd9",
+        "arithmetic": "Adds enabled protection amounts at0x666ac57 and constructs ItemIdAndAmount; no refund-rate use.",
+        "refundFieldRead": false
+      },
+      "restoreCost": {
+        "rva": "0x666a452",
+        "tableLoad": "0x666a497",
+        "rowFields": [
+          "+0x58 flag",
+          "+0x60 ItemId",
+          "+0x68 amount"
+        ],
+        "refundFieldRead": false
+      },
+      "resultRestoreCost": {
+        "rva": "0x6672017",
+        "source": "PendingRecoveryGrade from PlateRecord then table lookup; reads nullable+0x58/+0x60/+0x68.",
+        "refundFieldRead": false
+      }
+    }
+  }
+}

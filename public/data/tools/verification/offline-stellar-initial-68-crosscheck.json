@@ -1,0 +1,317 @@
+{
+  "evidenceId": "offline-unlocked-stellar-68-crosscheck-20261015",
+  "authority": "Manual independent reading of root-provided original game screenshot plus offline Python planar-graph calculations; worker did not operate emulator",
+  "screenshot": {
+    "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-unlocked-01\\003-stellar-initial\\screen.png",
+    "sha256": "97299b465cd651bdd08e0371104242d0d5442a2b63d3570ff8386ecb3ac7d261",
+    "width": 1080,
+    "height": 1920
+  },
+  "readFromPixels": {
+    "clockwiseRanksFromTop": [
+      2,
+      5,
+      4,
+      3,
+      6,
+      null,
+      null,
+      null,
+      7,
+      null,
+      1,
+      null
+    ],
+    "rankOrderedClockwiseIndices": [
+      10,
+      0,
+      3,
+      2,
+      1,
+      4,
+      8
+    ],
+    "rankOrderedToolCounterClockwiseIndices": [
+      2,
+      0,
+      9,
+      10,
+      11,
+      8,
+      4
+    ],
+    "constellation": 1,
+    "placed": 7,
+    "unlocked": 8,
+    "displayedArea": 68,
+    "amplificationEachPercent": "13.60",
+    "currencyBalance": 300,
+    "shuffleCost": 10,
+    "locksVisible": 0
+  },
+  "candidateModels": {
+    "idealRegularDodecagon": {
+      "rankOrderedCoordinates": [
+        [
+          -0.8660254037844386,
+          0.5000000000000001
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          6.123233995736766e-17
+        ],
+        [
+          0.8660254037844386,
+          0.5000000000000001
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387
+        ],
+        [
+          0.8660254037844387,
+          -0.4999999999999998
+        ],
+        [
+          -0.8660254037844385,
+          -0.5000000000000004
+        ]
+      ],
+      "intersections": [
+        {
+          "segmentStartRanks": [
+            2,
+            5
+          ],
+          "point": [
+            0.6339745962155613,
+            0.3660254037844388
+          ]
+        }
+      ],
+      "boundedAtomicFaces": [
+        {
+          "area": 1.9330127018922194,
+          "winding": -1,
+          "vertices": [
+            [
+              -0.8660254037844386,
+              0.5000000000000001
+            ],
+            [
+              -0.8660254037844385,
+              -0.5000000000000004
+            ],
+            [
+              0.8660254037844387,
+              -0.49999999999999967
+            ],
+            [
+              0.6339745962155613,
+              0.3660254037844388
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "area": 0.13397459621556132,
+          "winding": 1,
+          "vertices": [
+            [
+              0.6339745962155613,
+              0.3660254037844388
+            ],
+            [
+              1,
+              1.1102230246251565e-16
+            ],
+            [
+              0.8660254037844386,
+              0.5000000000000001
+            ],
+            [
+              0.49999999999999994,
+              0.8660254037844387
+            ]
+          ]
+        }
+      ],
+      "candidatePercentWithRegular12GonDenominator": {
+        "absoluteShoelace": 59.9679368558886,
+        "unionAllBoundedFaces": 68.89957660359269,
+        "evenoddFill": 68.89957660359269,
+        "nonzeroWindingFill": 68.89957660359269
+      },
+      "candidatePercentWithDiskDenominator": {
+        "absoluteShoelace": 57.265161465823944,
+        "unionAllBoundedFaces": 65.79424916040287,
+        "evenoddFill": 65.79424916040287
+      },
+      "checks": {
+        "eulerBoundedFaceCount": true,
+        "faceWindingWeightedAreaEqualsSignedShoelace": true,
+        "allFaceWindingMagnitudesOne": true
+      }
+    },
+    "prefabIntegerCoordinates": {
+      "rankOrderedCoordinates": [
+        [
+          -335,
+          195
+        ],
+        [
+          0,
+          385
+        ],
+        [
+          385,
+          0
+        ],
+        [
+          335,
+          195
+        ],
+        [
+          195,
+          335
+        ],
+        [
+          335,
+          -195
+        ],
+        [
+          -335,
+          -195
+        ]
+      ],
+      "intersections": [
+        {
+          "segmentStartRanks": [
+            2,
+            5
+          ],
+          "point": [
+            247.05128205128207,
+            137.94871794871793
+          ]
+        }
+      ],
+      "boundedAtomicFaces": [
+        {
+          "area": 289888.78205128206,
+          "winding": -1,
+          "vertices": [
+            [
+              -335,
+              195
+            ],
+            [
+              -335,
+              -195
+            ],
+            [
+              335,
+              -195
+            ],
+            [
+              247.05128205128207,
+              137.94871794871793
+            ],
+            [
+              0,
+              385
+            ]
+          ]
+        },
+        {
+          "area": 20151.28205128205,
+          "winding": 1,
+          "vertices": [
+            [
+              247.05128205128207,
+              137.94871794871793
+            ],
+            [
+              385,
+              0
+            ],
+            [
+              335,
+              195
+            ],
+            [
+              195,
+              335
+            ]
+          ]
+        }
+      ],
+      "candidatePercentWithRegular12GonDenominator": {
+        "absoluteShoelace": 60.11533318475596,
+        "unionAllBoundedFaces": 69.097406753413,
+        "evenoddFill": 69.097406753413,
+        "nonzeroWindingFill": 69.097406753413
+      },
+      "candidatePercentWithDiskDenominator": {
+        "absoluteShoelace": 8586011.292450024,
+        "unionAllBoundedFaces": 9868881.751690237,
+        "evenoddFill": 9868881.751690237
+      },
+      "checks": {
+        "eulerBoundedFaceCount": true,
+        "faceWindingWeightedAreaEqualsSignedShoelace": true,
+        "allFaceWindingMagnitudesOne": true
+      }
+    }
+  },
+  "perModelIntegerCandidates": {
+    "idealRegularDodecagon": {
+      "boundedArea": 68.89957660359269,
+      "floor": 68,
+      "nearestHalfUp": 69,
+      "ceil": 69,
+      "faceCount": 2,
+      "crossingCount": 1,
+      "allEulerAndWindingChecksPassed": true,
+      "floorMatchesObserved": true,
+      "nearestMatchesObserved": false,
+      "ceilMatchesObserved": false
+    },
+    "prefabIntegerCoordinates": {
+      "boundedArea": 69.097406753413,
+      "floor": 69,
+      "nearestHalfUp": 69,
+      "ceil": 70,
+      "faceCount": 2,
+      "crossingCount": 1,
+      "allEulerAndWindingChecksPassed": true,
+      "floorMatchesObserved": false,
+      "nearestMatchesObserved": false,
+      "ceilMatchesObserved": false
+    }
+  },
+  "interpretation": [
+    "Visual reading matches supplied clockwise ranks. Parent rank-ordered[10,0,3,2,1,4,8] is clockwise; tool uses counter-clockwise[2,0,9,10,11,8,4]. Reflection leaves area unchanged for both symmetric point sets.",
+    "Ideal regular12-gon bounded area68.8995766036 givesfloor68, nearest69, ceil69; observed68 rejects nearest and ceil under that model.",
+    "Using the stored integer UI positions normalized by the whole stored12-point polygon gives69.0974067534:floor69, nearest69, ceil70, none matches observed68. This excludes that direct prefab-coordinate-normalization candidate for the current screenshot. Both coordinate models predictnearest69, contrary to visible68.",
+    "All three AMP values13.60 match20%×68 integerarea.",
+    "This case supports ideal bounded-area floor and shows the server is not simply using normalized UI mesh area under these candidates. One case does not prove full server algorithm or all degeneracies."
+  ],
+  "limitations": [
+    "Same-version identity must be bound by root game package/version capture; screenshot alone does not show version.",
+    "One observation rejects nearest for these area models but cannot prove the full server area implementation or all degeneracies.",
+    "Prefab reference uses exact stored UI positions with double arithmetic, not a full float32/node-merge native mesh replica."
+  ],
+  "reusedIndependentPythonPlanarGraphSource": {
+    "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-public-geometry-candidates.py",
+    "sha256": "4a3ee72b4b16d55fb3b7940b0f7fbc1c3426948e0a989809b7bc0507563d3662",
+    "method": "split edges, directed face-walk, Euler and winding-weighted shoelace checks; separate from web JavaScript implementation"
+  }
+}

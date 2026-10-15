@@ -1,0 +1,21 @@
+{
+  "evidenceId": "local-unlocked-installed-library-20261015",
+  "observedAtUtc": "2026-10-15T13:06:46.707446+00:00",
+  "provider": "ordinary ADB package inspection and installed-library sha256sum",
+  "package": "com.devsisters.cc",
+  "version": "1.5.002",
+  "versionCode": 2026100217,
+  "codePath": "/data/app/com.devsisters.cc-rojDx8RLfNFo-_3ZE8yA_Q==",
+  "deviceLibraryPath": "/data/app/com.devsisters.cc-rojDx8RLfNFo-_3ZE8yA_Q==/lib/x86_64/libil2cpp.so",
+  "deviceLibrarySha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+  "localReferencePath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\database\\recovery-evidence\\libil2cpp.so",
+  "localReferenceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+  "sameInstalledLibrary": true,
+  "commands": [
+    "dumpsys package com.devsisters.cc",
+    "sha256sum /data/app/com.devsisters.cc-rojDx8RLfNFo-_3ZE8yA_Q==/lib/x86_64/libil2cpp.so"
+  ],
+  "limitations": [
+    "This binds installed native artifact identity; it does not recover server algorithms."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "gameVersion": "1.5.002",
+  "snapshotDate": "2026-10-14",
+  "importedAt": "2026-10-16",
+  "sourceFiles": [
+    {
+      "file": "sugar-runes.json",
+      "sha256": "25c33c8e2c2ffdd6b2b57ddcc00012e7729eed2c5aecf3b9b3072e4477bc0e33"
+    },
+    {
+      "file": "stellar-link.json",
+      "sha256": "c1a25ace0d7ae9787385dcac4392a22d628d77326ff25df6b1c45316fed89bf7"
+    },
+    {
+      "file": "plate-enhancement.json",
+      "sha256": "6594e51975664c7b9d39a28c91725b37414494826a60d4c74bd19a8fc3bd885f"
+    }
+  ],
+  "characterCount": 77,
+  "imageCount": 268,
+  "tables": 9
+}

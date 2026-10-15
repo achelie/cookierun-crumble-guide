@@ -1,0 +1,1365 @@
+{
+  "schemaVersion": 1,
+  "evidenceId": "local-sugar-unlocked-ui-verification-20261015-v1",
+  "title": "Current Devil Cookie Sugar Rune official probabilities, all-slot crafting, inactive-slot locks, fees and restoration",
+  "createdAtUtc": "2026-10-15T13:24:55.019693+00:00",
+  "status": "current-game-visible-UI-and-two-bounded-craft-observations; RNG-independence-not-proven",
+  "authority": {
+    "provider": "ordinary ADB navigation/input and original PNG captures by root agent; offline independent manual screenshot and config cross-check by worker",
+    "reaEvidence": false,
+    "simulatorControlledByThisWorker": false,
+    "screenshotsReadByWorker": [
+      "022",
+      "023",
+      "024",
+      "027",
+      "028",
+      "029",
+      "030",
+      "031",
+      "032",
+      "033",
+      "034",
+      "035",
+      "036",
+      "037",
+      "045"
+    ],
+    "websiteOrBuilderEditedByThisWorker": false,
+    "accountActiveBoostRecordsRead": false,
+    "serverResponsesRead": false
+  },
+  "target": {
+    "package": "com.devsisters.cc",
+    "serial": "emulator-5554",
+    "versionName": "1.5.002",
+    "versionCode": 2026100217,
+    "installedLibraryIdentity": {
+      "file": "installed-library-identity.json",
+      "sha256": "b737c4a197641f5ec072724b56ddc3ff5f2770e469f4bfeb053e4c6ea9739edb",
+      "bytes": 1085
+    },
+    "sourceLibrarySha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+    "deviceLibrarySha256FromRootRecord": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+    "localReferenceSha256IndependentlyRecomputed": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+    "sameInstalledLibraryAsSavedNativeReference": true,
+    "limitation": "Installed artifact identity is bound by root ADB identity record and independent hash of local artifact. It does not establish server implementation."
+  },
+  "inputs": [
+    {
+      "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\local-site\\public\\data\\sugar-runes.json",
+      "sha256": "064a78ea3b5fda8a301c455bd6e5dc57193983a86583d0f34b7578304266385c",
+      "bytes": 54208
+    },
+    {
+      "file": "installed-library-identity.json",
+      "sha256": "b737c4a197641f5ec072724b56ddc3ff5f2770e469f4bfeb053e4c6ea9739edb",
+      "bytes": 1085
+    }
+  ],
+  "captures": [
+    {
+      "id": "022-ginger-detail",
+      "observedAtUtc": "2026-10-15T13:08:08.055169+00:00",
+      "observation": {
+        "file": "022-ginger-detail/observation.json",
+        "sha256": "987e6be63759b5a5ccb56e62c9eed6cbf497b50721da767cba86b539dbb612eb",
+        "bytes": 679
+      },
+      "screenshot": {
+        "file": "022-ginger-detail/screen.png",
+        "sha256": "3c36afd67de13da1f0affd1cccd187c6e47bb8f5cd78df477ce870e5165996b2",
+        "bytes": 809839
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 540,
+          "y": 984
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "023-sugar-initial",
+      "observedAtUtc": "2026-10-15T13:09:46.416281+00:00",
+      "observation": {
+        "file": "023-sugar-initial/observation.json",
+        "sha256": "bacd2e549b13beadda8527014087a2bdbccfa4a32d225d920ef6d1f1e26e47b8",
+        "bytes": 680
+      },
+      "screenshot": {
+        "file": "023-sugar-initial/screen.png",
+        "sha256": "3f787167ca9173b1140a4dfe2d370bd1ee9be2e864d6374cc431d6f74b9cc619",
+        "bytes": 774041
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 111,
+          "y": 1521
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "024-sugar-probabilities",
+      "observedAtUtc": "2026-10-15T13:10:27.632268+00:00",
+      "observation": {
+        "file": "024-sugar-probabilities/observation.json",
+        "sha256": "9d9448369b0d1910e071ee437fbae41a8f013ae6dcd651a236700db4e8602095",
+        "bytes": 684
+      },
+      "screenshot": {
+        "file": "024-sugar-probabilities/screen.png",
+        "sha256": "f0335821fe588dae9e9dc9bf8911e3f03bc4d7c270283cbe919bb0aeda04823f",
+        "bytes": 548366
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 220,
+          "y": 56
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "025-sugar-probabilities-closed",
+      "observedAtUtc": "2026-10-15T13:12:04.628317+00:00",
+      "observation": {
+        "file": "025-sugar-probabilities-closed/observation.json",
+        "sha256": "06c72768cc6b05b0bede57f00a603803178f50314fa0a8b35fbf78b5e80ac63e",
+        "bytes": 659
+      },
+      "screenshot": {
+        "file": "025-sugar-probabilities-closed/screen.png",
+        "sha256": "409061543540d5f05b721cf172be14a11fd4ba04f41025f744d5b50459ba0090",
+        "bytes": 725757
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "back"
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "026-sugar-help",
+      "observedAtUtc": "2026-10-15T13:12:07.000622+00:00",
+      "observation": {
+        "file": "026-sugar-help/observation.json",
+        "sha256": "4fcfe2c702edec954124c2481422b44f8a224b2dd2cc14de7324148c6e6c21ee",
+        "bytes": 674
+      },
+      "screenshot": {
+        "file": "026-sugar-help/screen.png",
+        "sha256": "3c56cee4e13aa04199878bebff671e15c0060d2b60b7609ce3ae2156b395842d",
+        "bytes": 332162
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 58,
+          "y": 55
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "027-sugar-before-craft",
+      "observedAtUtc": "2026-10-15T13:14:00.163248+00:00",
+      "observation": {
+        "file": "027-sugar-before-craft/observation.json",
+        "sha256": "3d48ca9c4cd87055f3f817f324361bd870a4f16bed5b40ae24d43a2c374a8e35",
+        "bytes": 651
+      },
+      "screenshot": {
+        "file": "027-sugar-before-craft/screen.png",
+        "sha256": "4b23375f3c5db8f8f46d88a743f9b5513bc6db127ff4f1d12ab1d98b74ad0cea",
+        "bytes": 771160
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "back"
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "028-sugar-craft1",
+      "observedAtUtc": "2026-10-15T13:14:02.661115+00:00",
+      "observation": {
+        "file": "028-sugar-craft1/observation.json",
+        "sha256": "c8a197e9e340260ecbe3c4fe447176dc4a08d9460780cb03820ae44318c575e9",
+        "bytes": 679
+      },
+      "screenshot": {
+        "file": "028-sugar-craft1/screen.png",
+        "sha256": "3e4dc41a54eb95bd1f7a7fd4b108879d3bc24733f11556f9b499ae6959182475",
+        "bytes": 870360
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 301,
+          "y": 1689
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "029-sugar-inactive-lock1",
+      "observedAtUtc": "2026-10-15T13:15:28.947742+00:00",
+      "observation": {
+        "file": "029-sugar-inactive-lock1/observation.json",
+        "sha256": "e9074796e53a2f8ce97a4f6d43f109026b063bcd690f0d15f0bedbaa4339ff44",
+        "bytes": 688
+      },
+      "screenshot": {
+        "file": "029-sugar-inactive-lock1/screen.png",
+        "sha256": "e3cc9a9b368e0b8cdc2ecd72373be853ca50dee2f4ea182fd05a1f5d917d35f0",
+        "bytes": 919557
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1063
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "030-sugar-inactive-lock-craft",
+      "observedAtUtc": "2026-10-15T13:16:09.655102+00:00",
+      "observation": {
+        "file": "030-sugar-inactive-lock-craft/observation.json",
+        "sha256": "6123a2561066e653a6419b9b9938830bf9a46debd2fdd33ff2f5932a93af6873",
+        "bytes": 692
+      },
+      "screenshot": {
+        "file": "030-sugar-inactive-lock-craft/screen.png",
+        "sha256": "584eda8dff929a4e352068beed1c0ab16875a3e65681285afc51b736cc9fde8c",
+        "bytes": 868715
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 305,
+          "y": 1693
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "031-sugar-lock2",
+      "observedAtUtc": "2026-10-15T13:17:42.144052+00:00",
+      "observation": {
+        "file": "031-sugar-lock2/observation.json",
+        "sha256": "d030c3ec36bd1dae8323867b49245c2a3fb895971e9a48b075c23c79d14f580b",
+        "bytes": 678
+      },
+      "screenshot": {
+        "file": "031-sugar-lock2/screen.png",
+        "sha256": "9e9fa55d8d0d2de9369895ae0f8fb39bccb50d7ff8cca6f95ab2ea9298dcd5f8",
+        "bytes": 926885
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 830
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "032-sugar-lock3",
+      "observedAtUtc": "2026-10-15T13:17:45.234385+00:00",
+      "observation": {
+        "file": "032-sugar-lock3/observation.json",
+        "sha256": "850db9de518a51a3864ad94e273b9a3dcbdd100b5e6e591988eb3ee2dad3c26b",
+        "bytes": 679
+      },
+      "screenshot": {
+        "file": "032-sugar-lock3/screen.png",
+        "sha256": "5208cab902fb82cec95e7892f3840742e0699aae8a728f32adab09572ced2f77",
+        "bytes": 922431
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1147
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "033-sugar-lock4",
+      "observedAtUtc": "2026-10-15T13:17:47.265542+00:00",
+      "observation": {
+        "file": "033-sugar-lock4/observation.json",
+        "sha256": "17c3433fae3553b15fbde34e2c1319a46a884db1fef29da18b39cf0887cf15c3",
+        "bytes": 679
+      },
+      "screenshot": {
+        "file": "033-sugar-lock4/screen.png",
+        "sha256": "4325740649e65fb8b53e9d1c163a7fb1dd592a88b1812006e011396f7708a550",
+        "bytes": 920335
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1230
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "034-sugar-lock5",
+      "observedAtUtc": "2026-10-15T13:17:49.965722+00:00",
+      "observation": {
+        "file": "034-sugar-lock5/observation.json",
+        "sha256": "8cc6cdf71745ef2bf66f5d7f21c96c3ad09418d3032cacd53b2976b32378a60e",
+        "bytes": 679
+      },
+      "screenshot": {
+        "file": "034-sugar-lock5/screen.png",
+        "sha256": "49a8c90810dbf3d14ae15c162be9669666d8d3692197611d2273a477232ceb68",
+        "bytes": 889032
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1315
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "035-sugar-lock6",
+      "observedAtUtc": "2026-10-15T13:17:52.007602+00:00",
+      "observation": {
+        "file": "035-sugar-lock6/observation.json",
+        "sha256": "51d598bea0326e776c494e365e44bae3cc2a6bf4e1f3b835cc415c810d22bfcd",
+        "bytes": 679
+      },
+      "screenshot": {
+        "file": "035-sugar-lock6/screen.png",
+        "sha256": "6dd0315f5d50ec5aa11f663e0091a065612f4d73b6684d3ae24cc154f0a34801",
+        "bytes": 908528
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1401
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "036-sugar-lock7",
+      "observedAtUtc": "2026-10-15T13:17:54.824686+00:00",
+      "observation": {
+        "file": "036-sugar-lock7/observation.json",
+        "sha256": "f28fa323b7151b1b224a309b40b66c15316d45804d0081cffd158b036ebe65da",
+        "bytes": 679
+      },
+      "screenshot": {
+        "file": "036-sugar-lock7/screen.png",
+        "sha256": "2a79ed2075fdcb4889c919d1efaca4838f21e450925a9e8a9b250a6cdb345790",
+        "bytes": 875850
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1485
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "037-sugar-lock-limit",
+      "observedAtUtc": "2026-10-15T13:19:07.226023+00:00",
+      "observation": {
+        "file": "037-sugar-lock-limit/observation.json",
+        "sha256": "112814999670c2dae67181b674f36997899d73d2cbd4483c97ac4f05b6ef7732",
+        "bytes": 683
+      },
+      "screenshot": {
+        "file": "037-sugar-lock-limit/screen.png",
+        "sha256": "0b7579296476907b57594dc39aa4929cf3509845c25ec4ce6d576f1a83d14774",
+        "bytes": 887833
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 916
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "038-sugar-restore",
+      "observedAtUtc": "2026-10-15T13:20:22.825588+00:00",
+      "observation": {
+        "file": "038-sugar-restore/observation.json",
+        "sha256": "0a8c9a167d15b7d6e68b20cb6500e01faf1a2e223f12c602a933891eb862cae6",
+        "bytes": 680
+      },
+      "screenshot": {
+        "file": "038-sugar-restore/screen.png",
+        "sha256": "e6cf509e92c4185a66716c6a90f874c632f5cd61719c2b5c409764956c8d66eb",
+        "bytes": 917974
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 830
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "039-sugar-restore",
+      "observedAtUtc": "2026-10-15T13:20:25.364671+00:00",
+      "observation": {
+        "file": "039-sugar-restore/observation.json",
+        "sha256": "f5067e56cfeccf3674badc8e612f951838785f33ee78b156aea5d699767f1cf3",
+        "bytes": 680
+      },
+      "screenshot": {
+        "file": "039-sugar-restore/screen.png",
+        "sha256": "43d4c7b761965eb2a7995be9af44b894b5f1d3ef5d71fc08aed471ca7f007f63",
+        "bytes": 865189
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 916
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "040-sugar-restore",
+      "observedAtUtc": "2026-10-15T13:20:26.938101+00:00",
+      "observation": {
+        "file": "040-sugar-restore/observation.json",
+        "sha256": "9745ed58ffbc935972e875f919aa0f7ad46fd9eea03d93062798adffe5a7ae43",
+        "bytes": 681
+      },
+      "screenshot": {
+        "file": "040-sugar-restore/screen.png",
+        "sha256": "7e1f6521a71b94c13d3689cae0d9d7806897fcfcbc3656a28dabbb565755e80a",
+        "bytes": 882597
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1063
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "041-sugar-restore",
+      "observedAtUtc": "2026-10-15T13:20:29.422410+00:00",
+      "observation": {
+        "file": "041-sugar-restore/observation.json",
+        "sha256": "08c22e150c8e2be471dab904a0eac36732be75489e655ca34de34a1c88ccd2d3",
+        "bytes": 681
+      },
+      "screenshot": {
+        "file": "041-sugar-restore/screen.png",
+        "sha256": "241b9ea9f7a5f22a103710c33dce0d3f7a56f0d67b161464b8b6e41133eac025",
+        "bytes": 895386
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1147
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "042-sugar-restore",
+      "observedAtUtc": "2026-10-15T13:20:31.091855+00:00",
+      "observation": {
+        "file": "042-sugar-restore/observation.json",
+        "sha256": "5a8fb98ee7c742efd60d2f28fa4afedd02e85da067aba47f122f1b4976699309",
+        "bytes": 681
+      },
+      "screenshot": {
+        "file": "042-sugar-restore/screen.png",
+        "sha256": "d97c430e7e1cbf9114498d51bcecaaba42ffedd3e03bacb32a899e4f9184ebfb",
+        "bytes": 906896
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1230
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "043-sugar-restore",
+      "observedAtUtc": "2026-10-15T13:20:33.694905+00:00",
+      "observation": {
+        "file": "043-sugar-restore/observation.json",
+        "sha256": "6be9558d21f0d336ae805a8564664f41570b67f1fea56630eb828492315b8214",
+        "bytes": 681
+      },
+      "screenshot": {
+        "file": "043-sugar-restore/screen.png",
+        "sha256": "d9f3b663bd8ee462f50e089b8c2a0e0d18e8f1571dd19c6f99e532fe5a169eff",
+        "bytes": 931387
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1315
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "044-sugar-restore",
+      "observedAtUtc": "2026-10-15T13:20:35.503876+00:00",
+      "observation": {
+        "file": "044-sugar-restore/observation.json",
+        "sha256": "bc25ef0d7b88258f32dec6684b483ca1210508638b0d721977bcada20768e983",
+        "bytes": 681
+      },
+      "screenshot": {
+        "file": "044-sugar-restore/screen.png",
+        "sha256": "4dbb33b2cdbfb9f3dfd1587ce4189a161ce1cd84affae2d73713df85295f94ef",
+        "bytes": 909809
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1401
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "045-sugar-restore",
+      "observedAtUtc": "2026-10-15T13:20:38.017614+00:00",
+      "observation": {
+        "file": "045-sugar-restore/observation.json",
+        "sha256": "4212619b2378492b9d30b962c7afbef4a815dfdc9c13955f267f2bb4f41400bc",
+        "bytes": 681
+      },
+      "screenshot": {
+        "file": "045-sugar-restore/screen.png",
+        "sha256": "fd9d593ac2fa84f51ae44aea4ed04d6a0d0a0e0c727873078c56bd928870e199",
+        "bytes": 932932
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1005,
+          "y": 1485
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    }
+  ],
+  "cookie": {
+    "visibleName": "Devil Cookie",
+    "rarity": "U",
+    "displayedPromotionStars": 2,
+    "visibleLevel": 23,
+    "activeSlotsOneBased": [
+      1,
+      2
+    ],
+    "inactiveSlotsOneBased": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "configuredRequiredGrades": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      8,
+      10,
+      10
+    ],
+    "nameEvidence": [
+      "022-ginger-detail",
+      "023-sugar-initial"
+    ],
+    "directoryNameCorrection": "022-ginger-detail is an earlier mistaken intent label. The readable UI saysDevil Cookie; noGingerBrave observation is asserted."
+  },
+  "officialProbabilityUI": {
+    "screenshotId": "024-sugar-probabilities",
+    "sourceKind": "current in-game disclosed table; not observed outcome frequencies",
+    "configuredTotalOutcomes": 160,
+    "configuredTotalWeight": 13050,
+    "raritySummary": [
+      {
+        "rarity": "SSR",
+        "visiblePercent": "1.07",
+        "configuredWeight": 140,
+        "totalWeight": 13050,
+        "exactFraction": "140/13050",
+        "computedPercent": "1.072796934865900383141762452",
+        "computedTwoDecimalPercent": "1.07",
+        "matches": true
+      },
+      {
+        "rarity": "SR",
+        "visiblePercent": "4.29",
+        "configuredWeight": 560,
+        "totalWeight": 13050,
+        "exactFraction": "560/13050",
+        "computedPercent": "4.291187739463601532567049808",
+        "computedTwoDecimalPercent": "4.29",
+        "matches": true
+      },
+      {
+        "rarity": "R",
+        "visiblePercent": "17.93",
+        "configuredWeight": 2340,
+        "totalWeight": 13050,
+        "exactFraction": "2340/13050",
+        "computedPercent": "17.93103448275862068965517241",
+        "computedTwoDecimalPercent": "17.93",
+        "matches": true
+      },
+      {
+        "rarity": "U",
+        "visiblePercent": "26.90",
+        "configuredWeight": 3510,
+        "totalWeight": 13050,
+        "exactFraction": "3510/13050",
+        "computedPercent": "26.89655172413793103448275862",
+        "computedTwoDecimalPercent": "26.90",
+        "matches": true
+      },
+      {
+        "rarity": "C",
+        "visiblePercent": "49.81",
+        "configuredWeight": 6500,
+        "totalWeight": 13050,
+        "exactFraction": "6500/13050",
+        "computedPercent": "49.80842911877394636015325670",
+        "computedTwoDecimalPercent": "49.81",
+        "matches": true
+      }
+    ],
+    "fullyReadableSSRRows": [
+      {
+        "rarity": "SSR",
+        "effectEn": "ATK AMP",
+        "displayedValuePercent": 7,
+        "outcomeId": 1485953177,
+        "configuredWeight": 1,
+        "visibleProbabilityPercent": "0.007663",
+        "computedSixDecimalProbabilityPercent": "0.007663",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "ATK AMP",
+        "displayedValuePercent": 6.5,
+        "outcomeId": 1919767344,
+        "configuredWeight": 3,
+        "visibleProbabilityPercent": "0.022989",
+        "computedSixDecimalProbabilityPercent": "0.022989",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "ATK AMP",
+        "displayedValuePercent": 6.1,
+        "outcomeId": 1190240306,
+        "configuredWeight": 6,
+        "visibleProbabilityPercent": "0.045977",
+        "computedSixDecimalProbabilityPercent": "0.045977",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "DEF AMP",
+        "displayedValuePercent": 7,
+        "outcomeId": 1564403554,
+        "configuredWeight": 1,
+        "visibleProbabilityPercent": "0.007663",
+        "computedSixDecimalProbabilityPercent": "0.007663",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "DEF AMP",
+        "displayedValuePercent": 6.5,
+        "outcomeId": 1755838087,
+        "configuredWeight": 3,
+        "visibleProbabilityPercent": "0.022989",
+        "computedSixDecimalProbabilityPercent": "0.022989",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "DEF AMP",
+        "displayedValuePercent": 6.1,
+        "outcomeId": 1478925994,
+        "configuredWeight": 6,
+        "visibleProbabilityPercent": "0.045977",
+        "computedSixDecimalProbabilityPercent": "0.045977",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "HP AMP",
+        "displayedValuePercent": 7,
+        "outcomeId": 1110012568,
+        "configuredWeight": 1,
+        "visibleProbabilityPercent": "0.007663",
+        "computedSixDecimalProbabilityPercent": "0.007663",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "HP AMP",
+        "displayedValuePercent": 6.5,
+        "outcomeId": 1096232957,
+        "configuredWeight": 3,
+        "visibleProbabilityPercent": "0.022989",
+        "computedSixDecimalProbabilityPercent": "0.022989",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "HP AMP",
+        "displayedValuePercent": 6.1,
+        "outcomeId": 1749434613,
+        "configuredWeight": 6,
+        "visibleProbabilityPercent": "0.045977",
+        "computedSixDecimalProbabilityPercent": "0.045977",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "CRIT%",
+        "displayedValuePercent": 8,
+        "outcomeId": 1918733535,
+        "configuredWeight": 1,
+        "visibleProbabilityPercent": "0.007663",
+        "computedSixDecimalProbabilityPercent": "0.007663",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "CRIT%",
+        "displayedValuePercent": 7.4,
+        "outcomeId": 2106315087,
+        "configuredWeight": 3,
+        "visibleProbabilityPercent": "0.022989",
+        "computedSixDecimalProbabilityPercent": "0.022989",
+        "matches": true
+      },
+      {
+        "rarity": "SSR",
+        "effectEn": "CRIT%",
+        "displayedValuePercent": 7,
+        "outcomeId": 1825891607,
+        "configuredWeight": 6,
+        "visibleProbabilityPercent": "0.045977",
+        "computedSixDecimalProbabilityPercent": "0.045977",
+        "matches": true
+      }
+    ],
+    "fullyReadableSSRRowCount": 12,
+    "partialNextRowExcluded": true,
+    "footer": "Probabilities have been rounded and may not add up to a total of100%.",
+    "allReadableChecksPassed": true,
+    "scopeLimit": "Five rarity marginals and first12 completeSSR rows were visible. Not all160 individual outcomes were separately inspected in UI."
+  },
+  "initial": {
+    "screenshots": [
+      "023-sugar-initial",
+      "027-sugar-before-craft"
+    ],
+    "allEightSlotsHaveNoEffects": true,
+    "lockedSlots": [],
+    "balance": 1070,
+    "displayedCraftFee": 20,
+    "activeSlots": 2,
+    "inactiveSlots": 6
+  },
+  "craftTransactions": [
+    {
+      "attempt": 1,
+      "beforeScreenshotId": "027-sugar-before-craft",
+      "afterScreenshotId": "028-sugar-craft1",
+      "balanceBefore": 1070,
+      "balanceAfter": 1050,
+      "displayedFee": 20,
+      "immediateObservedBalanceDecrease": 20,
+      "lockedSlotsBefore": [],
+      "allEightGeneratedVisibleEffects": true,
+      "generatedInactiveSlots": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "outcomesAfter": [
+        {
+          "slotOneBased": 1,
+          "active": true,
+          "requiredGrade": 0,
+          "rarity": "C",
+          "effectEn": "HP AMP",
+          "valuePercent": 0.9,
+          "outcomeId": 1964134148,
+          "weight": 300,
+          "locked": false
+        },
+        {
+          "slotOneBased": 2,
+          "active": true,
+          "requiredGrade": 2,
+          "rarity": "C",
+          "effectEn": "Accuracy Rate",
+          "valuePercent": 1.2,
+          "outcomeId": 1598053066,
+          "weight": 200,
+          "locked": false
+        },
+        {
+          "slotOneBased": 3,
+          "active": false,
+          "requiredGrade": 4,
+          "rarity": "R",
+          "effectEn": "Skill AMP",
+          "valuePercent": 2.8,
+          "outcomeId": 1615608499,
+          "weight": 80,
+          "locked": false
+        },
+        {
+          "slotOneBased": 4,
+          "active": false,
+          "requiredGrade": 6,
+          "rarity": "U",
+          "effectEn": "HP AMP",
+          "valuePercent": 2.3,
+          "outcomeId": 2118568053,
+          "weight": 120,
+          "locked": false
+        },
+        {
+          "slotOneBased": 5,
+          "active": false,
+          "requiredGrade": 8,
+          "rarity": "R",
+          "effectEn": "DMG Reduction",
+          "valuePercent": 3.3,
+          "outcomeId": 1850065664,
+          "weight": 100,
+          "locked": false
+        },
+        {
+          "slotOneBased": 6,
+          "active": false,
+          "requiredGrade": 8,
+          "rarity": "U",
+          "effectEn": "Evasion Rate Increase",
+          "valuePercent": 2,
+          "outcomeId": 1220361503,
+          "weight": 120,
+          "locked": false
+        },
+        {
+          "slotOneBased": 7,
+          "active": false,
+          "requiredGrade": 10,
+          "rarity": "U",
+          "effectEn": "ATK AMP",
+          "valuePercent": 2.3,
+          "outcomeId": 1986395641,
+          "weight": 120,
+          "locked": false
+        },
+        {
+          "slotOneBased": 8,
+          "active": false,
+          "requiredGrade": 10,
+          "rarity": "C",
+          "effectEn": "HP AMP",
+          "valuePercent": 1.4,
+          "outcomeId": 1207673961,
+          "weight": 200,
+          "locked": false
+        }
+      ],
+      "visiblePowerIncrease": 50,
+      "scope": "One manualCraft; initially empty slots became populated, including all6 inactive slots."
+    },
+    {
+      "attempt": 2,
+      "beforeScreenshotId": "029-sugar-inactive-lock1",
+      "afterScreenshotId": "030-sugar-inactive-lock-craft",
+      "balanceBefore": 1050,
+      "balanceAfter": 1010,
+      "displayedFee": 40,
+      "immediateObservedBalanceDecrease": 40,
+      "lockedSlotsBefore": [
+        3
+      ],
+      "lockedSlot3Preserved": true,
+      "changedSlots": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "changedInactiveSlots": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "outcomesAfter": [
+        {
+          "slotOneBased": 1,
+          "active": true,
+          "requiredGrade": 0,
+          "rarity": "U",
+          "effectEn": "Focus Rate Increase",
+          "valuePercent": 1.6,
+          "outcomeId": 2124958246,
+          "weight": 150,
+          "locked": false
+        },
+        {
+          "slotOneBased": 2,
+          "active": true,
+          "requiredGrade": 2,
+          "rarity": "C",
+          "effectEn": "CRIT DMG",
+          "valuePercent": 1.6,
+          "outcomeId": 1593592575,
+          "weight": 200,
+          "locked": false
+        },
+        {
+          "slotOneBased": 3,
+          "active": false,
+          "requiredGrade": 4,
+          "rarity": "R",
+          "effectEn": "Skill AMP",
+          "valuePercent": 2.8,
+          "outcomeId": 1615608499,
+          "weight": 80,
+          "locked": true
+        },
+        {
+          "slotOneBased": 4,
+          "active": false,
+          "requiredGrade": 6,
+          "rarity": "C",
+          "effectEn": "Skill AMP",
+          "valuePercent": 1,
+          "outcomeId": 1385894813,
+          "weight": 300,
+          "locked": false
+        },
+        {
+          "slotOneBased": 5,
+          "active": false,
+          "requiredGrade": 8,
+          "rarity": "C",
+          "effectEn": "Accuracy Rate",
+          "valuePercent": 0.8,
+          "outcomeId": 1239264302,
+          "weight": 300,
+          "locked": false
+        },
+        {
+          "slotOneBased": 6,
+          "active": false,
+          "requiredGrade": 8,
+          "rarity": "U",
+          "effectEn": "Focus Rate Increase",
+          "valuePercent": 1.6,
+          "outcomeId": 2124958246,
+          "weight": 150,
+          "locked": false
+        },
+        {
+          "slotOneBased": 7,
+          "active": false,
+          "requiredGrade": 10,
+          "rarity": "C",
+          "effectEn": "DMG Reduction",
+          "valuePercent": 1.8,
+          "outcomeId": 1343406402,
+          "weight": 200,
+          "locked": false
+        },
+        {
+          "slotOneBased": 8,
+          "active": false,
+          "requiredGrade": 10,
+          "rarity": "C",
+          "effectEn": "DEF AMP",
+          "valuePercent": 0.9,
+          "outcomeId": 1730956565,
+          "weight": 300,
+          "locked": false
+        }
+      ],
+      "visiblePowerIncrease": 2,
+      "scope": "Inactive slot3R SkillAMP2.80% stayed; every other slot visibly changed in this event."
+    }
+  ],
+  "observedCraftingAndLockRules": {
+    "inactiveSlotsGeneratedOnCraft1": true,
+    "unlockedInactiveSlotsRerolledOnCraft2": true,
+    "inactiveLockedSlotPreservedOnCraft2": true,
+    "inactiveLockRaisedDisplayedFee20To40": true,
+    "inactiveLockCharged40InObservedCraft2": true,
+    "allEightSlotLockCountUsedByCostUI": true,
+    "description": "ManualCraft updates unlocked slots beyond the currently enabled stat slots in these two observations. Inactive slots can be locked; their locks increase fees and preserve the chosen outcome. Stat activation remains separate from populated outcomes.",
+    "notInferred": [
+      "RNG independence",
+      "absence of hidden pity",
+      "same implementation forAutoCraft",
+      "exact distribution from2 attempts",
+      "account active boost record list"
+    ]
+  },
+  "lockCostUI": {
+    "costVectorFor0Through7Locks": [
+      20,
+      40,
+      80,
+      120,
+      180,
+      240,
+      300,
+      400
+    ],
+    "configuredVectorMatches": true,
+    "observations": [
+      {
+        "lockedCount": 0,
+        "lockedSlotsOneBased": [],
+        "displayedFee": 20,
+        "balance": 1070,
+        "screenshotId": "027-sugar-before-craft",
+        "paidAttemptAtThisFeeObserved": true
+      },
+      {
+        "lockedCount": 1,
+        "lockedSlotsOneBased": [
+          3
+        ],
+        "displayedFee": 40,
+        "balance": 1050,
+        "screenshotId": "029-sugar-inactive-lock1",
+        "paidAttemptAtThisFeeObserved": true
+      },
+      {
+        "lockedCount": 2,
+        "lockedSlotsOneBased": [
+          1,
+          3
+        ],
+        "displayedFee": 80,
+        "balance": 1040,
+        "screenshotId": "031-sugar-lock2",
+        "paidAttemptAtThisFeeObserved": false
+      },
+      {
+        "lockedCount": 3,
+        "lockedSlotsOneBased": [
+          1,
+          3,
+          4
+        ],
+        "displayedFee": 120,
+        "balance": 1040,
+        "screenshotId": "032-sugar-lock3",
+        "paidAttemptAtThisFeeObserved": false
+      },
+      {
+        "lockedCount": 4,
+        "lockedSlotsOneBased": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "displayedFee": 180,
+        "balance": 1040,
+        "screenshotId": "033-sugar-lock4",
+        "paidAttemptAtThisFeeObserved": false
+      },
+      {
+        "lockedCount": 5,
+        "lockedSlotsOneBased": [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "displayedFee": 240,
+        "balance": 1040,
+        "screenshotId": "034-sugar-lock5",
+        "paidAttemptAtThisFeeObserved": false
+      },
+      {
+        "lockedCount": 6,
+        "lockedSlotsOneBased": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "displayedFee": 300,
+        "balance": 1040,
+        "screenshotId": "035-sugar-lock6",
+        "paidAttemptAtThisFeeObserved": false
+      },
+      {
+        "lockedCount": 7,
+        "lockedSlotsOneBased": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "displayedFee": 400,
+        "balance": 1040,
+        "screenshotId": "036-sugar-lock7",
+        "paidAttemptAtThisFeeObserved": false
+      }
+    ],
+    "mixedActiveAndInactiveLocks": true,
+    "eighthLock": {
+      "screenshotId": "037-sugar-lock-limit",
+      "accepted": true,
+      "allEightLocked": true,
+      "CraftButtonDisabled": true,
+      "AutoCraftButtonDisabled": true,
+      "displayedFeeText": "---",
+      "noEighthLockRejectionToastAsserted": true,
+      "balance": 1040,
+      "allActiveSlotsLocked": true,
+      "interpretation": "In the observed all8-locked state both crafting actions are disabled. This does not determine behavior when only active slots are locked and some inactive slots remain unlocked. No8-lock fee is inferred."
+    }
+  },
+  "currencyAccounting": {
+    "craftChargesFromAdjacentTransactionPairs": [
+      20,
+      40
+    ],
+    "sumObservedCraftCharges": 60,
+    "displayedBalanceAtInitial": 1070,
+    "displayedBalanceImmediatelyAfterCraft2": 1010,
+    "firstLaterDisplayed1040Screenshot": "031-sugar-lock2",
+    "unattributedPositiveBalanceChange": 30,
+    "unattributedChangeWindow": [
+      "030-sugar-inactive-lock-craft",
+      "031-sugar-lock2"
+    ],
+    "displayedBalanceAtFinal": 1040,
+    "wholeSessionNetBalanceDecrease": 30,
+    "netBalanceDecreaseIsNotCraftSpending": true,
+    "unattributedChangeExplanation": "The visible balance increases1010->1040 after the second craft and before/at031. Its cause was not read, so it is recorded separately; no hidden reward mechanism or exact source is invented."
+  },
+  "discountObservation": {
+    "observedFeesMatchUndiscountedConfiguredCurve": true,
+    "accountActiveBoostRecordsRead": false,
+    "effectiveDiscountNotClaimedFromRecords": true,
+    "positiveConfiguredDiscountTransactionObserved": false,
+    "nativeFormulaFromPriorEvidence": "max(0,base-trunc(base*effectiveDiscount/100))",
+    "nonnegativeFinalCostRelation": "For0<=discount<=100 the final fee isceil(base*(100-discount)/100); this is distinct fromPlate refund rounding.",
+    "roundingTestedByThisSession": false,
+    "reason": "No discounted fractional charge was observed. Configured5%/10% boost sums combined with fees divisible by20 produce integral reductions, so these fee screens cannot discriminate rounding."
+  },
+  "restoration": {
+    "screenshotId": "045-sugar-restore",
+    "allEightLocksRemoved": true,
+    "displayedCraftFee": 20,
+    "CraftAndAutoCraftEnabled": true,
+    "balance": 1040,
+    "outcomesSameAsSecondCraftExceptLockFlags": true,
+    "outcomes": [
+      {
+        "slotOneBased": 1,
+        "active": true,
+        "requiredGrade": 0,
+        "rarity": "U",
+        "effectEn": "Focus Rate Increase",
+        "valuePercent": 1.6,
+        "outcomeId": 2124958246,
+        "weight": 150,
+        "locked": false
+      },
+      {
+        "slotOneBased": 2,
+        "active": true,
+        "requiredGrade": 2,
+        "rarity": "C",
+        "effectEn": "CRIT DMG",
+        "valuePercent": 1.6,
+        "outcomeId": 1593592575,
+        "weight": 200,
+        "locked": false
+      },
+      {
+        "slotOneBased": 3,
+        "active": false,
+        "requiredGrade": 4,
+        "rarity": "R",
+        "effectEn": "Skill AMP",
+        "valuePercent": 2.8,
+        "outcomeId": 1615608499,
+        "weight": 80,
+        "locked": false
+      },
+      {
+        "slotOneBased": 4,
+        "active": false,
+        "requiredGrade": 6,
+        "rarity": "C",
+        "effectEn": "Skill AMP",
+        "valuePercent": 1,
+        "outcomeId": 1385894813,
+        "weight": 300,
+        "locked": false
+      },
+      {
+        "slotOneBased": 5,
+        "active": false,
+        "requiredGrade": 8,
+        "rarity": "C",
+        "effectEn": "Accuracy Rate",
+        "valuePercent": 0.8,
+        "outcomeId": 1239264302,
+        "weight": 300,
+        "locked": false
+      },
+      {
+        "slotOneBased": 6,
+        "active": false,
+        "requiredGrade": 8,
+        "rarity": "U",
+        "effectEn": "Focus Rate Increase",
+        "valuePercent": 1.6,
+        "outcomeId": 2124958246,
+        "weight": 150,
+        "locked": false
+      },
+      {
+        "slotOneBased": 7,
+        "active": false,
+        "requiredGrade": 10,
+        "rarity": "C",
+        "effectEn": "DMG Reduction",
+        "valuePercent": 1.8,
+        "outcomeId": 1343406402,
+        "weight": 200,
+        "locked": false
+      },
+      {
+        "slotOneBased": 8,
+        "active": false,
+        "requiredGrade": 10,
+        "rarity": "C",
+        "effectEn": "DEF AMP",
+        "valuePercent": 0.9,
+        "outcomeId": 1730956565,
+        "weight": 300,
+        "locked": false
+      }
+    ],
+    "initialEmptyOutcomesRestored": false,
+    "reason": "Crafting is a real persistent change; only temporary lock settings were restored. The second-craft outcomes remain onDevil Cookie.",
+    "sequenceScreenshots": [
+      "038-sugar-restore",
+      "039-sugar-restore",
+      "040-sugar-restore",
+      "041-sugar-restore",
+      "042-sugar-restore",
+      "043-sugar-restore",
+      "044-sugar-restore",
+      "045-sugar-restore"
+    ]
+  },
+  "limitations": [
+    "Only2 crafting transactions were observed, with no server response or RNG state capture. They cannot prove cross-slot or cross-attempt independence or validate frequencies against rarity odds.",
+    "The active account discount/boost records were not read; the visible fees match the base curve.",
+    "The disclosed probability check covers5 rarity summaries and12 completeSSR rows; remaining148 outcome rows were not manually read from the currentUI.",
+    "Inactive slots were directly seen to populate and update in manualCraft; automatic crafting behavior and every grade remain outside these observations.",
+    "The unexplained+30 balance increase is preserved as a separate unknown; it is not used to reduce the observed60 total craft deductions.",
+    "The all8-lock state is accepted with disabled crafting, rather than an eighth-lock rejection.",
+    "This report verifies current UI observations bound to the installed native library; it does not recover hidden server rules."
+  ]
+}

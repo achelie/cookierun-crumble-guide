@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "evidenceId": "local-stellar-unlocked-ui-verification-20261015-v1",
+  "title": "Current unlocked-account Stellar Link UI, one layout area candidate, lock-cost curve and restoration",
+  "createdAtUtc": "2026-10-15T13:08:46.558030+00:00",
+  "status": "partial-current-game-UI-verification; full-server-area-algorithm-not-recovered",
+  "authority": {
+    "provider": "ordinary ADB input and original PNG screen capture by root agent; offline manual screenshot review and geometry cross-check by worker",
+    "reaEvidence": false,
+    "simulatorControlledByThisWorker": false,
+    "screenshotsReadByWorker": [
+      "003-stellar-initial",
+      "007-stellar-lock1",
+      "008-stellar-lock2",
+      "009-stellar-lock3",
+      "010-stellar-lock4",
+      "011-stellar-lock5",
+      "012-stellar-lock6",
+      "013-stellar-lock-limit",
+      "019-stellar-restore"
+    ],
+    "websiteOrBuilderEditedByThisWorker": false
+  },
+  "target": {
+    "package": "com.devsisters.cc",
+    "serial": "emulator-5554",
+    "versionName": "1.5.002",
+    "versionCode": 2026100217,
+    "versionAttribution": "root reported installed package version for this observation session; separate installation/version/library capture pending at report creation",
+    "sourceLibrarySha256": null,
+    "artifactHashBindingVerified": false,
+    "sameArtifactAsPriorNativeCaptureVerified": false,
+    "snapshotAloneShowsVersion": false
+  },
+  "inputs": [
+    {
+      "file": "offline-stellar-initial-68-crosscheck.json",
+      "sha256": "ebb3cbddf4ca28896b5aeaa222e83b74ef4701f546218bdceacf9971e12a6b17",
+      "bytes": 8795
+    },
+    {
+      "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\local-site\\public\\data\\stellar-link.json",
+      "sha256": "951497769fdfb3854631d6de968aa52321f94d53d13f817ff02d13e7134480d7",
+      "bytes": 62132
+    },
+    {
+      "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\local-site\\public\\data\\stellar-link-ui-assets.json",
+      "sha256": "8bde1c02e54064f6b5b342dbdda01a6ec0ab814157856b24c9232086fa45e6ca",
+      "bytes": 194064
+    }
+  ],
+  "captures": [
+    {
+      "id": "003-stellar-initial",
+      "observedAtUtc": "2026-10-15T12:56:59.933691+00:00",
+      "observation": {
+        "file": "003-stellar-initial/observation.json",
+        "sha256": "699a95427ed387ddd8a6c6df88c2f5b225673ca9ff90340ab6b95567416eadf9",
+        "bytes": 682
+      },
+      "screenshot": {
+        "file": "003-stellar-initial/screen.png",
+        "sha256": "97299b465cd651bdd08e0371104242d0d5442a2b63d3570ff8386ecb3ac7d261",
+        "bytes": 997459
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 929,
+          "y": 1705
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "006-stellar-help-closed",
+      "observedAtUtc": "2026-10-15T13:00:30.512005+00:00",
+      "observation": {
+        "file": "006-stellar-help-closed/observation.json",
+        "sha256": "5ed0635beaa854f93d890db568d6fb52d2d3fe4b1c832225a6891438332edef1",
+        "bytes": 653
+      },
+      "screenshot": {
+        "file": "006-stellar-help-closed/screen.png",
+        "sha256": "2814087a9817bfaec11894ad58f2b58148876ffd45cf66f1e4c79cacc1381b8c",
+        "bytes": 1067018
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "back"
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "007-stellar-lock1",
+      "observedAtUtc": "2026-10-15T13:00:54.883801+00:00",
+      "observation": {
+        "file": "007-stellar-lock1/observation.json",
+        "sha256": "ad7c66e8805fe80ee77777ba57813a93b0e860d0d8d50632fe8b907173f2dfa8",
+        "bytes": 680
+      },
+      "screenshot": {
+        "file": "007-stellar-lock1/screen.png",
+        "sha256": "b2f02d99ae36e3e0f49c8f11a94dd175d4717b938db3db5fd4777e1752b4211d",
+        "bytes": 1023457
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 540,
+          "y": 249
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "008-stellar-lock2",
+      "observedAtUtc": "2026-10-15T13:02:12.176475+00:00",
+      "observation": {
+        "file": "008-stellar-lock2/observation.json",
+        "sha256": "f39b9fff27d0606e603deb23b5f3605bb306c989322cf65e86d862e92029899c",
+        "bytes": 680
+      },
+      "screenshot": {
+        "file": "008-stellar-lock2/screen.png",
+        "sha256": "e6186325ea43b609a825dc757178103d26aadf1ad5e02badf3e0b47e2d2ce02e",
+        "bytes": 1014843
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 205,
+          "y": 443
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "009-stellar-lock3",
+      "observedAtUtc": "2026-10-15T13:02:14.767106+00:00",
+      "observation": {
+        "file": "009-stellar-lock3/observation.json",
+        "sha256": "fff318ba18c57daf7d09710ce41911d145cea6879d1a6f432083489be1707612",
+        "bytes": 680
+      },
+      "screenshot": {
+        "file": "009-stellar-lock3/screen.png",
+        "sha256": "bae41ac171bb3dfe12cd3c24ccf86354814c15cf4416dd2e6cf6e8003867ce3a",
+        "bytes": 1019079
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 925,
+          "y": 636
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "010-stellar-lock4",
+      "observedAtUtc": "2026-10-15T13:02:16.442330+00:00",
+      "observation": {
+        "file": "010-stellar-lock4/observation.json",
+        "sha256": "9787a34d870b7909a10b483a34dc4ece691b3266a7556e6864964ac4535493ce",
+        "bytes": 679
+      },
+      "screenshot": {
+        "file": "010-stellar-lock4/screen.png",
+        "sha256": "f02a2d00f6288d8086627a553ad3b71b073f41d76c8221400cac2b51ef54f292",
+        "bytes": 999014
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 875,
+          "y": 443
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "011-stellar-lock5",
+      "observedAtUtc": "2026-10-15T13:02:19.248225+00:00",
+      "observation": {
+        "file": "011-stellar-lock5/observation.json",
+        "sha256": "9a1df0de00890d8b0f39f92236b59bc30ef5929f68d6918ce41524506e07fa11",
+        "bytes": 680
+      },
+      "screenshot": {
+        "file": "011-stellar-lock5/screen.png",
+        "sha256": "58282f2963d83c515f2da4c63fcadabcf811800ecc2ca14a57e8b97cffd25a12",
+        "bytes": 1010180
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 735,
+          "y": 300
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "012-stellar-lock6",
+      "observedAtUtc": "2026-10-15T13:02:21.025697+00:00",
+      "observation": {
+        "file": "012-stellar-lock6/observation.json",
+        "sha256": "7cac6abce2bb63a72d40e8c3b0f7bf8ffb78cb455434a02dfcd221b9843ff7f2",
+        "bytes": 680
+      },
+      "screenshot": {
+        "file": "012-stellar-lock6/screen.png",
+        "sha256": "8bc7d6c8f2c71a6af9218f8f91c85fa382d9f4b22761bf48f084390be919a313",
+        "bytes": 1032506
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 875,
+          "y": 832
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "013-stellar-lock-limit",
+      "observedAtUtc": "2026-10-15T13:03:12.672358+00:00",
+      "observation": {
+        "file": "013-stellar-lock-limit/observation.json",
+        "sha256": "e3744e66e75d591686f7b85c1e509a70a9b641e55f339d8ceef5420e57f5b01e",
+        "bytes": 685
+      },
+      "screenshot": {
+        "file": "013-stellar-lock-limit/screen.png",
+        "sha256": "ada8cfa2066e836a8fe1c33573e068e51ca3b5147be8c32cf7065099e7123abb",
+        "bytes": 1028233
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 205,
+          "y": 830
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "014-stellar-restore",
+      "observedAtUtc": "2026-10-15T13:04:39.811692+00:00",
+      "observation": {
+        "file": "014-stellar-restore/observation.json",
+        "sha256": "d4f47e430a1d7456d48f81deb8e7f909541d39eb0477010f04c3adfa879f5c5b",
+        "bytes": 682
+      },
+      "screenshot": {
+        "file": "014-stellar-restore/screen.png",
+        "sha256": "7414ed3aeee565331a7e69fe7f0fc13a161b3e169f21d8cf15dee478c9be8d54",
+        "bytes": 1042006
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 540,
+          "y": 249
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "015-stellar-restore",
+      "observedAtUtc": "2026-10-15T13:04:42.374221+00:00",
+      "observation": {
+        "file": "015-stellar-restore/observation.json",
+        "sha256": "b26e08a97977d4b46616e8db9da0d0de6139b9fa4844f9e16177b61b5b74f8c6",
+        "bytes": 681
+      },
+      "screenshot": {
+        "file": "015-stellar-restore/screen.png",
+        "sha256": "a231dfeb18c02b50372a387648142f6cf23201fd5ebe4b84cc9b570d051a1453",
+        "bytes": 975411
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 205,
+          "y": 443
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "016-stellar-restore",
+      "observedAtUtc": "2026-10-15T13:04:44.131024+00:00",
+      "observation": {
+        "file": "016-stellar-restore/observation.json",
+        "sha256": "7913501d318e1c621d22dccb8537cdaab53cf0263b6bb179a278741c7e5d8d91",
+        "bytes": 682
+      },
+      "screenshot": {
+        "file": "016-stellar-restore/screen.png",
+        "sha256": "d6f3957cf051c8d82a7f706fb50cb48b218fe73f21a15532fa13446e4cfb3663",
+        "bytes": 1031601
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 925,
+          "y": 636
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "017-stellar-restore",
+      "observedAtUtc": "2026-10-15T13:04:46.687068+00:00",
+      "observation": {
+        "file": "017-stellar-restore/observation.json",
+        "sha256": "34e51230a6bc7076feabd84a1792d99b9dd5c05ef8147d257e6aaf3dfda6ebc2",
+        "bytes": 682
+      },
+      "screenshot": {
+        "file": "017-stellar-restore/screen.png",
+        "sha256": "5cccf688bb3705d15b44f40e8ceb7610c9768195b7829dd0d0c6b0ab4d51aa09",
+        "bytes": 1010846
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 875,
+          "y": 443
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "018-stellar-restore",
+      "observedAtUtc": "2026-10-15T13:04:48.422259+00:00",
+      "observation": {
+        "file": "018-stellar-restore/observation.json",
+        "sha256": "d31b13edb0764e111a398a43820ccd73a71e388c828ae21bd61152cbfbc18baa",
+        "bytes": 681
+      },
+      "screenshot": {
+        "file": "018-stellar-restore/screen.png",
+        "sha256": "a9fa79060b0d218fcb48e041b9b29202490da5d91343f9b5588696904b63f079",
+        "bytes": 985342
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 735,
+          "y": 300
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    },
+    {
+      "id": "019-stellar-restore",
+      "observedAtUtc": "2026-10-15T13:04:50.958056+00:00",
+      "observation": {
+        "file": "019-stellar-restore/observation.json",
+        "sha256": "afb7150193808113de6a55e966c23c468106a13587d7defd82c21554469381de",
+        "bytes": 682
+      },
+      "screenshot": {
+        "file": "019-stellar-restore/screen.png",
+        "sha256": "55bdbcac489b2359bf0cc85f6298dee98439cd4067d6d144ce2d28f545385674",
+        "bytes": 1047443
+      },
+      "declaredImageShaAndLengthVerified": true,
+      "actions": [
+        {
+          "type": "tap",
+          "x": 875,
+          "y": 832
+        }
+      ],
+      "provider": "ordinary ADB input and screen capture; not REA Evidence"
+    }
+  ],
+  "layoutObservation": {
+    "clockwiseRanksFromTop": [
+      2,
+      5,
+      4,
+      3,
+      6,
+      null,
+      null,
+      null,
+      7,
+      null,
+      1,
+      null
+    ],
+    "rankOrderedClockwiseIndices": [
+      10,
+      0,
+      3,
+      2,
+      1,
+      4,
+      8
+    ],
+    "rankOrderedToolCounterClockwiseIndices": [
+      2,
+      0,
+      9,
+      10,
+      11,
+      8,
+      4
+    ],
+    "constellation": 1,
+    "placed": 7,
+    "unlocked": 8,
+    "displayedArea": 68,
+    "amplificationEachPercent": "13.60",
+    "currencyBalance": 300,
+    "shuffleCost": 10,
+    "locksVisible": 0,
+    "singleDistinctCompleteCurrentLayout": true,
+    "areaAndAmpStableAcrossLockChanges": true,
+    "screenSource": "003-stellar-initial",
+    "rankReadingCheckedAgainAtRestore": "019-stellar-restore",
+    "importantDirection": "clockwise rank indices[10,0,3,2,1,4,8] reflect to tool counter-clockwise rank indices[2,0,9,10,11,8,4]; both symmetric area models preserve area under reflection"
+  },
+  "areaCandidateComparison": {
+    "basis": "complete visible placement, independent Python split-edge planar-graph bounded-face walk; checked Euler face count and winding-weighted area against signed shoelace; matches separate current tool double calculation",
+    "calculationReport": {
+      "file": "offline-stellar-initial-68-crosscheck.json",
+      "sha256": "ebb3cbddf4ca28896b5aeaa222e83b74ef4701f546218bdceacf9971e12a6b17",
+      "bytes": 8795
+    },
+    "idealRegular12Gon": {
+      "boundedArea": 68.89957660359269,
+      "floor": 68,
+      "nearestHalfUp": 69,
+      "ceil": 69,
+      "faceCount": 2,
+      "crossingCount": 1,
+      "allEulerAndWindingChecksPassed": true,
+      "floorMatchesObserved": true,
+      "nearestMatchesObserved": false,
+      "ceilMatchesObserved": false
+    },
+    "prefabIntegerCoordinatesNormalizedByCompletePrefab12PointPolygon": {
+      "boundedArea": 69.097406753413,
+      "floor": 69,
+      "nearestHalfUp": 69,
+      "ceil": 70,
+      "faceCount": 2,
+      "crossingCount": 1,
+      "allEulerAndWindingChecksPassed": true,
+      "floorMatchesObserved": false,
+      "nearestMatchesObserved": false,
+      "ceilMatchesObserved": false
+    },
+    "observedIntegerPercent": 68,
+    "observedAmpPercentEach": "13.60",
+    "configuredMultiplierPercent": 20,
+    "nativeBonusForObservedIntegerPercent": "13.60",
+    "conclusions": [
+      "Ideal regular12-gon bounded area68.89957660359269% produces observed68 underfloor; nearest69 andceil69 fail for this current visible layout.",
+      "Stored integer UI points normalized by their complete12-point polygon give69.097406753413%, whosefloor69, nearest69 andceil70 all fail. Therefore this direct UI-coordinate-normalization candidate is excluded for this layout.",
+      "The current case is a real discriminator between ideal-areafloor and ideal-areanearest; old93.46/61.16/81.10/71.13 cases did not discriminate.",
+      "All three13.60% AMP labels agree with20% multiplier and supplied integer68%. This case does not probe the known binary64 area57/69 bonus edge.",
+      "One current complete placement was observed, with one crossing and two bounded faces. Multiple lock screenshots do not create independent area layouts."
+    ],
+    "classification": {
+      "idealBoundedAreaFloor": "supported-by-one-current-discriminating-layout",
+      "idealBoundedAreaNearest": "contradicted-for-this-layout",
+      "prefabNormalizedAreaFloor": "contradicted-for-this-layout",
+      "serverImplementationRecovered": false,
+      "allIntegerOrDegenerateBoundariesVerified": false,
+      "serverAreaFormulaVerified": false
+    }
+  },
+  "lockFees": {
+    "status": "current-game-visible-UI-verified",
+    "displayedCostVectorForLocks0Through6": [
+      10,
+      10,
+      30,
+      60,
+      100,
+      150,
+      220
+    ],
+    "configuredCostVectorMatches": true,
+    "observations": [
+      {
+        "lockedCount": 0,
+        "lockedRanks": [],
+        "displayedShuffleFee": 10,
+        "balance": 300,
+        "displayedAreaPercent": 68,
+        "amplificationsEachPercent": "13.60",
+        "screenshotId": "003-stellar-initial",
+        "actualShuffleExecuted": false
+      },
+      {
+        "lockedCount": 1,
+        "lockedRanks": [
+          2
+        ],
+        "displayedShuffleFee": 10,
+        "balance": 300,
+        "displayedAreaPercent": 68,
+        "amplificationsEachPercent": "13.60",
+        "screenshotId": "007-stellar-lock1",
+        "actualShuffleExecuted": false
+      },
+      {
+        "lockedCount": 2,
+        "lockedRanks": [
+          1,
+          2
+        ],
+        "displayedShuffleFee": 30,
+        "balance": 300,
+        "displayedAreaPercent": 68,
+        "amplificationsEachPercent": "13.60",
+        "screenshotId": "008-stellar-lock2",
+        "actualShuffleExecuted": false
+      },
+      {
+        "lockedCount": 3,
+        "lockedRanks": [
+          1,
+          2,
+          3
+        ],
+        "displayedShuffleFee": 60,
+        "balance": 300,
+        "displayedAreaPercent": 68,
+        "amplificationsEachPercent": "13.60",
+        "screenshotId": "009-stellar-lock3",
+        "actualShuffleExecuted": false
+      },
+      {
+        "lockedCount": 4,
+        "lockedRanks": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "displayedShuffleFee": 100,
+        "balance": 300,
+        "displayedAreaPercent": 68,
+        "amplificationsEachPercent": "13.60",
+        "screenshotId": "010-stellar-lock4",
+        "actualShuffleExecuted": false
+      },
+      {
+        "lockedCount": 5,
+        "lockedRanks": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "displayedShuffleFee": 150,
+        "balance": 300,
+        "displayedAreaPercent": 68,
+        "amplificationsEachPercent": "13.60",
+        "screenshotId": "011-stellar-lock5",
+        "actualShuffleExecuted": false
+      },
+      {
+        "lockedCount": 6,
+        "lockedRanks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "displayedShuffleFee": 220,
+        "balance": 300,
+        "displayedAreaPercent": 68,
+        "amplificationsEachPercent": "13.60",
+        "screenshotId": "012-stellar-lock6",
+        "actualShuffleExecuted": false
+      }
+    ],
+    "actualServerPaymentObserved": false,
+    "noClaimAboutPaidShuffleTransaction": true
+  },
+  "lockLimit": {
+    "status": "current-game-UI-verified",
+    "maximumLockedStarsObserved": 6,
+    "attemptedSeventhRank": 7,
+    "toast": "Cannot lock more Starshards.",
+    "seventhRemainedUnlocked": true,
+    "displayedFeeRemained220": true,
+    "balanceRemained300": true,
+    "screenshotId": "013-stellar-lock-limit"
+  },
+  "restoration": {
+    "status": "visible-original-state-restored",
+    "stepsRecorded": [
+      "014-stellar-restore",
+      "015-stellar-restore",
+      "016-stellar-restore",
+      "017-stellar-restore",
+      "018-stellar-restore",
+      "019-stellar-restore"
+    ],
+    "finalScreenshotId": "019-stellar-restore",
+    "finalLockedRanks": [],
+    "placementMatchesInitial": true,
+    "displayedAreaPercent": 68,
+    "amplificationsEachPercent": "13.60",
+    "placedStars": 7,
+    "enabledStars": 8,
+    "shuffleFee": 10,
+    "balance": 300,
+    "shufflePressedDuringThisSequence": false,
+    "paidShuffleTransactionsObserved": 0,
+    "observedCurrencyDifference": 0,
+    "bounds": "Visible placement, locks, displayed fee, area, AMP and star currency were restored/unchanged; account hidden state was not inspected."
+  },
+  "claimsThatMayBeUpdated": [
+    {
+      "claim": "lock0..6 fee curve and locklimit6",
+      "status": "verified current UI"
+    },
+    {
+      "claim": "one current ideal bounded-area68.8996% case displays68%, supportsfloor",
+      "status": "observed+derived case, not fullimplementation proof"
+    },
+    {
+      "claim": "current server simply uses normalized prefab UI geometry",
+      "status": "contradicted for thiscase"
+    },
+    {
+      "claim": "all server area rounding and degeneracies exact",
+      "status": "not verified"
+    }
+  ],
+  "limitations": [
+    "No server code, network response or paid shuffle transaction was observed in this sequence.",
+    "Only one complete current layout exists in these screenshots; locks do not change the geometry.",
+    "The ideal and prefab comparisons use double arithmetic. Native rendering float32 thresholds, node merging, collinear segments, coincident intersections and all rounding boundaries were not recreated or tested here.",
+    "Visible area68 together with ideal68.8996 supportsfloor and excludes commonnearest/ceil for thislayout; it does not logically establish every possible server mapping.",
+    "The first constellation had7 placed stars out of8 enabled. This does not prove all10 constellations or all unlock requirements.",
+    "No new current library SHA has been independently captured by this worker. The report deliberately leaves artifact binding false until root supplies a separate current installation/library record."
+  ]
+}

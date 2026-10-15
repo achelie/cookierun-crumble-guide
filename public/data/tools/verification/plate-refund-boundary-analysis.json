@@ -1,0 +1,1250 @@
+{
+  "evidenceId": "local-plate-refund-boundary-analysis-v1",
+  "status": "client_response_boundary_verified_server_formula_unknown",
+  "scope": "Plate great-success refund scope and integer rounding only; previous grade/protection proofs are not re-investigated.",
+  "authority": "Derived static analysis of saved ordinary ADB read-only runtime executable-byte captures, corroborated by recovered metadata; not REA-generated evidence.",
+  "sourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+  "captures": [
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-01\\capture.json",
+      "sha256": "8449ce627a63e2e66a475f247ec99a9659ad9c9b52d2381eb40d82238cd214c2",
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T14:39:01.997305+00:00",
+      "pid": 3507,
+      "package": "com.devsisters.cc",
+      "serial": "emulator-5554",
+      "loadBase": "0x763842062000",
+      "sourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "deviceSourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "mapsSha256": "ced19f467a8a2af114b0081601f4972c54404543874041e95db543348e149acb"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-02\\capture.json",
+      "sha256": "3abdb12d3d3122113c8017f08c18f9a0eba727fb712d6af88c614a8230e55d68",
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T14:45:02.938450+00:00",
+      "pid": 3507,
+      "package": "com.devsisters.cc",
+      "serial": "emulator-5554",
+      "loadBase": "0x763842062000",
+      "sourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "deviceSourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "mapsSha256": "98a30e395bccece82d0eae38bc2a41f247c47fd23fecc3e0cab674a182f38863"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-03\\capture.json",
+      "sha256": "3ec153cf478607ffeba7468301db3a5533ad8ff292babc8a18d103e93db93c14",
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T14:46:51.921323+00:00",
+      "pid": 3507,
+      "package": "com.devsisters.cc",
+      "serial": "emulator-5554",
+      "loadBase": "0x763842062000",
+      "sourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "deviceSourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "mapsSha256": "a934f2ca17b5be83ed3153acc3f7ab5ce63f7049e6de026285018e9a509867fc"
+    }
+  ],
+  "methodBindings": [
+    {
+      "className": "Crumble.PlateDetailView",
+      "method": "SetData",
+      "assembly": "Crumble.Feature",
+      "fileOffset": "0x66640AF",
+      "length": 1435,
+      "signatureHex": "20010111a6dc",
+      "reason": "Determine whether the refund preview formats a percentage or computes integer item refunds.",
+      "nativeRva": "0x66680af",
+      "runtimeAddress": "0x7638486ca0af",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-01\\000-Crumble_PlateDetailView-SetData-66640af.bin",
+      "sha256": "151b0d43edd47c208873b75f5e4dc02f607a535604c9d5b0912b1d48e86170b1",
+      "decodedBytes": 1435
+    },
+    {
+      "className": "Crumble.PlateUpgradeResultPresenter",
+      "method": ".ctor",
+      "assembly": "Crumble.Feature",
+      "fileOffset": "0x666D6F9",
+      "length": 524,
+      "signatureHex": "200a0111a718128bd01294d4124d1512842d01021287d91282e51287491287dd1287e9",
+      "reason": "Trace refund list origin into result presenter.",
+      "nativeRva": "0x66716f9",
+      "runtimeAddress": "0x7638486d36f9",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-01\\001-Crumble_PlateUpgradeResultPresenter-_ctor-666d6f9.bin",
+      "sha256": "20a2e6c58cfca679c19875e76fff68d7887c4d104514e584d071898d495fc743",
+      "decodedBytes": 524
+    },
+    {
+      "className": "Crumble.PlateUpgradeResultPresenter",
+      "method": "SetContents",
+      "assembly": "Crumble.Feature",
+      "fileOffset": "0x666DC06",
+      "length": 237,
+      "signatureHex": "200001",
+      "reason": "Trace server refund list into result UI without extrapolating an arithmetic formula.",
+      "nativeRva": "0x6671c06",
+      "runtimeAddress": "0x7638486d3c06",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-01\\002-Crumble_PlateUpgradeResultPresenter-SetContents-666dc06.bin",
+      "sha256": "c47472e314c141f115e5d8fe5c15ba15d1bb19030adfb06f88b41a6add6f4625",
+      "decodedBytes": 237
+    },
+    {
+      "className": "Crumble.PlateUpgradeResultView",
+      "method": "SetData",
+      "assembly": "Crumble.Feature",
+      "fileOffset": "0x666DE47",
+      "length": 464,
+      "signatureHex": "20010111a71c",
+      "reason": "Inspect displayed refund list handling without assuming rounding.",
+      "nativeRva": "0x6671e47",
+      "runtimeAddress": "0x7638486d3e47",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-01\\003-Crumble_PlateUpgradeResultView-SetData-666de47.bin",
+      "sha256": "81ec39313f87829404c86a12ca985dc12fa498a98fdc62c7bbe1b3b5749ce9ce",
+      "decodedBytes": 464
+    },
+    {
+      "className": "Crumble.PlateUpgradePresenter+<ProcessUpgradeAsync>d__57",
+      "method": "MoveNext",
+      "assembly": "Crumble.Feature",
+      "fileOffset": "0x666C300",
+      "length": 4886,
+      "signatureHex": "200001",
+      "reason": "Trace actual upgrade API result and refund items into result popup.",
+      "nativeRva": "0x6670300",
+      "runtimeAddress": "0x7638486d2300",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-01\\004-Crumble_PlateUpgradePresenter__ProcessUpgradeAsync_d__57-MoveNext-666c300.bin",
+      "sha256": "b111f11d3700922aaacd6b2e9b7f86c28384e01518b2d2334afdae36cc9e4ba5",
+      "decodedBytes": 4886
+    },
+    {
+      "className": "Crumble.Services.Game.Protobuf.UpgradePlateResponse",
+      "method": "get_Rewards",
+      "assembly": "Crumble.GrpcServices",
+      "fileOffset": "0x6C9AB2F",
+      "length": 5,
+      "signatureHex": "20001512210112867c",
+      "reason": "Bind actual response Rewards field layout to server reward-list path.",
+      "nativeRva": "0x6c9eb2f",
+      "runtimeAddress": "0x763848d00b2f",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-01\\005-Crumble_Services_Game_Protobuf_UpgradePlateResponse-get_Rewards-6c9ab2f.bin",
+      "sha256": "142aede9b1c13ca9a9e85fa39b4ea11d5b695b949b3df7b174f93ae9608f6ad2",
+      "decodedBytes": 5
+    },
+    {
+      "className": "Crumble.Apis.EnhancementApi+<>c",
+      "method": "<UpgradePlateAsync>b__11_0",
+      "assembly": "Crumble.Base",
+      "fileOffset": "0x640E0B1",
+      "length": 251,
+      "signatureHex": "2001119d48128b2d",
+      "reason": "Inspect API response mapper for arithmetic versus copying server Rewards.",
+      "nativeRva": "0x64120b1",
+      "runtimeAddress": "0x7638484740b1",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-01\\006-Crumble_Apis_EnhancementApi___c-_UpgradePlateAsync_b__11_0-640e0b1.bin",
+      "sha256": "2ef2af97d6f552709653c5b58b678959d0d02bc53e57d0ae729df8472781a819",
+      "decodedBytes": 251
+    },
+    {
+      "className": "Crumble.Apis.EnhancementApi+<UpgradePlateAsync>d__11",
+      "method": "MoveNext",
+      "assembly": "Crumble.Base",
+      "fileOffset": "0x64126C8",
+      "length": 1810,
+      "signatureHex": "200001",
+      "reason": "Trace protobuf upgrade response Rewards amounts and detect any refund calculation.",
+      "nativeRva": "0x64166c8",
+      "runtimeAddress": "0x7638484786c8",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-01\\007-Crumble_Apis_EnhancementApi__UpgradePlateAsync_d__11-MoveNext-64126c8.bin",
+      "sha256": "3287f15f3d758b02075ecb5fc25560d877e84ee1827267e1c5416ce5de3f6f57",
+      "decodedBytes": 1810
+    },
+    {
+      "className": "Crumble.ProtobufExtensionMethods",
+      "method": "ToItemIdAndResults",
+      "assembly": "Crumble.Base",
+      "fileOffset": "0x649849B",
+      "length": 24,
+      "signatureHex": "000201151282310112823510151280d101118f50",
+      "reason": "Verify whether response Rewards converter copies precomputed integer amounts or applies a refund formula.",
+      "nativeRva": "0x649c49b",
+      "runtimeAddress": "0x7638484fe49b",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-02\\000-Crumble_ProtobufExtensionMethods-ToItemIdAndResults-649849b.bin",
+      "sha256": "42a1b7037481c12962107c0a0eba19c80b8b5a514a52d4ee5ba500b6d4395df4",
+      "decodedBytes": 24
+    },
+    {
+      "className": "Crumble.CommandBuilders.RewardCommandBuilder",
+      "method": "Build",
+      "assembly": "Crumble.Base",
+      "fileOffset": "0x638878C",
+      "length": 3217,
+      "signatureHex": "0002011512823101128235151280d101128480",
+      "reason": "Verify generic reward command builder receives response Rewards; no paid action required.",
+      "nativeRva": "0x638c78c",
+      "runtimeAddress": "0x7638483ee78c",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-02\\001-Crumble_CommandBuilders_RewardCommandBuilder-Build-638878c.bin",
+      "sha256": "3f45bac1cfc4e654b1640a2c39a6f91dac15c5356ba925ce56e9faaf3408ec7b",
+      "decodedBytes": 3217
+    },
+    {
+      "className": "Crumble.ProtobufExtensionMethods",
+      "method": "ToItemIdAndResults",
+      "assembly": "Crumble.Base",
+      "fileOffset": "0x6497B25",
+      "length": 2422,
+      "signatureHex": "0001151280d101118f501512823101128235",
+      "reason": "Trace actual ToItemIdAndResults(IEnumerable rewards) body called by the captured out-results wrapper; establish copying versus refund arithmetic.",
+      "nativeRva": "0x649bb25",
+      "runtimeAddress": "0x7638484fdb25",
+      "captureFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-capture-03\\000-Crumble_ProtobufExtensionMethods-ToItemIdAndResults-6497b25.bin",
+      "sha256": "aa4e7f89f2acf87ca667d90009cc329e10090142c257b46010d891a6cd516e81",
+      "decodedBytes": 2422
+    }
+  ],
+  "metadataEvidence": [
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-metadata-search.json",
+      "sha256": "0878e15094aca816eb1c9a81f562024adc5e848c87524b08d14890a589847282"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-converter-metadata.json",
+      "sha256": "b1d0fec41aa35d8b666cd9a9ec47496b85b43bfa20bd237decec4ecc75ed234d"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\plate-refund-final-converter-metadata.json",
+      "sha256": "e1a9961ef9967c3379fb4830b4f38f1455d0821b254933a67767e6f78dec6b1a"
+    }
+  ],
+  "metadataSearchBoundary": {
+    "assemblies": [
+      {
+        "assembly": "Crumble.Feature",
+        "sha256": "5f0348792612f1f1d16ecd75b03c0ac8b5ea4310f68879d9eddead043640d4fb",
+        "selectedTypeCount": 38
+      },
+      {
+        "assembly": "Crumble.GrpcServices",
+        "sha256": "8ccd4ee670bfbc980c820330e5e7755c4302b40659949f617f525f5f8d3ee44e",
+        "selectedTypeCount": 10
+      },
+      {
+        "assembly": "Crumble.GrpcData",
+        "sha256": "599db7ba0a677d7e5b783de77a2059f98551fd9ad591a9461d947af35c20b569",
+        "selectedTypeCount": 10
+      },
+      {
+        "assembly": "Crumble.Base",
+        "sha256": "b3fd1a3f561954d8a8103c709f3bd01157316831e4f00fc9c07b0b5b2f9be049",
+        "selectedTypeCount": 21
+      }
+    ],
+    "selection": "PlateUpgrade/PlateDetail types including nested async state machines, EnhancementApi types and methods containing Refund across four assemblies",
+    "limitations": "Recovered metadata and generated stub DLL bodies do not establish original implementations. Only the requested runtime method ranges were analyzed as original native code."
+  },
+  "priorReceiptEvidence": {
+    "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-runtime-20261014-01\\plate-runtime-native-analysis.json",
+    "sha256": "3e2479e7ddb6d4fa55110b97af86c83e6865c732f4093667ca78dcda30ef4f4d"
+  },
+  "findings": {
+    "detailPreview": {
+      "confidence": "derived_from_bound_client_code",
+      "finding": "PlateDetailView reads PlateUpgradeCostInfo.GreatSuccessRefundRate, converts BasisPoint to double, boxes it and formats localized EquipmentPlate.PlateDetail.GreatSuccessRefund. The preview shows a percentage; it does not compute an integer refund quantity.",
+      "configFieldOffset": "PlateUpgradeCostInfo+0x70",
+      "textControlOffset": "PlateDetailView+0x58",
+      "anchors": [
+        {
+          "address": "0x66684b9",
+          "bytes": "4c8b7b58",
+          "mnemonic": "mov",
+          "operands": "r15, qword ptr [rbx + 0x58]"
+        },
+        {
+          "address": "0x66684bd",
+          "bytes": "4c8d2564503007",
+          "mnemonic": "lea",
+          "operands": "r12, [rip + 0x7305064]"
+        },
+        {
+          "address": "0x66684c4",
+          "bytes": "498b3c24",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [r12]"
+        },
+        {
+          "address": "0x66684c8",
+          "bytes": "83bfe400000000",
+          "mnemonic": "cmp",
+          "operands": "dword ptr [rdi + 0xe4], 0"
+        },
+        {
+          "address": "0x66684cf",
+          "bytes": "488d2d82403007",
+          "mnemonic": "lea",
+          "operands": "rbp, [rip + 0x7304082]"
+        },
+        {
+          "address": "0x66684d6",
+          "bytes": "7509",
+          "mnemonic": "jne",
+          "operands": "0x66684e1"
+        },
+        {
+          "address": "0x66684d8",
+          "bytes": "e8fdc1a0ff",
+          "mnemonic": "call",
+          "operands": "0x60746da"
+        },
+        {
+          "address": "0x66684dd",
+          "bytes": "498b3c24",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [r12]"
+        },
+        {
+          "address": "0x66684e1",
+          "bytes": "488b87b8000000",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rdi + 0xb8]"
+        },
+        {
+          "address": "0x66684e8",
+          "bytes": "4c8ba0b82b0000",
+          "mnemonic": "mov",
+          "operands": "r12, qword ptr [rax + 0x2bb8]"
+        },
+        {
+          "address": "0x66684ef",
+          "bytes": "488d055a1d2f07",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x72f1d5a]"
+        },
+        {
+          "address": "0x66684f6",
+          "bytes": "488b38",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rax]"
+        },
+        {
+          "address": "0x66684f9",
+          "bytes": "be01000000",
+          "mnemonic": "mov",
+          "operands": "esi, 1"
+        },
+        {
+          "address": "0x66684fe",
+          "bytes": "e852c1a0ff",
+          "mnemonic": "call",
+          "operands": "0x6074655"
+        },
+        {
+          "address": "0x6668503",
+          "bytes": "4989c5",
+          "mnemonic": "mov",
+          "operands": "r13, rax"
+        },
+        {
+          "address": "0x6668506",
+          "bytes": "498b4670",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [r14 + 0x70]"
+        },
+        {
+          "address": "0x666850a",
+          "bytes": "488d7c2428",
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x28]"
+        },
+        {
+          "address": "0x666850f",
+          "bytes": "488907",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rdi], rax"
+        },
+        {
+          "address": "0x6668512",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x6668514",
+          "bytes": "e8f47dc1ff",
+          "mnemonic": "call",
+          "operands": "0x628030d"
+        },
+        {
+          "address": "0x6668519",
+          "bytes": "488d742430",
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x30]"
+        },
+        {
+          "address": "0x666851e",
+          "bytes": "f20f1106",
+          "mnemonic": "movsd",
+          "operands": "qword ptr [rsi], xmm0"
+        },
+        {
+          "address": "0x6668522",
+          "bytes": "488d05d7677107",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x77167d7]"
+        },
+        {
+          "address": "0x6668529",
+          "bytes": "488bb880000000",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rax + 0x80]"
+        },
+        {
+          "address": "0x6668530",
+          "bytes": "e8afc1a0ff",
+          "mnemonic": "call",
+          "operands": "0x60746e4"
+        },
+        {
+          "address": "0x6668535",
+          "bytes": "4d85ed",
+          "mnemonic": "test",
+          "operands": "r13, r13"
+        },
+        {
+          "address": "0x6668538",
+          "bytes": "0f84f3000000",
+          "mnemonic": "je",
+          "operands": "0x6668631"
+        },
+        {
+          "address": "0x666853e",
+          "bytes": "4989c6",
+          "mnemonic": "mov",
+          "operands": "r14, rax"
+        },
+        {
+          "address": "0x6668541",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x6668544",
+          "bytes": "7419",
+          "mnemonic": "je",
+          "operands": "0x666855f"
+        },
+        {
+          "address": "0x6668546",
+          "bytes": "498b4500",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [r13]"
+        },
+        {
+          "address": "0x666854a",
+          "bytes": "488b7040",
+          "mnemonic": "mov",
+          "operands": "rsi, qword ptr [rax + 0x40]"
+        },
+        {
+          "address": "0x666854e",
+          "bytes": "4c89f7",
+          "mnemonic": "mov",
+          "operands": "rdi, r14"
+        },
+        {
+          "address": "0x6668551",
+          "bytes": "e889c1a0ff",
+          "mnemonic": "call",
+          "operands": "0x60746df"
+        },
+        {
+          "address": "0x6668556",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x6668559",
+          "bytes": "0f84dc000000",
+          "mnemonic": "je",
+          "operands": "0x666863b"
+        },
+        {
+          "address": "0x666855f",
+          "bytes": "41837d1800",
+          "mnemonic": "cmp",
+          "operands": "dword ptr [r13 + 0x18], 0"
+        },
+        {
+          "address": "0x6668564",
+          "bytes": "0f84cc000000",
+          "mnemonic": "je",
+          "operands": "0x6668636"
+        },
+        {
+          "address": "0x666856a",
+          "bytes": "4c89ef",
+          "mnemonic": "mov",
+          "operands": "rdi, r13"
+        },
+        {
+          "address": "0x666856d",
+          "bytes": "4883c720",
+          "mnemonic": "add",
+          "operands": "rdi, 0x20"
+        },
+        {
+          "address": "0x6668571",
+          "bytes": "4d897520",
+          "mnemonic": "mov",
+          "operands": "qword ptr [r13 + 0x20], r14"
+        },
+        {
+          "address": "0x6668575",
+          "bytes": "4c89f6",
+          "mnemonic": "mov",
+          "operands": "rsi, r14"
+        },
+        {
+          "address": "0x6668578",
+          "bytes": "e8aabfa0ff",
+          "mnemonic": "call",
+          "operands": "0x6074527"
+        },
+        {
+          "address": "0x666857d",
+          "bytes": "4d85e4",
+          "mnemonic": "test",
+          "operands": "r12, r12"
+        },
+        {
+          "address": "0x6668580",
+          "bytes": "0f84ab000000",
+          "mnemonic": "je",
+          "operands": "0x6668631"
+        },
+        {
+          "address": "0x6668586",
+          "bytes": "4c89e7",
+          "mnemonic": "mov",
+          "operands": "rdi, r12"
+        },
+        {
+          "address": "0x6668589",
+          "bytes": "4c89ee",
+          "mnemonic": "mov",
+          "operands": "rsi, r13"
+        },
+        {
+          "address": "0x666858c",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x666858e",
+          "bytes": "e8478fc4ff",
+          "mnemonic": "call",
+          "operands": "0x62b14da"
+        },
+        {
+          "address": "0x6668593",
+          "bytes": "4989c6",
+          "mnemonic": "mov",
+          "operands": "r14, rax"
+        }
+      ]
+    },
+    "normalRequest": {
+      "confidence": "derived_from_bound_client_code",
+      "finding": "UpgradePlateAsync builds a request with plate ID, decline-prevention flag, destroy-mitigation flag and current grade. The normal request does not carry client-computed refund amounts.",
+      "anchors": [
+        {
+          "address": "0x6416838",
+          "bytes": "8b4348",
+          "mnemonic": "mov",
+          "operands": "eax, dword ptr [rbx + 0x48]"
+        },
+        {
+          "address": "0x641683b",
+          "bytes": "4189442418",
+          "mnemonic": "mov",
+          "operands": "dword ptr [r12 + 0x18], eax"
+        },
+        {
+          "address": "0x6416840",
+          "bytes": "8a434c",
+          "mnemonic": "mov",
+          "operands": "al, byte ptr [rbx + 0x4c]"
+        },
+        {
+          "address": "0x6416843",
+          "bytes": "418844241c",
+          "mnemonic": "mov",
+          "operands": "byte ptr [r12 + 0x1c], al"
+        },
+        {
+          "address": "0x6416848",
+          "bytes": "8a434d",
+          "mnemonic": "mov",
+          "operands": "al, byte ptr [rbx + 0x4d]"
+        },
+        {
+          "address": "0x641684b",
+          "bytes": "418844241d",
+          "mnemonic": "mov",
+          "operands": "byte ptr [r12 + 0x1d], al"
+        },
+        {
+          "address": "0x6416850",
+          "bytes": "8b4350",
+          "mnemonic": "mov",
+          "operands": "eax, dword ptr [rbx + 0x50]"
+        },
+        {
+          "address": "0x6416853",
+          "bytes": "4189442420",
+          "mnemonic": "mov",
+          "operands": "dword ptr [r12 + 0x20], eax"
+        }
+      ]
+    },
+    "serverResponse": {
+      "confidence": "derived_from_bound_client_code_and_protocol_metadata",
+      "finding": "UpgradePlateResponse.Rewards is a server response field at+0x38. The normal API response mapper forwards that field to RewardCommandBuilder.Build.",
+      "getterBytesHex": "488b4738c3",
+      "getterAnchors": [
+        {
+          "address": "0x6c9eb2f",
+          "bytes": "488b4738",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rdi + 0x38]"
+        },
+        {
+          "address": "0x6c9eb33",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": ""
+        }
+      ],
+      "mapperAnchors": [
+        {
+          "address": "0x641213a",
+          "bytes": "4c8b7b38",
+          "mnemonic": "mov",
+          "operands": "r15, qword ptr [rbx + 0x38]"
+        },
+        {
+          "address": "0x641213e",
+          "bytes": "488d0573785507",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x7557873]"
+        },
+        {
+          "address": "0x6412145",
+          "bytes": "488b38",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rax]"
+        },
+        {
+          "address": "0x6412148",
+          "bytes": "83bfe400000000",
+          "mnemonic": "cmp",
+          "operands": "dword ptr [rdi + 0xe4], 0"
+        },
+        {
+          "address": "0x641214f",
+          "bytes": "7505",
+          "mnemonic": "jne",
+          "operands": "0x6412156"
+        },
+        {
+          "address": "0x6412151",
+          "bytes": "e88425c6ff",
+          "mnemonic": "call",
+          "operands": "0x60746da"
+        },
+        {
+          "address": "0x6412156",
+          "bytes": "4c89ff",
+          "mnemonic": "mov",
+          "operands": "rdi, r15"
+        },
+        {
+          "address": "0x6412159",
+          "bytes": "4c89f6",
+          "mnemonic": "mov",
+          "operands": "rsi, r14"
+        },
+        {
+          "address": "0x641215c",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x641215e",
+          "bytes": "e829a6f7ff",
+          "mnemonic": "call",
+          "operands": "0x638c78c"
+        }
+      ]
+    },
+    "refundListOrigin": {
+      "confidence": "derived_from_bound_client_code",
+      "finding": "After unwrapping the upgrade API result, ProcessUpgradeAsync reads UpgradeResult at+0x28 and Rewards at+0x38. It converts Rewards via ToItemIdAndResults(out results), then passes the resulting list to the result animation/UI as refund items.",
+      "anchors": [
+        {
+          "address": "0x6671073",
+          "bytes": "488b842430010000",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rsp + 0x130]"
+        },
+        {
+          "address": "0x667107b",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x667107e",
+          "bytes": "0f84bc030000",
+          "mnemonic": "je",
+          "operands": "0x6671440"
+        },
+        {
+          "address": "0x6671084",
+          "bytes": "8b7828",
+          "mnemonic": "mov",
+          "operands": "edi, dword ptr [rax + 0x28]"
+        },
+        {
+          "address": "0x6671087",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x6671089",
+          "bytes": "e8868ae2ff",
+          "mnemonic": "call",
+          "operands": "0x6499b14"
+        },
+        {
+          "address": "0x667108e",
+          "bytes": "89c5",
+          "mnemonic": "mov",
+          "operands": "ebp, eax"
+        },
+        {
+          "address": "0x6671090",
+          "bytes": "488b842430010000",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rsp + 0x130]"
+        },
+        {
+          "address": "0x6671098",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x667109b",
+          "bytes": "0f84a4030000",
+          "mnemonic": "je",
+          "operands": "0x6671445"
+        },
+        {
+          "address": "0x66710a1",
+          "bytes": "488b7838",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rax + 0x38]"
+        },
+        {
+          "address": "0x66710a5",
+          "bytes": "488db424b0000000",
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0xb0]"
+        },
+        {
+          "address": "0x66710ad",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x66710af",
+          "bytes": "e8e7b3e2ff",
+          "mnemonic": "call",
+          "operands": "0x649c49b"
+        },
+        {
+          "address": "0x66710b4",
+          "bytes": "488b442438",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rsp + 0x38]"
+        },
+        {
+          "address": "0x66710b9",
+          "bytes": "488b7810",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rax + 0x10]"
+        },
+        {
+          "address": "0x66710bd",
+          "bytes": "4885ff",
+          "mnemonic": "test",
+          "operands": "rdi, rdi"
+        },
+        {
+          "address": "0x66710c0",
+          "bytes": "0f8484030000",
+          "mnemonic": "je",
+          "operands": "0x667144a"
+        },
+        {
+          "address": "0x66710c6",
+          "bytes": "e80ff2ffff",
+          "mnemonic": "call",
+          "operands": "0x66702da"
+        },
+        {
+          "address": "0x66710cb",
+          "bytes": "488b442438",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rsp + 0x38]"
+        },
+        {
+          "address": "0x66710d0",
+          "bytes": "488b7850",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rax + 0x50]"
+        },
+        {
+          "address": "0x66710d4",
+          "bytes": "4885ff",
+          "mnemonic": "test",
+          "operands": "rdi, rdi"
+        },
+        {
+          "address": "0x66710d7",
+          "bytes": "0f8472030000",
+          "mnemonic": "je",
+          "operands": "0x667144f"
+        },
+        {
+          "address": "0x66710dd",
+          "bytes": "4c8b6010",
+          "mnemonic": "mov",
+          "operands": "r12, qword ptr [rax + 0x10]"
+        },
+        {
+          "address": "0x66710e1",
+          "bytes": "448b7b20",
+          "mnemonic": "mov",
+          "operands": "r15d, dword ptr [rbx + 0x20]"
+        },
+        {
+          "address": "0x66710e5",
+          "bytes": "4489fe",
+          "mnemonic": "mov",
+          "operands": "esi, r15d"
+        },
+        {
+          "address": "0x66710e8",
+          "bytes": "89ea",
+          "mnemonic": "mov",
+          "operands": "edx, ebp"
+        },
+        {
+          "address": "0x66710ea",
+          "bytes": "31c9",
+          "mnemonic": "xor",
+          "operands": "ecx, ecx"
+        },
+        {
+          "address": "0x66710ec",
+          "bytes": "e83033e8ff",
+          "mnemonic": "call",
+          "operands": "0x64f4421"
+        },
+        {
+          "address": "0x66710f1",
+          "bytes": "4d85e4",
+          "mnemonic": "test",
+          "operands": "r12, r12"
+        },
+        {
+          "address": "0x66710f4",
+          "bytes": "0f845a030000",
+          "mnemonic": "je",
+          "operands": "0x6671454"
+        },
+        {
+          "address": "0x66710fa",
+          "bytes": "4c8b8424b0000000",
+          "mnemonic": "mov",
+          "operands": "r8, qword ptr [rsp + 0xb0]"
+        },
+        {
+          "address": "0x6671102",
+          "bytes": "4c89e7",
+          "mnemonic": "mov",
+          "operands": "rdi, r12"
+        },
+        {
+          "address": "0x6671105",
+          "bytes": "89ee",
+          "mnemonic": "mov",
+          "operands": "esi, ebp"
+        },
+        {
+          "address": "0x6671107",
+          "bytes": "4489fa",
+          "mnemonic": "mov",
+          "operands": "edx, r15d"
+        },
+        {
+          "address": "0x667110a",
+          "bytes": "89c1",
+          "mnemonic": "mov",
+          "operands": "ecx, eax"
+        },
+        {
+          "address": "0x667110c",
+          "bytes": "e805050000",
+          "mnemonic": "call",
+          "operands": "0x6671616"
+        }
+      ]
+    },
+    "conversion": {
+      "confidence": "derived_from_bound_client_code",
+      "finding": "The out-results overload is a24-byte wrapper around the IEnumerable overload. The2422-byte implementation enumerates nested reward result elements and switches on result kind. In amount-bearing branches it loads item/data ID and a64-bit amount from the payload and forwards them to ItemIdAndAmount/list construction. Some non-quantity reward kinds use fixed count1. It has no cost/refund-rate parameter, no refund-config lookup in this analyzed body, and no multiplication, division, floating conversion or rounding instruction.",
+      "wrapperAnchors": [
+        {
+          "address": "0x649c49b",
+          "bytes": "53",
+          "mnemonic": "push",
+          "operands": "rbx"
+        },
+        {
+          "address": "0x649c49c",
+          "bytes": "4889f3",
+          "mnemonic": "mov",
+          "operands": "rbx, rsi"
+        },
+        {
+          "address": "0x649c49f",
+          "bytes": "e881f6ffff",
+          "mnemonic": "call",
+          "operands": "0x649bb25"
+        },
+        {
+          "address": "0x649c4a4",
+          "bytes": "488903",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rbx], rax"
+        },
+        {
+          "address": "0x649c4a7",
+          "bytes": "4889df",
+          "mnemonic": "mov",
+          "operands": "rdi, rbx"
+        },
+        {
+          "address": "0x649c4aa",
+          "bytes": "4889c6",
+          "mnemonic": "mov",
+          "operands": "rsi, rax"
+        },
+        {
+          "address": "0x649c4ad",
+          "bytes": "5b",
+          "mnemonic": "pop",
+          "operands": "rbx"
+        },
+        {
+          "address": "0x649c4ae",
+          "bytes": "e97480bdff",
+          "mnemonic": "jmp",
+          "operands": "0x6074527"
+        }
+      ],
+      "amountBranchAnchors": [
+        {
+          "address": "0x649be2f",
+          "bytes": "4c89ff",
+          "mnemonic": "mov",
+          "operands": "rdi, r15"
+        },
+        {
+          "address": "0x649be32",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x649be34",
+          "bytes": "e8eeca8400",
+          "mnemonic": "call",
+          "operands": "0x6ce8927"
+        },
+        {
+          "address": "0x649be39",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x649be3c",
+          "bytes": "0f849a040000",
+          "mnemonic": "je",
+          "operands": "0x649c2dc"
+        },
+        {
+          "address": "0x649be42",
+          "bytes": "8b7818",
+          "mnemonic": "mov",
+          "operands": "edi, dword ptr [rax + 0x18]"
+        },
+        {
+          "address": "0x649be45",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x649be47",
+          "bytes": "e85243e1ff",
+          "mnemonic": "call",
+          "operands": "0x62b019e"
+        },
+        {
+          "address": "0x649be4c",
+          "bytes": "89c5",
+          "mnemonic": "mov",
+          "operands": "ebp, eax"
+        },
+        {
+          "address": "0x649be4e",
+          "bytes": "4c89ff",
+          "mnemonic": "mov",
+          "operands": "rdi, r15"
+        },
+        {
+          "address": "0x649be51",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x649be53",
+          "bytes": "e8cfca8400",
+          "mnemonic": "call",
+          "operands": "0x6ce8927"
+        },
+        {
+          "address": "0x649be58",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x649be5b",
+          "bytes": "0f8499040000",
+          "mnemonic": "je",
+          "operands": "0x649c2fa"
+        },
+        {
+          "address": "0x649be61",
+          "bytes": "488b5020",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax + 0x20]"
+        },
+        {
+          "address": "0x649be65",
+          "bytes": "0f57c0",
+          "mnemonic": "xorps",
+          "operands": "xmm0, xmm0"
+        },
+        {
+          "address": "0x649be68",
+          "bytes": "0f290424",
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp], xmm0"
+        },
+        {
+          "address": "0x649be6c",
+          "bytes": "4889e7",
+          "mnemonic": "mov",
+          "operands": "rdi, rsp"
+        },
+        {
+          "address": "0x649be6f",
+          "bytes": "89ee",
+          "mnemonic": "mov",
+          "operands": "esi, ebp"
+        },
+        {
+          "address": "0x649be71",
+          "bytes": "31c9",
+          "mnemonic": "xor",
+          "operands": "ecx, ecx"
+        },
+        {
+          "address": "0x649be73",
+          "bytes": "e82822e1ff",
+          "mnemonic": "call",
+          "operands": "0x62ae0a0"
+        },
+        {
+          "address": "0x649be78",
+          "bytes": "4885db",
+          "mnemonic": "test",
+          "operands": "rbx, rbx"
+        },
+        {
+          "address": "0x649be7b",
+          "bytes": "0f8401040000",
+          "mnemonic": "je",
+          "operands": "0x649c282"
+        },
+        {
+          "address": "0x649be81",
+          "bytes": "8b3424",
+          "mnemonic": "mov",
+          "operands": "esi, dword ptr [rsp]"
+        },
+        {
+          "address": "0x649be84",
+          "bytes": "488b542408",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rsp + 8]"
+        },
+        {
+          "address": "0x649be89",
+          "bytes": "488d0570c24f07",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x74fc270]"
+        },
+        {
+          "address": "0x649be90",
+          "bytes": "488b08",
+          "mnemonic": "mov",
+          "operands": "rcx, qword ptr [rax]"
+        },
+        {
+          "address": "0x649be93",
+          "bytes": "ff431c",
+          "mnemonic": "inc",
+          "operands": "dword ptr [rbx + 0x1c]"
+        },
+        {
+          "address": "0x649be96",
+          "bytes": "488b4310",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rbx + 0x10]"
+        },
+        {
+          "address": "0x649be9a",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x649be9d",
+          "bytes": "0f84df030000",
+          "mnemonic": "je",
+          "operands": "0x649c282"
+        },
+        {
+          "address": "0x649bea3",
+          "bytes": "48637b18",
+          "mnemonic": "movsxd",
+          "operands": "rdi, dword ptr [rbx + 0x18]"
+        },
+        {
+          "address": "0x649bea7",
+          "bytes": "3b7818",
+          "mnemonic": "cmp",
+          "operands": "edi, dword ptr [rax + 0x18]"
+        },
+        {
+          "address": "0x649beaa",
+          "bytes": "0f82e2020000",
+          "mnemonic": "jb",
+          "operands": "0x649c192"
+        },
+        {
+          "address": "0x649beb0",
+          "bytes": "488b4120",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rcx + 0x20]"
+        },
+        {
+          "address": "0x649beb4",
+          "bytes": "488b80c0000000",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rax + 0xc0]"
+        },
+        {
+          "address": "0x649bebb",
+          "bytes": "488b4870",
+          "mnemonic": "mov",
+          "operands": "rcx, qword ptr [rax + 0x70]"
+        },
+        {
+          "address": "0x649bebf",
+          "bytes": "4889df",
+          "mnemonic": "mov",
+          "operands": "rdi, rbx"
+        },
+        {
+          "address": "0x649bec2",
+          "bytes": "e8aaf85a03",
+          "mnemonic": "call",
+          "operands": "0x9a4b771"
+        }
+      ],
+      "arithmeticMnemonicSearch": {
+        "patterns": [
+          "mul",
+          "div",
+          "cvt",
+          "round"
+        ],
+        "matchedInstructions": []
+      },
+      "boundary": "Generic payload getter/ID/value-constructor callees are not all captured here; no claim that the entire client has no possible arithmetic elsewhere."
+    },
+    "displayAndReceive": {
+      "confidence": "derived_from_bound_client_code",
+      "finding": "Result presenter/view pass the already supplied refund-items list. The previously captured receipt handler copies ItemIdAndAmount into the reward-service call. These methods do not establish a material refund-rate formula or its integer rounding."
+    }
+  },
+  "observed": [
+    "All11 requested native method ranges, totaling15275bytes, are100% decoded at coherent boundaries.",
+    "Source SHA256 matches the installed native library for all captures.",
+    "The response Rewards getter loads+0x38; ProcessUpgradeAsync reads that same field before refund-list conversion."
+  ],
+  "derived": [
+    "The current client displays the configured refund percentage and receives refund reward quantities through the normal upgrade response.",
+    "Within the searched normal upgrade→converter→result UI/receipt boundary, no great-success integer refund calculation was established; the received reward quantities are authoritative for display."
+  ],
+  "unknown": [
+    "Whether a great success refunds only Chocosteel, also enabled Metal Syrup protection costs, or another exact material subset.",
+    "Whether server refund quantities round down, round up, round to nearest, or use another integer rule.",
+    "The server formula combining configured refund rate and actual paid costs."
+  ],
+  "calculatorImplication": "Retain gross required material totals and the verified configured refund percentage. Any exact net-cost forecast after refunds must remain explicitly an assumption until actual response quantities or server formula are verified.",
+  "limitations": [
+    "No paid upgrade or forced result was performed; no materials were spent for this analysis.",
+    "This worker read saved files only, with no emulator inputs, process-memory reads, application resets, patching or injection.",
+    "The parent captured selected executable code ranges with ordinary read-only ADB; these captures are not fabricated REA records.",
+    "No actual great-success server response was observed in this scope. Protocol field identity and client routing do not establish server rounding or exact refundable materials.",
+    "The unrelated CancelProcessResponse.RefundedRewards field was identified during metadata search and excluded from Plate conclusions."
+  ]
+}

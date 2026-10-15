@@ -1,0 +1,19 @@
+{
+  "evidenceId": "local-plate-installed-library-identity-20261015-v1",
+  "observedAtUtc": "2026-10-15T14:40:34.954601+00:00",
+  "provider": "ordinary ADB dumpsys and sha256sum; not REA evidence",
+  "package": "com.devsisters.cc",
+  "packageLines": [
+    "codePath=/data/app/com.devsisters.cc-rojDx8RLfNFo-_3ZE8yA_Q==",
+    "versionCode=2026100217 minSdk=25 targetSdk=36",
+    "versionName=1.5.002"
+  ],
+  "deviceLibraryPath": "/data/app/com.devsisters.cc-rojDx8RLfNFo-_3ZE8yA_Q==/lib/x86_64/libil2cpp.so",
+  "deviceLibrarySha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+  "localReferencePath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\database\\recovery-evidence\\libil2cpp.so",
+  "localReferenceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+  "sameInstalledLibrary": true,
+  "limitations": [
+    "Native identity does not recover server implementation."
+  ]
+}

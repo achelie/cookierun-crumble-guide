@@ -1,0 +1,3781 @@
+{
+  "evidenceId": "local-stellar-area-runtime-native-analysis-20261015",
+  "status": "client_rendering_and_response_copy_verified_server_percent_rule_unresolved",
+  "authority": "Static reconstruction from saved parent-controlled runtime executable observations; this report is not REA-generated native decompilation",
+  "captures": [
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-area-capture-01\\capture.json",
+      "sha256": "a0ed38b84db0eb6100cde9857593e2870d1fdbadba19dc8d197f5ee39dde74dc",
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T18:36:35.098997+00:00",
+      "serial": "emulator-5554",
+      "package": "com.devsisters.cc",
+      "pid": 3494,
+      "loadBase": "0x763842067000",
+      "sourcePath": "/data/app/com.devsisters.cc-rojDx8RLfNFo-_3ZE8yA_Q==/lib/x86_64/libil2cpp.so",
+      "sourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "deviceSourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "mapsSha256": "7945823ea4cb1cad51430b49f2ed15e66479125207664aee632b37d79380321d",
+      "requestsPath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-area-method-requests.json",
+      "requestsSha256": "9a614c50a8fec6927c023f863596b4367e6baa5448318aa28c75b4fa973a138f",
+      "methods": 7,
+      "bytes": 8359,
+      "methodBindings": [
+        {
+          "request": {
+            "className": "Crumble.VectorExtensionMethods",
+            "method": "Area",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x64A688C",
+            "length": 9,
+            "signatureHex": "00010c1181f5",
+            "reason": "Two tiny Vector2/Vector2Int area overloads are the only other named Crumble area functions; exclude dimension-product helper by bound code"
+          },
+          "fileOffset": "0x64a688c",
+          "rva": "0x64aa88c",
+          "runtimeAddress": "0x76384851188c",
+          "size": 9,
+          "file": "000-Crumble_VectorExtensionMethods-Area-64a688c.bin",
+          "sha256": "d84d55dde83c8169031829641c54ee672264dc55f4d8641820863e95635242d7",
+          "onDiskSha256": "1e802dae73ea21fa7e7e4b1add8a66494da7dd10e73dffc298d72976648347d3",
+          "sameAsOnDisk": false,
+          "decodedBytes": 9
+        },
+        {
+          "request": {
+            "className": "Crumble.VectorExtensionMethods",
+            "method": "Area",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x64A7105",
+            "length": 14,
+            "signatureHex": "0001081181fd",
+            "reason": "Two tiny Vector2/Vector2Int area overloads are the only other named Crumble area functions; exclude dimension-product helper by bound code"
+          },
+          "fileOffset": "0x64a7105",
+          "rva": "0x64ab105",
+          "runtimeAddress": "0x763848512105",
+          "size": 14,
+          "file": "001-Crumble_VectorExtensionMethods-Area-64a7105.bin",
+          "sha256": "4ab83167a54de43d806ff5985ecaf53944c318ba75e1044b07d7298fca0bd55b",
+          "onDiskSha256": "fa65542b53c242c680bcaee33b80008cb9237957f5e66d86e0d5996f77344935",
+          "sameAsOnDisk": false,
+          "decodedBytes": 14
+        },
+        {
+          "request": {
+            "className": "Crumble.StellarLinkConstellation",
+            "method": "set_CoveredAreaPercent",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x64F68E3",
+            "length": 52,
+            "signatureHex": "20010108",
+            "reason": "Trace exact stored integer setter to distinguish unmodified supplied area from geometric recomputation"
+          },
+          "fileOffset": "0x64f68e3",
+          "rva": "0x64fa8e3",
+          "runtimeAddress": "0x7638485618e3",
+          "size": 52,
+          "file": "002-Crumble_StellarLinkConstellation-set_CoveredAreaPercent-64f68e3.bin",
+          "sha256": "1423d49b5e013a40f7c2f07ece4970c5110a47ea6bd446072cd3b20a711064bd",
+          "onDiskSha256": "da1c0c71b7cbbb730487020d593af059f84092e62062a4482afc7336649334cc",
+          "sameAsOnDisk": false,
+          "decodedBytes": 52
+        },
+        {
+          "request": {
+            "className": "Crumble.PolygonTriangulator",
+            "method": "Triangulate",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x62C5031",
+            "length": 5866,
+            "signatureHex": "000301151281b9011181f50c151280d10111a2a8",
+            "reason": "Inspect actual self-crossing contour fill algorithm used by Stellar mesh, without claiming it equals server area"
+          },
+          "fileOffset": "0x62c5031",
+          "rva": "0x62c9031",
+          "runtimeAddress": "0x763848330031",
+          "size": 5866,
+          "file": "003-Crumble_PolygonTriangulator-Triangulate-62c5031.bin",
+          "sha256": "cb098d11baadee7bc420c46f4024d1f65e6438ae233ba7dc43f2cb29e9225bd4",
+          "onDiskSha256": "c16066c684405afaea57b439185b124e93843531737d1021423b62e2f4e8b45c",
+          "sameAsOnDisk": false,
+          "decodedBytes": 5866
+        },
+        {
+          "request": {
+            "className": "Crumble.UIPolygonMesh",
+            "method": "OnPopulateMesh",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x62CBDDD",
+            "length": 1082,
+            "signatureHex": "20010112866d",
+            "reason": "Trace actual renderer triangulation call and distinguish mesh fill algorithm from gameplay area percent"
+          },
+          "fileOffset": "0x62cbddd",
+          "rva": "0x62cfddd",
+          "runtimeAddress": "0x763848336ddd",
+          "size": 1082,
+          "file": "004-Crumble_UIPolygonMesh-OnPopulateMesh-62cbddd.bin",
+          "sha256": "cbac342bf575e983ae3f87ad8246dba47ccfc9b6b8e7fe7e30210bf2f962334e",
+          "onDiskSha256": "93624ac920c5214589dfff43ebdb2be3fe5c38c2dbba3e69e1645980d7e5795b",
+          "sameAsOnDisk": false,
+          "decodedBytes": 1082
+        },
+        {
+          "request": {
+            "className": "Crumble.CommandBuilders.EnhancementCommandBuilder",
+            "method": "ToStellarLinkConstellation",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x6377707",
+            "length": 933,
+            "signatureHex": "0001128bfc1289d9",
+            "reason": "Trace received protobuf area and star list into domain record; detect any client area recomputation before setter"
+          },
+          "fileOffset": "0x6377707",
+          "rva": "0x637b707",
+          "runtimeAddress": "0x7638483e2707",
+          "size": 933,
+          "file": "005-Crumble_CommandBuilders_EnhancementCommandBuilder-ToStellarLinkConstellation-6377707.bin",
+          "sha256": "d11dc0ba335d13eb1c90ee435d2ccfc5ed9222d64cccaf064a69ed229e9de1f1",
+          "onDiskSha256": "3c206ddb9902c081fb9aeb51571f7b80cbdaece742b0215f4909078837bea990",
+          "sameAsOnDisk": false,
+          "decodedBytes": 933
+        },
+        {
+          "request": {
+            "className": "Crumble.Apis.StellarLinkApi+<>c",
+            "method": "<RerollStellarLinkAsync>b__4_0",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x645621A",
+            "length": 403,
+            "signatureHex": "2001119d48128ecd",
+            "reason": "Trace reroll response converter/commands; confirm where covered area originates"
+          },
+          "fileOffset": "0x645621a",
+          "rva": "0x645a21a",
+          "runtimeAddress": "0x7638484c121a",
+          "size": 403,
+          "file": "006-Crumble_Apis_StellarLinkApi___c-_RerollStellarLinkAsync_b__4_0-645621a.bin",
+          "sha256": "54a4c09e0c87ee443b5f43bde81b163b6afbce6af9254520573bbf92cbeaa3dc",
+          "onDiskSha256": "7d1c82689aee0e645714ef95beb06e1f665d617210d1a6fb46fd1749f5de3ac1",
+          "sameAsOnDisk": false,
+          "decodedBytes": 403
+        }
+      ]
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-area-capture-02\\capture.json",
+      "sha256": "28fb7f3ddaf21f17c8edef8f1e407d5cc71fa7d29ea738ef693b1e53157d4029",
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T18:39:45.466992+00:00",
+      "serial": "emulator-5554",
+      "package": "com.devsisters.cc",
+      "pid": 3494,
+      "loadBase": "0x763842067000",
+      "sourcePath": "/data/app/com.devsisters.cc-rojDx8RLfNFo-_3ZE8yA_Q==/lib/x86_64/libil2cpp.so",
+      "sourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "deviceSourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "mapsSha256": "bc1b8f8e961440f568f167eb63d89a42016f0c57c209ae91868df60b353a4947",
+      "requestsPath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-area-callee-requests.json",
+      "requestsSha256": "b732759c9dd45909244b24630fdad1b8c93c485881699c30cc67c54837ff8745",
+      "methods": 4,
+      "bytes": 3342,
+      "methodBindings": [
+        {
+          "request": {
+            "className": "Crumble.PolygonTriangulator",
+            "method": "EmitFace",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x62C68EF",
+            "length": 2878,
+            "signatureHex": "000401151280d1011181f50c0c151280d10111a2a8",
+            "reason": "Determine bounded face vs unbounded face area-sign rejection and whether every crossed region is rendered; necessary direct callee"
+          },
+          "fileOffset": "0x62c68ef",
+          "rva": "0x62ca8ef",
+          "runtimeAddress": "0x7638483318ef",
+          "size": 2878,
+          "file": "000-Crumble_PolygonTriangulator-EmitFace-62c68ef.bin",
+          "sha256": "075722dd29ac60dbeffddc9ff67e5ba6ff33b92019c3aea142d3f442ef6b5e90",
+          "onDiskSha256": "361d0b98654cddcabb570f95458e17d0037f3fbdd81ac8c0ec642e282f1886cd",
+          "sameAsOnDisk": false,
+          "decodedBytes": 2878
+        },
+        {
+          "request": {
+            "className": "Crumble.PolygonTriangulator",
+            "method": "SegmentsIntersect",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x62C6722",
+            "length": 158,
+            "signatureHex": "0007021181f51181f51181f51181f5101181f5100c100c",
+            "reason": "158-byte actual intersection inclusion/exclusion and segment splitting epsilon"
+          },
+          "fileOffset": "0x62c6722",
+          "rva": "0x62ca722",
+          "runtimeAddress": "0x763848331722",
+          "size": 158,
+          "file": "001-Crumble_PolygonTriangulator-SegmentsIntersect-62c6722.bin",
+          "sha256": "c1d17630a216648692e8e33c400eab473d89775523ffcb86852bc2156e10e89a",
+          "onDiskSha256": "ccfe5e4c72f39010eb72b4aff709383cdc8c796cba5da062d481807ffc606db0",
+          "sameAsOnDisk": false,
+          "decodedBytes": 158
+        },
+        {
+          "request": {
+            "className": "Crumble.PolygonTriangulator+<>c",
+            "method": "<Triangulate>b__8_0",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x62C877F",
+            "length": 20,
+            "signatureHex": "20020815117d020c0815117d020c08",
+            "reason": "20-byte tuple ordering predicate; confirm segment split order"
+          },
+          "fileOffset": "0x62c877f",
+          "rva": "0x62cc77f",
+          "runtimeAddress": "0x76384833377f",
+          "size": 20,
+          "file": "002-Crumble_PolygonTriangulator___c-_Triangulate_b__8_0-62c877f.bin",
+          "sha256": "d54daf392bea9af07d6ae12ab54a0dd685cd72c4ab88db0168ec9a4cf646c184",
+          "onDiskSha256": "3906da4d726bcbcadcfaaa86bf845a046e2137d4705e960458b624fa19c6c7c0",
+          "sameAsOnDisk": false,
+          "decodedBytes": 20
+        },
+        {
+          "request": {
+            "className": "Crumble.PolygonTriangulator+<>c__DisplayClass8_1",
+            "method": "<Triangulate>b__1",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x62C8793",
+            "length": 286,
+            "signatureHex": "2002080808",
+            "reason": "286-byte adjacency angle comparison; confirm half-edge cyclic traversal ordering"
+          },
+          "fileOffset": "0x62c8793",
+          "rva": "0x62cc793",
+          "runtimeAddress": "0x763848333793",
+          "size": 286,
+          "file": "003-Crumble_PolygonTriangulator___c__DisplayClass8_1-_Triangulate_b__1-62c8793.bin",
+          "sha256": "5c48b6e3c504258f5c7163abede7c4ec46b2630f32e1ba099aea5b76e47f8041",
+          "onDiskSha256": "9f31c7796d97f6ebc5409c1f1bcd8db9d52c61ea87e8daad99268b6dee33ff75",
+          "sameAsOnDisk": false,
+          "decodedBytes": 286
+        }
+      ]
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-area-capture-03\\capture.json",
+      "sha256": "dffae2b8d986f120eeaa4b842e2d0f6050dc759598caa451403f40d98eb89b62",
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T18:42:28.090255+00:00",
+      "serial": "emulator-5554",
+      "package": "com.devsisters.cc",
+      "pid": 3494,
+      "loadBase": "0x763842067000",
+      "sourcePath": "/data/app/com.devsisters.cc-rojDx8RLfNFo-_3ZE8yA_Q==/lib/x86_64/libil2cpp.so",
+      "sourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "deviceSourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+      "mapsSha256": "e7cefbf14c1f2540dfd7403ca88b90a4022d7a22b5f31f6e39a3d30c1bf8095a",
+      "requestsPath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-area-merge-request.json",
+      "requestsSha256": "dcba27131ba75aade340c28ac006e0ee95a046af4618c6b58cd56f756bc761f1",
+      "methods": 1,
+      "bytes": 256,
+      "methodBindings": [
+        {
+          "request": {
+            "className": "Crumble.PolygonTriangulator",
+            "method": "FindOrAddNode",
+            "assembly": "Crumble.Base",
+            "fileOffset": "0x62C67C0",
+            "length": 256,
+            "signatureHex": "000308151280d1011181f51181f50c",
+            "reason": "Resolve the exact intersection-node coalescing condition. Caller passes a MergeEps float; helper could square it or compare directly, necessary to report coincident/degenerate crossing precision."
+          },
+          "fileOffset": "0x62c67c0",
+          "rva": "0x62ca7c0",
+          "runtimeAddress": "0x7638483317c0",
+          "size": 256,
+          "file": "000-Crumble_PolygonTriangulator-FindOrAddNode-62c67c0.bin",
+          "sha256": "8759e478a3d0f76cda7209609b652c9924d88b178ac2a321fe0f437a863d55cc",
+          "onDiskSha256": "98b3852715e211e5cb3042244c347307e248dc6e385fa1c60aeac5f4dc20644d",
+          "sameAsOnDisk": false,
+          "decodedBytes": 256
+        }
+      ]
+    }
+  ],
+  "sourceLibrary": {
+    "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\database\\recovery-evidence\\libil2cpp.so",
+    "sha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e"
+  },
+  "nativeBinding": "Captures retain raw Cpp2IL AddressAttribute Offset and map through actual ELF PT_LOAD; il2cpp methods in this build map to Offset+0x4000. Fully decoded coherent method boundaries, matching device/source library SHA.",
+  "responseAreaPath": {
+    "status": "verified_response_integer_copied_without_geometry_recomputation_in_this_path",
+    "protobufFieldBindings": [
+      {
+        "className": "Crumble.Services.Game.Protobuf.Constellation",
+        "assembly": "Crumble.GrpcServices",
+        "typeDefRow": 502,
+        "fields": [
+          {
+            "field": "_parser",
+            "fieldDefRow": 4009,
+            "signatureHex": "06151209011287d8",
+            "attributes": {
+              "Token": "0x4001593"
+            }
+          },
+          {
+            "field": "_unknownFields",
+            "fieldDefRow": 4010,
+            "signatureHex": "061265",
+            "attributes": {
+              "Offset": "0x10"
+            }
+          },
+          {
+            "field": "IndexFieldNumber",
+            "fieldDefRow": 4011,
+            "signatureHex": "0608",
+            "attributes": {
+              "Token": "0x4001595"
+            }
+          },
+          {
+            "field": "index_",
+            "fieldDefRow": 4012,
+            "signatureHex": "0608",
+            "attributes": {
+              "Offset": "0x18"
+            }
+          },
+          {
+            "field": "StarshardsFieldNumber",
+            "fieldDefRow": 4013,
+            "signatureHex": "0608",
+            "attributes": {
+              "Token": "0x4001597"
+            }
+          },
+          {
+            "field": "_repeated_starshards_codec",
+            "fieldDefRow": 4014,
+            "signatureHex": "06151269011287d0",
+            "attributes": {
+              "Token": "0x4001598"
+            }
+          },
+          {
+            "field": "starshards_",
+            "fieldDefRow": 4015,
+            "signatureHex": "06151221011287d0",
+            "attributes": {
+              "Offset": "0x20"
+            }
+          },
+          {
+            "field": "CoveredAreaPercentFieldNumber",
+            "fieldDefRow": 4016,
+            "signatureHex": "0608",
+            "attributes": {
+              "Token": "0x400159A"
+            }
+          },
+          {
+            "field": "coveredAreaPercent_",
+            "fieldDefRow": 4017,
+            "signatureHex": "0608",
+            "attributes": {
+              "Offset": "0x28"
+            }
+          }
+        ],
+        "methods": [
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "get_Parser",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9600,
+            "signatureHex": "0000151209011287d8",
+            "fileOffset": "0x6D62221",
+            "length": 68,
+            "nativeAddressCandidate": "0x6d66221"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "get_Descriptor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9601,
+            "signatureHex": "0000120d",
+            "fileOffset": "0x6D62265",
+            "length": 242,
+            "nativeAddressCandidate": "0x6d66265"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "pb::Google.Protobuf.IMessage.get_Descriptor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9602,
+            "signatureHex": "2000120d",
+            "fileOffset": "0x6D62357",
+            "length": 59,
+            "nativeAddressCandidate": "0x6d66357"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": ".ctor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9603,
+            "signatureHex": "200001",
+            "fileOffset": "0x6D62392",
+            "length": 116,
+            "nativeAddressCandidate": "0x6d66392"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": ".ctor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9604,
+            "signatureHex": "2001011287d8",
+            "fileOffset": "0x6D62406",
+            "length": 147,
+            "nativeAddressCandidate": "0x6d66406"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "Clone",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9605,
+            "signatureHex": "20001287d8",
+            "fileOffset": "0x6D62499",
+            "length": 75,
+            "nativeAddressCandidate": "0x6d66499"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "get_Index",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9606,
+            "signatureHex": "200008",
+            "fileOffset": "0x6D624E4",
+            "length": 4,
+            "nativeAddressCandidate": "0x6d664e4"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "set_Index",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9607,
+            "signatureHex": "20010108",
+            "fileOffset": "0x6D624E8",
+            "length": 4,
+            "nativeAddressCandidate": "0x6d664e8"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "get_Starshards",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9608,
+            "signatureHex": "2000151221011287d0",
+            "fileOffset": "0x6D624EC",
+            "length": 5,
+            "nativeAddressCandidate": "0x6d664ec"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "get_CoveredAreaPercent",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9609,
+            "signatureHex": "200008",
+            "fileOffset": "0x6D624F1",
+            "length": 4,
+            "nativeAddressCandidate": "0x6d664f1"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "set_CoveredAreaPercent",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9610,
+            "signatureHex": "20010108",
+            "fileOffset": "0x6D624F5",
+            "length": 4,
+            "nativeAddressCandidate": "0x6d664f5"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "Equals",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9611,
+            "signatureHex": "2001021c",
+            "fileOffset": "0x6D624F9",
+            "length": 81,
+            "nativeAddressCandidate": "0x6d664f9"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "Equals",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9612,
+            "signatureHex": "2001021287d8",
+            "fileOffset": "0x6D6254A",
+            "length": 139,
+            "nativeAddressCandidate": "0x6d6654a"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "GetHashCode",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9613,
+            "signatureHex": "200008",
+            "fileOffset": "0x6D625D5",
+            "length": 151,
+            "nativeAddressCandidate": "0x6d665d5"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "ToString",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9614,
+            "signatureHex": "20000e",
+            "fileOffset": "0x6D6266C",
+            "length": 67,
+            "nativeAddressCandidate": "0x6d6666c"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "WriteTo",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9615,
+            "signatureHex": "2001011211",
+            "fileOffset": "0x6D626AF",
+            "length": 27,
+            "nativeAddressCandidate": "0x6d666af"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "pb::Google.Protobuf.IBufferMessage.InternalWriteTo",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9616,
+            "signatureHex": "200101101115",
+            "fileOffset": "0x6D626CA",
+            "length": 243,
+            "nativeAddressCandidate": "0x6d666ca"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "CalculateSize",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9617,
+            "signatureHex": "200008",
+            "fileOffset": "0x6D627BD",
+            "length": 268,
+            "nativeAddressCandidate": "0x6d667bd"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "MergeFrom",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9618,
+            "signatureHex": "2001011287d8",
+            "fileOffset": "0x6D628C9",
+            "length": 144,
+            "nativeAddressCandidate": "0x6d668c9"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "MergeFrom",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9619,
+            "signatureHex": "2001011219",
+            "fileOffset": "0x6D62959",
+            "length": 27,
+            "nativeAddressCandidate": "0x6d66959"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": "pb::Google.Protobuf.IBufferMessage.InternalMergeFrom",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9620,
+            "signatureHex": "20010110111d",
+            "fileOffset": "0x6D62974",
+            "length": 309,
+            "nativeAddressCandidate": "0x6d66974"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.Constellation",
+            "method": ".cctor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 9621,
+            "signatureHex": "000001",
+            "fileOffset": "0x6D62AA9",
+            "length": 406,
+            "nativeAddressCandidate": "0x6d66aa9"
+          }
+        ]
+      },
+      {
+        "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+        "assembly": "Crumble.GrpcServices",
+        "typeDefRow": 820,
+        "fields": [
+          {
+            "field": "_parser",
+            "fieldDefRow": 6441,
+            "signatureHex": "0615120901128cd0",
+            "attributes": {
+              "Token": "0x400212D"
+            }
+          },
+          {
+            "field": "_unknownFields",
+            "fieldDefRow": 6442,
+            "signatureHex": "061265",
+            "attributes": {
+              "Offset": "0x10"
+            }
+          },
+          {
+            "field": "AdditionalFieldNumber",
+            "fieldDefRow": 6443,
+            "signatureHex": "0608",
+            "attributes": {
+              "Token": "0x400212F"
+            }
+          },
+          {
+            "field": "additional_",
+            "fieldDefRow": 6444,
+            "signatureHex": "061285cc",
+            "attributes": {
+              "Offset": "0x18"
+            }
+          },
+          {
+            "field": "PaymentsFieldNumber",
+            "fieldDefRow": 6445,
+            "signatureHex": "0608",
+            "attributes": {
+              "Token": "0x4002131"
+            }
+          },
+          {
+            "field": "_repeated_payments_codec",
+            "fieldDefRow": 6446,
+            "signatureHex": "0615126901128718",
+            "attributes": {
+              "Token": "0x4002132"
+            }
+          },
+          {
+            "field": "payments_",
+            "fieldDefRow": 6447,
+            "signatureHex": "0615122101128718",
+            "attributes": {
+              "Offset": "0x20"
+            }
+          },
+          {
+            "field": "ConstellationFieldNumber",
+            "fieldDefRow": 6448,
+            "signatureHex": "0608",
+            "attributes": {
+              "Token": "0x4002134"
+            }
+          },
+          {
+            "field": "constellation_",
+            "fieldDefRow": 6449,
+            "signatureHex": "061287d8",
+            "attributes": {
+              "Offset": "0x28"
+            }
+          }
+        ],
+        "methods": [
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "get_Parser",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15901,
+            "signatureHex": "000015120901128cd0",
+            "fileOffset": "0x6E7BF78",
+            "length": 68,
+            "nativeAddressCandidate": "0x6e7ff78"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "get_Descriptor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15902,
+            "signatureHex": "0000120d",
+            "fileOffset": "0x6E7BFBC",
+            "length": 242,
+            "nativeAddressCandidate": "0x6e7ffbc"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "pb::Google.Protobuf.IMessage.get_Descriptor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15903,
+            "signatureHex": "2000120d",
+            "fileOffset": "0x6E7C0AE",
+            "length": 59,
+            "nativeAddressCandidate": "0x6e800ae"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": ".ctor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15904,
+            "signatureHex": "200001",
+            "fileOffset": "0x6E7C0E9",
+            "length": 116,
+            "nativeAddressCandidate": "0x6e800e9"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": ".ctor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15905,
+            "signatureHex": "200101128cd0",
+            "fileOffset": "0x6E7C15D",
+            "length": 214,
+            "nativeAddressCandidate": "0x6e8015d"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "Clone",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15906,
+            "signatureHex": "2000128cd0",
+            "fileOffset": "0x6E7C233",
+            "length": 75,
+            "nativeAddressCandidate": "0x6e80233"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "get_Additional",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15907,
+            "signatureHex": "20001285cc",
+            "fileOffset": "0x6E7C27E",
+            "length": 5,
+            "nativeAddressCandidate": "0x6e8027e"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "set_Additional",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15908,
+            "signatureHex": "2001011285cc",
+            "fileOffset": "0x6E7C283",
+            "length": 13,
+            "nativeAddressCandidate": "0x6e80283"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "get_Payments",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15909,
+            "signatureHex": "200015122101128718",
+            "fileOffset": "0x6E7C290",
+            "length": 5,
+            "nativeAddressCandidate": "0x6e80290"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "get_Constellation",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15910,
+            "signatureHex": "20001287d8",
+            "fileOffset": "0x6E7C295",
+            "length": 5,
+            "nativeAddressCandidate": "0x6e80295"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "set_Constellation",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15911,
+            "signatureHex": "2001011287d8",
+            "fileOffset": "0x6E7C29A",
+            "length": 13,
+            "nativeAddressCandidate": "0x6e8029a"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "Equals",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15912,
+            "signatureHex": "2001021c",
+            "fileOffset": "0x6E7C2A7",
+            "length": 81,
+            "nativeAddressCandidate": "0x6e802a7"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "Equals",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15913,
+            "signatureHex": "200102128cd0",
+            "fileOffset": "0x6E7C2F8",
+            "length": 167,
+            "nativeAddressCandidate": "0x6e802f8"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "GetHashCode",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15914,
+            "signatureHex": "200008",
+            "fileOffset": "0x6E7C39F",
+            "length": 143,
+            "nativeAddressCandidate": "0x6e8039f"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "ToString",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15915,
+            "signatureHex": "20000e",
+            "fileOffset": "0x6E7C42E",
+            "length": 67,
+            "nativeAddressCandidate": "0x6e8042e"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "WriteTo",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15916,
+            "signatureHex": "2001011211",
+            "fileOffset": "0x6E7C471",
+            "length": 27,
+            "nativeAddressCandidate": "0x6e80471"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "pb::Google.Protobuf.IBufferMessage.InternalWriteTo",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15917,
+            "signatureHex": "200101101115",
+            "fileOffset": "0x6E7C48C",
+            "length": 243,
+            "nativeAddressCandidate": "0x6e8048c"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "CalculateSize",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15918,
+            "signatureHex": "200008",
+            "fileOffset": "0x6E7C57F",
+            "length": 274,
+            "nativeAddressCandidate": "0x6e8057f"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "MergeFrom",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15919,
+            "signatureHex": "200101128cd0",
+            "fileOffset": "0x6E7C691",
+            "length": 339,
+            "nativeAddressCandidate": "0x6e80691"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "MergeFrom",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15920,
+            "signatureHex": "2001011219",
+            "fileOffset": "0x6E7C7E4",
+            "length": 27,
+            "nativeAddressCandidate": "0x6e807e4"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": "pb::Google.Protobuf.IBufferMessage.InternalMergeFrom",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15921,
+            "signatureHex": "20010110111d",
+            "fileOffset": "0x6E7C7FF",
+            "length": 516,
+            "nativeAddressCandidate": "0x6e807ff"
+          },
+          {
+            "className": "Crumble.Services.Game.Protobuf.RerollStellarLinkResponse",
+            "method": ".cctor",
+            "assembly": "Crumble.GrpcServices",
+            "methodDefRow": 15922,
+            "signatureHex": "000001",
+            "fileOffset": "0x6E7CA03",
+            "length": 406,
+            "nativeAddressCandidate": "0x6e80a03"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      "RerollStellarLinkAsync response callback loads response.constellation_ at+0x28 and calls EnhancementCommandBuilder.ToStellarLinkConstellation.",
+      "Converter copies each protobuf Starshard index and lock bit into ordered domain Starshards list.",
+      "Converter reads protobuf Constellation.coveredAreaPercent_ at+0x28 and immediately passes it as esi to set_CoveredAreaPercent.",
+      "Setter passes the unchanged integer to FastObfuscatedInt32.FromPlain with salt0x53544101, then writes the returned obfuscated record into this+0x28. It neither accepts coordinates nor calculates a polygon area."
+    ],
+    "callback": {
+      "method": {
+        "className": "Crumble.Apis.StellarLinkApi+<>c",
+        "method": "<RerollStellarLinkAsync>b__4_0",
+        "rawFileOffset": "0x645621a",
+        "nativeAddress": "0x645a21a",
+        "length": 403,
+        "sha256": "54a4c09e0c87ee443b5f43bde81b163b6afbce6af9254520573bbf92cbeaa3dc"
+      },
+      "anchors": [
+        {
+          "address": "0x645a29f",
+          "bytes": "488b7b18",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rbx + 0x18]"
+        },
+        {
+          "address": "0x645a2a3",
+          "bytes": "4c89f6",
+          "mnemonic": "mov",
+          "operands": "rsi, r14"
+        },
+        {
+          "address": "0x645a2a6",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x645a2a8",
+          "bytes": "e8ab30f1ff",
+          "mnemonic": "call",
+          "operands": "0x636d358"
+        },
+        {
+          "address": "0x645a2ad",
+          "bytes": "488b7b28",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rbx + 0x28]"
+        },
+        {
+          "address": "0x645a2b1",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x645a2b3",
+          "bytes": "e84f14f2ff",
+          "mnemonic": "call",
+          "operands": "0x637b707"
+        }
+      ]
+    },
+    "converter": {
+      "method": {
+        "className": "Crumble.CommandBuilders.EnhancementCommandBuilder",
+        "method": "ToStellarLinkConstellation",
+        "rawFileOffset": "0x6377707",
+        "nativeAddress": "0x637b707",
+        "length": 933,
+        "sha256": "d11dc0ba335d13eb1c90ee435d2ccfc5ed9222d64cccaf064a69ed229e9de1f1"
+      },
+      "anchors": [
+        {
+          "address": "0x637b8ff",
+          "bytes": "8b5018",
+          "mnemonic": "mov",
+          "operands": "edx, dword ptr [rax + 0x18]"
+        },
+        {
+          "address": "0x637b902",
+          "bytes": "0fb6701c",
+          "mnemonic": "movzx",
+          "operands": "esi, byte ptr [rax + 0x1c]"
+        },
+        {
+          "address": "0x637b906",
+          "bytes": "488b0b",
+          "mnemonic": "mov",
+          "operands": "rcx, qword ptr [rbx]"
+        },
+        {
+          "address": "0x637b909",
+          "bytes": "41ff461c",
+          "mnemonic": "inc",
+          "operands": "dword ptr [r14 + 0x1c]"
+        },
+        {
+          "address": "0x637b90d",
+          "bytes": "498b4610",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [r14 + 0x10]"
+        },
+        {
+          "address": "0x637b911",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x637b914",
+          "bytes": "0f8426010000",
+          "mnemonic": "je",
+          "operands": "0x637ba40"
+        },
+        {
+          "address": "0x637b91a",
+          "bytes": "48c1e620",
+          "mnemonic": "shl",
+          "operands": "rsi, 0x20"
+        },
+        {
+          "address": "0x637b91e",
+          "bytes": "4809d6",
+          "mnemonic": "or",
+          "operands": "rsi, rdx"
+        },
+        {
+          "address": "0x637b921",
+          "bytes": "49635618",
+          "mnemonic": "movsxd",
+          "operands": "rdx, dword ptr [r14 + 0x18]"
+        },
+        {
+          "address": "0x637b925",
+          "bytes": "3b5018",
+          "mnemonic": "cmp",
+          "operands": "edx, dword ptr [rax + 0x18]"
+        },
+        {
+          "address": "0x637b928",
+          "bytes": "730e",
+          "mnemonic": "jae",
+          "operands": "0x637b938"
+        },
+        {
+          "address": "0x637b92a",
+          "bytes": "8d4a01",
+          "mnemonic": "lea",
+          "operands": "ecx, [rdx + 1]"
+        },
+        {
+          "address": "0x637b92d",
+          "bytes": "41894e18",
+          "mnemonic": "mov",
+          "operands": "dword ptr [r14 + 0x18], ecx"
+        },
+        {
+          "address": "0x637b931",
+          "bytes": "488974d020",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rax + rdx*8 + 0x20], rsi"
+        },
+        {
+          "address": "0x637b9ee",
+          "bytes": "488b5c2420",
+          "mnemonic": "mov",
+          "operands": "rbx, qword ptr [rsp + 0x20]"
+        },
+        {
+          "address": "0x637b9f3",
+          "bytes": "8b7b18",
+          "mnemonic": "mov",
+          "operands": "edi, dword ptr [rbx + 0x18]"
+        },
+        {
+          "address": "0x637b9f6",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x637b9f8",
+          "bytes": "e8198cf6ff",
+          "mnemonic": "call",
+          "operands": "0x62e4616"
+        },
+        {
+          "address": "0x637b9fd",
+          "bytes": "4d85ff",
+          "mnemonic": "test",
+          "operands": "r15, r15"
+        },
+        {
+          "address": "0x637ba00",
+          "bytes": "744d",
+          "mnemonic": "je",
+          "operands": "0x637ba4f"
+        },
+        {
+          "address": "0x637ba02",
+          "bytes": "4c89ff",
+          "mnemonic": "mov",
+          "operands": "rdi, r15"
+        },
+        {
+          "address": "0x637ba05",
+          "bytes": "89c6",
+          "mnemonic": "mov",
+          "operands": "esi, eax"
+        },
+        {
+          "address": "0x637ba07",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x637ba09",
+          "bytes": "e86aee1700",
+          "mnemonic": "call",
+          "operands": "0x64fa878"
+        },
+        {
+          "address": "0x637ba0e",
+          "bytes": "4c89ff",
+          "mnemonic": "mov",
+          "operands": "rdi, r15"
+        },
+        {
+          "address": "0x637ba11",
+          "bytes": "4883c740",
+          "mnemonic": "add",
+          "operands": "rdi, 0x40"
+        },
+        {
+          "address": "0x637ba15",
+          "bytes": "4d897740",
+          "mnemonic": "mov",
+          "operands": "qword ptr [r15 + 0x40], r14"
+        },
+        {
+          "address": "0x637ba19",
+          "bytes": "4c89f6",
+          "mnemonic": "mov",
+          "operands": "rsi, r14"
+        },
+        {
+          "address": "0x637ba1c",
+          "bytes": "e8068bcfff",
+          "mnemonic": "call",
+          "operands": "0x6074527"
+        },
+        {
+          "address": "0x637ba21",
+          "bytes": "8b7328",
+          "mnemonic": "mov",
+          "operands": "esi, dword ptr [rbx + 0x28]"
+        },
+        {
+          "address": "0x637ba24",
+          "bytes": "4c89ff",
+          "mnemonic": "mov",
+          "operands": "rdi, r15"
+        },
+        {
+          "address": "0x637ba27",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x637ba29",
+          "bytes": "e8b5ee1700",
+          "mnemonic": "call",
+          "operands": "0x64fa8e3"
+        }
+      ]
+    },
+    "setter": {
+      "method": {
+        "className": "Crumble.StellarLinkConstellation",
+        "method": "set_CoveredAreaPercent",
+        "rawFileOffset": "0x64f68e3",
+        "nativeAddress": "0x64fa8e3",
+        "length": 52,
+        "sha256": "1423d49b5e013a40f7c2f07ece4970c5110a47ea6bd446072cd3b20a711064bd"
+      },
+      "anchors": [
+        {
+          "address": "0x64fa8e3",
+          "bytes": "4156",
+          "mnemonic": "push",
+          "operands": "r14"
+        },
+        {
+          "address": "0x64fa8e5",
+          "bytes": "53",
+          "mnemonic": "push",
+          "operands": "rbx"
+        },
+        {
+          "address": "0x64fa8e6",
+          "bytes": "4883ec18",
+          "mnemonic": "sub",
+          "operands": "rsp, 0x18"
+        },
+        {
+          "address": "0x64fa8ea",
+          "bytes": "4889fb",
+          "mnemonic": "mov",
+          "operands": "rbx, rdi"
+        },
+        {
+          "address": "0x64fa8ed",
+          "bytes": "4989e6",
+          "mnemonic": "mov",
+          "operands": "r14, rsp"
+        },
+        {
+          "address": "0x64fa8f0",
+          "bytes": "4c89f7",
+          "mnemonic": "mov",
+          "operands": "rdi, r14"
+        },
+        {
+          "address": "0x64fa8f3",
+          "bytes": "ba01415453",
+          "mnemonic": "mov",
+          "operands": "edx, 0x53544101"
+        },
+        {
+          "address": "0x64fa8f8",
+          "bytes": "31c9",
+          "mnemonic": "xor",
+          "operands": "ecx, ecx"
+        },
+        {
+          "address": "0x64fa8fa",
+          "bytes": "e8d828dbff",
+          "mnemonic": "call",
+          "operands": "0x62ad1d7"
+        },
+        {
+          "address": "0x64fa8ff",
+          "bytes": "498b4610",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [r14 + 0x10]"
+        },
+        {
+          "address": "0x64fa903",
+          "bytes": "48894338",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rbx + 0x38], rax"
+        },
+        {
+          "address": "0x64fa907",
+          "bytes": "410f1006",
+          "mnemonic": "movups",
+          "operands": "xmm0, xmmword ptr [r14]"
+        },
+        {
+          "address": "0x64fa90b",
+          "bytes": "0f114328",
+          "mnemonic": "movups",
+          "operands": "xmmword ptr [rbx + 0x28], xmm0"
+        },
+        {
+          "address": "0x64fa90f",
+          "bytes": "4883c418",
+          "mnemonic": "add",
+          "operands": "rsp, 0x18"
+        },
+        {
+          "address": "0x64fa913",
+          "bytes": "5b",
+          "mnemonic": "pop",
+          "operands": "rbx"
+        },
+        {
+          "address": "0x64fa914",
+          "bytes": "415e",
+          "mnemonic": "pop",
+          "operands": "r14"
+        },
+        {
+          "address": "0x64fa916",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": ""
+        }
+      ]
+    },
+    "boundary": "This proves the inspected response-to-record path consumes a server-response integer, not that no other client path or shared algorithm ever calculates an area. It does not reconstruct the server integer formula."
+  },
+  "meshPipeline": {
+    "status": "verified_client_graph_face_fill",
+    "caller": {
+      "method": {
+        "className": "Crumble.UIPolygonMesh",
+        "method": "OnPopulateMesh",
+        "rawFileOffset": "0x62cbddd",
+        "nativeAddress": "0x62cfddd",
+        "length": 1082,
+        "sha256": "cbac342bf575e983ae3f87ad8246dba47ccfc9b6b8e7fe7e30210bf2f962334e"
+      },
+      "finding": "UIPolygonMesh maps normalized star coordinates to local RectTransform coordinates, passes min(rectWidth,rectHeight) plus vertex list/output triangle list to PolygonTriangulator.Triangulate, then emits resulting triangles through VertexHelper.AddTriangle. It returns no gameplay area percent.",
+      "anchors": [
+        {
+          "address": "0x62cff12",
+          "bytes": "0f284c2420",
+          "mnemonic": "movaps",
+          "operands": "xmm1, xmmword ptr [rsp + 0x20]"
+        },
+        {
+          "address": "0x62cff17",
+          "bytes": "f30f16c1",
+          "mnemonic": "movshdup",
+          "operands": "xmm0, xmm1"
+        },
+        {
+          "address": "0x62cff1b",
+          "bytes": "f30f5dc8",
+          "mnemonic": "minss",
+          "operands": "xmm1, xmm0"
+        },
+        {
+          "address": "0x62cff1f",
+          "bytes": "0f298c24c0000000",
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0xc0], xmm1"
+        },
+        {
+          "address": "0x62cff27",
+          "bytes": "31ed",
+          "mnemonic": "xor",
+          "operands": "ebp, ebp"
+        },
+        {
+          "address": "0x62cff29",
+          "bytes": "4c8d2d48d56907",
+          "mnemonic": "lea",
+          "operands": "r13, [rip + 0x769d548]"
+        },
+        {
+          "address": "0x62cff30",
+          "bytes": "4c8d2549c06c07",
+          "mnemonic": "lea",
+          "operands": "r12, [rip + 0x76cc049]"
+        },
+        {
+          "address": "0x62cff37",
+          "bytes": "3b6f18",
+          "mnemonic": "cmp",
+          "operands": "ebp, dword ptr [rdi + 0x18]"
+        },
+        {
+          "address": "0x62cff3a",
+          "bytes": "0f8dac000000",
+          "mnemonic": "jge",
+          "operands": "0x62cffec"
+        },
+        {
+          "address": "0x62cff40",
+          "bytes": "4d8bbee0000000",
+          "mnemonic": "mov",
+          "operands": "r15, qword ptr [r14 + 0xe0]"
+        },
+        {
+          "address": "0x62cff47",
+          "bytes": "488d056ac06c07",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x76cc06a]"
+        },
+        {
+          "address": "0x62cff4e",
+          "bytes": "488b10",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax]"
+        },
+        {
+          "address": "0x62cff51",
+          "bytes": "89ee",
+          "mnemonic": "mov",
+          "operands": "esi, ebp"
+        },
+        {
+          "address": "0x62cff53",
+          "bytes": "e89e8c8e03",
+          "mnemonic": "call",
+          "operands": "0x9bb8bf6"
+        },
+        {
+          "address": "0x62cff58",
+          "bytes": "498b7d00",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [r13]"
+        },
+        {
+          "address": "0x62cff5c",
+          "bytes": "83bfe400000000",
+          "mnemonic": "cmp",
+          "operands": "dword ptr [rdi + 0xe4], 0"
+        },
+        {
+          "address": "0x62cff63",
+          "bytes": "7515",
+          "mnemonic": "jne",
+          "operands": "0x62cff7a"
+        },
+        {
+          "address": "0x62cff65",
+          "bytes": "0f298424d0000000",
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0xd0], xmm0"
+        },
+        {
+          "address": "0x62cff6d",
+          "bytes": "e86847daff",
+          "mnemonic": "call",
+          "operands": "0x60746da"
+        },
+        {
+          "address": "0x62cff72",
+          "bytes": "0f288424d0000000",
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0xd0]"
+        },
+        {
+          "address": "0x62cff7a",
+          "bytes": "0f284c2430",
+          "mnemonic": "movaps",
+          "operands": "xmm1, xmmword ptr [rsp + 0x30]"
+        },
+        {
+          "address": "0x62cff7f",
+          "bytes": "0f28542420",
+          "mnemonic": "movaps",
+          "operands": "xmm2, xmmword ptr [rsp + 0x20]"
+        },
+        {
+          "address": "0x62cff84",
+          "bytes": "e88e020000",
+          "mnemonic": "call",
+          "operands": "0x62d0217"
+        },
+        {
+          "address": "0x62d0008",
+          "bytes": "4d8ba6e0000000",
+          "mnemonic": "mov",
+          "operands": "r12, qword ptr [r14 + 0xe0]"
+        },
+        {
+          "address": "0x62d000f",
+          "bytes": "488d0592816907",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x7698192]"
+        },
+        {
+          "address": "0x62d0016",
+          "bytes": "488b38",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rax]"
+        },
+        {
+          "address": "0x62d0019",
+          "bytes": "83bfe400000000",
+          "mnemonic": "cmp",
+          "operands": "dword ptr [rdi + 0xe4], 0"
+        },
+        {
+          "address": "0x62d0020",
+          "bytes": "7505",
+          "mnemonic": "jne",
+          "operands": "0x62d0027"
+        },
+        {
+          "address": "0x62d0022",
+          "bytes": "e8b346daff",
+          "mnemonic": "call",
+          "operands": "0x60746da"
+        },
+        {
+          "address": "0x62d0027",
+          "bytes": "4c89e7",
+          "mnemonic": "mov",
+          "operands": "rdi, r12"
+        },
+        {
+          "address": "0x62d002a",
+          "bytes": "0f288424c0000000",
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0xc0]"
+        },
+        {
+          "address": "0x62d0032",
+          "bytes": "4c89fe",
+          "mnemonic": "mov",
+          "operands": "rsi, r15"
+        },
+        {
+          "address": "0x62d0035",
+          "bytes": "e8f78fffff",
+          "mnemonic": "call",
+          "operands": "0x62c9031"
+        },
+        {
+          "address": "0x62d003a",
+          "bytes": "498bb6e8000000",
+          "mnemonic": "mov",
+          "operands": "rsi, qword ptr [r14 + 0xe8]"
+        },
+        {
+          "address": "0x62d0041",
+          "bytes": "4885f6",
+          "mnemonic": "test",
+          "operands": "rsi, rsi"
+        },
+        {
+          "address": "0x62d01d7",
+          "bytes": "418d5501",
+          "mnemonic": "lea",
+          "operands": "edx, [r13 + 1]"
+        },
+        {
+          "address": "0x62d01db",
+          "bytes": "418d4d02",
+          "mnemonic": "lea",
+          "operands": "ecx, [r13 + 2]"
+        },
+        {
+          "address": "0x62d01df",
+          "bytes": "4889df",
+          "mnemonic": "mov",
+          "operands": "rdi, rbx"
+        },
+        {
+          "address": "0x62d01e2",
+          "bytes": "4489ee",
+          "mnemonic": "mov",
+          "operands": "esi, r13d"
+        },
+        {
+          "address": "0x62d01e5",
+          "bytes": "4531c0",
+          "mnemonic": "xor",
+          "operands": "r8d, r8d"
+        },
+        {
+          "address": "0x62d01e8",
+          "bytes": "e8f8f8b706",
+          "mnemonic": "call",
+          "operands": "0xce4fae5"
+        }
+      ]
+    },
+    "graph": {
+      "method": {
+        "className": "Crumble.PolygonTriangulator",
+        "method": "Triangulate",
+        "rawFileOffset": "0x62c5031",
+        "nativeAddress": "0x62c9031",
+        "length": 5866,
+        "sha256": "cb098d11baadee7bc420c46f4024d1f65e6438ae233ba7dc43f2cb29e9225bd4"
+      },
+      "observedStructure": [
+        "Only nonadjacent original segment pairs are tested; first/last adjacent pair is also skipped.",
+        "Accepted intersections are inserted into both participating edge split lists; split positions are ordered using float comparison.",
+        "Half-edge targets heTo and reverse/from adjacency are constructed. Outgoing half-edges at each node are sorted by atan2f(deltaY,deltaX), using Single.CompareTo.",
+        "Unvisited directed half-edge seeds are walked. At each endpoint the successor is outgoing[(indexOfReverse+degree-1)%degree]; visited bytes prevent reprocessing the same directed edge.",
+        "A guard caps the half-edge walk. Extracted candidate loops with fewer than3 edges are skipped; each remaining loop is checked for sign."
+      ],
+      "visitedAnchors": [
+        {
+          "address": "0x62ca140",
+          "bytes": "8b4318",
+          "mnemonic": "mov",
+          "operands": "eax, dword ptr [rbx + 0x18]"
+        },
+        {
+          "address": "0x62ca143",
+          "bytes": "4939c7",
+          "mnemonic": "cmp",
+          "operands": "r15, rax"
+        },
+        {
+          "address": "0x62ca146",
+          "bytes": "0f83c4040000",
+          "mnemonic": "jae",
+          "operands": "0x62ca610"
+        },
+        {
+          "address": "0x62ca14c",
+          "bytes": "42807c3b2000",
+          "mnemonic": "cmp",
+          "operands": "byte ptr [rbx + r15 + 0x20], 0"
+        },
+        {
+          "address": "0x62ca152",
+          "bytes": "0f85d7010000",
+          "mnemonic": "jne",
+          "operands": "0x62ca32f"
+        },
+        {
+          "address": "0x62ca158",
+          "bytes": "488d0511556807",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x7685511]"
+        },
+        {
+          "address": "0x62ca15f",
+          "bytes": "488b38",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rax]"
+        },
+        {
+          "address": "0x62ca162",
+          "bytes": "e84fa6daff",
+          "mnemonic": "call",
+          "operands": "0x60747b6"
+        },
+        {
+          "address": "0x62ca167",
+          "bytes": "4889c7",
+          "mnemonic": "mov",
+          "operands": "rdi, rax"
+        },
+        {
+          "address": "0x62ca16a",
+          "bytes": "488d05b7dc6c07",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x76cdcb7]"
+        },
+        {
+          "address": "0x62ca171",
+          "bytes": "488b30",
+          "mnemonic": "mov",
+          "operands": "rsi, qword ptr [rax]"
+        },
+        {
+          "address": "0x62ca174",
+          "bytes": "48897c2430",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rsp + 0x30], rdi"
+        },
+        {
+          "address": "0x62ca179",
+          "bytes": "e860aa7603",
+          "mnemonic": "call",
+          "operands": "0x9a34bde"
+        },
+        {
+          "address": "0x62ca17e",
+          "bytes": "8b4318",
+          "mnemonic": "mov",
+          "operands": "eax, dword ptr [rbx + 0x18]"
+        },
+        {
+          "address": "0x62ca181",
+          "bytes": "4c897c2440",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rsp + 0x40], r15"
+        },
+        {
+          "address": "0x62ca186",
+          "bytes": "4939c7",
+          "mnemonic": "cmp",
+          "operands": "r15, rax"
+        },
+        {
+          "address": "0x62ca189",
+          "bytes": "0f8381040000",
+          "mnemonic": "jae",
+          "operands": "0x62ca610"
+        },
+        {
+          "address": "0x62ca18f",
+          "bytes": "8b6c2408",
+          "mnemonic": "mov",
+          "operands": "ebp, dword ptr [rsp + 8]"
+        },
+        {
+          "address": "0x62ca193",
+          "bytes": "488b442440",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rsp + 0x40]"
+        },
+        {
+          "address": "0x62ca198",
+          "bytes": "4189c6",
+          "mnemonic": "mov",
+          "operands": "r14d, eax"
+        },
+        {
+          "address": "0x62ca19b",
+          "bytes": "4d63fe",
+          "mnemonic": "movsxd",
+          "operands": "r15, r14d"
+        },
+        {
+          "address": "0x62ca19e",
+          "bytes": "4989dc",
+          "mnemonic": "mov",
+          "operands": "r12, rbx"
+        },
+        {
+          "address": "0x62ca1a1",
+          "bytes": "42807c3b2000",
+          "mnemonic": "cmp",
+          "operands": "byte ptr [rbx + r15 + 0x20], 0"
+        },
+        {
+          "address": "0x62ca1a7",
+          "bytes": "0f850e010000",
+          "mnemonic": "jne",
+          "operands": "0x62ca2bb"
+        },
+        {
+          "address": "0x62ca1ad",
+          "bytes": "ffcd",
+          "mnemonic": "dec",
+          "operands": "ebp"
+        },
+        {
+          "address": "0x62ca1af",
+          "bytes": "85ed",
+          "mnemonic": "test",
+          "operands": "ebp, ebp"
+        },
+        {
+          "address": "0x62ca1b1",
+          "bytes": "0f8e04010000",
+          "mnemonic": "jle",
+          "operands": "0x62ca2bb"
+        },
+        {
+          "address": "0x62ca1b7",
+          "bytes": "43c6443c2001",
+          "mnemonic": "mov",
+          "operands": "byte ptr [r12 + r15 + 0x20], 1"
+        }
+      ],
+      "successorAnchors": [
+        {
+          "address": "0x62ca269",
+          "bytes": "428b74b820",
+          "mnemonic": "mov",
+          "operands": "esi, dword ptr [rax + r15*4 + 0x20]"
+        },
+        {
+          "address": "0x62ca26e",
+          "bytes": "488d05fbdb6c07",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x76cdbfb]"
+        },
+        {
+          "address": "0x62ca275",
+          "bytes": "488b10",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax]"
+        },
+        {
+          "address": "0x62ca278",
+          "bytes": "4889df",
+          "mnemonic": "mov",
+          "operands": "rdi, rbx"
+        },
+        {
+          "address": "0x62ca27b",
+          "bytes": "e849bc7603",
+          "mnemonic": "call",
+          "operands": "0x9a35ec9"
+        },
+        {
+          "address": "0x62ca280",
+          "bytes": "85c0",
+          "mnemonic": "test",
+          "operands": "eax, eax"
+        },
+        {
+          "address": "0x62ca282",
+          "bytes": "7837",
+          "mnemonic": "js",
+          "operands": "0x62ca2bb"
+        },
+        {
+          "address": "0x62ca284",
+          "bytes": "8b4b18",
+          "mnemonic": "mov",
+          "operands": "ecx, dword ptr [rbx + 0x18]"
+        },
+        {
+          "address": "0x62ca287",
+          "bytes": "01c8",
+          "mnemonic": "add",
+          "operands": "eax, ecx"
+        },
+        {
+          "address": "0x62ca289",
+          "bytes": "ffc8",
+          "mnemonic": "dec",
+          "operands": "eax"
+        },
+        {
+          "address": "0x62ca28b",
+          "bytes": "99",
+          "mnemonic": "cdq",
+          "operands": ""
+        },
+        {
+          "address": "0x62ca28c",
+          "bytes": "f7f9",
+          "mnemonic": "idiv",
+          "operands": "ecx"
+        },
+        {
+          "address": "0x62ca28e",
+          "bytes": "488d052bdc6c07",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x76cdc2b]"
+        },
+        {
+          "address": "0x62ca295",
+          "bytes": "488b00",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rax]"
+        },
+        {
+          "address": "0x62ca298",
+          "bytes": "4889df",
+          "mnemonic": "mov",
+          "operands": "rdi, rbx"
+        },
+        {
+          "address": "0x62ca29b",
+          "bytes": "89d6",
+          "mnemonic": "mov",
+          "operands": "esi, edx"
+        },
+        {
+          "address": "0x62ca29d",
+          "bytes": "4889c2",
+          "mnemonic": "mov",
+          "operands": "rdx, rax"
+        },
+        {
+          "address": "0x62ca2a0",
+          "bytes": "e8a4ae7603",
+          "mnemonic": "call",
+          "operands": "0x9a35149"
+        },
+        {
+          "address": "0x62ca2a5",
+          "bytes": "4189c6",
+          "mnemonic": "mov",
+          "operands": "r14d, eax"
+        },
+        {
+          "address": "0x62ca2a8",
+          "bytes": "4c89e3",
+          "mnemonic": "mov",
+          "operands": "rbx, r12"
+        },
+        {
+          "address": "0x62ca2ab",
+          "bytes": "413b442418",
+          "mnemonic": "cmp",
+          "operands": "eax, dword ptr [r12 + 0x18]"
+        },
+        {
+          "address": "0x62ca2b0",
+          "bytes": "0f82e5feffff",
+          "mnemonic": "jb",
+          "operands": "0x62ca19b"
+        }
+      ],
+      "faceSelection": {
+        "formula": "S=sum((xNext-xCurrent)*(yNext+yCurrent)) in float32, equivalent to -2*signedShoelaceArea.",
+        "rule": "Only S<0 is passed to EmitFace; S>=0 (including0) is rejected. This selects counterclockwise bounded planar faces and removes the opposite outer face in the examined traversal.",
+        "constant": {
+          "instructionAddress": "0x62ca543",
+          "nativeAddress": "0x1fbde04",
+          "fileOffset": "0x1fbde04",
+          "bytesHex": "00000000",
+          "float32": 0
+        },
+        "anchors": [
+          {
+            "address": "0x62ca518",
+            "bytes": "0f28c1",
+            "mnemonic": "movaps",
+            "operands": "xmm0, xmm1"
+          },
+          {
+            "address": "0x62ca51b",
+            "bytes": "0f58c2",
+            "mnemonic": "addps",
+            "operands": "xmm0, xmm2"
+          },
+          {
+            "address": "0x62ca51e",
+            "bytes": "f30f5cd1",
+            "mnemonic": "subss",
+            "operands": "xmm2, xmm1"
+          },
+          {
+            "address": "0x62ca522",
+            "bytes": "f30f16c0",
+            "mnemonic": "movshdup",
+            "operands": "xmm0, xmm0"
+          },
+          {
+            "address": "0x62ca526",
+            "bytes": "f30f59c2",
+            "mnemonic": "mulss",
+            "operands": "xmm0, xmm2"
+          },
+          {
+            "address": "0x62ca52a",
+            "bytes": "f30f104c2430",
+            "mnemonic": "movss",
+            "operands": "xmm1, dword ptr [rsp + 0x30]"
+          },
+          {
+            "address": "0x62ca530",
+            "bytes": "f30f58c8",
+            "mnemonic": "addss",
+            "operands": "xmm1, xmm0"
+          },
+          {
+            "address": "0x62ca534",
+            "bytes": "0f28c1",
+            "mnemonic": "movaps",
+            "operands": "xmm0, xmm1"
+          },
+          {
+            "address": "0x62ca537",
+            "bytes": "ffc5",
+            "mnemonic": "inc",
+            "operands": "ebp"
+          },
+          {
+            "address": "0x62ca539",
+            "bytes": "413b6f18",
+            "mnemonic": "cmp",
+            "operands": "ebp, dword ptr [r15 + 0x18]"
+          },
+          {
+            "address": "0x62ca53d",
+            "bytes": "0f8cb5feffff",
+            "mnemonic": "jl",
+            "operands": "0x62ca3f8"
+          },
+          {
+            "address": "0x62ca543",
+            "bytes": "0f2e05ba38cffb",
+            "mnemonic": "ucomiss",
+            "operands": "xmm0, dword ptr [rip - 0x430c746]"
+          },
+          {
+            "address": "0x62ca54a",
+            "bytes": "4c8db424d0000000",
+            "mnemonic": "lea",
+            "operands": "r14, [rsp + 0xd0]"
+          },
+          {
+            "address": "0x62ca552",
+            "bytes": "8b2c24",
+            "mnemonic": "mov",
+            "operands": "ebp, dword ptr [rsp]"
+          },
+          {
+            "address": "0x62ca555",
+            "bytes": "0f8353feffff",
+            "mnemonic": "jae",
+            "operands": "0x62ca3ae"
+          },
+          {
+            "address": "0x62ca5a1",
+            "bytes": "4889df",
+            "mnemonic": "mov",
+            "operands": "rdi, rbx"
+          },
+          {
+            "address": "0x62ca5a4",
+            "bytes": "f30f10842480000000",
+            "mnemonic": "movss",
+            "operands": "xmm0, dword ptr [rsp + 0x80]"
+          },
+          {
+            "address": "0x62ca5ad",
+            "bytes": "488bb424e8000000",
+            "mnemonic": "mov",
+            "operands": "rsi, qword ptr [rsp + 0xe8]"
+          },
+          {
+            "address": "0x62ca5b5",
+            "bytes": "e835030000",
+            "mnemonic": "call",
+            "operands": "0x62ca8ef"
+          }
+        ],
+        "fillMeaning": "The examined main routine does not apply original-contour even-odd or winding-number point-in-polygon classification after constructing the planar graph. It renders the positive bounded faces separately. This supports filling every enclosed region once for crossings; the main routine does not compute their combined integer gameplay area."
+      }
+    },
+    "emitFace": {
+      "method": {
+        "className": "Crumble.PolygonTriangulator",
+        "method": "EmitFace",
+        "rawFileOffset": "0x62c68ef",
+        "nativeAddress": "0x62ca8ef",
+        "length": 2878,
+        "sha256": "075722dd29ac60dbeffddc9ff67e5ba6ff33b92019c3aea142d3f442ef6b5e90"
+      },
+      "finding": "Faces with fewer than3 vertices return. Convex faces use incenter/average-point and inset glow mesh construction; concave faces tail-call EarClipGlowOff. These routines triangulate already selected faces for display; no original-contour interior/exterior filter or gameplay percent is introduced in EmitFace.",
+      "anchors": [
+        {
+          "address": "0x62ca976",
+          "bytes": "418b4618",
+          "mnemonic": "mov",
+          "operands": "eax, dword ptr [r14 + 0x18]"
+        },
+        {
+          "address": "0x62ca97a",
+          "bytes": "8944244c",
+          "mnemonic": "mov",
+          "operands": "dword ptr [rsp + 0x4c], eax"
+        },
+        {
+          "address": "0x62ca97e",
+          "bytes": "83f803",
+          "mnemonic": "cmp",
+          "operands": "eax, 3"
+        },
+        {
+          "address": "0x62ca981",
+          "bytes": "0f8c8f0a0000",
+          "mnemonic": "jl",
+          "operands": "0x62cb416"
+        },
+        {
+          "address": "0x62ca987",
+          "bytes": "4c8d3d1ad86907",
+          "mnemonic": "lea",
+          "operands": "r15, [rip + 0x769d81a]"
+        },
+        {
+          "address": "0x62ca98e",
+          "bytes": "498b3f",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [r15]"
+        },
+        {
+          "address": "0x62ca991",
+          "bytes": "83bfe400000000",
+          "mnemonic": "cmp",
+          "operands": "dword ptr [rdi + 0xe4], 0"
+        },
+        {
+          "address": "0x62ca998",
+          "bytes": "7505",
+          "mnemonic": "jne",
+          "operands": "0x62ca99f"
+        },
+        {
+          "address": "0x62ca99a",
+          "bytes": "e83b9ddaff",
+          "mnemonic": "call",
+          "operands": "0x60746da"
+        },
+        {
+          "address": "0x62ca99f",
+          "bytes": "4c89f7",
+          "mnemonic": "mov",
+          "operands": "rdi, r14"
+        },
+        {
+          "address": "0x62ca9a2",
+          "bytes": "e8860a0000",
+          "mnemonic": "call",
+          "operands": "0x62cb42d"
+        },
+        {
+          "address": "0x62ca9a7",
+          "bytes": "84c0",
+          "mnemonic": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x62ca9a9",
+          "bytes": "448b6c244c",
+          "mnemonic": "mov",
+          "operands": "r13d, dword ptr [rsp + 0x4c]"
+        },
+        {
+          "address": "0x62ca9ae",
+          "bytes": "0f849e000000",
+          "mnemonic": "je",
+          "operands": "0x62caa52"
+        },
+        {
+          "address": "0x62ca9b4",
+          "bytes": "4183fd03",
+          "mnemonic": "cmp",
+          "operands": "r13d, 3"
+        },
+        {
+          "address": "0x62ca9b8",
+          "bytes": "48899c24d0000000",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rsp + 0xd0], rbx"
+        },
+        {
+          "address": "0x62ca9c0",
+          "bytes": "0f85bf000000",
+          "mnemonic": "jne",
+          "operands": "0x62caa85"
+        },
+        {
+          "address": "0x62ca9c6",
+          "bytes": "4c8d3deb156d07",
+          "mnemonic": "lea",
+          "operands": "r15, [rip + 0x76d15eb]"
+        },
+        {
+          "address": "0x62ca9cd",
+          "bytes": "498b17",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [r15]"
+        },
+        {
+          "address": "0x62ca9d0",
+          "bytes": "4c89f7",
+          "mnemonic": "mov",
+          "operands": "rdi, r14"
+        },
+        {
+          "address": "0x62ca9d3",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x62ca9d5",
+          "bytes": "e81ce28e03",
+          "mnemonic": "call",
+          "operands": "0x9bb8bf6"
+        },
+        {
+          "address": "0x62ca9da",
+          "bytes": "0f29842490000000",
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x90], xmm0"
+        },
+        {
+          "address": "0x62ca9e2",
+          "bytes": "498b17",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [r15]"
+        },
+        {
+          "address": "0x62ca9e5",
+          "bytes": "4c89f7",
+          "mnemonic": "mov",
+          "operands": "rdi, r14"
+        },
+        {
+          "address": "0x62ca9e8",
+          "bytes": "be01000000",
+          "mnemonic": "mov",
+          "operands": "esi, 1"
+        },
+        {
+          "address": "0x62ca9ed",
+          "bytes": "e804e28e03",
+          "mnemonic": "call",
+          "operands": "0x9bb8bf6"
+        },
+        {
+          "address": "0x62ca9f2",
+          "bytes": "0f298424c0000000",
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0xc0], xmm0"
+        },
+        {
+          "address": "0x62ca9fa",
+          "bytes": "498b17",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [r15]"
+        },
+        {
+          "address": "0x62ca9fd",
+          "bytes": "488d1da4d76907",
+          "mnemonic": "lea",
+          "operands": "rbx, [rip + 0x769d7a4]"
+        },
+        {
+          "address": "0x62caa04",
+          "bytes": "4c89f7",
+          "mnemonic": "mov",
+          "operands": "rdi, r14"
+        },
+        {
+          "address": "0x62caa07",
+          "bytes": "be02000000",
+          "mnemonic": "mov",
+          "operands": "esi, 2"
+        },
+        {
+          "address": "0x62caa0c",
+          "bytes": "e8e5e18e03",
+          "mnemonic": "call",
+          "operands": "0x9bb8bf6"
+        },
+        {
+          "address": "0x62caa11",
+          "bytes": "0f28d0",
+          "mnemonic": "movaps",
+          "operands": "xmm2, xmm0"
+        },
+        {
+          "address": "0x62caa14",
+          "bytes": "488b3b",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rbx]"
+        },
+        {
+          "address": "0x62caa17",
+          "bytes": "83bfe400000000",
+          "mnemonic": "cmp",
+          "operands": "dword ptr [rdi + 0xe4], 0"
+        },
+        {
+          "address": "0x62caa1e",
+          "bytes": "7515",
+          "mnemonic": "jne",
+          "operands": "0x62caa35"
+        },
+        {
+          "address": "0x62caa20",
+          "bytes": "0f299424a0000000",
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0xa0], xmm2"
+        },
+        {
+          "address": "0x62caa28",
+          "bytes": "e8ad9cdaff",
+          "mnemonic": "call",
+          "operands": "0x60746da"
+        },
+        {
+          "address": "0x62caa2d",
+          "bytes": "0f289424a0000000",
+          "mnemonic": "movaps",
+          "operands": "xmm2, xmmword ptr [rsp + 0xa0]"
+        },
+        {
+          "address": "0x62caa35",
+          "bytes": "0f28842490000000",
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0x90]"
+        },
+        {
+          "address": "0x62caa3d",
+          "bytes": "0f288c24c0000000",
+          "mnemonic": "movaps",
+          "operands": "xmm1, xmmword ptr [rsp + 0xc0]"
+        },
+        {
+          "address": "0x62caa45",
+          "bytes": "e8aa0b0000",
+          "mnemonic": "call",
+          "operands": "0x62cb5f4"
+        },
+        {
+          "address": "0x62caa4a",
+          "bytes": "0f28c8",
+          "mnemonic": "movaps",
+          "operands": "xmm1, xmm0"
+        },
+        {
+          "address": "0x62caa4d",
+          "bytes": "e9aa000000",
+          "mnemonic": "jmp",
+          "operands": "0x62caafc"
+        },
+        {
+          "address": "0x62caa52",
+          "bytes": "498b3f",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [r15]"
+        },
+        {
+          "address": "0x62caa55",
+          "bytes": "83bfe400000000",
+          "mnemonic": "cmp",
+          "operands": "dword ptr [rdi + 0xe4], 0"
+        },
+        {
+          "address": "0x62caa5c",
+          "bytes": "7505",
+          "mnemonic": "jne",
+          "operands": "0x62caa63"
+        },
+        {
+          "address": "0x62caa5e",
+          "bytes": "e8779cdaff",
+          "mnemonic": "call",
+          "operands": "0x60746da"
+        },
+        {
+          "address": "0x62caa63",
+          "bytes": "4c89f7",
+          "mnemonic": "mov",
+          "operands": "rdi, r14"
+        },
+        {
+          "address": "0x62caa66",
+          "bytes": "f30f10442448",
+          "mnemonic": "movss",
+          "operands": "xmm0, dword ptr [rsp + 0x48]"
+        },
+        {
+          "address": "0x62caa6c",
+          "bytes": "4889de",
+          "mnemonic": "mov",
+          "operands": "rsi, rbx"
+        },
+        {
+          "address": "0x62caa6f",
+          "bytes": "4881c408010000",
+          "mnemonic": "add",
+          "operands": "rsp, 0x108"
+        },
+        {
+          "address": "0x62caa76",
+          "bytes": "5b",
+          "mnemonic": "pop",
+          "operands": "rbx"
+        },
+        {
+          "address": "0x62caa77",
+          "bytes": "415c",
+          "mnemonic": "pop",
+          "operands": "r12"
+        },
+        {
+          "address": "0x62caa79",
+          "bytes": "415d",
+          "mnemonic": "pop",
+          "operands": "r13"
+        },
+        {
+          "address": "0x62caa7b",
+          "bytes": "415e",
+          "mnemonic": "pop",
+          "operands": "r14"
+        },
+        {
+          "address": "0x62caa7d",
+          "bytes": "415f",
+          "mnemonic": "pop",
+          "operands": "r15"
+        },
+        {
+          "address": "0x62caa7f",
+          "bytes": "5d",
+          "mnemonic": "pop",
+          "operands": "rbp"
+        },
+        {
+          "address": "0x62caa80",
+          "bytes": "e9f90a0000",
+          "mnemonic": "jmp",
+          "operands": "0x62cb57e"
+        }
+      ],
+      "precisionBoundary": "Convexity/inset/ear-clipping implementation details were not expanded further because they affect shader triangulation of selected regions rather than the server gameplay percent."
+    },
+    "orderingLambdas": [
+      {
+        "method": {
+          "className": "Crumble.PolygonTriangulator+<>c",
+          "method": "<Triangulate>b__8_0",
+          "rawFileOffset": "0x62c877f",
+          "nativeAddress": "0x62cc77f",
+          "length": 20,
+          "sha256": "d54daf392bea9af07d6ae12ab54a0dd685cd72c4ab88db0168ec9a4cf646c184"
+        },
+        "meaning": "Split-list tuple comparator compares the float parameter using System.Single.CompareTo.",
+        "instructions": [
+          {
+            "address": "0x62cc77f",
+            "bytes": "50",
+            "mnemonic": "push",
+            "operands": "rax"
+          },
+          {
+            "address": "0x62cc780",
+            "bytes": "4889e7",
+            "mnemonic": "mov",
+            "operands": "rdi, rsp"
+          },
+          {
+            "address": "0x62cc783",
+            "bytes": "488937",
+            "mnemonic": "mov",
+            "operands": "qword ptr [rdi], rsi"
+          },
+          {
+            "address": "0x62cc786",
+            "bytes": "660f6ec2",
+            "mnemonic": "movd",
+            "operands": "xmm0, edx"
+          },
+          {
+            "address": "0x62cc78a",
+            "bytes": "31f6",
+            "mnemonic": "xor",
+            "operands": "esi, esi"
+          },
+          {
+            "address": "0x62cc78c",
+            "bytes": "e823d2bf05",
+            "mnemonic": "call",
+            "operands": "0xbec99b4"
+          },
+          {
+            "address": "0x62cc791",
+            "bytes": "59",
+            "mnemonic": "pop",
+            "operands": "rcx"
+          },
+          {
+            "address": "0x62cc792",
+            "bytes": "c3",
+            "mnemonic": "ret",
+            "operands": ""
+          }
+        ]
+      },
+      {
+        "method": {
+          "className": "Crumble.PolygonTriangulator+<>c__DisplayClass8_1",
+          "method": "<Triangulate>b__1",
+          "rawFileOffset": "0x62c8793",
+          "nativeAddress": "0x62cc793",
+          "length": 286,
+          "sha256": "5c48b6e3c504258f5c7163abede7c4ec46b2630f32e1ba099aea5b76e47f8041"
+        },
+        "meaning": "Outgoing half-edge comparator loads heTo endpoint, subtracts current node pos, obtains atan2f(deltaY,deltaX), and compares the two float angles.",
+        "anchors": [
+          {
+            "address": "0x62cc832",
+            "bytes": "f20f104b10",
+            "mnemonic": "movsd",
+            "operands": "xmm1, qword ptr [rbx + 0x10]"
+          },
+          {
+            "address": "0x62cc837",
+            "bytes": "4863cd",
+            "mnemonic": "movsxd",
+            "operands": "rcx, ebp"
+          },
+          {
+            "address": "0x62cc83a",
+            "bytes": "8b748820",
+            "mnemonic": "mov",
+            "operands": "esi, dword ptr [rax + rcx*4 + 0x20]"
+          },
+          {
+            "address": "0x62cc83e",
+            "bytes": "0f5cc1",
+            "mnemonic": "subps",
+            "operands": "xmm0, xmm1"
+          },
+          {
+            "address": "0x62cc841",
+            "bytes": "0f29442430",
+            "mnemonic": "movaps",
+            "operands": "xmmword ptr [rsp + 0x30], xmm0"
+          },
+          {
+            "address": "0x62cc846",
+            "bytes": "f30f16c8",
+            "mnemonic": "movshdup",
+            "operands": "xmm1, xmm0"
+          },
+          {
+            "address": "0x62cc84a",
+            "bytes": "0f294c2440",
+            "mnemonic": "movaps",
+            "operands": "xmmword ptr [rsp + 0x40], xmm1"
+          },
+          {
+            "address": "0x62cc84f",
+            "bytes": "498b16",
+            "mnemonic": "mov",
+            "operands": "rdx, qword ptr [r14]"
+          },
+          {
+            "address": "0x62cc852",
+            "bytes": "e89fc38e03",
+            "mnemonic": "call",
+            "operands": "0x9bb8bf6"
+          },
+          {
+            "address": "0x62cc857",
+            "bytes": "f20f104b10",
+            "mnemonic": "movsd",
+            "operands": "xmm1, qword ptr [rbx + 0x10]"
+          },
+          {
+            "address": "0x62cc85c",
+            "bytes": "0f5cc1",
+            "mnemonic": "subps",
+            "operands": "xmm0, xmm1"
+          },
+          {
+            "address": "0x62cc85f",
+            "bytes": "0f29442420",
+            "mnemonic": "movaps",
+            "operands": "xmmword ptr [rsp + 0x20], xmm0"
+          },
+          {
+            "address": "0x62cc864",
+            "bytes": "f30f16c0",
+            "mnemonic": "movshdup",
+            "operands": "xmm0, xmm0"
+          },
+          {
+            "address": "0x62cc868",
+            "bytes": "0f29442410",
+            "mnemonic": "movaps",
+            "operands": "xmmword ptr [rsp + 0x10], xmm0"
+          },
+          {
+            "address": "0x62cc86d",
+            "bytes": "0f28442440",
+            "mnemonic": "movaps",
+            "operands": "xmm0, xmmword ptr [rsp + 0x40]"
+          },
+          {
+            "address": "0x62cc872",
+            "bytes": "0f284c2430",
+            "mnemonic": "movaps",
+            "operands": "xmm1, xmmword ptr [rsp + 0x30]"
+          },
+          {
+            "address": "0x62cc877",
+            "bytes": "e8d438bd06",
+            "mnemonic": "call",
+            "operands": "0xcea0150"
+          },
+          {
+            "address": "0x62cc87c",
+            "bytes": "488d5c240c",
+            "mnemonic": "lea",
+            "operands": "rbx, [rsp + 0xc]"
+          },
+          {
+            "address": "0x62cc881",
+            "bytes": "f30f1103",
+            "mnemonic": "movss",
+            "operands": "dword ptr [rbx], xmm0"
+          },
+          {
+            "address": "0x62cc885",
+            "bytes": "0f28442410",
+            "mnemonic": "movaps",
+            "operands": "xmm0, xmmword ptr [rsp + 0x10]"
+          },
+          {
+            "address": "0x62cc88a",
+            "bytes": "0f284c2420",
+            "mnemonic": "movaps",
+            "operands": "xmm1, xmmword ptr [rsp + 0x20]"
+          },
+          {
+            "address": "0x62cc88f",
+            "bytes": "e8bc38bd06",
+            "mnemonic": "call",
+            "operands": "0xcea0150"
+          },
+          {
+            "address": "0x62cc894",
+            "bytes": "4889df",
+            "mnemonic": "mov",
+            "operands": "rdi, rbx"
+          },
+          {
+            "address": "0x62cc897",
+            "bytes": "31f6",
+            "mnemonic": "xor",
+            "operands": "esi, esi"
+          },
+          {
+            "address": "0x62cc899",
+            "bytes": "e816d1bf05",
+            "mnemonic": "call",
+            "operands": "0xbec99b4"
+          }
+        ]
+      }
+    ],
+    "importBindings": [
+      {
+        "name": "sinf",
+        "pltAddress": "0xcea0140",
+        "gotAddress": "0xd72b110",
+        "relaIndex": 19
+      },
+      {
+        "name": "atan2f",
+        "pltAddress": "0xcea0150",
+        "gotAddress": "0xd72b118",
+        "relaIndex": 20
+      },
+      {
+        "name": "sincosf",
+        "pltAddress": "0xcea0160",
+        "gotAddress": "0xd72b120",
+        "relaIndex": 21
+      }
+    ]
+  },
+  "floatAndDegenerateRules": {
+    "status": "bound_client_renderer_rules",
+    "precision": "Coordinates, determinants, intersection parameters, squared distances, adjacency atan2f angles and face-sign sums are float32. Vector operations use subps/mulps/hsubps/haddps; scalar arithmetic uses divss/mulss/addss. This is distinct from the separately verified binary64 BasisPoint conversion of server integer area.",
+    "segmentHelper": {
+      "method": {
+        "className": "Crumble.PolygonTriangulator",
+        "method": "SegmentsIntersect",
+        "rawFileOffset": "0x62c6722",
+        "nativeAddress": "0x62ca722",
+        "length": 158,
+        "sha256": "c1d17630a216648692e8e33c400eab473d89775523ffcb86852bc2156e10e89a"
+      },
+      "formula": "r=B-A,s=D-C,det=cross(r,s); if abs(det)<float32(1e-8), return false. Otherwise t=cross(C-A,s)/det and u=cross(C-A,r)/det; accept t,u in[0,1] and return A+t*r.",
+      "parallelAndCollinear": "Both parallel and collinear pairs are rejected by the determinant threshold; collinear overlap is not split by this helper.",
+      "constants": [
+        {
+          "instructionAddress": "0x62ca740",
+          "nativeAddress": "0x1fbdd90",
+          "fileOffset": "0x1fbdd90",
+          "bytesHex": "77cc2b32",
+          "float32": 9.99999993922529e-9
+        },
+        {
+          "instructionAddress": "0x62ca78f",
+          "nativeAddress": "0x1fbde00",
+          "fileOffset": "0x1fbde00",
+          "bytesHex": "0000803f",
+          "float32": 1
+        },
+        {
+          "instructionAddress": "0x62ca79d",
+          "nativeAddress": "0x1fbde00",
+          "fileOffset": "0x1fbde00",
+          "bytesHex": "0000803f",
+          "float32": 1
+        }
+      ],
+      "anchors": [
+        {
+          "address": "0x62ca722",
+          "bytes": "0f5cc8",
+          "mnemonic": "subps",
+          "operands": "xmm1, xmm0"
+        },
+        {
+          "address": "0x62ca725",
+          "bytes": "0f5cda",
+          "mnemonic": "subps",
+          "operands": "xmm3, xmm2"
+        },
+        {
+          "address": "0x62ca728",
+          "bytes": "0fc6dbe1",
+          "mnemonic": "shufps",
+          "operands": "xmm3, xmm3, 0xe1"
+        },
+        {
+          "address": "0x62ca72c",
+          "bytes": "0f28e1",
+          "mnemonic": "movaps",
+          "operands": "xmm4, xmm1"
+        },
+        {
+          "address": "0x62ca72f",
+          "bytes": "0f59e3",
+          "mnemonic": "mulps",
+          "operands": "xmm4, xmm3"
+        },
+        {
+          "address": "0x62ca732",
+          "bytes": "f20f7de4",
+          "mnemonic": "hsubps",
+          "operands": "xmm4, xmm4"
+        },
+        {
+          "address": "0x62ca736",
+          "bytes": "0f282d7320cffb",
+          "mnemonic": "movaps",
+          "operands": "xmm5, xmmword ptr [rip - 0x430df8d]"
+        },
+        {
+          "address": "0x62ca73d",
+          "bytes": "0f54ec",
+          "mnemonic": "andps",
+          "operands": "xmm5, xmm4"
+        },
+        {
+          "address": "0x62ca740",
+          "bytes": "f30f10354836cffb",
+          "mnemonic": "movss",
+          "operands": "xmm6, dword ptr [rip - 0x430c9b8]"
+        },
+        {
+          "address": "0x62ca748",
+          "bytes": "0f2ef5",
+          "mnemonic": "ucomiss",
+          "operands": "xmm6, xmm5"
+        },
+        {
+          "address": "0x62ca74b",
+          "bytes": "760e",
+          "mnemonic": "jbe",
+          "operands": "0x62ca75b"
+        },
+        {
+          "address": "0x62ca74d",
+          "bytes": "48c70700000000",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rdi], 0"
+        },
+        {
+          "address": "0x62ca754",
+          "bytes": "31c0",
+          "mnemonic": "xor",
+          "operands": "eax, eax"
+        },
+        {
+          "address": "0x62ca756",
+          "bytes": "8906",
+          "mnemonic": "mov",
+          "operands": "dword ptr [rsi], eax"
+        },
+        {
+          "address": "0x62ca758",
+          "bytes": "8902",
+          "mnemonic": "mov",
+          "operands": "dword ptr [rdx], eax"
+        },
+        {
+          "address": "0x62ca75a",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x62ca75b",
+          "bytes": "0f5cd0",
+          "mnemonic": "subps",
+          "operands": "xmm2, xmm0"
+        },
+        {
+          "address": "0x62ca75e",
+          "bytes": "0f59da",
+          "mnemonic": "mulps",
+          "operands": "xmm3, xmm2"
+        },
+        {
+          "address": "0x62ca761",
+          "bytes": "f20f7ddb",
+          "mnemonic": "hsubps",
+          "operands": "xmm3, xmm3"
+        },
+        {
+          "address": "0x62ca765",
+          "bytes": "f30f5edc",
+          "mnemonic": "divss",
+          "operands": "xmm3, xmm4"
+        },
+        {
+          "address": "0x62ca769",
+          "bytes": "f30f111e",
+          "mnemonic": "movss",
+          "operands": "dword ptr [rsi], xmm3"
+        },
+        {
+          "address": "0x62ca76d",
+          "bytes": "0f28d9",
+          "mnemonic": "movaps",
+          "operands": "xmm3, xmm1"
+        },
+        {
+          "address": "0x62ca770",
+          "bytes": "0fc6d9e1",
+          "mnemonic": "shufps",
+          "operands": "xmm3, xmm1, 0xe1"
+        },
+        {
+          "address": "0x62ca774",
+          "bytes": "0f59da",
+          "mnemonic": "mulps",
+          "operands": "xmm3, xmm2"
+        },
+        {
+          "address": "0x62ca777",
+          "bytes": "f20f7ddb",
+          "mnemonic": "hsubps",
+          "operands": "xmm3, xmm3"
+        },
+        {
+          "address": "0x62ca77b",
+          "bytes": "f30f5edc",
+          "mnemonic": "divss",
+          "operands": "xmm3, xmm4"
+        },
+        {
+          "address": "0x62ca77f",
+          "bytes": "f30f111a",
+          "mnemonic": "movss",
+          "operands": "dword ptr [rdx], xmm3"
+        },
+        {
+          "address": "0x62ca783",
+          "bytes": "f30f1016",
+          "mnemonic": "movss",
+          "operands": "xmm2, dword ptr [rsi]"
+        },
+        {
+          "address": "0x62ca787",
+          "bytes": "0f57e4",
+          "mnemonic": "xorps",
+          "operands": "xmm4, xmm4"
+        },
+        {
+          "address": "0x62ca78a",
+          "bytes": "0f2ee2",
+          "mnemonic": "ucomiss",
+          "operands": "xmm4, xmm2"
+        },
+        {
+          "address": "0x62ca78d",
+          "bytes": "7727",
+          "mnemonic": "ja",
+          "operands": "0x62ca7b6"
+        },
+        {
+          "address": "0x62ca78f",
+          "bytes": "0f2e156a36cffb",
+          "mnemonic": "ucomiss",
+          "operands": "xmm2, dword ptr [rip - 0x430c996]"
+        },
+        {
+          "address": "0x62ca796",
+          "bytes": "771e",
+          "mnemonic": "ja",
+          "operands": "0x62ca7b6"
+        },
+        {
+          "address": "0x62ca798",
+          "bytes": "0f2ee3",
+          "mnemonic": "ucomiss",
+          "operands": "xmm4, xmm3"
+        },
+        {
+          "address": "0x62ca79b",
+          "bytes": "7719",
+          "mnemonic": "ja",
+          "operands": "0x62ca7b6"
+        },
+        {
+          "address": "0x62ca79d",
+          "bytes": "0f2e1d5c36cffb",
+          "mnemonic": "ucomiss",
+          "operands": "xmm3, dword ptr [rip - 0x430c9a4]"
+        },
+        {
+          "address": "0x62ca7a4",
+          "bytes": "7710",
+          "mnemonic": "ja",
+          "operands": "0x62ca7b6"
+        },
+        {
+          "address": "0x62ca7a6",
+          "bytes": "f30f12d2",
+          "mnemonic": "movsldup",
+          "operands": "xmm2, xmm2"
+        },
+        {
+          "address": "0x62ca7aa",
+          "bytes": "0f59ca",
+          "mnemonic": "mulps",
+          "operands": "xmm1, xmm2"
+        },
+        {
+          "address": "0x62ca7ad",
+          "bytes": "0f58c8",
+          "mnemonic": "addps",
+          "operands": "xmm1, xmm0"
+        },
+        {
+          "address": "0x62ca7b0",
+          "bytes": "0f130f",
+          "mnemonic": "movlps",
+          "operands": "qword ptr [rdi], xmm1"
+        },
+        {
+          "address": "0x62ca7b3",
+          "bytes": "b001",
+          "mnemonic": "mov",
+          "operands": "al, 1"
+        },
+        {
+          "address": "0x62ca7b5",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": ""
+        },
+        {
+          "address": "0x62ca7b6",
+          "bytes": "48c70700000000",
+          "mnemonic": "mov",
+          "operands": "qword ptr [rdi], 0"
+        },
+        {
+          "address": "0x62ca7bd",
+          "bytes": "31c0",
+          "mnemonic": "xor",
+          "operands": "eax, eax"
+        },
+        {
+          "address": "0x62ca7bf",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": ""
+        }
+      ]
+    },
+    "callerEndpointFilter": {
+      "rule": "After helper succeeds, require EndpointEps<=t,u<=float32(1-EndpointEps). EndpointEps is9.999999747378752e-5 and upper bound0.9998999834060669. Thus endpoint-near crossings are excluded; equality to the actual float constants is included.",
+      "anchors": [
+        {
+          "address": "0x62c9774",
+          "bytes": "f30f1054246c",
+          "mnemonic": "movss",
+          "operands": "xmm2, dword ptr [rsp + 0x6c]"
+        },
+        {
+          "address": "0x62c977a",
+          "bytes": "f30f1005ca4bcffb",
+          "mnemonic": "movss",
+          "operands": "xmm0, dword ptr [rip - 0x430b436]"
+        },
+        {
+          "address": "0x62c9782",
+          "bytes": "0f2ec2",
+          "mnemonic": "ucomiss",
+          "operands": "xmm0, xmm2"
+        },
+        {
+          "address": "0x62c9785",
+          "bytes": "0f8707010000",
+          "mnemonic": "ja",
+          "operands": "0x62c9892"
+        },
+        {
+          "address": "0x62c978b",
+          "bytes": "0f2e155648cffb",
+          "mnemonic": "ucomiss",
+          "operands": "xmm2, dword ptr [rip - 0x430b7aa]"
+        },
+        {
+          "address": "0x62c9792",
+          "bytes": "0f87fa000000",
+          "mnemonic": "ja",
+          "operands": "0x62c9892"
+        },
+        {
+          "address": "0x62c9798",
+          "bytes": "f30f104c2468",
+          "mnemonic": "movss",
+          "operands": "xmm1, dword ptr [rsp + 0x68]"
+        },
+        {
+          "address": "0x62c979e",
+          "bytes": "f30f1005a64bcffb",
+          "mnemonic": "movss",
+          "operands": "xmm0, dword ptr [rip - 0x430b45a]"
+        },
+        {
+          "address": "0x62c97a6",
+          "bytes": "0f2ec1",
+          "mnemonic": "ucomiss",
+          "operands": "xmm0, xmm1"
+        },
+        {
+          "address": "0x62c97a9",
+          "bytes": "0f87e3000000",
+          "mnemonic": "ja",
+          "operands": "0x62c9892"
+        },
+        {
+          "address": "0x62c97af",
+          "bytes": "0f2e0d3248cffb",
+          "mnemonic": "ucomiss",
+          "operands": "xmm1, dword ptr [rip - 0x430b7ce]"
+        },
+        {
+          "address": "0x62c97b6",
+          "bytes": "0f87d6000000",
+          "mnemonic": "ja",
+          "operands": "0x62c9892"
+        }
+      ],
+      "constants": [
+        {
+          "instructionAddress": "0x62c977a",
+          "nativeAddress": "0x1fbe34c",
+          "fileOffset": "0x1fbe34c",
+          "bytesHex": "17b7d138",
+          "float32": 0.00009999999747378752
+        },
+        {
+          "instructionAddress": "0x62c978b",
+          "nativeAddress": "0x1fbdfe8",
+          "fileOffset": "0x1fbdfe8",
+          "bytesHex": "72f97f3f",
+          "float32": 0.9998999834060669
+        },
+        {
+          "instructionAddress": "0x62c979e",
+          "nativeAddress": "0x1fbe34c",
+          "fileOffset": "0x1fbe34c",
+          "bytesHex": "17b7d138",
+          "float32": 0.00009999999747378752
+        },
+        {
+          "instructionAddress": "0x62c97af",
+          "nativeAddress": "0x1fbdfe8",
+          "fileOffset": "0x1fbdfe8",
+          "bytesHex": "72f97f3f",
+          "float32": 0.9998999834060669
+        }
+      ]
+    },
+    "nodeMerge": {
+      "method": {
+        "className": "Crumble.PolygonTriangulator",
+        "method": "FindOrAddNode",
+        "rawFileOffset": "0x62c67c0",
+        "nativeAddress": "0x62ca7c0",
+        "length": 256,
+        "sha256": "8759e478a3d0f76cda7209609b652c9924d88b178ac2a321fe0f437a863d55cc"
+      },
+      "rule": "Find first existing node for which float32(dx*dx+dy*dy)<float32(eps*eps). Caller passes eps=0.5 in local mesh units; equality at squared distance0.25 does not merge. Otherwise append the new node.",
+      "anchors": [
+        {
+          "address": "0x62ca81a",
+          "bytes": "f30f1044240c",
+          "mnemonic": "movss",
+          "operands": "xmm0, dword ptr [rsp + 0xc]"
+        },
+        {
+          "address": "0x62ca820",
+          "bytes": "f30f59c0",
+          "mnemonic": "mulss",
+          "operands": "xmm0, xmm0"
+        },
+        {
+          "address": "0x62ca824",
+          "bytes": "f30f1144240c",
+          "mnemonic": "movss",
+          "operands": "dword ptr [rsp + 0xc], xmm0"
+        },
+        {
+          "address": "0x62ca82a",
+          "bytes": "31ed",
+          "mnemonic": "xor",
+          "operands": "ebp, ebp"
+        },
+        {
+          "address": "0x62ca82c",
+          "bytes": "4c8d3585176d07",
+          "mnemonic": "lea",
+          "operands": "r14, [rip + 0x76d1785]"
+        },
+        {
+          "address": "0x62ca833",
+          "bytes": "498b16",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [r14]"
+        },
+        {
+          "address": "0x62ca836",
+          "bytes": "4889df",
+          "mnemonic": "mov",
+          "operands": "rdi, rbx"
+        },
+        {
+          "address": "0x62ca839",
+          "bytes": "89ee",
+          "mnemonic": "mov",
+          "operands": "esi, ebp"
+        },
+        {
+          "address": "0x62ca83b",
+          "bytes": "e8b6e38e03",
+          "mnemonic": "call",
+          "operands": "0x9bb8bf6"
+        },
+        {
+          "address": "0x62ca840",
+          "bytes": "0f5c442410",
+          "mnemonic": "subps",
+          "operands": "xmm0, xmmword ptr [rsp + 0x10]"
+        },
+        {
+          "address": "0x62ca845",
+          "bytes": "0f59c0",
+          "mnemonic": "mulps",
+          "operands": "xmm0, xmm0"
+        },
+        {
+          "address": "0x62ca848",
+          "bytes": "f20f7cc0",
+          "mnemonic": "haddps",
+          "operands": "xmm0, xmm0"
+        },
+        {
+          "address": "0x62ca84c",
+          "bytes": "f30f104c240c",
+          "mnemonic": "movss",
+          "operands": "xmm1, dword ptr [rsp + 0xc]"
+        },
+        {
+          "address": "0x62ca852",
+          "bytes": "0f2ec8",
+          "mnemonic": "ucomiss",
+          "operands": "xmm1, xmm0"
+        },
+        {
+          "address": "0x62ca855",
+          "bytes": "7759",
+          "mnemonic": "ja",
+          "operands": "0x62ca8b0"
+        },
+        {
+          "address": "0x62ca857",
+          "bytes": "ffc5",
+          "mnemonic": "inc",
+          "operands": "ebp"
+        },
+        {
+          "address": "0x62ca859",
+          "bytes": "8b4318",
+          "mnemonic": "mov",
+          "operands": "eax, dword ptr [rbx + 0x18]"
+        },
+        {
+          "address": "0x62ca85c",
+          "bytes": "39c5",
+          "mnemonic": "cmp",
+          "operands": "ebp, eax"
+        },
+        {
+          "address": "0x62ca85e",
+          "bytes": "7cd3",
+          "mnemonic": "jl",
+          "operands": "0x62ca833"
+        }
+      ],
+      "callConstant": {
+        "instructionAddress": "0x62c97fa",
+        "nativeAddress": "0x1fbdfe0",
+        "fileOffset": "0x1fbdfe0",
+        "bytesHex": "0000003f",
+        "float32": 0.5
+      },
+      "unitBoundary": "This tolerance belongs to local display coordinates after RectTransform normalization; it must not be transplanted blindly into a normalized server area algorithm."
+    },
+    "tinySplitEdges": {
+      "rule": "Split-edge squared lengths below float32(1e-8) are skipped. Equality to the threshold is retained.",
+      "anchors": [
+        {
+          "address": "0x62c9b19",
+          "bytes": "0f284c2430",
+          "mnemonic": "movaps",
+          "operands": "xmm1, xmmword ptr [rsp + 0x30]"
+        },
+        {
+          "address": "0x62c9b1e",
+          "bytes": "0f5cc8",
+          "mnemonic": "subps",
+          "operands": "xmm1, xmm0"
+        },
+        {
+          "address": "0x62c9b21",
+          "bytes": "0f59c9",
+          "mnemonic": "mulps",
+          "operands": "xmm1, xmm1"
+        },
+        {
+          "address": "0x62c9b24",
+          "bytes": "f20f7cc9",
+          "mnemonic": "haddps",
+          "operands": "xmm1, xmm1"
+        },
+        {
+          "address": "0x62c9b28",
+          "bytes": "f30f10056042cffb",
+          "mnemonic": "movss",
+          "operands": "xmm0, dword ptr [rip - 0x430bda0]"
+        },
+        {
+          "address": "0x62c9b30",
+          "bytes": "0f2ec1",
+          "mnemonic": "ucomiss",
+          "operands": "xmm0, xmm1"
+        },
+        {
+          "address": "0x62c9b33",
+          "bytes": "4c89e5",
+          "mnemonic": "mov",
+          "operands": "rbp, r12"
+        },
+        {
+          "address": "0x62c9b36",
+          "bytes": "7618",
+          "mnemonic": "jbe",
+          "operands": "0x62c9b50"
+        },
+        {
+          "address": "0x62c9b38",
+          "bytes": "4489f3",
+          "mnemonic": "mov",
+          "operands": "ebx, r14d"
+        },
+        {
+          "address": "0x62c9b3b",
+          "bytes": "41ffc5",
+          "mnemonic": "inc",
+          "operands": "r13d"
+        },
+        {
+          "address": "0x62c9b3e",
+          "bytes": "4189de",
+          "mnemonic": "mov",
+          "operands": "r14d, ebx"
+        },
+        {
+          "address": "0x62c9b41",
+          "bytes": "453b6f18",
+          "mnemonic": "cmp",
+          "operands": "r13d, dword ptr [r15 + 0x18]"
+        },
+        {
+          "address": "0x62c9b45",
+          "bytes": "0f8c6bffffff",
+          "mnemonic": "jl",
+          "operands": "0x62c9ab6"
+        },
+        {
+          "address": "0x62c9b4b",
+          "bytes": "e98d000000",
+          "mnemonic": "jmp",
+          "operands": "0x62c9bdd"
+        },
+        {
+          "address": "0x62c9c2b",
+          "bytes": "0f284c2430",
+          "mnemonic": "movaps",
+          "operands": "xmm1, xmmword ptr [rsp + 0x30]"
+        },
+        {
+          "address": "0x62c9c30",
+          "bytes": "0f5cc8",
+          "mnemonic": "subps",
+          "operands": "xmm1, xmm0"
+        },
+        {
+          "address": "0x62c9c33",
+          "bytes": "0f59c9",
+          "mnemonic": "mulps",
+          "operands": "xmm1, xmm1"
+        },
+        {
+          "address": "0x62c9c36",
+          "bytes": "f20f7cc9",
+          "mnemonic": "haddps",
+          "operands": "xmm1, xmm1"
+        },
+        {
+          "address": "0x62c9c3a",
+          "bytes": "0f2e0d4f41cffb",
+          "mnemonic": "ucomiss",
+          "operands": "xmm1, dword ptr [rip - 0x430beb1]"
+        },
+        {
+          "address": "0x62c9c41",
+          "bytes": "0f8282000000",
+          "mnemonic": "jb",
+          "operands": "0x62c9cc9"
+        }
+      ],
+      "constants": [
+        {
+          "instructionAddress": "0x62c9b28",
+          "nativeAddress": "0x1fbdd90",
+          "fileOffset": "0x1fbdd90",
+          "bytesHex": "77cc2b32",
+          "float32": 9.99999993922529e-9
+        },
+        {
+          "instructionAddress": "0x62c9c3a",
+          "nativeAddress": "0x1fbdd90",
+          "fileOffset": "0x1fbdd90",
+          "bytesHex": "77cc2b32",
+          "float32": 9.99999993922529e-9
+        }
+      ]
+    },
+    "zeroFace": "Face selection rejects S==0; it does not quantize a face area into a gameplay percentage."
+  },
+  "excludedNamedHelpers": [
+    {
+      "method": {
+        "className": "Crumble.VectorExtensionMethods",
+        "method": "Area",
+        "rawFileOffset": "0x64a688c",
+        "nativeAddress": "0x64aa88c",
+        "length": 9,
+        "sha256": "d84d55dde83c8169031829641c54ee672264dc55f4d8641820863e95635242d7"
+      },
+      "meaning": "Vector2.Area returns x*y, dimension product only.",
+      "instructions": [
+        {
+          "address": "0x64aa88c",
+          "bytes": "f30f16c8",
+          "mnemonic": "movshdup",
+          "operands": "xmm1, xmm0"
+        },
+        {
+          "address": "0x64aa890",
+          "bytes": "f30f59c1",
+          "mnemonic": "mulss",
+          "operands": "xmm0, xmm1"
+        },
+        {
+          "address": "0x64aa894",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": ""
+        }
+      ]
+    },
+    {
+      "method": {
+        "className": "Crumble.VectorExtensionMethods",
+        "method": "Area",
+        "rawFileOffset": "0x64a7105",
+        "nativeAddress": "0x64ab105",
+        "length": 14,
+        "sha256": "4ab83167a54de43d806ff5985ecaf53944c318ba75e1044b07d7298fca0bd55b"
+      },
+      "meaning": "Vector2Int.Area returns packed x*y integer dimension product only.",
+      "instructions": [
+        {
+          "address": "0x64ab105",
+          "bytes": "4889f8",
+          "mnemonic": "mov",
+          "operands": "rax, rdi"
+        },
+        {
+          "address": "0x64ab108",
+          "bytes": "4889f9",
+          "mnemonic": "mov",
+          "operands": "rcx, rdi"
+        },
+        {
+          "address": "0x64ab10b",
+          "bytes": "48c1e920",
+          "mnemonic": "shr",
+          "operands": "rcx, 0x20"
+        },
+        {
+          "address": "0x64ab10f",
+          "bytes": "0fafc1",
+          "mnemonic": "imul",
+          "operands": "eax, ecx"
+        },
+        {
+          "address": "0x64ab112",
+          "bytes": "c3",
+          "mnemonic": "ret",
+          "operands": ""
+        }
+      ]
+    }
+  ],
+  "searchBoundary": {
+    "evidenceId": "local-stellar-area-wide-search-findings-20261015",
+    "status": "all_mapped_assemblies_scanned_focused_native_captures_analyzed",
+    "replacesOldNegativeBoundary": {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\stellar-area-symbol-boundary.json",
+      "sha256": "4cd04df6a8ad9c9a8a1dbc96f32d73cdf5285026a50e0182f62e64ce2f43894d",
+      "oldScope": "Only named methods in Base/Feature/GrpcServices/GrpcData; did not include full common geometry libraries or signatures/setter callers",
+      "correction": "Named-area absence never established server exclusivity. Today inventories all mapped output DLLs and selects response-to-record converter plus concrete renderer pipeline."
+    },
+    "allAssemblyScope": {
+      "directory": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\database\\recovery-evidence\\cpp2il-mapped",
+      "assemblies": 174,
+      "counts": {
+        "types": 31670,
+        "methods": 201699,
+        "fields": 129924,
+        "nativeAttributedMethods": 194692
+      },
+      "evidenceFile": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-all-assembly-search.json",
+      "sha256": "d276ede496b790e355628422915d11ac5a9da4b92086e1c33cb1697722645616",
+      "allRowsScanned": true,
+      "keywords": "area|coverage|shoelace|triangulat|polygon|convex|intersection|crossing|winding|surface|clipper|tessell|perimeter|hull|starshard|stellar|constell"
+    },
+    "newMetadataObservations": [
+      {
+        "className": "Crumble.CommandBuilders.EnhancementCommandBuilder",
+        "method": "ToStellarLinkConstellation",
+        "fileOffset": "0x6377707",
+        "length": 933,
+        "meaning": "Focused protobuf-to-domain conversion entry, not examined in yesterday native captures."
+      },
+      {
+        "className": "Crumble.Apis.StellarLinkApi+<>c",
+        "method": "<RerollStellarLinkAsync>b__4_0",
+        "fileOffset": "0x645621A",
+        "length": 403,
+        "meaning": "Reroll response transaction lambda; concrete candidate caller of converter."
+      },
+      {
+        "className": "Crumble.VectorExtensionMethods",
+        "methods": [
+          {
+            "fileOffset": "0x64A688C",
+            "length": 9,
+            "signatureHex": "00010c1181f5"
+          },
+          {
+            "fileOffset": "0x64A7105",
+            "length": 14,
+            "signatureHex": "0001081181fd"
+          }
+        ],
+        "meaning": "Only two additional Crumble methods literally named Area, signatures take a single value-type vector rather than polygon list. Actual multiplication semantics need bounded executable bytes."
+      },
+      {
+        "libraries": [
+          "Unity.Cinemachine",
+          "Unity.RenderPipelines.Universal.2D.Runtime",
+          "UnityEngine.CoreModule"
+        ],
+        "meaning": "Packaged Clipper/offset/tessellation/geometry area helpers do exist. No call to them from Stellar code has yet been established, so cannot infer they determine gameplay area."
+      }
+    ],
+    "namedAreaCandidates": [
+      {
+        "className": "Crumble.VectorExtensionMethods",
+        "method": "Area",
+        "assembly": "Crumble.Base",
+        "methodDefRow": 2368,
+        "signatureHex": "00010c1181f5",
+        "fileOffset": "0x64A688C",
+        "length": 9,
+        "nativeAddressCandidate": "0x64aa88c"
+      },
+      {
+        "className": "Crumble.VectorExtensionMethods",
+        "method": "Area",
+        "assembly": "Crumble.Base",
+        "methodDefRow": 2398,
+        "signatureHex": "0001081181fd",
+        "fileOffset": "0x64A7105",
+        "length": 14,
+        "nativeAddressCandidate": "0x64ab105"
+      },
+      {
+        "className": "Crumble.StellarLinkConstellation",
+        "method": "get_CoveredAreaPercent",
+        "assembly": "Crumble.Base",
+        "methodDefRow": 4622,
+        "signatureHex": "200008",
+        "fileOffset": "0x64F68BE",
+        "length": 37,
+        "nativeAddressCandidate": "0x64fa8be"
+      },
+      {
+        "className": "Crumble.StellarLinkConstellation",
+        "method": "set_CoveredAreaPercent",
+        "assembly": "Crumble.Base",
+        "methodDefRow": 4623,
+        "signatureHex": "20010108",
+        "fileOffset": "0x64F68E3",
+        "length": 52,
+        "nativeAddressCandidate": "0x64fa8e3"
+      },
+      {
+        "className": "Crumble.Services.Game.Protobuf.Constellation",
+        "method": "get_CoveredAreaPercent",
+        "assembly": "Crumble.GrpcServices",
+        "methodDefRow": 9609,
+        "signatureHex": "200008",
+        "fileOffset": "0x6D624F1",
+        "length": 4,
+        "nativeAddressCandidate": "0x6d664f1"
+      },
+      {
+        "className": "Crumble.Services.Game.Protobuf.Constellation",
+        "method": "set_CoveredAreaPercent",
+        "assembly": "Crumble.GrpcServices",
+        "methodDefRow": 9610,
+        "signatureHex": "20010108",
+        "fileOffset": "0x6D624F5",
+        "length": 4,
+        "nativeAddressCandidate": "0x6d664f5"
+      },
+      {
+        "className": "Unity.Cinemachine.ClipperBase",
+        "method": "Area",
+        "assembly": "Unity.Cinemachine",
+        "methodDefRow": 1551,
+        "signatureHex": "00010d1282d8",
+        "fileOffset": "0xC5B51D6",
+        "length": 89,
+        "nativeAddressCandidate": "0xc5b91d6"
+      },
+      {
+        "className": "Unity.Cinemachine.PolyPath64",
+        "method": "Area",
+        "assembly": "Unity.Cinemachine",
+        "methodDefRow": 1692,
+        "signatureHex": "20000d",
+        "fileOffset": "0xC5C0E8D",
+        "length": 467,
+        "nativeAddressCandidate": "0xc5c4e8d"
+      },
+      {
+        "className": "Unity.Cinemachine.PolyPathD",
+        "method": "Area",
+        "assembly": "Unity.Cinemachine",
+        "methodDefRow": 1700,
+        "signatureHex": "20000d",
+        "fileOffset": "0xC5C14A4",
+        "length": 467,
+        "nativeAddressCandidate": "0xc5c54a4"
+      },
+      {
+        "className": "Unity.Cinemachine.Clipper",
+        "method": "Area",
+        "assembly": "Unity.Cinemachine",
+        "methodDefRow": 1764,
+        "signatureHex": "00010d1512290111829c",
+        "fileOffset": "0xC5C1060",
+        "length": 443,
+        "nativeAddressCandidate": "0xc5c5060"
+      },
+      {
+        "className": "Unity.Cinemachine.Clipper",
+        "method": "Area",
+        "assembly": "Unity.Cinemachine",
+        "methodDefRow": 1765,
+        "signatureHex": "00010d151229011512290111829c",
+        "fileOffset": "0xC5C71A4",
+        "length": 384,
+        "nativeAddressCandidate": "0xc5cb1a4"
+      },
+      {
+        "className": "Unity.Cinemachine.Clipper",
+        "method": "Area",
+        "assembly": "Unity.Cinemachine",
+        "methodDefRow": 1766,
+        "signatureHex": "00010d151229011182a0",
+        "fileOffset": "0xC5C1677",
+        "length": 447,
+        "nativeAddressCandidate": "0xc5c5677"
+      },
+      {
+        "className": "Unity.Cinemachine.Clipper",
+        "method": "Area",
+        "assembly": "Unity.Cinemachine",
+        "methodDefRow": 1767,
+        "signatureHex": "00010d15122901151229011182a0",
+        "fileOffset": "0xC5C7324",
+        "length": 384,
+        "nativeAddressCandidate": "0xc5cb324"
+      },
+      {
+        "className": "UnityEngine.Rendering.Universal.Clipper",
+        "method": "Area",
+        "assembly": "Unity.RenderPipelines.Universal.2D.Runtime",
+        "methodDefRow": 187,
+        "signatureHex": "00010d151211011128",
+        "fileOffset": "0xC8694BD",
+        "length": 312,
+        "nativeAddressCandidate": "0xc86d4bd"
+      },
+      {
+        "className": "UnityEngine.Rendering.Universal.Clipper",
+        "method": "Area",
+        "assembly": "Unity.RenderPipelines.Universal.2D.Runtime",
+        "methodDefRow": 188,
+        "signatureHex": "20010d1278",
+        "fileOffset": "0xC864CAD",
+        "length": 20,
+        "nativeAddressCandidate": "0xc868cad"
+      },
+      {
+        "className": "UnityEngine.Rendering.Universal.Clipper",
+        "method": "Area",
+        "assembly": "Unity.RenderPipelines.Universal.2D.Runtime",
+        "methodDefRow": 189,
+        "signatureHex": "20010d127c",
+        "fileOffset": "0xC8678C8",
+        "length": 94,
+        "nativeAddressCandidate": "0xc86b8c8"
+      }
+    ],
+    "resourceCorroboration": {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-area-resource-evidence.json",
+      "sha256": "7f17a7a5d529c6cced1c38ec713508f8464057d306d7b7baac9d3b13a6c2939d",
+      "authority": "Separate asset/guide investigation supplied within same team; read retained original-bundle anchors and report here",
+      "searchBoundary": {
+        "gameTablesRead": [
+          "ContentsGuides (all127 scanned;5 relevant full records)",
+          "Tutorials (all1160 scanned;20 records in2 relevant groups)",
+          "TouchGuides (all109 scanned;linked rows retained)",
+          "AnimationGuides (both rows;no StellarLink target)",
+          "Guides (41755 rows literal Stellar/Constellation/LinkArea terms scanned;none relevant geometry example)"
+        ],
+        "localization": "All zh-Hant rows scanned for 星際連線/星座/星星/面積, and all StellarLink/Constellation keys examined in zh-Hant, en and ko.",
+        "animations": {
+          "exportedStellarNamedClips": 22,
+          "allMTextBindingMatches": 0,
+          "allTestedVerticesArrayMatches": 0,
+          "candidatePropertyPathsTested": [
+            "_vertices",
+            "_sides",
+            "_progress",
+            "_thickness",
+            "m_Text",
+            "m_Color.a",
+            "m_Color.r",
+            "m_Color.g",
+            "m_Color.b",
+            "m_Enabled",
+            "m_IsActive",
+            "_sliderValue",
+            "_EffectFactor",
+            "m_AnchoredPosition.x",
+            "m_AnchoredPosition.y",
+            "m_SizeDelta.x",
+            "m_SizeDelta.y",
+            "_vertices.Array.size",
+            "_vertices.Array.data[0].x",
+            "_vertices.Array.data[0].y",
+            "_vertices.Array.data[1].x",
+            "_vertices.Array.data[1].y",
+            "_vertices.Array.data[2].x",
+            "_vertices.Array.data[2].y",
+            "_vertices.Array.data[3].x",
+            "_vertices.Array.data[3].y",
+            "_vertices.Array.data[4].x",
+            "_vertices.Array.data[4].y",
+            "_vertices.Array.data[5].x",
+            "_vertices.Array.data[5].y",
+            "_vertices.Array.data[6].x",
+            "_vertices.Array.data[6].y",
+            "_vertices.Array.data[7].x",
+            "_vertices.Array.data[7].y",
+            "_vertices.Array.data[8].x",
+            "_vertices.Array.data[8].y",
+            "_vertices.Array.data[9].x",
+            "_vertices.Array.data[9].y",
+            "_vertices.Array.data[10].x",
+            "_vertices.Array.data[10].y",
+            "_vertices.Array.data[11].x",
+            "_vertices.Array.data[11].y"
+          ]
+        },
+        "prefab": "Existing full StellarLinkPage tree checked for text, named area/coverage/triangulation/intersection fields; original bundle container entries filtered for StellarLink/Constellation/Starshard. No whole-library re-export performed."
+      },
+      "finding": "Stellar prefab includes seven-point template and independently initialized0% area text. Those values do not form a validated star-configuration/gameplay-area pair. No authoritative area output pair found in this resource scope."
+    },
+    "officialProbabilityUpdate": {
+      "url": "https://cs-cookieruncrumble.devsisters.com/hc/en-us/articles/60511654951321-Stellar-Link-Probabilities",
+      "authority": "Official publisher primary source accessed and retained by parent; direct HTTP archive returned403, as retained evidence states. This offline worker reuses that supplied evidence without fetching source.",
+      "observationsFromParent": [
+        "Every complete ordered star arrangement has equal probability.",
+        "All published3..11 star counts match12Pn: ordered distinct positions.",
+        "Unlocked stars are repositioned equally likely while locks are kept.",
+        "Area and bonus are determined by chosen star positions with no additional random sampling."
+      ],
+      "oldUnknownsRemoved": [
+        "Uniform ordered distinct placement distribution, including retained locks",
+        "Unique positions and ordered arrangement model",
+        "Additional independent area/bonus random draw"
+      ],
+      "stillUnknown": [
+        "The precise deterministic position-to-area algorithm, self-intersection rule, denominator and rounding.",
+        "Independence between separate paid rolls has not been established by this source."
+      ],
+      "retainedEvidence": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\official-stellar-probabilities-evidence.json",
+        "sha256": "0205d2ef7a5067f2adb9ec8e4acab9f4e8b3a3eaec8036ce413a59c45d60a446",
+        "evidenceId": "local-official-stellar-probabilities-20261015-v1"
+      }
+    },
+    "minimalCaptureRequests": {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-area-method-requests.json",
+      "sha256": "9a614c50a8fec6927c023f863596b4367e6baa5448318aa28c75b4fa973a138f",
+      "methods": 7,
+      "bytes": 8359,
+      "purpose": "Bind response conversion and setter before attributing server-origin area; inspect actual custom triangulator rendering and exclude tiny dimension helpers. No broad generic Clipper capture before a call relation is established."
+    },
+    "limitations": [
+      "All assembly metadata has been searched, but recovered stub CIL bodies are not original implementations.",
+      "Today no emulator action, live memory read, native execution or site edit by this offline worker.",
+      "Full native incoming-reference graph cannot be constructed from transformed on-disk code. Current incoming setter chain is a focused metadata/capture investigation, not all callers proven exhaustive.",
+      "No negative symbol/resource search proves an algorithm is exclusively server-side."
+    ],
+    "focusedCaptureOutcome": {
+      "methodCount": 12,
+      "bytes": 11957,
+      "sets": 3,
+      "analysis": "stellar-area-native-analysis.json",
+      "finding": "Response integer copy and renderer all positive bounded-face filling verified; no server integer percentage formula in the examined renderer."
+    }
+  },
+  "externalCorroboration": {
+    "officialProbabilityEvidence": {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\official-stellar-probabilities-evidence.json",
+      "sha256": "0205d2ef7a5067f2adb9ec8e4acab9f4e8b3a3eaec8036ce413a59c45d60a446",
+      "finding": "Official publisher gives uniform ordered distinct placements including locked conditioning, and no extra probability draw for area/bonus. This supersedes yesterday unresolved sampling/uniqueness claims."
+    },
+    "publicGameScreenshotEvidence": {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-public-screenshot-area-evidence.json",
+      "sha256": "1e0f6fa92fafba84d342860946aa46e4829024be6fac3f96bbd0f0fff3ed23b3",
+      "finding": "Independent team screenshot reads provide93%,61%,81% paired with star layouts. Closed bounded-face reference gives93.461586%,61.164550%,81.100423%; these corroborate the candidate fill family and12-gon denominator, but do not distinguish floor/nearest integer rounding. Crossed screenshot atomic faces all have winding±1, so the images alone cannot distinguish union/evenodd/nonzero fill in general."
+    },
+    "versionBoundary": "Publisher source and publicly reproduced game screenshots may not be bound to exactly the captured1.5.002 binary. Keep their evidence role distinct from the SHA-bound native implementation."
+  },
+  "unknown": [
+    "Exact deterministic server position-to-area percent algorithm: normalization denominator, handling of all crossings/degeneracies and final integer rounding.",
+    "Whether the server uses the same bounded-face renderer algorithm with identical numerical tolerances; the inspected client paths do not prove this identity.",
+    "No paid or live service reroll was performed by this offline worker; a runtime UI sample must be reported separately."
+  ],
+  "limitations": [
+    "This script reads local saved files only. No ADB call, emulator input, process memory read, native execution, patch, injection, account action or website change.",
+    "Runtime executable capture observes loaded bytes; meaning is statically derived from those bytes.",
+    "All metadata scan is exhaustive within174 mapped DLL files, not all stripped/native/server functions. Lack of named methods never proves server exclusivity.",
+    "Original generated Cpp2IL stub bodies are not behavior evidence."
+  ]
+}

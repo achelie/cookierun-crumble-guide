@@ -1,0 +1,602 @@
+[
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_NONE",
+    "unlockRequirementAmount": 0
+  },
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+    "unlockRequirementAmount": 4
+  },
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+    "unlockRequirementAmount": 8
+  },
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+    "unlockRequirementAmount": 27
+  },
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+    "unlockRequirementAmount": 90
+  },
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+    "unlockRequirementAmount": 150
+  },
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+    "unlockRequirementAmount": 210
+  },
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+    "unlockRequirementAmount": 270
+  },
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+    "unlockRequirementAmount": 330
+  },
+  {
+    "constellationOrder": 1,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+    "unlockRequirementAmount": 390
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 10
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 15
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 20
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 25
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 30
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 35
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 40
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 45
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 50
+  },
+  {
+    "constellationOrder": 2,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 55
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 60
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 70
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 80
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 90
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 100
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 110
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 120
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 130
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 140
+  },
+  {
+    "constellationOrder": 3,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 150
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 160
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 170
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 180
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 190
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 200
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 210
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 220
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 230
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 240
+  },
+  {
+    "constellationOrder": 4,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 250
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 260
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 270
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 280
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 290
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 300
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 310
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 320
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 330
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 340
+  },
+  {
+    "constellationOrder": 5,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 350
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 360
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 375
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 390
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 405
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 420
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 435
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 450
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 465
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 480
+  },
+  {
+    "constellationOrder": 6,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 495
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 510
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 525
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 540
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 555
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 570
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 585
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 600
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 615
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 630
+  },
+  {
+    "constellationOrder": 7,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 645
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 660
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 675
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 690
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 705
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 720
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 735
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 750
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 765
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 780
+  },
+  {
+    "constellationOrder": 8,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 795
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 810
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 830
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 850
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 870
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 890
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 910
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 930
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 950
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 970
+  },
+  {
+    "constellationOrder": 9,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 990
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 3,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1010
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 4,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1030
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 5,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1050
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 6,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1070
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 7,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1090
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 8,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1110
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 9,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1130
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 10,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1150
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 11,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1170
+  },
+  {
+    "constellationOrder": 10,
+    "starshardOrder": 12,
+    "unlockRequirementType": "REQUIREMENTTYPE_CUMULATIVE_COOKIE_ONLY_UPGRADE_COUNT",
+    "unlockRequirementAmount": 1190
+  }
+]

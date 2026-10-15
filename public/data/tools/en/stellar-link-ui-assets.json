@@ -1,0 +1,5351 @@
+{
+  "schemaVersion": 1,
+  "plate": {
+    "assetId": "image:143545de5d514f56aac3f0b05bd73836eac1fc04daa16d94c316963060b1ba6f",
+    "url": "/images/tools/ConstellationPlate__143545de5d51.png",
+    "thumb": "/images/tools/ConstellationPlate__143545de5d51.png",
+    "name": "ConstellationPlate",
+    "width": 925,
+    "height": 925,
+    "file": "apk-images/images/ui-and-sprites/ConstellationPlate__143545de5d51.png",
+    "pngSha256": "b340a68c31e33d77bf5a1f6d322873cb2fbdaddbed1243438736c30fda40519c",
+    "sources": [
+      {
+        "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+        "nativePathId": "2693270433414281318",
+        "sourceObjectId": "unity-object:1cb7e864f95d5f89e16af8e040577fc624d45d74c91dfb766b2cc01b52efe0ae",
+        "objectName": "ConstellationPlate",
+        "imageType": "Sprite",
+        "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+        "resolution": "unique",
+        "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+        "memberOffset": 228473792,
+        "objectBytes": 5928,
+        "rawObjectSha256": "8193bbde19c0f4feeb5898f0d6081b9e63f60d96fb8988c2abe7aca0249e11ce"
+      }
+    ],
+    "match": {
+      "status": "proven",
+      "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+      "runtimeObserved": false
+    },
+    "uiReferences": [
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate",
+        "component": {
+          "sourceObjectId": "unity-object:126f8d6ef3ca9c79714ed9ecef2c8f14b59ad44347284b3b903fae0acf42086d",
+          "nativePathId": "2356768887846220215",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 221676224,
+          "objectBytes": 136,
+          "rawObjectSha256": "43c5ddb379a492eeb345b071f31285b2ca2964a3de0d072ec3af0c6b7379fa22",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "2693270433414281318",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 925,
+            "y": 925
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "imageType": 0
+      }
+    ]
+  },
+  "star": {
+    "assetId": "image:4031c06dc545137485a87b3b5d949e94388f481f4fd5cd3a749ba3e8ad392d60",
+    "url": "/images/tools/IconStellarLinkStar__4031c06dc545.png",
+    "thumb": "/images/tools/IconStellarLinkStar__4031c06dc545.png",
+    "name": "IconStellarLinkStar",
+    "width": 33,
+    "height": 33,
+    "file": "apk-images/images/icons/IconStellarLinkStar__4031c06dc545.png",
+    "pngSha256": "ab20e5dfcb6cd923f5a8e587a76ee4051d89fb579dbc59bd7993ca7e40be8fc5",
+    "sources": [
+      {
+        "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+        "nativePathId": "-689529146346930833",
+        "sourceObjectId": "unity-object:79a27598659934641c04b92a42b40ee3ad2222465a84c4300c3bd32e1fbf18f6",
+        "objectName": "IconStellarLinkStar",
+        "imageType": "Sprite",
+        "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+        "resolution": "unique",
+        "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+        "memberOffset": 172039424,
+        "objectBytes": 632,
+        "rawObjectSha256": "b2f2f1b2121ca5f1f49b1537c6007b54b6178c10601e1ce42dec2929bcc54400"
+      }
+    ],
+    "match": {
+      "status": "proven",
+      "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+      "runtimeObserved": false
+    },
+    "uiReferences": [
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root_Disabled/NodeBG_DisabledGlowStroke",
+        "component": {
+          "sourceObjectId": "unity-object:e6eb6e3c9e0b7235750abbe709f3ccabf87e953729c81754f2b77fedec8de3c4",
+          "nativePathId": "431545675270926775",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 198658496,
+          "objectBytes": 136,
+          "rawObjectSha256": "a3a32685352ad6f733c55df51bf4f1010feb767113e965a2aa5d7c63ebe55fef",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "-689529146346930833",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 88,
+            "y": 88
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.14901961386203766
+        },
+        "imageType": 0
+      },
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root_Disabled/NodeBG_Disabled",
+        "component": {
+          "sourceObjectId": "unity-object:fbc7e38da7c01be1d49ae1f9ba73221885dd5b47583136ecbc72d1ca900cca67",
+          "nativePathId": "4057640710561149367",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 239166272,
+          "objectBytes": 136,
+          "rawObjectSha256": "a19e8bdec888c57d00d319e8c04d6425cd18d12877ffa08a025cf520d0733907",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "-689529146346930833",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 55,
+            "y": 55
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 0.15294118225574493,
+          "g": 0.04313725605607033,
+          "b": 0.18039216101169586,
+          "a": 1
+        },
+        "imageType": 0
+      },
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/DetailArea/Root/Root/StarCount/Icon_Star",
+        "component": {
+          "sourceObjectId": "unity-object:ca961f4070b6c0fef5e0c4492f418d272fd086fc606c3cb5246c9112f75af902",
+          "nativePathId": "-9016506879357668937",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 25783792,
+          "objectBytes": 136,
+          "rawObjectSha256": "6f872768ddbd82c54e66cdb91e75e48b2900ea6f68a4b4b0b8eb71e79426e025",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "-689529146346930833",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 46,
+            "y": 4
+          },
+          "m_SizeDelta": {
+            "x": 33,
+            "y": 33
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "imageType": 0
+      }
+    ]
+  },
+  "currency": {
+    "assetId": "image:d1391d211affc951de5e935f53b02b3fb8c1a28299256619b4dac48c2657405b",
+    "url": "/images/tools/icon_stellar_point__d1391d211aff.png",
+    "thumb": "/images/tools/icon_stellar_point__d1391d211aff.png",
+    "name": "icon_stellar_point",
+    "width": 119,
+    "height": 119,
+    "file": "apk-images/images/icons/icon_stellar_point__d1391d211aff.png",
+    "pngSha256": "9e3be5658adfbe4d905ee15a6008942751687e5f0469b08d61c41433504e7d7e",
+    "sources": [
+      {
+        "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+        "nativePathId": "-3908699383227538524",
+        "sourceObjectId": "unity-object:cbe53f3355d17670c53f1acc1a92dabf7939ed2cde677cf966aa1fd86948cf98",
+        "objectName": "icon_stellar_point",
+        "imageType": "Sprite",
+        "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+        "resolution": "unique",
+        "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+        "memberOffset": 100767152,
+        "objectBytes": 776,
+        "rawObjectSha256": "1b493e8f4d007c2b8d69821282705b1738bcd9f53303ce3ec90f6e4db60da15c"
+      }
+    ],
+    "match": {
+      "status": "proven",
+      "evidenceType": "observed_Item_resourceKey_exact_asset_name",
+      "runtimeObserved": false
+    },
+    "uiReferences": [],
+    "sourceFields": {
+      "Items": {
+        "rowIndex": 28,
+        "record": {
+          "analyticsMoneyTag": "StellarPoint",
+          "description": {
+            "key": "Item.Description.1075390700",
+            "originalText": "스텔라 링크를 재설정하는 데 필요한 재화.\n별을 보며 소원을 빌어보자."
+          },
+          "id": 1075390700,
+          "isCurrencyListVisible": true,
+          "itemHardcodingTag": "ITEMHARDCODINGTAG_STELLAR_POINT",
+          "itemTrackingShortcutType": [
+            "ITEMTRACKINGSHORTCUTTYPE_EVENT",
+            "ITEMTRACKINGSHORTCUTTYPE_PASS",
+            "ITEMTRACKINGSHORTCUTTYPE_SHOP",
+            "ITEMTRACKINGSHORTCUTTYPE_SPOT_SHOP",
+            "ITEMTRACKINGSHORTCUTTYPE_CONTENTS_SHOP"
+          ],
+          "itemType": "ITEMTYPE_CURRENCY",
+          "name": {
+            "key": "Item.Name.1075390700",
+            "originalText": "스텔라 포인트"
+          },
+          "order": 32,
+          "rarityType": "RARITYTYPE_RARE",
+          "resourceKey": "icon_stellar_point"
+        }
+      }
+    }
+  },
+  "node": {
+    "assetId": "image:24c7a0f8d555166047dd62126d1bc01cadc7a3fa40b6bd5baa2c5c6c82e2cb9d",
+    "url": "/images/tools/ImgFrameStellarLinkNode_01__24c7a0f8d555.png",
+    "thumb": "/images/tools/ImgFrameStellarLinkNode_01__24c7a0f8d555.png",
+    "name": "ImgFrameStellarLinkNode_01",
+    "width": 77,
+    "height": 78,
+    "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_01__24c7a0f8d555.png",
+    "pngSha256": "ebbb2f4ea7975e5644b3da4c721de961c347473dfe2e26a03ebd9a70f193524f",
+    "sources": [
+      {
+        "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+        "nativePathId": "-4952700339292974516",
+        "sourceObjectId": "unity-object:3f68cb9620afbf4bb33e2f542d0eedb08196ef29266775432843536940033c22",
+        "objectName": "ImgFrameStellarLinkNode_01",
+        "imageType": "Sprite",
+        "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+        "resolution": "unique",
+        "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+        "memberOffset": 80885824,
+        "objectBytes": 728,
+        "rawObjectSha256": "1cf7e9a7096434a5301c78ca1039ee76a4b65f5838d9d22d6d04bdf2e1420225"
+      }
+    ],
+    "match": {
+      "status": "proven",
+      "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+      "runtimeObserved": false
+    },
+    "uiReferences": [
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/BG_Glow",
+        "component": {
+          "sourceObjectId": "unity-object:4a0e2d0ad8e1e5d58c225fd40a56db23ab640b494966a9fb636a639f27ff014a",
+          "nativePathId": "4898923523227267511",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 246259312,
+          "objectBytes": 136,
+          "rawObjectSha256": "aa7cff2ed2df326e2fb1cc9631fa219275d16fb1e1fda5671c6a9eab4ac5ed64",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "-4952700339292974516",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 92,
+            "y": 92
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "imageType": 0
+      },
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/BG_Glow (1)",
+        "component": {
+          "sourceObjectId": "unity-object:5b9b55e34eceaae00192c01d6631df70924ab37b90eaa31c4993f66c03140b1a",
+          "nativePathId": "3947815742593184183",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 238265776,
+          "objectBytes": 136,
+          "rawObjectSha256": "2df55cae22dbf85cf1fcbaddd849fcb019083603cc3198098fee6ee2e3aee8a4",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "-4952700339292974516",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 92,
+            "y": 92
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "imageType": 0
+      },
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG_Stroke",
+        "component": {
+          "sourceObjectId": "unity-object:ef40c54be4c2d5016cb23a02bd47e5c87cc54a26732bfe1e746cd9cd7ad86113",
+          "nativePathId": "-3127639038712925769",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 116867104,
+          "objectBytes": 136,
+          "rawObjectSha256": "18f5f6098382a7760f4c0e0e71f589e15195b3b7ede5733f428776e362926226",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "-4952700339292974516",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": -3
+          },
+          "m_SizeDelta": {
+            "x": 122,
+            "y": 125
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 0.26274511218070984,
+          "g": 0.21960784494876862,
+          "b": 0.2862745225429535,
+          "a": 0.6000000238418579
+        },
+        "imageType": 0
+      },
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+        "component": {
+          "sourceObjectId": "unity-object:77676467bed77be7bba2d681fd41664b9cfb8a867a34336a55efeb8273374f94",
+          "nativePathId": "6067431352864879031",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 259066272,
+          "objectBytes": 136,
+          "rawObjectSha256": "fbd37d1a963556fd7defcebffa66573021bc4289a4d786b26466b31a17be788d",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "-4952700339292974516",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 92,
+            "y": 92
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "imageType": 0
+      },
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+        "component": {
+          "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+          "nativePathId": "5775277733204013495",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 256855536,
+          "objectBytes": 168,
+          "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "StateDefs[0].Sprite",
+        "targetNativePathId": "-4952700339292974516",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 92,
+            "y": 92
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": null,
+        "imageType": null
+      }
+    ]
+  },
+  "nodeLocked": {
+    "assetId": "image:c9596c7e702881e6e78233046fb0938f53ce22e6433af54079279507a6862ebc",
+    "url": "/images/tools/ImgConstellationNodeLocked__c9596c7e7028.png",
+    "thumb": "/images/tools/ImgConstellationNodeLocked__c9596c7e7028.png",
+    "name": "ImgConstellationNodeLocked",
+    "width": 89,
+    "height": 90,
+    "file": "apk-images/images/ui-and-sprites/ImgConstellationNodeLocked__c9596c7e7028.png",
+    "pngSha256": "ff1eaa371311fa066ea8085a419d1643b3a6578f4c1863cc44f6a4f53a0010d0",
+    "sources": [
+      {
+        "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+        "nativePathId": "-2774816523352166338",
+        "sourceObjectId": "unity-object:d7d80f57f3cc0bdd489da9fdd390030b2fc1a9588dd1ebeed9dbf7dbfa9676f9",
+        "objectName": "ImgConstellationNodeLocked",
+        "imageType": "Sprite",
+        "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+        "resolution": "unique",
+        "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+        "memberOffset": 119885440,
+        "objectBytes": 656,
+        "rawObjectSha256": "ae1456d23de5db1ff9cc50c79f20ff6b4a624c76517c847410252e01db16193d"
+      }
+    ],
+    "match": {
+      "status": "proven",
+      "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+      "runtimeObserved": false
+    },
+    "uiReferences": [
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root_Dimd/NodeBG_Dimd",
+        "component": {
+          "sourceObjectId": "unity-object:3c79010e8f06ac4f803e2cabd7772cbfd2a252424e42cf8fa3f4ae1ef9fb9fcd",
+          "nativePathId": "5005384317999329719",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 247114176,
+          "objectBytes": 136,
+          "rawObjectSha256": "348162501af8441eaf2cb8a3ca85849e82162fd324f965501c128eb205bfebeb",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "-2774816523352166338",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 92,
+            "y": 92
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "imageType": 0
+      }
+    ]
+  },
+  "nodeGlow": {
+    "assetId": "image:0ae7881d2d07d55a143527d1325bfcd35251624562a878a16309c090351f6f1c",
+    "url": "/images/tools/ImgConstellationNodeGlow__0ae7881d2d07.png",
+    "thumb": "/images/tools/ImgConstellationNodeGlow__0ae7881d2d07.png",
+    "name": "ImgConstellationNodeGlow",
+    "width": 94,
+    "height": 94,
+    "file": "apk-images/images/ui-and-sprites/ImgConstellationNodeGlow__0ae7881d2d07.png",
+    "pngSha256": "9a29e04750340b86f146168f9784a950a264cf055178096f08583f6e806bdb9b",
+    "sources": [
+      {
+        "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+        "nativePathId": "-3682085222856462898",
+        "sourceObjectId": "unity-object:0cc4e1fe58c7f803e5f4dd5577985feda71a36942a01913867b0f6d5870462eb",
+        "objectName": "ImgConstellationNodeGlow",
+        "imageType": "Sprite",
+        "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+        "resolution": "unique",
+        "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+        "memberOffset": 103598352,
+        "objectBytes": 636,
+        "rawObjectSha256": "b9f07a2a4c6fc633641a7625741c8af8e704b15599a3acdaa21c574ec5fcf7d5"
+      }
+    ],
+    "match": {
+      "status": "proven",
+      "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+      "runtimeObserved": false
+    },
+    "uiReferences": [
+      {
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root_Disabled/Glow",
+        "component": {
+          "sourceObjectId": "unity-object:5d42aa40cfe46154a1a61904f736cd8337ae51a4ba79cde5847bbeec3ce10b9f",
+          "nativePathId": "-4255254218224684617",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 93523888,
+          "objectBytes": 136,
+          "rawObjectSha256": "917bb5d07fca4c64b9646809cc2cfbc4450ffeaf10efe67f7eb844952803fbd3",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "field": "m_Sprite",
+        "targetNativePathId": "-3682085222856462898",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 115,
+            "y": 115
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "imageColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.25882354378700256
+        },
+        "imageType": 0
+      }
+    ]
+  },
+  "nodes": {
+    "1": {
+      "assetId": "image:24c7a0f8d555166047dd62126d1bc01cadc7a3fa40b6bd5baa2c5c6c82e2cb9d",
+      "url": "/images/tools/ImgFrameStellarLinkNode_01__24c7a0f8d555.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_01__24c7a0f8d555.png",
+      "name": "ImgFrameStellarLinkNode_01",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_01__24c7a0f8d555.png",
+      "pngSha256": "ebbb2f4ea7975e5644b3da4c721de961c347473dfe2e26a03ebd9a70f193524f",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-4952700339292974516",
+          "sourceObjectId": "unity-object:3f68cb9620afbf4bb33e2f542d0eedb08196ef29266775432843536940033c22",
+          "objectName": "ImgFrameStellarLinkNode_01",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 80885824,
+          "objectBytes": 728,
+          "rawObjectSha256": "1cf7e9a7096434a5301c78ca1039ee76a4b65f5838d9d22d6d04bdf2e1420225"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/BG_Glow",
+          "component": {
+            "sourceObjectId": "unity-object:4a0e2d0ad8e1e5d58c225fd40a56db23ab640b494966a9fb636a639f27ff014a",
+            "nativePathId": "4898923523227267511",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 246259312,
+            "objectBytes": 136,
+            "rawObjectSha256": "aa7cff2ed2df326e2fb1cc9631fa219275d16fb1e1fda5671c6a9eab4ac5ed64",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-4952700339292974516",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/BG_Glow (1)",
+          "component": {
+            "sourceObjectId": "unity-object:5b9b55e34eceaae00192c01d6631df70924ab37b90eaa31c4993f66c03140b1a",
+            "nativePathId": "3947815742593184183",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 238265776,
+            "objectBytes": 136,
+            "rawObjectSha256": "2df55cae22dbf85cf1fcbaddd849fcb019083603cc3198098fee6ee2e3aee8a4",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-4952700339292974516",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG_Stroke",
+          "component": {
+            "sourceObjectId": "unity-object:ef40c54be4c2d5016cb23a02bd47e5c87cc54a26732bfe1e746cd9cd7ad86113",
+            "nativePathId": "-3127639038712925769",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 116867104,
+            "objectBytes": 136,
+            "rawObjectSha256": "18f5f6098382a7760f4c0e0e71f589e15195b3b7ede5733f428776e362926226",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-4952700339292974516",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": -3
+            },
+            "m_SizeDelta": {
+              "x": 122,
+              "y": 125
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0.26274511218070984,
+            "g": 0.21960784494876862,
+            "b": 0.2862745225429535,
+            "a": 0.6000000238418579
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:77676467bed77be7bba2d681fd41664b9cfb8a867a34336a55efeb8273374f94",
+            "nativePathId": "6067431352864879031",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 259066272,
+            "objectBytes": 136,
+            "rawObjectSha256": "fbd37d1a963556fd7defcebffa66573021bc4289a4d786b26466b31a17be788d",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-4952700339292974516",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[0].Sprite",
+          "targetNativePathId": "-4952700339292974516",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    },
+    "2": {
+      "assetId": "image:c67c9cc5fedd11f415a6bcf8a39e384b416b2a0918c84c871c029de4ad39fe1e",
+      "url": "/images/tools/ImgFrameStellarLinkNode_02__c67c9cc5fedd.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_02__c67c9cc5fedd.png",
+      "name": "ImgFrameStellarLinkNode_02",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_02__c67c9cc5fedd.png",
+      "pngSha256": "3fb510fe45fad03731bad65870c8699c47662043da7012477063aa1cfe9a271a",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-7041163281872758986",
+          "sourceObjectId": "unity-object:20f17e3ed25ee0928c4c8c40f4be337879843abcfe6b979ea4cdd5fa89dc6670",
+          "objectName": "ImgFrameStellarLinkNode_02",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 57934528,
+          "objectBytes": 728,
+          "rawObjectSha256": "5f7deecf828cb484769b86b45c44f42a06457c07cd6f424e4fe0cec3df456345"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[1].Sprite",
+          "targetNativePathId": "-7041163281872758986",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    },
+    "3": {
+      "assetId": "image:ec4d0fb734e9760c6a36259775b78f45228cbc87fb3e5c1682429498f769045c",
+      "url": "/images/tools/ImgFrameStellarLinkNode_03__ec4d0fb734e9.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_03__ec4d0fb734e9.png",
+      "name": "ImgFrameStellarLinkNode_03",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_03__ec4d0fb734e9.png",
+      "pngSha256": "47103e68b3fc4d1a033d660016af5ba44b0e7281b07068c9612273daaa85cd8e",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "8333666872936540188",
+          "sourceObjectId": "unity-object:11c24cf749b876f098b41c76f7ed3ed0b5b7d6c7c74dfffd588344d2816d226a",
+          "objectName": "ImgFrameStellarLinkNode_03",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 279473008,
+          "objectBytes": 728,
+          "rawObjectSha256": "136ba0882a0ac5cb767e8f0b425dad9ead54d85ccbb0c6fd9eccd5c70d634701"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[2].Sprite",
+          "targetNativePathId": "8333666872936540188",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    },
+    "4": {
+      "assetId": "image:803e5d2095a8e3e0706cf1b9c45bcf70bd5cc403b6c055fd1471e3111b322e31",
+      "url": "/images/tools/ImgFrameStellarLinkNode_04__803e5d2095a8.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_04__803e5d2095a8.png",
+      "name": "ImgFrameStellarLinkNode_04",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_04__803e5d2095a8.png",
+      "pngSha256": "f993714bd6cd0ffff4c9937ebbedcdc405d34ce5f817305dc20f0c5be7ccfddb",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "2730253657610167751",
+          "sourceObjectId": "unity-object:acf57db37a6de6bfcc9d5874c36e162d40aaa8819edf098cd9f8e72b70d33a1b",
+          "objectName": "ImgFrameStellarLinkNode_04",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 228763952,
+          "objectBytes": 728,
+          "rawObjectSha256": "b3894529ca5e11a8c535a3d0d7ce8d8f35f71b5740e2096cea883ed1f26d94a6"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[3].Sprite",
+          "targetNativePathId": "2730253657610167751",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    },
+    "5": {
+      "assetId": "image:db8c78e6e650e94f1c5ec8af4debc9d4cab9d4152eadf8f719fafe876d7e111b",
+      "url": "/images/tools/ImgFrameStellarLinkNode_05__db8c78e6e650.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_05__db8c78e6e650.png",
+      "name": "ImgFrameStellarLinkNode_05",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_05__db8c78e6e650.png",
+      "pngSha256": "1de620e19581ca2466f2fcb06150510e6281a3012cae2144c5654cfe21fb6cca",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "8367986273161070321",
+          "sourceObjectId": "unity-object:3616b06a5eb988ceb5ebd9e54035d7f547ecf497a21fefe9088e69fb54ccfbb9",
+          "objectName": "ImgFrameStellarLinkNode_05",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 279713216,
+          "objectBytes": 728,
+          "rawObjectSha256": "6f0539eb92d48153de88b7ecfb53b05cf70e30eb374c4e1dc7e6777694acd3d8"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[4].Sprite",
+          "targetNativePathId": "8367986273161070321",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    },
+    "6": {
+      "assetId": "image:f310a5baa2d8c724b27f0cecc6c02cd34cc608d451955e1e1905196a2b5f5940",
+      "url": "/images/tools/ImgFrameStellarLinkNode_06__f310a5baa2d8.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_06__f310a5baa2d8.png",
+      "name": "ImgFrameStellarLinkNode_06",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_06__f310a5baa2d8.png",
+      "pngSha256": "e51658a1b1223088f206470e260ff04de1a117958884107258c751ee53d1a118",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-5690863492971050707",
+          "sourceObjectId": "unity-object:f5a3ac3db24b67fe17433b6f351dd15a8a7b101158c38cefc52030bb3522b4eb",
+          "objectName": "ImgFrameStellarLinkNode_06",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 71994832,
+          "objectBytes": 728,
+          "rawObjectSha256": "8e28b875933c0a1f97d7e0cfb8e57555e9e6579e5daaa2b4051462c9837b27f9"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[5].Sprite",
+          "targetNativePathId": "-5690863492971050707",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    },
+    "7": {
+      "assetId": "image:04ac65b590e44ba29405ebdfca1445931bfe2fee925f0ac71723b1ad16748805",
+      "url": "/images/tools/ImgFrameStellarLinkNode_07__04ac65b590e4.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_07__04ac65b590e4.png",
+      "name": "ImgFrameStellarLinkNode_07",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_07__04ac65b590e4.png",
+      "pngSha256": "522b9838ad56bc7f1f3daf56b475e8046e387796cd2f9b892d620caaa53b8846",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-8593356847288529247",
+          "sourceObjectId": "unity-object:481c3250174a706edb2533c1ab7652249ebe0b57a21e23374b6899020a13f995",
+          "objectName": "ImgFrameStellarLinkNode_07",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 30775552,
+          "objectBytes": 728,
+          "rawObjectSha256": "eee3b63074271a606d9eff4291eace8a96a9d5ef52cea2511f8d6fa45576602b"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[6].Sprite",
+          "targetNativePathId": "-8593356847288529247",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    },
+    "8": {
+      "assetId": "image:2fe1b6ea6020fb39037d788a188614bb8787ded7f9707c48bc47ea6cd5618f1f",
+      "url": "/images/tools/ImgFrameStellarLinkNode_08__2fe1b6ea6020.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_08__2fe1b6ea6020.png",
+      "name": "ImgFrameStellarLinkNode_08",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_08__2fe1b6ea6020.png",
+      "pngSha256": "a9fa514ad46d3fea9e67085b71016966ef4eb95cc8db402d1cf017eac858cc21",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "6460285861460977591",
+          "sourceObjectId": "unity-object:b60cfd04158377a472e974bcbf05167a904eaa66bc4baa5a64c22e04a43a19d6",
+          "objectName": "ImgFrameStellarLinkNode_08",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 263197216,
+          "objectBytes": 728,
+          "rawObjectSha256": "6340b771f2d35f3687a55ad0c5a3569d47ec9069b8b0d260d234c1ee21bfe730"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[7].Sprite",
+          "targetNativePathId": "6460285861460977591",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    },
+    "9": {
+      "assetId": "image:cf331fa22fb26e8af00cf257d95dc1962bc0c290d1432da019c2f2bd3191ce46",
+      "url": "/images/tools/ImgFrameStellarLinkNode_09__cf331fa22fb2.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_09__cf331fa22fb2.png",
+      "name": "ImgFrameStellarLinkNode_09",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_09__cf331fa22fb2.png",
+      "pngSha256": "8d85c5b4c506aa781c2406811906dd05ffe945179024fb305bcfe28b4927d8c0",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-929609577666979793",
+          "sourceObjectId": "unity-object:5862fffa7c66849291abadc7251b4d04ec86fa04601349b81dca6c0220ce9100",
+          "objectName": "ImgFrameStellarLinkNode_09",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 146731808,
+          "objectBytes": 728,
+          "rawObjectSha256": "05d936eb3b41b4063fa96172bc355c93c83ccc56c19e639fa3977d927db5b633"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[8].Sprite",
+          "targetNativePathId": "-929609577666979793",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    },
+    "10": {
+      "assetId": "image:b35c9c3b85250c60b1769a09b975d9a6015d0a01017165e2455a88d1f7a5b3ba",
+      "url": "/images/tools/ImgFrameStellarLinkNode_10__b35c9c3b8525.png",
+      "thumb": "/images/tools/ImgFrameStellarLinkNode_10__b35c9c3b8525.png",
+      "name": "ImgFrameStellarLinkNode_10",
+      "width": 77,
+      "height": 78,
+      "file": "apk-images/images/ui-and-sprites/ImgFrameStellarLinkNode_10__b35c9c3b8525.png",
+      "pngSha256": "a5806a67f0bf5e9da9f0ba77d0cc6330785bcf230088b65e45afd591c538655d",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-5388042927905755562",
+          "sourceObjectId": "unity-object:74a3e00f006e46aa8834f611a8695a9b78466cd4a8a6ccd936db647f87088cda",
+          "objectName": "ImgFrameStellarLinkNode_10",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 77017248,
+          "objectBytes": 728,
+          "rawObjectSha256": "c8877242de0c6423c2a9b3c1d55f018f82eb7208c5953b7168f9f1669e6ac127"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/Root/Anim/Root/NodeBG",
+          "component": {
+            "sourceObjectId": "unity-object:388c88c7073158257db3af62a04232756f7c54e564986709ec54ad6427daa291",
+            "nativePathId": "5775277733204013495",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 256855536,
+            "objectBytes": 168,
+            "rawObjectSha256": "6ad257f8a5b7e2144f96dbc9db28deb44c477d34c787688f0b1328a988fef542",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "StateDefs[9].Sprite",
+          "targetNativePathId": "-5388042927905755562",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 92,
+              "y": 92
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": null,
+          "imageType": null
+        }
+      ]
+    }
+  },
+  "effects": {
+    "attack": {
+      "assetId": "image:efbfd89f8ee1910aa2206718eb883d9355ca784b0c0aa592b367620cd4e44e48",
+      "url": "/images/tools/icon_passive_attack__efbfd89f8ee1.png",
+      "thumb": "/images/tools/icon_passive_attack__efbfd89f8ee1.png",
+      "name": "icon_passive_attack",
+      "width": 109,
+      "height": 112,
+      "file": "apk-images/images/icons/icon_passive_attack__efbfd89f8ee1.png",
+      "pngSha256": "2dd7ebfef97a8925f341f083634b14d8d927e10cc4bbfb0ce0dd7eb4c596ef18",
+      "sources": [
+        {
+          "sourceId": "source-file:7d17eef29de8cbba1b1b83c8ba50535eafee4b73698c19c11bc1801645645885",
+          "nativePathId": "94",
+          "sourceObjectId": "unity-object:64987f82262e4a1088cb15517d5b26678f30da3e6eb0ffb1a14216eba3993b9d",
+          "objectName": "icon_passive_attack",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "resources.assets",
+          "memberOffset": 462816,
+          "objectBytes": 1000,
+          "rawObjectSha256": "5d8604e85a79deaf860adfded969309148d4d6d1dedfe31807dca0f61c5b4ce9"
+        },
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-2663268700343387242",
+          "sourceObjectId": "unity-object:c70bec1e7796624a87e12922360e674028fa3447cd52a83da24d1fad4dab0d05",
+          "objectName": "icon_passive_attack",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 120687616,
+          "objectBytes": 1000,
+          "rawObjectSha256": "99af735b8e740ca77cb84ad86ea8e34ee03ec315beb0226059762a36f28263cd"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/DetailArea/Root/Contents/Root/Stat_Hor/StatCell/Icon",
+          "component": {
+            "sourceObjectId": "unity-object:f24f8cea53d7cedb448f5ddb5a7ede69c66dadd823460615fd5e5b78f7a49bea",
+            "nativePathId": "2092591654331101623",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 218590688,
+            "objectBytes": 136,
+            "rawObjectSha256": "8b15d8570e056e7846fbd4e6c93c6bee15e203719a1aed323e0aa761071ef723",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-2663268700343387242",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 6,
+              "y": 15
+            },
+            "m_SizeDelta": {
+              "x": 86,
+              "y": 86
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    },
+    "defense": {
+      "assetId": "image:16d407dcfbe50098504c529246e2903a580bba690d95f207d6c849897081144d",
+      "url": "/images/tools/icon_passive_defense__16d407dcfbe5.png",
+      "thumb": "/images/tools/icon_passive_defense__16d407dcfbe5.png",
+      "name": "icon_passive_defense",
+      "width": 144,
+      "height": 144,
+      "file": "apk-images/images/icons/icon_passive_defense__16d407dcfbe5.png",
+      "pngSha256": "aae32c900d14b8adfcb07b59ffdecbc0c287b77efd035b692fbb71070e7b1fb6",
+      "sources": [
+        {
+          "sourceId": "source-file:7d17eef29de8cbba1b1b83c8ba50535eafee4b73698c19c11bc1801645645885",
+          "nativePathId": "74",
+          "sourceObjectId": "unity-object:fcf657dd03a1c3d475ced7594a8f0f2f0c78f06653ae0ea90cb0b1b2d33778c5",
+          "objectName": "icon_passive_defense",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "resources.assets",
+          "memberOffset": 433840,
+          "objectBytes": 1032,
+          "rawObjectSha256": "ea30d4620c4bc0593468b665d15d572858684dbb29a2a2582780195d2d1841c7"
+        },
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-2413769268939757528",
+          "sourceObjectId": "unity-object:acf6467392c6d2e3b003b9cae7f3daad0ebe1c07c92c4d633500ae650e81560f",
+          "objectName": "icon_passive_defense",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 122704240,
+          "objectBytes": 1032,
+          "rawObjectSha256": "7613b9548eb911996fa978c338d6d6478d63e9bfa2e20d4335c6f57e2889d892"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/DetailArea/Root/Contents/Root/Stat_Hor/StatCell (1)/Icon",
+          "component": {
+            "sourceObjectId": "unity-object:b1c5712da5200b2ef5ec55a7e41973f06cba82698c33c8e01b5d423172f2e177",
+            "nativePathId": "4119292096803516855",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 239631984,
+            "objectBytes": 136,
+            "rawObjectSha256": "77b760eee19f92c6186d5c383913020e641462e677e276edae9281e240fdfec2",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-2413769268939757528",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 6,
+              "y": 15
+            },
+            "m_SizeDelta": {
+              "x": 86,
+              "y": 86
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    },
+    "health": {
+      "assetId": "image:961c8fda1f566a78b4a8898cfae9a5ee2fac365c97b499580be4e016be1f7588",
+      "url": "/images/tools/icon_passive_health__961c8fda1f56.png",
+      "thumb": "/images/tools/icon_passive_health__961c8fda1f56.png",
+      "name": "icon_passive_health",
+      "width": 123,
+      "height": 106,
+      "file": "apk-images/images/icons/icon_passive_health__961c8fda1f56.png",
+      "pngSha256": "9a0fa15a9d084407dcf20ea83f5e9000f2f3615b8691d667a538ed485eb52e63",
+      "sources": [
+        {
+          "sourceId": "source-file:7d17eef29de8cbba1b1b83c8ba50535eafee4b73698c19c11bc1801645645885",
+          "nativePathId": "160",
+          "sourceObjectId": "unity-object:c34368e071d14cbf91ed94b8a96fc035664008ad78bb3885c3254d493bb7f004",
+          "objectName": "icon_passive_health",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "resources.assets",
+          "memberOffset": 551280,
+          "objectBytes": 1068,
+          "rawObjectSha256": "51fe8e66d614ca5c75b3bb09ced1a72eea6da65dbb5c23fb074ef101f2c04f39"
+        },
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "8719993131829575536",
+          "sourceObjectId": "unity-object:f4abe0e7cdb35b9939e6d5a823db6dbb1aabf6fa65782485cac3dd871256de86",
+          "objectName": "icon_passive_health",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 282423520,
+          "objectBytes": 1068,
+          "rawObjectSha256": "fad6aa251cd2b2deb69073e79bbe18dcc4fb64a7b710229967683834f940687f"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/DetailArea/Root/Contents/Root/Stat_Hor/StatCell (2)/Icon",
+          "component": {
+            "sourceObjectId": "unity-object:ab29753c89794202b2886084db98944fa116275c26e5bb917eb3cc0980691170",
+            "nativePathId": "3320198314372510135",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 233456304,
+            "objectBytes": 136,
+            "rawObjectSha256": "99bc5815000300fe3a56fc5a9d03a1aeb35d28b3c242153f81be2aca53af0d29",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "8719993131829575536",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 6,
+              "y": 15
+            },
+            "m_SizeDelta": {
+              "x": 86,
+              "y": 86
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    }
+  },
+  "lockParts": {
+    "body": {
+      "assetId": "image:30c945163b7ab22b59106567c59190e0e2296b8e1a245c8ddb6b1481065d6041",
+      "url": "/images/tools/IconLockOpen01__30c945163b7a.png",
+      "thumb": "/images/tools/IconLockOpen01__30c945163b7a.png",
+      "name": "IconLockOpen01",
+      "width": 168,
+      "height": 149,
+      "file": "apk-images/images/icons/IconLockOpen01__30c945163b7a.png",
+      "pngSha256": "7fec07a5df86e1ca2a9a9dbba5a6de57da0ec051a018b7d92db197b469464a69",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-1352067312653227865",
+          "sourceObjectId": "unity-object:0d968450f1af516d2b5ee6c5905b698aa4289a570a7cd4c076f333a33412e086",
+          "objectName": "IconLockOpen01",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 137087040,
+          "objectBytes": 920,
+          "rawObjectSha256": "38ebaed7c4cc9c61704ee6afa5963801136bd253595252ac7cb3b5c90beedabd"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/LockIcon/Body",
+          "component": {
+            "sourceObjectId": "unity-object:c9bdbe1ec93b5a7255b651dd1f38963fedd62dc1afbbabf8cc8a2ed6f6f04709",
+            "nativePathId": "-5127677978229853769",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 79524992,
+            "objectBytes": 136,
+            "rawObjectSha256": "3af9f5d974ff4d6249feea4c41b496864f69326536c02d3bc89f185e704b1029",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-1352067312653227865",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": -2.311718702316284
+            },
+            "m_SizeDelta": {
+              "x": 27.827800750732422,
+              "y": 24.514999389648438
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0.6823529601097107,
+            "g": 0.7254902124404907,
+            "b": 0.8039215803146362,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    },
+    "shackle": {
+      "assetId": "image:421febac0035b0bdc304398f47c3c8f8781b6e81de5f3bf47f297dbcbd532ece",
+      "url": "/images/tools/IconLockOpen02__421febac0035.png",
+      "thumb": "/images/tools/IconLockOpen02__421febac0035.png",
+      "name": "IconLockOpen02",
+      "width": 129,
+      "height": 81,
+      "file": "apk-images/images/icons/IconLockOpen02__421febac0035.png",
+      "pngSha256": "4536698c8ae910572990bda3bba5ca60c493061f7f67d73db3bd96a6d396ff41",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-3284623305331723060",
+          "sourceObjectId": "unity-object:25ab09d9df974a43343fa38d520083a2fb3ae2d5d0ae9c121d905c4052244c67",
+          "objectName": "IconLockOpen02",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 108034432,
+          "objectBytes": 748,
+          "rawObjectSha256": "2fad7ba6a9427e61e7a5fdf497186058accd7b0c04f2320c9e69f66ced531b37"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/LockIcon/U",
+          "component": {
+            "sourceObjectId": "unity-object:894e0e47968d20e51aeb691922f47fbce21d240ad4a2ca562288faf08a45232f",
+            "nativePathId": "-8370678407146819145",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 35600976,
+            "objectBytes": 136,
+            "rawObjectSha256": "e3aa8de4352fc7795cd3b39d6f93a2c450dafd111460adda285a06e8642cd81d",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-3284623305331723060",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 7.86690616607666,
+              "y": 5.923308849334717
+            },
+            "m_SizeDelta": {
+              "x": 22.527299880981445,
+              "y": 16.564199447631836
+            },
+            "m_Pivot": {
+              "x": 0.8492135405540466,
+              "y": 0.16915743052959442
+            }
+          },
+          "imageColor": {
+            "r": 0.6823529601097107,
+            "g": 0.7254902124404907,
+            "b": 0.8039215803146362,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    },
+    "background": {
+      "assetId": "image:ad670eac5cc5a94c87b465dafce42afce0209c0af231d8081f347cf24afb624a",
+      "url": "/images/tools/SlicedImgCookieFrameSelectShadow__ad670eac5cc5.png",
+      "thumb": "/images/tools/SlicedImgCookieFrameSelectShadow__ad670eac5cc5.png",
+      "name": "SlicedImgCookieFrameSelectShadow",
+      "width": 82,
+      "height": 80,
+      "file": "apk-images/images/ui-and-sprites/SlicedImgCookieFrameSelectShadow__ad670eac5cc5.png",
+      "pngSha256": "2d80298a53407a98022a39a1a31dc165194202d7990987925fe4f919de3efe90",
+      "sources": [
+        {
+          "sourceId": "source-file:6a6c045d39104ad4029892c2d3d76c6089aa2e30bdcdbe5d9f150f4be256bebe",
+          "nativePathId": "613",
+          "sourceObjectId": "unity-object:d3534c3ede471ad192287812572c5cd1e6928251ff6f46d98a5d2f2151c18c8a",
+          "objectName": "SlicedImgCookieFrameSelectShadow",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_07b09eb9901ccb6837c9304c164885227e5b6a6162f331a102e0082fe0aa6192",
+          "resolution": "unique",
+          "serializedMember": "sharedassets0.assets",
+          "memberOffset": 11858960,
+          "objectBytes": 548,
+          "rawObjectSha256": "f1e0e727e16d3460c0ef7d255b61c22b7ce8fe4d18b1946e16e5307a3ba24e6a"
+        },
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-1325890585532050348",
+          "sourceObjectId": "unity-object:c5d1886786283c9684020a72e4a09e1c09f89ec138c2a7cc68ec34c38d7e37ef",
+          "objectName": "SlicedImgCookieFrameSelectShadow",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 137320720,
+          "objectBytes": 548,
+          "rawObjectSha256": "fb9b73eab17f5d54aab86781f4b9cc8eb2510def404ace9995f21ce18b776c4e"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Bg /Light_Pink",
+          "component": {
+            "sourceObjectId": "unity-object:5f1ac5d018e12e1d488b2838e0f83906bebe7201436c6531930ffe3d9a3ee69d",
+            "nativePathId": "-2115245031093292617",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 124995056,
+            "objectBytes": 136,
+            "rawObjectSha256": "bbe375a6cb0c450e032eb4ddbcfeaf86283e71ee7431fa5a2db6f31bc3832fca",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-1325890585532050348",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 522,
+              "y": 1186
+            },
+            "m_SizeDelta": {
+              "x": 2500,
+              "y": 1500
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0.7372549176216125,
+            "g": 0.2823529541492462,
+            "b": 0.5803921818733215,
+            "a": 0.10196078568696976
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Bg /Light_Dimd",
+          "component": {
+            "sourceObjectId": "unity-object:adb5ba10d15ee0b23d1334312e5be04fb059d8d5e2a5134c27631f8062d42054",
+            "nativePathId": "6499875706194440631",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 263511184,
+            "objectBytes": 136,
+            "rawObjectSha256": "531044a42df665733be47797ba635abc555c34950dc5bbcf11b1de94e653aefb",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-1325890585532050348",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": -630,
+              "y": 924
+            },
+            "m_SizeDelta": {
+              "x": 2500,
+              "y": 1500
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0.24313725531101227,
+            "g": 0.3803921639919281,
+            "b": 0.48627451062202454,
+            "a": 0.2980392277240753
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Bg /Light_Dimd (1)",
+          "component": {
+            "sourceObjectId": "unity-object:a4412613e029b72ff9f2f06865883b7ff012daa214e8a0c50f9e2c440f90d525",
+            "nativePathId": "7233629365972775351",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 270492896,
+            "objectBytes": 136,
+            "rawObjectSha256": "58757feddddfda8d5b7f725b1adbf14c66f34dddcf795449ea1f92f67912f360",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-1325890585532050348",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": 490,
+              "y": 149
+            },
+            "m_SizeDelta": {
+              "x": 2500,
+              "y": 1500
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0.24313725531101227,
+            "g": 0.3803921639919281,
+            "b": 0.48627451062202454,
+            "a": 0.2980392277240753
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Bg /Light_Center",
+          "component": {
+            "sourceObjectId": "unity-object:5681465af4dbf38105ab85516dcb012e26894552b6b0277fe9eef2c11c6a636e",
+            "nativePathId": "-6691819938963902025",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 61191984,
+            "objectBytes": 136,
+            "rawObjectSha256": "ce6a49aa5bbe6ed81501f3bfdd13f9e46c6651415f607bc8402b292d42f90735",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-1325890585532050348",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 404
+            },
+            "m_SizeDelta": {
+              "x": 2200,
+              "y": 1200
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0.3176470696926117,
+            "g": 0.12156862765550613,
+            "b": 0.572549045085907,
+            "a": 0.800000011920929
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Bg /Blur01",
+          "component": {
+            "sourceObjectId": "unity-object:1b521e3ab77095530a603831d8035426025f769ef26e35239da90518904c1617",
+            "nativePathId": "-8574936247801728585",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 30917344,
+            "objectBytes": 136,
+            "rawObjectSha256": "697047b7b519051a28d5618046d4d72f547a002ce4a7a7a170d9975364c30690",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-1325890585532050348",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": 469.85382080078125,
+              "y": 830.55810546875
+            },
+            "m_SizeDelta": {
+              "x": 147.96359252929688,
+              "y": 144.354736328125
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0.7960784435272217,
+            "g": 0.7882353067398071,
+            "b": 1,
+            "a": 0.10196078568696976
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Bg /Blur02",
+          "component": {
+            "sourceObjectId": "unity-object:67d45cde49aaca261ed11699e8f4beb743c0578c9f49ede993fe75a0955621ad",
+            "nativePathId": "1665547285597794743",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 214602352,
+            "objectBytes": 136,
+            "rawObjectSha256": "3a8fd56b9cf4eccd20e1d7883ce8a03c95a3173cbf39a0afdeb609726e6bcbbb",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-1325890585532050348",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": -508.8883056640625,
+              "y": 1506.7659912109375
+            },
+            "m_SizeDelta": {
+              "x": 176.21839904785156,
+              "y": 171.923828125
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0.7960784435272217,
+            "g": 0.7882353067398071,
+            "b": 1,
+            "a": 0.10196078568696976
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1/ConstellationNodeCell/LockIcon/BG",
+          "component": {
+            "sourceObjectId": "unity-object:f9eaf49c707f208b987c0090aacbef8eae01da12d22f5bd010b8dbb8767fecaf",
+            "nativePathId": "-8505320962778844745",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 31509248,
+            "objectBytes": 136,
+            "rawObjectSha256": "4d90b45e788621a7566b1e093d45ab3c1513977cd37694ebe0879d4c46585ba3",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-1325890585532050348",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 1
+            },
+            "m_SizeDelta": {
+              "x": 46.87810134887695,
+              "y": 47.970699310302734
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.6000000238418579
+          },
+          "imageType": 0
+        }
+      ]
+    }
+  },
+  "controls": {
+    "arrow": {
+      "assetId": "image:c9d1a8c2bd85c7d58466a2edd8d719e2edb299104731fbcca4f8e7404a7c9ab1",
+      "url": "/images/tools/IconArr2__c9d1a8c2bd85.png",
+      "thumb": "/images/tools/IconArr2__c9d1a8c2bd85.png",
+      "name": "IconArr2",
+      "width": 24,
+      "height": 33,
+      "file": "apk-images/images/icons/IconArr2__c9d1a8c2bd85.png",
+      "pngSha256": "722171a4cda14cd358f3bbc0563c2dbda8960623e099c2ea6e5fc5fc4a1d81da",
+      "sources": [
+        {
+          "sourceId": "source-file:6a6c045d39104ad4029892c2d3d76c6089aa2e30bdcdbe5d9f150f4be256bebe",
+          "nativePathId": "472",
+          "sourceObjectId": "unity-object:98a7284ce74d515dcf930fc1999b0e856c39fce7d45897aaddf234f31e1475a7",
+          "objectName": "IconArr2",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_07b09eb9901ccb6837c9304c164885227e5b6a6162f331a102e0082fe0aa6192",
+          "resolution": "unique",
+          "serializedMember": "sharedassets0.assets",
+          "memberOffset": 11711472,
+          "objectBytes": 500,
+          "rawObjectSha256": "a0b13a540c9d4fac445e3c9ce1a95fa3defc6117fa38936be149f96c87522f06"
+        },
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-8912678418807743094",
+          "sourceObjectId": "unity-object:f692cf9b16797b17e40328a7ce9991eebcb29e0b4e740e9fadef06028194357d",
+          "objectName": "IconArr2",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 26619248,
+          "objectBytes": 500,
+          "rawObjectSha256": "9a39ec5bafef6ae81ddcbc5c642dedc8850eca7ac9de8d36e56797c15f0f906d"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/BTN_SpinSet/Root/Btn_Spin_Left/Bg/Icon",
+          "component": {
+            "sourceObjectId": "unity-object:f731c64bfcdef52d96acd58a882c319f72a14ea6a211f9852ed7f4a36d361bd7",
+            "nativePathId": "-8203928399760772681",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 39690288,
+            "objectBytes": 136,
+            "rawObjectSha256": "e13f6b4c2eda3b9c1caa025643c81b28b0a47ad83f965aff4acbadeca3c6c7ac",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-8912678418807743094",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": -30,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 26.296899795532227,
+              "y": 36.15810012817383
+            },
+            "m_Pivot": {
+              "x": 1,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 0.6823529601097107,
+            "b": 0.003921568859368563,
+            "a": 1
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/BTN_SpinSet/Root/Btn_Spin_Right/Bg/Icon",
+          "component": {
+            "sourceObjectId": "unity-object:c827efeed594c84bca1f41b894e0b64812f8ace0e6ba7121efc39d3948b09e96",
+            "nativePathId": "-4204228370356031049",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 93951840,
+            "objectBytes": 136,
+            "rawObjectSha256": "a11bb086093191c2733d364746e4a8d1ecf11f5d20ec1068c9be6d7f5c22929a",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-8912678418807743094",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": -30,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 26.296899795532227,
+              "y": 36.15810012817383
+            },
+            "m_Pivot": {
+              "x": 1,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 0.6823529601097107,
+            "b": 0.003921568859368563,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    },
+    "info": {
+      "assetId": "image:4d70df744596adbca1c361d7c9d1bf24b3e49b48769446ac37dc4e4c5a05bb27",
+      "url": "/images/tools/IconGuide__4d70df744596.png",
+      "thumb": "/images/tools/IconGuide__4d70df744596.png",
+      "name": "IconGuide",
+      "width": 26,
+      "height": 43,
+      "file": "apk-images/images/icons/IconGuide__4d70df744596.png",
+      "pngSha256": "5c00e3131b0661316315e52b8cc8ffee0906a209ddbd14f749b34e3c261bd53b",
+      "sources": [
+        {
+          "sourceId": "source-file:6a6c045d39104ad4029892c2d3d76c6089aa2e30bdcdbe5d9f150f4be256bebe",
+          "nativePathId": "340",
+          "sourceObjectId": "unity-object:4c5bd55b8f85d191c16a1552285a7987222b02764abe1dda594c97b99f114e6b",
+          "objectName": "IconGuide",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_07b09eb9901ccb6837c9304c164885227e5b6a6162f331a102e0082fe0aa6192",
+          "resolution": "unique",
+          "serializedMember": "sharedassets0.assets",
+          "memberOffset": 11562000,
+          "objectBytes": 504,
+          "rawObjectSha256": "d7cd549006117363dadaf9ddbe99abc1d89cb331beee8f4ab76802579b6043dc"
+        },
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "1736646050697006534",
+          "sourceObjectId": "unity-object:067781126dcbba8c22e234738475af6076395894a01b5173320f604e396f6d63",
+          "objectName": "IconGuide",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 215220288,
+          "objectBytes": 504,
+          "rawObjectSha256": "fe1d21e2c072b4aa7c8503baee1689af67363681c8e418e24d48b6df14dbbdd3"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/DetailArea/Root/Title/BTN_S_Info/icon",
+          "component": {
+            "sourceObjectId": "unity-object:0474b7fa61910f95e2af60b8cfbd79adcb4a7416d9463b5c1041101d30d57a77",
+            "nativePathId": "4551726372619432375",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 243126064,
+            "objectBytes": 136,
+            "rawObjectSha256": "14670f0772cf8ee193d057415dd50dfa83aba28ddd12d6d3334c2fe7fc737fc9",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "1736646050697006534",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 1.7100000381469727,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 26,
+              "y": 43
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    },
+    "rerollButton": {
+      "assetId": "image:37dae81b5651d81f03e3a88503983169da9f4a11e08685cd46a0e6646d44fe7b",
+      "url": "/images/tools/SlicedBtnMain122__37dae81b5651.png",
+      "thumb": "/images/tools/SlicedBtnMain122__37dae81b5651.png",
+      "name": "SlicedBtnMain122",
+      "width": 70,
+      "height": 137,
+      "file": "apk-images/images/ui-and-sprites/SlicedBtnMain122__37dae81b5651.png",
+      "pngSha256": "37c209cb8a641d387f2887265aa6b6b9334cb6ee888bf273c5c03f7222bdb3cd",
+      "sources": [
+        {
+          "sourceId": "source-file:6a6c045d39104ad4029892c2d3d76c6089aa2e30bdcdbe5d9f150f4be256bebe",
+          "nativePathId": "461",
+          "sourceObjectId": "unity-object:c0efc5fe6bdffc14cc1ed8b0f4703e5f8dd4099fa0eb0b9f0b76725c925d36c5",
+          "objectName": "SlicedBtnMain122",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_07b09eb9901ccb6837c9304c164885227e5b6a6162f331a102e0082fe0aa6192",
+          "resolution": "unique",
+          "serializedMember": "sharedassets0.assets",
+          "memberOffset": 11699824,
+          "objectBytes": 580,
+          "rawObjectSha256": "2fdb8613601a49c3d8166a6da9dd487841adbeb0ca2df40f25641688a679387c"
+        },
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "2701711172429791265",
+          "sourceObjectId": "unity-object:a207e93137430b1c576aab8976299f41eb8bbe92eee58e4d2c664f9c7da51034",
+          "objectName": "SlicedBtnMain122",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 228530000,
+          "objectBytes": 580,
+          "rawObjectSha256": "e73cb345e6a12a83c8a5fd931937885a4abec833ed77aeeca73886329fbbf4d0"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/DetailArea/Root/Contents/TotalArea/BTN_130_Price/Root/BTN_BG",
+          "component": {
+            "sourceObjectId": "unity-object:6613a2c8caa4d068cc9ef99b2322bf0b5aeaa467b6a0ac244b62168695536fd3",
+            "nativePathId": "-5711957950471917129",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 71831888,
+            "objectBytes": 136,
+            "rawObjectSha256": "f7770dd86c6e2e941513ea97e13252cd07d3062edc642768cf5ab1f52f022c4f",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "2701711172429791265",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 1
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 0
+            },
+            "m_SizeDelta": {
+              "x": 0,
+              "y": 0
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 0.9921569228172302,
+            "g": 0.5843137502670288,
+            "b": 0,
+            "a": 1
+          },
+          "imageType": 1
+        }
+      ]
+    },
+    "upgrade": {
+      "assetId": "image:cc3741145188d9d02d16411e1ae756ac03e66bf35a2b8035154680a0ff7cd866",
+      "url": "/images/tools/IconUpgrade__cc3741145188.png",
+      "thumb": "/images/tools/IconUpgrade__cc3741145188.png",
+      "name": "IconUpgrade",
+      "width": 68,
+      "height": 60,
+      "file": "apk-images/images/icons/IconUpgrade__cc3741145188.png",
+      "pngSha256": "76ca8a6784eab7232854fc3fdfa24740554c29783c75a025973a72637af11ca3",
+      "sources": [
+        {
+          "sourceId": "source-file:6a6c045d39104ad4029892c2d3d76c6089aa2e30bdcdbe5d9f150f4be256bebe",
+          "nativePathId": "587",
+          "sourceObjectId": "unity-object:03ee0d42da39c07adcc0988189cad8320e99e3f0d9bd0f39710694c7b01fc63b",
+          "objectName": "IconUpgrade",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_07b09eb9901ccb6837c9304c164885227e5b6a6162f331a102e0082fe0aa6192",
+          "resolution": "unique",
+          "serializedMember": "sharedassets0.assets",
+          "memberOffset": 11839712,
+          "objectBytes": 616,
+          "rawObjectSha256": "134337b40a8a55bf1bb0b7e0009c4ce613b5d3229f24fad88bafc1e835a4e17a"
+        },
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "307967350099300287",
+          "sourceObjectId": "unity-object:e02cb6a56fa42a2d04eef4eec3775903fb05461206fa1dfd2f900ac1d4d7a172",
+          "objectName": "IconUpgrade",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 197731296,
+          "objectBytes": 616,
+          "rawObjectSha256": "dc42068b3e0d5008c728e00f01f93e32fac729a5ad08835f2b5673b03ea3ebea"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/DetailArea/Root/Contents/TotalArea/BTN_130_Price/UpgradeDot/Root_upgrade/ImgArr02",
+          "component": {
+            "sourceObjectId": "unity-object:e190fc7efbaee42e9f79958fd98b7c0ebea7f96566caac1ebda36a0a2ad78bb4",
+            "nativePathId": "-2069712264011697737",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 125529936,
+            "objectBytes": 136,
+            "rawObjectSha256": "0972bbda5701d90cb1c29b700118b6680924d25005ebab485b219c95efd2613e",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "307967350099300287",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": -22.199951171875
+            },
+            "m_SizeDelta": {
+              "x": 68,
+              "y": 60
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.12999999523162842
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/DetailArea/Root/Contents/TotalArea/BTN_130_Price/UpgradeDot/Root_upgrade/ImgArr",
+          "component": {
+            "sourceObjectId": "unity-object:03e50a929f8dbd26ef1fa6d0a5a750dcb6a0a24d035161e3bfdefaa1274573e9",
+            "nativePathId": "-5768281551826898505",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 71391296,
+            "objectBytes": 136,
+            "rawObjectSha256": "2fdd87db0abcde942c64548b6b87b638f56f14b6fad7b6668ea75edb6152e451",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "307967350099300287",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": -22.200439453125
+            },
+            "m_SizeDelta": {
+              "x": 68,
+              "y": 60
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.12999999523162842
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    }
+  },
+  "background": {
+    "frame": {
+      "assetId": "image:b7d134eff211e3a76f9d669ed5e746d060d98691eeaf9c7ccc5c410c7f0168b9",
+      "url": "/images/tools/ImgStellarLinkBGFrame__b7d134eff211.png",
+      "thumb": "/images/tools/ImgStellarLinkBGFrame__b7d134eff211.png",
+      "name": "ImgStellarLinkBGFrame",
+      "width": 665,
+      "height": 1271,
+      "file": "apk-images/images/ui-and-sprites/ImgStellarLinkBGFrame__b7d134eff211.png",
+      "pngSha256": "a055b6815cd146ab49b578ea5cb02d233d57bf99e99aaf0d5dddae69d082c9c7",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-7161937258841943514",
+          "sourceObjectId": "unity-object:f3c3f9d8742f2b8c4290be163e635d47c0ce28fc6e0b09218d5a19ba9010dab3",
+          "objectName": "ImgStellarLinkBGFrame",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 56938496,
+          "objectBytes": 7604,
+          "rawObjectSha256": "46b7b457eb5c0e6df0c1487ff3d39b11a6bf5142e161d78b12186fe332d0d06a"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/BGFront/Frame_L",
+          "component": {
+            "sourceObjectId": "unity-object:506db911d5c853166c26f0bd7a2b8ad7b7dca35e3f10bf2375b97cf0958feb75",
+            "nativePathId": "-4253749296841084489",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 93540176,
+            "objectBytes": 136,
+            "rawObjectSha256": "e4b46432ebb9aa5b827a72bb53ace9a762b051ebc08cd8cc989cd914978a25d6",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-7161937258841943514",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": -525,
+              "y": 114.5169677734375
+            },
+            "m_SizeDelta": {
+              "x": 665,
+              "y": 1154.9638671875
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        },
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/BGFront/Frame_R",
+          "component": {
+            "sourceObjectId": "unity-object:0c7d818ac9c81c3ff242e4f6c8478a36577b69da68a38605a36c9b39000aef06",
+            "nativePathId": "3581861813310337463",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 235428960,
+            "objectBytes": 136,
+            "rawObjectSha256": "16d27f6338f426fb4e1b1cfe079bd3f358ca5801d6513156c36d4f8ee84ccfd5",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-7161937258841943514",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": 525,
+              "y": 114.5169677734375
+            },
+            "m_SizeDelta": {
+              "x": 665,
+              "y": 1154.9638671875
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    },
+    "bottom": {
+      "assetId": "image:6968b7c9b9f6a68aea50f4256a3c88eb8de9c929593ed4bd6619fffaa6096f14",
+      "url": "/images/tools/ImgStellarLinkBGBottom__6968b7c9b9f6.png",
+      "thumb": "/images/tools/ImgStellarLinkBGBottom__6968b7c9b9f6.png",
+      "name": "ImgStellarLinkBGBottom",
+      "width": 290,
+      "height": 493,
+      "file": "apk-images/images/ui-and-sprites/ImgStellarLinkBGBottom__6968b7c9b9f6.png",
+      "pngSha256": "d8e167991abeb79f0112ade4ba84665a048288833001c3f2f2cfd3cee41cbe5a",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-582665537433548106",
+          "sourceObjectId": "unity-object:94899a8585caf5594684af705f6d6d34a36a85b444665cf80b9191e479a9316a",
+          "objectName": "ImgStellarLinkBGBottom",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 172871568,
+          "objectBytes": 500,
+          "rawObjectSha256": "6383ccfb22648b6ac5c8aea98260ac92ed378476ad96a6e9a8c74585d43fb06f"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/BGFront/Bottom",
+          "component": {
+            "sourceObjectId": "unity-object:bcf25ab655ebd4f3712e299859997fcb06501beac53ee93cbf972dabad152723",
+            "nativePathId": "3908106738090258871",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 237912352,
+            "objectBytes": 136,
+            "rawObjectSha256": "2ee480299571b9cabdec8555fdbf84824ee720fe5a8c1e37196c92ec8b4e0d00",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-582665537433548106",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 1,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 10
+            },
+            "m_SizeDelta": {
+              "x": -300,
+              "y": 552.4923706054688
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 1
+        }
+      ]
+    },
+    "center": {
+      "assetId": "image:00a3c8a6f4a24b0c97a5e6bd0cb93330eef624e506c0fa0d811d0219f96350ea",
+      "url": "/images/tools/ImgStellarLinkBGCenter__00a3c8a6f4a2.png",
+      "thumb": "/images/tools/ImgStellarLinkBGCenter__00a3c8a6f4a2.png",
+      "name": "ImgStellarLinkBGCenter",
+      "width": 348,
+      "height": 107,
+      "file": "apk-images/images/ui-and-sprites/ImgStellarLinkBGCenter__00a3c8a6f4a2.png",
+      "pngSha256": "f4f518e160ed851207f4e906a4f99f3ababb231fa224e4104b8fc66895e7c27d",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-2102318990714969235",
+          "sourceObjectId": "unity-object:ec86b3ece8bafc91b62333d65cfd05e30b7203a6e1467978ad6e8a95ef1712f6",
+          "objectName": "ImgStellarLinkBGCenter",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 125107424,
+          "objectBytes": 912,
+          "rawObjectSha256": "71d92e44579634abb55694c53c04605e658e10d6b815a1fa795b3e1f366d6873"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/BGFront/Center",
+          "component": {
+            "sourceObjectId": "unity-object:fffd8cfc36a9619e3314b040f7750665e523d02a907b820d3a87eb034f8efd6d",
+            "nativePathId": "-7416724984209264201",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 54724480,
+            "objectBytes": 136,
+            "rawObjectSha256": "9087feedef9cf9bf07a1235bafc5ca3f82992bb7e373ccd04f0188db360a7c68",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-2102318990714969235",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": 495.7186279296875
+            },
+            "m_SizeDelta": {
+              "x": 437.5195007324219,
+              "y": 122.24320220947266
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    },
+    "telescope": {
+      "assetId": "image:14433c59f3325f803a8842968c7070f9dad13614fb68c6f0550b1aff57ab043c",
+      "url": "/images/tools/ImgStellarLinkBGTelescope__14433c59f332.png",
+      "thumb": "/images/tools/ImgStellarLinkBGTelescope__14433c59f332.png",
+      "name": "ImgStellarLinkBGTelescope",
+      "width": 84,
+      "height": 51,
+      "file": "apk-images/images/ui-and-sprites/ImgStellarLinkBGTelescope__14433c59f332.png",
+      "pngSha256": "4310771c525a02c99e340873583a4cc32e8e477664aff7b97b4e16c3aee1cce6",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-2490600482809859189",
+          "sourceObjectId": "unity-object:1265e600df67c8f88f028a044b121ceb6dd3764a2a5350cd71e223d86a97f05e",
+          "objectName": "ImgStellarLinkBGTelescope",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 122163904,
+          "objectBytes": 644,
+          "rawObjectSha256": "ea1928ff7188ff1ffc3ef46c9d9174c4a75d05f156688822c5d47e9241fe9f1b"
+        }
+      ],
+      "match": {
+        "status": "proven",
+        "evidenceType": "direct_prefab_Image_or_StateDefs_Sprite_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": [
+        {
+          "gameObjectPath": "/StellarLinkPage/OpenAni/DetailArea/Gnome/Scope/Scpoe",
+          "component": {
+            "sourceObjectId": "unity-object:a2174bef8eb54a7cbb353776ad91faff1fc1d1e59afdd76dc6ae89f0d5457c1a",
+            "nativePathId": "8082056323604623799",
+            "unityType": "MonoBehaviour",
+            "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+            "memberOffset": 277440384,
+            "objectBytes": 136,
+            "rawObjectSha256": "ee5850fc70eb651a992e9e14dcb843bec5f0b190e748c77d92e269d9fe87de74",
+            "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+            "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+          },
+          "field": "m_Sprite",
+          "targetNativePathId": "-2490600482809859189",
+          "rect": {
+            "m_LocalRotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "m_LocalScale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "m_AnchorMin": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchorMax": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "m_AnchoredPosition": {
+              "x": 0,
+              "y": -5.04864501953125
+            },
+            "m_SizeDelta": {
+              "x": 108.05960083007812,
+              "y": 65.60759735107422
+            },
+            "m_Pivot": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "imageColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "imageType": 0
+        }
+      ]
+    },
+    "star": {
+      "assetId": "image:3311f1970021a9d676634c6c6ffd1e6e8f1e82b52152b233f49bc5501058f7a4",
+      "url": "/images/tools/ImgStellarLinkBGStar__3311f1970021.png",
+      "thumb": "/images/tools/ImgStellarLinkBGStar__3311f1970021.png",
+      "name": "ImgStellarLinkBGStar",
+      "width": 42,
+      "height": 69,
+      "file": "apk-images/images/ui-and-sprites/ImgStellarLinkBGStar__3311f1970021.png",
+      "pngSha256": "947da2482c40f2fc14672ece7e6360956dc8bccaa8b8f61adddd3b8ff57573c0",
+      "sources": [
+        {
+          "sourceId": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0",
+          "nativePathId": "-300857635302705586",
+          "sourceObjectId": "unity-object:fea6262678ec9dcd2196d2deb1e25e41e9f8b10499cddb3f4687fe2c03e4adba",
+          "objectName": "ImgStellarLinkBGStar",
+          "imageType": "Sprite",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "resolution": "unique",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 175290048,
+          "objectBytes": 672,
+          "rawObjectSha256": "fd929bb1620ed45167df0bbae1ad578ac079484e239b3f1f07fec88e3eb9e4bd"
+        }
+      ],
+      "match": {
+        "status": "inferred",
+        "evidenceType": "direct_prefab_reference",
+        "runtimeObserved": false
+      },
+      "uiReferences": []
+    }
+  },
+  "layoutEvidence": {
+    "prefab": "Assets/2_Feature/StellarLink/Prefabs/StellarLinkPage.prefab",
+    "sourceBundle": {
+      "bytes": 374756409,
+      "path": "apk-images/source/split_UnityDataAssetPack/assets/aa/Android/defaultlocalgroup_assets_all.bundle",
+      "rea_evidence_id": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+      "sha256": "9f6165a9bf1125f88f4853065d355fe2b7e41b434a5a8f1d15c11844473fabb5",
+      "source_content_id": "sha256:9f6165a9bf1125f88f4853065d355fe2b7e41b434a5a8f1d15c11844473fabb5",
+      "source_file_id": "source-file:a6ec2bb229ef6d73fd28df0a1320cbe8c8b87f5cf340f81d748172d9eff74ff0"
+    },
+    "mainCellSize": 850,
+    "plateSize": 925,
+    "nodeCount": 12,
+    "nodeRectSize": 100,
+    "nodeGraphicSize": 92,
+    "nodeOrder": "1 at top, then counter-clockwise; integer rounded circle coordinates in prefab",
+    "nodes": [
+      {
+        "index": 1,
+        "position": {
+          "x": 0,
+          "y": 385
+        },
+        "normalizedPlateXY": {
+          "x": 0.5,
+          "y": 0.08378378378378376
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 385
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:e7df3b304a895803fb274cd7ae153915d337b59fd007d9adcbf4c06fc525e50c",
+          "nativePathId": "2083629605743767991",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 218523728,
+          "objectBytes": 120,
+          "rawObjectSha256": "ebee15c626ac0d4d5ed1521770a484fa566706bc6a5572863e044c92e2147c3d",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node1"
+      },
+      {
+        "index": 2,
+        "position": {
+          "x": -195,
+          "y": 335
+        },
+        "normalizedPlateXY": {
+          "x": 0.2891891891891892,
+          "y": 0.13783783783783782
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -195,
+            "y": 335
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:1941cac72925f56d277ae7fb901d03d1e755cec012e53e9b81773b9eda7eecd1",
+          "nativePathId": "2936021594115355063",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 230611120,
+          "objectBytes": 120,
+          "rawObjectSha256": "2111d30d8dc8d1dc5539bcc6e69639057f4f34151f4013f2f0afd1b536f1644b",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node2"
+      },
+      {
+        "index": 3,
+        "position": {
+          "x": -335,
+          "y": 195
+        },
+        "normalizedPlateXY": {
+          "x": 0.13783783783783782,
+          "y": 0.2891891891891892
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -335,
+            "y": 195
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:23212acd3203eada3b468145225a0aa96b83ba07e0f8164d3ec1ce687cd2096e",
+          "nativePathId": "722418499545412023",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 204430304,
+          "objectBytes": 120,
+          "rawObjectSha256": "23b04a7e8c8116358091266dada9576b351d2eec0157e11ff0667ab4c924c853",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node3"
+      },
+      {
+        "index": 4,
+        "position": {
+          "x": -385,
+          "y": 0
+        },
+        "normalizedPlateXY": {
+          "x": 0.08378378378378376,
+          "y": 0.5
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -385,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:521ecce4d296e1491f28d330bedf07e4ff8f28292c789cdb65d733052e21effa",
+          "nativePathId": "-5524666458315738697",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 73319200,
+          "objectBytes": 120,
+          "rawObjectSha256": "6d5bc1c3338f9cb47e589f34fd1f42d4e228c45319d8f01921cfd125c31a2e74",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node4"
+      },
+      {
+        "index": 5,
+        "position": {
+          "x": -335,
+          "y": -195
+        },
+        "normalizedPlateXY": {
+          "x": 0.13783783783783782,
+          "y": 0.7108108108108109
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -335,
+            "y": -195
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:bcf6829389e5abff34fd8918682d54e9ff270e3b2921f762f7c00f34424203f6",
+          "nativePathId": "-677496405223132745",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 172125456,
+          "objectBytes": 120,
+          "rawObjectSha256": "8a793aa3b6ad54f994eb8a83765e78371b32f32134c9f5f94503849f3705b62c",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node5"
+      },
+      {
+        "index": 6,
+        "position": {
+          "x": -195,
+          "y": -335
+        },
+        "normalizedPlateXY": {
+          "x": 0.2891891891891892,
+          "y": 0.8621621621621622
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -195,
+            "y": -335
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:5b4339501517f43283b14b81a90bc733a30e87cd75c06bc9e7874f3b24cc947c",
+          "nativePathId": "7096049374335283639",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 269416432,
+          "objectBytes": 120,
+          "rawObjectSha256": "a2aeb432f8eaace6a0961e75cfcf27597ad174b3bdf22fbffe167af527df97b4",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node6"
+      },
+      {
+        "index": 7,
+        "position": {
+          "x": 0,
+          "y": -385
+        },
+        "normalizedPlateXY": {
+          "x": 0.5,
+          "y": 0.9162162162162162
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": -385
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:942d7294158bf3f01373e773ba01d374ccede596c199dc921c7eb39e87decb2d",
+          "nativePathId": "6104538780645339575",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 260018976,
+          "objectBytes": 120,
+          "rawObjectSha256": "bc4a7d2a5736901e456732a8dcd6c7cb9df6f1c1baf14a065292ba02053faa68",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node7"
+      },
+      {
+        "index": 8,
+        "position": {
+          "x": 195,
+          "y": -335
+        },
+        "normalizedPlateXY": {
+          "x": 0.7108108108108109,
+          "y": 0.8621621621621622
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 195,
+            "y": -335
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:e51e503d597124c7854096f5be1ac4c6757eaf88d20d33656df8de83333ecd30",
+          "nativePathId": "3890338264302236087",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 237763872,
+          "objectBytes": 120,
+          "rawObjectSha256": "c74a2db19aba76119becc92f8f7846adf95ff99426eee151455d9d1b9d32ca6e",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node8"
+      },
+      {
+        "index": 9,
+        "position": {
+          "x": 335,
+          "y": -195
+        },
+        "normalizedPlateXY": {
+          "x": 0.8621621621621622,
+          "y": 0.7108108108108109
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 335,
+            "y": -195
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:3c3395981e329ace56b7e0539586dd46f2ea8604ed32c74e8553881e0c99d371",
+          "nativePathId": "5922653776339612087",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 257923328,
+          "objectBytes": 120,
+          "rawObjectSha256": "56b43050ae93a4e40dd5a85694a3c45c9e34e01258a540c4abd78a85f1c9a916",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node9"
+      },
+      {
+        "index": 10,
+        "position": {
+          "x": 385,
+          "y": 0
+        },
+        "normalizedPlateXY": {
+          "x": 0.9162162162162162,
+          "y": 0.5
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 385,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:6a2618d983505a596d951e6ef8002027646abc9e9061b1b7cd1e5b1d805bdbc8",
+          "nativePathId": "-7672808467189124681",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 52704464,
+          "objectBytes": 120,
+          "rawObjectSha256": "42e5fd8e61622b663fbc8274a5556f9a08e7e7d1b9d02a7e09157dddabac0eae",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node10"
+      },
+      {
+        "index": 11,
+        "position": {
+          "x": 335,
+          "y": 195
+        },
+        "normalizedPlateXY": {
+          "x": 0.8621621621621622,
+          "y": 0.2891891891891892
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 335,
+            "y": 195
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:47b14f38179e9d4436867587c8dd45d1a006855584d97c52661d674aa8348c49",
+          "nativePathId": "3436478308792545719",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 234339616,
+          "objectBytes": 120,
+          "rawObjectSha256": "a6829f9b98f48990ecff6f9f0e1283973a02fb2edb97049a96ed6b33e75436b9",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node11"
+      },
+      {
+        "index": 12,
+        "position": {
+          "x": 195,
+          "y": 335
+        },
+        "normalizedPlateXY": {
+          "x": 0.7108108108108109,
+          "y": 0.13783783783783782
+        },
+        "uiRadius": 385,
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 195,
+            "y": 335
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:b15c6e560f8bff38659aff36cd6b870fd8c289019fb5e8f7803a3bde93f13a48",
+          "nativePathId": "4345069639131541943",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 241483680,
+          "objectBytes": 120,
+          "rawObjectSha256": "d33f8ea6d8ea48138b0ce5775e1e5cdc4ed527632762fc1c310f68d224b9c9fd",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "gameObjectPath": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate/Node12"
+      }
+    ],
+    "cellLayouts": [
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_First",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -870,
+            "y": 915
+          },
+          "m_SizeDelta": {
+            "x": 850,
+            "y": 850
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:95c59ebc486daf0caba5029a170b196ad07f3ffdf449bd863f46ad3fd4eded7b",
+          "nativePathId": "-7025909678427328073",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 58025200,
+          "objectBytes": 120,
+          "rawObjectSha256": "3a9745ee2d421d725462b69f3f07cb188a672a5897b62757103a57f153724272",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "nodeCount": 12,
+        "positionsMatchMain": true
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Before",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -490,
+            "y": 540
+          },
+          "m_SizeDelta": {
+            "x": 850,
+            "y": 850
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:0b320aa75f4141e46ce8da0b0a775bb1126302cd7b8aaabe541907fa411b0fd5",
+          "nativePathId": "3445642536575906231",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 234411264,
+          "objectBytes": 120,
+          "rawObjectSha256": "71cb27f07e8bb818305c89b16cb6677f943f2a997ca013dcca8755e6fe0c4148",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "nodeCount": 12,
+        "positionsMatchMain": true
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": -120
+          },
+          "m_SizeDelta": {
+            "x": 850,
+            "y": 850
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:eae90b7cc5b6cecbf521d214836e71b0ab0720678fb6aa8cecaa5911b97a497b",
+          "nativePathId": "-3811750989314510409",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 101522160,
+          "objectBytes": 120,
+          "rawObjectSha256": "d1dba95a4d956fcfa174c3d2d9b351782def0957fd5792c363a4d9ca1fbd038a",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "nodeCount": 12,
+        "positionsMatchMain": true
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_After",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 490,
+            "y": 540
+          },
+          "m_SizeDelta": {
+            "x": 850,
+            "y": 850
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:7ede21ce820addd274af006b0ab80cb258dce4611c56dc4884fbdb1ba33430d6",
+          "nativePathId": "7633465517414887863",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 273701104,
+          "objectBytes": 120,
+          "rawObjectSha256": "e254cfd8de98927540c38596969f5d43ffb1728898c11c000fc4661b4198e1b5",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "nodeCount": 12,
+        "positionsMatchMain": true
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Last",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 870,
+            "y": 915
+          },
+          "m_SizeDelta": {
+            "x": 850,
+            "y": 850
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:409ae3aa5913db0d6b9723b5b96c45325e32e0a349fe39f4b27507a4cb20b915",
+          "nativePathId": "5642420734919717303",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 255864016,
+          "objectBytes": 120,
+          "rawObjectSha256": "4c8c133b70c131ea16b15f5cd79bbb3ff6f0d36b3c256ce0954811c3f28e57d2",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "nodeCount": 12,
+        "positionsMatchMain": true
+      }
+    ],
+    "areas": [
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 210
+          },
+          "m_SizeDelta": {
+            "x": 1080,
+            "y": 1760
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:23b179909e3d7b13168463d36769b7ffdd0dcaff68b55511074b4bda2bf9df42",
+          "nativePathId": "-3087132250710920777",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 117288432,
+          "objectBytes": 120,
+          "rawObjectSha256": "b663eabf45d15ee5e1325f0740088fafa1506169589602e552ffacd19a2e63ca",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        }
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/Plate",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 925,
+            "y": 925
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:0dfd02fde5a57ce4c31848c05f57f98bcf56b01530cd3b395ad2089b52e8d21a",
+          "nativePathId": "-4269819960996056649",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 93380688,
+          "objectBytes": 252,
+          "rawObjectSha256": "b8cfe187372e92efad9248fc7639f63ac1dc59fb67b31c81d999f2635632e623",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        }
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/BGFront",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 811
+          },
+          "m_SizeDelta": {
+            "x": 1080,
+            "y": 1622
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:6dc42c7abfc8717a9f804c198ffa260b5471db523ffdd7017925f4255f107902",
+          "nativePathId": "-8412527789049564745",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 35230624,
+          "objectBytes": 180,
+          "rawObjectSha256": "edca8a0984734ff2dd5389a631cc63ce06e02d39b27461f600a3439862d5a26f",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        }
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/DetailArea",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0,
+            "y": 0
+          },
+          "m_AnchorMax": {
+            "x": 1,
+            "y": 0
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 0,
+            "y": 420
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:3dc62df95a0440b00d94027ed175b8fbb0f0f1bc562caddb002f4ef829d6dd97",
+          "nativePathId": "1876787001415709111",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 216868720,
+          "objectBytes": 132,
+          "rawObjectSha256": "6a1ea0ac0ad3035a22a799f65813f266a0b8be3b706f677a383157157c3872c3",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        }
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/DetailArea/Root/Contents/Root/Stat_Hor",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -460,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 100,
+            "y": 100
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:23ce7867319d2d73006e90778d16bff4aafc0557e8f0ef4cb29c01605ea3a37e",
+          "nativePathId": "-8564951232398282313",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 30996864,
+          "objectBytes": 144,
+          "rawObjectSha256": "5d46577384646050760c820551e2405cca1c5f420759ac8edc8297cd0dfa505a",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        }
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/DetailArea/Root/Contents/TotalArea",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 1,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 1,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": -200,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 353.9000244140625,
+            "y": 280
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:b68f8efef890ab6591351380648b2ed939c2d170954017034ff9e0de4d5a4441",
+          "nativePathId": "1454915597202567607",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 212905392,
+          "objectBytes": 156,
+          "rawObjectSha256": "a3b6ce7344cf61bf18c42a878e03ceafa790f526447e2db08f90c03b4df0da86",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        }
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/DetailArea/Root/Contents/TotalArea/BTN_130_Price",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": -61.13446044921875
+          },
+          "m_SizeDelta": {
+            "x": 310,
+            "y": 133
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:3e517e3de1995d7e27b57dc253d9910d956deb8dfd020da1bdb4f52a8e7d7aaf",
+          "nativePathId": "-4145157370802654793",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 94343632,
+          "objectBytes": 132,
+          "rawObjectSha256": "0c415b350039c65a3fb659b044273c38d104d4e3b4794ca8409a88233f45790b",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        }
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Top/ConditionInfo",
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0.5,
+            "y": 1
+          },
+          "m_AnchorMax": {
+            "x": 0.5,
+            "y": 1
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": -150
+          },
+          "m_SizeDelta": {
+            "x": 1050,
+            "y": 180
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "rectSource": {
+          "sourceObjectId": "unity-object:789d6d03f22d107e45311d014a969f0ce494bf07b338e26b5f3a8dfa619bf29a",
+          "nativePathId": "-6558258911059758665",
+          "unityType": "RectTransform",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 62157872,
+          "objectBytes": 132,
+          "rawObjectSha256": "081bf95513788e291e6b010825f9b2f54102dce6500dfd70d31bc62cc8557c60",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        }
+      }
+    ],
+    "polygonTemplate": [
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/StellalinkController/Stellalink",
+        "component": {
+          "sourceObjectId": "unity-object:b059f2819e36bcb0bbfc36646a79b020706e43e4ca2e74c6ee7f1f5a07b679d4",
+          "nativePathId": "8724479726165569975",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 282455280,
+          "objectBytes": 120,
+          "rawObjectSha256": "a8272394ffe6626406851ac33c3adcfdbb8da9d79cb481a1829514f6c80356d1",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "fields": {
+          "_sides": 7,
+          "_polygonMesh": {
+            "m_FileID": 0,
+            "m_PathID": "-2544448863076863561"
+          },
+          "_polygonLine": {
+            "m_FileID": 0,
+            "m_PathID": "-5321300230035787337"
+          },
+          "_vertices": [
+            {
+              "x": 0.0669873058795929,
+              "y": 0.75
+            },
+            {
+              "x": 0.2500000596046448,
+              "y": 0.06698727607727051
+            },
+            {
+              "x": 0.4999999701976776,
+              "y": 1
+            },
+            {
+              "x": 0.9330127835273743,
+              "y": 0.25000011920928955
+            },
+            {
+              "x": 0.5,
+              "y": 0
+            },
+            {
+              "x": 0.2499999701976776,
+              "y": 0.9330127239227295
+            },
+            {
+              "x": 0.9330127239227295,
+              "y": 0.75
+            }
+          ]
+        },
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0,
+            "y": 0
+          },
+          "m_AnchorMax": {
+            "x": 1,
+            "y": 1
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 0,
+            "y": 0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/StellalinkController/Stellalink/Mesh",
+        "component": {
+          "sourceObjectId": "unity-object:e465eafdc9f2ae8d85fb420103c0626fe0ea286bb316958521691f1844945f44",
+          "nativePathId": "-2544448863076863561",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 121707392,
+          "objectBytes": 148,
+          "rawObjectSha256": "2f36960943346f94af7ada7f88178c58c45e8c20a045cc2d84d9660cbfadaebd",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "fields": {
+          "_vertices": [
+            {
+              "x": 0.0669873058795929,
+              "y": 0.75
+            },
+            {
+              "x": 0.2500000596046448,
+              "y": 0.06698727607727051
+            },
+            {
+              "x": 0.4999999701976776,
+              "y": 1
+            },
+            {
+              "x": 0.9330127835273743,
+              "y": 0.25000011920928955
+            },
+            {
+              "x": 0.5,
+              "y": 0
+            },
+            {
+              "x": 0.2499999701976776,
+              "y": 0.9330127239227295
+            },
+            {
+              "x": 0.9330127239227295,
+              "y": 0.75
+            }
+          ]
+        },
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0,
+            "y": 0
+          },
+          "m_AnchorMax": {
+            "x": 1,
+            "y": 1
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 0,
+            "y": 0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "path": "/StellarLinkPage/OpenAni/Anchor_Center/Mask/ConstellationCell_Main/ConstellationCell/StellalinkController/Stellalink/Line",
+        "component": {
+          "sourceObjectId": "unity-object:6c9492accf9b45a6f51696780b2a1bff90300f3c750ede586bc23445029ef01c",
+          "nativePathId": "-5321300230035787337",
+          "unityType": "MonoBehaviour",
+          "serializedMember": "CAB-4cce97b1ecbd05fe64b518b0b3effc16",
+          "memberOffset": 77571216,
+          "objectBytes": 464,
+          "rawObjectSha256": "7d33cee1c665512b925c57ed47ec87272e30165adcb03ae935545ee1a2e569ae",
+          "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+          "locationLimit": "Offset is in the decompressed Unity member, not an APK or bundle offset."
+        },
+        "fields": {
+          "_vertices": [
+            {
+              "x": 0.0669873058795929,
+              "y": 0.75
+            },
+            {
+              "x": 0.2500000596046448,
+              "y": 0.06698727607727051
+            },
+            {
+              "x": 0.4999999701976776,
+              "y": 1
+            },
+            {
+              "x": 0.9330127835273743,
+              "y": 0.25000011920928955
+            },
+            {
+              "x": 0.5,
+              "y": 0
+            },
+            {
+              "x": 0.2499999701976776,
+              "y": 0.9330127239227295
+            },
+            {
+              "x": 0.9330127239227295,
+              "y": 0.75
+            }
+          ],
+          "_thickness": 16.149999618530273,
+          "_miterLimit": 3,
+          "_progress": 1
+        },
+        "rect": {
+          "m_LocalRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "m_LocalScale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "m_AnchorMin": {
+            "x": 0,
+            "y": 0
+          },
+          "m_AnchorMax": {
+            "x": 1,
+            "y": 1
+          },
+          "m_AnchoredPosition": {
+            "x": 0,
+            "y": 0
+          },
+          "m_SizeDelta": {
+            "x": 0,
+            "y": 0
+          },
+          "m_Pivot": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    ],
+    "polygonTemplateLimit": "These 7 vertices and order are serialized placeholder data; neither server random generation nor area calculation is proved by the prefab. Runtime may replace vertices/positions.",
+    "layoutRuntimeObserved": false
+  }
+}

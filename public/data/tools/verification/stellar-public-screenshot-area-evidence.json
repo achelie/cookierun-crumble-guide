@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "scope": "Public guide's browser-rendered images independently read as visible game UI. No media download, emulator control, live memory capture or webpage edit.",
+  "sourcePage": {
+    "url": "https://crumbles.fun/en/guides/stellar-link-basics",
+    "title": "Stellar Links Guide: Best Target Area per Constellation and When to Lock · CookieRun: Crumble",
+    "observedAtUtc": "2026-10-14T18:39:15.024Z",
+    "imageSourceUrlsConfirmedInDom": [
+      "https://crumbles.fun/img/guides/stellar-link/locked-93.en.webp",
+      "https://crumbles.fun/img/guides/stellar-link/locks-6.en.webp",
+      "https://crumbles.fun/img/guides/stellar-link/pending-7-of-10.en.webp"
+    ],
+    "authorTextUsedAsAlgorithmProof": false
+  },
+  "samples": [
+    {
+      "id": "locked-93",
+      "url": "https://crumbles.fun/img/guides/stellar-link/locked-93.en.webp",
+      "capturedAtUtc": "2026-10-14T18:37:48.128Z",
+      "capturedAtHongKong": "2026-10-15 02:37:48 +08:00",
+      "render": "stellar-public-locked-93-render.png",
+      "clockwiseRanksFrom12": [
+        12,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10,
+        11
+      ],
+      "lockedClockPositions": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "lockedRanks": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "constellation": 1,
+      "placed": 12,
+      "unlocked": 12,
+      "displayedAreaPercent": 93,
+      "displayedAmplificationPercent": {
+        "attack": "18.60",
+        "defense": "18.60",
+        "health": "18.60"
+      },
+      "displayedShuffleCost": 220,
+      "displayedCurrencyBalance": 200,
+      "visibleCrossings": "Two crossings at the bottom swaps 4/5 and 7/8.",
+      "renderEvidence": {
+        "path": "stellar-public-locked-93-render.png",
+        "bytes": 609064,
+        "sha256": "7f8ad30545b87c60aaf3f2b1413ccb7bc86f6f350f795c671eb1dc47a8496e6b",
+        "kind": "Browser viewport PNG of normally rendered source WebP; not the original media SHA.",
+        "viewport": {
+          "width": 760,
+          "height": 1140
+        },
+        "sourceImageNaturalSize": {
+          "width": 720,
+          "height": 1087
+        },
+        "sourceImageRenderedRect": {
+          "x": 20,
+          "y": 26.5,
+          "width": 720,
+          "height": 1087
+        }
+      },
+      "clockConvention": "Array starts at the top 12 o'clock slot, then goes clockwise through 1,2,...11. None means no placed numbered star in that slot.",
+      "geometry": {
+        "rankOrderedCoordinates": [
+          [
+            0.49999999999999994,
+            0.8660254037844387
+          ],
+          [
+            0.8660254037844386,
+            0.5000000000000001
+          ],
+          [
+            1,
+            6.123233995736766e-17
+          ],
+          [
+            0.49999999999999994,
+            -0.8660254037844387
+          ],
+          [
+            0.8660254037844387,
+            -0.4999999999999998
+          ],
+          [
+            1.2246467991473532e-16,
+            -1
+          ],
+          [
+            -0.8660254037844385,
+            -0.5000000000000004
+          ],
+          [
+            -0.4999999999999997,
+            -0.8660254037844388
+          ],
+          [
+            -1,
+            -1.8369701987210297e-16
+          ],
+          [
+            -0.8660254037844386,
+            0.5000000000000001
+          ],
+          [
+            -0.5000000000000004,
+            0.8660254037844384
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "intersections": [
+          {
+            "segmentStartRanks": [
+              3,
+              5
+            ],
+            "point": [
+              0.6339745962155615,
+              -0.6339745962155611
+            ]
+          },
+          {
+            "segmentStartRanks": [
+              6,
+              8
+            ],
+            "point": [
+              -0.633974596215561,
+              -0.6339745962155618
+            ]
+          }
+        ],
+        "boundedAtomicFaces": [
+          {
+            "area": 2.767949192431123,
+            "winding": -1,
+            "vertices": [
+              [
+                0.49999999999999994,
+                0.8660254037844387
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                -0.5000000000000004,
+                0.8660254037844384
+              ],
+              [
+                -0.8660254037844386,
+                0.5000000000000001
+              ],
+              [
+                -1,
+                -2.220446049250313e-16
+              ],
+              [
+                -0.633974596215561,
+                -0.6339745962155618
+              ],
+              [
+                1.1102230246251565e-16,
+                -1
+              ],
+              [
+                0.6339745962155615,
+                -0.6339745962155611
+              ],
+              [
+                1,
+                1.1102230246251565e-16
+              ],
+              [
+                0.8660254037844386,
+                0.5000000000000001
+              ]
+            ]
+          },
+          {
+            "area": 0.017949192431122724,
+            "winding": 1,
+            "vertices": [
+              [
+                0.6339745962155615,
+                -0.6339745962155611
+              ],
+              [
+                0.5,
+                -0.8660254037844387
+              ],
+              [
+                0.8660254037844387,
+                -0.4999999999999998
+              ]
+            ]
+          },
+          {
+            "area": 0.017949192431122668,
+            "winding": 1,
+            "vertices": [
+              [
+                -0.633974596215561,
+                -0.6339745962155618
+              ],
+              [
+                -0.8660254037844385,
+                -0.5000000000000004
+              ],
+              [
+                -0.4999999999999997,
+                -0.8660254037844388
+              ]
+            ]
+          }
+        ],
+        "candidatePercentWithRegular12GonDenominator": {
+          "absoluteShoelace": 91.0683602522959,
+          "unionAllBoundedFaces": 93.46158590977893,
+          "evenoddFill": 93.46158590977893,
+          "nonzeroWindingFill": 93.46158590977893
+        },
+        "candidatePercentWithDiskDenominator": {
+          "absoluteShoelace": 86.96387816055827,
+          "unionAllBoundedFaces": 89.24924032049492,
+          "evenoddFill": 89.24924032049492
+        },
+        "checks": {
+          "eulerBoundedFaceCount": true,
+          "faceWindingWeightedAreaEqualsSignedShoelace": true,
+          "allFaceWindingMagnitudesOne": true
+        }
+      },
+      "candidateIntegerOutputs": {
+        "absoluteShoelace": {
+          "floor": 91,
+          "nearest": 91
+        },
+        "unionAllBoundedFaces": {
+          "floor": 93,
+          "nearest": 93
+        },
+        "evenoddFill": {
+          "floor": 93,
+          "nearest": 93
+        },
+        "nonzeroWindingFill": {
+          "floor": 93,
+          "nearest": 93
+        }
+      }
+    },
+    {
+      "id": "locks-6",
+      "url": "https://crumbles.fun/img/guides/stellar-link/locks-6.en.webp",
+      "capturedAtUtc": "2026-10-14T18:38:35.818Z",
+      "capturedAtHongKong": "2026-10-15 02:38:35 +08:00",
+      "render": "stellar-public-locks-6-render.png",
+      "clockwiseRanksFrom12": [
+        2,
+        1,
+        12,
+        11,
+        5,
+        6,
+        10,
+        7,
+        8,
+        9,
+        4,
+        3
+      ],
+      "lockedClockPositions": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "lockedRanks": [
+        4,
+        3,
+        2,
+        1,
+        12,
+        11
+      ],
+      "constellation": 6,
+      "placed": 12,
+      "unlocked": 12,
+      "displayedAreaPercent": 61,
+      "displayedAmplificationPercent": {
+        "attack": "48.80",
+        "defense": "48.80",
+        "health": "48.80"
+      },
+      "displayedShuffleCost": 220,
+      "displayedCurrencyBalance": 200,
+      "visibleCrossings": "Three interior intersections across the lower half.",
+      "renderEvidence": {
+        "path": "stellar-public-locks-6-render.png",
+        "bytes": 658015,
+        "sha256": "2154c0da350dcce1aea40c91b80d7ea5d2e29b301686323d9d7af72c814d9f17",
+        "kind": "Browser viewport PNG of normally rendered source WebP; not the original media SHA.",
+        "viewport": {
+          "width": 760,
+          "height": 1140
+        },
+        "sourceImageNaturalSize": {
+          "width": 720,
+          "height": 1087
+        },
+        "sourceImageRenderedRect": {
+          "x": 20,
+          "y": 26.5,
+          "width": 720,
+          "height": 1087
+        }
+      },
+      "clockConvention": "Array starts at the top 12 o'clock slot, then goes clockwise through 1,2,...11. None means no placed numbered star in that slot.",
+      "geometry": {
+        "rankOrderedCoordinates": [
+          [
+            0.49999999999999994,
+            0.8660254037844387
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -0.5000000000000004,
+            0.8660254037844384
+          ],
+          [
+            -0.8660254037844386,
+            0.5000000000000001
+          ],
+          [
+            0.8660254037844387,
+            -0.4999999999999998
+          ],
+          [
+            0.49999999999999994,
+            -0.8660254037844387
+          ],
+          [
+            -0.4999999999999997,
+            -0.8660254037844388
+          ],
+          [
+            -0.8660254037844385,
+            -0.5000000000000004
+          ],
+          [
+            -1,
+            -1.8369701987210297e-16
+          ],
+          [
+            1.2246467991473532e-16,
+            -1
+          ],
+          [
+            1,
+            6.123233995736766e-17
+          ],
+          [
+            0.8660254037844386,
+            0.5000000000000001
+          ]
+        ],
+        "intersections": [
+          {
+            "segmentStartRanks": [
+              4,
+              10
+            ],
+            "point": [
+              0.6339745962155614,
+              -0.3660254037844385
+            ]
+          },
+          {
+            "segmentStartRanks": [
+              6,
+              9
+            ],
+            "point": [
+              -0.13397459621556101,
+              -0.8660254037844388
+            ]
+          },
+          {
+            "segmentStartRanks": [
+              6,
+              10
+            ],
+            "point": [
+              0.1339745962155613,
+              -0.8660254037844387
+            ]
+          }
+        ],
+        "boundedAtomicFaces": [
+          {
+            "area": 1.4330127018922192,
+            "winding": 1,
+            "vertices": [
+              [
+                0.49999999999999994,
+                0.8660254037844387
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                -0.5000000000000004,
+                0.8660254037844384
+              ],
+              [
+                -0.8660254037844386,
+                0.5000000000000001
+              ],
+              [
+                0.6339745962155614,
+                -0.3660254037844385
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                0.8660254037844386,
+                0.5000000000000001
+              ]
+            ]
+          },
+          {
+            "area": 0.15849364905389035,
+            "winding": -1,
+            "vertices": [
+              [
+                0.6339745962155614,
+                -0.3660254037844385
+              ],
+              [
+                0.1339745962155613,
+                -0.8660254037844387
+              ],
+              [
+                0.49999999999999994,
+                -0.8660254037844387
+              ],
+              [
+                0.8660254037844386,
+                -0.4999999999999998
+              ]
+            ]
+          },
+          {
+            "area": 0.017949192431122668,
+            "winding": 1,
+            "vertices": [
+              [
+                0.1339745962155613,
+                -0.8660254037844387
+              ],
+              [
+                -0.13397459621556101,
+                -0.8660254037844388
+              ],
+              [
+                2.220446049250313e-16,
+                -1
+              ]
+            ]
+          },
+          {
+            "area": 0.22548094716167108,
+            "winding": -1,
+            "vertices": [
+              [
+                -0.13397459621556101,
+                -0.8660254037844388
+              ],
+              [
+                -1,
+                -2.220446049250313e-16
+              ],
+              [
+                -0.8660254037844385,
+                -0.5000000000000004
+              ],
+              [
+                -0.4999999999999997,
+                -0.8660254037844388
+              ]
+            ]
+          }
+        ],
+        "candidatePercentWithRegular12GonDenominator": {
+          "absoluteShoelace": 35.56624327025935,
+          "unionAllBoundedFaces": 61.16454968463011,
+          "evenoddFill": 61.16454968463011,
+          "nonzeroWindingFill": 61.16454968463011
+        },
+        "candidatePercentWithDiskDenominator": {
+          "absoluteShoelace": 33.9632605420238,
+          "unionAllBoundedFaces": 58.407842545792256,
+          "evenoddFill": 58.407842545792256
+        },
+        "checks": {
+          "eulerBoundedFaceCount": true,
+          "faceWindingWeightedAreaEqualsSignedShoelace": true,
+          "allFaceWindingMagnitudesOne": true
+        }
+      },
+      "candidateIntegerOutputs": {
+        "absoluteShoelace": {
+          "floor": 35,
+          "nearest": 36
+        },
+        "unionAllBoundedFaces": {
+          "floor": 61,
+          "nearest": 61
+        },
+        "evenoddFill": {
+          "floor": 61,
+          "nearest": 61
+        },
+        "nonzeroWindingFill": {
+          "floor": 61,
+          "nearest": 61
+        }
+      }
+    },
+    {
+      "id": "pending-7",
+      "url": "https://crumbles.fun/img/guides/stellar-link/pending-7-of-10.en.webp",
+      "discoveredFrom": "An img.src on the specified guide page, checked as an additional noncrossing control.",
+      "capturedAtUtc": "2026-10-14T18:40:52.711Z",
+      "capturedAtHongKong": "2026-10-15 02:40:52 +08:00",
+      "render": "stellar-public-pending-7-render.png",
+      "clockwiseRanksFrom12": [
+        2,
+        1,
+        7,
+        null,
+        6,
+        null,
+        null,
+        5,
+        4,
+        null,
+        null,
+        3
+      ],
+      "lockedClockPositions": [
+        11,
+        12,
+        1
+      ],
+      "lockedRanks": [
+        3,
+        2,
+        1
+      ],
+      "constellation": 7,
+      "placed": 7,
+      "unlocked": 10,
+      "displayedAreaPercent": 81,
+      "displayedAmplificationPercent": {
+        "attack": "81.00",
+        "defense": "81.00",
+        "health": "81.00"
+      },
+      "displayedShuffleCost": 60,
+      "displayedCurrencyBalance": 200,
+      "visibleCrossings": "None; one simple polygon.",
+      "renderEvidence": {
+        "path": "stellar-public-pending-7-render.png",
+        "bytes": 601499,
+        "sha256": "5c9008909f145ffb53102af1d01bcdf5aa71b5e5ae93878bdb09b940ae46fa52",
+        "kind": "Browser viewport PNG of normally rendered source WebP; not the original media SHA.",
+        "viewport": {
+          "width": 760,
+          "height": 1140
+        },
+        "sourceImageNaturalSize": {
+          "width": 720,
+          "height": 1087
+        },
+        "sourceImageRenderedRect": {
+          "x": 20,
+          "y": 26.5,
+          "width": 720,
+          "height": 1087
+        }
+      },
+      "clockConvention": "Array starts at the top 12 o'clock slot, then goes clockwise through 1,2,...11. None means no placed numbered star in that slot.",
+      "geometry": {
+        "rankOrderedCoordinates": [
+          [
+            0.49999999999999994,
+            0.8660254037844387
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -0.5000000000000004,
+            0.8660254037844384
+          ],
+          [
+            -0.8660254037844385,
+            -0.5000000000000004
+          ],
+          [
+            -0.4999999999999997,
+            -0.8660254037844388
+          ],
+          [
+            0.8660254037844387,
+            -0.4999999999999998
+          ],
+          [
+            0.8660254037844386,
+            0.5000000000000001
+          ]
+        ],
+        "intersections": [],
+        "boundedAtomicFaces": [
+          {
+            "area": 2.4330127018922196,
+            "winding": 1,
+            "vertices": [
+              [
+                0.49999999999999994,
+                0.8660254037844387
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                -0.5000000000000004,
+                0.8660254037844384
+              ],
+              [
+                -0.8660254037844385,
+                -0.5000000000000004
+              ],
+              [
+                -0.4999999999999997,
+                -0.8660254037844388
+              ],
+              [
+                0.8660254037844386,
+                -0.4999999999999998
+              ],
+              [
+                0.8660254037844386,
+                0.5000000000000001
+              ]
+            ]
+          }
+        ],
+        "candidatePercentWithRegular12GonDenominator": {
+          "absoluteShoelace": 81.10042339640732,
+          "unionAllBoundedFaces": 81.10042339640732,
+          "evenoddFill": 81.10042339640732,
+          "nonzeroWindingFill": 81.10042339640732
+        },
+        "candidatePercentWithDiskDenominator": {
+          "absoluteShoelace": 77.44519962230295,
+          "unionAllBoundedFaces": 77.44519962230295,
+          "evenoddFill": 77.44519962230295
+        },
+        "checks": {
+          "eulerBoundedFaceCount": true,
+          "faceWindingWeightedAreaEqualsSignedShoelace": true,
+          "allFaceWindingMagnitudesOne": true
+        }
+      },
+      "candidateIntegerOutputs": {
+        "absoluteShoelace": {
+          "floor": 81,
+          "nearest": 81
+        },
+        "unionAllBoundedFaces": {
+          "floor": 81,
+          "nearest": 81
+        },
+        "evenoddFill": {
+          "floor": 81,
+          "nearest": 81
+        },
+        "nonzeroWindingFill": {
+          "floor": 81,
+          "nearest": 81
+        }
+      }
+    }
+  ],
+  "conclusions": [
+    "Direct visible UI pairs: two self-crossing 12-star configurations show93% and61%; a simple7-star control shows81%.",
+    "For the two crossed pairs, absolute signed shoelace divided by regular12-gon area gives91.068360% and35.566243%, inconsistent with the displayed integers under floor or nearest rounding.",
+    "All bounded-face union, evenodd fill and nonzero winding fill give93.461586% and61.164550%; both floor and nearest return the displayed93 and61.",
+    "All atomic faces have winding+1 or-1 in both crossed samples, so these screenshots cannot distinguish union/evenodd/nonzero semantics.",
+    "The noncrossing7-star control gives81.100423% with regular12-gon denominator, matching81 under floor or nearest; using circle area denominator gives a different result.",
+    "The evidence supports the union/fill family and excludes plain absolute shoelace for these configurations; it does not prove the general server algorithm or rounding rule."
+  ],
+  "limitations": [
+    "These are images embedded by an unofficial guide, with no verified game-build timestamp or authenticated account state. They show readable game UI but their publication does not establish present server behavior.",
+    "Star ranks and lock icons are manual visual readings, preserved with source URLs and rendered PNG hashes. Geometry uses ideal regular12-circle locations; it is a candidate model, not a pixel-area measurement.",
+    "No source WebP SHA is claimed because only ordinary browser rendering and viewport screenshots were retained.",
+    "Two consistent crossed examples are insufficient to establish treatment of winding0 holes or winding2 overlapping regions.",
+    "All three displayed integer outputs fit both floor and nearest rounding; no rounding rule is determined."
+  ],
+  "calculationMethod": "Split each polygon edge at all intersections, build the planar graph, walk counterclockwise bounded faces, measure signed face area and test winding. Independently check Euler's face count and winding-weighted face sum against signed shoelace. Normalize candidate areas by3 for a unit-radius regular12-gon and separately bypi for a disk.",
+  "validation": {
+    "simpleFull12GonAllCandidates100Percent": true,
+    "allSamplesEulerAndWeightedAreaChecksPassed": true
+  },
+  "reproduction": {
+    "script": "stellar-public-geometry-candidates.py",
+    "sha256": "4a3ee72b4b16d55fb3b7940b0f7fbc1c3426948e0a989809b7bc0507563d3662",
+    "command": "python stellar-public-geometry-candidates.py"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "plate": {
+    "src": "/images/tools/ConstellationPlate__143545de5d51.png",
+    "width": 925,
+    "height": 925,
+    "name": "ConstellationPlate"
+  },
+  "star": {
+    "src": "/images/tools/IconStellarLinkStar__4031c06dc545.png",
+    "width": 33,
+    "height": 33,
+    "name": "IconStellarLinkStar"
+  },
+  "currency": {
+    "src": "/images/tools/icon_stellar_point__d1391d211aff.png",
+    "width": 119,
+    "height": 119,
+    "name": "icon_stellar_point"
+  },
+  "node": {
+    "src": "/images/tools/ImgFrameStellarLinkNode_01__24c7a0f8d555.png",
+    "width": 77,
+    "height": 78,
+    "name": "ImgFrameStellarLinkNode_01"
+  },
+  "nodeLocked": {
+    "src": "/images/tools/ImgConstellationNodeLocked__c9596c7e7028.png",
+    "width": 89,
+    "height": 90,
+    "name": "ImgConstellationNodeLocked"
+  },
+  "nodeGlow": {
+    "src": "/images/tools/ImgConstellationNodeGlow__0ae7881d2d07.png",
+    "width": 94,
+    "height": 94,
+    "name": "ImgConstellationNodeGlow"
+  },
+  "nodes": {
+    "1": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_01__24c7a0f8d555.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_01"
+    },
+    "2": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_02__c67c9cc5fedd.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_02"
+    },
+    "3": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_03__ec4d0fb734e9.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_03"
+    },
+    "4": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_04__803e5d2095a8.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_04"
+    },
+    "5": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_05__db8c78e6e650.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_05"
+    },
+    "6": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_06__f310a5baa2d8.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_06"
+    },
+    "7": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_07__04ac65b590e4.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_07"
+    },
+    "8": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_08__2fe1b6ea6020.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_08"
+    },
+    "9": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_09__cf331fa22fb2.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_09"
+    },
+    "10": {
+      "src": "/images/tools/ImgFrameStellarLinkNode_10__b35c9c3b8525.png",
+      "width": 77,
+      "height": 78,
+      "name": "ImgFrameStellarLinkNode_10"
+    }
+  },
+  "effects": {
+    "attack": {
+      "src": "/images/tools/icon_passive_attack__efbfd89f8ee1.png",
+      "width": 109,
+      "height": 112,
+      "name": "icon_passive_attack"
+    },
+    "defense": {
+      "src": "/images/tools/icon_passive_defense__16d407dcfbe5.png",
+      "width": 144,
+      "height": 144,
+      "name": "icon_passive_defense"
+    },
+    "health": {
+      "src": "/images/tools/icon_passive_health__961c8fda1f56.png",
+      "width": 123,
+      "height": 106,
+      "name": "icon_passive_health"
+    }
+  },
+  "lockParts": {
+    "body": {
+      "src": "/images/tools/IconLockOpen01__30c945163b7a.png",
+      "width": 168,
+      "height": 149,
+      "name": "IconLockOpen01"
+    },
+    "shackle": {
+      "src": "/images/tools/IconLockOpen02__421febac0035.png",
+      "width": 129,
+      "height": 81,
+      "name": "IconLockOpen02"
+    },
+    "background": {
+      "src": "/images/tools/SlicedImgCookieFrameSelectShadow__ad670eac5cc5.png",
+      "width": 82,
+      "height": 80,
+      "name": "SlicedImgCookieFrameSelectShadow"
+    }
+  },
+  "controls": {
+    "arrow": {
+      "src": "/images/tools/IconArr2__c9d1a8c2bd85.png",
+      "width": 24,
+      "height": 33,
+      "name": "IconArr2"
+    },
+    "info": {
+      "src": "/images/tools/IconGuide__4d70df744596.png",
+      "width": 26,
+      "height": 43,
+      "name": "IconGuide"
+    },
+    "rerollButton": {
+      "src": "/images/tools/SlicedBtnMain122__37dae81b5651.png",
+      "width": 70,
+      "height": 137,
+      "name": "SlicedBtnMain122"
+    },
+    "upgrade": {
+      "src": "/images/tools/IconUpgrade__cc3741145188.png",
+      "width": 68,
+      "height": 60,
+      "name": "IconUpgrade"
+    }
+  },
+  "background": {
+    "frame": {
+      "src": "/images/tools/ImgStellarLinkBGFrame__b7d134eff211.png",
+      "width": 665,
+      "height": 1271,
+      "name": "ImgStellarLinkBGFrame"
+    },
+    "bottom": {
+      "src": "/images/tools/ImgStellarLinkBGBottom__6968b7c9b9f6.png",
+      "width": 290,
+      "height": 493,
+      "name": "ImgStellarLinkBGBottom"
+    },
+    "center": {
+      "src": "/images/tools/ImgStellarLinkBGCenter__00a3c8a6f4a2.png",
+      "width": 348,
+      "height": 107,
+      "name": "ImgStellarLinkBGCenter"
+    },
+    "telescope": {
+      "src": "/images/tools/ImgStellarLinkBGTelescope__14433c59f332.png",
+      "width": 84,
+      "height": 51,
+      "name": "ImgStellarLinkBGTelescope"
+    },
+    "star": {
+      "src": "/images/tools/ImgStellarLinkBGStar__3311f1970021.png",
+      "width": 42,
+      "height": 69,
+      "name": "ImgStellarLinkBGStar"
+    }
+  },
+  "nodesLayout": [
+    {
+      "x": 0.5,
+      "y": 0.08378378378378376
+    },
+    {
+      "x": 0.2891891891891892,
+      "y": 0.13783783783783782
+    },
+    {
+      "x": 0.13783783783783782,
+      "y": 0.2891891891891892
+    },
+    {
+      "x": 0.08378378378378376,
+      "y": 0.5
+    },
+    {
+      "x": 0.13783783783783782,
+      "y": 0.7108108108108109
+    },
+    {
+      "x": 0.2891891891891892,
+      "y": 0.8621621621621622
+    },
+    {
+      "x": 0.5,
+      "y": 0.9162162162162162
+    },
+    {
+      "x": 0.7108108108108109,
+      "y": 0.8621621621621622
+    },
+    {
+      "x": 0.8621621621621622,
+      "y": 0.7108108108108109
+    },
+    {
+      "x": 0.9162162162162162,
+      "y": 0.5
+    },
+    {
+      "x": 0.8621621621621622,
+      "y": 0.2891891891891892
+    },
+    {
+      "x": 0.7108108108108109,
+      "y": 0.13783783783783782
+    }
+  ]
+}

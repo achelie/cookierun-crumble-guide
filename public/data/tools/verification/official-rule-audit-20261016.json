@@ -1,0 +1,1244 @@
+{
+  "evidenceId": "official-three-tool-rule-audit-20261016-v1",
+  "checkedAtUtc": "2026-10-15T18:57:11.158658+00:00",
+  "sourceVersion": "1.5.002",
+  "scope": "reviewed public official sources and retained client/configuration evidence; no new in-game testing",
+  "inputs": [
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/1ef37576d40f-naver-official-44466.json",
+      "originalPath": "evidence/official-rule-audit-20261016/naver-official-44466.json",
+      "sha256": "1ef37576d40fb0206436327cefe79017f32064555a769f695502ca598826ca08",
+      "bytes": 31470
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/6b7acfc0e78f-naver-official-50417.json",
+      "originalPath": "evidence/official-rule-audit-20261016/naver-official-50417.json",
+      "sha256": "6b7acfc0e78fe0ae25424e9462cd9c51981a5c5f561d951602fe26a5cdcf5c0b",
+      "bytes": 77181
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/278b39f8e4eb-naver-official-44477.json",
+      "originalPath": "evidence/official-rule-audit-20261016/naver-official-44477.json",
+      "sha256": "278b39f8e4eb613d6dcd3c7bdfc758e84156dfe02e72b09b06337c79c7cb4e5e",
+      "bytes": 119075
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/8d61bb57bcb3-naver-official-37730.json",
+      "originalPath": "evidence/official-rule-audit-20261016/naver-official-37730.json",
+      "sha256": "8d61bb57bcb3dc9f937824fe9d3a476231c72283d88bf0fd7d519ded0c479318",
+      "bytes": 70784
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/1c98b53190f6-naver-official-25737.json",
+      "originalPath": "evidence/official-rule-audit-20261016/naver-official-25737.json",
+      "sha256": "1c98b53190f684d6a68d8bee425867ba7319142fe1f16048673960f4e2287083",
+      "bytes": 90528
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/286be72a8c70-naver-official-16132.json",
+      "originalPath": "evidence/official-rule-audit-20261016/naver-official-16132.json",
+      "sha256": "286be72a8c700dd5fdd8b20d413702d70a72bedf3a00fbc10a45d9653cc6d0fb",
+      "bytes": 87021
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/ebd4c6422294-naver-plate-improvement-article.json",
+      "originalPath": "evidence/official-rule-audit-20261016/naver-plate-improvement-article.json",
+      "sha256": "ebd4c6422294cdef3b2feda542fdcd69840917b90c9da86dabc5ea6a74ac0780",
+      "bytes": 31900
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/00e3d0827294-support-ko-rune-plate.txt",
+      "originalPath": "evidence/official-rule-audit-20261016/support-ko-rune-plate.txt",
+      "sha256": "00e3d0827294a2f5ceba131825132286737a81e89dcf7b7169b0c44283197ab6",
+      "bytes": 10102
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/4d0d32184bd3-support-ko-stellar.txt",
+      "originalPath": "evidence/official-rule-audit-20261016/support-ko-stellar.txt",
+      "sha256": "4d0d32184bd3b01e25d2585948503e174f3d8db0cbddbf0bfb9f5933b83cfe9f",
+      "bytes": 3066
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/2f78b093cb14-support-ko-unlock-quest.txt",
+      "originalPath": "evidence/official-rule-audit-20261016/support-ko-unlock-quest.txt",
+      "sha256": "2f78b093cb144f39eb9e5d97fa2f3125d42e91b664f2186ed649a164f6dbfd8c",
+      "bytes": 2912
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/7d5ffb67f020-devsisters-repair-update.txt",
+      "originalPath": "evidence/official-rule-audit-20261016/devsisters-repair-update.txt",
+      "sha256": "7d5ffb67f020da6a5437a5377eb0690cc2d1e4189e0f1c9a33c545db2e41a7fa",
+      "bytes": 12217
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/0b735428f32c-official-comparison.json",
+      "originalPath": "evidence/official-probabilities-20261016/official-comparison.json",
+      "sha256": "0b735428f32cc4d62d4fbc233c9c05635855194c09976c06687b51637ba9e8ca",
+      "bytes": 94720
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/be69102b3f9e-official-comparison.json",
+      "originalPath": "evidence/official-stellar-probabilities-20261016/official-comparison.json",
+      "sha256": "be69102b3f9ef20561c2159c7567ada58de7493b0562d098d69a05fabbb1c42a",
+      "bytes": 9151
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/ee40623ba433-sugar-runes.json",
+      "originalPath": "local-site/public/data/sugar-runes.json",
+      "sha256": "ee40623ba433f88d3fc40230240c660ae79f3e5e8ba33b2e421b761929c673fa",
+      "bytes": 57026
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/7ff85be2acbc-stellar-link.json",
+      "originalPath": "local-site/public/data/stellar-link.json",
+      "sha256": "7ff85be2acbc9ee484423c6387953197a9e6d1ee23a46579df28bbcb8bbe7489",
+      "bytes": 67280
+    },
+    {
+      "path": "evidence/official-rule-audit-20261016/inputs/0af5eb90f1a4-plate-enhancement.json",
+      "originalPath": "local-site/public/data/plate-enhancement.json",
+      "sha256": "0af5eb90f1a4dff1a9d5cb4acd550943b39ea5e6d90d421249ac3f518a3a29e9",
+      "bytes": 125768
+    }
+  ],
+  "sources": [
+    {
+      "id": "rune-plate-probabilities",
+      "url": "https://cs-cookieruncrumble.devsisters.com/hc/zh-tw/articles/60508500007449",
+      "scope": "糖符文160项／单位和装备盘125项基础概率；既有完整核对"
+    },
+    {
+      "id": "stellar-probabilities",
+      "url": "https://cs-cookieruncrumble.devsisters.com/hc/zh-tw/articles/60511654951321",
+      "scope": "3～12星完整有序配置及锁星概率"
+    },
+    {
+      "id": "plate-change-notice",
+      "url": "https://cafe.naver.com/f-e/cafes/31688486/articles/44466?menuid=1&referrerAllArticles=false",
+      "scope": "碎裂／修复、10档修复费、25上限、24阶100%比例；未逐项列返还材料"
+    },
+    {
+      "id": "quest-unlock-faq",
+      "url": "https://cs-cookieruncrumble.devsisters.com/hc/ko/articles/61042995774233",
+      "scope": "功能入口可能要求完成指定通关任务，不只是通关关卡"
+    },
+    {
+      "id": "repair-release-news",
+      "url": "https://www.devsisters.com/stories/news/CK-CC-Update-Chuseok",
+      "scope": "2026-09-23修复功能发布；非整数返还公式"
+    }
+  ],
+  "tools": {
+    "sugar-runes": {
+      "title": "糖符文",
+      "url": "/tools/sugar-runes/",
+      "verifiedSummary": "160项概率、160项效果值及14种单位已与官方表一致；基准费用、锁定范围、折扣取整和自动停止条件有配置／客户端依据。",
+      "closedByOfficialMaterial": [
+        "旧清单“其余148条概率明细未逐行读UI”已由完整官方160项对照覆盖，无需再逐条实测。"
+      ],
+      "openRules": [
+        {
+          "id": "sugar-rng",
+          "title": "跨槽／跨轮随机关系与保底",
+          "detail": "官方公布单项概率，但未明确各槽和每次加工相互独立，也未明确排除隐藏保底或历史相关机制。",
+          "impact": "单槽权重可直接核对；多词条达标率、平均次数和预算概率仍依赖独立抽样假设。",
+          "toolHandling": "保留模型假设标签，不把期望值当保底。",
+          "status": "unresolved-in-reviewed-official-material",
+          "sourceBoundary": "本次查到的官方表、FAQ及公告未明确说明；不据此断言所有官方渠道均未发布。"
+        },
+        {
+          "id": "sugar-auto-execution",
+          "title": "自动加工批次与边界状态",
+          "detail": "客户端停止条件已恢复；服务器批次是否在中途命中后继续扣费，以及全部已启用槽锁定、仍有未启用槽未锁时的行为，没有完整证据。",
+          "impact": "不影响已有单项概率；不能宣称网页模拟完全复刻游戏自动加工交易。",
+          "toolHandling": "逐步保留继续作为手动规划；未启用槽行为保留既有两笔观察的有限范围。",
+          "status": "unresolved-in-reviewed-official-material",
+          "sourceBoundary": "本次查到的官方表、FAQ及公告未明确说明；不据此断言所有官方渠道均未发布。"
+        }
+      ],
+      "accountInputs": [
+        "当前账号实际生效的折扣权益属于账号输入，非通用规则缺口；默认0%，可填游戏显示的单次费用。"
+      ],
+      "notUnresolvedRules": [
+        "折扣叠加及取整已有客户端公式，不再列为通用未知。",
+        "未启用槽生成／更新及锁定保留已有两笔手动加工观察；不再笼统写成未核实。"
+      ]
+    },
+    "stellar-link": {
+      "title": "星际连线",
+      "url": "/tools/stellar-link/",
+      "verifiedSummary": "3～12星10行官方完整配置概率一致；锁星固定顺序和位置，其余合法配置等概率；面积不另抽概率。费用、倍率和整数面积到加成的换算有配置／客户端依据。",
+      "closedByOfficialMaterial": [
+        "繁中及韩文公告均完整列出3～12星；不是各面积等概率。",
+        "锁星后P(12−L,N−L)为组合推导，明确标示为推导。"
+      ],
+      "openRules": [
+        {
+          "id": "stellar-area",
+          "title": "完整面积算法及数值边界",
+          "detail": "理想封闭面面积向下取整得到当前样本，但服务端精度、交点合并、近共线等退化情况未完整恢复；官方公告没有面积公式。",
+          "impact": "几何排布的整数面积和加成属于估算；已输入游戏整数面积后的客户端加成换算有依据。",
+          "toolHandling": "默认输入游戏面积，几何模式继续标估算。",
+          "status": "unresolved-in-reviewed-official-material",
+          "sourceBoundary": "本次查到的官方表、FAQ及公告未明确说明；不据此断言所有官方渠道均未发布。"
+        },
+        {
+          "id": "stellar-first-unlock",
+          "title": "第一星座栏位与关卡门槛映射",
+          "detail": "官方内置指南按已开启饼干栏位数说明，配置表按通关序号记录；完整栏位到关卡的对应逻辑未恢复。",
+          "impact": "解锁进度追踪不能替代账号实际解锁状态。",
+          "toolHandling": "保留配置门槛参考，以实际任务和游戏状态为准。",
+          "status": "unresolved-in-reviewed-official-material",
+          "sourceBoundary": "本次查到的官方表、FAQ及公告未明确说明；不据此断言所有官方渠道均未发布。"
+        },
+        {
+          "id": "stellar-independence",
+          "title": "连续重设的独立性",
+          "detail": "官方说明每种完整配置等概率，但没有单独声明不同轮次相互独立。",
+          "impact": "现有工具没有达到目标面积的多轮概率预测，当前费用和排布规划不依赖这项假设。",
+          "toolHandling": "保持未验证，不新增多轮成功率结论。",
+          "status": "unresolved-in-reviewed-official-material",
+          "sourceBoundary": "本次查到的官方表、FAQ及公告未明确说明；不据此断言所有官方渠道均未发布。"
+        }
+      ],
+      "accountInputs": [
+        "已放置／已启用星数及游戏整数面积由用户输入。"
+      ],
+      "notUnresolvedRules": [
+        "全部星座均未逐个实测，不等于配置倍率未知；10个倍率和100条门槛已有配置依据。"
+      ]
+    },
+    "plate-enhancement": {
+      "title": "装备盘强化",
+      "url": "/tools/plate-enhancement/",
+      "verifiedSummary": "0～24阶125项基础概率一致；保护重分配、成功阶级变化已有客户端依据及内置官方指南。新增官方公告确认碎裂降2阶、修复回尝试前、修复不退本次投入、全部10档修复费、上限25及24阶100%配置返还。",
+      "closedByOfficialMaterial": [
+        "碎裂由旧版固定回10阶改为降2阶，公告明确自2026-09-23更新应用。",
+        "修复回强化尝试前阶级，不能把修复解释为退还该次钢／糖浆。",
+        "15～24阶修复费10项全部匹配；20～24阶新增概率25项全部匹配。",
+        "+25上限、+24大成功100%返还比例获得外部官方公告佐证。"
+      ],
+      "openRules": [
+        {
+          "id": "plate-refund-integer",
+          "title": "全阶级大成功返还整数公式",
+          "detail": "原始比例和逐级显示已取得，但向上取整、最低返1或其他服务端整数算法尚无法区分。官方100%公告不解决低于100%时的小数取整。",
+          "impact": "不能准确给出扣除返还后的净耗；+0返1样本不能外推全部阶级。",
+          "toolHandling": "期望和预算继续按未扣返还的平均总投入。",
+          "status": "unresolved-in-reviewed-official-material",
+          "sourceBoundary": "本次查到的官方表、FAQ及公告未明确说明；不据此断言所有官方渠道均未发布。"
+        },
+        {
+          "id": "plate-refund-protection",
+          "title": "保护材料返还资格与计量基数",
+          "detail": "大成功“材料／财货返还”没有逐项列出防降阶、减缓碎裂糖浆是否包含，以及两项保护费合并后还是分别处理。修复不退款是另一条规则。",
+          "impact": "不能用100%返还文案直接推定保护糖浆全部返还。",
+          "toolHandling": "不扣任何未知保护返还，不给默认资格。",
+          "status": "unresolved-in-reviewed-official-material",
+          "sourceBoundary": "本次查到的官方表、FAQ及公告未明确说明；不据此断言所有官方渠道均未发布。"
+        },
+        {
+          "id": "plate-rng",
+          "title": "历史相关概率／隐藏保底",
+          "detail": "官方有逐阶结果表，但未明确不存在按历史变化的机制，也未给出完整服务端抽样算法。",
+          "impact": "平均材料和有限次数预测采用固定逐阶转移模型。",
+          "toolHandling": "保留数学模型口径；平均值不作为保证或材料上限。",
+          "status": "unresolved-in-reviewed-official-material",
+          "sourceBoundary": "本次查到的官方表、FAQ及公告未明确说明；不据此断言所有官方渠道均未发布。"
+        }
+      ],
+      "accountInputs": [
+        "保护策略及是否修复由用户选择；费用采用1.5.002快照。"
+      ],
+      "notUnresolvedRules": [
+        "未实际触发高阶保护、碎裂或修复交易属于观察覆盖限制，不能把已有官方指南／客户端／公告支持的规则全部写成未知。",
+        "9月公告的一次性旧版补偿与每次强化的大成功返还分开处理，补偿不参与工具净耗公式。"
+      ]
+    }
+  },
+  "newComparisonCounts": {
+    "repairFeeValues": 10,
+    "extendedGradeProbabilityValues": 25,
+    "plateSemanticRules": 5,
+    "koreanBasePlateProbabilityValues": 125,
+    "koreanStellarRows": 10
+  },
+  "comparisons": {
+    "repairFees": [
+      {
+        "grade": 15,
+        "officialSyrup": 20,
+        "localSyrup": 20,
+        "match": true
+      },
+      {
+        "grade": 16,
+        "officialSyrup": 20,
+        "localSyrup": 20,
+        "match": true
+      },
+      {
+        "grade": 17,
+        "officialSyrup": 30,
+        "localSyrup": 30,
+        "match": true
+      },
+      {
+        "grade": 18,
+        "officialSyrup": 40,
+        "localSyrup": 40,
+        "match": true
+      },
+      {
+        "grade": 19,
+        "officialSyrup": 50,
+        "localSyrup": 50,
+        "match": true
+      },
+      {
+        "grade": 20,
+        "officialSyrup": 60,
+        "localSyrup": 60,
+        "match": true
+      },
+      {
+        "grade": 21,
+        "officialSyrup": 65,
+        "localSyrup": 65,
+        "match": true
+      },
+      {
+        "grade": 22,
+        "officialSyrup": 70,
+        "localSyrup": 70,
+        "match": true
+      },
+      {
+        "grade": 23,
+        "officialSyrup": 75,
+        "localSyrup": 75,
+        "match": true
+      },
+      {
+        "grade": 24,
+        "officialSyrup": 80,
+        "localSyrup": 80,
+        "match": true
+      }
+    ],
+    "extendedRates": [
+      {
+        "grade": 20,
+        "outcome": "greatSuccess",
+        "officialPercent": "0.1000",
+        "localPercent": "0.1",
+        "match": true
+      },
+      {
+        "grade": 20,
+        "outcome": "success",
+        "officialPercent": "2.0000",
+        "localPercent": "2",
+        "match": true
+      },
+      {
+        "grade": 20,
+        "outcome": "maintain",
+        "officialPercent": "44.9000",
+        "localPercent": "44.9",
+        "match": true
+      },
+      {
+        "grade": 20,
+        "outcome": "decline",
+        "officialPercent": "42.0000",
+        "localPercent": "42",
+        "match": true
+      },
+      {
+        "grade": 20,
+        "outcome": "destroy",
+        "officialPercent": "11.0000",
+        "localPercent": "11",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "greatSuccess",
+        "officialPercent": "0.1000",
+        "localPercent": "0.1",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "success",
+        "officialPercent": "2.0000",
+        "localPercent": "2",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "maintain",
+        "officialPercent": "42.9000",
+        "localPercent": "42.9",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "decline",
+        "officialPercent": "43.0000",
+        "localPercent": "43",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "destroy",
+        "officialPercent": "12.0000",
+        "localPercent": "12",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "greatSuccess",
+        "officialPercent": "0.1000",
+        "localPercent": "0.1",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "success",
+        "officialPercent": "2.0000",
+        "localPercent": "2",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "maintain",
+        "officialPercent": "40.9000",
+        "localPercent": "40.9",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "decline",
+        "officialPercent": "44.0000",
+        "localPercent": "44",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "destroy",
+        "officialPercent": "13.0000",
+        "localPercent": "13",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "greatSuccess",
+        "officialPercent": "0.1000",
+        "localPercent": "0.1",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "success",
+        "officialPercent": "2.0000",
+        "localPercent": "2",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "maintain",
+        "officialPercent": "38.9000",
+        "localPercent": "38.9",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "decline",
+        "officialPercent": "45.0000",
+        "localPercent": "45",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "destroy",
+        "officialPercent": "14.0000",
+        "localPercent": "14",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "greatSuccess",
+        "officialPercent": "0.1000",
+        "localPercent": "0.1",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "success",
+        "officialPercent": "2.0000",
+        "localPercent": "2",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "maintain",
+        "officialPercent": "36.9000",
+        "localPercent": "36.9",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "decline",
+        "officialPercent": "46.0000",
+        "localPercent": "46",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "destroy",
+        "officialPercent": "15.0000",
+        "localPercent": "15",
+        "match": true
+      }
+    ],
+    "plateRules": [
+      {
+        "rule": "break lowers2 levels; old fixed10 rule superseded2026-09-23",
+        "match": true
+      },
+      {
+        "rule": "repair returns to pre-attempt level",
+        "match": true
+      },
+      {
+        "rule": "repair does not refund steel or syrup paid for failed attempt",
+        "match": true
+      },
+      {
+        "rule": "maximum enhancement25",
+        "match": true
+      },
+      {
+        "rule": "grade24 great-success configured refund rate100%; item eligibility not enumerated",
+        "match": true
+      }
+    ],
+    "koreanPlate": [
+      {
+        "grade": 0,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 0,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 0,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 0,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 0,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 1,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 1,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 1,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 1,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 1,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 2,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 2,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 2,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 2,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 2,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 3,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 3,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 3,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 3,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 3,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 4,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 4,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 4,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 4,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 4,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 5,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 5,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 5,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 5,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 5,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 6,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 6,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 6,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 6,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 6,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 7,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 7,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 7,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 7,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 7,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 8,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 8,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 8,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 8,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 8,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 9,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 9,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 9,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 9,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 9,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 10,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 10,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 10,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 10,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 10,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 11,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 11,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 11,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 11,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 11,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 12,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 12,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 12,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 12,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 12,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 13,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 13,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 13,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 13,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 13,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 14,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 14,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 14,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 14,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 14,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 15,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 15,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 15,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 15,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 15,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 16,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 16,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 16,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 16,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 16,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 17,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 17,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 17,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 17,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 17,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 18,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 18,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 18,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 18,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 18,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 19,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 19,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 19,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 19,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 19,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 20,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 20,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 20,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 20,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 20,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 21,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 22,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 23,
+        "outcome": "greatSuccess",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "destroy",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "decline",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "maintain",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "success",
+        "match": true
+      },
+      {
+        "grade": 24,
+        "outcome": "greatSuccess",
+        "match": true
+      }
+    ],
+    "koreanStellar": [
+      {
+        "stars": 3,
+        "match": true
+      },
+      {
+        "stars": 4,
+        "match": true
+      },
+      {
+        "stars": 5,
+        "match": true
+      },
+      {
+        "stars": 6,
+        "match": true
+      },
+      {
+        "stars": 7,
+        "match": true
+      },
+      {
+        "stars": 8,
+        "match": true
+      },
+      {
+        "stars": 9,
+        "match": true
+      },
+      {
+        "stars": 10,
+        "match": true
+      },
+      {
+        "stars": 11,
+        "match": true
+      },
+      {
+        "stars": 12,
+        "match": true
+      }
+    ]
+  },
+  "allComparedFieldsMatch": true,
+  "mismatches": [],
+  "reviewedPatchNotices": [
+    {
+      "articleId": 44466,
+      "title": "플레이트 강화 시스템 개선 및 소급 보상 안내 (12:58 내용 추가)",
+      "url": "https://cafe.naver.com/f-e/cafes/31688486/articles/44466?menuid=1&referrerAllArticles=false"
+    },
+    {
+      "articleId": 50417,
+      "title": "10월 8일(목) 업데이트 안내",
+      "url": "https://cafe.naver.com/f-e/cafes/31688486/articles/50417?menuid=3&referrerAllArticles=false"
+    },
+    {
+      "articleId": 44477,
+      "title": "9월 23일(수) 업데이트 안내 (9/23 12:05 내용 추가)",
+      "url": "https://cafe.naver.com/f-e/cafes/31688486/articles/44477?menuid=3&referrerAllArticles=false"
+    },
+    {
+      "articleId": 37730,
+      "title": "9월 10일(목) 업데이트 안내",
+      "url": "https://cafe.naver.com/f-e/cafes/31688486/articles/37730?menuid=3&referrerAllArticles=false"
+    },
+    {
+      "articleId": 25737,
+      "title": "8월 27일(목) 업데이트 안내",
+      "url": "https://cafe.naver.com/f-e/cafes/31688486/articles/25737?menuid=3&referrerAllArticles=false"
+    },
+    {
+      "articleId": 16132,
+      "title": "8월 13일(목) 업데이트 안내 (8/13 17:00 수정)",
+      "url": "https://cafe.naver.com/f-e/cafes/31688486/articles/16132?menuid=3&referrerAllArticles=false"
+    }
+  ],
+  "searchLimits": [
+    "只以本次实际读取的官方资料为范围，未将未找到等同于全网不存在。",
+    "官方Google表链接标题为烤箱装备详细概率，不作为这三个工具的返还／面积公式证据。",
+    "Naver网页由普通无登录浏览器及公开接口读取；web搜索器对该域名robots限制不影响已保存的浏览器正文。",
+    "初次网络读取及批量浏览器读取失败单独保留，未用失败结果作为规则依据。"
+  ],
+  "actions": {
+    "emulatorActions": 0,
+    "gameTransactions": 0,
+    "accountReads": 0,
+    "calculationValuesChanged": false
+  }
+}

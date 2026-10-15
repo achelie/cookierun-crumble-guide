@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "equipment": {
+    "SWORD": {
+      "src": "/images/tools/icon_plate_sword__93f10a4db4ca.png",
+      "width": 103,
+      "height": 118,
+      "name": "icon_plate_sword"
+    },
+    "BOW": {
+      "src": "/images/tools/icon_plate_bow__7d456d51ab9f.png",
+      "width": 110,
+      "height": 122,
+      "name": "icon_plate_bow"
+    },
+    "STAFF": {
+      "src": "/images/tools/icon_plate_staff__8844b86c24b2.png",
+      "width": 121,
+      "height": 125,
+      "name": "icon_plate_staff"
+    },
+    "HELMET": {
+      "src": "/images/tools/icon_plate_helmet__3aa13a92fb75.png",
+      "width": 116,
+      "height": 113,
+      "name": "icon_plate_helmet"
+    },
+    "ARMOR": {
+      "src": "/images/tools/icon_plate_armor__5c2ccd73130c.png",
+      "width": 127,
+      "height": 110,
+      "name": "icon_plate_armor"
+    },
+    "SHIELD": {
+      "src": "/images/tools/icon_plate_shield__2cf5af1ed1ae.png",
+      "width": 113,
+      "height": 111,
+      "name": "icon_plate_shield"
+    },
+    "NECKLACE": {
+      "src": "/images/tools/icon_plate_necklace__52c8d13aa710.png",
+      "width": 114,
+      "height": 128,
+      "name": "icon_plate_necklace"
+    },
+    "RING": {
+      "src": "/images/tools/icon_plate_ring__7f99ebe8ce7c.png",
+      "width": 102,
+      "height": 102,
+      "name": "icon_plate_ring"
+    },
+    "BROOCH": {
+      "src": "/images/tools/icon_plate_brooch__d79f77d38b53.png",
+      "width": 108,
+      "height": 113,
+      "name": "icon_plate_brooch"
+    },
+    "ARTIFACT": {
+      "src": "/images/tools/icon_plate_artifact__3e3ad9bb8dca.png",
+      "width": 113,
+      "height": 114,
+      "name": "icon_plate_artifact"
+    },
+    "BOOK": {
+      "src": "/images/tools/icon_plate_book__d373b2c394cd.png",
+      "width": 105,
+      "height": 115,
+      "name": "icon_plate_book"
+    },
+    "FOOD": {
+      "src": "/images/tools/icon_plate_food__d09522e24bc1.png",
+      "width": 109,
+      "height": 122,
+      "name": "icon_plate_food"
+    }
+  },
+  "equipmentTypes": {
+    "EQUIPMENTTYPE_SWORD": {
+      "src": "/images/tools/icon_plate_sword__93f10a4db4ca.png",
+      "width": 103,
+      "height": 118,
+      "name": "icon_plate_sword"
+    },
+    "EQUIPMENTTYPE_BOW": {
+      "src": "/images/tools/icon_plate_bow__7d456d51ab9f.png",
+      "width": 110,
+      "height": 122,
+      "name": "icon_plate_bow"
+    },
+    "EQUIPMENTTYPE_STAFF": {
+      "src": "/images/tools/icon_plate_staff__8844b86c24b2.png",
+      "width": 121,
+      "height": 125,
+      "name": "icon_plate_staff"
+    },
+    "EQUIPMENTTYPE_HELMET": {
+      "src": "/images/tools/icon_plate_helmet__3aa13a92fb75.png",
+      "width": 116,
+      "height": 113,
+      "name": "icon_plate_helmet"
+    },
+    "EQUIPMENTTYPE_ARMOR": {
+      "src": "/images/tools/icon_plate_armor__5c2ccd73130c.png",
+      "width": 127,
+      "height": 110,
+      "name": "icon_plate_armor"
+    },
+    "EQUIPMENTTYPE_SHIELD": {
+      "src": "/images/tools/icon_plate_shield__2cf5af1ed1ae.png",
+      "width": 113,
+      "height": 111,
+      "name": "icon_plate_shield"
+    },
+    "EQUIPMENTTYPE_NECKLACE": {
+      "src": "/images/tools/icon_plate_necklace__52c8d13aa710.png",
+      "width": 114,
+      "height": 128,
+      "name": "icon_plate_necklace"
+    },
+    "EQUIPMENTTYPE_RING": {
+      "src": "/images/tools/icon_plate_ring__7f99ebe8ce7c.png",
+      "width": 102,
+      "height": 102,
+      "name": "icon_plate_ring"
+    },
+    "EQUIPMENTTYPE_BROOCH": {
+      "src": "/images/tools/icon_plate_brooch__d79f77d38b53.png",
+      "width": 108,
+      "height": 113,
+      "name": "icon_plate_brooch"
+    },
+    "EQUIPMENTTYPE_ARTIFACT": {
+      "src": "/images/tools/icon_plate_artifact__3e3ad9bb8dca.png",
+      "width": 113,
+      "height": 114,
+      "name": "icon_plate_artifact"
+    },
+    "EQUIPMENTTYPE_BOOK": {
+      "src": "/images/tools/icon_plate_book__d373b2c394cd.png",
+      "width": 105,
+      "height": 115,
+      "name": "icon_plate_book"
+    },
+    "EQUIPMENTTYPE_FOOD": {
+      "src": "/images/tools/icon_plate_food__d09522e24bc1.png",
+      "width": 109,
+      "height": 122,
+      "name": "icon_plate_food"
+    }
+  },
+  "currency": {
+    "src": "/images/tools/icon_choco_steel__35986a84a053.png",
+    "width": 119,
+    "height": 123,
+    "name": "icon_choco_steel"
+  },
+  "materials": {
+    "steel": {
+      "src": "/images/tools/icon_choco_steel__35986a84a053.png",
+      "width": 119,
+      "height": 123,
+      "name": "icon_choco_steel"
+    },
+    "syrup": {
+      "src": "/images/tools/icon_syrup_metal__adf2e44efd24.png",
+      "width": 128,
+      "height": 116,
+      "name": "icon_syrup_metal"
+    },
+    "chocoSteel": {
+      "src": "/images/tools/icon_choco_steel__35986a84a053.png",
+      "width": 119,
+      "height": 123,
+      "name": "icon_choco_steel"
+    },
+    "syrupMetal": {
+      "src": "/images/tools/icon_syrup_metal__adf2e44efd24.png",
+      "width": 128,
+      "height": 116,
+      "name": "icon_syrup_metal"
+    }
+  },
+  "plate": {
+    "src": "/images/tools/equipmentslot_00Plate__d56390eb6101.png",
+    "width": 128,
+    "height": 128,
+    "name": "equipmentslot_00Plate"
+  },
+  "plateFrame": {
+    "src": "/images/tools/equipmentslot_00Plate__d56390eb6101.png",
+    "width": 128,
+    "height": 128,
+    "name": "equipmentslot_00Plate"
+  },
+  "grade": {
+    "src": "/images/tools/PlateGraideBg__bc0147d6f5a4.png",
+    "width": 151,
+    "height": 153,
+    "name": "PlateGraideBg"
+  },
+  "hammer": {
+    "src": "/images/tools/GnomeHammer01__64cafebcfcde.png",
+    "width": 119,
+    "height": 132,
+    "name": "GnomeHammer01"
+  },
+  "anvil": {
+    "src": "/images/tools/ImgPlateMoru__57e698b8924f.png",
+    "width": 471,
+    "height": 285,
+    "name": "ImgPlateMoru"
+  },
+  "oven": {
+    "src": "/images/tools/ImgPlateoven__1e9f0681583a.png",
+    "width": 510,
+    "height": 364,
+    "name": "ImgPlateoven"
+  },
+  "ovenFront": {
+    "src": "/images/tools/ImgPlateovenFront__290217eb8177.png",
+    "width": 341,
+    "height": 251,
+    "name": "ImgPlateovenFront"
+  },
+  "sectionIcon": {
+    "src": "/images/tools/icon_contentsunlock_PlateEnhance__b15861e1c721.png",
+    "width": 511,
+    "height": 416,
+    "name": "icon_contentsunlock_PlateEnhance"
+  },
+  "background": {
+    "src": "/images/tools/PtnWall__2d84f306e8e4.png",
+    "width": 358,
+    "height": 358,
+    "name": "PtnWall"
+  },
+  "checkbox": {
+    "checked": {
+      "src": "/images/tools/IconCheckS__ed7b9a341fb2.png",
+      "width": 64,
+      "height": 50,
+      "name": "IconCheckS"
+    },
+    "box": {
+      "src": "/images/tools/SlicedBtnSub_s__2020301b7743.png",
+      "width": 40,
+      "height": 67,
+      "name": "SlicedBtnSub_s"
+    }
+  },
+  "outcomes": {
+    "greatSuccess": {
+      "src": "/images/tools/GnomeHammer01__64cafebcfcde.png",
+      "width": 119,
+      "height": 132,
+      "name": "GnomeHammer01"
+    },
+    "success": {
+      "src": "/images/tools/IconUpgrade__cc3741145188.png",
+      "width": 68,
+      "height": 60,
+      "name": "IconUpgrade"
+    },
+    "maintain": {
+      "src": "/images/tools/IconTrade__224773b7fa38.png",
+      "width": 26,
+      "height": 30,
+      "name": "IconTrade"
+    },
+    "decline": {
+      "src": "/images/tools/IconArrowDouble__d4c836055064.png",
+      "width": 65,
+      "height": 57,
+      "name": "IconArrowDouble"
+    },
+    "destroy": {
+      "src": "/images/tools/imgPlatesPart01__6e20ca88aebc.png",
+      "width": 52,
+      "height": 34,
+      "name": "imgPlatesPart01"
+    }
+  },
+  "results": {
+    "GREAT_SUCCESS": {
+      "src": "/images/tools/GnomeHammer01__64cafebcfcde.png",
+      "width": 119,
+      "height": 132,
+      "name": "GnomeHammer01"
+    },
+    "SUCCESS": {
+      "src": "/images/tools/IconUpgrade__cc3741145188.png",
+      "width": 68,
+      "height": 60,
+      "name": "IconUpgrade"
+    },
+    "MAINTAIN": {
+      "src": "/images/tools/IconTrade__224773b7fa38.png",
+      "width": 26,
+      "height": 30,
+      "name": "IconTrade"
+    },
+    "DECLINE": {
+      "src": "/images/tools/IconArrowDouble__d4c836055064.png",
+      "width": 65,
+      "height": 57,
+      "name": "IconArrowDouble"
+    },
+    "DESTROY": {
+      "src": "/images/tools/imgPlatesPart01__6e20ca88aebc.png",
+      "width": 52,
+      "height": 34,
+      "name": "imgPlatesPart01"
+    }
+  },
+  "protection": {
+    "src": "/images/tools/icon_syrup_metal__adf2e44efd24.png",
+    "width": 128,
+    "height": 116,
+    "name": "icon_syrup_metal"
+  },
+  "controls": {
+    "compare": {
+      "src": "/images/tools/IconArrowDouble__d4c836055064.png",
+      "width": 65,
+      "height": 57,
+      "name": "IconArrowDouble"
+    },
+    "upgrade": {
+      "src": "/images/tools/IconUpgrade__cc3741145188.png",
+      "width": 68,
+      "height": 60,
+      "name": "IconUpgrade"
+    },
+    "trade": {
+      "src": "/images/tools/IconTrade__224773b7fa38.png",
+      "width": 26,
+      "height": 30,
+      "name": "IconTrade"
+    },
+    "help": {
+      "src": "/images/tools/IconGuide__4d70df744596.png",
+      "width": 26,
+      "height": 43,
+      "name": "IconGuide"
+    },
+    "detail": {
+      "src": "/images/tools/IconDetail__5945c1fdcaad.png",
+      "width": 46,
+      "height": 50,
+      "name": "IconDetail"
+    }
+  },
+  "gnomeParts": {
+    "Arm02": {
+      "src": "/images/tools/GnomeArm02__eb58aca13385.png",
+      "width": 48,
+      "height": 40,
+      "name": "GnomeArm02"
+    },
+    "Arm02_Hand02": {
+      "src": "/images/tools/GnomeHand02__995bc42c368a.png",
+      "width": 44,
+      "height": 43,
+      "name": "GnomeHand02"
+    },
+    "Foot01": {
+      "src": "/images/tools/GnomeFoot01__60ef38cc6927.png",
+      "width": 62,
+      "height": 41,
+      "name": "GnomeFoot01"
+    },
+    "Foot02": {
+      "src": "/images/tools/GnomeFoot02__32e11b8bff59.png",
+      "width": 63,
+      "height": 46,
+      "name": "GnomeFoot02"
+    },
+    "Body": {
+      "src": "/images/tools/GnomeBody01__7ca7f1039f9d.png",
+      "width": 150,
+      "height": 95,
+      "name": "GnomeBody01"
+    },
+    "Head": {
+      "src": "/images/tools/GnomeHead__e2b77ad1a411.png",
+      "width": 151,
+      "height": 156,
+      "name": "GnomeHead"
+    },
+    "Head_Eye01": {
+      "src": "/images/tools/GnomeHand02__995bc42c368a.png",
+      "width": 44,
+      "height": 43,
+      "name": "GnomeHand02"
+    },
+    "Head_Eye02": {
+      "src": "/images/tools/GnomeHand02__995bc42c368a.png",
+      "width": 44,
+      "height": 43,
+      "name": "GnomeHand02"
+    },
+    "Arm01": {
+      "src": "/images/tools/GnomeArm01__0ccdd3655112.png",
+      "width": 42,
+      "height": 36,
+      "name": "GnomeArm01"
+    },
+    "Beard": {
+      "src": "/images/tools/GnomeBeard01__40862dbdf80c.png",
+      "width": 306,
+      "height": 126,
+      "name": "GnomeBeard01"
+    },
+    "Hair01": {
+      "src": "/images/tools/GnomeHair01__afa5dcf3a7a5.png",
+      "width": 42,
+      "height": 63,
+      "name": "GnomeHair01"
+    },
+    "Hair02": {
+      "src": "/images/tools/GnomeHair02__84e6a09c1711.png",
+      "width": 38,
+      "height": 55,
+      "name": "GnomeHair02"
+    },
+    "Hat": {
+      "src": "/images/tools/GnomeHat01__18eceb58a65c.png",
+      "width": 223,
+      "height": 175,
+      "name": "GnomeHat01"
+    },
+    "Nose": {
+      "src": "/images/tools/GnomeNose__b8a41e67c5b5.png",
+      "width": 122,
+      "height": 63,
+      "name": "GnomeNose"
+    },
+    "Eyebrow01": {
+      "src": "/images/tools/GnomeEyebrow01__57369e658ebd.png",
+      "width": 48,
+      "height": 44,
+      "name": "GnomeEyebrow01"
+    },
+    "Eyebrow02": {
+      "src": "/images/tools/GnomeEyebrow02__b565967b2947.png",
+      "width": 55,
+      "height": 36,
+      "name": "GnomeEyebrow02"
+    },
+    "Glasses": {
+      "src": "/images/tools/GnomeGlasses01__21b18a4bb81b.png",
+      "width": 165,
+      "height": 56,
+      "name": "GnomeGlasses01"
+    },
+    "Hammer": {
+      "src": "/images/tools/GnomeHammer01__64cafebcfcde.png",
+      "width": 119,
+      "height": 132,
+      "name": "GnomeHammer01"
+    },
+    "Hand01": {
+      "src": "/images/tools/GnomeHand01__8897b24e44de.png",
+      "width": 40,
+      "height": 39,
+      "name": "GnomeHand01"
+    },
+    "Hand02_Front": {
+      "src": "/images/tools/GnomeHand02__995bc42c368a.png",
+      "width": 44,
+      "height": 43,
+      "name": "GnomeHand02"
+    }
+  },
+  "meta": {
+    "game": "CookieRun Crumble",
+    "localOnly": true,
+    "sourceBundleSha256": "9f6165a9bf1125f88f4853065d355fe2b7e41b434a5a8f1d15c11844473fabb5",
+    "reaEvidenceId": "ev_83476ecbe3abbf9206a1bf4ce92a080cd5df340d68c8c3eda11ce48af0f3fadf",
+    "runtimeObserved": false,
+    "gnomeSingleSpriteAvailable": false,
+    "sourceRole": "Existing extraction evidence ID plus byte-verified UnityPy prefab reference recovery"
+  }
+}

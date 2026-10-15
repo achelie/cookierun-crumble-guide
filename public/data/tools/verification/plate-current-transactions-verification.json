@@ -1,0 +1,806 @@
+{
+  "schemaVersion": 1,
+  "evidenceId": "local-plate-current-transactions-verification-20261015-v1",
+  "createdAtUtc": "2026-10-15T15:19:48.371211+00:00",
+  "status": "four current-build low-grade enhancement results observed, including one Super refund; global refund formula unresolved",
+  "authority": "Independent offline manual visual review of actual game UI before/result/settled screenshots and ordinary ADB action observations; not REA-generated evidence and not a captured network response.",
+  "target": {
+    "package": "com.devsisters.cc",
+    "versionName": "1.5.002",
+    "versionCode": 2026100217,
+    "sourceLibrarySha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+    "installedIdentityEvidence": {
+      "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/installed-library-identity.json",
+      "sha256": "afa24810bca0945af810bfd22134c820754bc84df23ecd645beb3452ea9d1ad4",
+      "bytes": 946
+    },
+    "localReferenceRehashedByReviewer": true
+  },
+  "inputs": [
+    {
+      "role": "Previous current-build grade-preview visual crosscheck",
+      "file": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/plate-current-ui-preview-verification.json",
+        "sha256": "45b0c84e59ef8db0f8775a400ffabf6f7aa030add7244d6f68886475a6743037",
+        "bytes": 66529
+      },
+      "evidenceId": "local-plate-current-ui-preview-verification-20261015-v1"
+    },
+    {
+      "role": "Frozen plate configuration retained by previous preview crosscheck",
+      "file": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/inputs/21732eb177a0-plate-enhancement.json",
+        "sha256": "21732eb177a051458aaa97bd7ebed210ac2a4b875d7bf7ac5dce39d14e78a023",
+        "bytes": 118196
+      },
+      "originalMutablePath": "E:/code/sy/rea/output/cookieruncrumble/local-site/public/data/plate-enhancement.json",
+      "sourceVersion": "1.5.002"
+    }
+  ],
+  "attribution": {
+    "userHandoffCaptureId": "068-user-handoff-current",
+    "userHandoffVisibleBalances": {
+      "chocosteel": 0,
+      "metalSyrup": 0
+    },
+    "humanHandoffStatement": "可以继续",
+    "handoffStatementAuthority": "Controlling root agent reports direct human authorization; statement is not inferred from screenshot pixels.",
+    "priorConcurrentInteraction": "User and root agent were interacting around capture067. Earlier global coin/crystal/other balance changes are excluded from this transaction accounting.",
+    "ownedTransactionWindow": {
+      "firstCaptureId": "073-free-steel-balance",
+      "lastCaptureId": "087-final-sword-restored",
+      "operatorClaimSource": "Controlling root agent reports these captured inputs after the handoff as its continuous input sequence; manual screenshot review confirms the stated before/result/settled state transitions."
+    },
+    "doNotAttributeEarlierGlobalBalanceChanges": true
+  },
+  "captures": [
+    {
+      "id": "068-user-handoff-current",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:05:39.573704+00:00",
+      "actions": [],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/068-user-handoff-current/observation.json",
+        "sha256": "e08f32ce703ece6d00d275e049671b00295b513ca623a24a309041a3c6d15b9a",
+        "bytes": 636
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/068-user-handoff-current/screen.png",
+        "sha256": "181f684478f79e1bfd65db4a86e6720b6fb6fedca2b18d6dc677bae4a0033f06",
+        "bytes": 911574
+      }
+    },
+    {
+      "id": "070-event-refresh",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:06:40.689334+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1017,
+          "y": 364
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/070-event-refresh/observation.json",
+        "sha256": "9d31f1745bb0155a4858b0a6574d97399b07d32bac73d389a4b22406eefcbe2d",
+        "bytes": 705
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/070-event-refresh/screen.png",
+        "sha256": "f7d210f95c218f994fe53faccf19d496ff7bd4fa661e4d775bff93e827def1f2",
+        "bytes": 960762
+      }
+    },
+    {
+      "id": "071-claim-free-steel5",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:07:08.857018+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 544,
+          "y": 1572
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/071-claim-free-steel5/observation.json",
+        "sha256": "90235ca1e1ffa1f02a72240de728a2e1b126d0fb300d5242867ef47ee8846ecd",
+        "bytes": 710
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/071-claim-free-steel5/screen.png",
+        "sha256": "fa426eb026aadfafe256d55ed2d4168e2bb011ca826759d7f9d815778ada0197",
+        "bytes": 1120077
+      }
+    },
+    {
+      "id": "073-free-steel-balance",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:08:06.399279+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 218,
+          "y": 1404
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/073-free-steel-balance/observation.json",
+        "sha256": "95488bbfbd32c39413f200b83ba192d79349236c1bb89684c2f713c0d4c55bb9",
+        "bytes": 710
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/073-free-steel-balance/screen.png",
+        "sha256": "9c9f6f5fb4f83375da6b3996239c0d49cf243777992de51367ff530c37cc28b2",
+        "bytes": 926014
+      }
+    },
+    {
+      "id": "074-bow-before-attempt",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:08:42.100487+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1029,
+          "y": 873
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/074-bow-before-attempt/observation.json",
+        "sha256": "2964b2f5a178fbde3bf611e0eeab1f9b102332ee59cc404c3c78dde1710f6377",
+        "bytes": 710
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/074-bow-before-attempt/screen.png",
+        "sha256": "b595a0cf0f478f8429f28c26f95ad21eaf253b3e8c35a676a21fcf347b28b82b",
+        "bytes": 920020
+      }
+    },
+    {
+      "id": "075-attempt1-result",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:09:14.402546+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 543,
+          "y": 1672
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/075-attempt1-result/observation.json",
+        "sha256": "41d10bdcd4debc2760333eb70aab623163ba6b979945bf32ec1ec8b26a493540",
+        "bytes": 707
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/075-attempt1-result/screen.png",
+        "sha256": "b29a864120516c60622c8f3e072059693a97f6e39eaec508adf192b64d94ac0e",
+        "bytes": 684659
+      }
+    },
+    {
+      "id": "076-attempt1-closed",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:09:58.475655+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 536,
+          "y": 1849
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/076-attempt1-closed/observation.json",
+        "sha256": "5df4af3f97383c3a3530268766ac91c7fe7505f533660580c2f9c8eabbd7edbd",
+        "bytes": 707
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/076-attempt1-closed/screen.png",
+        "sha256": "1b0f37a08850c48b5914c9a31ac158ab607216bf6d8597273f6303e8eda82164",
+        "bytes": 926513
+      }
+    },
+    {
+      "id": "077-staff-before-attempt",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:10:27.737557+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1029,
+          "y": 873
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/077-staff-before-attempt/observation.json",
+        "sha256": "d604f27bd11c2a3e0705479f76698f7f53bd1e6c3bd7708ed4853e20013bff86",
+        "bytes": 712
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/077-staff-before-attempt/screen.png",
+        "sha256": "2a7b35e4fc1d1b6090744781909cfef22e6a1db8200da6a192db8c1b175a71b1",
+        "bytes": 918812
+      }
+    },
+    {
+      "id": "078-attempt2-result",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:10:57.164138+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 543,
+          "y": 1672
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/078-attempt2-result/observation.json",
+        "sha256": "e59ef6a08dccb56e5aa25c5dce1fa10cb5d902e16b31a556cf38f286667b3230",
+        "bytes": 707
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/078-attempt2-result/screen.png",
+        "sha256": "f1644faf76ed22909ba310e734509b739eeb015df7148f465d609eb88124ca31",
+        "bytes": 683184
+      }
+    },
+    {
+      "id": "079-attempt2-closed",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:11:50.341253+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 536,
+          "y": 1849
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/079-attempt2-closed/observation.json",
+        "sha256": "e10e08de72e832c01bb8e72f6453be1252740d9dd1034fb93cdd8e122040609a",
+        "bytes": 707
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/079-attempt2-closed/screen.png",
+        "sha256": "98281b5ecdb66f4f9050c79941c58e786c05618047192da90cf3f9b7efea2a5c",
+        "bytes": 927402
+      }
+    },
+    {
+      "id": "080-necklace-before-attempt",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:12:26.414481+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1029,
+          "y": 873
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/080-necklace-before-attempt/observation.json",
+        "sha256": "b7d4feb43dcafbc548adc59d2d29513833719fffa8cd66120ee8986cc35e16eb",
+        "bytes": 715
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/080-necklace-before-attempt/screen.png",
+        "sha256": "ac7b529074c5deb059a10c98cf57e7df1a8974131173eebb2478ad7702a18aa2",
+        "bytes": 925092
+      }
+    },
+    {
+      "id": "081-attempt3-result",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:13:03.828792+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 543,
+          "y": 1672
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/081-attempt3-result/observation.json",
+        "sha256": "20820ee4fdae5e10c84aed465928aa48891825224d7b2ace81cfbc3aeff7b6d6",
+        "bytes": 707
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/081-attempt3-result/screen.png",
+        "sha256": "f8ea9fed55465e279784e3e5a739b77d2a99ed809dd3ccfdbad4c2f4c65c81d5",
+        "bytes": 685673
+      }
+    },
+    {
+      "id": "082-attempt3-closed",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:13:36.647682+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 536,
+          "y": 1849
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/082-attempt3-closed/observation.json",
+        "sha256": "bfbbc1b69f6205536bc7b2d83553a0ede3b7da7131d20bf38b08a043590e5814",
+        "bytes": 707
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/082-attempt3-closed/screen.png",
+        "sha256": "813fbedb3d33380b44e5321e367a6fb18554203712a0a5cab543d1f4ac266dbc",
+        "bytes": 926865
+      }
+    },
+    {
+      "id": "083-next-plate-before-attempt",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:14:10.292486+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 1029,
+          "y": 873
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/083-next-plate-before-attempt/observation.json",
+        "sha256": "42d07defa5aae3cf32d3f31656e1e70b320c128f9b2b6f6561833c58b867ae20",
+        "bytes": 717
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/083-next-plate-before-attempt/screen.png",
+        "sha256": "737efa38928803357e2918ae73eb18327e9f5c4bcf1b2bab57c59a2e93ee71bc",
+        "bytes": 930435
+      }
+    },
+    {
+      "id": "084-attempt4-result",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:14:43.950595+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 543,
+          "y": 1672
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/084-attempt4-result/observation.json",
+        "sha256": "ec3ec07aeece83be4abd14a9ab7c109932cbe80864ebfaf180b7e1264efe5ffb",
+        "bytes": 707
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/084-attempt4-result/screen.png",
+        "sha256": "656f16eddde7228d1e9f4d44692c57173e59206099339e1e2c0ba4692f67697c",
+        "bytes": 886520
+      }
+    },
+    {
+      "id": "085-super-result-closed",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:15:45.935383+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 536,
+          "y": 1849
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/085-super-result-closed/observation.json",
+        "sha256": "57249e0473ce68c2f2100cfb391026eeaa41a81b39f1e67573b13edfa1d717e3",
+        "bytes": 711
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/085-super-result-closed/screen.png",
+        "sha256": "724d3f5c573e3085559469177ec8509b3ebb5ad8359b9c9b6e36d738e6935349",
+        "bytes": 925131
+      }
+    },
+    {
+      "id": "086-final-plate-inventory",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:16:18.202546+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 799,
+          "y": 870
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/086-final-plate-inventory/observation.json",
+        "sha256": "660c635b6c88178fa292a43c45c7e28dffb46a2161ae17fdb5cc1266194e4281",
+        "bytes": 712
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/086-final-plate-inventory/screen.png",
+        "sha256": "17900b887a28a2ff996d77fdb505692917e50d8dbc82e87e2dc3da96fe811487",
+        "bytes": 638368
+      }
+    },
+    {
+      "id": "087-final-sword-restored",
+      "provider": "ordinary ADB input and screen capture; not REA Evidence",
+      "observedAtUtc": "2026-10-15T15:16:48.935297+00:00",
+      "actions": [
+        {
+          "type": "tap",
+          "x": 126,
+          "y": 1061
+        }
+      ],
+      "observation": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/087-final-sword-restored/observation.json",
+        "sha256": "5c12d4fdfd44891c2fd69bb5687a48ff5616df03838bf55722dd702f90f589d7",
+        "bytes": 712
+      },
+      "screenshot": {
+        "path": "E:/code/sy/rea/output/cookieruncrumble/evidence/plate-runtime-20261015-unlocked-02/087-final-sword-restored/screen.png",
+        "sha256": "2e27454eb80f2aa71fea7e43225926b9ee15363835853deb1fe136da59e81310",
+        "bytes": 913812
+      }
+    }
+  ],
+  "freeMaterialAcquisition": {
+    "source": "New Mercenaries Check-in, Day4",
+    "displayedReward": {
+      "itemId": 1723076124,
+      "name": "Chocosteel",
+      "amount": 5
+    },
+    "beforeRewardCaptureId": "070-event-refresh",
+    "claimCaptureId": "071-claim-free-steel5",
+    "settledPlatingCaptureId": "073-free-steel-balance",
+    "visibleBeforeSteel": 0,
+    "visibleAfterSteel": 5,
+    "visibleRewardToastSteel": 5,
+    "freeRewardClaimed": true,
+    "observation": "070 has Day4 steel5 and Claim All. 071 has a steel5 acquisition toast while UI has advanced to another event tab. 073 plating balance is5 steel /0 syrup.",
+    "notAnExchangePurchase": true
+  },
+  "transactions": [
+    {
+      "number": 1,
+      "plate": "Bow",
+      "plateKey": "bow",
+      "beforeCaptureId": "074-bow-before-attempt",
+      "resultCaptureId": "075-attempt1-result",
+      "settledCaptureId": "076-attempt1-closed",
+      "fromGrade": 0,
+      "toGrade": 1,
+      "outcome": "success",
+      "displayedOutcome": "Upgrade",
+      "displayedCosts": {
+        "chocosteel": 1,
+        "metalSyrup": 0
+      },
+      "beforeBalances": {
+        "chocosteel": 5,
+        "metalSyrup": 0
+      },
+      "resultBalances": {
+        "chocosteel": 4,
+        "metalSyrup": 0
+      },
+      "settledBalances": {
+        "chocosteel": 4,
+        "metalSyrup": 0
+      },
+      "visibleRefundItems": [],
+      "visibleRewardToast": null,
+      "grossChocosteelFromDisplayedCost": 1,
+      "observedOrBalanceConsistentRefundChocosteel": 0,
+      "netChocosteelConsumed": 1,
+      "balanceEquation": "5 - 1 + 0 = 4",
+      "balanceEquationVerified": true,
+      "protectionUsed": {
+        "blockDowngrade": false,
+        "preventBreaks": false
+      },
+      "repairUsed": false,
+      "fieldInterpretation": "Displayed attempt fee and visible balance changes; intermediate debit and wire payload were not captured."
+    },
+    {
+      "number": 2,
+      "plate": "Staff",
+      "plateKey": "staff",
+      "beforeCaptureId": "077-staff-before-attempt",
+      "resultCaptureId": "078-attempt2-result",
+      "settledCaptureId": "079-attempt2-closed",
+      "fromGrade": 0,
+      "toGrade": 1,
+      "outcome": "success",
+      "displayedOutcome": "Upgrade",
+      "displayedCosts": {
+        "chocosteel": 1,
+        "metalSyrup": 0
+      },
+      "beforeBalances": {
+        "chocosteel": 4,
+        "metalSyrup": 0
+      },
+      "resultBalances": {
+        "chocosteel": 3,
+        "metalSyrup": 0
+      },
+      "settledBalances": {
+        "chocosteel": 3,
+        "metalSyrup": 0
+      },
+      "visibleRefundItems": [],
+      "visibleRewardToast": null,
+      "grossChocosteelFromDisplayedCost": 1,
+      "observedOrBalanceConsistentRefundChocosteel": 0,
+      "netChocosteelConsumed": 1,
+      "balanceEquation": "4 - 1 + 0 = 3",
+      "balanceEquationVerified": true,
+      "protectionUsed": {
+        "blockDowngrade": false,
+        "preventBreaks": false
+      },
+      "repairUsed": false,
+      "fieldInterpretation": "Displayed attempt fee and visible balance changes; intermediate debit and wire payload were not captured."
+    },
+    {
+      "number": 3,
+      "plate": "Helmet",
+      "plateKey": "helmet",
+      "beforeCaptureId": "080-necklace-before-attempt",
+      "resultCaptureId": "081-attempt3-result",
+      "settledCaptureId": "082-attempt3-closed",
+      "fromGrade": 0,
+      "toGrade": 1,
+      "outcome": "success",
+      "displayedOutcome": "Upgrade",
+      "displayedCosts": {
+        "chocosteel": 1,
+        "metalSyrup": 0
+      },
+      "beforeBalances": {
+        "chocosteel": 3,
+        "metalSyrup": 0
+      },
+      "resultBalances": {
+        "chocosteel": 2,
+        "metalSyrup": 0
+      },
+      "settledBalances": {
+        "chocosteel": 2,
+        "metalSyrup": 0
+      },
+      "visibleRefundItems": [],
+      "visibleRewardToast": null,
+      "grossChocosteelFromDisplayedCost": 1,
+      "observedOrBalanceConsistentRefundChocosteel": 0,
+      "netChocosteelConsumed": 1,
+      "balanceEquation": "3 - 1 + 0 = 2",
+      "balanceEquationVerified": true,
+      "protectionUsed": {
+        "blockDowngrade": false,
+        "preventBreaks": false
+      },
+      "repairUsed": false,
+      "fieldInterpretation": "Displayed attempt fee and visible balance changes; intermediate debit and wire payload were not captured.",
+      "directoryNameCorrection": "080-necklace-before-attempt visibly shows Helmet, not Necklace."
+    },
+    {
+      "number": 4,
+      "plate": "Armor",
+      "plateKey": "armor",
+      "beforeCaptureId": "083-next-plate-before-attempt",
+      "resultCaptureId": "084-attempt4-result",
+      "settledCaptureId": "085-super-result-closed",
+      "fromGrade": 0,
+      "toGrade": 2,
+      "outcome": "greatSuccess",
+      "displayedOutcome": "Super",
+      "displayedCosts": {
+        "chocosteel": 1,
+        "metalSyrup": 0
+      },
+      "beforeBalances": {
+        "chocosteel": 2,
+        "metalSyrup": 0
+      },
+      "resultBalances": {
+        "chocosteel": 2,
+        "metalSyrup": 0
+      },
+      "settledBalances": {
+        "chocosteel": 2,
+        "metalSyrup": 0
+      },
+      "visibleRefundItems": [
+        {
+          "itemId": 1723076124,
+          "name": "Chocosteel",
+          "amount": 1
+        }
+      ],
+      "visibleRewardToast": {
+        "itemId": 1723076124,
+        "name": "Chocosteel",
+        "amount": 1
+      },
+      "grossChocosteelFromDisplayedCost": 1,
+      "observedOrBalanceConsistentRefundChocosteel": 1,
+      "netChocosteelConsumed": 0,
+      "balanceEquation": "2 - 1 + 1 = 2",
+      "balanceEquationVerified": true,
+      "protectionUsed": {
+        "blockDowngrade": false,
+        "preventBreaks": false
+      },
+      "repairUsed": false,
+      "fieldInterpretation": "Displayed attempt fee and visible balance changes; intermediate debit and wire payload were not captured.",
+      "refundRowLabel": "Materials left after Super Success",
+      "configuredRefundPercent": 10,
+      "refundPercentSource": {
+        "source": "Previous current-build full-grade preview and frozen configuration, not the immediate before-attempt screen",
+        "previewEvidenceId": "local-plate-current-ui-preview-verification-20261015-v1",
+        "gradePreview": 0,
+        "archivedConfigurationSha256": "21732eb177a051458aaa97bd7ebed210ac2a4b875d7bf7ac5dce39d14e78a023"
+      }
+    }
+  ],
+  "observedSummary": {
+    "attemptCount": 4,
+    "successCount": 3,
+    "greatSuccessCount": 1,
+    "maintainCount": 0,
+    "declineCount": 0,
+    "destroyCount": 0,
+    "actualAttemptGrades": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "serverPayloadCaptured": false,
+    "paidProtectionAttempts": 0,
+    "breakTransactions": 0,
+    "repairTransactions": 0,
+    "currentVersionSuperRefundSamples": 1
+  },
+  "materialAccounting": {
+    "chocosteel": {
+      "handoffInitial": 0,
+      "freeClaimed": 5,
+      "beforeFirstAttempt": 5,
+      "grossAttemptCosts": 4,
+      "superRefund": 1,
+      "netAttemptConsumption": 3,
+      "finalBalance": 2,
+      "equation": "0 + 5 - 4 + 1 = 2",
+      "balanceConserved": true
+    },
+    "metalSyrup": {
+      "handoffInitial": 0,
+      "attemptProtectionCosts": 0,
+      "repairCosts": 0,
+      "finalBalance": 0
+    },
+    "crystalAndMedal": {
+      "spendActionsInOwnedSequence": 0,
+      "chargedByTheseLowGradeAttempts": 0,
+      "scopeLimit": "No premium purchase or exchange action is present in this sequence. Plating frames do not show all account currency balances; this is not a global balance reconciliation."
+    }
+  },
+  "superRefundObservation": {
+    "transactionNumber": 4,
+    "plate": "Armor",
+    "fromGrade": 0,
+    "toGrade": 2,
+    "attemptChocosteelCost": 1,
+    "refundPercent": 10,
+    "refundPercentDirectlyVisibleInBeforeAttemptFrame": false,
+    "refundPercentSource": {
+      "previewEvidenceId": "local-plate-current-ui-preview-verification-20261015-v1",
+      "previewCaptureId": "035-preview-bow0",
+      "archivedConfigurationSha256": "21732eb177a051458aaa97bd7ebed210ac2a4b875d7bf7ac5dce39d14e78a023",
+      "crossPlateRateAuthority": "shared official PlateUpgradeCosts configuration; current UI preview is Bow, actual transaction is Armor"
+    },
+    "realProductBeforeIntegerRule": "1 * 10 / 100 = 0.1",
+    "visibleChocosteelRefund": 1,
+    "visibleRewardToastChocosteel": 1,
+    "chocosteelBefore": 2,
+    "chocosteelResult": 2,
+    "chocosteelSettled": 2,
+    "observedNetChocosteelCost": 0,
+    "refundRowLabel": "Materials left after Super Success",
+    "protectionCostsPaid": 0,
+    "refundableProtectionMaterialEligibilityEstablished": false,
+    "singleSampleOnly": true
+  },
+  "roundingCandidateComparison": {
+    "inputCost": 1,
+    "refundRatePercent": 10,
+    "exactFractionProduct": "1/10",
+    "observedRefund": 1,
+    "candidates": [
+      {
+        "candidate": "unconditionally floor(cost * configured rate)",
+        "predictedRefund": 0,
+        "compatibleWithThisSample": false
+      },
+      {
+        "candidate": "unconditionally nearest-integer(cost * configured rate)",
+        "predictedRefund": 0,
+        "compatibleWithThisSample": false
+      },
+      {
+        "candidate": "ceil(cost * configured rate)",
+        "predictedRefund": 1,
+        "compatibleWithThisSample": true
+      },
+      {
+        "candidate": "minimum-one clamp after floor or nearest for positive eligible costs",
+        "predictedRefund": 1,
+        "compatibleWithThisSample": true
+      }
+    ],
+    "conclusion": "Direct floor/nearest of0.1 alone is inconsistent with this current-build sample. Ceil and minimum-one variants both fit; one sample does not identify a universal integer formula.",
+    "notExcluded": [
+      "Other server rules or grade-specific behavior",
+      "Stochastic rounding or a minimum refund",
+      "A formula applying to a different eligible base"
+    ],
+    "integerRoundingVerified": false,
+    "protectionMaterialScopeVerified": false,
+    "globalNetForecastSupported": false
+  },
+  "finalAccountState": {
+    "inventoryCaptureId": "086-final-plate-inventory",
+    "selectedRestoredCaptureId": "087-final-sword-restored",
+    "recordedGrades": {
+      "sword": 2,
+      "bow": 1,
+      "staff": 1,
+      "necklace": 0,
+      "ring": 0,
+      "brooch": 0,
+      "helmet": 1,
+      "armor": 2,
+      "shield": 0
+    },
+    "otherTypes": "Artifact/Book/Food are shown locked; their grade is not inferred.",
+    "selectedPlateRestoredTo": "sword",
+    "selectedGrade": 2,
+    "chocosteel": 2,
+    "metalSyrup": 0
+  },
+  "verifiedByThisReport": {
+    "actualLowGradeSuccessPlusOne": true,
+    "actualLowGradeSuperPlusTwo": true,
+    "oneCurrentBuildSuperSteelRefund": true,
+    "grossFeeAndRefundNetBalanceReconciliation": true,
+    "claimedFreeSteelFive": true
+  },
+  "unknowns": [
+    "Universal integer rounding for all enhancement grades and material quantities; ceil versus minimum-one remains unresolved.",
+    "Whether protection materials are refundable; no protection costs were paid.",
+    "Whether multiple costs sharing ItemId are combined before server rounding.",
+    "Actual protected probability displays, protected outcome sampling, Break grade transition and Repair transaction.",
+    "Server RNG independence, pity/state logic and agreement of empirical frequencies with configured probabilities.",
+    "Exact gross-debit/refund ordering and raw UpgradePlateResponse.Rewards payload; screenshots capture final net states and acquisition UI only."
+  ],
+  "limitations": [
+    "Four outcomes, including one Super, cannot verify a10% Super probability or independent sampling. No success-frequency estimate is asserted.",
+    "All four attempts start at grade0. No high-grade material spending or outcome is observed.",
+    "The immediate Armor pre-attempt frame does not display refund percentage. Its10% comes from the separately bound same-build configuration and prior grade0 preview.",
+    "080 folder label says Necklace, but the actual plate visible before, during and after transaction3 is Helmet.",
+    "A materials-left label alone is ambiguous. Here the steel1 acquisition toast, steel1 result row, and settled unchanged steel2 balance together support the claimed one-steel return under a one-steel displayed fee.",
+    "Earlier account changes while the user also operated the emulator are outside this ledger. No earlier coin/crystal fluctuations are attributed to these attempts.",
+    "Ordinary ADB screenshots and action logs are not REA-produced evidence and do not capture network transactions."
+  ],
+  "calculatorImplication": {
+    "keepGlobalGrossForecast": true,
+    "showOneObservedCurrentSuperCase": true,
+    "doNotAssumeGlobalCeilRule": true,
+    "doNotEnableProtectionRefundNetCostFromThisSample": true
+  }
+}

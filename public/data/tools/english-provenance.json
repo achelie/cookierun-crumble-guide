@@ -1,0 +1,5855 @@
+{
+  "database": "cookierun-crumble.sqlite",
+  "englishRowCount": 20575,
+  "official": [
+    {
+      "source": "攻擊力增幅",
+      "english": "ATK AMP",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.AttackPointMultiplier..",
+      "databaseText": "ATK AMP"
+    },
+    {
+      "source": "防禦力增幅",
+      "english": "DEF AMP",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.DefensePointMultiplier..",
+      "databaseText": "DEF AMP"
+    },
+    {
+      "source": "體力增幅",
+      "english": "HP AMP",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.HealthPointMultiplier..",
+      "databaseText": "HP AMP"
+    },
+    {
+      "source": "暴擊率增加",
+      "english": "CRIT%",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.CriticalRateAddition..",
+      "databaseText": "CRIT%"
+    },
+    {
+      "source": "暴擊傷害增加",
+      "english": "CRIT DMG",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.CriticalDamageRateAddition..",
+      "databaseText": "CRIT DMG"
+    },
+    {
+      "source": "暴擊抵抗提升",
+      "english": "CRIT RES",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.CriticalResistAddition..",
+      "databaseText": "CRIT RES"
+    },
+    {
+      "source": "命中率增加",
+      "english": "Accuracy Rate",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.AccuracyPercentAddition..",
+      "databaseText": "Accuracy Rate"
+    },
+    {
+      "source": "閃避率增加",
+      "english": "Evasion Rate Increase",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.AvoidancePercentAddition..",
+      "databaseText": "Evasion Rate Increase"
+    },
+    {
+      "source": "技能增幅提升",
+      "english": "Skill AMP",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.AbilityAmplifyAddition..",
+      "databaseText": "Skill AMP"
+    },
+    {
+      "source": "傷害減少",
+      "english": "DMG Reduction",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.DamageDecreaseScreen..",
+      "databaseText": "DMG Reduction"
+    },
+    {
+      "source": "技能加速提升",
+      "english": "Skill Haste",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.AbilityHasteAddition..",
+      "databaseText": "Skill Haste"
+    },
+    {
+      "source": "移動速度增加",
+      "english": "Mov SPD",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.SpeedAddition..",
+      "databaseText": "Mov SPD"
+    },
+    {
+      "source": "專注率增加",
+      "english": "Focus Rate Increase",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.FocusPercentAddition..",
+      "databaseText": "Focus Rate Increase"
+    },
+    {
+      "source": "抵抗率增加",
+      "english": "Resistance Rate Increase",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.ResistPercentAddition..",
+      "databaseText": "Resistance Rate Increase"
+    },
+    {
+      "source": "符文結晶",
+      "english": "Rune Crystals",
+      "authority": "nameEn"
+    },
+    {
+      "source": "糖符文是能讓餅乾變得更強大的成長要素。在空欄位加工符文碎片可賦予隨機效果，並獲得<color=#FFF600>額外能力值</color>。餅乾升階後將解鎖新欄位，並可加工更多符文碎片。鎖定所需的糖符文效果時，符文結晶消耗量會隨鎖定數量而增加。",
+      "english": "Sugar Runes are another way to strengthen your Cookies.\nCrafting Runes into empty slots grants random effects, allowing you to obtain <color=#FFF600>bonus stats</color>.\nAs you promote Cookies, new slots unlock, enabling you to craft more rune pieces.\nNote that locking desired Sugar Rune effects increases Rune Crystal consumption proportionally to the number of locked effects.",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1435377691.슈가룬",
+      "databaseText": "Sugar Runes are another way to strengthen your Cookies.\nCrafting Runes into empty slots grants random effects, allowing you to obtain <color=#FFF600>bonus stats</color>.\nAs you promote Cookies, new slots unlock, enabling you to craft more rune pieces.\nNote that locking desired Sugar Rune effects increases Rune Crystal consumption proportionally to the number of locked effects."
+    },
+    {
+      "source": "由於四捨五入，機率總和可能不為100%。",
+      "english": "Probabilities have been rounded and may not add up to a total of 100%.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.SugarRuneRatePopup.Description",
+      "databaseText": "Probabilities have been rounded and may not add up to a total of 100%."
+    },
+    {
+      "source": "最多可選擇3個效果。",
+      "english": "You can select up to 3 effects.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.SugarRuneAutoRerollPopup.MaxSelectStatEffectCenterMsg",
+      "databaseText": "You can select up to 3 effects."
+    },
+    {
+      "source": "未選擇時則從全部效果中隨機出現。",
+      "english": "If no effects are selected, all effects can appear.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.SugarRuneAutoRerollPopup.StatEffectSettingDesc",
+      "databaseText": "If no effects are selected, all effects can appear."
+    },
+    {
+      "source": "將在已啟用的符文欄位自動進行，直到出現符合篩選條件的效果。",
+      "english": "Auto Craft continues on unlocked Rune slots until an effect matching your selected conditions appears.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.SugarRuneAutoRerollPopup.CheckDisabledSlotIgnoreDesc",
+      "databaseText": "Auto Craft continues on unlocked Rune slots until an effect matching your selected conditions appears."
+    },
+    {
+      "source": "所有啟用的符文欄位皆已鎖定，無法使用該功能。",
+      "english": "This feature cannot be used because all active Rune slots are locked.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.SugarRune.Msg.AllActiveSlotsLocked",
+      "databaseText": "This feature cannot be used because all active Rune slots are locked."
+    },
+    {
+      "source": "需開啟1個以上的糖符文欄位。",
+      "english": "At least one Sugar Rune slot must be open.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.SugarRune.Msg.NoActiveSlot",
+      "databaseText": "At least one Sugar Rune slot must be open."
+    },
+    {
+      "source": "攻擊力增幅",
+      "english": "ATK AMP",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.AttackPointMultiplier..",
+      "databaseText": "ATK AMP"
+    },
+    {
+      "source": "防禦力增幅",
+      "english": "DEF AMP",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.DefensePointMultiplier..",
+      "databaseText": "DEF AMP"
+    },
+    {
+      "source": "體力增幅",
+      "english": "HP AMP",
+      "authority": "localizations.en",
+      "key": "CombatPropertyCalculate.DisplayName.HealthPointMultiplier..",
+      "databaseText": "HP AMP"
+    },
+    {
+      "source": "星際點數",
+      "english": "Stellar Point",
+      "authority": "nameEn"
+    },
+    {
+      "source": "<color=#FFF600>重設連線</color>為使用<color=#FFF600>星際點數</color>重新安排星星順序和位置的功能。\n調整星星配置後，將跟著改變連結範圍，進而重新計算加成能力值。\n可鎖定已啟用的星星來固定該星星的順序和位置。\n鎖定的星星越多，重設連線所需的<color=#FFF600>星際點數</color>就越多。",
+      "english": "You can spend <color=#FFF600>Stellar Points</color> to <color=#FFF600>reset your Links</color>, letting you rearrange the order and placement of your Starshards.\nRearranging your Starshards can change the width of your Links, changing the stats gained in the process.\nYou can lock activated Starshards to prevent the order and placement from changing.\nThe more Starshards you lock, the higher the <color=#FFF600>Stellar Point</color> cost to reset Stellar Links.",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1291638467.링크 재설정",
+      "databaseText": "You can spend <color=#FFF600>Stellar Points</color> to <color=#FFF600>reset your Links</color>, letting you rearrange the order and placement of your Starshards.\nRearranging your Starshards can change the width of your Links, changing the stats gained in the process.\nYou can lock activated Starshards to prevent the order and placement from changing.\nThe more Starshards you lock, the higher the <color=#FFF600>Stellar Point</color> cost to reset Stellar Links."
+    },
+    {
+      "source": "在一個<color=#FFF600>星座</color>中啟用所有星星後，可透過<color=#FFF600>啟用星座</color>功能解鎖新星座，進而持續成長。\n每個星座的星星與加成效果各異。啟用新星座後，<color=#FFF600>先前星座的加成效果也可延續</color>並同時套用。\n可隨時查看已啟用的星座並重設連線。啟用的星座越多，就能累積越多能力值。",
+      "english": "Unlocking all Starshards of a <color=#FFF600>Constellation</color> lets you proceed to <color=#FFF600>unlock the next Constellation</color>.\nEach Constellation has its own set of Starshards and bonuses, and you <color=#FFF600>retain the bonuses of previous Constellations</color> even after unlocking new ones.\nYou can check and reset your unlocked Constellations at any time, allowing you to accumulate more stats as you unlock more of them.",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1291638467.별자리 개방",
+      "databaseText": "Unlocking all Starshards of a <color=#FFF600>Constellation</color> lets you proceed to <color=#FFF600>unlock the next Constellation</color>.\nEach Constellation has its own set of Starshards and bonuses, and you <color=#FFF600>retain the bonuses of previous Constellations</color> even after unlocking new ones.\nYou can check and reset your unlocked Constellations at any time, allowing you to accumulate more stats as you unlock more of them."
+    },
+    {
+      "source": "第一個星座可根據<color=#FFF600>開啟餅乾欄位數</color>來啟用星星。\n第二個星座起則可透過<color=#FFF600>餅乾升階</color>來啟用星星。\n啟用的星星越多，連結範圍就越廣，可獲得更大的加成效果。\n滿足條件後，星星將會自動啟用。",
+      "english": "The first Constellation lets you unlock Starshards relative to the <color=#FFF600>number of active Cookie slots</color>.\nThe second Constellation and onward let you unlock Starshards with <color=#FFF600>Cookie promotion levels</color>.\nThe more Starshards you unlock and the more area your Links cover, the bigger the boost your Cookies receive.\nOnce you meet the required criteria, Starshards unlock automatically.",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1291638467.별조각 개방",
+      "databaseText": "The first Constellation lets you unlock Starshards relative to the <color=#FFF600>number of active Cookie slots</color>.\nThe second Constellation and onward let you unlock Starshards with <color=#FFF600>Cookie promotion levels</color>.\nThe more Starshards you unlock and the more area your Links cover, the bigger the boost your Cookies receive.\nOnce you meet the required criteria, Starshards unlock automatically."
+    },
+    {
+      "source": "星際連線將根據<color=#FFF600>星星</color>間的<color=#FFF600>連線</color>範圍，提升組隊中所有餅乾的能力值。",
+      "english": "Stellar Links is a system that provides a power boost to the Cookies in your Lineup based on the <color=#FFF600>linked Starshards</color>.",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1291638467.스텔라 링크",
+      "databaseText": "Stellar Links is a system that provides a power boost to the Cookies in your Lineup based on the <color=#FFF600>linked Starshards</color>."
+    },
+    {
+      "source": "主線關卡\n碎屑副本\n每日副本\n植牙塔",
+      "english": "Main Stages\nCrumble Dungeon\nDaily Dungeons\nPlaque Tower",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1291638467.적용 컨텐츠",
+      "databaseText": "Main Stages\nCrumble Dungeon\nDaily Dungeons\nPlaque Tower"
+    },
+    {
+      "source": "主線關卡\n碎屑副本\n每日副本\n植牙塔\n公會討伐戰\n次元彼端",
+      "english": "Main Stages\nCrumble Dungeon\nDaily Dungeons\nPlaque Tower\nGuild Conquest",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1291638467.적용 콘텐츠",
+      "databaseText": "Main Stages\nCrumble Dungeon\nDaily Dungeons\nPlaque Tower\nGuild Conquest"
+    },
+    {
+      "source": "星際連線",
+      "english": "Stellar Link",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.StatBoostProviderType.StellarLink",
+      "databaseText": "Stellar Link"
+    },
+    {
+      "source": "重置星際連線時所需的資源。\n對星空許下你的心願吧！",
+      "english": "Points used to reset Stellar Links. Gather enough, and you might have any wish come true!",
+      "authority": "localizations.en",
+      "key": "Item.Description.1075390700",
+      "databaseText": "Points used to reset Stellar Links. Gather enough, and you might have any wish come true!"
+    },
+    {
+      "source": "星際點數",
+      "english": "Stellar Point",
+      "authority": "localizations.en",
+      "key": "Item.Name.1075390700",
+      "databaseText": "Stellar Point"
+    },
+    {
+      "source": "無法再鎖定星星。",
+      "english": "Cannot lock more Starshards.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLink.StellarLinkPage.CannotLockMore",
+      "databaseText": "Cannot lock more Starshards."
+    },
+    {
+      "source": "<color=#00FFFF>星座</color>解鎖條件",
+      "english": "Unlocking <color=#00FFFF>Constellations</color>",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLink.StellarLinkPage.ConstellationUnlockConditionTitle",
+      "databaseText": "Unlocking <color=#00FFFF>Constellations</color>"
+    },
+    {
+      "source": "有尚未啟用的星星。",
+      "english": "There are inactivated Starshards.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLink.StellarLinkPage.InactiveStarshardNotice",
+      "databaseText": "There are inactivated Starshards."
+    },
+    {
+      "source": "<color=#FFF600>星星</color>解鎖條件",
+      "english": "Unlocking <color=#FFF600>Starshards</color>",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLink.StellarLinkPage.StarshardUnlockConditionTitle",
+      "databaseText": "Unlocking <color=#FFF600>Starshards</color>"
+    },
+    {
+      "source": "取消",
+      "english": "Cancel",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLink.StellarLinkWarning.Cancel",
+      "databaseText": "Cancel"
+    },
+    {
+      "source": "確定",
+      "english": "OK",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLink.StellarLinkWarning.Confirm",
+      "databaseText": "OK"
+    },
+    {
+      "source": "<color=#fffc00>有尚未鎖定的星星。</color>\n確定要繼續嗎？",
+      "english": "<color=#fffc00>There are unlocked Starshards.</color>\nAre you sure you want to continue?",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLink.StellarLinkWarning.Message",
+      "databaseText": "<color=#fffc00>There are unlocked Starshards.</color>\nAre you sure you want to continue?"
+    },
+    {
+      "source": "等等...休士頓",
+      "english": "Can you hear me?",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLink.StellarLinkWarningPopup.Prefab.StellarLinkGnomeText",
+      "databaseText": "Can you hear me?"
+    },
+    {
+      "source": "攻擊力增幅",
+      "english": "ATK Amplification",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.AtkAmplification",
+      "databaseText": "ATK Amplification"
+    },
+    {
+      "source": "星星解鎖條件",
+      "english": "Unlocking Starshards",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.ConditionTitle",
+      "databaseText": "Unlocking Starshards"
+    },
+    {
+      "source": "個星座",
+      "english": "Constellation",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.Constellation",
+      "databaseText": "Constellation"
+    },
+    {
+      "source": "防禦力增幅",
+      "english": "DEF Amplification",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.DefAmplification",
+      "databaseText": "DEF Amplification"
+    },
+    {
+      "source": "<color=#fff600>開啟1個餅乾欄位後</color>可解鎖星星。",
+      "english": "<color=#fff600>Each unlocked Cookie slot</color> unlocks Starshards.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.FirstCondition",
+      "databaseText": "<color=#fff600>Each unlocked Cookie slot</color> unlocks Starshards."
+    },
+    {
+      "source": "體力增幅",
+      "english": "HP Amplification",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.HPAmplification",
+      "databaseText": "HP Amplification"
+    },
+    {
+      "source": "點擊重設連線來畫出星座吧！",
+      "english": "Tap Shuffle to activate the Constellation!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.LinkDes",
+      "databaseText": "Tap Shuffle to activate the Constellation!"
+    },
+    {
+      "source": "重設連線",
+      "english": "Shuffle",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.LinkShuffle",
+      "databaseText": "Shuffle"
+    },
+    {
+      "source": "第",
+      "english": "{NotUseText}",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.OrdinalNumber",
+      "databaseText": "{NotUseText}"
+    },
+    {
+      "source": "星座面積",
+      "english": "Area",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.StellarLinkPage.Prefab.TotalArea",
+      "databaseText": "Area"
+    },
+    {
+      "source": "星際連線",
+      "english": "Stellar\nLinks",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkSubTabBtn.SubTabBtn.Prefab.StellarLinkSubTabBtn",
+      "databaseText": "Stellar\nLinks"
+    },
+    {
+      "source": "劍",
+      "english": "Sword",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Sword",
+      "databaseText": "Sword"
+    },
+    {
+      "source": "弓",
+      "english": "Bow",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Bow",
+      "databaseText": "Bow"
+    },
+    {
+      "source": "手杖",
+      "english": "Staff",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Staff",
+      "databaseText": "Staff"
+    },
+    {
+      "source": "頭盔",
+      "english": "Helmet",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Helmet",
+      "databaseText": "Helmet"
+    },
+    {
+      "source": "盔甲",
+      "english": "Armor",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Armor",
+      "databaseText": "Armor"
+    },
+    {
+      "source": "盾牌",
+      "english": "Shield",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Shield",
+      "databaseText": "Shield"
+    },
+    {
+      "source": "項鍊",
+      "english": "Necklace",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Necklace",
+      "databaseText": "Necklace"
+    },
+    {
+      "source": "戒指",
+      "english": "Ring",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Ring",
+      "databaseText": "Ring"
+    },
+    {
+      "source": "胸針",
+      "english": "Brooch",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Brooch",
+      "databaseText": "Brooch"
+    },
+    {
+      "source": "法寶",
+      "english": "Artifact",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Artifact",
+      "databaseText": "Artifact"
+    },
+    {
+      "source": "書籍",
+      "english": "Book",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Book",
+      "databaseText": "Book"
+    },
+    {
+      "source": "食物",
+      "english": "Food",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.EquipmentType.Food",
+      "databaseText": "Food"
+    },
+    {
+      "source": "糖漿熔液",
+      "english": "Metal Syrup",
+      "authority": "localizations.en",
+      "key": "Item.Name.1423199017",
+      "databaseText": "Metal Syrup"
+    },
+    {
+      "source": "巧克力鋼",
+      "english": "Chocosteel",
+      "authority": "localizations.en",
+      "key": "Item.Name.1723076124",
+      "databaseText": "Chocosteel"
+    },
+    {
+      "source": "大成功",
+      "english": "Super",
+      "authority": "nameEn"
+    },
+    {
+      "source": "成功",
+      "english": "Upgrade",
+      "authority": "nameEn"
+    },
+    {
+      "source": "維持",
+      "english": "No Change",
+      "authority": "nameEn"
+    },
+    {
+      "source": "降階",
+      "english": "Downgrade",
+      "authority": "nameEn"
+    },
+    {
+      "source": "碎裂",
+      "english": "Break",
+      "authority": "nameEn"
+    },
+    {
+      "source": "<color=#FFF600>大成功</color>時強化階級會提升兩階；\n<color=#FFF600>成功</color>時則提升一階。\n<color=#FFF600>維持</color>時強化階級不變。\n<color=#FF99AF>降階</color>只在強化階級10階以上時發生，會使強化階級降低一階。\n<color=#FF99AF>碎裂</color>只在強化階級15階以上時發生，會使強化階級降低兩階。\n階級越高，降階和碎裂發生的機率越高。\n大成功時會退還部分該次強化所使用的材料。",
+      "english": "<color=#FFF600>Super</color> results increase the Plate's level by 2, while a simple <color=#FFF600>Upgrade</color> increases it by 1.\n<color=#FFF600>No Change</color> means your Plate's level remains the same.\n<color=#FF99AF>Downgrade</color> knocks your Plate's level down by 1, and only occurs when Plates are above level 10.\n<color=#FF99AF>Breaks</color> knock your Plate's level down by 2, and only occurs when Plates are above level 15.\nThe higher the Plate's level, the more likely Plating results in a Downgrade or Break.\nA Super result also refunds some of the materials used in Plating.",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1391451181.강화 결과",
+      "databaseText": "<color=#FFF600>Super</color> results increase the Plate's level by 2, while a simple <color=#FFF600>Upgrade</color> increases it by 1.\n<color=#FFF600>No Change</color> means your Plate's level remains the same.\n<color=#FF99AF>Downgrade</color> knocks your Plate's level down by 1, and only occurs when Plates are above level 10.\n<color=#FF99AF>Breaks</color> knock your Plate's level down by 2, and only occurs when Plates are above level 15.\nThe higher the Plate's level, the more likely Plating results in a Downgrade or Break.\nA Super result also refunds some of the materials used in Plating."
+    },
+    {
+      "source": "即使發生<color=#FF99AF>碎裂</color>，只要使用<color=#FFF600>糖漿熔液</color>就能回到強化前的階級。\n發生碎裂時可選擇是否修復，選擇<color=#FFF600>修復</color>時將消耗糖漿熔液並回到強化前的階級。\n修復所需的糖漿熔液數量，會隨著發生碎裂的強化階級越高而增加。\n即使進行修復，<color=#FF99AF>也無法退還該次強化所使用的巧克力鋼和糖漿熔液。</color>",
+      "english": "Even if your Plates <color=#FF99AF>Break</color>, you can use <color=#FFF600>Metal Syrup</color> to repair them to their previous level.\nAfter a Break occurs, you can select to <color=#FFF600>Repair</color> the plate, spending Metal Syrup to do so.\nThe higher the level of your pre-Break Plate, the more Metal Syrup it takes to repair it.\nRepairing a broken Plate <color=#FF99AF>does not return the Chocosteel and Metal Syrup used to level up the Plate.</color>",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1391451181.박살 복구",
+      "databaseText": "Even if your Plates <color=#FF99AF>Break</color>, you can use <color=#FFF600>Metal Syrup</color> to repair them to their previous level.\nAfter a Break occurs, you can select to <color=#FFF600>Repair</color> the plate, spending Metal Syrup to do so.\nThe higher the level of your pre-Break Plate, the more Metal Syrup it takes to repair it.\nRepairing a broken Plate <color=#FF99AF>does not return the Chocosteel and Metal Syrup used to level up the Plate.</color>"
+    },
+    {
+      "source": "使用<color=#FFF600>巧克力鋼</color>可強化裝備盤。\n強化裝備盤後，佩戴裝備的<color=#FFF600>主要功能與附加功能將有所提升</color>。\n強化階級會儲存在裝備盤中，即使更換裝備，階級也會保持不變。",
+      "english": "Use <color=#FFF600>Chocosteel</color> to attempt Plating and upgrade your Plates.\nPlating can <color=#FFF600>increase the main and sub-stats</color> for Gear equipped on each Plate.\nEach Plate's level is maintained even as Gear is changed.",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1391451181.플레이트 강화",
+      "databaseText": "Use <color=#FFF600>Chocosteel</color> to attempt Plating and upgrade your Plates.\nPlating can <color=#FFF600>increase the main and sub-stats</color> for Gear equipped on each Plate.\nEach Plate's level is maintained even as Gear is changed."
+    },
+    {
+      "source": "可使用<color=#FFF600>糖漿熔液</color>來調整降階與碎裂的機率。\n選擇<color=#FFF600>防止降階</color>後進行強化，階級就不會下降。\n選擇<color=#FFF600>減緩碎裂</color>後進行強化，碎裂發生的機率將會減半。",
+      "english": "<color=#FFF600>Metal Syrup</color> can be used to reduce the chance of a Downgrade or Break.\nSelecting <color=#FFF600>Block Downgrade</color> will make it so a Plate cannot be Downgraded during Plating.\nSelecting <color=#FFF600>Prevent Breaks</color> will reduce the chance a Plate Breaks by half.",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Description.1391451181.하락 방지와 박살 완화",
+      "databaseText": "<color=#FFF600>Metal Syrup</color> can be used to reduce the chance of a Downgrade or Break.\nSelecting <color=#FFF600>Block Downgrade</color> will make it so a Plate cannot be Downgraded during Plating.\nSelecting <color=#FFF600>Prevent Breaks</color> will reduce the chance a Plate Breaks by half."
+    },
+    {
+      "source": "裝備盤強化",
+      "english": "Plating",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.SubTitle.1391451181.1",
+      "databaseText": "Plating"
+    },
+    {
+      "source": "強化結果",
+      "english": "Plating Results",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.SubTitle.1391451181.2",
+      "databaseText": "Plating Results"
+    },
+    {
+      "source": "防止降階與減緩碎裂",
+      "english": "Preventing Negative Plating Results",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.SubTitle.1391451181.3",
+      "databaseText": "Preventing Negative Plating Results"
+    },
+    {
+      "source": "修復碎裂",
+      "english": "Repair Break",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.SubTitle.1391451181.4",
+      "databaseText": "Repair Break"
+    },
+    {
+      "source": "裝備盤強化",
+      "english": "Plating",
+      "authority": "localizations.en",
+      "key": "ContentsGuide.Title.1391451181",
+      "databaseText": "Plating"
+    },
+    {
+      "source": "新功能開放！",
+      "english": "New feature!",
+      "authority": "localizations.en",
+      "key": "ContentsUnlock.ContentsDescription.1248580299",
+      "databaseText": "New feature!"
+    },
+    {
+      "source": "裝備盤強化",
+      "english": "Plating",
+      "authority": "localizations.en",
+      "key": "ContentsUnlock.ContentsName.1248580299",
+      "databaseText": "Plating"
+    },
+    {
+      "source": "完成[任務1035: 通過關卡8-30]後去找鐵匠吧！",
+      "english": "Complete Quest 1035: Clear 8-30 and meet the Sugarsmith.",
+      "authority": "localizations.en",
+      "key": "ContentsUnlock.UnlockRequirementDescription.1248580299",
+      "databaseText": "Complete Quest 1035: Clear 8-30 and meet the Sugarsmith."
+    },
+    {
+      "source": "降階",
+      "english": "Downgrade",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.Decline",
+      "databaseText": "Downgrade"
+    },
+    {
+      "source": "碎裂",
+      "english": "Break",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.Destroy",
+      "databaseText": "Break"
+    },
+    {
+      "source": "大成功",
+      "english": "Super",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.GreatSuccess",
+      "databaseText": "Super"
+    },
+    {
+      "source": "維持",
+      "english": "No Change",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.Maintain",
+      "databaseText": "No Change"
+    },
+    {
+      "source": "成功",
+      "english": "Upgrade",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.Success",
+      "databaseText": "Upgrade"
+    },
+    {
+      "source": "強化裝備盤時可添加保護功能的附屬材料。\n黏稠的糖漿熔液會牢牢守住珍貴的強化階級。",
+      "english": "An additional material used as a safety option during Plating. The sticky, adhesive syrup gives an added layer of protection to your Plates' levels.",
+      "authority": "localizations.en",
+      "key": "Item.Description.1423199017",
+      "databaseText": "An additional material used as a safety option during Plating. The sticky, adhesive syrup gives an added layer of protection to your Plates' levels."
+    },
+    {
+      "source": "用於強化裝備盤的主要材料。\n以巧克力折疊敲打數百次製成，堅固程度非同一般。",
+      "english": "The main material used during Plating Reinforcement. This glorious chocosteel has been folded over a thousand times, and is vastly superior to any other metal on Earthbread.",
+      "authority": "localizations.en",
+      "key": "Item.Description.1723076124",
+      "databaseText": "The main material used during Plating Reinforcement. This glorious chocosteel has been folded over a thousand times, and is vastly superior to any other metal on Earthbread."
+    },
+    {
+      "source": "糖漿熔液",
+      "english": "Metal Syrup",
+      "authority": "localizations.en",
+      "key": "Item.Name.1423199017",
+      "databaseText": "Metal Syrup"
+    },
+    {
+      "source": "巧克力鋼",
+      "english": "Chocosteel",
+      "authority": "localizations.en",
+      "key": "Item.Name.1723076124",
+      "databaseText": "Chocosteel"
+    },
+    {
+      "source": "糖漿熔液",
+      "english": "Metal Syrup",
+      "authority": "localizations.en",
+      "key": "Item.NameForMultiline.1423199017",
+      "databaseText": "Metal Syrup"
+    },
+    {
+      "source": "巧克力鋼",
+      "english": "Chocosteel",
+      "authority": "localizations.en",
+      "key": "Item.NameForMultiline.1723076124",
+      "databaseText": "Chocosteel"
+    },
+    {
+      "source": "盔甲裝備盤開放！",
+      "english": "Armor Plate unlocked!",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockDescription.Armor",
+      "databaseText": "Armor Plate unlocked!"
+    },
+    {
+      "source": "文物裝備盤開放！",
+      "english": "Artifact Plate unlocked!",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockDescription.Artifact",
+      "databaseText": "Artifact Plate unlocked!"
+    },
+    {
+      "source": "書籍裝備盤開放！",
+      "english": "Book Plate unlocked!",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockDescription.Book",
+      "databaseText": "Book Plate unlocked!"
+    },
+    {
+      "source": "胸針裝備盤開放！",
+      "english": "Brooch Plate unlocked!",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockDescription.Brooch",
+      "databaseText": "Brooch Plate unlocked!"
+    },
+    {
+      "source": "食物裝備盤開放！",
+      "english": "Food Plate unlocked!",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockDescription.Food",
+      "databaseText": "Food Plate unlocked!"
+    },
+    {
+      "source": "項鍊裝備盤開放！",
+      "english": "Necklace Plate unlocked!",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockDescription.Necklace",
+      "databaseText": "Necklace Plate unlocked!"
+    },
+    {
+      "source": "戒指裝備盤開放！",
+      "english": "Ring Plate unlocked!",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockDescription.Ring",
+      "databaseText": "Ring Plate unlocked!"
+    },
+    {
+      "source": "盾牌裝備盤開放！",
+      "english": "Shield Plate unlocked!",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockDescription.Shield",
+      "databaseText": "Shield Plate unlocked!"
+    },
+    {
+      "source": "烤箱達到Lv.2後解鎖。",
+      "english": "Reach Oven Lv.2 to unlock.",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockRequirementDescription.Armor",
+      "databaseText": "Reach Oven Lv.2 to unlock."
+    },
+    {
+      "source": "烤箱達到Lv.7後解鎖。",
+      "english": "Reach Oven Lv.7 to unlock.",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockRequirementDescription.Artifact",
+      "databaseText": "Reach Oven Lv.7 to unlock."
+    },
+    {
+      "source": "烤箱達到Lv.8後解鎖。",
+      "english": "Reach Oven Lv.8 to unlock.",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockRequirementDescription.Book",
+      "databaseText": "Reach Oven Lv.8 to unlock."
+    },
+    {
+      "source": "烤箱達到Lv.6後解鎖。",
+      "english": "Reach Oven Lv.6 to unlock.",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockRequirementDescription.Brooch",
+      "databaseText": "Reach Oven Lv.6 to unlock."
+    },
+    {
+      "source": "烤箱達到Lv.9後解鎖。",
+      "english": "Reach Oven Lv.9 to unlock.",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockRequirementDescription.Food",
+      "databaseText": "Reach Oven Lv.9 to unlock."
+    },
+    {
+      "source": "烤箱達到Lv.4後解鎖。",
+      "english": "Reach Oven Lv.4 to unlock.",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockRequirementDescription.Necklace",
+      "databaseText": "Reach Oven Lv.4 to unlock."
+    },
+    {
+      "source": "烤箱達到Lv.5後解鎖。",
+      "english": "Reach Oven Lv.5 to unlock.",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockRequirementDescription.Ring",
+      "databaseText": "Reach Oven Lv.5 to unlock."
+    },
+    {
+      "source": "烤箱達到Lv.3後解鎖。",
+      "english": "Reach Oven Lv.3 to unlock.",
+      "authority": "localizations.en",
+      "key": "OvenPlateUnlock.UnlockRequirementDescription.Shield",
+      "databaseText": "Reach Oven Lv.3 to unlock."
+    },
+    {
+      "source": "{0}個裝備盤強化階級達到{1}階",
+      "english": "Reach Plating Lv. {1} on {0} {0:sp:Plate/Plates}",
+      "authority": "localizations.en",
+      "key": "Requirement.AnyPlateGrade.Description",
+      "databaseText": "Reach Plating Lv. {1} on {0} {0:sp:Plate/Plates}"
+    },
+    {
+      "source": "裝備盤降階{0}次",
+      "english": "Downgrade {0} {0:sp:Plate/Plates}",
+      "authority": "localizations.en",
+      "key": "Requirement.PlateDecline_FromNow.Description",
+      "databaseText": "Downgrade {0} {0:sp:Plate/Plates}"
+    },
+    {
+      "source": "裝備盤碎裂{0}次",
+      "english": "Break {0} {0:sp:Plate/Plates}",
+      "authority": "localizations.en",
+      "key": "Requirement.PlateDestroy_FromNow.Description",
+      "databaseText": "Break {0} {0:sp:Plate/Plates}"
+    },
+    {
+      "source": "裝備盤強化階級達到{0}階",
+      "english": "Reach Plating Lv.{0}",
+      "authority": "localizations.en",
+      "key": "Requirement.PlateGrade.Description",
+      "databaseText": "Reach Plating Lv.{0}"
+    },
+    {
+      "source": "嘗試強化裝備盤{0}次",
+      "english": "Attempt Plating {0} {0:sp:time/times}",
+      "authority": "localizations.en",
+      "key": "Requirement.PlateUpgrade_FromNow.Description",
+      "databaseText": "Attempt Plating {0} {0:sp:time/times}"
+    },
+    {
+      "source": "修復費用",
+      "english": "Cost to Repair",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.DetailCost.PlateDetailPopup.Prefab.RestoreUpgrade",
+      "databaseText": "Cost to Repair"
+    },
+    {
+      "source": "強化費用",
+      "english": "Cost to Level Up",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.DetailCost.PlateDetailPopup.Prefab.UpgradeCost",
+      "databaseText": "Cost to Level Up"
+    },
+    {
+      "source": "強化",
+      "english": "Upgrade",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlate.BTN2MessagePopupAccept",
+      "databaseText": "Upgrade"
+    },
+    {
+      "source": "返回",
+      "english": "Back",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlate.BTN2MessagePopupCancel",
+      "databaseText": "Back"
+    },
+    {
+      "source": "裝備與裝備盤結合時，\n才能展現真正的威力",
+      "english": "That Gear won't show its\nworth until it's got the right Plating.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlate.GnomeSpeech01",
+      "databaseText": "That Gear won't show its\nworth until it's got the right Plating."
+    },
+    {
+      "source": "不是裝備欄位！\n這叫做裝備盤～",
+      "english": "That's right! Plates!\nNot just plain ol' Gear slots.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlate.GnomeSpeech02",
+      "databaseText": "That's right! Plates!\nNot just plain ol' Gear slots."
+    },
+    {
+      "source": "即使更換裝備，\n也能保留裝備盤強化狀態",
+      "english": "The Plating stays, even \nif you change your Gear!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlate.GnomeSpeech03",
+      "databaseText": "The Plating stays, even \nif you change your Gear!"
+    },
+    {
+      "source": "強化時有可能降階。\n確定要進行強化嗎？",
+      "english": "Plating sometimes results in a downgrade.\nAre you sure you want to continue?",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlate.HasDeclineRateAlert",
+      "databaseText": "Plating sometimes results in a downgrade.\nAre you sure you want to continue?"
+    },
+    {
+      "source": "強化時有可能碎裂。\n確定要進行強化嗎？",
+      "english": "Plating sometimes results in Plates braking.\nAre you sure you wish to continue?",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlate.HasDestroyRateAlert",
+      "databaseText": "Plating sometimes results in Plates braking.\nAre you sure you wish to continue?"
+    },
+    {
+      "source": "卸除裝備",
+      "english": "Unequip",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlate.TryOff",
+      "databaseText": "Unequip"
+    },
+    {
+      "source": "佩戴裝備",
+      "english": "Place Gear",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlate.TryOn",
+      "databaseText": "Place Gear"
+    },
+    {
+      "source": "強化",
+      "english": "Upgrade",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlatePopup.Prefab.BtnUpgrade",
+      "databaseText": "Upgrade"
+    },
+    {
+      "source": "防止降階",
+      "english": "Block Downgrade",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlatePopup.Prefab.Checkoption1",
+      "databaseText": "Block Downgrade"
+    },
+    {
+      "source": "減緩碎裂",
+      "english": "Prevent Breaks",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlatePopup.Prefab.Checkoption2",
+      "databaseText": "Prevent Breaks"
+    },
+    {
+      "source": "※即使更換裝備，也能保留裝備盤的強化狀態！",
+      "english": "* Plating upgrades are maintained\neven as you change Gear.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlatePopup.Prefab.Description",
+      "databaseText": "* Plating upgrades are maintained\neven as you change Gear."
+    },
+    {
+      "source": "放棄",
+      "english": "Give Up",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlatePopup.Prefab.GiveUp",
+      "databaseText": "Give Up"
+    },
+    {
+      "source": "強化中...",
+      "english": "Plating...",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlatePopup.Prefab.Processing",
+      "databaseText": "Plating..."
+    },
+    {
+      "source": "復原",
+      "english": "Repair",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlatePopup.Prefab.Restore",
+      "databaseText": "Repair"
+    },
+    {
+      "source": "裝備盤強化",
+      "english": "Plating",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.EquipmentPlatePopup.Prefab.Title",
+      "databaseText": "Plating"
+    },
+    {
+      "source": "{0}裝備盤強化詳情",
+      "english": "{0} Plating Details",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateDetail.DetailTitle",
+      "databaseText": "{0} Plating Details"
+    },
+    {
+      "source": "大成功時將退還{0:P0}的材料。",
+      "english": "Get {0:P0} back with Super Plating results.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateDetail.GreatSuccessRefund",
+      "databaseText": "Get {0:P0} back with Super Plating results."
+    },
+    {
+      "source": "{0}裝備盤強化資訊",
+      "english": "{0} Plating Details",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateDetail.Title",
+      "databaseText": "{0} Plating Details"
+    },
+    {
+      "source": "碎裂",
+      "english": "Break",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateRate.Prefab.Boom",
+      "databaseText": "Break"
+    },
+    {
+      "source": "降階",
+      "english": "Downgrade",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateRate.Prefab.Fall",
+      "databaseText": "Downgrade"
+    },
+    {
+      "source": "大成功",
+      "english": "Super",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateRate.Prefab.Great",
+      "databaseText": "Super"
+    },
+    {
+      "source": "維持",
+      "english": "No Change",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateRate.Prefab.Keep",
+      "databaseText": "No Change"
+    },
+    {
+      "source": "成功",
+      "english": "Upgrade",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateRate.Prefab.Success",
+      "databaseText": "Upgrade"
+    },
+    {
+      "source": "主要功能增幅",
+      "english": "Main Stat Boost",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateSlotUI.MainOption",
+      "databaseText": "Main Stat Boost"
+    },
+    {
+      "source": "附加功能增幅",
+      "english": "Sub Stat Boost",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateSlotUI.SubOption",
+      "databaseText": "Sub Stat Boost"
+    },
+    {
+      "source": "確定要放棄修復嗎？\n放棄後無法恢復至碎裂前階級。",
+      "english": "Give up repairing this Plate?\nYou will be unable to immediately restore the Plate to its original level.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgrade.GiveUpRecoveryConfirm",
+      "databaseText": "Give up repairing this Plate?\nYou will be unable to immediately restore the Plate to its original level."
+    },
+    {
+      "source": "防止降階所需的材料不足。",
+      "english": "You don't have enough to block downgrades!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgrade.InsufficientDeclineProtectCost",
+      "databaseText": "You don't have enough to block downgrades!"
+    },
+    {
+      "source": "減緩碎裂所需的材料不足。",
+      "english": "You don't have enough to prevent breaks!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgrade.InsufficientDestroyProtectCost",
+      "databaseText": "You don't have enough to prevent breaks!"
+    },
+    {
+      "source": "降為+{0}",
+      "english": "To +{0}",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeRateUI.DestroyGradeLabel",
+      "databaseText": "To +{0}"
+    },
+    {
+      "source": "抱歉...",
+      "english": "Sorry mate.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Decline01",
+      "databaseText": "Sorry mate."
+    },
+    {
+      "source": "手滑了一下",
+      "english": "Oopsie-daisy!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Decline02",
+      "databaseText": "Oopsie-daisy!"
+    },
+    {
+      "source": "下次我會更努力...",
+      "english": "I'll do better by ya next time.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Decline03",
+      "databaseText": "I'll do better by ya next time."
+    },
+    {
+      "source": "錘子居然噴火了！",
+      "english": "My mallet is on FIRE!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess01",
+      "databaseText": "My mallet is on FIRE!"
+    },
+    {
+      "source": "傑作登場！",
+      "english": "*Chef's kiss*",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess02",
+      "databaseText": "*Chef's kiss*"
+    },
+    {
+      "source": "品質可是我的堅持！",
+      "english": "Nobody plates 'em better than me!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess03",
+      "databaseText": "Nobody plates 'em better than me!"
+    },
+    {
+      "source": "沒有我這樣的工匠，\n可做不出這種東西！",
+      "english": "Ya won't find craftsmanship\nlike this just anywhere!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess04",
+      "databaseText": "Ya won't find craftsmanship\nlike this just anywhere!"
+    },
+    {
+      "source": "是個超高級的裝備盤！",
+      "english": "Plate? More like GREAT!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess05",
+      "databaseText": "Plate? More like GREAT!"
+    },
+    {
+      "source": "哈哈！多的材料\n你就拿去吧！",
+      "english": "GNAHAHA!\nTake the leftovers!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess06",
+      "databaseText": "GNAHAHA!\nTake the leftovers!"
+    },
+    {
+      "source": "感受到力量的差異了嗎？",
+      "english": "Feel the power coursin' through that?",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess07",
+      "databaseText": "Feel the power coursin' through that?"
+    },
+    {
+      "source": "這次我稍微用了點心！",
+      "english": "A piece of work, if I do say so myself!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess08",
+      "databaseText": "A piece of work, if I do say so myself!"
+    },
+    {
+      "source": "啊！好輕快的錘子聲！",
+      "english": "It's hammer time!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess09",
+      "databaseText": "It's hammer time!"
+    },
+    {
+      "source": "真是太滿意啦！",
+      "english": "This plate is HOT!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.GreatSuccess10",
+      "databaseText": "This plate is HOT!"
+    },
+    {
+      "source": "主要功能增幅",
+      "english": "Main Stat Boost",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.MainOption",
+      "databaseText": "Main Stat Boost"
+    },
+    {
+      "source": "咳哼...",
+      "english": "Ahem...",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Maintain01",
+      "databaseText": "Ahem..."
+    },
+    {
+      "source": "糟了...",
+      "english": "Oh...",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Maintain02",
+      "databaseText": "Oh..."
+    },
+    {
+      "source": "呼...",
+      "english": "Huh...",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Maintain03",
+      "databaseText": "Huh..."
+    },
+    {
+      "source": "啊...",
+      "english": "Uh...",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Maintain04",
+      "databaseText": "Uh..."
+    },
+    {
+      "source": "咦...",
+      "english": "Haha...",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Maintain05",
+      "databaseText": "Haha..."
+    },
+    {
+      "source": "附加功能增幅",
+      "english": "Sub Stat Boost",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.SubOption",
+      "databaseText": "Sub Stat Boost"
+    },
+    {
+      "source": "成功啦！",
+      "english": "I did it!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success01",
+      "databaseText": "I did it!"
+    },
+    {
+      "source": "有感覺自己變強了嗎？",
+      "english": "What do ya think? Feel stronger yet?",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success02",
+      "databaseText": "What do ya think? Feel stronger yet?"
+    },
+    {
+      "source": "好帥的裝備盤！",
+      "english": "Nice plate, huh?",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success03",
+      "databaseText": "Nice plate, huh?"
+    },
+    {
+      "source": "製作完成！",
+      "english": "It worked!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success04",
+      "databaseText": "It worked!"
+    },
+    {
+      "source": "好好使用吧！",
+      "english": "Don't be too rough with that now!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success05",
+      "databaseText": "Don't be too rough with that now!"
+    },
+    {
+      "source": "哇哈哈哈！",
+      "english": "GNAHAHAHA!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success06",
+      "databaseText": "GNAHAHAHA!"
+    },
+    {
+      "source": "下次送更厲害的給你！",
+      "english": "I'll do ya even better next time!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success07",
+      "databaseText": "I'll do ya even better next time!"
+    },
+    {
+      "source": "怎麼樣，還不錯吧？",
+      "english": "Not bad, huh?",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success08",
+      "databaseText": "Not bad, huh?"
+    },
+    {
+      "source": "這次的預感很好！",
+      "english": "I knew this one'd come out well!",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success09",
+      "databaseText": "I knew this one'd come out well!"
+    },
+    {
+      "source": "這樣還算堪用吧？",
+      "english": "This'll do ya just fine.",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.EquipmentPlate.PlateUpgradeResult.Success10",
+      "databaseText": "This'll do ya just fine."
+    },
+    {
+      "source": "裝備盤強化",
+      "english": "Plating",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.OvenpPage.OvenPage.Prefab.PlateUpGrade",
+      "databaseText": "Plating"
+    },
+    {
+      "source": "碎裂",
+      "english": "Break",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.PlateDetail.PlateDetailPopup.Prefab.Boom",
+      "databaseText": "Break"
+    },
+    {
+      "source": "降階",
+      "english": "Downgrade",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.PlateDetail.PlateDetailPopup.Prefab.Down",
+      "databaseText": "Downgrade"
+    },
+    {
+      "source": "大成功",
+      "english": "Super",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.PlateDetail.PlateDetailPopup.Prefab.Great",
+      "databaseText": "Super"
+    },
+    {
+      "source": "維持",
+      "english": "No Change",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.PlateDetail.PlateDetailPopup.Prefab.Keep",
+      "databaseText": "No Change"
+    },
+    {
+      "source": "成功",
+      "english": "Upgrade",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.PlateDetail.PlateDetailPopup.Prefab.Success",
+      "databaseText": "Upgrade"
+    },
+    {
+      "source": "劍裝備盤強化詳情",
+      "english": "Blade Plating Details",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.PlateDetail.PlateDetailPopup.Prefab.Title",
+      "databaseText": "Blade Plating Details"
+    },
+    {
+      "source": "保留",
+      "english": "Save Result",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.PlateResult.PlateUpgradeResultPopup.Prefab.Holding",
+      "databaseText": "Save Result"
+    },
+    {
+      "source": "大成功後剩餘材料",
+      "english": "Materials left after Super Success",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.PlateResult.PlateUpgradeResultPopup.Prefab.Left",
+      "databaseText": "Materials left after Super Success"
+    },
+    {
+      "source": "修復",
+      "english": "Repaired",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.PlateUpgradeResult.PlateUpgradeResult.RestoreTitle",
+      "databaseText": "Repaired"
+    },
+    {
+      "source": "草莓餅乾",
+      "english": "Strawberry Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "吸血鬼餅乾",
+      "english": "Vampire Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "黑莓餅乾",
+      "english": "Blackberry Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "濃縮咖啡餅乾",
+      "english": "Espresso Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "草莓可麗餅餅乾",
+      "english": "Strawberry Crepe Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "鍊金術師餅乾",
+      "english": "Alchemist Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "紫丁香餅乾",
+      "english": "Lilac Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "奶油泡芙餅乾",
+      "english": "Cream Puff Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "宇宙甜甜圈",
+      "english": "Space Doughnut",
+      "authority": "names.en"
+    },
+    {
+      "source": "扭扭糖餅乾",
+      "english": "Twizzly Gummy Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "銀河餅乾",
+      "english": "Milky Way Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "毒蘑菇餅乾",
+      "english": "Poison Mushroom Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "甘草餅乾",
+      "english": "Licorice Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "黑巧克力餅乾",
+      "english": "Dark Choco Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "藥草餅乾",
+      "english": "Herb Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "肌肉餅乾",
+      "english": "Muscle Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "忍者餅乾",
+      "english": "Ninja Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "魔法師餅乾",
+      "english": "Wizard Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "瑪德蓮餅乾",
+      "english": "Madeleine Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "黑麥餅乾",
+      "english": "Rye Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "黑櫻桃餅乾",
+      "english": "Dark Cherry Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "葡萄藤餅乾",
+      "english": "Grapevine Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "優格莓果餅乾",
+      "english": "Berry Yogurt Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "滑板族餅乾",
+      "english": "Skater Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "啦啦隊餅乾",
+      "english": "Cheerleader Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "咖啡餅乾",
+      "english": "Coffee Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "巧克力牙膏餅乾",
+      "english": "Toothpaste Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "烤箱浪子餅乾",
+      "english": "Oven Wanderer Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "查爾斯",
+      "english": "Schwarzwälder",
+      "authority": "names.en"
+    },
+    {
+      "source": "石榴餅乾",
+      "english": "Pomegranate Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "蠍子餅乾",
+      "english": "Scorpion Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "甜甜圈星球之王宇宙甜甜圈",
+      "english": "Space Doughnut's Royal Excellence",
+      "authority": "names.en"
+    },
+    {
+      "source": "奶油蘇打餅乾",
+      "english": "Cream Soda Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "酥脆專科醫生牛奶餅乾",
+      "english": "Milk Cookie's Crunchy Strong Pediatrician",
+      "authority": "names.en"
+    },
+    {
+      "source": "殭屍餅乾",
+      "english": "Zombie Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "爆米花餅乾",
+      "english": "Popcorn Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "芥末博士餅乾",
+      "english": "Dr. Wasabi Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "離子餅乾機器人",
+      "english": "Ion Cookie Robot",
+      "authority": "names.en"
+    },
+    {
+      "source": "桃子餅乾",
+      "english": "Peach Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "鬆餅餅乾",
+      "english": "Pancake Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "柳橙餅乾",
+      "english": "Orange Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "馬卡龍餅乾",
+      "english": "Macaron Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "起司蛋糕餅乾",
+      "english": "Cheesecake Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "搖滾巨星餅乾",
+      "english": "Rockstar Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "公主餅乾",
+      "english": "Princess Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "勇士餅乾",
+      "english": "Knight Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "櫻桃餅乾",
+      "english": "Cherry Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "天使餅乾",
+      "english": "Angel Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "叢林戰士餅乾",
+      "english": "Tiger Lily Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "檸檬餅乾",
+      "english": "Lemon Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "骷髏醫生餅乾",
+      "english": "Dr. Bones Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "泡泡糖餅乾",
+      "english": "Gumball Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "可可餅乾",
+      "english": "Cocoa Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "小巫莓餅乾",
+      "english": "Witchberry Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "勇敢餅乾",
+      "english": "GingerBrave",
+      "authority": "names.en"
+    },
+    {
+      "source": "活潑餅乾",
+      "english": "GingerBright",
+      "authority": "names.en"
+    },
+    {
+      "source": "清涼薄荷餅乾",
+      "english": "Cool Mint Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "草莓奶油蛋糕餅乾",
+      "english": "Strawberry Shortcake Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "洋蔥餅乾",
+      "english": "Onion Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "惡魔餅乾",
+      "english": "Devil Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "藍莓鳥",
+      "english": "Blueberry Bird",
+      "authority": "names.en"
+    },
+    {
+      "source": "糖糖地精",
+      "english": "Sugar Gnome",
+      "authority": "names.en"
+    },
+    {
+      "source": "工人熊熊果凍",
+      "english": "Bear Jelly Worker",
+      "authority": "names.en"
+    },
+    {
+      "source": "紅辣椒餅乾",
+      "english": "Red Pepper Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "無名蛋糕犬",
+      "english": "Nameless Cake Hound",
+      "authority": "names.en"
+    },
+    {
+      "source": "探險家餅乾",
+      "english": "Adventurer Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "萊姆餅乾",
+      "english": "Lime Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "溜冰女王餅乾",
+      "english": "Skating Queen Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "哈密瓜蘇打餅乾",
+      "english": "Melon Soda Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "風箭手餅乾",
+      "english": "Wind Archer Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "活潑探子餅乾",
+      "english": "Brightseeker Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "黑皮諾葡萄餅乾",
+      "english": "Pinot Noir Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "錫蘭騎士餅乾",
+      "english": "Tea Knight Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "櫻桃可樂餅乾",
+      "english": "Cherry Cola Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "鉢里公主餅乾",
+      "english": "Princess Bari Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "中秋柿子月兔餅乾",
+      "english": "Moon Rabbit Cookie's Pampered with Persimmon",
+      "authority": "names.en"
+    },
+    {
+      "source": "夏多內葡萄餅乾",
+      "english": "Chardonnay Cookie",
+      "authority": "names.en"
+    },
+    {
+      "source": "降階",
+      "english": "Downgrade",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.Decline",
+      "databaseText": "Downgrade"
+    },
+    {
+      "source": "碎裂",
+      "english": "Break",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.Destroy",
+      "databaseText": "Break"
+    },
+    {
+      "source": "大成功",
+      "english": "Super",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.GreatSuccess",
+      "databaseText": "Super"
+    },
+    {
+      "source": "維持",
+      "english": "No Change",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.Maintain",
+      "databaseText": "No Change"
+    },
+    {
+      "source": "成功",
+      "english": "Upgrade",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.PlateUpgradeResultType.Success",
+      "databaseText": "Upgrade"
+    },
+    {
+      "source": "星際連線",
+      "english": "Stellar Link",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.StatBoostProviderType.StellarLink",
+      "databaseText": "Stellar Link"
+    },
+    {
+      "source": "糖符文",
+      "english": "Sugar Rune",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.StatBoostProviderType.SugarRune",
+      "databaseText": "Sugar Rune"
+    },
+    {
+      "source": "星星",
+      "english": "Starshards",
+      "authority": "localizations.en",
+      "key": "UIStringList.Text.StellarLinkPage.CannotLockMore"
+    },
+    {
+      "source": "無額外配置門檻",
+      "english": "No additional configured requirement",
+      "authority": "requirements.templateEn"
+    },
+    {
+      "source": "通過關卡4",
+      "english": "Clear Stage 4",
+      "authority": "localizations.en",
+      "key": "Requirement.StageClear.Description",
+      "databaseText": "Clear Stage {0:N0}"
+    },
+    {
+      "source": "通過關卡8",
+      "english": "Clear Stage 8",
+      "authority": "localizations.en",
+      "key": "Requirement.StageClear.Description",
+      "databaseText": "Clear Stage {0:N0}"
+    },
+    {
+      "source": "通過關卡27",
+      "english": "Clear Stage 27",
+      "authority": "localizations.en",
+      "key": "Requirement.StageClear.Description",
+      "databaseText": "Clear Stage {0:N0}"
+    },
+    {
+      "source": "通過關卡90",
+      "english": "Clear Stage 90",
+      "authority": "localizations.en",
+      "key": "Requirement.StageClear.Description",
+      "databaseText": "Clear Stage {0:N0}"
+    },
+    {
+      "source": "通過關卡150",
+      "english": "Clear Stage 150",
+      "authority": "localizations.en",
+      "key": "Requirement.StageClear.Description",
+      "databaseText": "Clear Stage {0:N0}"
+    },
+    {
+      "source": "通過關卡210",
+      "english": "Clear Stage 210",
+      "authority": "localizations.en",
+      "key": "Requirement.StageClear.Description",
+      "databaseText": "Clear Stage {0:N0}"
+    },
+    {
+      "source": "通過關卡270",
+      "english": "Clear Stage 270",
+      "authority": "localizations.en",
+      "key": "Requirement.StageClear.Description",
+      "databaseText": "Clear Stage {0:N0}"
+    },
+    {
+      "source": "通過關卡330",
+      "english": "Clear Stage 330",
+      "authority": "localizations.en",
+      "key": "Requirement.StageClear.Description",
+      "databaseText": "Clear Stage {0:N0}"
+    },
+    {
+      "source": "通過關卡390",
+      "english": "Clear Stage 390",
+      "authority": "localizations.en",
+      "key": "Requirement.StageClear.Description",
+      "databaseText": "Clear Stage {0:N0}"
+    },
+    {
+      "source": "累積升階餅乾10次",
+      "english": "Reach 10 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾15次",
+      "english": "Reach 15 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾20次",
+      "english": "Reach 20 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾25次",
+      "english": "Reach 25 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾30次",
+      "english": "Reach 30 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾35次",
+      "english": "Reach 35 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾40次",
+      "english": "Reach 40 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾45次",
+      "english": "Reach 45 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾50次",
+      "english": "Reach 50 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾55次",
+      "english": "Reach 55 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾60次",
+      "english": "Reach 60 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾70次",
+      "english": "Reach 70 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾80次",
+      "english": "Reach 80 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾90次",
+      "english": "Reach 90 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾100次",
+      "english": "Reach 100 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾110次",
+      "english": "Reach 110 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾120次",
+      "english": "Reach 120 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾130次",
+      "english": "Reach 130 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾140次",
+      "english": "Reach 140 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾150次",
+      "english": "Reach 150 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾160次",
+      "english": "Reach 160 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾170次",
+      "english": "Reach 170 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾180次",
+      "english": "Reach 180 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾190次",
+      "english": "Reach 190 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾200次",
+      "english": "Reach 200 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾210次",
+      "english": "Reach 210 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾220次",
+      "english": "Reach 220 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾230次",
+      "english": "Reach 230 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾240次",
+      "english": "Reach 240 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾250次",
+      "english": "Reach 250 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾260次",
+      "english": "Reach 260 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾270次",
+      "english": "Reach 270 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾280次",
+      "english": "Reach 280 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾290次",
+      "english": "Reach 290 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾300次",
+      "english": "Reach 300 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾310次",
+      "english": "Reach 310 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾320次",
+      "english": "Reach 320 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾330次",
+      "english": "Reach 330 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾340次",
+      "english": "Reach 340 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾350次",
+      "english": "Reach 350 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾360次",
+      "english": "Reach 360 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾375次",
+      "english": "Reach 375 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾390次",
+      "english": "Reach 390 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾405次",
+      "english": "Reach 405 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾420次",
+      "english": "Reach 420 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾435次",
+      "english": "Reach 435 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾450次",
+      "english": "Reach 450 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾465次",
+      "english": "Reach 465 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾480次",
+      "english": "Reach 480 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾495次",
+      "english": "Reach 495 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾510次",
+      "english": "Reach 510 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾525次",
+      "english": "Reach 525 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾540次",
+      "english": "Reach 540 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾555次",
+      "english": "Reach 555 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾570次",
+      "english": "Reach 570 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾585次",
+      "english": "Reach 585 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾600次",
+      "english": "Reach 600 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾615次",
+      "english": "Reach 615 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾630次",
+      "english": "Reach 630 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾645次",
+      "english": "Reach 645 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾660次",
+      "english": "Reach 660 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾675次",
+      "english": "Reach 675 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾690次",
+      "english": "Reach 690 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾705次",
+      "english": "Reach 705 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾720次",
+      "english": "Reach 720 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾735次",
+      "english": "Reach 735 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾750次",
+      "english": "Reach 750 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾765次",
+      "english": "Reach 765 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾780次",
+      "english": "Reach 780 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾795次",
+      "english": "Reach 795 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾810次",
+      "english": "Reach 810 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾830次",
+      "english": "Reach 830 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾850次",
+      "english": "Reach 850 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾870次",
+      "english": "Reach 870 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾890次",
+      "english": "Reach 890 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾910次",
+      "english": "Reach 910 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾930次",
+      "english": "Reach 930 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾950次",
+      "english": "Reach 950 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾970次",
+      "english": "Reach 970 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾990次",
+      "english": "Reach 990 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1010次",
+      "english": "Reach 1,010 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1030次",
+      "english": "Reach 1,030 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1050次",
+      "english": "Reach 1,050 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1070次",
+      "english": "Reach 1,070 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1090次",
+      "english": "Reach 1,090 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1110次",
+      "english": "Reach 1,110 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1130次",
+      "english": "Reach 1,130 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1150次",
+      "english": "Reach 1,150 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1170次",
+      "english": "Reach 1,170 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "累積升階餅乾1190次",
+      "english": "Reach 1,190 total Cookie Promotions",
+      "authority": "localizations.en",
+      "key": "Requirement.CumulativeCookieOnlyUpgradeCount.Description",
+      "databaseText": "Reach {0} total Cookie Promotions"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "射擊",
+      "english": "Ranged",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Shooter",
+      "databaseText": "Ranged"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "突擊",
+      "english": "Charge",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Attacker",
+      "databaseText": "Charge"
+    },
+    {
+      "source": "防禦",
+      "english": "Tank",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.ClashUnitRoleType.Tanker",
+      "databaseText": "Tank"
+    },
+    {
+      "source": "支援",
+      "english": "Support",
+      "authority": "localizations.en",
+      "key": "Enum.DisplayName.RoleType.Supporter",
+      "databaseText": "Support"
+    }
+  ],
+  "custom": [
+    {
+      "source": "160个配置结果统一按权重总和13050归一，已核实原生概率展示；不把权重当万分比。",
+      "english": "All 160 configured outcomes use total weight 13,050, matching the native probability display. Weights are not basis-point probabilities.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "BasisPoint 原生换算已核实：百分比词条 raw/100，平值 raw/10000。",
+      "english": "Verified native BasisPoint conversion: percentage effects use raw/100; flat effects use raw/10000.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "全部8槽的锁定计入费用，包括未启用栏位；只有已启用词条计入本工具目标和加成。本轮两次手动加工观察到未启用槽也生成或更新，锁定的未启用槽保留。",
+      "english": "Locks in all 8 slots count toward fees, including inactive slots. Only active effects count toward targets and bonuses. Two manual crafts showed inactive effects generating/updating while locked inactive effects remained.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "有效折扣按 gameBoostValues[0]×Count 累加。费用=max(0,基准费用-trunc(基准费用×总折扣/100))。工具默认0%，账号生效状态由用户填写。",
+      "english": "Active discounts sum gameBoostValues[0]×Count. Cost=max(0,base cost−trunc(base cost×total discount/100)). Default: 0%; enter your account's active discount.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "客户端自动停止跳过锁定词条；勾选忽略停用栏位才排除未启用词条。稀有度至少达到所选等级，任一选中效果达标；空效果选择接受全部。",
+      "english": "Client auto-stop skips locked effects. Inactive effects are excluded only when Ignore Inactive Slots is checked. Rarity must reach the selected level and any chosen effect must match; choosing no effects accepts all.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "网页数量目标、数值门槛及逐步锁定属于规划功能；独立槽位/轮次抽样、期望和预算概率继续是模型假设。",
+      "english": "Count/value targets and progressive locking are planner features. Independent slots/crafts, expected values and budget probabilities remain model assumptions.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本轮同版Devil Cookie实机：两次加工分别扣20与40，后一笔锁定未启用第3槽；共扣60。其后余额额外增加30，来源未读取，另行记账。",
+      "english": "Same-version Devil Cookie observation: two crafts cost 20 and 40, the latter locking inactive slot 3; total 60. The balance later increased by 30 from an unread source, recorded separately.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "0～7锁费用全部对上；8槽可全部锁定，此时加工与自动加工按钮禁用。测试锁已解除。",
+      "english": "Fees for 0–7 locks all matched. All 8 slots can be locked, disabling Craft and Auto-Craft. Test locks were cleared.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "游戏概率表五稀有度及12条SSR明细与权重/13050吻合；两次结果不能证明随机独立性或不存在隐藏保底。",
+      "english": "The five rarities and 12 SSR entries in-game match weight/13,050. Two outcomes cannot prove independence or the absence of hidden pity.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方完整表已核对160项概率、160项效果值及14种单位，旧UI仅12条明细的观察范围不再构成公开概率资料缺口。随机独立性及保底规则仍未由本次官方资料确认。",
+      "english": "The full official table verifies 160 probabilities, 160 effect values and 14 units. The earlier 12-entry UI sample no longer leaves a gap in published probability data. These sources still do not confirm independence or pity rules.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "。请确认本地服务和 data/sugar-runes.json 可用。",
+      "english": ". Please reload and check that the tool data is available.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "浏览器未允许自动复制，请复制下方方案链接",
+      "english": "Clipboard access unavailable. Copy the plan link below.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案链接已显示，请手动复制。",
+      "english": "Plan link shown. Copy it manually.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案链接已复制",
+      "english": "Plan link copied",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案链接已复制，可在同一台电脑上的浏览器恢复这组设置。",
+      "english": "Plan link copied. Open it in another browser to restore these settings.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本角色方案已保存",
+      "english": "Cookie plan saved",
+      "authority": "planner translation"
+    },
+    {
+      "source": "」方案；下次选择该角色会恢复。",
+      "english": "” plan. It will restore when you choose this Cookie again.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已保存「",
+      "english": "Saved “",
+      "authority": "planner translation"
+    },
+    {
+      "source": "当前没有满足目标的已记录词条",
+      "english": "No recorded effects match the target",
+      "authority": "planner translation"
+    },
+    {
+      "source": "个达标词条",
+      "english": "matching effects",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已锁定",
+      "english": "locked",
+      "authority": "planner translation"
+    },
+    {
+      "source": "当前词条已清空",
+      "english": "Current effects cleared",
+      "authority": "planner translation"
+    },
+    {
+      "source": "最多选择 3 类目标效果",
+      "english": "Choose up to 3 target effect types",
+      "authority": "planner translation"
+    },
+    {
+      "source": "链接中的方案无效，已使用默认设置",
+      "english": "Invalid shared plan. Default settings restored.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "及以上",
+      "english": "or higher",
+      "authority": "planner translation"
+    },
+    {
+      "source": "选择",
+      "english": "Choose",
+      "authority": "planner translation"
+    },
+    {
+      "source": "槽已开启",
+      "english": "slots active",
+      "authority": "planner translation"
+    },
+    {
+      "source": "下载原生规则证据 JSON",
+      "english": "Download native rule evidence JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本轮实机加工与概率核对",
+      "english": "Current in-game crafting and probability checks",
+      "authority": "planner translation"
+    },
+    {
+      "source": "未启用槽锁定实机图",
+      "english": "Inactive slot lock screenshot",
+      "authority": "planner translation"
+    },
+    {
+      "source": "核实范围：同版已载入客户端代码、原始配置与两次实机手动加工（扣20与40）。本轮已验证未启用槽生成、锁定保留和计费，另对照了概率面板。服务端随机独立性、隐藏保底与账号权益记录未恢复。",
+      "english": "Evidence covers loaded client code of the same version, original configuration, and two manual in-game crafts costing 20 and 40. Inactive slot generation, lock retention and fees were observed, and the probability panel was compared. Server-side independence, hidden pity and account entitlement records remain unrecovered.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "全槽已锁数量",
+      "english": "Locked slots (all slots)",
+      "authority": "planner translation"
+    },
+    {
+      "source": "开启阶级",
+      "english": "Unlock grade",
+      "authority": "planner translation"
+    },
+    {
+      "source": "基准水晶",
+      "english": "Base Crystals",
+      "authority": "planner translation"
+    },
+    {
+      "source": "槽位",
+      "english": "Slot",
+      "authority": "planner translation"
+    },
+    {
+      "source": "单槽占比",
+      "english": "Single-slot share",
+      "authority": "planner translation"
+    },
+    {
+      "source": "稀有度",
+      "english": "Rarity",
+      "authority": "planner translation"
+    },
+    {
+      "source": "权重",
+      "english": "Weight",
+      "authority": "planner translation"
+    },
+    {
+      "source": "数据版本",
+      "english": "Data version",
+      "authority": "planner translation"
+    },
+    {
+      "source": "个结果 · 总权重",
+      "english": "outcomes · Total weight",
+      "authority": "planner translation"
+    },
+    {
+      "source": "类效果",
+      "english": "effect types",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标条件或输入无效",
+      "english": "Invalid target or input",
+      "authority": "planner translation"
+    },
+    {
+      "source": "还未填写当前词条。",
+      "english": "No current effects entered.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "仅已启用槽的词条计入目标与加成；未启用槽的锁定也会提高费用。",
+      "english": "Only active slots count toward targets and bonuses; inactive locks still increase cost.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "个当前达标词条未锁定，下一次加工会重置这些词条。可先点击「锁定已有达标词条」。",
+      "english": "current matching effects are unlocked and will roll again. Use “Lock current matching effects” to keep them.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "有 ",
+      "english": "There are ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "全 8 槽的锁定数计费。总折扣按当前有效增益相加填写（如 10% + 5% = 15%），默认 0%；先向下取整减免额，再从基准费用扣除。单点实际费用优先，不再重复打折。",
+      "english": "Locks across all 8 slots determine cost. Add active discounts (e.g. 10% + 5% = 15%); default 0%. Round the reduction down, then subtract it from the base cost. A manual actual cost takes priority, without applying the discount again.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每次加工保留相同的已锁槽位；未锁定槽位每次都会重新抽取。",
+      "english": "Keep the same locked slots; every unlocked slot rolls again each craft.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每轮将新达标词条保留并锁定，随后按增加的锁定数继续加工，达到目标即停止。",
+      "english": "Keep and lock new matches after each craft, continue with the increased lock count, and stop at the target.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "配置平值",
+      "english": "configured flat value",
+      "authority": "planner translation"
+    },
+    {
+      "source": "锁定能保留结果，也会提高后续每次成本；本工具不会把这一方案标成必然更省。",
+      "english": "Locks retain effects and increase later costs. This strategy is not always cheaper.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "这里使用完整配置曲线与总折扣，未使用单点实际费用。",
+      "english": "This uses the full configured cost curve and total discount, without the manual single-point cost.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "水晶",
+      "english": "Crystals",
+      "authority": "planner translation"
+    },
+    {
+      "source": "次",
+      "english": "attempts",
+      "authority": "planner translation"
+    },
+    {
+      "source": "如果逐步保留新达标词条",
+      "english": "If you keep new matching effects",
+      "authority": "planner translation"
+    },
+    {
+      "source": "相同总折扣下，模型期望",
+      "english": "With the same total discount, the model expects",
+      "authority": "planner translation"
+    },
+    {
+      "source": "一轮可能同时出现多个达标词条，模型会直接跳过中间阶段。只在达到目标前继续加工。",
+      "english": "Multiple matches can appear in one craft, so the model skips intervening stages. Crafting stops at the target.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "逐步锁定的消耗阶段",
+      "english": "Keep-match cost stages",
+      "authority": "planner translation"
+    },
+    {
+      "source": "新保留达标词条",
+      "english": "New matches kept",
+      "authority": "planner translation"
+    },
+    {
+      "source": "总锁定数",
+      "english": "Total locks",
+      "authority": "planner translation"
+    },
+    {
+      "source": "可重铸槽",
+      "english": "Slots to reroll",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每次水晶",
+      "english": "Crystals per craft",
+      "authority": "planner translation"
+    },
+    {
+      "source": "单次加工完成目标的概率：",
+      "english": "Chance of completing the target in one craft:",
+      "authority": "planner translation"
+    },
+    {
+      "source": "预算可覆盖该次数。",
+      "english": "The budget covers these attempts.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "超过预算",
+      "english": "Over budget by",
+      "authority": "planner translation"
+    },
+    {
+      "source": "次固定加工计划消耗",
+      "english": "fixed-lock crafts cost",
+      "authority": "planner translation"
+    },
+    {
+      "source": "从当前已锁状态出发",
+      "english": "Starting from the current locks",
+      "authority": "planner translation"
+    },
+    {
+      "source": "达到目标的期望水晶",
+      "english": "Expected Crystals to target",
+      "authority": "planner translation"
+    },
+    {
+      "source": "期望值不能视为必定完成的次数",
+      "english": "An average is not a guaranteed completion count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "达到目标的期望加工次数",
+      "english": "Expected crafts to target",
+      "authority": "planner translation"
+    },
+    {
+      "source": "按所选制作计划计算",
+      "english": "Based on the selected crafting strategy",
+      "authority": "planner translation"
+    },
+    {
+      "source": "次内完成率",
+      "english": "craft completion chance",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每次水晶消耗",
+      "english": "Crystals per craft",
+      "authority": "planner translation"
+    },
+    {
+      "source": "使用你填写的游戏内单次消耗",
+      "english": "Uses your entered in-game cost per craft",
+      "authority": "planner translation"
+    },
+    {
+      "source": "全槽锁定数量对应费用，已应用总折扣",
+      "english": "Cost for locks across all slots, with total discount applied",
+      "authority": "planner translation"
+    },
+    {
+      "source": "逐步增加锁定数，各阶段均应用总折扣",
+      "english": "Locks increase in stages; the total discount applies at each stage",
+      "authority": "planner translation"
+    },
+    {
+      "source": "在预算内至少有一次加工完成目标的模型概率；锁定状态在整个计划中保持不变。",
+      "english": "Model chance of completing the target at least once within budget. Locks stay fixed throughout the plan.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "无水晶限制",
+      "english": "unlimited by Crystals",
+      "authority": "planner translation"
+    },
+    {
+      "source": "水晶可加工",
+      "english": "Crystals available; crafts:",
+      "authority": "planner translation"
+    },
+    {
+      "source": "随锁定数增加，单次消耗会改变。按每次消耗的最小/最大值给出保守范围；这是独立抽取模型的概率界，不是精确预算完成率。",
+      "english": "Cost changes as locks increase. Minimum/maximum costs provide conservative bounds under independent draws, rather than an exact budget completion rate.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "水晶预算下的完成率范围",
+      "english": "Crystal budget: completion chance range",
+      "authority": "planner translation"
+    },
+    {
+      "source": "个未启用槽已锁，计入费用。",
+      "english": "inactive locked slots count toward fees.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "另有",
+      "english": "Also,",
+      "authority": "planner translation"
+    },
+    {
+      "source": "个已启用槽纳入目标规划。",
+      "english": "active slots included in the target plan.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "个，",
+      "english": "more.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "个达标；尚需",
+      "english": "matches; still need",
+      "authority": "planner translation"
+    },
+    {
+      "source": "槽，其中",
+      "english": "slots, with",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已锁",
+      "english": "Locked",
+      "authority": "planner translation"
+    },
+    {
+      "source": "配置池中没有符合目标的结果。请调整最低稀有度、效果或数值门槛。",
+      "english": "No pool outcomes match. Adjust the minimum rarity, effect or value.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "当前目标已经完成。可提高目标数量或更改目标效果后再规划。",
+      "english": "Target complete. Increase the count or change the target effects to plan again.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "个词条满足目标。无需继续加工。",
+      "english": "locked effects meet the target. No more crafting needed.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "还需消耗的符文水晶",
+      "english": "Remaining Rune Crystals needed",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已锁定的 ",
+      "english": "Locked effects: ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "配置池中没有满足该门槛的结果。",
+      "english": "No outcomes in the pool meet this threshold.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "单槽概率",
+      "english": "Single-slot chance",
+      "authority": "planner translation"
+    },
+    {
+      "source": "效果",
+      "english": "Effect",
+      "authority": "planner translation"
+    },
+    {
+      "source": "数值",
+      "english": "Value",
+      "authority": "planner translation"
+    },
+    {
+      "source": "单槽",
+      "english": "Per slot",
+      "authority": "planner translation"
+    },
+    {
+      "source": "个结果满足条件 · 命中权重",
+      "english": "matching outcomes · Matching weight",
+      "authority": "planner translation"
+    },
+    {
+      "source": "锁定槽位",
+      "english": "Lock slot",
+      "authority": "planner translation"
+    },
+    {
+      "source": "锁定保留",
+      "english": "Lock to keep",
+      "authority": "planner translation"
+    },
+    {
+      "source": "解除锁定",
+      "english": "Unlock",
+      "authority": "planner translation"
+    },
+    {
+      "source": "未启用 · 不计加成，锁定仍计费",
+      "english": "Inactive · No bonus; locks still cost",
+      "authority": "planner translation"
+    },
+    {
+      "source": "选择已有词条…",
+      "english": "Choose current effect…",
+      "authority": "planner translation"
+    },
+    {
+      "source": "当前词条",
+      "english": "Current effect",
+      "authority": "planner translation"
+    },
+    {
+      "source": "空符文",
+      "english": "Empty Rune",
+      "authority": "planner translation"
+    },
+    {
+      "source": "编辑符文槽位",
+      "english": "Edit Rune slot",
+      "authority": "planner translation"
+    },
+    {
+      "source": "尚未记录词条",
+      "english": "No effect recorded",
+      "authority": "planner translation"
+    },
+    {
+      "source": "不记录当前词条",
+      "english": "No current effect recorded",
+      "authority": "planner translation"
+    },
+    {
+      "source": "糖符文",
+      "english": "Sugar Runes",
+      "authority": "planner translation"
+    },
+    {
+      "source": "角色",
+      "english": "Cookie",
+      "authority": "planner translation"
+    },
+    {
+      "source": "糖符文数据读取失败",
+      "english": "Could not load Sugar Rune data",
+      "authority": "planner translation"
+    },
+    {
+      "source": "无法达到",
+      "english": "Unreachable",
+      "authority": "planner translation"
+    },
+    {
+      "source": "，請確認本地服務與星際連線資料。",
+      "english": ". Reload and check that Stellar Link data is available.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "連結包含本地方案，可在這台電腦上的其他瀏覽器打開。",
+      "english": "The link includes this plan and can be opened in another browser.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "請複製下方顯示的方案連結。",
+      "english": "Copy the plan link shown below.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案連結已複製。",
+      "english": "Plan link copied.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星際連線方案已保存。",
+      "english": "Stellar Link plan saved.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "全部星座方案與解鎖進度已保存，下次打開會恢復。",
+      "english": "All constellations and unlock progress saved; they will restore next time.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "請填入有效的非負整數進度。",
+      "english": "Enter valid non-negative integer progress.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "。這是幾何上限建議，不是遊戲重設結果。",
+      "english": ". This is a geometric upper-bound suggestion, not an in-game reset result.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已套用保留鎖星的無交叉方案，幾何參考 ",
+      "english": "Applied a non-crossing outline retaining locks. Geometric reference: ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目前鎖星的順序無法組成不交叉的外圍連線。解除部分鎖定後再試。",
+      "english": "The locked order cannot form a non-crossing outline. Clear some locks and try again.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "此配置最多支持鎖定 6 顆星星。",
+      "english": "You can lock up to 6 Starshards.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "顆星星",
+      "english": "Starshards",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星座",
+      "english": "Constellation",
+      "authority": "planner translation"
+    },
+    {
+      "source": "第 ",
+      "english": "Starshard ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "連結方案無效，使用預設方案。",
+      "english": "Invalid shared plan. Default plan restored.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "倍率按原始 BasisPoint 換算顯示。遊戲整數面積轉為 BasisPoint 時先向下取整，再與配置倍率做整數相乘。這段換算及跨星座累積已由同版載入客戶端核實。交叉連線按各封閉區域填充已核實；三張原遊戲截圖支持正十二邊形面積分母；另有8月8日原始遊戲錄像的完整星位顯示71%，各封閉面參考71.132%，奇偶填充48.871%和非零繞數56.480%均不符。舊錄像版本未確認。本輪完整7星布局顯示68%，理想面積68.8996%：向下取整68吻合，四捨五入69不符；直接素材坐標面積69.0974%也不符。官方已公開等概率完整排列。預設仍填遊戲整數，取消勾選按星位向下取整估算，再使用原生加成換算；只取得一個當前有區分力布局。",
+      "english": "Multipliers convert from raw BasisPoint values. Integer in-game area converts to BasisPoints with truncation, then multiplies by the configured multiplier using integer arithmetic. This conversion and cross-constellation accumulation are verified in the loaded same-version client. Enclosed-face filling is verified. Three original game screenshots support a regular-dodecagon denominator. August 8 footage shows 71% for a complete layout: enclosed faces give 71.132%, unlike even-odd fill (48.871%) or nonzero winding (56.480%). The footage version is unconfirmed. A current seven-Starshard layout shows 68% versus ideal area 68.8996%: flooring to 68 matches, rounding to 69 does not; direct asset coordinates give 69.0974% and also do not match. Official sources publish equally likely complete configurations. Default to the in-game integer; uncheck for floored geometric estimates followed by native bonus conversion. Only one current distinguishing layout is available.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "。配置來源：LinkBonuss、LinkSuffleCosts、ConstellationUnlocks、StatBoosts、CombatPropertyCalculates、Items 與官方中英文文本。星位外觀來自 StellarLinkPage 預製體；十二點排列與原生繪製座標吻合；交點分割與各封閉面填充已由載入客戶端核實。網頁使用理想十二邊形的雙精度參考；本輪同版UI支持向下取整，星位模式據此估算整數面積。服務端數值與退化邊界未全核實。",
+      "english": ". Sources: LinkBonuss, LinkSuffleCosts, ConstellationUnlocks, StatBoosts, CombatPropertyCalculates, Items and official Chinese/English text. Artwork comes from the StellarLinkPage prefab; the twelve points match native drawing coordinates. Loaded-client evidence verifies intersection splitting and filling each enclosed face. This page uses a double-precision regular dodecagon reference. The same-version UI supports rounding down for geometric integer-area estimates. Server values and degenerate boundaries are not fully verified.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方英文機率公告（3～11星）",
+      "english": "Official English probabilities (3–11 Starshards)",
+      "authority": "planner translation"
+    },
+    {
+      "source": "下載本站整理資料 JSON",
+      "english": "Download compiled tool data JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本輪同版面積與鎖星實測",
+      "english": "Same-version area and lock observations",
+      "authority": "planner translation"
+    },
+    {
+      "source": "三張原遊戲截圖數值核對",
+      "english": "Three original screenshot comparisons",
+      "authority": "planner translation"
+    },
+    {
+      "source": "原生规则证据 JSON",
+      "english": "Native rule evidence JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "71%原始錄像核對",
+      "english": "Original 71% footage comparison",
+      "authority": "planner translation"
+    },
+    {
+      "source": "原始錄像00:32",
+      "english": "Original footage at 00:32",
+      "authority": "planner translation"
+    },
+    {
+      "source": "交叉區域原生核實",
+      "english": "Native intersecting-region verification",
+      "authority": "planner translation"
+    },
+    {
+      "source": "68%實機原圖",
+      "english": "Original 68% game screenshot",
+      "authority": "planner translation"
+    },
+    {
+      "source": "版本",
+      "english": "Version",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每次星際點數",
+      "english": "Stellar Points per reset",
+      "authority": "planner translation"
+    },
+    {
+      "source": "鎖定星星數",
+      "english": "Locked Starshards",
+      "authority": "planner translation"
+    },
+    {
+      "source": "。此公告未提供重設費用、星座倍率或面積取整公式。",
+      "english": ". This notice does not provide reset fees, constellation multipliers or area rounding formulas.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "逐項核對 JSON",
+      "english": "Item-by-item comparison JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方繁中機率公告",
+      "english": "Official Traditional Chinese probability notice",
+      "authority": "planner translation"
+    },
+    {
+      "source": "2026-10-16 核對：組合數、機率分母及公布精度全部一致。",
+      "english": "Checked 2026-10-16: configuration counts, denominators and published precision all match. ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "約 ",
+      "english": "Approx. ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "3～12 星：10 行與本地有序配置模型逐項一致",
+      "english": "3–12 Starshards: all 10 rows match the local ordered-configuration model",
+      "authority": "planner translation"
+    },
+    {
+      "source": "單一配置機率",
+      "english": "Chance per configuration",
+      "authority": "planner translation"
+    },
+    {
+      "source": "完整配置數",
+      "english": "Complete configurations",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方約值",
+      "english": "Official rounded value",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星星數",
+      "english": "Starshards",
+      "authority": "planner translation"
+    },
+    {
+      "source": "解鎖進度須為非負整數。",
+      "english": "Unlock progress must be a non-negative integer.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星座：",
+      "english": ": ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "建議會保留鎖定星星的順序與位置，不替遊戲執行重設。",
+      "english": "Suggestions keep locked Starshards in order and position. They do not perform an in-game reset.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "未符合",
+      "english": "Not met",
+      "authority": "planner translation"
+    },
+    {
+      "source": "符合",
+      "english": "Met",
+      "authority": "planner translation"
+    },
+    {
+      "source": "按所填進度",
+      "english": "Your progress",
+      "authority": "planner translation"
+    },
+    {
+      "source": "配置門檻",
+      "english": "Configured requirement",
+      "authority": "planner translation"
+    },
+    {
+      "source": "尚未符合啟用門檻或需先完成上一星座",
+      "english": "Requirements unmet, or complete the previous constellation first",
+      "authority": "planner translation"
+    },
+    {
+      "source": "顆星星符合門檻",
+      "english": "Starshards meet the requirements",
+      "authority": "planner translation"
+    },
+    {
+      "source": "個星座。第 ",
+      "english": "constellations. Constellation ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "按配置進度可啟用：",
+      "english": "Unlocked by configured progress: ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "個星位估算",
+      "english": "geometric estimates",
+      "authority": "planner translation"
+    },
+    {
+      "source": "· 含 ",
+      "english": "· Includes ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "個待填面積）",
+      "english": "areas missing)",
+      "authority": "planner translation"
+    },
+    {
+      "source": "三類加成各",
+      "english": "Each bonus",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已填面積小計",
+      "english": "Known-area subtotal",
+      "authority": "planner translation"
+    },
+    {
+      "source": "個方案 · ",
+      "english": "plans · ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星位估算",
+      "english": "Geometric estimate",
+      "authority": "planner translation"
+    },
+    {
+      "source": "遊戲值",
+      "english": "In-game",
+      "authority": "planner translation"
+    },
+    {
+      "source": "納入",
+      "english": "Include",
+      "authority": "planner translation"
+    },
+    {
+      "source": "配置倍率",
+      "english": "Multiplier",
+      "authority": "planner translation"
+    },
+    {
+      "source": "面積來源",
+      "english": "Area source",
+      "authority": "planner translation"
+    },
+    {
+      "source": "三類加成",
+      "english": "All three bonuses",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星星",
+      "english": "Starshards",
+      "authority": "planner translation"
+    },
+    {
+      "source": "客户端规则",
+      "english": "Client rules",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已規劃第 10 星座全部 12 星。",
+      "english": "All 12 Starshards in constellation 10 planned.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已規劃全部 12 星。遊戲中須全部啟用，才能開啟下一星座。",
+      "english": "All 12 Starshards planned. Activate them all in-game to open the next constellation.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星）：",
+      "english": "):",
+      "authority": "planner translation"
+    },
+    {
+      "source": "下一顆星星（",
+      "english": "Next Starshard (",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本星座加成 · 星位估算",
+      "english": "Constellation bonus · Geometric estimate",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本星座加成 · 客户端规则",
+      "english": "Constellation bonus · Client rules",
+      "authority": "planner translation"
+    },
+    {
+      "source": "（向下取整）",
+      "english": "(rounded down)",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星位估算面積：",
+      "english": "Geometric area estimate: ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "；請填入 0–100 的整數",
+      "english": "; enter an integer from 0–100",
+      "authority": "planner translation"
+    },
+    {
+      "source": "使用遊戲顯示面積：",
+      "english": "In-game area: ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "點數。",
+      "english": "points.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "預算可覆蓋計劃次數。按最多可重設次數計，剩餘 ",
+      "english": "Budget covers the planned resets. After the maximum affordable resets, remaining points: ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目前計劃超出預算 ",
+      "english": "The plan exceeds the budget by ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "所有星星均已鎖定；本計劃不再重設，先解鎖一顆才能重新配置。",
+      "english": "All Starshards are locked. No resets planned; unlock one to rearrange.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "計劃總消耗",
+      "english": "Planned total cost",
+      "authority": "planner translation"
+    },
+    {
+      "source": "鎖定／可重新配置",
+      "english": "Locked / Movable",
+      "authority": "planner translation"
+    },
+    {
+      "source": "預算最多可重設",
+      "english": "Resets within budget",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每次重設費用",
+      "english": "Cost per reset",
+      "authority": "planner translation"
+    },
+    {
+      "source": "鎖星",
+      "english": "locked Starshards",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星",
+      "english": " ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "鎖定第 ",
+      "english": "Lock Starshard ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "鎖定順序與位置",
+      "english": "Lock order and position",
+      "authority": "planner translation"
+    },
+    {
+      "source": "解除鎖定",
+      "english": "Unlock",
+      "authority": "planner translation"
+    },
+    {
+      "source": "交換第 ",
+      "english": "Swap with Starshard ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已鎖定",
+      "english": "Locked",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星的位置",
+      "english": "position",
+      "authority": "planner translation"
+    },
+    {
+      "source": "選取第 ",
+      "english": "Select Starshard ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "按正十二邊形分母與封閉區域填充的面積參考，不代替遊戲整數值。",
+      "english": "Area reference uses a regular dodecagon denominator and filled enclosed regions. It does not replace the in-game integer.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "處交叉。各封閉區域分別計入面積參考；服務端整數取整仍未知，請填遊戲顯示值。",
+      "english": ". Each enclosed region contributes to the area reference. Server integer rounding is not fully known; use the value shown in-game.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目前有 ",
+      "english": "Current crossings: ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "，空星位",
+      "english": ", empty point",
+      "authority": "planner translation"
+    },
+    {
+      "source": "，第 ",
+      "english": ", Starshard ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星 · P",
+      "english": " · P",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目前選取第 ",
+      "english": "Selected Starshard ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "空星位",
+      "english": "Empty point",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星交換",
+      "english": " ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "與第 ",
+      "english": "Swap with Starshard ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目前位置",
+      "english": "Current position",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星際連線資料讀取失敗",
+      "english": "Could not load Stellar Link data",
+      "authority": "planner translation"
+    },
+    {
+      "source": "讀取失敗：",
+      "english": "Loading failed: ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已選取方案 JSON，請複製。",
+      "english": "Plan JSON selected. Copy it manually.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案 JSON 已複製。",
+      "english": "Plan JSON copied.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案 JSON 已生成；亦可從下方查看或複製。",
+      "english": "Plan JSON generated. View or copy it below.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "請複製上方方案連結。",
+      "english": "Copy the plan link above.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案連結已複製；可在這台電腦開啟還原。",
+      "english": "Plan link copied. Open it to restore this plan.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已保存 12 種裝備盤進度及強化策略。",
+      "english": "Saved all 12 Plating grades and enhancement strategy.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "裝備盤進度已自動保存。",
+      "english": "Plating progress saved automatically.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已保留舊方案進度與保護策略，並按核實後的遊戲規則重新計算。",
+      "english": "Old plan progress and protection settings retained; recalculated using verified game rules.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "無法讀取工具資料",
+      "english": "Could not load tool data",
+      "authority": "planner translation"
+    },
+    {
+      "source": "數值",
+      "english": "number",
+      "authority": "planner translation"
+    },
+    {
+      "source": "整數",
+      "english": "integer",
+      "authority": "planner translation"
+    },
+    {
+      "source": " 的",
+      "english": " ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "請輸入 ",
+      "english": "Enter ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "解鎖",
+      "english": "Unlock",
+      "authority": "planner translation"
+    },
+    {
+      "source": "烤箱 Lv.",
+      "english": "Oven Lv.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "裝備盤",
+      "english": " Plating",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已用免費簽到材料完成4次低階強化：3次普通成功、1次大成功。盔甲 +0 → +2，費用1鋼、返還1鋼，餘額2 → 2。+0配置／預覽返還比例為10%，直接對0.1向下取整或四捨五入得到0，與此樣本不符；向上取整和「最少返1」都仍相容，尚不能選定全階級公式。未支付保護材料，不能判定保護費是否返還。",
+      "english": "Four low-grade enhancements used free check-in materials: three Upgrades and one Super. Armor +0 → +2 cost 1 Chocosteel and refunded 1; balance 2 → 2. The +0 configuration/preview refund rate is 10%. Flooring or rounding 0.1 gives 0 and does not match this sample. Ceiling and a minimum refund of 1 both remain possible, so no universal grade formula is established. No protection materials were paid, so their refund eligibility is undetermined.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "保護規則由同版已載入客戶端核實，本輪遊戲說明也確認：防止降階使降階機率歸零；減緩碎裂把碎裂機率減半。客戶端將避免的機率轉入維持，成功與大成功不變。實際高階保護開關尚未操作。+10 開始有降階，+15 開始有碎裂，以逐級機率表為準。",
+      "english": "Protection is verified in the loaded same-version client and supported by in-game help: Prevent Downgrade makes its probability zero; Reduce Break Chance halves Break probability. The avoided probability moves to No Change, leaving Upgrade and Super unchanged. High-grade protection toggles have not been exercised live. Downgrade starts at +10 and Break at +15; refer to the grade probability table.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已追蹤的普通強化返還鏈接收伺服器Rewards的整數數量，再按材料ID合併顯示；這15個方法未發現返還比例或取整計算。尚未完整覆蓋全客戶端的配置讀取者及間接呼叫，不能排除其他位置存在相關邏輯。完整返還材料範圍與服務端算法仍未知。",
+      "english": "The traced normal enhancement refund chain receives integer quantities from server Rewards and groups them by material ID for display. These 15 methods contain no refund-rate or rounding calculation. Client configuration readers and indirect calls are not fully covered, so related logic elsewhere cannot be ruled out. The full eligible-material scope and server algorithm remain unknown.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本輪領取免費鋼5、支付4、返還1，淨耗3、剩2；未消耗糖漿、水晶或勳章。材料預算繼續列總投入，不扣未核實的返還。4次結果不證明隨機獨立性、保底或機率頻率；預測仍採固定策略、固定配置及獨立抽取，達標後停止。",
+      "english": "This round received 5 free Chocosteel, paid 4, refunded 1, spent 3 net and retained 2. No Metal Syrup, Crystals or Medals were used. Budgets retain gross investment without uncertain refunds. Four outcomes do not establish independence, pity or empirical frequencies. Forecasts use a fixed strategy, fixed configuration and independent draws, stopping at the target.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "。2026-10-15已進入雷電模擬器9的裝備盤：逐級讀取 +0～+24 的無保護機率、強化費用、大成功返還比例和可見修復費，共185個數值全部與配置吻合。高階畫面是詳情預覽，不是實際高階強化結果。",
+      "english": ". On 2026-10-15, Plating was inspected in LDPlayer 9: unprotected probabilities, enhancement costs, Super refund rates and visible repair fees for +0–+24 gave 185 values, all matching configuration. High-grade screens are detail previews, not actual high-grade enhancement outcomes.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "遊戲資訊列及說明均顯示碎裂降2階，與已核實的 GetNextGrade 一致；付修復費則回到強化前階級，原次材料不退。結果限制0～25，+24大成功到+25。本輪沒有實際碎裂或修復交易。",
+      "english": "Game information and help show Break reduces two grades, matching verified GetNextGrade logic. Paying for repair restores the pre-attempt grade without refunding that attempt's materials. Results stay within 0–25; a Super at +24 reaches +25. No live Break or repair transaction was performed in this round.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "8月舊版返還觀察（非本輪）",
+      "english": "August refund observations (earlier version)",
+      "authority": "planner translation"
+    },
+    {
+      "source": "25級機率與費用界面核對",
+      "english": "25-grade UI probability and cost check",
+      "authority": "planner translation"
+    },
+    {
+      "source": "4次實際交易與返還證據",
+      "english": "4 transactions and refund evidence",
+      "authority": "planner translation"
+    },
+    {
+      "source": "+15預覽原圖",
+      "english": "Original +15 preview",
+      "authority": "planner translation"
+    },
+    {
+      "source": "保護與修復說明",
+      "english": "Protection and repair help",
+      "authority": "planner translation"
+    },
+    {
+      "source": "碎裂降2階資訊",
+      "english": "Break −2 grade information",
+      "authority": "planner translation"
+    },
+    {
+      "source": "原生返還邊界",
+      "english": "Native refund boundary analysis",
+      "authority": "planner translation"
+    },
+    {
+      "source": "擴大核查",
+      "english": "Expanded analysis",
+      "authority": "planner translation"
+    },
+    {
+      "source": "此為既有單筆記錄，未套用為全階級計算規則。所有材料預估均不扣返還。",
+      "english": "One recorded observation, not a rule applied to every grade. All material estimates exclude refunds.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "查看實機結果",
+      "english": "View in-game result",
+      "authority": "planner translation"
+    },
+    {
+      "source": "淨耗",
+      "english": "Net cost",
+      "authority": "planner translation"
+    },
+    {
+      "source": "返還",
+      "english": "Refund",
+      "authority": "planner translation"
+    },
+    {
+      "source": "盔甲裝備盤 +0 → +2 · 無保護",
+      "english": "Armor Plating +0 → +2 · No protection",
+      "authority": "planner translation"
+    },
+    {
+      "source": "既有大成功返還觀察",
+      "english": "Recorded Super refund observation",
+      "authority": "planner translation"
+    },
+    {
+      "source": "支付",
+      "english": "Paid",
+      "authority": "planner translation"
+    },
+    {
+      "source": "追加解包與覆蓋範圍",
+      "english": "Additional extraction and coverage",
+      "authority": "planner translation"
+    },
+    {
+      "source": "個非空方法區間；已確認的返還比例讀寫用於配置儲存與百分比展示，未取得完整返還取整公式。索引區間約佔程式碼段35.44%，其餘未綁定區間、間接呼叫及指標別名仍未排除。",
+      "english": "nonempty method intervals. Verified refund-rate reads/writes store configuration and display percentages; the full integer refund formula was not recovered. Indexed intervals cover about 35.44% of the code section; unbound intervals, indirect calls and pointer aliases remain unexcluded. ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "個恢復程序集，掃描",
+      "english": "recovered assemblies; scanned ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "2026-10-16追加解包：索引全部",
+      "english": "Additional extraction 2026-10-16: indexed all ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "機率列為無保護配置；糖漿依序為防止降階／減緩碎裂／碎裂後修復。返還比例為配置值，尚未確定返還材料範圍及整數數量。",
+      "english": "Probabilities are unprotected. Syrup columns: Prevent Downgrade / Reduce Break Chance / post-Break repair. Refund rates are configured values; eligible materials and integer amounts remain uncertain.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目標",
+      "english": "Target",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目前",
+      "english": "Current",
+      "authority": "planner translation"
+    },
+    {
+      "source": "保護／修復糖漿",
+      "english": "Protection / repair Syrup",
+      "authority": "planner translation"
+    },
+    {
+      "source": "配置返還比例",
+      "english": "Configured refund rate",
+      "authority": "planner translation"
+    },
+    {
+      "source": "一次巧克力鋼",
+      "english": "Chocosteel / attempt",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目前階級",
+      "english": "Current grade",
+      "authority": "planner translation"
+    },
+    {
+      "source": "主要增幅",
+      "english": "Main AMP",
+      "authority": "planner translation"
+    },
+    {
+      "source": "附加增幅",
+      "english": "Sub AMP",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已解鎖",
+      "english": "Unlocked",
+      "authority": "planner translation"
+    },
+    {
+      "source": "裝備盤，目前 +",
+      "english": "Plating, current +",
+      "authority": "planner translation"
+    },
+    {
+      "source": "保護 + 修復；未扣返還",
+      "english": "Protection + repairs; before refunds",
+      "authority": "planner translation"
+    },
+    {
+      "source": "平均糖漿熔液總投入",
+      "english": "Average gross Metal Syrup",
+      "authority": "planner translation"
+    },
+    {
+      "source": "未扣返還",
+      "english": "Before refunds",
+      "authority": "planner translation"
+    },
+    {
+      "source": "平均巧克力鋼總投入",
+      "english": "Average gross Chocosteel",
+      "authority": "planner translation"
+    },
+    {
+      "source": "達標即停止",
+      "english": "Stop at target",
+      "authority": "planner translation"
+    },
+    {
+      "source": "平均執行次數",
+      "english": "Average attempts used",
+      "authority": "planner translation"
+    },
+    {
+      "source": "次內達到 +",
+      "english": "attempts to reach +",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目前階級已達到目標。",
+      "english": "Current grade has reached the target.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "期望修復",
+      "english": "Expected repairs",
+      "authority": "planner translation"
+    },
+    {
+      "source": "糖漿熔液總投入",
+      "english": "Gross Metal Syrup",
+      "authority": "planner translation"
+    },
+    {
+      "source": "巧克力鋼總投入",
+      "english": "Gross Chocosteel",
+      "authority": "planner translation"
+    },
+    {
+      "source": "平均嘗試",
+      "english": "Expected attempts",
+      "authority": "planner translation"
+    },
+    {
+      "source": "強化規則已按 1.5.002 客戶端核實。",
+      "english": "Enhancement rules verified against the 1.5.002 client.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "碎裂後降兩階並繼續。",
+      "english": "Drop two grades after Break and continue. ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每次碎裂付費修復。",
+      "english": "Pay for every Break repair. ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "不使用減緩碎裂；",
+      "english": "No Break reduction; ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "自 +15 減半碎裂機率；",
+      "english": "Halve Break chance from +15; ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "不使用防止降階；",
+      "english": "No Downgrade prevention; ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "自 +10 防止降階；",
+      "english": "Prevent Downgrade from +10; ",
+      "authority": "planner translation"
+    },
+    {
+      "source": "規劃 +",
+      "english": "Plan +",
+      "authority": "planner translation"
+    },
+    {
+      "source": "填入裝備功能的原始數值，查看增幅後的換算參考。",
+      "english": "Enter base equipment effect values to preview amplified values.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "附加功能",
+      "english": "Sub Effect",
+      "authority": "planner translation"
+    },
+    {
+      "source": "主要功能",
+      "english": "Main Effect",
+      "authority": "planner translation"
+    },
+    {
+      "source": "個百分點",
+      "english": "percentage points",
+      "authority": "planner translation"
+    },
+    {
+      "source": "增幅",
+      "english": "Amplification",
+      "authority": "planner translation"
+    },
+    {
+      "source": "保護規則資料尚未更新，請重新整理。",
+      "english": "Protection rules are unavailable. Reload the page.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目前顯示無保護的原始配置機率。",
+      "english": "Showing original unprotected probabilities.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已核實客戶端規則：避免的降階／碎裂機率轉入「維持」，成功與大成功機率不變。",
+      "english": "Verified client rules: avoided Downgrade/Break probability moves to No Change. Upgrade and Super probabilities stay unchanged.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "個",
+      "english": " units",
+      "authority": "planner translation"
+    },
+    {
+      "source": "碎裂後修復另需",
+      "english": "Repair after Break also costs",
+      "authority": "planner translation"
+    },
+    {
+      "source": "糖漿熔液",
+      "english": "Metal Syrup",
+      "authority": "planner translation"
+    },
+    {
+      "source": "巧克力鋼",
+      "english": "Chocosteel",
+      "authority": "planner translation"
+    },
+    {
+      "source": "此策略與階級不會出現",
+      "english": "Not possible with this grade and strategy",
+      "authority": "planner translation"
+    },
+    {
+      "source": "修復回 +",
+      "english": "Repair to +",
+      "authority": "planner translation"
+    },
+    {
+      "source": "請更新規則資料",
+      "english": "Please update rule data",
+      "authority": "planner translation"
+    },
+    {
+      "source": "可以切換裝備盤，或查看各階級加成。",
+      "english": "Choose another Plating or inspect grade bonuses.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "裝備盤已達配置上限",
+      "english": "Plating is at the configured cap",
+      "authority": "planner translation"
+    },
+    {
+      "source": "個／次",
+      "english": "per attempt",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已達上限",
+      "english": "Cap reached",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本次不消耗 · 自 +15 適用",
+      "english": "No cost now · Applies from +15",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本次不消耗 · 自 +10 適用",
+      "english": "No cost now · Applies from +10",
+      "authority": "planner translation"
+    },
+    {
+      "source": "嘗試",
+      "english": "attempt",
+      "authority": "planner translation"
+    },
+    {
+      "source": "從 +",
+      "english": "From +",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已達配置上限",
+      "english": "Configured cap reached",
+      "authority": "planner translation"
+    },
+    {
+      "source": "放棄修復，從碎裂後階級繼續",
+      "english": "Skip repair and continue from the post-Break grade",
+      "authority": "planner translation"
+    },
+    {
+      "source": "支付修復費用，回到原階級",
+      "english": "Pay to repair and restore the previous grade",
+      "authority": "planner translation"
+    },
+    {
+      "source": "附加 +",
+      "english": "Sub +",
+      "authority": "planner translation"
+    },
+    {
+      "source": "主要 +",
+      "english": "Main +",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已記錄 +",
+      "english": "Recorded +",
+      "authority": "planner translation"
+    },
+    {
+      "source": "瀏覽器無法保存，請使用方案連結或匯出 JSON。",
+      "english": "Browser storage is unavailable. Use a plan link or export JSON.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "选择符文槽位",
+      "english": "Select Rune slot",
+      "authority": "planner translation"
+    },
+    {
+      "source": "选择选项",
+      "english": "Choose an option",
+      "authority": "planner translation"
+    },
+    {
+      "source": "搜索名称、稀有度或数值…",
+      "english": "Search name, rarity or value…",
+      "authority": "planner translation"
+    },
+    {
+      "source": "关闭选项列表",
+      "english": "Close options",
+      "authority": "planner translation"
+    },
+    {
+      "source": "没有匹配选项",
+      "english": "No matching options",
+      "authority": "planner translation"
+    },
+    {
+      "source": "搜索选项",
+      "english": "Search options",
+      "authority": "planner translation"
+    },
+    {
+      "source": "缺少完整锁定消耗曲线",
+      "english": "Missing the full lock-cost curve",
+      "authority": "planner translation"
+    },
+    {
+      "source": "逐步保留计划使用完整基准消耗曲线，不支持单点手动消耗",
+      "english": "Keep-match planning requires the full base-cost curve; manual single-point cost is unsupported",
+      "authority": "planner translation"
+    },
+    {
+      "source": "次数",
+      "english": "Attempt count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "未锁槽位不足",
+      "english": "Not enough unlocked slots",
+      "authority": "planner translation"
+    },
+    {
+      "source": "未锁槽位",
+      "english": "Unlocked slots",
+      "authority": "planner translation"
+    },
+    {
+      "source": "尚需词条",
+      "english": "Remaining effects needed",
+      "authority": "planner translation"
+    },
+    {
+      "source": "手动单次消耗",
+      "english": "Manual cost per craft",
+      "authority": "planner translation"
+    },
+    {
+      "source": "缺少对应锁定数量的消耗表",
+      "english": "No cost row for this lock count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "所有已开启槽位均已锁定，无法加工。",
+      "english": "All active Rune slots are locked. Crafting is unavailable.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "未锁定槽位不足；已锁定的非目标词条占用了位置。",
+      "english": "Not enough unlocked slots; non-matching locked effects occupy the available space.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标数量超过已开启槽位，请降低目标或提高角色阶级。",
+      "english": "The target exceeds active slots. Lower the target or increase the Cookie grade.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "水晶预算",
+      "english": "Crystal budget",
+      "authority": "planner translation"
+    },
+    {
+      "source": "制作次数",
+      "english": "Craft count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标词条数",
+      "english": "Target effect count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "当前总折扣",
+      "english": "Current total discount",
+      "authority": "planner translation"
+    },
+    {
+      "source": "空词条不能锁定",
+      "english": "An empty effect cannot be locked",
+      "authority": "planner translation"
+    },
+    {
+      "source": "词条配置不存在",
+      "english": "Unknown effect configuration",
+      "authority": "planner translation"
+    },
+    {
+      "source": "角色阶级",
+      "english": "Cookie grade",
+      "authority": "planner translation"
+    },
+    {
+      "source": "基准消耗",
+      "english": "Base cost",
+      "authority": "planner translation"
+    },
+    {
+      "source": "没有有效权重",
+      "english": "No valid weights",
+      "authority": "planner translation"
+    },
+    {
+      "source": "结果权重无效",
+      "english": "Invalid outcome weight",
+      "authority": "planner translation"
+    },
+    {
+      "source": "请输入有效数值门槛",
+      "english": "Enter a valid value threshold",
+      "authority": "planner translation"
+    },
+    {
+      "source": "数值门槛只能用于单一效果",
+      "english": "A value threshold requires exactly one effect",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标效果不存在",
+      "english": "Unknown target effect",
+      "authority": "planner translation"
+    },
+    {
+      "source": "请选择有效目标稀有度",
+      "english": "Choose a valid target rarity",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标数量",
+      "english": "Target count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "槽位数",
+      "english": "Slot count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "无效概率",
+      "english": "Invalid probability",
+      "authority": "planner translation"
+    },
+    {
+      "source": "超出有效范围",
+      "english": "Outside the valid range",
+      "authority": "planner translation"
+    },
+    {
+      "source": "找不到此鎖定數的費用配置。",
+      "english": "No cost configuration for this lock count.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星座倍率無效。",
+      "english": "Invalid constellation multiplier.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "遊戲面積須為 0–100 的整數。",
+      "english": "In-game area must be an integer from 0–100.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "遊戲顯示面積須為 0–100 的整數百分比。",
+      "english": "In-game area must be an integer percentage from 0–100.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "重設次數須為 0–1,000,000 的整數。",
+      "english": "Reset count must be an integer from 0–1,000,000.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "點數預算須為 0–1兆之間的整數。",
+      "english": "Point budget must be an integer from 0–1 trillion.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每顆星星須使用不同的有效星位。",
+      "english": "Each Starshard must occupy a different valid point.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "此位置上的星星已鎖定。",
+      "english": "The Starshard at this point is locked.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "請選擇有效星位。",
+      "english": "Choose a valid point.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "請先解除這顆星星的鎖定。",
+      "english": "Unlock this Starshard first.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "請先解除將移除星星的鎖定。",
+      "english": "Unlock the Starshard to be removed first.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星星數量須為 3–12。",
+      "english": "Starshard count must be 3–12.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "階級必須在配置範圍內。",
+      "english": "Grade must be within the configured range.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "嘗試次數须為 0–1,000,000 的整數。",
+      "english": "Attempt count must be an integer from 0–1,000,000.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "此策略的期望值過大，無法可靠求值；請使用有限次數預測。",
+      "english": "Expected values are too large for a reliable result. Use the finite-attempt forecast.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "碎裂規則資料尚未更新，請重新整理。",
+      "english": "Break rules are unavailable. Reload the page.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "缺少已核實的強化結果規則，請重新整理。",
+      "english": "Verified enhancement outcome rules are unavailable. Reload the page.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "按当前配置池归一化，假设各槽位、各次加工独立抽取；本计划只统计已启用槽的目标与加成，全部 8 槽的锁定计入费用；既有两次手动加工已观察到未启用槽生成／更新及锁定保留，仍未证明抽样独立性。结果用于规划，不表示必定获得。逐步保留由本工具模拟手动锁定策略，不代替游戏的自动加工行为。",
+      "english": "Weights are normalized across the current pool, assuming independent slots and crafts. Targets and bonuses use active slots; all 8 slots count toward lock fees. Two recorded manual crafts showed inactive slots generating/updating and retaining locked effects, but do not prove independence. Results are planning estimates, not guarantees. Keep matches simulates manual locking, rather than in-game auto-crafting.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "2026-10-16与官方表逐项比对：160项概率按官方六位小数显示精度一致，160项效果值和14种效果单位一致；移动速度和技能加速为固定值，其余为百分比。",
+      "english": "Checked against the official table on 2026-10-16: all 160 probabilities match at six decimal places, along with 160 effect values and 14 units. Mov SPD and Skill Haste are flat values; the others are percentages.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "选择单一效果后可填写。数量与数值门槛属于网页规划；游戏自动停止只需一个未锁词条满足稀有度及任一效果。",
+      "english": "Choose one effect to set a minimum. Count and value targets are planner features; in-game auto-crafting stops when one unlocked effect meets the rarity and any chosen effect.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "锁定的词条会保留，全 8 槽锁定计费；只有已启用词条计入加成。",
+      "english": "Locked effects stay. Locks in all 8 slots affect cost; only active effects add bonuses.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "搭配糖符文、锁定想保留的效果，再规划你的加工次数与符文水晶。",
+      "english": "Equip Sugar Runes, lock the effects you want, then plan crafting attempts and Rune Crystals.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "这是整个配置池的权重归一化结果，不是只在已选目标中重新分配。",
+      "english": "Weights are normalized across the full pool, rather than redistributed among selected targets.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "按相同效果汇总，仅表示糖符文配置，不模拟角色最终战斗数值。",
+      "english": "Totals group matching effects from Sugar Runes only; they do not simulate final Cookie combat stats.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "填写当前有效折扣之和，默认无折扣。账号生效状态以游戏为准。",
+      "english": "Enter the sum of active discounts. Default: none. Check your active account bonuses in-game.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案保存在当前浏览器，也可复制包含设置的本地链接。",
+      "english": "Plans stay in this browser. Copy a link to share these settings.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "所选效果任选一类即达标，不要求每类都出现。",
+      "english": "Any selected type counts; you do not need every type.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "最多 3 类 · 不选表示任意效果",
+      "english": "Up to 3 types · Leave empty for any effect",
+      "authority": "planner translation"
+    },
+    {
+      "source": "逐步保留 · 新达标词条立即锁定",
+      "english": "Keep matches · Lock new matches",
+      "authority": "planner translation"
+    },
+    {
+      "source": "固定锁定 · 每次保留相同槽位",
+      "english": "Fixed locks · Keep the same slots",
+      "authority": "planner translation"
+    },
+    {
+      "source": "使用游戏内显示的单次消耗",
+      "english": "Use the cost shown in-game",
+      "authority": "planner translation"
+    },
+    {
+      "source": "点击符文查看并调整词条",
+      "english": "Select a Rune to view and edit its effect",
+      "authority": "planner translation"
+    },
+    {
+      "source": "下载原始词条表 CSV",
+      "english": "Download original effect pool CSV",
+      "authority": "planner translation"
+    },
+    {
+      "source": "下载锁定成本 JSON",
+      "english": "Download lock costs JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "下载槽位规则 JSON",
+      "english": "Download slot rules JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "正在读取糖符文配置…",
+      "english": "Loading Sugar Rune configuration…",
+      "authority": "planner translation"
+    },
+    {
+      "source": "当前有效总折扣（%）",
+      "english": "Total active discount (%)",
+      "authority": "planner translation"
+    },
+    {
+      "source": "留空 = 不限数值",
+      "english": "Empty = any value",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标结果与制作规则",
+      "english": "Target outcomes and crafting rules",
+      "authority": "planner translation"
+    },
+    {
+      "source": "槽位开启与锁定成本",
+      "english": "Slot unlocks and lock costs",
+      "authority": "planner translation"
+    },
+    {
+      "source": "符合目标条件的结果",
+      "english": "Outcomes matching your target",
+      "authority": "planner translation"
+    },
+    {
+      "source": "数据来源与规则限制",
+      "english": "Sources and rule limits",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已开启糖符文槽位",
+      "english": "Active Sugar Rune slots",
+      "authority": "planner translation"
+    },
+    {
+      "source": "选择一个符文槽位",
+      "english": "Select a Rune slot",
+      "authority": "planner translation"
+    },
+    {
+      "source": "锁定已有达标词条",
+      "english": "Lock current matching effects",
+      "authority": "planner translation"
+    },
+    {
+      "source": "当前配置加成合计",
+      "english": "Current total bonuses",
+      "authority": "planner translation"
+    },
+    {
+      "source": "所选稀有度及以上",
+      "english": "Selected rarity or higher",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标效果数值下限",
+      "english": "Minimum target effect value",
+      "authority": "planner translation"
+    },
+    {
+      "source": "单一效果数值下限",
+      "english": "Minimum value for one effect",
+      "authority": "planner translation"
+    },
+    {
+      "source": "手动单次水晶消耗",
+      "english": "Manual Crystal cost per craft",
+      "authority": "planner translation"
+    },
+    {
+      "source": "向左旋转符文盘",
+      "english": "Rotate Rune wheel left",
+      "authority": "planner translation"
+    },
+    {
+      "source": "向右旋转符文盘",
+      "english": "Rotate Rune wheel right",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标最低稀有度",
+      "english": "Minimum target rarity",
+      "authority": "planner translation"
+    },
+    {
+      "source": "糖符文制作计划",
+      "english": "Sugar Rune crafting strategy",
+      "authority": "planner translation"
+    },
+    {
+      "source": "当前有效总折扣",
+      "english": "Total active discount",
+      "authority": "planner translation"
+    },
+    {
+      "source": "保存本角色方案",
+      "english": "Save Cookie plan",
+      "authority": "planner translation"
+    },
+    {
+      "source": "糖符文方案链接",
+      "english": "Sugar Rune plan link",
+      "authority": "planner translation"
+    },
+    {
+      "source": "单槽稀有度权重",
+      "english": "Single-slot rarity weights",
+      "authority": "planner translation"
+    },
+    {
+      "source": "详细词条概率",
+      "english": "Detailed effect probabilities",
+      "authority": "planner translation"
+    },
+    {
+      "source": "查看加工计划",
+      "english": "View crafting plan",
+      "authority": "planner translation"
+    },
+    {
+      "source": "清空当前词条",
+      "english": "Clear current effects",
+      "authority": "planner translation"
+    },
+    {
+      "source": "设置制作目标",
+      "english": "Set crafting targets",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标词条数量",
+      "english": "Target effect count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "符文水晶预算",
+      "english": "Rune Crystal budget",
+      "authority": "planner translation"
+    },
+    {
+      "source": "计划加工次数",
+      "english": "Planned crafts",
+      "authority": "planner translation"
+    },
+    {
+      "source": "实际每次消耗",
+      "english": "Actual cost per craft",
+      "authority": "planner translation"
+    },
+    {
+      "source": "复制方案链接",
+      "english": "Copy plan link",
+      "authority": "planner translation"
+    },
+    {
+      "source": "制作计划结果",
+      "english": "Crafting forecast",
+      "authority": "planner translation"
+    },
+    {
+      "source": "配置权重模型",
+      "english": "Configured weight model",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方概率说明",
+      "english": "Official probability notes",
+      "authority": "planner translation"
+    },
+    {
+      "source": "逐项比对记录",
+      "english": "Item-by-item comparison",
+      "authority": "planner translation"
+    },
+    {
+      "source": "糖符文加工",
+      "english": "Craft Runes",
+      "authority": "planner translation"
+    },
+    {
+      "source": "糖符文角色",
+      "english": "Sugar Rune Cookie",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已开启槽位",
+      "english": "Active slots",
+      "authority": "planner translation"
+    },
+    {
+      "source": "最低稀有度",
+      "english": "Minimum rarity",
+      "authority": "planner translation"
+    },
+    {
+      "source": "全部稀有度",
+      "english": "All rarities",
+      "authority": "planner translation"
+    },
+    {
+      "source": "制作规划",
+      "english": "Planner",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本地规划",
+      "english": "Local planner",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每次消耗",
+      "english": "Per craft",
+      "authority": "planner translation"
+    },
+    {
+      "source": "角色详情",
+      "english": "Cookie details",
+      "authority": "planner translation"
+    },
+    {
+      "source": "选择角色",
+      "english": "Choose Cookie",
+      "authority": "planner translation"
+    },
+    {
+      "source": "糖符文盘",
+      "english": "Sugar Rune wheel",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标设置",
+      "english": "Target settings",
+      "authority": "planner translation"
+    },
+    {
+      "source": "符文效果",
+      "english": "Rune effects",
+      "authority": "planner translation"
+    },
+    {
+      "source": "锁定达标",
+      "english": "Lock matches",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目标效果",
+      "english": "Target effects",
+      "authority": "planner translation"
+    },
+    {
+      "source": "制作计划",
+      "english": "Crafting strategy",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案链接",
+      "english": "Plan link",
+      "authority": "planner translation"
+    },
+    {
+      "source": "计算口径",
+      "english": "Model assumptions",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已开启",
+      "english": "active",
+      "authority": "planner translation"
+    },
+    {
+      "source": "可加工",
+      "english": "to craft",
+      "authority": "planner translation"
+    },
+    {
+      "source": "清空",
+      "english": "Clear",
+      "authority": "planner translation"
+    },
+    {
+      "source": "預設填入遊戲顯示的整數面積，按已核實的客戶端取整規則換算加成（如 57% 面積、20% 倍率 = 11.39%）。取消勾選按星位的封閉區域面積向下取整估算，再按相同客戶端規則換算加成。本輪同版樣本 68.8996%→68% 支持此估算；服務端數值與退化邊界未全核實。星位編輯不會更新遊戲面積；請同步填寫遊戲當前值。",
+      "english": "By default, enter the integer area shown in-game. Verified client rounding converts it into bonuses (e.g. 57% area at a 20% multiplier = 11.39%). Uncheck to estimate enclosed geometric area, round it down, then apply the same client conversion. The same-version 68.8996% → 68% sample supports this estimate; server precision and degenerate boundaries remain incompletely verified. Editing positions does not change the entered in-game area; update it yourself.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "鎖星後，鎖定星星的位置及順序維持不動，其餘合法配置等機率。由此推導：N 顆星、鎖定 L 顆時，剩餘配置數為 P(12−L, N−L)；此公式為組合推導，官方未另列鎖星機率表。",
+      "english": "Locked Starshards keep their order and positions; all remaining legal configurations are equally likely. For N Starshards and L locks, this implies P(12−L, N−L) remaining configurations. This is a combinatorial derivation; no separate official locked-Starshard table is published.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "序號決定連線次序，最後一顆連回第一顆。P1–P12 是本頁的候選位置標記。按已放置數配置：遊戲 7/8 代表已放置 7 顆、已啟用 8 顆；新增星星在重設後加入。",
+      "english": "Numbers set the link order; the last connects to the first. P1–P12 label candidate positions here. Use the placed count: in-game 7/8 means 7 placed, 8 activated; newly activated Starshards join after a reset.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方指南確認先前星座加成會保留並同時套用。此處匯總勾選方案。遊戲面積使用客戶端規則；星位值先向下取整為整數面積再換算，尚未填寫面積的方案不計入數字總和。",
+      "english": "The official guide confirms earlier constellation bonuses remain active together. Checked plans are totaled here. In-game areas use client rules; geometric estimates round area down first. Plans without an area are excluded from the numeric total.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "完整的星位與連線順序配置等機率；各種面積的機率不一定相同。面積和加成由配置計算，不另抽機率。下表為未鎖星時，抽中某一個指定完整配置的機率。",
+      "english": "Complete configurations of positions and link order have equal probability; different areas need not. Area and bonuses derive from the configuration, without a separate roll. The table gives the probability of one specific complete configuration with no locks.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "上一星座全部星星啟用後，才可啟用下一星座。第 1 星座的官方說明按餅乾欄位開啟，配置表以關卡門檻記錄；實際自動啟用狀態請以遊戲為準。",
+      "english": "Activate every Starshard in a constellation to unlock the next. The official first-constellation guide refers to Cookie slots; the configuration records stage thresholds. Check actual automatic activation in-game.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "固定保留相同鎖星數，按 1.5.002 的基準費用計算。隨後改變鎖定數時，請重新規劃。",
+      "english": "Uses a fixed lock count and base fees from 1.5.002. Recalculate when the lock count changes.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "點星星選取；點空星位移動。從下拉選單可交換未鎖定的星星。",
+      "english": "Select a Starshard; choose an empty point to move it. Use the dropdown to swap unlocked Starshards.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "配置星星的順序與位置，保留鎖定點，規劃下一次重設連線。",
+      "english": "Arrange Starshard order and positions, retain locked points, and plan your next link reset.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "方案保存在目前瀏覽器，包含 10 個星座的配置與進度。",
+      "english": "This browser saves configurations and progress for all 10 constellations.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方指南、資料來源與模型口徑",
+      "english": "Official guide, sources and model",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已通過主線關卡（配置序號）",
+      "english": "Main Stage cleared (configuration index)",
+      "authority": "planner translation"
+    },
+    {
+      "source": "正在讀取星際連線資料…",
+      "english": "Loading Stellar Link data…",
+      "authority": "planner translation"
+    },
+    {
+      "source": "使用遊戲顯示的星座面積",
+      "english": "Use the constellation area shown in-game",
+      "authority": "planner translation"
+    },
+    {
+      "source": "遊戲顯示面積（%）",
+      "english": "In-game area (%)",
+      "authority": "planner translation"
+    },
+    {
+      "source": "遊戲顯示的星座面積",
+      "english": "In-game constellation area",
+      "authority": "planner translation"
+    },
+    {
+      "source": "0–100 的整數",
+      "english": "Integer from 0–100",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星座配置 JSON",
+      "english": "Constellation configuration JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "封閉區域面積參考",
+      "english": "Enclosed area reference",
+      "authority": "planner translation"
+    },
+    {
+      "source": "幾何最大範圍方案",
+      "english": "Maximum geometric outline",
+      "authority": "planner translation"
+    },
+    {
+      "source": "保存全部星座方案",
+      "english": "Save all constellations",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星際連線方案連結",
+      "english": "Stellar Link plan link",
+      "authority": "planner translation"
+    },
+    {
+      "source": "累積餅乾升階次數",
+      "english": "Cumulative Cookie promotions",
+      "authority": "planner translation"
+    },
+    {
+      "source": "重設費用表與規則",
+      "english": "Reset fee table and rules",
+      "authority": "planner translation"
+    },
+    {
+      "source": "連線順序與鎖星",
+      "english": "Link order and locks",
+      "authority": "planner translation"
+    },
+    {
+      "source": "重設費用與預算",
+      "english": "Reset costs and budget",
+      "authority": "planner translation"
+    },
+    {
+      "source": "各星座方案總覽",
+      "english": "Constellation overview",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已通過主線關卡",
+      "english": "Main Stage cleared",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方配置機率表",
+      "english": "Official placement probabilities",
+      "authority": "planner translation"
+    },
+    {
+      "source": "查看原始配置",
+      "english": "View original configuration",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已放置星星數",
+      "english": "Placed Starshard count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "納入方案總覽",
+      "english": "Include",
+      "authority": "planner translation"
+    },
+    {
+      "source": "包圍範圍上限",
+      "english": "Envelope upper bound",
+      "authority": "planner translation"
+    },
+    {
+      "source": "解除全部鎖定",
+      "english": "Clear all locks",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星際點數預算",
+      "english": "Stellar Point budget",
+      "authority": "planner translation"
+    },
+    {
+      "source": "計劃重設次數",
+      "english": "Planned resets",
+      "authority": "planner translation"
+    },
+    {
+      "source": "複製方案連結",
+      "english": "Copy plan link",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本地方案連結",
+      "english": "Plan link",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星星解鎖條件",
+      "english": "Starshard unlock requirements",
+      "authority": "planner translation"
+    },
+    {
+      "source": "費用 CSV",
+      "english": "Costs CSV",
+      "authority": "planner translation"
+    },
+    {
+      "source": "解鎖 CSV",
+      "english": "Unlocks CSV",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已放置星星",
+      "english": "Starshards",
+      "authority": "planner translation"
+    },
+    {
+      "source": "原始門檻表",
+      "english": "Original requirements table",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星盤規劃",
+      "english": "Constellation planner",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本地方案",
+      "english": "Local plan",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每次重設",
+      "english": "Per reset",
+      "authority": "planner translation"
+    },
+    {
+      "source": "選擇星座",
+      "english": "Constellation",
+      "authority": "planner translation"
+    },
+    {
+      "source": "加成參考",
+      "english": "Bonus reference",
+      "authority": "planner translation"
+    },
+    {
+      "source": "加成方案",
+      "english": "Bonus plans",
+      "authority": "planner translation"
+    },
+    {
+      "source": "星際連線",
+      "english": "Stellar Link",
+      "authority": "planner translation"
+    },
+    {
+      "source": "固定策略與獨立抽取的規劃模型。假設材料足夠完成計劃，達到或超過目標即停止；顯示未扣返還的平均總投入，不代表每次都花相同數量，也不是完成計劃所需材料的保證上限。",
+      "english": "Planning model with a fixed strategy and independent draws. Assumes enough materials for the plan and stops at or above the target. Average gross investment excludes refunds; actual spending varies and this is not a guaranteed material cap.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "2026-10-16與官方公布表逐項比對：0～24階共125項無保護機率全部一致。官方頁首四捨五入說明適用於機率公布精度，未公開材料返還取整或保護材料資格。",
+      "english": "Checked 2026-10-16: all 125 unprotected probabilities for grades 0–24 match the official table. Its rounding note concerns published probability precision, not material refund rounding or protection-material eligibility.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "依所選策略與固定機率逐階計算，包含維持、降階和碎裂造成的重試。各項材料均列未扣返還的平均總投入，適合比較保護與修復方案。",
+      "english": "Calculated grade by grade using the chosen strategy and fixed probabilities, including retries after No Change, Downgrade and Break. Materials show average gross investment before refunds to compare protection and repair strategies.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "按遊戲 1.5.002 已載入客戶端邏輯核實。碎裂後可另付費修復至強化前階級。材料預算仍為概率模型，投入不扣大成功返還。",
+      "english": "Verified against loaded client logic for 1.5.002. After a Break, pay separately to restore the previous grade. Material budgets remain probability models and do not deduct Super refunds.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "計入重試、所選保護與修復費。返還材料及整數規則尚未知，這裡不預估返還後的淨消耗；平均投入也不是保證達標的材料上限。",
+      "english": "Includes retries, selected protection and repairs. Refund materials and integer rules remain uncertain, so net costs are not estimated. Average investment is not a guaranteed material cap.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "點選裝備盤繼續規劃。不同種類使用相同的強化概率、費用和增幅曲線；各自記錄階級。",
+      "english": "Choose a Plating to continue. Every type uses the same probability, cost and amplification curves; grades are recorded separately.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "按原始數值 ×（1 + 增幅）作換算參考；實際取整以遊戲為準。",
+      "english": "Reference: base value × (1 + amplification). Actual rounding follows the game.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "顯示主要功能、附加功能的增幅配置；不是角色總屬性的直接增幅。",
+      "english": "Shows configured amplification of Main and Sub Effects, rather than a direct increase to total Cookie stats.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "大成功 +2、成功 +1、維持不變、降階 −1、碎裂 −2。",
+      "english": "Super +2, Upgrade +1, No Change +0, Downgrade −1, Break −2.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "兩種保護不增加成功與大成功機率；結果限制在 0～25 階。",
+      "english": "Neither protection increases Upgrade or Super probability. Results are capped at grades 0–25.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "費用列按「從該階級嘗試一次」記錄。+25 是目前配置上限。",
+      "english": "Fees are for one attempt from the listed grade. The current configured cap is +25.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "查強化機率、比較裝備加成，規劃巧克力鋼與糖漿熔液。",
+      "english": "Check Plating probabilities, compare equipment bonuses, and plan Chocosteel and Metal Syrup.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "減緩碎裂：將碎裂機率減半，避免的一半轉入維持。",
+      "english": "Reduce Break Chance: halves Break probability; the avoided half moves to No Change.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "階級儲存在裝備盤，更換裝備仍保留加成。",
+      "english": "Grades stay on the Plating; bonuses remain when you change equipment.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "防止降階：將降階機率全部轉入維持。",
+      "english": "Prevent Downgrade: all Downgrade probability moves to No Change.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "各裝備盤的目前階級保存在此瀏覽器。",
+      "english": "Current grades for each Plating stay in this browser.",
+      "authority": "planner translation"
+    },
+    {
+      "source": "查看 / 複製方案 JSON",
+      "english": "View / copy plan JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方指南、資料來源與計算依據",
+      "english": "Official guide, sources and calculations",
+      "authority": "planner translation"
+    },
+    {
+      "source": "材料預估採總投入，不扣返還",
+      "english": "Material estimates show gross investment, before refunds",
+      "authority": "planner translation"
+    },
+    {
+      "source": "強化到目標 · 平均總投入",
+      "english": "To target · Average gross investment",
+      "authority": "planner translation"
+    },
+    {
+      "source": "碎裂時每次修復至強化前階級",
+      "english": "Repair every Break to the previous grade",
+      "authority": "planner translation"
+    },
+    {
+      "source": "正在讀取裝備盤資料…",
+      "english": "Loading Plating data…",
+      "authority": "planner translation"
+    },
+    {
+      "source": "裝備盤方案 JSON",
+      "english": "Plating plan JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本工具資料 JSON",
+      "english": "Tool data JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "匯出方案 JSON",
+      "english": "Export plan JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "12 種裝備盤進度",
+      "english": "12 Plating progress slots",
+      "authority": "planner translation"
+    },
+    {
+      "source": "鐵匠的強化工作檯",
+      "english": "The Sugarsmith's workbench",
+      "authority": "planner translation"
+    },
+    {
+      "source": "這一次的強化結果",
+      "english": "Next enhancement outcomes",
+      "authority": "planner translation"
+    },
+    {
+      "source": "+10 開始可用",
+      "english": "Available from +10",
+      "authority": "planner translation"
+    },
+    {
+      "source": "+15 開始可用",
+      "english": "Available from +15",
+      "authority": "planner translation"
+    },
+    {
+      "source": "查看既有返還觀察",
+      "english": "View recorded refund observation",
+      "authority": "planner translation"
+    },
+    {
+      "source": "換算裝備功能數值",
+      "english": "Convert equipment effect values",
+      "authority": "planner translation"
+    },
+    {
+      "source": "主要功能原始數值",
+      "english": "Base Main Effect value",
+      "authority": "planner translation"
+    },
+    {
+      "source": "附加功能原始數值",
+      "english": "Base Sub Effect value",
+      "authority": "planner translation"
+    },
+    {
+      "source": "每次支付修復費用",
+      "english": "Pay for every repair",
+      "authority": "planner translation"
+    },
+    {
+      "source": "接受碎裂後的階級",
+      "english": "Accept the post-Break grade",
+      "authority": "planner translation"
+    },
+    {
+      "source": "已核實強化規則",
+      "english": "Verified enhancement rules",
+      "authority": "planner translation"
+    },
+    {
+      "source": "保存裝備盤進度",
+      "english": "Save Plating progress",
+      "authority": "planner translation"
+    },
+    {
+      "source": "裝備盤方案連結",
+      "english": "Plating plan link",
+      "authority": "planner translation"
+    },
+    {
+      "source": "複製 JSON",
+      "english": "Copy JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "增幅 JSON",
+      "english": "Amplification JSON",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本次巧克力鋼",
+      "english": "Chocosteel per attempt",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目標加成對比",
+      "english": "Compare target bonuses",
+      "authority": "planner translation"
+    },
+    {
+      "source": "例如 100",
+      "english": "e.g. 100",
+      "authority": "planner translation"
+    },
+    {
+      "source": "計劃嘗試次數",
+      "english": "Plan attempt count",
+      "authority": "planner translation"
+    },
+    {
+      "source": "最多嘗試次數",
+      "english": "Maximum attempts",
+      "authority": "planner translation"
+    },
+    {
+      "source": "官方機率說明",
+      "english": "Official probability notes",
+      "authority": "planner translation"
+    },
+    {
+      "source": "逐項比對記錄",
+      "english": "Item-by-item comparison",
+      "authority": "planner translation"
+    },
+    {
+      "source": "機率 CSV",
+      "english": "Probabilities CSV",
+      "authority": "planner translation"
+    },
+    {
+      "source": "裝備盤強化",
+      "english": "Plating Enhancement",
+      "authority": "planner translation"
+    },
+    {
+      "source": "例如 10",
+      "english": "e.g. 10",
+      "authority": "planner translation"
+    },
+    {
+      "source": "達標後停止",
+      "english": "Stop at target",
+      "authority": "planner translation"
+    },
+    {
+      "source": "逐階配置表",
+      "english": "Grade-by-grade configuration",
+      "authority": "planner translation"
+    },
+    {
+      "source": "本地規劃",
+      "english": "Local planner",
+      "authority": "planner translation"
+    },
+    {
+      "source": "目標階級",
+      "english": "Target grade",
+      "authority": "planner translation"
+    },
+    {
+      "source": "劍裝備盤",
+      "english": "Sword Plating",
+      "authority": "planner translation"
+    },
+    {
+      "source": "防止降階",
+      "english": "Prevent Downgrade",
+      "authority": "planner translation"
+    },
+    {
+      "source": "減緩碎裂",
+      "english": "Reduce Break Chance",
+      "authority": "planner translation"
+    },
+    {
+      "source": "碎裂處理",
+      "english": "Break handling",
+      "authority": "planner translation"
+    },
+    {
+      "source": "烤箱等級",
+      "english": "Oven level",
+      "authority": "planner translation"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "sugar-runes.mjs",
+      "sha256": "4b91f7703229257be8225f75eff5cb10205d4407514994a7524dcadb4262d290"
+    },
+    {
+      "file": "stellar-link.mjs",
+      "sha256": "b84e76932c6f0b0258fb034103aa3ef2ff9261397ab8ad427cfb22b62253765e"
+    },
+    {
+      "file": "plate-enhancement.mjs",
+      "sha256": "d1ab2ed4209b46cc573b0807f694a1dee3f58658bcce3b53a203d6de047727f8"
+    },
+    {
+      "file": "sugar-rune-icons.mjs",
+      "sha256": "530c3ebaa31c479dd6dbf7a81730f72b5b5e6d38209a187e57888bb08c19ddc8"
+    },
+    {
+      "file": "sugar-rune-select.mjs",
+      "sha256": "23ff277dfd0d301ed579229da9202559f5a135af32f40f476c56cb5c48262d13"
+    },
+    {
+      "file": "sugar-rune-math.mjs",
+      "sha256": "068d9fdd48d5fcbcda47dd716bd982ab5f710b3e2b67b69457129b436cb2d31a"
+    },
+    {
+      "file": "stellar-link-math.mjs",
+      "sha256": "41b5334781675e1c4f73b105c207394e4e5a3e8f86508b630659f9eee3474fda"
+    },
+    {
+      "file": "stellar-link-geometry.mjs",
+      "sha256": "6ccf07ddeb75e38618b6a10d6cb4a220c2724e3693686d66c371ca8ad19b8bec"
+    },
+    {
+      "file": "plate-enhancement-math.mjs",
+      "sha256": "2ee300d0a2050a0a260222b01bc96faaa85c976a8a77d90ada5507cf282933d1"
+    },
+    {
+      "file": "book.css",
+      "sha256": "aa2148f25db302db5544bb0d74a823338fefe225491c0ec88aa208b7219745b0"
+    },
+    {
+      "file": "sugar-runes.css",
+      "sha256": "78c03d1a9a90f0891230030d2d7a4024ade1d072b1b531b34b2e9ec1503bfeec"
+    },
+    {
+      "file": "sugar-runes-game.css",
+      "sha256": "790abc57bebb33755cbb04aaa8edb54da26a04e9849837af1dbec5b5a054377b"
+    },
+    {
+      "file": "sugar-rune-select.css",
+      "sha256": "52cdb6a82adb7cc396a6aa8a300729805c0c7c76dfe412444b59a3f77c7fc20c"
+    },
+    {
+      "file": "stellar-link.css",
+      "sha256": "37c74ca3f6064ee0d486df8eb2f76eca2feb78b2cea86fa00a0885c7b7c2582a"
+    },
+    {
+      "file": "plate-enhancement.css",
+      "sha256": "15db7d0b61797da90547ff49efd9223d575996529226930cafb36c772e460ad2"
+    },
+    {
+      "file": "tools/sugar-runes/index.html",
+      "sha256": "418e5b5a373b31e9ea113c80f8a2942fabe26e3b1f02995a8c77466050cf593c"
+    },
+    {
+      "file": "tools/stellar-link/index.html",
+      "sha256": "7739b3598a208e5877974069e32815b5dffa21efbf41babed87169beacbeba48"
+    },
+    {
+      "file": "tools/plate-enhancement/index.html",
+      "sha256": "6bcb529d8f212d686a80a3494b2dc541f805feb9e96de6191f02985881c16931"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "evidenceId": "local-plate-refund-primary-footage-20261015-v1",
+  "createdAtUtc": "2026-10-14T19:17:37.027937+00:00",
+  "question": "Equipment-plate Super Success refund material scope and integer rounding",
+  "status": "legacy-primary-ui-quantity-observation; current-version-rule-unresolved",
+  "summaryZh": "旧录像可读到盔甲 +3 到 +5 大成功，强化前巧克力钢费用4、库存40，结果只有一个可见巧克力钢行，数量1，库存37。录像没有读到返还比例、付费保护状态或游戏版本，不能据此确定当前版本返还范围和整数取整。",
+  "source": {
+    "kind": "primary gameplay footage within author guide video",
+    "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k",
+    "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide",
+    "channel": "F2P Sol",
+    "channelUrl": "https://www.youtube.com/@F2PSol",
+    "publicationDate": "2026-08-03",
+    "publicationDateProvenance": "Observed in the normal YouTube description during initial browse; exact date is a textual observation, not embedded in the archived case screenshots.",
+    "durationSeconds": 1122.961,
+    "platingChapterStartSeconds": 839,
+    "gameBuild": null,
+    "gameBuildLimitation": "No readable game version marker. August footage is not bound to the October 1.5.002 native artifact or extracted table snapshot.",
+    "acceptedSourceLayer": "Visible game UI only; narration and guide conclusions are not server-algorithm evidence."
+  },
+  "captureProtocol": {
+    "provider": "agent-browser; normal rendered YouTube player",
+    "ownedSession": "plate-record-research",
+    "browserSessionClosed": true,
+    "viewport": {
+      "width": 1600,
+      "height": 1000
+    },
+    "keyDecodedVideoSize": {
+      "width": 1920,
+      "height": 1080
+    },
+    "operations": [
+      "Normal page navigation",
+      "Play button",
+      "Normal video quality menu",
+      "HTML5 currentTime seek and pause",
+      "Viewport screenshot"
+    ],
+    "noMediaDownloaded": true,
+    "noStreamUrlExtraction": true,
+    "noAuthenticationBypass": true,
+    "noAuthorContact": true,
+    "noGameInteraction": true,
+    "script": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\plate-seek-capture.ps1",
+    "scriptSha256": "a0890b472d8c4520456680760c9a86bc511d730c1935dd86818f1e7e19bcaeb4",
+    "scriptRevisionLimitation": "Post-capture validation checks were added after error frames 849/855. Those earlier zero-size frames are explicitly rejected here."
+  },
+  "frames": [
+    {
+      "id": "f2psol-0865-00",
+      "status": "valid-context-different-slot",
+      "frameSeconds": 865,
+      "observedAtUtc": "2026-10-14T19:06:28.0742632+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+      "player": {
+        "currentTime": 865,
+        "duration": 1122.961,
+        "height": 1080,
+        "paused": true,
+        "readyState": 4,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+        "width": 1920
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0865-00.png",
+      "screenshotSha256": "c3f5d26492d0f7813cf35cf00e23b5458680ef18b9858d58fa00d3b6ca388745",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0865-00.json",
+      "captureMetadataSha256": "7e6a664c19c78c80db1ebbddc1ec6a8707cad6ea101869dc79f4b6e2bca8e273",
+      "observations": {
+        "plateSlot": "Sword",
+        "currentGrade": 5,
+        "previewGrade": 6,
+        "chocosteelHeld": 40,
+        "displayedChocosteelCost": 6,
+        "metalSyrupHeld": 2,
+        "caseUse": "Exclude this cost from the Armor +3 to +5 result; it belongs to another selected slot."
+      }
+    },
+    {
+      "id": "f2psol-0868-00",
+      "status": "valid-case-precondition",
+      "frameSeconds": 868,
+      "observedAtUtc": "2026-10-14T19:06:16.4383826+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+      "player": {
+        "currentTime": 868,
+        "duration": 1122.961,
+        "height": 1080,
+        "paused": true,
+        "readyState": 4,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+        "width": 1920
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0868-00.png",
+      "screenshotSha256": "f15bff2463179e481753951ebba9231cdedeb171f7137415f33439280a074063",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0868-00.json",
+      "captureMetadataSha256": "a939c61467af6d36c1c93b80016b69fb7afc989924ef5252c2aef614214519a3",
+      "observations": {
+        "plateSlot": "Armor",
+        "currentGrade": 3,
+        "previewGrade": 4,
+        "chocosteelHeld": 40,
+        "displayedChocosteelCost": 4,
+        "upgradeButtonAmountText": "40/4",
+        "metalSyrupHeld": 2,
+        "resultChancePercent": {
+          "super": 10,
+          "upgrade": 75,
+          "noChange": 15,
+          "downgrade": 0,
+          "break": 0
+        },
+        "refundPercent": null,
+        "protectionControls": "not displayed in this low-grade frame",
+        "protectionToggleState": null,
+        "extraProtectionCostRow": "not displayed",
+        "automaticPlatingToggle": "not displayed"
+      }
+    },
+    {
+      "id": "f2psol-0875-00",
+      "status": "valid-case-result",
+      "frameSeconds": 875,
+      "observedAtUtc": "2026-10-14T19:06:18.0964392+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+      "player": {
+        "currentTime": 875,
+        "duration": 1122.961,
+        "height": 1080,
+        "paused": true,
+        "readyState": 4,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+        "width": 1920
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0875-00.png",
+      "screenshotSha256": "adb357db574ab8c03874691ff03ef0842449affa2b25e399f0a32b45f04125ba",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0875-00.json",
+      "captureMetadataSha256": "d11e4aa69de47c59cbe290c005c2e2f71338d8bb797f9be8292d3ea69d3c2f9e",
+      "observations": {
+        "plateSlot": "Armor",
+        "result": "Super",
+        "fromGrade": 3,
+        "toGrade": 5,
+        "materialRowLabel": "Materials left after Super Success",
+        "visibleMaterialRows": [
+          {
+            "visualIdentity": "Chocosteel brown ingot icon",
+            "quantity": 1
+          }
+        ],
+        "additionalVisibleMaterialRows": 0,
+        "chocosteelHeld": 37,
+        "metalSyrupHeld": 2,
+        "newUpgradePreviewCost": 6,
+        "newUpgradePreviewCostUse": "This belongs to the next +5 upgrade and is not the completed +3 cost.",
+        "refundPercent": null
+      }
+    },
+    {
+      "id": "f2psol-0880-00",
+      "status": "valid-case-result-corroboration",
+      "frameSeconds": 880,
+      "observedAtUtc": "2026-10-14T19:06:29.9078003+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+      "player": {
+        "currentTime": 880,
+        "duration": 1122.961,
+        "height": 1080,
+        "paused": true,
+        "readyState": 4,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+        "width": 1920
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0880-00.png",
+      "screenshotSha256": "a33cc5e6368f81f625d821f641c74d56a7cb30708ae979ca1da14d6e9f327d9b",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0880-00.json",
+      "captureMetadataSha256": "ea44098d50c09bb79c1559e22188a2ae7afdeddc63ccacd36954cc5610114612",
+      "observations": {
+        "result": "Super",
+        "fromGrade": 3,
+        "toGrade": 5,
+        "visibleMaterialRows": [
+          {
+            "visualIdentity": "Chocosteel brown ingot icon",
+            "quantity": 1
+          }
+        ],
+        "additionalVisibleMaterialRows": 0,
+        "chocosteelHeld": 37,
+        "metalSyrupHeld": 2,
+        "observation": "Same result panel remains visible five seconds later; no second material row is visible."
+      }
+    },
+    {
+      "id": "f2psol-0885-00",
+      "status": "valid-nondiagnostic",
+      "frameSeconds": 885,
+      "observedAtUtc": "2026-10-14T19:07:05.5114043+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+      "player": {
+        "currentTime": 885,
+        "duration": 1122.961,
+        "height": 1080,
+        "paused": true,
+        "readyState": 4,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=839s",
+        "width": 1920
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0885-00.png",
+      "screenshotSha256": "ac5e4abf05c6460a368418a8c12d21a876a78fd17c5866b767c7de5e473a4a8d",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0885-00.json",
+      "captureMetadataSha256": "f3691709a3fe88938b4bfcb494c93e99e4b94cf10674df6e1424ea5e365466a0",
+      "observations": {
+        "screen": "Plating animation",
+        "caseUse": "Later continuation only; no readable pre-grade, cost or refund quantity."
+      }
+    },
+    {
+      "id": "f2psol-0915-00",
+      "status": "valid-nondiagnostic",
+      "frameSeconds": 915,
+      "observedAtUtc": "2026-10-14T19:09:23.5954780+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+      "player": {
+        "currentTime": 915,
+        "duration": 1122.961,
+        "height": 360,
+        "paused": true,
+        "readyState": 4,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+        "width": 640
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0915-00.png",
+      "screenshotSha256": "a6ba352c10f99d68ed4e57be74dd88166181924583ef2123d08293f6ef56acb3",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0915-00.json",
+      "captureMetadataSha256": "1f6b84c901f1fa6eb363a1ba03dad8b0a4a8d43fedb1c3659730f93cc448c3c8",
+      "observations": {
+        "screen": "Plating animation",
+        "caseUse": "No readable grade, cost or refund quantity; decoded video resolution 640 x 360."
+      }
+    },
+    {
+      "id": "f2psol-0940-00",
+      "status": "valid-outside-plate-case",
+      "frameSeconds": 940,
+      "observedAtUtc": "2026-10-14T19:09:33.1960061+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+      "player": {
+        "currentTime": 940,
+        "duration": 1122.961,
+        "height": 720,
+        "paused": true,
+        "readyState": 4,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+        "width": 1280
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0940-00.png",
+      "screenshotSha256": "489647f7c1ce5707ba01e9a8dc98d165d08bdf669c16cf109a0eae743ee51034",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0940-00.json",
+      "captureMetadataSha256": "f1fb5ad41eaca9cccd15ce9f5c94155a6f5a544dd49c12501900ba7279bc8217",
+      "observations": {
+        "screen": "Auto Bake equipment settings",
+        "caseUse": "Not an equipment-plate refund result."
+      }
+    },
+    {
+      "id": "f2psol-0967-00",
+      "status": "not-reviewed-excluded",
+      "frameSeconds": 967,
+      "observedAtUtc": "2026-10-14T19:09:44.2471283+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+      "player": {
+        "currentTime": 967,
+        "duration": 1122.961,
+        "height": 720,
+        "paused": true,
+        "readyState": 4,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+        "width": 1280
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0967-00.png",
+      "screenshotSha256": "26904eaf6348d2bb395737ce05132853672789ddb272928e0440dc2273b45c2b",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0967-00.json",
+      "captureMetadataSha256": "747c7f0f9d848951f1685931c9ac5807b482d615039c8db05b70bc7b03265b61",
+      "observations": {
+        "caseUse": "No conclusion drawn from this later valid-player capture; outside narrowed case scope."
+      }
+    },
+    {
+      "id": "f2psol-0849-00",
+      "status": "rejected-player-error",
+      "frameSeconds": 849,
+      "observedAtUtc": "2026-10-14T19:11:14.5602965+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+      "player": {
+        "currentTime": 849,
+        "duration": null,
+        "height": 0,
+        "paused": true,
+        "readyState": 0,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+        "width": 0
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0849-00.png",
+      "screenshotSha256": "315de1c799f92e7128e72bcef55c894728862d82cb83c56e35516a4252ef4510",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0849-00.json",
+      "captureMetadataSha256": "e27f67ac2fa9434f488530fe78ee7322b33fa772aab6678fdf92760e27ca9cc4",
+      "observations": {
+        "caseUse": "Player error; decoded width/height and readyState are zero. Not gameplay evidence."
+      }
+    },
+    {
+      "id": "f2psol-0855-00",
+      "status": "rejected-player-error",
+      "frameSeconds": 855,
+      "observedAtUtc": "2026-10-14T19:11:46.1525896+00:00",
+      "sourceUrlAtCapture": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+      "player": {
+        "currentTime": 855,
+        "duration": null,
+        "height": 0,
+        "paused": true,
+        "readyState": 0,
+        "seeking": false,
+        "title": "Your Combat Power Is a LIE — CookieRun: Crumble Gear & Plating Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xhw4Z6_q56k&t=915s",
+        "width": 0
+      },
+      "screenshot": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0855-00.png",
+      "screenshotSha256": "315de1c799f92e7128e72bcef55c894728862d82cb83c56e35516a4252ef4510",
+      "captureMetadata": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0855-00.json",
+      "captureMetadataSha256": "a09ff9d99be5df07e564c039df46257fb054a1f25d66d69ca76abdfc73e9a008",
+      "observations": {
+        "caseUse": "Player error; decoded width/height and readyState are zero. Not gameplay evidence."
+      }
+    }
+  ],
+  "ancillaryRejectedCaptures": [
+    {
+      "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0839.png",
+      "sha256": "3473508f304e596f98efc32ddeaa8e23ac5a4b47503f75b3ae8a57569616d6b7",
+      "reason": "YouTube playback error screen; no valid gameplay frame."
+    },
+    {
+      "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-reload-0839.png",
+      "sha256": "dee1f2248eccb282a74a166360bd255287f3017bc37655ebaab94f9e3c1c1a79",
+      "reason": "Poster/thumbnail after reload; currentTime alone does not prove a decoded gameplay frame."
+    },
+    {
+      "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-0950-00.png",
+      "sha256": "8f3d88799bca1b4fae42a8cfd1ae8eae7c613496a73cf629bc601d394db80f1d",
+      "reason": "No matching valid seek metadata; stalled capture sequence excluded."
+    },
+    {
+      "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-02\\f2psol-1000-00.png",
+      "sha256": "8f3d88799bca1b4fae42a8cfd1ae8eae7c613496a73cf629bc601d394db80f1d",
+      "reason": "No matching valid seek metadata; stalled capture sequence excluded."
+    }
+  ],
+  "observedFacts": [
+    {
+      "claim": "At 868 s the selected Armor is +3 and the displayed next-upgrade Chocosteel cost is 4 with 40 held.",
+      "frames": [
+        "f2psol-0868-00"
+      ]
+    },
+    {
+      "claim": "At 875 and 880 s the Super result shows +3 to +5 and one visible Chocosteel row with quantity 1.",
+      "frames": [
+        "f2psol-0875-00",
+        "f2psol-0880-00"
+      ]
+    },
+    {
+      "claim": "Chocosteel wallet shows 40 before and 37 after; Metal Syrup wallet shows 2 in both frames.",
+      "frames": [
+        "f2psol-0868-00",
+        "f2psol-0875-00",
+        "f2psol-0880-00"
+      ]
+    },
+    {
+      "claim": "No protection control or extra protection-cost row is displayed in the +3 precondition frame; downgrade and break probabilities are zero.",
+      "frames": [
+        "f2psol-0868-00"
+      ]
+    },
+    {
+      "claim": "The displayed Super 10% at 868 s is outcome probability, not a visible refund percentage.",
+      "frames": [
+        "f2psol-0868-00"
+      ]
+    }
+  ],
+  "inferences": [
+    {
+      "claim": "The precondition and result most likely belong to the same Armor +3 upgrade attempt.",
+      "basis": "Same plate slot and result's own from-grade +3; seven seconds between captures.",
+      "limitation": "Frames 869–874 and the exact click/continuous playback were not archived. The video is an edited guide, so uninterrupted continuity and manual versus automatic initiation are not proven."
+    },
+    {
+      "claim": "Observed wallet difference is consistent with paying 4 and retaining/receiving 1 Chocosteel, net consumption 3.",
+      "arithmetic": {
+        "before": 40,
+        "after": 37,
+        "netConsumption": 3,
+        "displayedCost": 4,
+        "displayedLeftover": 1
+      },
+      "limitation": "No Payments/Rewards response captured. The UI calls this materials left, so the screenshot cannot separately distinguish a smaller debit from a full debit followed by a server refund."
+    }
+  ],
+  "candidateTests": {
+    "unconditional": {
+      "ceilVersusMinimumOne": "Not distinguishable from one small positive returned quantity.",
+      "floorOrNearestForCurrentVersion": "Not excluded; the historical in-video refund percentage and current version binding are missing.",
+      "baseOnlyVersusAllPaidMaterials": "Not distinguishable; no protection material was visibly charged in this low-grade case.",
+      "multiMaterialRefundUi": "Only one row observed for this case; does not establish global refund scope."
+    },
+    "conditionalIllustration": {
+      "assumption": "If this historical +3 attempt used the same 10% refund rate as the separately extracted October table, then 4 x 10% = 0.4.",
+      "assumptionVerifiedInVideo": false,
+      "rawProduct": 0.4,
+      "expectedByCandidate": {
+        "strictFloor": 0,
+        "nearestInteger": 0,
+        "ceil": 1,
+        "floorWithMinimumOne": 1,
+        "nearestWithMinimumOne": 1
+      },
+      "interpretation": "Observed 1 would conflict with strict floor/nearest under that unverified assumption and fit ceil or minimum-one variants. This is not accepted proof of current rounding.",
+      "additionalPossibleCandidates": [
+        "A differing historical refund rate",
+        "Stochastic rounding",
+        "Another server rule or UI debit convention"
+      ]
+    }
+  },
+  "remainingEvidenceRequirements": [
+    "A current-build attempt showing its actual refund-rate detail and readable paid Chocosteel cost, followed by Super result quantities.",
+    "At least one non-integer product above one, such as current pre-grade +6 cost 7 at 25%, to distinguish floor-with-minimum-one from ceil.",
+    "A paid-protection Super attempt with nonzero protection cost and theoretically observable refund, or recorded Payments/Rewards item IDs and amounts, to resolve material scope."
+  ],
+  "boundedSearch": {
+    "queryFamilies": [
+      "쿠키런 크럼블 플레이트 강화 대성공",
+      "CookieRun Crumble plate upgrade super refund video",
+      "CookieRun Crumble plating YouTube",
+      "CookieRun Crumble plate super YouTube",
+      "薑餅人放置大戰爭 裝備盤 YouTube",
+      "薑餅人放置大戰爭 大成功",
+      "site:forum.gamer.com.tw 85818 大成功 退還",
+      "site:bilibili.com 薑餅人 装备盘 强化"
+    ],
+    "normalYouTubeSearchUrl": "https://www.youtube.com/results?search_query=CookieRun+Crumble+plating",
+    "primaryCandidateReviewed": "https://www.youtube.com/watch?v=Xhw4Z6_q56k",
+    "additionalLeadsNotAcceptedAsEvidence": [
+      {
+        "url": "https://www.youtube.com/shorts/SF82LlWli-0",
+        "status": "Search result only; not opened."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ckKSq_wBLU8",
+        "status": "Official equipment-introduction search lead only; not opened."
+      },
+      {
+        "url": "https://forum.gamer.com.tw/C.php?bsn=85818&snA=677&tnum=2",
+        "status": "Guide search lead; no accepted readable refund measurement."
+      },
+      {
+        "url": "https://crumbles.fun/en/plate",
+        "status": "Third-party calculator lead supplied by parent; not server evidence."
+      }
+    ],
+    "acceptedCurrentGrade5Or6RefundTrials": 0,
+    "acceptedPaidProtectionRefundTrials": 0,
+    "stopReason": "Parent narrowed the task to the discovered +3 to +5 continuous source segment; further broad searching was stopped."
+  },
+  "accessBoundary": {
+    "observations": [
+      "Distant player seeks occasionally produced a YouTube playback error; valid captures were recovered through normal close/reopen and Play.",
+      "The CLI also stalled with Windows socket timeout 10060; offline quick doctor passed, no provider repair or bypass performed.",
+      "Exact pre-click or refund-rate-detail frames were not recovered; zero-size error captures are retained but rejected."
+    ],
+    "effect": "No conclusion is based on posters, errors, unreviewed frames or missing capture metadata."
+  },
+  "previousIndependentCodeEvidence": {
+    "nativeSourceSha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+    "report": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\plate-refund-wide-analysis.json",
+    "reportSha256": "e39e1e731d169c565db27c0ca73612c371932c9827587b2740d230334db33d8c",
+    "boundary": "Client receives server amount fields and passes integer quantities to UI; exhaustive examined client refund paths did not establish server scope or rounding. Historical footage is not merged into this build's algorithm proof."
+  },
+  "siteRecommendation": "Retain gross paid-material cost. Preserve the historical one-unit UI sample separately; do not deduct fractional or assumed rounded refunds from current tool estimates."
+}

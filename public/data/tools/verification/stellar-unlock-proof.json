@@ -1,0 +1,103 @@
+{
+  "evidenceId": "local-stellar-contents-unlock-proof-20261015",
+  "source": "Authenticated same-package recovered tables; SQLite mode=ro and verified per-row hashes",
+  "contentsUnlockId": 1843681904,
+  "name": {
+    "ContentsUnlock.ContentsDescription.1843681904": "新功能開放！",
+    "ContentsUnlock.ContentsName.1843681904": "星際連線"
+  },
+  "prerequisiteGuideId": 1634356076,
+  "guideOrder": 374,
+  "guideClearRequirement": "REQUIREMENTTYPE_STAGE_CLEAR",
+  "stageOrder": 120,
+  "chapter": 4,
+  "stage": 30,
+  "priorGuideId": 1164969266,
+  "records": {
+    "ContentsUnlocks": {
+      "record": {
+        "availabilityType": "CONTENTSUNLOCKAVAILABILITYTYPE_NONE",
+        "contentsDescription": {
+          "key": "ContentsUnlock.ContentsDescription.1843681904",
+          "originalText": "새로운 기능 오픈!"
+        },
+        "contentsName": {
+          "key": "ContentsUnlock.ContentsName.1843681904",
+          "originalText": "스텔라 링크"
+        },
+        "contentsUnlockId": 1843681904,
+        "contentsUnlockPopupActionType": "CONTENTSUNLOCKPOPUPACTIONTYPE_POPUP",
+        "contentsUnlockType": "CONTENTSUNLOCKTYPE_NONE",
+        "overrideDescription": {
+          "noTstring": {}
+        },
+        "resourceKey": "icon_contentsunlock_StellaLink",
+        "reviewModeContentsUnlockType": "REVIEWMODECONTENTSUNLOCKTYPE_UNLOCK",
+        "unlockPopup": "ContentsUnlockIconPopup",
+        "unlockRequirementType": "REQUIREMENTTYPE_PROGRESSIVE_GUIDE_CLEAR",
+        "unlockRequirementValues": [
+          "1634356076"
+        ]
+      },
+      "recordSha256": "1bc8c5dcf00751b21f485de26e4bd74434f91b57f0cecf73190a819b3b4683a6"
+    },
+    "Guides": {
+      "record": {
+        "clearRequirementType": "REQUIREMENTTYPE_STAGE_CLEAR",
+        "clearRequirementValues": [
+          "120"
+        ],
+        "cumulativeGuideDailyMaxClearCount": {
+          "noInt": {}
+        },
+        "cumulativeGuideMaxClearCount": {
+          "noInt": {}
+        },
+        "guideType": "GUIDETYPE_PROGRESSIVE_GUIDE",
+        "id": 1634356076,
+        "order": 374,
+        "overrideDescription": {
+          "noTstring": {}
+        },
+        "priorGuideId": {
+          "int": 1164969266
+        },
+        "repeatType": "REPEATTYPE_NONE",
+        "rewardAmount": "30",
+        "rewardId": 1075390700,
+        "shortcutType": "SHORTCUTTYPE_SHOW_MAIN"
+      },
+      "recordSha256": "2a4b2aa37829545e55e050de4546d62ef3f18fed0ca913801f9b9558f19896c6"
+    },
+    "StageBattleSettings": {
+      "record": {
+        "accuracyRate": 1.77,
+        "attackRate": 3.299,
+        "avoidanceRate": 1.34,
+        "bossBattleTimeLimit": {
+          "millis": "30000"
+        },
+        "bossHealthRateMuiltiplier": 1.06,
+        "bossWave": "Stage4_8_Boss",
+        "chapterNumber": 4,
+        "cookieTalkFilterType": "COOKIETALKFILTERTYPE_STAGE_PILGRIMAGE",
+        "defenseRate": 1.264,
+        "focusRate": 1,
+        "healthRate": 6.25,
+        "killCountToBossSpawn": 140,
+        "maximumAmountOfLivingMonsters": 80,
+        "monsterBubblePoolId": 1900580459,
+        "normalWave": "Stage4_1_Normal",
+        "recommendedCombatPower": "26758",
+        "resistRate": 1.14,
+        "stageClearType": "STAGECLEARTYPE_BOSS_KILLED",
+        "stageNumber": 30,
+        "stageOrder": 120,
+        "stagePassiveId": 0,
+        "weatherPresets": "WEATHERPRESETSTYPE_NONE"
+      },
+      "recordSha256": "eb08c656827aef4515b17e11a2b536fb6a555a6a3ffe97750791fb64eb8b1daf"
+    }
+  },
+  "interpretation": "Feature requires progressive guide1634356076 to be cleared (order374), which requires clearing stage120, chapter4-stage30. Complete the relevant progressive quest chain; stage progression alone is not the configured feature requirement."
+}

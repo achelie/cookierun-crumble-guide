@@ -1,0 +1,69 @@
+{
+  "evidenceId": "local-official-stellar-probabilities-20261015-v1",
+  "url": "https://cs-cookieruncrumble.devsisters.com/hc/en-us/articles/60511654951321-Stellar-Link-Probabilities",
+  "observedAt": "2026-10-14T18:46:08.905014+00:00",
+  "access": "Official source read through web search/open; separate direct HTTP archive attempt returned403, so no original HTML bytes/hash asserted.",
+  "authority": "official Devsisters support notice",
+  "placementCounts": [
+    {
+      "stars": 3,
+      "count": 1320,
+      "probability": "1/1320"
+    },
+    {
+      "stars": 4,
+      "count": 11880,
+      "probability": "1/11880"
+    },
+    {
+      "stars": 5,
+      "count": 95040,
+      "probability": "1/95040"
+    },
+    {
+      "stars": 6,
+      "count": 665280,
+      "probability": "1/665280"
+    },
+    {
+      "stars": 7,
+      "count": 3991680,
+      "probability": "1/3991680"
+    },
+    {
+      "stars": 8,
+      "count": 19958400,
+      "probability": "1/19958400"
+    },
+    {
+      "stars": 9,
+      "count": 79833600,
+      "probability": "1/79833600"
+    },
+    {
+      "stars": 10,
+      "count": 239500800,
+      "probability": "1/239500800"
+    },
+    {
+      "stars": 11,
+      "count": 479001600,
+      "probability": "1/479001600"
+    }
+  ],
+  "paraphrase": {
+    "distribution": "Each complete ordered placement is equally likely; unlocked shards are repositioned equally likely while locks are kept.",
+    "area": "Area and bonus are determined by positions without an extra random outcome."
+  },
+  "derived": {
+    "model": "12P(n), ordered distinct positions; every published3..11 count matches",
+    "twelveStarsCount": 479001600,
+    "twelveStarsAuthority": "mathematical continuation; published table endsat11"
+  },
+  "unknown": [
+    "coordinate-to-area formula",
+    "integer area rounding",
+    "independence between separate rolls"
+  ],
+  "publishedDate": "not shown in inspected source"
+}

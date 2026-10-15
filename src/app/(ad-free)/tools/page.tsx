@@ -10,8 +10,16 @@ import { cookieById } from "@/data/cookies";
 import { pageMetadata } from "@/lib/metadata";
 import { absoluteUrl, seoPages } from "@/lib/seo";
 import { collectionPageSchema } from "@/lib/structured-data";
+import runeUi from "@/data/tools/sugar-rune-ui.json";
+import stellarUi from "@/data/tools/stellar-link-ui.json";
+import plateUi from "@/data/tools/plate-enhancement-ui.json";
 
 const page = seoPages.tools;
+const calculators = [
+  { page: seoPages.sugarRunes, name: "Sugar Rune Calculator", image: runeUi.runes.SSR.src, description: "Set eight Rune slots. Compare lock strategies, Rune Crystal costs and crafting chances." },
+  { page: seoPages.stellarLink, name: "Stellar Link Calculator", image: stellarUi.currency.src, description: "Arrange Starshards, keep good positions and budget Stellar Points across ten constellations." },
+  { page: seoPages.plateEnhancement, name: "Plating Enhancement Calculator", image: plateUi.equipment.SWORD.src, description: "Compare protection, estimate materials and track all twelve Plating grades." },
+];
 export const metadata: Metadata = pageMetadata(page);
 
 export default function ToolsPage() {
@@ -29,6 +37,7 @@ export default function ToolsPage() {
       <StructuredData data={collectionPageSchema(page, [
         { "@type": "WebApplication", name: seoPages.teamBuilder.h1, url: absoluteUrl(seoPages.teamBuilder.path), description: seoPages.teamBuilder.description, applicationCategory: "GameApplication", operatingSystem: "Any", isAccessibleForFree: true },
         { "@type": "WebApplication", name: seoPages.tierBuilder.h1, url: absoluteUrl(seoPages.tierBuilder.path), description: seoPages.tierBuilder.description, applicationCategory: "GameApplication", operatingSystem: "Any", isAccessibleForFree: true },
+        ...calculators.map(({ page }) => ({ "@type": "WebApplication", name: page.h1, url: absoluteUrl(page.path), description: page.description, applicationCategory: "GameApplication", operatingSystem: "Any", isAccessibleForFree: true })),
       ])} />
       <Suspense fallback={null}><LegacyToolsQueryRedirect /></Suspense>
       <SeoPageHeader page={page} icon="tools" />
@@ -56,6 +65,9 @@ export default function ToolsPage() {
             <span>{tierCookies.map((cookie) => <Image key={cookie.id} src={cookie.image} alt="" width={110} height={110} />)}</span>
           </span>
         </Link>
+      </section>
+      <section className="calculator-directory" aria-label="Game calculators">
+        {calculators.map(tool => <Link key={tool.page.path} href={tool.page.path}><Image src={tool.image} alt="" width={74} height={80} /><span><strong>{tool.name}</strong><small>{tool.description}</small></span><b>Open calculator<AppIcon name="chevron" size={17} /></b></Link>)}
       </section>
     </div>
   );

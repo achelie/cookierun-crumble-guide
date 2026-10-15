@@ -1,0 +1,877 @@
+[
+  {
+    "plateGrade": 0,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 0,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "9000"
+    }
+  },
+  {
+    "plateGrade": 0,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 0,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 0,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 1,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 1,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "8500"
+    }
+  },
+  {
+    "plateGrade": 1,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "500"
+    }
+  },
+  {
+    "plateGrade": 1,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 1,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 2,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 2,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "8000"
+    }
+  },
+  {
+    "plateGrade": 2,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 2,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 2,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 3,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 3,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "7500"
+    }
+  },
+  {
+    "plateGrade": 3,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "1500"
+    }
+  },
+  {
+    "plateGrade": 3,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 3,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 4,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "500"
+    }
+  },
+  {
+    "plateGrade": 4,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 4,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "4500"
+    }
+  },
+  {
+    "plateGrade": 4,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 4,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 5,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "300"
+    }
+  },
+  {
+    "plateGrade": 5,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 5,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "4700"
+    }
+  },
+  {
+    "plateGrade": 5,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 5,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 6,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "300"
+    }
+  },
+  {
+    "plateGrade": 6,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "4500"
+    }
+  },
+  {
+    "plateGrade": 6,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "5200"
+    }
+  },
+  {
+    "plateGrade": 6,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 6,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 7,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "300"
+    }
+  },
+  {
+    "plateGrade": 7,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "4300"
+    }
+  },
+  {
+    "plateGrade": 7,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "5400"
+    }
+  },
+  {
+    "plateGrade": 7,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 7,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 8,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "300"
+    }
+  },
+  {
+    "plateGrade": 8,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "4000"
+    }
+  },
+  {
+    "plateGrade": 8,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "5700"
+    }
+  },
+  {
+    "plateGrade": 8,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 8,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 9,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "150"
+    }
+  },
+  {
+    "plateGrade": 9,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateGrade": 9,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "6850"
+    }
+  },
+  {
+    "plateGrade": 9,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 9,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 10,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "100"
+    }
+  },
+  {
+    "plateGrade": 10,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "2500"
+    }
+  },
+  {
+    "plateGrade": 10,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "6400"
+    }
+  },
+  {
+    "plateGrade": 10,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 10,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 11,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "100"
+    }
+  },
+  {
+    "plateGrade": 11,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "2400"
+    }
+  },
+  {
+    "plateGrade": 11,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "6200"
+    }
+  },
+  {
+    "plateGrade": 11,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "1300"
+    }
+  },
+  {
+    "plateGrade": 11,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 12,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "100"
+    }
+  },
+  {
+    "plateGrade": 12,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "2300"
+    }
+  },
+  {
+    "plateGrade": 12,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "6200"
+    }
+  },
+  {
+    "plateGrade": 12,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "1400"
+    }
+  },
+  {
+    "plateGrade": 12,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 13,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "50"
+    }
+  },
+  {
+    "plateGrade": 13,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "2000"
+    }
+  },
+  {
+    "plateGrade": 13,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "6350"
+    }
+  },
+  {
+    "plateGrade": 13,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "1600"
+    }
+  },
+  {
+    "plateGrade": 13,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 14,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "50"
+    }
+  },
+  {
+    "plateGrade": 14,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "1400"
+    }
+  },
+  {
+    "plateGrade": 14,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "6550"
+    }
+  },
+  {
+    "plateGrade": 14,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "2000"
+    }
+  },
+  {
+    "plateGrade": 14,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateGrade": 15,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "50"
+    }
+  },
+  {
+    "plateGrade": 15,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "1200"
+    }
+  },
+  {
+    "plateGrade": 15,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "5850"
+    }
+  },
+  {
+    "plateGrade": 15,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "2400"
+    }
+  },
+  {
+    "plateGrade": 15,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "500"
+    }
+  },
+  {
+    "plateGrade": 16,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "50"
+    }
+  },
+  {
+    "plateGrade": 16,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 16,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "5550"
+    }
+  },
+  {
+    "plateGrade": 16,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "2800"
+    }
+  },
+  {
+    "plateGrade": 16,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "600"
+    }
+  },
+  {
+    "plateGrade": 17,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "30"
+    }
+  },
+  {
+    "plateGrade": 17,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "800"
+    }
+  },
+  {
+    "plateGrade": 17,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "5270"
+    }
+  },
+  {
+    "plateGrade": 17,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "3200"
+    }
+  },
+  {
+    "plateGrade": 17,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "700"
+    }
+  },
+  {
+    "plateGrade": 18,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "20"
+    }
+  },
+  {
+    "plateGrade": 18,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "600"
+    }
+  },
+  {
+    "plateGrade": 18,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "4980"
+    }
+  },
+  {
+    "plateGrade": 18,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "3600"
+    }
+  },
+  {
+    "plateGrade": 18,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "800"
+    }
+  },
+  {
+    "plateGrade": 19,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "10"
+    }
+  },
+  {
+    "plateGrade": 19,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "200"
+    }
+  },
+  {
+    "plateGrade": 19,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "4890"
+    }
+  },
+  {
+    "plateGrade": 19,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "3900"
+    }
+  },
+  {
+    "plateGrade": 19,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 20,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "10"
+    }
+  },
+  {
+    "plateGrade": 20,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "200"
+    }
+  },
+  {
+    "plateGrade": 20,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "4490"
+    }
+  },
+  {
+    "plateGrade": 20,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "4200"
+    }
+  },
+  {
+    "plateGrade": 20,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "1100"
+    }
+  },
+  {
+    "plateGrade": 21,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "10"
+    }
+  },
+  {
+    "plateGrade": 21,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "200"
+    }
+  },
+  {
+    "plateGrade": 21,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "4290"
+    }
+  },
+  {
+    "plateGrade": 21,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "4300"
+    }
+  },
+  {
+    "plateGrade": 21,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "1200"
+    }
+  },
+  {
+    "plateGrade": 22,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "10"
+    }
+  },
+  {
+    "plateGrade": 22,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "200"
+    }
+  },
+  {
+    "plateGrade": 22,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "4090"
+    }
+  },
+  {
+    "plateGrade": 22,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "4400"
+    }
+  },
+  {
+    "plateGrade": 22,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "1300"
+    }
+  },
+  {
+    "plateGrade": 23,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "10"
+    }
+  },
+  {
+    "plateGrade": 23,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "200"
+    }
+  },
+  {
+    "plateGrade": 23,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "3890"
+    }
+  },
+  {
+    "plateGrade": 23,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "4500"
+    }
+  },
+  {
+    "plateGrade": 23,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "1400"
+    }
+  },
+  {
+    "plateGrade": 24,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_GREAT_SUCCESS",
+    "rate": {
+      "value": "10"
+    }
+  },
+  {
+    "plateGrade": 24,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_SUCCESS",
+    "rate": {
+      "value": "200"
+    }
+  },
+  {
+    "plateGrade": 24,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_MAINTAIN",
+    "rate": {
+      "value": "3690"
+    }
+  },
+  {
+    "plateGrade": 24,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DECLINE",
+    "rate": {
+      "value": "4600"
+    }
+  },
+  {
+    "plateGrade": 24,
+    "plateUpgradeResultType": "PLATEUPGRADERESULTTYPE_DESTROY",
+    "rate": {
+      "value": "1500"
+    }
+  }
+]

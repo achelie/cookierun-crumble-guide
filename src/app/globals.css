@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./tools.css";
 
 :root {
   --paper: #f5efe2;
@@ -75,6 +76,10 @@ body::before {
   background-size: 7px 7px;
   mix-blend-mode: multiply;
 }
+
+/* The replica keeps its own panel textures. Site grain stays on the page paper. */
+body:has(.tool-replica) { isolation: isolate; }
+body:has(.tool-replica)::before { z-index: -1; }
 
 @media (prefers-color-scheme: dark) { body::before { mix-blend-mode: screen; opacity: 0.025; } }
 

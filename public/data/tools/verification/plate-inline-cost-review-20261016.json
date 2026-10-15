@@ -1,0 +1,2081 @@
+{
+  "evidenceId": "local-plate-inline-cost-review-20261016-v1",
+  "createdAtUtc": "2026-10-15T17:35:20.975759+00:00",
+  "authority": "Bounded offline semantic derivation from saved ordinary-ADB executable section; not REA-generated Evidence, no process execution or server observation.",
+  "status": "four confirmed costInfo refund-field reader/writer methods within the reviewed35 candidates; global formula and unbound receiver types unresolved",
+  "inputs": [
+    {
+      "originalPath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\metadata-native-index-core4.json",
+      "archivedPath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\inputs\\2a33c8667e2e-metadata-native-index-core4.json",
+      "sha256": "2a33c8667e2e55f7e15c02dd1e07ea09d3144f368f4ce8af129eae42409e9ecf",
+      "bytes": 53897110
+    },
+    {
+      "originalPath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\native-refund-xrefs-core4.json",
+      "archivedPath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\inputs\\3639b3e3c4c2-native-refund-xrefs-core4.json",
+      "sha256": "3639b3e3c4c21d58563c0e84d6c96933cf2e877ad9b0f376975b0df5b8dcbc6a",
+      "bytes": 2094719
+    },
+    {
+      "originalPath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\runtime-code-01\\capture.json",
+      "archivedPath": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\inputs\\c6e1a413163d-capture.json",
+      "sha256": "c6e1a413163dc82fc4dfb78cbe006ecc65b460d2a7feb304f44504451d85d04b",
+      "bytes": 11043
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\runtime-code-01\\il2cpp-executable-section.bin",
+      "sha256": "5585346d25f3db7d3656072a5f2f999ea37509ed3068707cb0e99d767185a6d8",
+      "bytes": 114551548
+    }
+  ],
+  "extractionManifest": {
+    "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\method-extraction.json",
+    "sha256": "7425d4d9bbc23b85543e020999f0a95a36483bbb0d6519b2a76b1254f3239aaf",
+    "bytes": 652980
+  },
+  "coverage": {
+    "codeSectionBytes": 114551548,
+    "sectionRva": "0x6161500",
+    "extractedRelatedMethods": 275,
+    "extractedDeclaredBytes": 77584,
+    "allExtractedMethodsFullyDecoded": true,
+    "extractedFullyDecodedMethods": 275,
+    "manualSemanticBoundary": "The35 core4 methods flagged by generic displacement scan plus the listed cost construction, display, cost access and BasisPoint chains. Extraction/disassembly of275 does not mean all275 were semantically audited.",
+    "candidateMethodsReviewed": 35,
+    "methodClassificationCounts": {
+      "contains-unresolved-receiver": 11,
+      "confirmed-refund-reader-or-writer": 4,
+      "confirmed-other-receivers-only": 20
+    },
+    "candidateInstructionClassificationCounts": {
+      "unresolved-receiver-type": 11,
+      "confirmed-refund-field": 4,
+      "confirmed-other": 85
+    },
+    "globalUniquenessEstablished": false,
+    "all9600DisplacementMethodsReviewed": false
+  },
+  "confirmedRefundMethods": [
+    {
+      "method": "Crumble.Table.PlateUpgradeCostInfo::get_GreatSuccessRefundRate",
+      "rva": "0x631e1b2",
+      "nativeSha256": "b744078ef539e9a212536630d91bc12ecb1d6f9a28a9e9cd2140907b1cc74219",
+      "confirmedInstructionAddresses": [
+        "0x631e1b2"
+      ]
+    },
+    {
+      "method": "Crumble.Table.PlateUpgradeCostInfo::set_GreatSuccessRefundRate",
+      "rva": "0x631e1b7",
+      "nativeSha256": "481856ed6dfcdb1744570368ffca40343790f5020b78e47e7b61b671cbac5cc6",
+      "confirmedInstructionAddresses": [
+        "0x631e1b7"
+      ]
+    },
+    {
+      "method": "Crumble.Table.PlateUpgradeCostInfo::.ctor",
+      "rva": "0x631e1c3",
+      "nativeSha256": "a0ae0834bbfaee4e256fe8f3bee95c00bbcd2df881358b77f7da193f36ea69d1",
+      "confirmedInstructionAddresses": [
+        "0x631e42b"
+      ]
+    },
+    {
+      "method": "Crumble.PlateDetailView::SetData",
+      "rva": "0x66680af",
+      "nativeSha256": "151b0d43edd47c208873b75f5e4dc02f607a535604c9d5b0912b1d48e86170b1",
+      "confirmedInstructionAddresses": [
+        "0x6668506"
+      ]
+    }
+  ],
+  "costInfoLayout": {
+    "type": "Crumble.Table.PlateUpgradeCostInfo",
+    "source": "captured getter/setter and640-byte constructor ranges, not Cpp2IL stub logic",
+    "fields": {
+      "0x10": "PlateGrade int32",
+      "0x18/0x20": "Upgrade ItemId int32 / amount int64",
+      "0x28/0x30/0x38": "DeclineProtect nullable flag / ItemId / amount",
+      "0x40/0x48/0x50": "DestroyProtect nullable flag / ItemId / amount",
+      "0x58/0x60/0x68": "DestroyRecovery nullable flag / ItemId / amount",
+      "0x70": "GreatSuccessRefundRate BasisPoint raw int64 storage, not an integer refund quantity"
+    },
+    "constructorFlow": [
+      {
+        "address": "0x631e1d1",
+        "claim": "R14 receives protobuf row argument; RBX receives this costInfo at0x631e1d4."
+      },
+      {
+        "address": "0x631e420",
+        "claim": "Loads protobuf row pointer field+0x40."
+      },
+      {
+        "address": "0x631e426",
+        "claim": "Calls Crumble.BasisPoint.op_Implicit at0x6280397; that helper returns input object raw qword+0x18."
+      },
+      {
+        "address": "0x631e42b",
+        "claim": "Stores returned raw BasisPoint value to costInfo+0x70. No refund material collection or rounding calculation is constructed here."
+      }
+    ],
+    "getter": {
+      "rva": "0x631e1b2",
+      "formula": "return *(int64*)(this+0x70)"
+    },
+    "setter": {
+      "rva": "0x631e1b7",
+      "formula": "*(int64*)(this+0x70)=incoming raw BasisPoint"
+    },
+    "factoryLink": {
+      "caller": "Crumble.Table.PlateUpgradeCostTable.Create",
+      "callAddress": "0x631e763",
+      "constructorRva": "0x631e1c3",
+      "claim": "Factory enumerates parsed row objects, allocates costInfo, calls the protobuf constructor, appends the object to a list, then constructs the typed table."
+    }
+  },
+  "displayFlow": {
+    "method": "Crumble.PlateDetailView.SetData",
+    "rva": "0x66680af",
+    "steps": [
+      {
+        "address": "0x6668323",
+        "claim": "Loads view dependency+0x78, used as cost table."
+      },
+      {
+        "address": "0x6668338",
+        "claim": "Calls PlateUpgradeCostTable.ClampGrade."
+      },
+      {
+        "address": "0x666834c",
+        "claim": "Calls generic table lookup0xa8871d5; returned row is moved to R14 at0x6668367."
+      },
+      {
+        "address": "0x666836e",
+        "claim": "Reads row UpgradeItem ID+0x18, and amount+0x20 at0x6668392, corroborating the row layout."
+      },
+      {
+        "address": "0x66683d0",
+        "claim": "Reads nullable repair item starting row+0x58 for preview; this is not an upfront protection fee."
+      },
+      {
+        "address": "0x6668506",
+        "claim": "Reads row+0x70 raw BasisPoint."
+      },
+      {
+        "address": "0x6668514",
+        "claim": "Converts raw BasisPoint through ToDouble0x628030d, then boxes double at0x6668530."
+      },
+      {
+        "address": "0x666858e",
+        "claim": "Passes the boxed double as TString.Text formatting argument. This chain displays a refund percentage, not an integer refunded item amount."
+      }
+    ],
+    "callLink": {
+      "caller": "Crumble.PlateDetailPresenter.SetContent",
+      "tailJumpAddress": "0x66680a4",
+      "callee": "0x66680af"
+    },
+    "importantBoundary": "The presenter passes a packed view Data value (slot/grade/animation), not a costInfo object. The view independently resolves its table row."
+  },
+  "presenterCostFlow": {
+    "presenterResultTableField": "0x70",
+    "presenterCostTableField": "0x78",
+    "evidence": [
+      "Presenter constructor stores a dependency at+0x70 at0x666998e and cost table at+0x78 at0x66699a3.",
+      "HandleOnProtectDeclineToggle reads presenter+0x70 at0x666bb03 then calls PlateUpgradeResultTable.HasDeclineRisk at0x666bb16.",
+      "HandleOnProtectDestroyToggle reads presenter+0x70 at0x666bd08 then calls PlateUpgradeResultTable.HasDestroyRisk at0x666bd1b."
+    ],
+    "upgradeCost": {
+      "rva": "0x666ab1a",
+      "tableLoad": "0x666ab47",
+      "rowReads": [
+        "0x666ab71:+0x18 ItemId",
+        "0x666ab74:+0x20 amount"
+      ],
+      "refundFieldRead": false
+    },
+    "protectCost": {
+      "rva": "0x666ab8b",
+      "tableLoad": "0x666abd3",
+      "rowFields": [
+        "+0x28/+0x30/+0x38 decline optional",
+        "+0x40/+0x48/+0x50 destroy optional"
+      ],
+      "selectionFlags": "presenter+0xd8/+0xd9",
+      "arithmetic": "Adds enabled protection amounts at0x666ac57 and constructs ItemIdAndAmount; no refund-rate use.",
+      "refundFieldRead": false
+    },
+    "restoreCost": {
+      "rva": "0x666a452",
+      "tableLoad": "0x666a497",
+      "rowFields": [
+        "+0x58 flag",
+        "+0x60 ItemId",
+        "+0x68 amount"
+      ],
+      "refundFieldRead": false
+    },
+    "resultRestoreCost": {
+      "rva": "0x6672017",
+      "source": "PendingRecoveryGrade from PlateRecord then table lookup; reads nullable+0x58/+0x60/+0x68.",
+      "refundFieldRead": false
+    }
+  },
+  "candidateClassifications": [
+    {
+      "method": "Crumble.OvenPlateUnlockTable::Create",
+      "assembly": "Crumble.Base",
+      "token": "0x060016b5",
+      "rva": "0x629c19c",
+      "size": 1004,
+      "nativeSha256": "106a3873d8daa193e996afc77dd90b946d453d4cb95fc8baa45d62abdab22596",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0629c19c-Crumble.OvenPlateUnlockTable_Create.asm.txt",
+        "sha256": "c28da8346f98753d6c72e162e2b9a8e5a215dabb06d44a2902ee4dd8a1f02a98",
+        "bytes": 15022
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0629c19c-Crumble.OvenPlateUnlockTable_Create.bin",
+        "sha256": "106a3873d8daa193e996afc77dd90b946d453d4cb95fc8baa45d62abdab22596",
+        "bytes": 1004
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x629c465",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax + 0x70]",
+          "bytes": "488b5070",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives through metadata-like [context+0x20] then+0xc0 before+0x70 and supplies a generic list operation argument. Exact generic-context type is not bound; inferred generic plumbing, not accepted as a refund reference."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Table.PlateEnhanceGradeTable::Create",
+      "assembly": "Crumble.Base",
+      "token": "0x0600275d",
+      "rva": "0x631d3ba",
+      "size": 1004,
+      "nativeSha256": "d7ea0ab9212d322bdbd4b10d568ddbd8246dd85ec29049590d57e27c9ea4d268",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631d3ba-Crumble.Table.PlateEnhanceGradeTable_Create.asm.txt",
+        "sha256": "38ce37d320f2d30dd4a0b6a28debb9dfe4ad392763ef13e18ab84038a02d6978",
+        "bytes": 15038
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631d3ba-Crumble.Table.PlateEnhanceGradeTable_Create.bin",
+        "sha256": "d7ea0ab9212d322bdbd4b10d568ddbd8246dd85ec29049590d57e27c9ea4d268",
+        "bytes": 1004
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x631d683",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax + 0x70]",
+          "bytes": "488b5070",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives through metadata-like [context+0x20] then+0xc0 before+0x70 and supplies a generic list operation argument. Exact generic-context type is not bound; inferred generic plumbing, not accepted as a refund reference."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Table.PlateTable::Create",
+      "assembly": "Crumble.Base",
+      "token": "0x06002786",
+      "rva": "0x631dd3c",
+      "size": 1004,
+      "nativeSha256": "ab47f7e27660231dfa83ed3f5889abca6e06bffc5e2faf40aea86f08df2c9550",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631dd3c-Crumble.Table.PlateTable_Create.asm.txt",
+        "sha256": "ce48d732f19f032e4f6ef2541f0c8fcd346a450676698666015378e90fc82c83",
+        "bytes": 15014
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631dd3c-Crumble.Table.PlateTable_Create.bin",
+        "sha256": "ab47f7e27660231dfa83ed3f5889abca6e06bffc5e2faf40aea86f08df2c9550",
+        "bytes": 1004
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x631e005",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax + 0x70]",
+          "bytes": "488b5070",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives through metadata-like [context+0x20] then+0xc0 before+0x70 and supplies a generic list operation argument. Exact generic-context type is not bound; inferred generic plumbing, not accepted as a refund reference."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Table.PlateUpgradeCostInfo::get_GreatSuccessRefundRate",
+      "assembly": "Crumble.Base",
+      "token": "0x06002791",
+      "rva": "0x631e1b2",
+      "size": 5,
+      "nativeSha256": "b744078ef539e9a212536630d91bc12ecb1d6f9a28a9e9cd2140907b1cc74219",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e1b2-Crumble.Table.PlateUpgradeCostInfo_get_GreatSuccessRefundRate.asm.txt",
+        "sha256": "5d17ee88717e71a33cd7f6771abff316cb08b5c5f12f987328cf2824a0330da7",
+        "bytes": 121
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e1b2-Crumble.Table.PlateUpgradeCostInfo_get_GreatSuccessRefundRate.bin",
+        "sha256": "b744078ef539e9a212536630d91bc12ecb1d6f9a28a9e9cd2140907b1cc74219",
+        "bytes": 5
+      },
+      "methodClassification": "confirmed-refund-reader-or-writer",
+      "instructions": [
+        {
+          "address": "0x631e1b2",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rdi + 0x70]",
+          "bytes": "488b4770",
+          "classification": "confirmed-refund-field",
+          "receiverReason": "getter: this is PlateUpgradeCostInfo; returns its BasisPoint backing storage"
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Table.PlateUpgradeCostInfo::set_GreatSuccessRefundRate",
+      "assembly": "Crumble.Base",
+      "token": "0x06002792",
+      "rva": "0x631e1b7",
+      "size": 5,
+      "nativeSha256": "481856ed6dfcdb1744570368ffca40343790f5020b78e47e7b61b671cbac5cc6",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e1b7-Crumble.Table.PlateUpgradeCostInfo_set_GreatSuccessRefundRate.asm.txt",
+        "sha256": "c8b638091656fc3b902464604e342f99a97f98a6252db757439fccef87628459",
+        "bytes": 121
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e1b7-Crumble.Table.PlateUpgradeCostInfo_set_GreatSuccessRefundRate.bin",
+        "sha256": "481856ed6dfcdb1744570368ffca40343790f5020b78e47e7b61b671cbac5cc6",
+        "bytes": 5
+      },
+      "methodClassification": "confirmed-refund-reader-or-writer",
+      "instructions": [
+        {
+          "address": "0x631e1b7",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "qword ptr [rdi + 0x70], rsi",
+          "bytes": "48897770",
+          "classification": "confirmed-refund-field",
+          "receiverReason": "setter: this is PlateUpgradeCostInfo; writes incoming BasisPoint storage"
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Table.PlateUpgradeCostInfo::.ctor",
+      "assembly": "Crumble.Base",
+      "token": "0x06002794",
+      "rva": "0x631e1c3",
+      "size": 640,
+      "nativeSha256": "a0ae0834bbfaee4e256fe8f3bee95c00bbcd2df881358b77f7da193f36ea69d1",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e1c3-Crumble.Table.PlateUpgradeCostInfo_.ctor.asm.txt",
+        "sha256": "551bd596159cac3d94752d3a148d447cdeadbe02e4110dccc8474a9272236bae",
+        "bytes": 10429
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e1c3-Crumble.Table.PlateUpgradeCostInfo_.ctor.bin",
+        "sha256": "a0ae0834bbfaee4e256fe8f3bee95c00bbcd2df881358b77f7da193f36ea69d1",
+        "bytes": 640
+      },
+      "methodClassification": "confirmed-refund-reader-or-writer",
+      "instructions": [
+        {
+          "address": "0x631e23b",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "r15, [rsp + 0x70]",
+          "bytes": "4c8d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x631e28f",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "r12, [rsp + 0x70]",
+          "bytes": "4c8d642470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x631e325",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "r12, [rsp + 0x70]",
+          "bytes": "4c8d642470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x631e3bb",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "r12, [rsp + 0x70]",
+          "bytes": "4c8d642470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x631e42b",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "qword ptr [rbx + 0x70], rax",
+          "bytes": "48894370",
+          "classification": "confirmed-refund-field",
+          "receiverReason": "constructor: RBX=this PlateUpgradeCostInfo, assigned from protobuf BasisPoint conversion"
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Table.PlateUpgradeCostTable::Create",
+      "assembly": "Crumble.Base",
+      "token": "0x06002798",
+      "rva": "0x631e4ea",
+      "size": 1004,
+      "nativeSha256": "f628d4fa0306da597d67ccfdb76441b4df42ecf05d0411ee314fd91c0334455b",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e4ea-Crumble.Table.PlateUpgradeCostTable_Create.asm.txt",
+        "sha256": "28cc6693871790f671d619eb96cf10b77e63930666927a77a8280ec8571458b4",
+        "bytes": 15036
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e4ea-Crumble.Table.PlateUpgradeCostTable_Create.bin",
+        "sha256": "f628d4fa0306da597d67ccfdb76441b4df42ecf05d0411ee314fd91c0334455b",
+        "bytes": 1004
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x631e7b3",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax + 0x70]",
+          "bytes": "488b5070",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives through metadata-like [context+0x20] then+0xc0 before+0x70 and supplies a generic list operation argument. Exact generic-context type is not bound; inferred generic plumbing, not accepted as a refund reference."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Table.PlateUpgradeResultTable::Create",
+      "assembly": "Crumble.Base",
+      "token": "0x060027ad",
+      "rva": "0x631f141",
+      "size": 1004,
+      "nativeSha256": "6469601a960758d86e7fa79f7edff21ea043d67ced66aea79b031eadcfe31eac",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631f141-Crumble.Table.PlateUpgradeResultTable_Create.asm.txt",
+        "sha256": "126b01add187ac42a82702da2abc5b5c720602f5b3ebe8e7a4bbadf918d6a069",
+        "bytes": 15040
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631f141-Crumble.Table.PlateUpgradeResultTable_Create.bin",
+        "sha256": "6469601a960758d86e7fa79f7edff21ea043d67ced66aea79b031eadcfe31eac",
+        "bytes": 1004
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x631f40a",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax + 0x70]",
+          "bytes": "488b5070",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives through metadata-like [context+0x20] then+0xc0 before+0x70 and supplies a generic list operation argument. Exact generic-context type is not bound; inferred generic plumbing, not accepted as a refund reference."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Apis.CheatApi+<ChangePlateGradeForciblyAsync>d__63::MoveNext",
+      "assembly": "Crumble.Base",
+      "token": "0x0600393c",
+      "rva": "0x63d96b7",
+      "size": 1865,
+      "nativeSha256": "f5d5b9110e036d3a54f40218fd9a838f926b7d7796fa3d8169d6b57b44129651",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\063d96b7-Crumble.Apis.CheatApi_ChangePlateGradeForciblyAsync_d__63_MoveNext.asm.txt",
+        "sha256": "2347a4fa7dc9ea30e37d0f1e98453bad0aa5fd0833ca25bab7f0446594e8248c",
+        "bytes": 26089
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\063d96b7-Crumble.Apis.CheatApi_ChangePlateGradeForciblyAsync_d__63_MoveNext.bin",
+        "sha256": "f5d5b9110e036d3a54f40218fd9a838f926b7d7796fa3d8169d6b57b44129651",
+        "bytes": 1865
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x63d97a8",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63d9a05",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63d9a49",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f28442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63d9a8b",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63d9ac5",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm1",
+          "bytes": "0f294c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63d9ae4",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "r14, qword ptr [rsp + 0x70]",
+          "bytes": "4c8b742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Apis.CheatApi+<UpgradePlateWithResultAsync>d__62::MoveNext",
+      "assembly": "Crumble.Base",
+      "token": "0x06003990",
+      "rva": "0x63f0863",
+      "size": 1824,
+      "nativeSha256": "b6cee14c314187063b054455745c2dfd1bfcc4221115daa33e97027da628b77d",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\063f0863-Crumble.Apis.CheatApi_UpgradePlateWithResultAsync_d__62_MoveNext.asm.txt",
+        "sha256": "dd4ab7aad68a0c1f473c3f0b0fd0e4d8220361070f733f394815310bff388fdb",
+        "bytes": 25779
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\063f0863-Crumble.Apis.CheatApi_UpgradePlateWithResultAsync_d__62_MoveNext.bin",
+        "sha256": "b6cee14c314187063b054455745c2dfd1bfcc4221115daa33e97027da628b77d",
+        "bytes": 1824
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x63f092e",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63f0bb0",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63f0bf4",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f28442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63f0c39",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63f0c76",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm1",
+          "bytes": "0f294c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x63f0c98",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "r14, qword ptr [rsp + 0x70]",
+          "bytes": "4c8b742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Apis.EnhancementApi+<DeclinePlateDestroyRecoveryAsync>d__13::MoveNext",
+      "assembly": "Crumble.Base",
+      "token": "0x06003a33",
+      "rva": "0x6414797",
+      "size": 1854,
+      "nativeSha256": "a95bb33ef0d92b5c93cf5bfca34b3026162ff61b78daee52c90854cd9307bdb7",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06414797-Crumble.Apis.EnhancementApi_DeclinePlateDestroyRecoveryAsync_d__13_MoveNext.asm.txt",
+        "sha256": "8ea5c21f8351511222b8a009935c4d9f43f6a2144d1674b643745beb1ff4a075",
+        "bytes": 26033
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06414797-Crumble.Apis.EnhancementApi_DeclinePlateDestroyRecoveryAsync_d__13_MoveNext.bin",
+        "sha256": "a95bb33ef0d92b5c93cf5bfca34b3026162ff61b78daee52c90854cd9307bdb7",
+        "bytes": 1854
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6414888",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6414adc",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6414b20",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f28442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6414b62",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6414b9c",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm1",
+          "bytes": "0f294c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6414bbb",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "r14, qword ptr [rsp + 0x70]",
+          "bytes": "4c8b742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Apis.EnhancementApi+<RecoverDestroyedPlateAsync>d__12::MoveNext",
+      "assembly": "Crumble.Base",
+      "token": "0x06003a35",
+      "rva": "0x6414f1b",
+      "size": 1854,
+      "nativeSha256": "09344821cc267a37fa36c726f23edf3ea870d0004e8a227806feae8499fd6adf",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06414f1b-Crumble.Apis.EnhancementApi_RecoverDestroyedPlateAsync_d__12_MoveNext.asm.txt",
+        "sha256": "6485d7c204102931a302d554932b59dd84d7cf35c5322c0227b15d236101729e",
+        "bytes": 26027
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06414f1b-Crumble.Apis.EnhancementApi_RecoverDestroyedPlateAsync_d__12_MoveNext.bin",
+        "sha256": "09344821cc267a37fa36c726f23edf3ea870d0004e8a227806feae8499fd6adf",
+        "bytes": 1854
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x641500c",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6415260",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x64152a4",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f28442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x64152e6",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6415320",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm1",
+          "bytes": "0f294c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x641533f",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "r14, qword ptr [rsp + 0x70]",
+          "bytes": "4c8b742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Apis.EnhancementApi+<UpgradePlateAsync>d__11::MoveNext",
+      "assembly": "Crumble.Base",
+      "token": "0x06003a3b",
+      "rva": "0x64166c8",
+      "size": 1810,
+      "nativeSha256": "3287f15f3d758b02075ecb5fc25560d877e84ee1827267e1c5416ce5de3f6f57",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\064166c8-Crumble.Apis.EnhancementApi_UpgradePlateAsync_d__11_MoveNext.asm.txt",
+        "sha256": "ef3eeae51e022c9ebe4ddcf20d9bf3526a0b69a8a8c29e9f1749f0ad9ea2cb9d",
+        "bytes": 25557
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\064166c8-Crumble.Apis.EnhancementApi_UpgradePlateAsync_d__11_MoveNext.bin",
+        "sha256": "3287f15f3d758b02075ecb5fc25560d877e84ee1827267e1c5416ce5de3f6f57",
+        "bytes": 1810
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6416793",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6416a09",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6416a4d",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f28442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6416a92",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6416acf",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm1",
+          "bytes": "0f294c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6416af1",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "r14, qword ptr [rsp + 0x70]",
+          "bytes": "4c8b742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.BattlePetSetupService::CreatePetTemplateEntity",
+      "assembly": "Crumble.Feature",
+      "token": "0x060002e3",
+      "rva": "0x657c870",
+      "size": 1581,
+      "nativeSha256": "07be827dbf31814ea0f971e8fdf885e617515366aec60abc9829b318fd592fc4",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0657c870-Crumble.BattlePetSetupService_CreatePetTemplateEntity.asm.txt",
+        "sha256": "014f4f6f97b84fddb55a6521748eca69203a24d8ce99e9672538bb759779266f",
+        "bytes": 20729
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0657c870-Crumble.BattlePetSetupService_CreatePetTemplateEntity.bin",
+        "sha256": "07be827dbf31814ea0f971e8fdf885e617515366aec60abc9829b318fd592fc4",
+        "bytes": 1581
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x657c9bc",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x657cb4f",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x657cb8e",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x657cbd8",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x657cc30",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x657cca8",
+          "size": 5,
+          "mnemonic": "movups",
+          "operands": "xmmword ptr [r14 + 0x70], xmm0",
+          "bytes": "410f114670",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "R14 holds an allocated component initialized through0x6215357, not this service; exact allocated type was not bound in the core4 metadata review. Name Template is a substring false-positive lead, but type remains explicitly unresolved."
+        },
+        {
+          "address": "0x657cd29",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x657cd7b",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x657cddf",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rsi, [rsp + 0x70]",
+          "bytes": "488d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateCompareUI::SetEquipmentOptions",
+      "assembly": "Crumble.Feature",
+      "token": "0x06001744",
+      "rva": "0x6663ac1",
+      "size": 1102,
+      "nativeSha256": "c72c67340d7e6f5e071bdb5fcff1d7a20dacd46f234a84a84f49c4d70db77164",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06663ac1-Crumble.PlateCompareUI_SetEquipmentOptions.asm.txt",
+        "sha256": "dcdc7cbec2a95a4916411c0f60a45ca582e9e6f3c2d514695a5e6c83ad591177",
+        "bytes": 16826
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06663ac1-Crumble.PlateCompareUI_SetEquipmentOptions.bin",
+        "sha256": "c72c67340d7e6f5e071bdb5fcff1d7a20dacd46f234a84a84f49c4d70db77164",
+        "bytes": 1102
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6663b53",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rbx + 0x70]",
+          "bytes": "488b7b70",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this PlateCompareUI, saved from RDI at0x6663acf; field+0x70 is a UI dependency, not a PlateUpgradeCostInfo row."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradeRateUI::InitializeDictionaries",
+      "assembly": "Crumble.Feature",
+      "token": "0x06001756",
+      "rva": "0x66661e0",
+      "size": 937,
+      "nativeSha256": "622eef4343345deb2a398e1ef7f53b5741d1098977c663a17c00e73908ec8e4c",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066661e0-Crumble.PlateUpgradeRateUI_InitializeDictionaries.asm.txt",
+        "sha256": "80046bf23cbb892fad2404b161ce0ce6333963e26df71f9d0f22f30a6e7ba89d",
+        "bytes": 13360
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066661e0-Crumble.PlateUpgradeRateUI_InitializeDictionaries.bin",
+        "sha256": "622eef4343345deb2a398e1ef7f53b5741d1098977c663a17c00e73908ec8e4c",
+        "bytes": 937
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6666534",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rbx + 0x70]",
+          "bytes": "488b5370",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this PlateUpgradeRateUI, saved from RDI at0x66661f0; field+0x70 contributes a UI reference to an outcome dictionary."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateDetailView::SetData",
+      "assembly": "Crumble.Feature",
+      "token": "0x06001769",
+      "rva": "0x66680af",
+      "size": 1435,
+      "nativeSha256": "151b0d43edd47c208873b75f5e4dc02f607a535604c9d5b0912b1d48e86170b1",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066680af-Crumble.PlateDetailView_SetData.asm.txt",
+        "sha256": "0e1e59585511de8f56cc41dd12a47082b13d2ab54d583e9319b4c982aa2d0aa3",
+        "bytes": 21807
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066680af-Crumble.PlateDetailView_SetData.bin",
+        "sha256": "151b0d43edd47c208873b75f5e4dc02f607a535604c9d5b0912b1d48e86170b1",
+        "bytes": 1435
+      },
+      "methodClassification": "confirmed-refund-reader-or-writer",
+      "instructions": [
+        {
+          "address": "0x6668506",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [r14 + 0x70]",
+          "bytes": "498b4670",
+          "classification": "confirmed-refund-field",
+          "receiverReason": "display: R14 is the row returned by the PlateUpgradeCostTable lookup, then copied into BasisPoint.ToDouble"
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateDetailView::GetSpinButtonState",
+      "assembly": "Crumble.Feature",
+      "token": "0x0600176a",
+      "rva": "0x666880a",
+      "size": 93,
+      "nativeSha256": "4e494bf8519eec6dac8cff37d0a660dbad045c1dede99176be0d21cd2664fa0b",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666880a-Crumble.PlateDetailView_GetSpinButtonState.asm.txt",
+        "sha256": "059ab0a9fc2f6ee56c6419f25be2e9a43b1cb3dc28338c756a872be9f047ad67",
+        "bytes": 2016
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666880a-Crumble.PlateDetailView_GetSpinButtonState.bin",
+        "sha256": "4e494bf8519eec6dac8cff37d0a660dbad045c1dede99176be0d21cd2664fa0b",
+        "bytes": 93
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6668830",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [r14 + 0x70]",
+          "bytes": "498b4670",
+          "classification": "confirmed-other",
+          "receiverReason": "R14 is this PlateDetailView saved at0x6668810; +0x70 is a view dependency used to read max grade, not a cost row."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateSelectPresenter::SetContent",
+      "assembly": "Crumble.Feature",
+      "token": "0x06001772",
+      "rva": "0x6668e0f",
+      "size": 634,
+      "nativeSha256": "69227d3422f662ba4b7ecbd1052c3c05d9aedb26b396550a46cd781931383d84",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06668e0f-Crumble.PlateSelectPresenter_SetContent.asm.txt",
+        "sha256": "6cc4aa4fc92b07593de7cb455fd3a1caf94d3ba46e0cfa34d2aa6995cca9d20e",
+        "bytes": 10040
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06668e0f-Crumble.PlateSelectPresenter_SetContent.bin",
+        "sha256": "69227d3422f662ba4b7ecbd1052c3c05d9aedb26b396550a46cd781931383d84",
+        "bytes": 634
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x6669019",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rcx, qword ptr [rax + 0x70]",
+          "bytes": "488b4870",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives through metadata-like [context+0x20] then+0xc0 before+0x70 and supplies a generic list operation argument. Exact generic-context type is not bound; inferred generic plumbing, not accepted as a refund reference."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradePresenter::.ctor",
+      "assembly": "Crumble.Feature",
+      "token": "0x0600177f",
+      "rva": "0x66697ba",
+      "size": 1235,
+      "nativeSha256": "7792f3ad147e00fa3ceb568295da0dcf58df7d7e01dfdadb603f7f760c6df629",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066697ba-Crumble.PlateUpgradePresenter_.ctor.asm.txt",
+        "sha256": "8a02408880f8c3094e96ad9e0147a4c56118eb74a77cace60f5318544ac7660d",
+        "bytes": 17372
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066697ba-Crumble.PlateUpgradePresenter_.ctor.bin",
+        "sha256": "7792f3ad147e00fa3ceb568295da0dcf58df7d7e01dfdadb603f7f760c6df629",
+        "bytes": 1235
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x6669909",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "rsi, qword ptr [rsp + 0x70]",
+          "bytes": "488b742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6669982",
+          "size": 4,
+          "mnemonic": "lea",
+          "operands": "rdi, [rbx + 0x70]",
+          "bytes": "488d7b70",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX=this presenter; stores injected dependency at+0x70, while constructor stores cost table at+0x78. Other instruction in this method follows generic metadata context and remains separately unresolved."
+        },
+        {
+          "address": "0x666998e",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "qword ptr [rbx + 0x70], rsi",
+          "bytes": "48897370",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX=this presenter; stores injected dependency at+0x70, while constructor stores cost table at+0x78. Other instruction in this method follows generic metadata context and remains separately unresolved."
+        },
+        {
+          "address": "0x6669bd9",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax + 0x70]",
+          "bytes": "488b5070",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives through metadata-like [context+0x20] then+0xc0 before+0x70 and supplies a generic list operation argument. Exact generic-context type is not bound; inferred generic plumbing, not accepted as a refund reference."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradePresenter::HandleOnProtectDeclineToggle",
+      "assembly": "Crumble.Feature",
+      "token": "0x06001798",
+      "rva": "0x666b9fe",
+      "size": 517,
+      "nativeSha256": "311ca39ab45b6812fdec98f0ff0a281cfbdb35a46d3831c538152a20d9809d14",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666b9fe-Crumble.PlateUpgradePresenter_HandleOnProtectDeclineToggle.asm.txt",
+        "sha256": "ebc5b405a681f9d2dfec26567514897c8f15a2a6d691b8ed4e9e37879d08ab97",
+        "bytes": 8236
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666b9fe-Crumble.PlateUpgradePresenter_HandleOnProtectDeclineToggle.bin",
+        "sha256": "311ca39ab45b6812fdec98f0ff0a281cfbdb35a46d3831c538152a20d9809d14",
+        "bytes": 517
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x666bb03",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rbx + 0x70]",
+          "bytes": "488b7b70",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this presenter. Its+0x70 dependency is passed to PlateUpgradeResultTable.HasDeclineRisk at0x666bb16."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradePresenter::HandleOnProtectDestroyToggle",
+      "assembly": "Crumble.Feature",
+      "token": "0x06001799",
+      "rva": "0x666bc03",
+      "size": 517,
+      "nativeSha256": "dcc1d82bc1dfdcaa7490380b423dd18671e83e8a0e9c5785123739f35abf065b",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666bc03-Crumble.PlateUpgradePresenter_HandleOnProtectDestroyToggle.asm.txt",
+        "sha256": "5d57b34f5671c6deffab1f23b1d742a9e3ab0dae081aa317bcbe870ec7ba9993",
+        "bytes": 8236
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666bc03-Crumble.PlateUpgradePresenter_HandleOnProtectDestroyToggle.bin",
+        "sha256": "dcc1d82bc1dfdcaa7490380b423dd18671e83e8a0e9c5785123739f35abf065b",
+        "bytes": 517
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x666bd08",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rbx + 0x70]",
+          "bytes": "488b7b70",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this presenter. Its+0x70 dependency is passed to PlateUpgradeResultTable.HasDestroyRisk at0x666bd1b."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradePresenter+<OpenResultPopupAsync>d__65::MoveNext",
+      "assembly": "Crumble.Feature",
+      "token": "0x06003cbb",
+      "rva": "0x666e704",
+      "size": 2790,
+      "nativeSha256": "e5a8f1547f2fbb127615d3c822f04e8b372d73649a3cbf2e60bfaf2457997852",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666e704-Crumble.PlateUpgradePresenter_OpenResultPopupAsync_d__65_MoveNext.asm.txt",
+        "sha256": "1dc54f3a5f537a296c56395ed02762be4dbbb5301d9077171cf507470b74ed4b",
+        "bytes": 41631
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666e704-Crumble.PlateUpgradePresenter_OpenResultPopupAsync_d__65_MoveNext.bin",
+        "sha256": "e5a8f1547f2fbb127615d3c822f04e8b372d73649a3cbf2e60bfaf2457997852",
+        "bytes": 2790
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x666e83f",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x666ea81",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x666eac4",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f28442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradePresenter+<ProcessGiveUpAsync>d__61::MoveNext",
+      "assembly": "Crumble.Feature",
+      "token": "0x06003cbd",
+      "rva": "0x666f210",
+      "size": 2234,
+      "nativeSha256": "f994037c98cbd170b41cdf920373f648642fe4d474ee23b772e4a97663a6f698",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666f210-Crumble.PlateUpgradePresenter_ProcessGiveUpAsync_d__61_MoveNext.asm.txt",
+        "sha256": "6f888883d9f8807682736e1296c7b7237424ee0814b5285bd0a0e8ffd9773e8e",
+        "bytes": 32398
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666f210-Crumble.PlateUpgradePresenter_ProcessGiveUpAsync_d__61_MoveNext.bin",
+        "sha256": "f994037c98cbd170b41cdf920373f648642fe4d474ee23b772e4a97663a6f698",
+        "bytes": 2234
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x666f2f0",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x666f349",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm1",
+          "bytes": "0f294c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x666f99b",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmm1, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f284c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradePresenter+<ProcessRecoverAsync>d__59::MoveNext",
+      "assembly": "Crumble.Feature",
+      "token": "0x06003cbf",
+      "rva": "0x666fad5",
+      "size": 2053,
+      "nativeSha256": "2ec186d244f54dbd4ca0d39442c0740d55ff99181885820adf0cb1c701fc9b84",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666fad5-Crumble.PlateUpgradePresenter_ProcessRecoverAsync_d__59_MoveNext.asm.txt",
+        "sha256": "b3eb6de74af2a014807cc8b533b36af367c656b1e6fb991fa107e86f2e32f27d",
+        "bytes": 30624
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666fad5-Crumble.PlateUpgradePresenter_ProcessRecoverAsync_d__59_MoveNext.bin",
+        "sha256": "2ec186d244f54dbd4ca0d39442c0740d55ff99181885820adf0cb1c701fc9b84",
+        "bytes": 2053
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x666fb80",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x666fce5",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm2",
+          "bytes": "0f29542470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x666ff0f",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmm1, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f284c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradePresenter+<ProcessUpgradeAsync>d__57::MoveNext",
+      "assembly": "Crumble.Feature",
+      "token": "0x06003cc1",
+      "rva": "0x6670300",
+      "size": 4886,
+      "nativeSha256": "b111f11d3700922aaacd6b2e9b7f86c28384e01518b2d2334afdae36cc9e4ba5",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06670300-Crumble.PlateUpgradePresenter_ProcessUpgradeAsync_d__57_MoveNext.asm.txt",
+        "sha256": "bd02f6b9bd71bee4b83d7f1a8a0572405ec2afe1d500c57b7c6d9d8c25e096d5",
+        "bytes": 70115
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06670300-Crumble.PlateUpgradePresenter_ProcessUpgradeAsync_d__57_MoveNext.bin",
+        "sha256": "b111f11d3700922aaacd6b2e9b7f86c28384e01518b2d2334afdae36cc9e4ba5",
+        "bytes": 4886
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x66705d1",
+          "size": 4,
+          "mnemonic": "movups",
+          "operands": "xmm0, xmmword ptr [rbx + 0x70]",
+          "bytes": "0f104370",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this async state machine, saved at0x6670311; 16-byte+0x70 state copies/zeroing, not costInfo raw BasisPoint."
+        },
+        {
+          "address": "0x66705dd",
+          "size": 4,
+          "mnemonic": "movups",
+          "operands": "xmmword ptr [rbx + 0x70], xmm0",
+          "bytes": "0f114370",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this async state machine, saved at0x6670311; 16-byte+0x70 state copies/zeroing, not costInfo raw BasisPoint."
+        },
+        {
+          "address": "0x6670795",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rdi + 0x70]",
+          "bytes": "488b7f70",
+          "classification": "confirmed-other",
+          "receiverReason": "Receiver is presenter loaded into stack slot+0x38; its+0x70 is result-table dependency used by risk checks. It is not a costInfo row."
+        },
+        {
+          "address": "0x6670a77",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rdi + 0x70]",
+          "bytes": "488b7f70",
+          "classification": "confirmed-other",
+          "receiverReason": "Receiver is presenter loaded into stack slot+0x38; its+0x70 is result-table dependency used by risk checks. It is not a costInfo row."
+        },
+        {
+          "address": "0x6670c6d",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rdi + 0x70]",
+          "bytes": "488b7f70",
+          "classification": "confirmed-other",
+          "receiverReason": "Receiver is presenter loaded into stack slot+0x38; its+0x70 is result-table dependency used by risk checks. It is not a costInfo row."
+        },
+        {
+          "address": "0x6670c98",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rax + 0x70]",
+          "bytes": "488b7870",
+          "classification": "confirmed-other",
+          "receiverReason": "Receiver is presenter loaded into stack slot+0x38; its+0x70 is result-table dependency used by risk checks. It is not a costInfo row."
+        },
+        {
+          "address": "0x6670d6c",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6670d8c",
+          "size": 5,
+          "mnemonic": "movups",
+          "operands": "xmm0, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f10442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6670dc6",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmmword ptr [rsp + 0x70], xmm0",
+          "bytes": "0f29442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6670e01",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6670e48",
+          "size": 5,
+          "mnemonic": "movaps",
+          "operands": "xmm0, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f28442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6670fb5",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6670fcf",
+          "size": 5,
+          "mnemonic": "movups",
+          "operands": "xmm0, xmmword ptr [rsp + 0x70]",
+          "bytes": "0f10442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x667112f",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x70]",
+          "bytes": "488d7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x6671152",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "r15, qword ptr [rsp + 0x70]",
+          "bytes": "4c8b7c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x667136c",
+          "size": 4,
+          "mnemonic": "lea",
+          "operands": "rdi, [rbx + 0x70]",
+          "bytes": "488d7b70",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this async state machine, saved at0x6670311; 16-byte+0x70 state copies/zeroing, not costInfo raw BasisPoint."
+        },
+        {
+          "address": "0x6671375",
+          "size": 4,
+          "mnemonic": "movups",
+          "operands": "xmmword ptr [rbx + 0x70], xmm0",
+          "bytes": "0f114370",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this async state machine, saved at0x6670311; 16-byte+0x70 state copies/zeroing, not costInfo raw BasisPoint."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradeResultPresenter::.ctor",
+      "assembly": "Crumble.Feature",
+      "token": "0x0600179f",
+      "rva": "0x66716f9",
+      "size": 524,
+      "nativeSha256": "20a2e6c58cfca679c19875e76fff68d7887c4d104514e584d071898d495fc743",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066716f9-Crumble.PlateUpgradeResultPresenter_.ctor.asm.txt",
+        "sha256": "d9d3cb3ef8fc1dc49089838b42c7aac2cae0cf5de4646920ef9fea6a7f1a1ae6",
+        "bytes": 8413
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066716f9-Crumble.PlateUpgradeResultPresenter_.ctor.bin",
+        "sha256": "20a2e6c58cfca679c19875e76fff68d7887c4d104514e584d071898d495fc743",
+        "bytes": 524
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6671801",
+          "size": 5,
+          "mnemonic": "lea",
+          "operands": "r14, [rsp + 0x70]",
+          "bytes": "4c8d742470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradeResultView::SetRestoreCostUI",
+      "assembly": "Crumble.Feature",
+      "token": "0x060017b1",
+      "rva": "0x66720f4",
+      "size": 150,
+      "nativeSha256": "ac67a2f88939d87046423432058b4bfb27b2f31647f234228d18d0534e1a88e6",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066720f4-Crumble.PlateUpgradeResultView_SetRestoreCostUI.asm.txt",
+        "sha256": "f4e9ac2b82f0f41f13f3db63ec57b55cdada7e31a910c4075ca9fa81d93c2bf5",
+        "bytes": 2871
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066720f4-Crumble.PlateUpgradeResultView_SetRestoreCostUI.bin",
+        "sha256": "ac67a2f88939d87046423432058b4bfb27b2f31647f234228d18d0534e1a88e6",
+        "bytes": 150
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6672142",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "r15, qword ptr [r15 + 0x70]",
+          "bytes": "4d8b7f70",
+          "classification": "confirmed-other",
+          "receiverReason": "R15 is this PlateUpgradeResultView saved at0x6672103; +0x70 is a view field, not a PlateUpgradeCostInfo row."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradeResultPresenter::HandleOnRefundItemReceive",
+      "assembly": "Crumble.Feature",
+      "token": "0x060017a3",
+      "rva": "0x667218a",
+      "size": 338,
+      "nativeSha256": "7f3dce023b17c316e77b9687f9feed1d848925d058015d326e6ecce5978509f0",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0667218a-Crumble.PlateUpgradeResultPresenter_HandleOnRefundItemReceive.asm.txt",
+        "sha256": "24a5b54131b3ef0ffebac7f212132f47a44f95a47323c76ce912c78d2f1073f5",
+        "bytes": 5394
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0667218a-Crumble.PlateUpgradeResultPresenter_HandleOnRefundItemReceive.bin",
+        "sha256": "7f3dce023b17c316e77b9687f9feed1d848925d058015d326e6ecce5978509f0",
+        "bytes": 338
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x667224f",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "rcx, qword ptr [rax + 0x70]",
+          "bytes": "488b4870",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives through metadata-like [context+0x20] then+0xc0 before+0x70 and supplies a generic list operation argument. Exact generic-context type is not bound; inferred generic plumbing, not accepted as a refund reference."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradeResultView+<ShowRefundedItemsAsync>d__32::MoveNext",
+      "assembly": "Crumble.Feature",
+      "token": "0x06003ce4",
+      "rva": "0x6672d19",
+      "size": 2890,
+      "nativeSha256": "da2ce4f526fbb40431e81d0372aee0ed599d8f9bdfb3acc0443cfb43e0754939",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06672d19-Crumble.PlateUpgradeResultView_ShowRefundedItemsAsync_d__32_MoveNext.asm.txt",
+        "sha256": "1924866d9cd571adae5997b1a3ea02e2241ba90b2c3e93772f0540db523c1f26",
+        "bytes": 44189
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06672d19-Crumble.PlateUpgradeResultView_ShowRefundedItemsAsync_d__32_MoveNext.bin",
+        "sha256": "da2ce4f526fbb40431e81d0372aee0ed599d8f9bdfb3acc0443cfb43e0754939",
+        "bytes": 2890
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6673422",
+          "size": 5,
+          "mnemonic": "movzx",
+          "operands": "ecx, word ptr [rsp + 0x70]",
+          "bytes": "0fb74c2470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.PlateUpgradeView::SetRestoreCostUI",
+      "assembly": "Crumble.Feature",
+      "token": "0x060017d0",
+      "rva": "0x66748dc",
+      "size": 171,
+      "nativeSha256": "7e4719c54a76842c6a3ec6bad178bbf6d2bd8200392ee073be693e5c2a0f417b",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066748dc-Crumble.PlateUpgradeView_SetRestoreCostUI.asm.txt",
+        "sha256": "1d098315c805762a9ca6c5f90b0d1c03238b0c19a2b6ce8c30df7364d319f1bd",
+        "bytes": 3260
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066748dc-Crumble.PlateUpgradeView_SetRestoreCostUI.bin",
+        "sha256": "7e4719c54a76842c6a3ec6bad178bbf6d2bd8200392ee073be693e5c2a0f417b",
+        "bytes": 171
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6674947",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "r14, qword ptr [r14 + 0x70]",
+          "bytes": "4d8b7670",
+          "classification": "confirmed-other",
+          "receiverReason": "R14 is this PlateUpgradeView saved at0x66748e8; +0x70 is a view field, not a PlateUpgradeCostInfo row."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.EquipmentDetailPresenter::HandleOnUpgradePlateClick",
+      "assembly": "Crumble.Feature",
+      "token": "0x060025a2",
+      "rva": "0x67e5213",
+      "size": 237,
+      "nativeSha256": "936057b51492b77bba1ac40fdcc490576086b8acc5462f2fb8a1515b35b03f52",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\067e5213-Crumble.EquipmentDetailPresenter_HandleOnUpgradePlateClick.asm.txt",
+        "sha256": "0b79051529a44d7f6d0e82b903abc027e62576e6d922165b099211556bacc6a4",
+        "bytes": 4068
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\067e5213-Crumble.EquipmentDetailPresenter_HandleOnUpgradePlateClick.bin",
+        "sha256": "936057b51492b77bba1ac40fdcc490576086b8acc5462f2fb8a1515b35b03f52",
+        "bytes": 237
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x67e523a",
+          "size": 4,
+          "mnemonic": "movzx",
+          "operands": "ebp, word ptr [rbx + 0x70]",
+          "bytes": "0fb76b70",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this EquipmentDetailPresenter saved at0x67e5217; +0x70 is a word-sized portion of task state, not qword BasisPoint storage."
+        },
+        {
+          "address": "0x67e52e9",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "word ptr [rbx + 0x70], dx",
+          "bytes": "66895370",
+          "classification": "confirmed-other",
+          "receiverReason": "RBX is this EquipmentDetailPresenter saved at0x67e5217; +0x70 is a word-sized portion of task state, not qword BasisPoint storage."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.OvenPresenter+<<HandleOnPlateUpgradeButtonClick>g__OpenPlateUpgradePopupAsync|107_0>d::MoveNext",
+      "assembly": "Crumble.Feature",
+      "token": "0x060041b4",
+      "rva": "0x6833de2",
+      "size": 2286,
+      "nativeSha256": "c2fc328a3b4dbbf518b728d0793e8c15bf5fac271f2b0b59789daeaa60e653a8",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06833de2-Crumble.OvenPresenter_HandleOnPlateUpgradeButtonClick_g__OpenPlateUpgradePopupAsync_107_0_d_MoveNext.asm.txt",
+        "sha256": "533cb1ed885f429865a09a7a7b0d3e4a9ac225b7a78aa6474c697d9fa2b2de4d",
+        "bytes": 35027
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06833de2-Crumble.OvenPresenter_HandleOnPlateUpgradeButtonClick_g__OpenPlateUpgradePopupAsync_107_0_d_MoveNext.bin",
+        "sha256": "c2fc328a3b4dbbf518b728d0793e8c15bf5fac271f2b0b59789daeaa60e653a8",
+        "bytes": 2286
+      },
+      "methodClassification": "confirmed-other-receivers-only",
+      "instructions": [
+        {
+          "address": "0x6833ed3",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "qword ptr [rsp + 0x70], rax",
+          "bytes": "4889442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x683417f",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "qword ptr [rsp + 0x70], rax",
+          "bytes": "4889442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        },
+        {
+          "address": "0x68341bb",
+          "size": 5,
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rsp + 0x70]",
+          "bytes": "488b442470",
+          "classification": "confirmed-other",
+          "receiverReason": "Explicit stack-frame operand, not object+0x70."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Services.Game.Protobuf.EnhancementService+EnhancementServiceClient::RecoverDestroyedPlate",
+      "assembly": "Crumble.GrpcServices",
+      "token": "0x06004b51",
+      "rva": "0x6ca30c6",
+      "size": 162,
+      "nativeSha256": "94e61644d4db3d8ad0b999728023a979da8c0c00435d11d9455d1a6eccc6c2c2",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06ca30c6-Crumble.Services.Game.Protobuf.EnhancementService_EnhancementServiceClient_RecoverDestroyedPlate.asm.txt",
+        "sha256": "be3beb3a8459314c35776ada7f83d116c5e68d7edb91942df0369849042fb547",
+        "bytes": 2503
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06ca30c6-Crumble.Services.Game.Protobuf.EnhancementService_EnhancementServiceClient_RecoverDestroyedPlate.bin",
+        "sha256": "94e61644d4db3d8ad0b999728023a979da8c0c00435d11d9455d1a6eccc6c2c2",
+        "bytes": 162
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x6ca3124",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "r15, qword ptr [rax + 0x70]",
+          "bytes": "4c8b7870",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives from type static-fields pointer+0xb8 and then+0x70, apparently an RPC method descriptor; exact static-field type was not separately resolved. Not accepted as a refund reference."
+        }
+      ]
+    },
+    {
+      "method": "Crumble.Services.Game.Protobuf.EnhancementService+EnhancementServiceClient::RecoverDestroyedPlateAsync",
+      "assembly": "Crumble.GrpcServices",
+      "token": "0x06004b53",
+      "rva": "0x6ca3201",
+      "size": 162,
+      "nativeSha256": "c73e145ab165f9d7daafee446a05dc6dccdd296d5aa44c9225e20baf0d686cf1",
+      "fullyDecoded": true,
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06ca3201-Crumble.Services.Game.Protobuf.EnhancementService_EnhancementServiceClient_RecoverDestroyedPlateAsync.asm.txt",
+        "sha256": "022492f24854f936a3f4128d4e6b09fc3c44ad613004dd24c680379cf47028e1",
+        "bytes": 2503
+      },
+      "binary": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06ca3201-Crumble.Services.Game.Protobuf.EnhancementService_EnhancementServiceClient_RecoverDestroyedPlateAsync.bin",
+        "sha256": "c73e145ab165f9d7daafee446a05dc6dccdd296d5aa44c9225e20baf0d686cf1",
+        "bytes": 162
+      },
+      "methodClassification": "contains-unresolved-receiver",
+      "instructions": [
+        {
+          "address": "0x6ca325f",
+          "size": 4,
+          "mnemonic": "mov",
+          "operands": "r15, qword ptr [rax + 0x70]",
+          "bytes": "4c8b7870",
+          "classification": "unresolved-receiver-type",
+          "receiverReason": "RAX derives from type static-fields pointer+0xb8 and then+0x70, apparently an RPC method descriptor; exact static-field type was not separately resolved. Not accepted as a refund reference."
+        }
+      ]
+    }
+  ],
+  "directReferenceCrosscheck": {
+    "source": "frozen core4 parent scan",
+    "verifiedReferences": [
+      {
+        "address": "0x631e763",
+        "target": "0x631e1c3",
+        "targetName": "Crumble.Table.PlateUpgradeCostInfo::.ctor",
+        "bytes": "e85bfaffff",
+        "caller": {
+          "assembly": "Crumble.Base",
+          "methodDefToken": "0x06002798",
+          "fullName": "Crumble.Table.PlateUpgradeCostTable::Create",
+          "candidateElfVirtualAddress": 103933162,
+          "length": 1004
+        },
+        "callerFullyDecoded": true,
+        "instruction": [
+          103933795,
+          5,
+          "call",
+          "0x631e1c3"
+        ]
+      },
+      {
+        "address": "0x66680a4",
+        "target": "0x66680af",
+        "targetName": "Crumble.PlateDetailView::SetData",
+        "bytes": "e906000000",
+        "caller": {
+          "assembly": "Crumble.Feature",
+          "methodDefToken": "0x06001762",
+          "fullName": "Crumble.PlateDetailPresenter::SetContent",
+          "candidateElfVirtualAddress": 107380877,
+          "length": 34
+        },
+        "callerFullyDecoded": true,
+        "instruction": [
+          107380900,
+          5,
+          "jmp",
+          "0x66680af"
+        ]
+      }
+    ],
+    "claim": "The2 direct calls/tail-jumps checked in this bounded review agree with decoded factory and detail presenter bodies. This does not rule out indirect or unindexed callers."
+  },
+  "semanticMethods": [
+    {
+      "fullName": "Crumble.Table.PlateUpgradeCostInfo::.ctor",
+      "rva": "0x631e1c3",
+      "size": 640,
+      "sha256": "a0ae0834bbfaee4e256fe8f3bee95c00bbcd2df881358b77f7da193f36ea69d1",
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e1c3-Crumble.Table.PlateUpgradeCostInfo_.ctor.asm.txt",
+        "sha256": "551bd596159cac3d94752d3a148d447cdeadbe02e4110dccc8474a9272236bae",
+        "bytes": 10429
+      }
+    },
+    {
+      "fullName": "Crumble.Table.PlateUpgradeCostTable::Create",
+      "rva": "0x631e4ea",
+      "size": 1004,
+      "sha256": "f628d4fa0306da597d67ccfdb76441b4df42ecf05d0411ee314fd91c0334455b",
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0631e4ea-Crumble.Table.PlateUpgradeCostTable_Create.asm.txt",
+        "sha256": "28cc6693871790f671d619eb96cf10b77e63930666927a77a8280ec8571458b4",
+        "bytes": 15036
+      }
+    },
+    {
+      "fullName": "Crumble.PlateDetailView::SetData",
+      "rva": "0x66680af",
+      "size": 1435,
+      "sha256": "151b0d43edd47c208873b75f5e4dc02f607a535604c9d5b0912b1d48e86170b1",
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\066680af-Crumble.PlateDetailView_SetData.asm.txt",
+        "sha256": "0e1e59585511de8f56cc41dd12a47082b13d2ab54d583e9319b4c982aa2d0aa3",
+        "bytes": 21807
+      }
+    },
+    {
+      "fullName": "Crumble.PlateUpgradePresenter::GetUpgradeCost",
+      "rva": "0x666ab1a",
+      "size": 113,
+      "sha256": "e40b5428b4411542224a036b98e14fed65693458299e4f55bea27fbcb8cb4217",
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666ab1a-Crumble.PlateUpgradePresenter_GetUpgradeCost.asm.txt",
+        "sha256": "9a230445fa3e39638933f5009fddd3ea0d9caaecf4716402cb13195e9d7be4c7",
+        "bytes": 2002
+      }
+    },
+    {
+      "fullName": "Crumble.PlateUpgradePresenter::GetProtectCost",
+      "rva": "0x666ab8b",
+      "size": 246,
+      "sha256": "5ae3d04d25cd96655ae1a37d263b96024e58c4531e81785a4acbf2bf50f0078c",
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666ab8b-Crumble.PlateUpgradePresenter_GetProtectCost.asm.txt",
+        "sha256": "8ca34049c2b92324c3759a9b69bc94ef97d4869d54013a87f47f14316358249a",
+        "bytes": 4076
+      }
+    },
+    {
+      "fullName": "Crumble.PlateUpgradePresenter::GetRestoreCost",
+      "rva": "0x666a452",
+      "size": 147,
+      "sha256": "adfb38e53b104208dbe0aeea9dbe6d4b8eec648c06b707b67f157f833da14b39",
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0666a452-Crumble.PlateUpgradePresenter_GetRestoreCost.asm.txt",
+        "sha256": "f465727dff8b936655fb6e1470b4967d9bc607241935429bb8390840bd1fb1ca",
+        "bytes": 2433
+      }
+    },
+    {
+      "fullName": "Crumble.PlateUpgradeResultPresenter::TryGetRestoreCost",
+      "rva": "0x6672017",
+      "size": 221,
+      "sha256": "4ed108c5724ce6f830344671c4b8db31e03af2e6f9777fc4e3b9ed007f28b021",
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06672017-Crumble.PlateUpgradeResultPresenter_TryGetRestoreCost.asm.txt",
+        "sha256": "964c07610c13b29de40ff004e4a9d6cc951c447c477be6d88ea7c9232195fb4d",
+        "bytes": 3684
+      }
+    },
+    {
+      "fullName": "Crumble.BasisPoint::op_Implicit",
+      "rva": "0x6280397",
+      "size": 16,
+      "sha256": "eb92129500877ca8532675d70571e8e33f20fdeab8836aa2396abfe26e7c8aa3",
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\06280397-Crumble.BasisPoint_op_Implicit.asm.txt",
+        "sha256": "0a39f4ab3008b4840e089a327c531c26ab7454865586f2f344756669a993a4d2",
+        "bytes": 338
+      }
+    },
+    {
+      "fullName": "Crumble.BasisPoint::ToDouble",
+      "rva": "0x628030d",
+      "size": 14,
+      "sha256": "aaba655c82479742b6e477521111780a15f27482fc7fa434a7c5cb4130a3713a",
+      "disassembly": {
+        "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\plate-package-deep-20261016\\inline-cost-review\\methods\\0628030d-Crumble.BasisPoint_ToDouble.asm.txt",
+        "sha256": "83084b164aa04574654475829aece95eb555831634f244382396b421bd62700f",
+        "bytes": 195
+      }
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Confirmed refund raw-field access occurs in the4 named methods within the reviewed35 candidates.",
+      "type": "bounded-static-semantic-derivation"
+    },
+    {
+      "claim": "The cost constructor transfers the configured BasisPoint rate; the detail view converts it to a formatting argument. No integer material refund formula was established in these chains.",
+      "type": "bounded-negative-result"
+    },
+    {
+      "claim": "A presenter+0x70 access is not the costInfo+0x70 field. Presenter cost construction uses its+0x78 table and distinct payment/optional repair fields.",
+      "type": "receiver-identity-derivation"
+    },
+    {
+      "claim": "Generic metadata-like+0x70 paths and the PetTemplate allocation remain unresolved types here; none is accepted as a confirmed refund reference.",
+      "type": "explicit-unresolved-boundary"
+    }
+  ],
+  "unknowns": [
+    "Exact receiver types for the methods/instructions marked unresolved-receiver-type, including generic-context chains and the pet component allocation.",
+    "Indirect callers, generic instantiations outside this core4 index and unindexed il2cpp code; no global unique-reader/writer proof is claimed.",
+    "Server refund eligibility, integer rounding, same-ID payment aggregation order, minimum-one handling and the full client/server formula.",
+    "ToDouble RIP-relative divisor data and full localized formatter internals are not newly recovered in this code-only review; helper arithmetic is observed but no refund quantity rule follows from it.",
+    "No newly executed high-grade attempt, protected outcome, break/repair transaction or server response payload."
+  ],
+  "limitations": [
+    "All275 selected method intervals decode fully; this statement applies only to this extracted set, not every indexed or executable byte.",
+    "The underlying114551548-byte code section was read sequentially by ordinary ADB and is not an atomic process snapshot.",
+    "Cpp2IL mapped DLLs provide names, signatures and intervals only; their generated managed method bodies were not treated as original implementation.",
+    "No receiver-type conclusion is based only on field displacement or the substring plate/Template.",
+    "A no-formula conclusion is restricted to the listed inspected chains; unreviewed and unresolved code remains unknown."
+  ],
+  "calculatorImplication": {
+    "keepRefundIntegerRuleUnknown": true,
+    "keepProtectionMaterialEligibilityUnknown": true,
+    "retainGrossMaterialForecast": true,
+    "keepPriorOneSteelSuperObservationSeparate": true
+  }
+}

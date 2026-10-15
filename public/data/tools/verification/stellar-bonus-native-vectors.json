@@ -1,0 +1,8082 @@
+[
+  {
+    "constellationOrder": 1,
+    "areaPercent": 0,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 1,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 20,
+    "bonusPercent": 0.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 2,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 40,
+    "bonusPercent": 0.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 3,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 60,
+    "bonusPercent": 0.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 4,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 80,
+    "bonusPercent": 0.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 5,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 100,
+    "bonusPercent": 1
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 6,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 120,
+    "bonusPercent": 1.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 7,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 140,
+    "bonusPercent": 1.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 8,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 160,
+    "bonusPercent": 1.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 9,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 180,
+    "bonusPercent": 1.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 10,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 200,
+    "bonusPercent": 2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 11,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 220,
+    "bonusPercent": 2.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 12,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 240,
+    "bonusPercent": 2.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 13,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 260,
+    "bonusPercent": 2.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 14,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 280,
+    "bonusPercent": 2.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 15,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 300,
+    "bonusPercent": 3
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 16,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 320,
+    "bonusPercent": 3.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 17,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 340,
+    "bonusPercent": 3.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 18,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 360,
+    "bonusPercent": 3.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 19,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 380,
+    "bonusPercent": 3.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 20,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 400,
+    "bonusPercent": 4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 21,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 420,
+    "bonusPercent": 4.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 22,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 440,
+    "bonusPercent": 4.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 23,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 460,
+    "bonusPercent": 4.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 24,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 480,
+    "bonusPercent": 4.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 25,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 500,
+    "bonusPercent": 5
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 26,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 520,
+    "bonusPercent": 5.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 27,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 540,
+    "bonusPercent": 5.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 28,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 560,
+    "bonusPercent": 5.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 29,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 580,
+    "bonusPercent": 5.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 30,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 600,
+    "bonusPercent": 6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 31,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 620,
+    "bonusPercent": 6.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 32,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 640,
+    "bonusPercent": 6.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 33,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 660,
+    "bonusPercent": 6.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 34,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 680,
+    "bonusPercent": 6.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 35,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 700,
+    "bonusPercent": 7
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 36,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 720,
+    "bonusPercent": 7.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 37,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 740,
+    "bonusPercent": 7.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 38,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 760,
+    "bonusPercent": 7.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 39,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 780,
+    "bonusPercent": 7.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 40,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 800,
+    "bonusPercent": 8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 41,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 820,
+    "bonusPercent": 8.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 42,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 840,
+    "bonusPercent": 8.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 43,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 860,
+    "bonusPercent": 8.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 44,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 880,
+    "bonusPercent": 8.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 45,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 900,
+    "bonusPercent": 9
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 46,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 920,
+    "bonusPercent": 9.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 47,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 940,
+    "bonusPercent": 9.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 48,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 960,
+    "bonusPercent": 9.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 49,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 980,
+    "bonusPercent": 9.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 50,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 1000,
+    "bonusPercent": 10
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 51,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 1020,
+    "bonusPercent": 10.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 52,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 1040,
+    "bonusPercent": 10.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 53,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 1060,
+    "bonusPercent": 10.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 54,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 1080,
+    "bonusPercent": 10.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 55,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 1100,
+    "bonusPercent": 11
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 56,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 1120,
+    "bonusPercent": 11.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 57,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 1139,
+    "bonusPercent": 11.39
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 58,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 1160,
+    "bonusPercent": 11.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 59,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 1180,
+    "bonusPercent": 11.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 60,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 1200,
+    "bonusPercent": 12
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 61,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 1220,
+    "bonusPercent": 12.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 62,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 1240,
+    "bonusPercent": 12.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 63,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 1260,
+    "bonusPercent": 12.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 64,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 1280,
+    "bonusPercent": 12.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 65,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 1300,
+    "bonusPercent": 13
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 66,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 1320,
+    "bonusPercent": 13.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 67,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 1340,
+    "bonusPercent": 13.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 68,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 1360,
+    "bonusPercent": 13.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 69,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 1379,
+    "bonusPercent": 13.79
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 70,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 1400,
+    "bonusPercent": 14
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 71,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 1420,
+    "bonusPercent": 14.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 72,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 1440,
+    "bonusPercent": 14.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 73,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 1460,
+    "bonusPercent": 14.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 74,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 1480,
+    "bonusPercent": 14.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 75,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 1500,
+    "bonusPercent": 15
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 76,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 1520,
+    "bonusPercent": 15.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 77,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 1540,
+    "bonusPercent": 15.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 78,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 1560,
+    "bonusPercent": 15.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 79,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 1580,
+    "bonusPercent": 15.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 80,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 1600,
+    "bonusPercent": 16
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 81,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 1620,
+    "bonusPercent": 16.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 82,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 1640,
+    "bonusPercent": 16.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 83,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 1660,
+    "bonusPercent": 16.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 84,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 1680,
+    "bonusPercent": 16.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 85,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 1700,
+    "bonusPercent": 17
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 86,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 1720,
+    "bonusPercent": 17.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 87,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 1740,
+    "bonusPercent": 17.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 88,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 1760,
+    "bonusPercent": 17.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 89,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 1780,
+    "bonusPercent": 17.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 90,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 1800,
+    "bonusPercent": 18
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 91,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 1820,
+    "bonusPercent": 18.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 92,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 1840,
+    "bonusPercent": 18.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 93,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 1860,
+    "bonusPercent": 18.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 94,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 1880,
+    "bonusPercent": 18.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 95,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 1900,
+    "bonusPercent": 19
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 96,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 1920,
+    "bonusPercent": 19.2
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 97,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 1940,
+    "bonusPercent": 19.4
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 98,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 1960,
+    "bonusPercent": 19.6
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 99,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 1980,
+    "bonusPercent": 19.8
+  },
+  {
+    "constellationOrder": 1,
+    "areaPercent": 100,
+    "multiplierRaw": "2000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 2000,
+    "bonusPercent": 20
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 0,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 1,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 30,
+    "bonusPercent": 0.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 2,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 60,
+    "bonusPercent": 0.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 3,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 90,
+    "bonusPercent": 0.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 4,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 120,
+    "bonusPercent": 1.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 5,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 150,
+    "bonusPercent": 1.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 6,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 180,
+    "bonusPercent": 1.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 7,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 210,
+    "bonusPercent": 2.1
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 8,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 240,
+    "bonusPercent": 2.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 9,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 270,
+    "bonusPercent": 2.7
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 10,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 300,
+    "bonusPercent": 3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 11,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 330,
+    "bonusPercent": 3.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 12,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 360,
+    "bonusPercent": 3.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 13,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 390,
+    "bonusPercent": 3.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 14,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 420,
+    "bonusPercent": 4.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 15,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 450,
+    "bonusPercent": 4.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 16,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 480,
+    "bonusPercent": 4.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 17,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 510,
+    "bonusPercent": 5.1
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 18,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 540,
+    "bonusPercent": 5.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 19,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 570,
+    "bonusPercent": 5.7
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 20,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 600,
+    "bonusPercent": 6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 21,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 630,
+    "bonusPercent": 6.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 22,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 660,
+    "bonusPercent": 6.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 23,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 690,
+    "bonusPercent": 6.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 24,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 720,
+    "bonusPercent": 7.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 25,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 750,
+    "bonusPercent": 7.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 26,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 780,
+    "bonusPercent": 7.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 27,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 810,
+    "bonusPercent": 8.1
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 28,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 840,
+    "bonusPercent": 8.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 29,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 870,
+    "bonusPercent": 8.7
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 30,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 900,
+    "bonusPercent": 9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 31,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 930,
+    "bonusPercent": 9.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 32,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 960,
+    "bonusPercent": 9.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 33,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 990,
+    "bonusPercent": 9.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 34,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 1020,
+    "bonusPercent": 10.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 35,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 1050,
+    "bonusPercent": 10.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 36,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 1080,
+    "bonusPercent": 10.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 37,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 1110,
+    "bonusPercent": 11.1
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 38,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 1140,
+    "bonusPercent": 11.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 39,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 1170,
+    "bonusPercent": 11.7
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 40,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 1200,
+    "bonusPercent": 12
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 41,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 1230,
+    "bonusPercent": 12.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 42,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 1260,
+    "bonusPercent": 12.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 43,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 1290,
+    "bonusPercent": 12.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 44,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 1320,
+    "bonusPercent": 13.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 45,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 1350,
+    "bonusPercent": 13.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 46,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 1380,
+    "bonusPercent": 13.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 47,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 1410,
+    "bonusPercent": 14.1
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 48,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 1440,
+    "bonusPercent": 14.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 49,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 1470,
+    "bonusPercent": 14.7
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 50,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 1500,
+    "bonusPercent": 15
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 51,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 1530,
+    "bonusPercent": 15.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 52,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 1560,
+    "bonusPercent": 15.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 53,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 1590,
+    "bonusPercent": 15.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 54,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 1620,
+    "bonusPercent": 16.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 55,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 1650,
+    "bonusPercent": 16.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 56,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 1680,
+    "bonusPercent": 16.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 57,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 1709,
+    "bonusPercent": 17.09
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 58,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 1740,
+    "bonusPercent": 17.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 59,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 1770,
+    "bonusPercent": 17.7
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 60,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 1800,
+    "bonusPercent": 18
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 61,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 1830,
+    "bonusPercent": 18.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 62,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 1860,
+    "bonusPercent": 18.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 63,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 1890,
+    "bonusPercent": 18.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 64,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 1920,
+    "bonusPercent": 19.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 65,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 1950,
+    "bonusPercent": 19.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 66,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 1980,
+    "bonusPercent": 19.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 67,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 2010,
+    "bonusPercent": 20.1
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 68,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 2040,
+    "bonusPercent": 20.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 69,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 2069,
+    "bonusPercent": 20.69
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 70,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 2100,
+    "bonusPercent": 21
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 71,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 2130,
+    "bonusPercent": 21.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 72,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 2160,
+    "bonusPercent": 21.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 73,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 2190,
+    "bonusPercent": 21.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 74,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 2220,
+    "bonusPercent": 22.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 75,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 2250,
+    "bonusPercent": 22.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 76,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 2280,
+    "bonusPercent": 22.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 77,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 2310,
+    "bonusPercent": 23.1
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 78,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 2340,
+    "bonusPercent": 23.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 79,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 2370,
+    "bonusPercent": 23.7
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 80,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 2400,
+    "bonusPercent": 24
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 81,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 2430,
+    "bonusPercent": 24.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 82,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 2460,
+    "bonusPercent": 24.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 83,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 2490,
+    "bonusPercent": 24.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 84,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 2520,
+    "bonusPercent": 25.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 85,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 2550,
+    "bonusPercent": 25.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 86,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 2580,
+    "bonusPercent": 25.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 87,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 2610,
+    "bonusPercent": 26.1
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 88,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 2640,
+    "bonusPercent": 26.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 89,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 2670,
+    "bonusPercent": 26.7
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 90,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 2700,
+    "bonusPercent": 27
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 91,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 2730,
+    "bonusPercent": 27.3
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 92,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 2760,
+    "bonusPercent": 27.6
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 93,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 2790,
+    "bonusPercent": 27.9
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 94,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 2820,
+    "bonusPercent": 28.2
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 95,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 2850,
+    "bonusPercent": 28.5
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 96,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 2880,
+    "bonusPercent": 28.8
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 97,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 2910,
+    "bonusPercent": 29.1
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 98,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 2940,
+    "bonusPercent": 29.4
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 99,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 2970,
+    "bonusPercent": 29.7
+  },
+  {
+    "constellationOrder": 2,
+    "areaPercent": 100,
+    "multiplierRaw": "3000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 3000,
+    "bonusPercent": 30
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 0,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 1,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 40,
+    "bonusPercent": 0.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 2,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 80,
+    "bonusPercent": 0.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 3,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 120,
+    "bonusPercent": 1.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 4,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 160,
+    "bonusPercent": 1.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 5,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 200,
+    "bonusPercent": 2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 6,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 240,
+    "bonusPercent": 2.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 7,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 280,
+    "bonusPercent": 2.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 8,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 320,
+    "bonusPercent": 3.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 9,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 360,
+    "bonusPercent": 3.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 10,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 400,
+    "bonusPercent": 4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 11,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 440,
+    "bonusPercent": 4.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 12,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 480,
+    "bonusPercent": 4.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 13,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 520,
+    "bonusPercent": 5.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 14,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 560,
+    "bonusPercent": 5.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 15,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 600,
+    "bonusPercent": 6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 16,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 640,
+    "bonusPercent": 6.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 17,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 680,
+    "bonusPercent": 6.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 18,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 720,
+    "bonusPercent": 7.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 19,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 760,
+    "bonusPercent": 7.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 20,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 800,
+    "bonusPercent": 8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 21,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 840,
+    "bonusPercent": 8.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 22,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 880,
+    "bonusPercent": 8.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 23,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 920,
+    "bonusPercent": 9.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 24,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 960,
+    "bonusPercent": 9.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 25,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 1000,
+    "bonusPercent": 10
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 26,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 1040,
+    "bonusPercent": 10.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 27,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 1080,
+    "bonusPercent": 10.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 28,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 1120,
+    "bonusPercent": 11.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 29,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 1160,
+    "bonusPercent": 11.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 30,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 1200,
+    "bonusPercent": 12
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 31,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 1240,
+    "bonusPercent": 12.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 32,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 1280,
+    "bonusPercent": 12.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 33,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 1320,
+    "bonusPercent": 13.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 34,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 1360,
+    "bonusPercent": 13.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 35,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 1400,
+    "bonusPercent": 14
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 36,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 1440,
+    "bonusPercent": 14.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 37,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 1480,
+    "bonusPercent": 14.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 38,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 1520,
+    "bonusPercent": 15.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 39,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 1560,
+    "bonusPercent": 15.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 40,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 1600,
+    "bonusPercent": 16
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 41,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 1640,
+    "bonusPercent": 16.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 42,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 1680,
+    "bonusPercent": 16.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 43,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 1720,
+    "bonusPercent": 17.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 44,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 1760,
+    "bonusPercent": 17.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 45,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 1800,
+    "bonusPercent": 18
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 46,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 1840,
+    "bonusPercent": 18.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 47,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 1880,
+    "bonusPercent": 18.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 48,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 1920,
+    "bonusPercent": 19.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 49,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 1960,
+    "bonusPercent": 19.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 50,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 2000,
+    "bonusPercent": 20
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 51,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 2040,
+    "bonusPercent": 20.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 52,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 2080,
+    "bonusPercent": 20.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 53,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 2120,
+    "bonusPercent": 21.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 54,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 2160,
+    "bonusPercent": 21.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 55,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 2200,
+    "bonusPercent": 22
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 56,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 2240,
+    "bonusPercent": 22.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 57,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 2279,
+    "bonusPercent": 22.79
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 58,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 2320,
+    "bonusPercent": 23.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 59,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 2360,
+    "bonusPercent": 23.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 60,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 2400,
+    "bonusPercent": 24
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 61,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 2440,
+    "bonusPercent": 24.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 62,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 2480,
+    "bonusPercent": 24.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 63,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 2520,
+    "bonusPercent": 25.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 64,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 2560,
+    "bonusPercent": 25.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 65,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 2600,
+    "bonusPercent": 26
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 66,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 2640,
+    "bonusPercent": 26.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 67,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 2680,
+    "bonusPercent": 26.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 68,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 2720,
+    "bonusPercent": 27.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 69,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 2759,
+    "bonusPercent": 27.59
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 70,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 2800,
+    "bonusPercent": 28
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 71,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 2840,
+    "bonusPercent": 28.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 72,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 2880,
+    "bonusPercent": 28.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 73,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 2920,
+    "bonusPercent": 29.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 74,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 2960,
+    "bonusPercent": 29.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 75,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 3000,
+    "bonusPercent": 30
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 76,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 3040,
+    "bonusPercent": 30.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 77,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 3080,
+    "bonusPercent": 30.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 78,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 3120,
+    "bonusPercent": 31.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 79,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 3160,
+    "bonusPercent": 31.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 80,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 3200,
+    "bonusPercent": 32
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 81,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 3240,
+    "bonusPercent": 32.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 82,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 3280,
+    "bonusPercent": 32.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 83,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 3320,
+    "bonusPercent": 33.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 84,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 3360,
+    "bonusPercent": 33.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 85,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 3400,
+    "bonusPercent": 34
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 86,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 3440,
+    "bonusPercent": 34.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 87,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 3480,
+    "bonusPercent": 34.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 88,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 3520,
+    "bonusPercent": 35.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 89,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 3560,
+    "bonusPercent": 35.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 90,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 3600,
+    "bonusPercent": 36
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 91,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 3640,
+    "bonusPercent": 36.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 92,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 3680,
+    "bonusPercent": 36.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 93,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 3720,
+    "bonusPercent": 37.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 94,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 3760,
+    "bonusPercent": 37.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 95,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 3800,
+    "bonusPercent": 38
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 96,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 3840,
+    "bonusPercent": 38.4
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 97,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 3880,
+    "bonusPercent": 38.8
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 98,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 3920,
+    "bonusPercent": 39.2
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 99,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 3960,
+    "bonusPercent": 39.6
+  },
+  {
+    "constellationOrder": 3,
+    "areaPercent": 100,
+    "multiplierRaw": "4000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 4000,
+    "bonusPercent": 40
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 0,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 1,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 50,
+    "bonusPercent": 0.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 2,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 100,
+    "bonusPercent": 1
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 3,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 150,
+    "bonusPercent": 1.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 4,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 200,
+    "bonusPercent": 2
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 5,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 250,
+    "bonusPercent": 2.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 6,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 300,
+    "bonusPercent": 3
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 7,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 350,
+    "bonusPercent": 3.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 8,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 400,
+    "bonusPercent": 4
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 9,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 450,
+    "bonusPercent": 4.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 10,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 500,
+    "bonusPercent": 5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 11,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 550,
+    "bonusPercent": 5.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 12,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 600,
+    "bonusPercent": 6
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 13,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 650,
+    "bonusPercent": 6.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 14,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 700,
+    "bonusPercent": 7
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 15,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 750,
+    "bonusPercent": 7.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 16,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 800,
+    "bonusPercent": 8
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 17,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 850,
+    "bonusPercent": 8.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 18,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 900,
+    "bonusPercent": 9
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 19,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 950,
+    "bonusPercent": 9.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 20,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 1000,
+    "bonusPercent": 10
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 21,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 1050,
+    "bonusPercent": 10.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 22,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 1100,
+    "bonusPercent": 11
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 23,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 1150,
+    "bonusPercent": 11.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 24,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 1200,
+    "bonusPercent": 12
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 25,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 1250,
+    "bonusPercent": 12.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 26,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 1300,
+    "bonusPercent": 13
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 27,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 1350,
+    "bonusPercent": 13.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 28,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 1400,
+    "bonusPercent": 14
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 29,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 1450,
+    "bonusPercent": 14.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 30,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 1500,
+    "bonusPercent": 15
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 31,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 1550,
+    "bonusPercent": 15.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 32,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 1600,
+    "bonusPercent": 16
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 33,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 1650,
+    "bonusPercent": 16.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 34,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 1700,
+    "bonusPercent": 17
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 35,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 1750,
+    "bonusPercent": 17.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 36,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 1800,
+    "bonusPercent": 18
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 37,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 1850,
+    "bonusPercent": 18.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 38,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 1900,
+    "bonusPercent": 19
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 39,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 1950,
+    "bonusPercent": 19.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 40,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 2000,
+    "bonusPercent": 20
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 41,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 2050,
+    "bonusPercent": 20.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 42,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 2100,
+    "bonusPercent": 21
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 43,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 2150,
+    "bonusPercent": 21.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 44,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 2200,
+    "bonusPercent": 22
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 45,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 2250,
+    "bonusPercent": 22.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 46,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 2300,
+    "bonusPercent": 23
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 47,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 2350,
+    "bonusPercent": 23.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 48,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 2400,
+    "bonusPercent": 24
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 49,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 2450,
+    "bonusPercent": 24.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 50,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 2500,
+    "bonusPercent": 25
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 51,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 2550,
+    "bonusPercent": 25.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 52,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 2600,
+    "bonusPercent": 26
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 53,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 2650,
+    "bonusPercent": 26.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 54,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 2700,
+    "bonusPercent": 27
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 55,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 2750,
+    "bonusPercent": 27.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 56,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 2800,
+    "bonusPercent": 28
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 57,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 2849,
+    "bonusPercent": 28.49
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 58,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 2900,
+    "bonusPercent": 29
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 59,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 2950,
+    "bonusPercent": 29.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 60,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 3000,
+    "bonusPercent": 30
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 61,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 3050,
+    "bonusPercent": 30.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 62,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 3100,
+    "bonusPercent": 31
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 63,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 3150,
+    "bonusPercent": 31.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 64,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 3200,
+    "bonusPercent": 32
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 65,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 3250,
+    "bonusPercent": 32.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 66,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 3300,
+    "bonusPercent": 33
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 67,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 3350,
+    "bonusPercent": 33.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 68,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 3400,
+    "bonusPercent": 34
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 69,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 3449,
+    "bonusPercent": 34.49
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 70,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 3500,
+    "bonusPercent": 35
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 71,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 3550,
+    "bonusPercent": 35.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 72,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 3600,
+    "bonusPercent": 36
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 73,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 3650,
+    "bonusPercent": 36.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 74,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 3700,
+    "bonusPercent": 37
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 75,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 3750,
+    "bonusPercent": 37.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 76,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 3800,
+    "bonusPercent": 38
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 77,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 3850,
+    "bonusPercent": 38.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 78,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 3900,
+    "bonusPercent": 39
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 79,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 3950,
+    "bonusPercent": 39.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 80,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 4000,
+    "bonusPercent": 40
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 81,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 4050,
+    "bonusPercent": 40.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 82,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 4100,
+    "bonusPercent": 41
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 83,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 4150,
+    "bonusPercent": 41.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 84,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 4200,
+    "bonusPercent": 42
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 85,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 4250,
+    "bonusPercent": 42.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 86,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 4300,
+    "bonusPercent": 43
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 87,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 4350,
+    "bonusPercent": 43.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 88,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 4400,
+    "bonusPercent": 44
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 89,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 4450,
+    "bonusPercent": 44.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 90,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 4500,
+    "bonusPercent": 45
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 91,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 4550,
+    "bonusPercent": 45.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 92,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 4600,
+    "bonusPercent": 46
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 93,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 4650,
+    "bonusPercent": 46.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 94,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 4700,
+    "bonusPercent": 47
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 95,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 4750,
+    "bonusPercent": 47.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 96,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 4800,
+    "bonusPercent": 48
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 97,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 4850,
+    "bonusPercent": 48.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 98,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 4900,
+    "bonusPercent": 49
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 99,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 4950,
+    "bonusPercent": 49.5
+  },
+  {
+    "constellationOrder": 4,
+    "areaPercent": 100,
+    "multiplierRaw": "5000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 5000,
+    "bonusPercent": 50
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 0,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 1,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 60,
+    "bonusPercent": 0.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 2,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 120,
+    "bonusPercent": 1.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 3,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 180,
+    "bonusPercent": 1.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 4,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 240,
+    "bonusPercent": 2.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 5,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 300,
+    "bonusPercent": 3
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 6,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 360,
+    "bonusPercent": 3.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 7,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 420,
+    "bonusPercent": 4.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 8,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 480,
+    "bonusPercent": 4.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 9,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 540,
+    "bonusPercent": 5.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 10,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 600,
+    "bonusPercent": 6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 11,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 660,
+    "bonusPercent": 6.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 12,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 720,
+    "bonusPercent": 7.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 13,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 780,
+    "bonusPercent": 7.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 14,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 840,
+    "bonusPercent": 8.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 15,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 900,
+    "bonusPercent": 9
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 16,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 960,
+    "bonusPercent": 9.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 17,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 1020,
+    "bonusPercent": 10.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 18,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 1080,
+    "bonusPercent": 10.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 19,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 1140,
+    "bonusPercent": 11.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 20,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 1200,
+    "bonusPercent": 12
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 21,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 1260,
+    "bonusPercent": 12.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 22,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 1320,
+    "bonusPercent": 13.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 23,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 1380,
+    "bonusPercent": 13.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 24,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 1440,
+    "bonusPercent": 14.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 25,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 1500,
+    "bonusPercent": 15
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 26,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 1560,
+    "bonusPercent": 15.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 27,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 1620,
+    "bonusPercent": 16.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 28,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 1680,
+    "bonusPercent": 16.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 29,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 1740,
+    "bonusPercent": 17.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 30,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 1800,
+    "bonusPercent": 18
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 31,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 1860,
+    "bonusPercent": 18.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 32,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 1920,
+    "bonusPercent": 19.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 33,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 1980,
+    "bonusPercent": 19.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 34,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 2040,
+    "bonusPercent": 20.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 35,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 2100,
+    "bonusPercent": 21
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 36,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 2160,
+    "bonusPercent": 21.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 37,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 2220,
+    "bonusPercent": 22.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 38,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 2280,
+    "bonusPercent": 22.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 39,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 2340,
+    "bonusPercent": 23.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 40,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 2400,
+    "bonusPercent": 24
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 41,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 2460,
+    "bonusPercent": 24.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 42,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 2520,
+    "bonusPercent": 25.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 43,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 2580,
+    "bonusPercent": 25.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 44,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 2640,
+    "bonusPercent": 26.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 45,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 2700,
+    "bonusPercent": 27
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 46,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 2760,
+    "bonusPercent": 27.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 47,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 2820,
+    "bonusPercent": 28.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 48,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 2880,
+    "bonusPercent": 28.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 49,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 2940,
+    "bonusPercent": 29.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 50,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 3000,
+    "bonusPercent": 30
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 51,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 3060,
+    "bonusPercent": 30.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 52,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 3120,
+    "bonusPercent": 31.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 53,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 3180,
+    "bonusPercent": 31.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 54,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 3240,
+    "bonusPercent": 32.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 55,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 3300,
+    "bonusPercent": 33
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 56,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 3360,
+    "bonusPercent": 33.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 57,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 3419,
+    "bonusPercent": 34.19
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 58,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 3480,
+    "bonusPercent": 34.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 59,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 3540,
+    "bonusPercent": 35.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 60,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 3600,
+    "bonusPercent": 36
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 61,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 3660,
+    "bonusPercent": 36.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 62,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 3720,
+    "bonusPercent": 37.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 63,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 3780,
+    "bonusPercent": 37.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 64,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 3840,
+    "bonusPercent": 38.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 65,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 3900,
+    "bonusPercent": 39
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 66,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 3960,
+    "bonusPercent": 39.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 67,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 4020,
+    "bonusPercent": 40.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 68,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 4080,
+    "bonusPercent": 40.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 69,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 4139,
+    "bonusPercent": 41.39
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 70,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 4200,
+    "bonusPercent": 42
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 71,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 4260,
+    "bonusPercent": 42.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 72,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 4320,
+    "bonusPercent": 43.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 73,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 4380,
+    "bonusPercent": 43.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 74,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 4440,
+    "bonusPercent": 44.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 75,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 4500,
+    "bonusPercent": 45
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 76,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 4560,
+    "bonusPercent": 45.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 77,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 4620,
+    "bonusPercent": 46.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 78,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 4680,
+    "bonusPercent": 46.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 79,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 4740,
+    "bonusPercent": 47.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 80,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 4800,
+    "bonusPercent": 48
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 81,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 4860,
+    "bonusPercent": 48.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 82,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 4920,
+    "bonusPercent": 49.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 83,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 4980,
+    "bonusPercent": 49.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 84,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 5040,
+    "bonusPercent": 50.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 85,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 5100,
+    "bonusPercent": 51
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 86,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 5160,
+    "bonusPercent": 51.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 87,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 5220,
+    "bonusPercent": 52.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 88,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 5280,
+    "bonusPercent": 52.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 89,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 5340,
+    "bonusPercent": 53.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 90,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 5400,
+    "bonusPercent": 54
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 91,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 5460,
+    "bonusPercent": 54.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 92,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 5520,
+    "bonusPercent": 55.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 93,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 5580,
+    "bonusPercent": 55.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 94,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 5640,
+    "bonusPercent": 56.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 95,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 5700,
+    "bonusPercent": 57
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 96,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 5760,
+    "bonusPercent": 57.6
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 97,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 5820,
+    "bonusPercent": 58.2
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 98,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 5880,
+    "bonusPercent": 58.8
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 99,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 5940,
+    "bonusPercent": 59.4
+  },
+  {
+    "constellationOrder": 5,
+    "areaPercent": 100,
+    "multiplierRaw": "6000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 6000,
+    "bonusPercent": 60
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 0,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 1,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 80,
+    "bonusPercent": 0.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 2,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 160,
+    "bonusPercent": 1.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 3,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 240,
+    "bonusPercent": 2.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 4,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 320,
+    "bonusPercent": 3.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 5,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 400,
+    "bonusPercent": 4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 6,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 480,
+    "bonusPercent": 4.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 7,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 560,
+    "bonusPercent": 5.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 8,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 640,
+    "bonusPercent": 6.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 9,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 720,
+    "bonusPercent": 7.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 10,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 800,
+    "bonusPercent": 8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 11,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 880,
+    "bonusPercent": 8.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 12,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 960,
+    "bonusPercent": 9.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 13,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 1040,
+    "bonusPercent": 10.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 14,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 1120,
+    "bonusPercent": 11.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 15,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 1200,
+    "bonusPercent": 12
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 16,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 1280,
+    "bonusPercent": 12.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 17,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 1360,
+    "bonusPercent": 13.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 18,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 1440,
+    "bonusPercent": 14.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 19,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 1520,
+    "bonusPercent": 15.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 20,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 1600,
+    "bonusPercent": 16
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 21,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 1680,
+    "bonusPercent": 16.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 22,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 1760,
+    "bonusPercent": 17.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 23,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 1840,
+    "bonusPercent": 18.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 24,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 1920,
+    "bonusPercent": 19.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 25,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 2000,
+    "bonusPercent": 20
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 26,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 2080,
+    "bonusPercent": 20.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 27,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 2160,
+    "bonusPercent": 21.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 28,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 2240,
+    "bonusPercent": 22.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 29,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 2320,
+    "bonusPercent": 23.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 30,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 2400,
+    "bonusPercent": 24
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 31,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 2480,
+    "bonusPercent": 24.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 32,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 2560,
+    "bonusPercent": 25.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 33,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 2640,
+    "bonusPercent": 26.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 34,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 2720,
+    "bonusPercent": 27.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 35,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 2800,
+    "bonusPercent": 28
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 36,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 2880,
+    "bonusPercent": 28.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 37,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 2960,
+    "bonusPercent": 29.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 38,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 3040,
+    "bonusPercent": 30.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 39,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 3120,
+    "bonusPercent": 31.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 40,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 3200,
+    "bonusPercent": 32
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 41,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 3280,
+    "bonusPercent": 32.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 42,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 3360,
+    "bonusPercent": 33.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 43,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 3440,
+    "bonusPercent": 34.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 44,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 3520,
+    "bonusPercent": 35.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 45,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 3600,
+    "bonusPercent": 36
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 46,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 3680,
+    "bonusPercent": 36.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 47,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 3760,
+    "bonusPercent": 37.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 48,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 3840,
+    "bonusPercent": 38.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 49,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 3920,
+    "bonusPercent": 39.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 50,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 4000,
+    "bonusPercent": 40
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 51,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 4080,
+    "bonusPercent": 40.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 52,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 4160,
+    "bonusPercent": 41.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 53,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 4240,
+    "bonusPercent": 42.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 54,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 4320,
+    "bonusPercent": 43.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 55,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 4400,
+    "bonusPercent": 44
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 56,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 4480,
+    "bonusPercent": 44.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 57,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 4559,
+    "bonusPercent": 45.59
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 58,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 4640,
+    "bonusPercent": 46.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 59,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 4720,
+    "bonusPercent": 47.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 60,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 4800,
+    "bonusPercent": 48
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 61,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 4880,
+    "bonusPercent": 48.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 62,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 4960,
+    "bonusPercent": 49.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 63,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 5040,
+    "bonusPercent": 50.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 64,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 5120,
+    "bonusPercent": 51.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 65,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 5200,
+    "bonusPercent": 52
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 66,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 5280,
+    "bonusPercent": 52.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 67,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 5360,
+    "bonusPercent": 53.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 68,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 5440,
+    "bonusPercent": 54.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 69,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 5519,
+    "bonusPercent": 55.19
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 70,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 5600,
+    "bonusPercent": 56
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 71,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 5680,
+    "bonusPercent": 56.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 72,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 5760,
+    "bonusPercent": 57.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 73,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 5840,
+    "bonusPercent": 58.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 74,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 5920,
+    "bonusPercent": 59.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 75,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 6000,
+    "bonusPercent": 60
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 76,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 6080,
+    "bonusPercent": 60.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 77,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 6160,
+    "bonusPercent": 61.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 78,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 6240,
+    "bonusPercent": 62.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 79,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 6320,
+    "bonusPercent": 63.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 80,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 6400,
+    "bonusPercent": 64
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 81,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 6480,
+    "bonusPercent": 64.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 82,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 6560,
+    "bonusPercent": 65.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 83,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 6640,
+    "bonusPercent": 66.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 84,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 6720,
+    "bonusPercent": 67.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 85,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 6800,
+    "bonusPercent": 68
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 86,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 6880,
+    "bonusPercent": 68.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 87,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 6960,
+    "bonusPercent": 69.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 88,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 7040,
+    "bonusPercent": 70.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 89,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 7120,
+    "bonusPercent": 71.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 90,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 7200,
+    "bonusPercent": 72
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 91,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 7280,
+    "bonusPercent": 72.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 92,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 7360,
+    "bonusPercent": 73.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 93,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 7440,
+    "bonusPercent": 74.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 94,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 7520,
+    "bonusPercent": 75.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 95,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 7600,
+    "bonusPercent": 76
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 96,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 7680,
+    "bonusPercent": 76.8
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 97,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 7760,
+    "bonusPercent": 77.6
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 98,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 7840,
+    "bonusPercent": 78.4
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 99,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 7920,
+    "bonusPercent": 79.2
+  },
+  {
+    "constellationOrder": 6,
+    "areaPercent": 100,
+    "multiplierRaw": "8000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 8000,
+    "bonusPercent": 80
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 0,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 1,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 100,
+    "bonusPercent": 1
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 2,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 200,
+    "bonusPercent": 2
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 3,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 300,
+    "bonusPercent": 3
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 4,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 400,
+    "bonusPercent": 4
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 5,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 500,
+    "bonusPercent": 5
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 6,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 600,
+    "bonusPercent": 6
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 7,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 700,
+    "bonusPercent": 7
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 8,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 800,
+    "bonusPercent": 8
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 9,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 900,
+    "bonusPercent": 9
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 10,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 1000,
+    "bonusPercent": 10
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 11,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 1100,
+    "bonusPercent": 11
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 12,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 1200,
+    "bonusPercent": 12
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 13,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 1300,
+    "bonusPercent": 13
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 14,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 1400,
+    "bonusPercent": 14
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 15,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 1500,
+    "bonusPercent": 15
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 16,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 1600,
+    "bonusPercent": 16
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 17,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 1700,
+    "bonusPercent": 17
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 18,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 1800,
+    "bonusPercent": 18
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 19,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 1900,
+    "bonusPercent": 19
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 20,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 2000,
+    "bonusPercent": 20
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 21,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 2100,
+    "bonusPercent": 21
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 22,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 2200,
+    "bonusPercent": 22
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 23,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 2300,
+    "bonusPercent": 23
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 24,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 2400,
+    "bonusPercent": 24
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 25,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 2500,
+    "bonusPercent": 25
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 26,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 2600,
+    "bonusPercent": 26
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 27,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 2700,
+    "bonusPercent": 27
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 28,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 2800,
+    "bonusPercent": 28
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 29,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 2900,
+    "bonusPercent": 29
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 30,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 3000,
+    "bonusPercent": 30
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 31,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 3100,
+    "bonusPercent": 31
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 32,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 3200,
+    "bonusPercent": 32
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 33,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 3300,
+    "bonusPercent": 33
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 34,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 3400,
+    "bonusPercent": 34
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 35,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 3500,
+    "bonusPercent": 35
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 36,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 3600,
+    "bonusPercent": 36
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 37,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 3700,
+    "bonusPercent": 37
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 38,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 3800,
+    "bonusPercent": 38
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 39,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 3900,
+    "bonusPercent": 39
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 40,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 4000,
+    "bonusPercent": 40
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 41,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 4100,
+    "bonusPercent": 41
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 42,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 4200,
+    "bonusPercent": 42
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 43,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 4300,
+    "bonusPercent": 43
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 44,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 4400,
+    "bonusPercent": 44
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 45,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 4500,
+    "bonusPercent": 45
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 46,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 4600,
+    "bonusPercent": 46
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 47,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 4700,
+    "bonusPercent": 47
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 48,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 4800,
+    "bonusPercent": 48
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 49,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 4900,
+    "bonusPercent": 49
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 50,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 5000,
+    "bonusPercent": 50
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 51,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 5100,
+    "bonusPercent": 51
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 52,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 5200,
+    "bonusPercent": 52
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 53,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 5300,
+    "bonusPercent": 53
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 54,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 5400,
+    "bonusPercent": 54
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 55,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 5500,
+    "bonusPercent": 55
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 56,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 5600,
+    "bonusPercent": 56
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 57,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 5699,
+    "bonusPercent": 56.99
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 58,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 5800,
+    "bonusPercent": 58
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 59,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 5900,
+    "bonusPercent": 59
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 60,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 6000,
+    "bonusPercent": 60
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 61,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 6100,
+    "bonusPercent": 61
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 62,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 6200,
+    "bonusPercent": 62
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 63,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 6300,
+    "bonusPercent": 63
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 64,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 6400,
+    "bonusPercent": 64
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 65,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 6500,
+    "bonusPercent": 65
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 66,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 6600,
+    "bonusPercent": 66
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 67,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 6700,
+    "bonusPercent": 67
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 68,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 6800,
+    "bonusPercent": 68
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 69,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 6899,
+    "bonusPercent": 68.99
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 70,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 7000,
+    "bonusPercent": 70
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 71,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 7100,
+    "bonusPercent": 71
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 72,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 7200,
+    "bonusPercent": 72
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 73,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 7300,
+    "bonusPercent": 73
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 74,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 7400,
+    "bonusPercent": 74
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 75,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 7500,
+    "bonusPercent": 75
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 76,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 7600,
+    "bonusPercent": 76
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 77,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 7700,
+    "bonusPercent": 77
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 78,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 7800,
+    "bonusPercent": 78
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 79,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 7900,
+    "bonusPercent": 79
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 80,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 8000,
+    "bonusPercent": 80
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 81,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 8100,
+    "bonusPercent": 81
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 82,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 8200,
+    "bonusPercent": 82
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 83,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 8300,
+    "bonusPercent": 83
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 84,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 8400,
+    "bonusPercent": 84
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 85,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 8500,
+    "bonusPercent": 85
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 86,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 8600,
+    "bonusPercent": 86
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 87,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 8700,
+    "bonusPercent": 87
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 88,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 8800,
+    "bonusPercent": 88
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 89,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 8900,
+    "bonusPercent": 89
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 90,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 9000,
+    "bonusPercent": 90
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 91,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 9100,
+    "bonusPercent": 91
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 92,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 9200,
+    "bonusPercent": 92
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 93,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 9300,
+    "bonusPercent": 93
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 94,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 9400,
+    "bonusPercent": 94
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 95,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 9500,
+    "bonusPercent": 95
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 96,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 9600,
+    "bonusPercent": 96
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 97,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 9700,
+    "bonusPercent": 97
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 98,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 9800,
+    "bonusPercent": 98
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 99,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 9900,
+    "bonusPercent": 99
+  },
+  {
+    "constellationOrder": 7,
+    "areaPercent": 100,
+    "multiplierRaw": "10000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 10000,
+    "bonusPercent": 100
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 0,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 1,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 130,
+    "bonusPercent": 1.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 2,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 260,
+    "bonusPercent": 2.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 3,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 390,
+    "bonusPercent": 3.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 4,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 520,
+    "bonusPercent": 5.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 5,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 650,
+    "bonusPercent": 6.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 6,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 780,
+    "bonusPercent": 7.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 7,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 910,
+    "bonusPercent": 9.1
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 8,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 1040,
+    "bonusPercent": 10.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 9,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 1170,
+    "bonusPercent": 11.7
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 10,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 1300,
+    "bonusPercent": 13
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 11,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 1430,
+    "bonusPercent": 14.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 12,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 1560,
+    "bonusPercent": 15.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 13,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 1690,
+    "bonusPercent": 16.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 14,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 1820,
+    "bonusPercent": 18.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 15,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 1950,
+    "bonusPercent": 19.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 16,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 2080,
+    "bonusPercent": 20.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 17,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 2210,
+    "bonusPercent": 22.1
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 18,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 2340,
+    "bonusPercent": 23.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 19,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 2470,
+    "bonusPercent": 24.7
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 20,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 2600,
+    "bonusPercent": 26
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 21,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 2730,
+    "bonusPercent": 27.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 22,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 2860,
+    "bonusPercent": 28.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 23,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 2990,
+    "bonusPercent": 29.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 24,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 3120,
+    "bonusPercent": 31.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 25,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 3250,
+    "bonusPercent": 32.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 26,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 3380,
+    "bonusPercent": 33.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 27,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 3510,
+    "bonusPercent": 35.1
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 28,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 3640,
+    "bonusPercent": 36.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 29,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 3770,
+    "bonusPercent": 37.7
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 30,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 3900,
+    "bonusPercent": 39
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 31,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 4030,
+    "bonusPercent": 40.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 32,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 4160,
+    "bonusPercent": 41.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 33,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 4290,
+    "bonusPercent": 42.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 34,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 4420,
+    "bonusPercent": 44.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 35,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 4550,
+    "bonusPercent": 45.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 36,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 4680,
+    "bonusPercent": 46.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 37,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 4810,
+    "bonusPercent": 48.1
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 38,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 4940,
+    "bonusPercent": 49.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 39,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 5070,
+    "bonusPercent": 50.7
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 40,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 5200,
+    "bonusPercent": 52
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 41,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 5330,
+    "bonusPercent": 53.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 42,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 5460,
+    "bonusPercent": 54.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 43,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 5590,
+    "bonusPercent": 55.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 44,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 5720,
+    "bonusPercent": 57.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 45,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 5850,
+    "bonusPercent": 58.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 46,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 5980,
+    "bonusPercent": 59.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 47,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 6110,
+    "bonusPercent": 61.1
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 48,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 6240,
+    "bonusPercent": 62.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 49,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 6370,
+    "bonusPercent": 63.7
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 50,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 6500,
+    "bonusPercent": 65
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 51,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 6630,
+    "bonusPercent": 66.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 52,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 6760,
+    "bonusPercent": 67.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 53,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 6890,
+    "bonusPercent": 68.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 54,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 7020,
+    "bonusPercent": 70.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 55,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 7150,
+    "bonusPercent": 71.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 56,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 7280,
+    "bonusPercent": 72.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 57,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 7408,
+    "bonusPercent": 74.08
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 58,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 7540,
+    "bonusPercent": 75.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 59,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 7670,
+    "bonusPercent": 76.7
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 60,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 7800,
+    "bonusPercent": 78
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 61,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 7930,
+    "bonusPercent": 79.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 62,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 8060,
+    "bonusPercent": 80.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 63,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 8190,
+    "bonusPercent": 81.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 64,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 8320,
+    "bonusPercent": 83.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 65,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 8450,
+    "bonusPercent": 84.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 66,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 8580,
+    "bonusPercent": 85.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 67,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 8710,
+    "bonusPercent": 87.1
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 68,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 8840,
+    "bonusPercent": 88.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 69,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 8968,
+    "bonusPercent": 89.68
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 70,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 9100,
+    "bonusPercent": 91
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 71,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 9230,
+    "bonusPercent": 92.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 72,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 9360,
+    "bonusPercent": 93.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 73,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 9490,
+    "bonusPercent": 94.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 74,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 9620,
+    "bonusPercent": 96.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 75,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 9750,
+    "bonusPercent": 97.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 76,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 9880,
+    "bonusPercent": 98.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 77,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 10010,
+    "bonusPercent": 100.1
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 78,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 10140,
+    "bonusPercent": 101.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 79,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 10270,
+    "bonusPercent": 102.7
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 80,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 10400,
+    "bonusPercent": 104
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 81,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 10530,
+    "bonusPercent": 105.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 82,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 10660,
+    "bonusPercent": 106.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 83,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 10790,
+    "bonusPercent": 107.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 84,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 10920,
+    "bonusPercent": 109.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 85,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 11050,
+    "bonusPercent": 110.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 86,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 11180,
+    "bonusPercent": 111.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 87,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 11310,
+    "bonusPercent": 113.1
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 88,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 11440,
+    "bonusPercent": 114.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 89,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 11570,
+    "bonusPercent": 115.7
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 90,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 11700,
+    "bonusPercent": 117
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 91,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 11830,
+    "bonusPercent": 118.3
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 92,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 11960,
+    "bonusPercent": 119.6
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 93,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 12090,
+    "bonusPercent": 120.9
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 94,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 12220,
+    "bonusPercent": 122.2
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 95,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 12350,
+    "bonusPercent": 123.5
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 96,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 12480,
+    "bonusPercent": 124.8
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 97,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 12610,
+    "bonusPercent": 126.1
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 98,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 12740,
+    "bonusPercent": 127.4
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 99,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 12870,
+    "bonusPercent": 128.7
+  },
+  {
+    "constellationOrder": 8,
+    "areaPercent": 100,
+    "multiplierRaw": "13000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 13000,
+    "bonusPercent": 130
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 0,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 1,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 160,
+    "bonusPercent": 1.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 2,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 320,
+    "bonusPercent": 3.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 3,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 480,
+    "bonusPercent": 4.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 4,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 640,
+    "bonusPercent": 6.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 5,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 800,
+    "bonusPercent": 8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 6,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 960,
+    "bonusPercent": 9.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 7,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 1120,
+    "bonusPercent": 11.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 8,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 1280,
+    "bonusPercent": 12.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 9,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 1440,
+    "bonusPercent": 14.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 10,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 1600,
+    "bonusPercent": 16
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 11,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 1760,
+    "bonusPercent": 17.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 12,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 1920,
+    "bonusPercent": 19.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 13,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 2080,
+    "bonusPercent": 20.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 14,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 2240,
+    "bonusPercent": 22.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 15,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 2400,
+    "bonusPercent": 24
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 16,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 2560,
+    "bonusPercent": 25.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 17,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 2720,
+    "bonusPercent": 27.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 18,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 2880,
+    "bonusPercent": 28.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 19,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 3040,
+    "bonusPercent": 30.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 20,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 3200,
+    "bonusPercent": 32
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 21,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 3360,
+    "bonusPercent": 33.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 22,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 3520,
+    "bonusPercent": 35.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 23,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 3680,
+    "bonusPercent": 36.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 24,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 3840,
+    "bonusPercent": 38.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 25,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 4000,
+    "bonusPercent": 40
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 26,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 4160,
+    "bonusPercent": 41.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 27,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 4320,
+    "bonusPercent": 43.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 28,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 4480,
+    "bonusPercent": 44.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 29,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 4640,
+    "bonusPercent": 46.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 30,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 4800,
+    "bonusPercent": 48
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 31,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 4960,
+    "bonusPercent": 49.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 32,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 5120,
+    "bonusPercent": 51.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 33,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 5280,
+    "bonusPercent": 52.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 34,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 5440,
+    "bonusPercent": 54.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 35,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 5600,
+    "bonusPercent": 56
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 36,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 5760,
+    "bonusPercent": 57.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 37,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 5920,
+    "bonusPercent": 59.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 38,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 6080,
+    "bonusPercent": 60.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 39,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 6240,
+    "bonusPercent": 62.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 40,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 6400,
+    "bonusPercent": 64
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 41,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 6560,
+    "bonusPercent": 65.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 42,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 6720,
+    "bonusPercent": 67.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 43,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 6880,
+    "bonusPercent": 68.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 44,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 7040,
+    "bonusPercent": 70.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 45,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 7200,
+    "bonusPercent": 72
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 46,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 7360,
+    "bonusPercent": 73.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 47,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 7520,
+    "bonusPercent": 75.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 48,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 7680,
+    "bonusPercent": 76.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 49,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 7840,
+    "bonusPercent": 78.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 50,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 8000,
+    "bonusPercent": 80
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 51,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 8160,
+    "bonusPercent": 81.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 52,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 8320,
+    "bonusPercent": 83.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 53,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 8480,
+    "bonusPercent": 84.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 54,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 8640,
+    "bonusPercent": 86.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 55,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 8800,
+    "bonusPercent": 88
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 56,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 8960,
+    "bonusPercent": 89.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 57,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 9118,
+    "bonusPercent": 91.18
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 58,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 9280,
+    "bonusPercent": 92.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 59,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 9440,
+    "bonusPercent": 94.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 60,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 9600,
+    "bonusPercent": 96
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 61,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 9760,
+    "bonusPercent": 97.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 62,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 9920,
+    "bonusPercent": 99.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 63,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 10080,
+    "bonusPercent": 100.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 64,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 10240,
+    "bonusPercent": 102.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 65,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 10400,
+    "bonusPercent": 104
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 66,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 10560,
+    "bonusPercent": 105.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 67,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 10720,
+    "bonusPercent": 107.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 68,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 10880,
+    "bonusPercent": 108.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 69,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 11038,
+    "bonusPercent": 110.38
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 70,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 11200,
+    "bonusPercent": 112
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 71,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 11360,
+    "bonusPercent": 113.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 72,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 11520,
+    "bonusPercent": 115.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 73,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 11680,
+    "bonusPercent": 116.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 74,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 11840,
+    "bonusPercent": 118.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 75,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 12000,
+    "bonusPercent": 120
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 76,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 12160,
+    "bonusPercent": 121.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 77,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 12320,
+    "bonusPercent": 123.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 78,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 12480,
+    "bonusPercent": 124.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 79,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 12640,
+    "bonusPercent": 126.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 80,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 12800,
+    "bonusPercent": 128
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 81,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 12960,
+    "bonusPercent": 129.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 82,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 13120,
+    "bonusPercent": 131.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 83,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 13280,
+    "bonusPercent": 132.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 84,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 13440,
+    "bonusPercent": 134.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 85,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 13600,
+    "bonusPercent": 136
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 86,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 13760,
+    "bonusPercent": 137.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 87,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 13920,
+    "bonusPercent": 139.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 88,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 14080,
+    "bonusPercent": 140.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 89,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 14240,
+    "bonusPercent": 142.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 90,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 14400,
+    "bonusPercent": 144
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 91,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 14560,
+    "bonusPercent": 145.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 92,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 14720,
+    "bonusPercent": 147.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 93,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 14880,
+    "bonusPercent": 148.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 94,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 15040,
+    "bonusPercent": 150.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 95,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 15200,
+    "bonusPercent": 152
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 96,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 15360,
+    "bonusPercent": 153.6
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 97,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 15520,
+    "bonusPercent": 155.2
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 98,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 15680,
+    "bonusPercent": 156.8
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 99,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 15840,
+    "bonusPercent": 158.4
+  },
+  {
+    "constellationOrder": 9,
+    "areaPercent": 100,
+    "multiplierRaw": "16000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 16000,
+    "bonusPercent": 160
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 0,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 0,
+    "bonusBasisPoint": 0,
+    "bonusPercent": 0
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 1,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 100,
+    "bonusBasisPoint": 200,
+    "bonusPercent": 2
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 2,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 200,
+    "bonusBasisPoint": 400,
+    "bonusPercent": 4
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 3,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 300,
+    "bonusBasisPoint": 600,
+    "bonusPercent": 6
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 4,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 400,
+    "bonusBasisPoint": 800,
+    "bonusPercent": 8
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 5,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 500,
+    "bonusBasisPoint": 1000,
+    "bonusPercent": 10
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 6,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 600,
+    "bonusBasisPoint": 1200,
+    "bonusPercent": 12
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 7,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 700,
+    "bonusBasisPoint": 1400,
+    "bonusPercent": 14
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 8,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 800,
+    "bonusBasisPoint": 1600,
+    "bonusPercent": 16
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 9,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 900,
+    "bonusBasisPoint": 1800,
+    "bonusPercent": 18
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 10,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1000,
+    "bonusBasisPoint": 2000,
+    "bonusPercent": 20
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 11,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1100,
+    "bonusBasisPoint": 2200,
+    "bonusPercent": 22
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 12,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1200,
+    "bonusBasisPoint": 2400,
+    "bonusPercent": 24
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 13,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1300,
+    "bonusBasisPoint": 2600,
+    "bonusPercent": 26
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 14,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1400,
+    "bonusBasisPoint": 2800,
+    "bonusPercent": 28
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 15,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1500,
+    "bonusBasisPoint": 3000,
+    "bonusPercent": 30
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 16,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1600,
+    "bonusBasisPoint": 3200,
+    "bonusPercent": 32
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 17,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1700,
+    "bonusBasisPoint": 3400,
+    "bonusPercent": 34
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 18,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1800,
+    "bonusBasisPoint": 3600,
+    "bonusPercent": 36
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 19,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 1900,
+    "bonusBasisPoint": 3800,
+    "bonusPercent": 38
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 20,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2000,
+    "bonusBasisPoint": 4000,
+    "bonusPercent": 40
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 21,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2100,
+    "bonusBasisPoint": 4200,
+    "bonusPercent": 42
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 22,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2200,
+    "bonusBasisPoint": 4400,
+    "bonusPercent": 44
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 23,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2300,
+    "bonusBasisPoint": 4600,
+    "bonusPercent": 46
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 24,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2400,
+    "bonusBasisPoint": 4800,
+    "bonusPercent": 48
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 25,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2500,
+    "bonusBasisPoint": 5000,
+    "bonusPercent": 50
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 26,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2600,
+    "bonusBasisPoint": 5200,
+    "bonusPercent": 52
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 27,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2700,
+    "bonusBasisPoint": 5400,
+    "bonusPercent": 54
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 28,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2800,
+    "bonusBasisPoint": 5600,
+    "bonusPercent": 56
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 29,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 2900,
+    "bonusBasisPoint": 5800,
+    "bonusPercent": 58
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 30,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3000,
+    "bonusBasisPoint": 6000,
+    "bonusPercent": 60
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 31,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3100,
+    "bonusBasisPoint": 6200,
+    "bonusPercent": 62
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 32,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3200,
+    "bonusBasisPoint": 6400,
+    "bonusPercent": 64
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 33,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3300,
+    "bonusBasisPoint": 6600,
+    "bonusPercent": 66
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 34,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3400,
+    "bonusBasisPoint": 6800,
+    "bonusPercent": 68
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 35,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3500,
+    "bonusBasisPoint": 7000,
+    "bonusPercent": 70
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 36,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3600,
+    "bonusBasisPoint": 7200,
+    "bonusPercent": 72
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 37,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3700,
+    "bonusBasisPoint": 7400,
+    "bonusPercent": 74
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 38,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3800,
+    "bonusBasisPoint": 7600,
+    "bonusPercent": 76
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 39,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 3900,
+    "bonusBasisPoint": 7800,
+    "bonusPercent": 78
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 40,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4000,
+    "bonusBasisPoint": 8000,
+    "bonusPercent": 80
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 41,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4100,
+    "bonusBasisPoint": 8200,
+    "bonusPercent": 82
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 42,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4200,
+    "bonusBasisPoint": 8400,
+    "bonusPercent": 84
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 43,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4300,
+    "bonusBasisPoint": 8600,
+    "bonusPercent": 86
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 44,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4400,
+    "bonusBasisPoint": 8800,
+    "bonusPercent": 88
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 45,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4500,
+    "bonusBasisPoint": 9000,
+    "bonusPercent": 90
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 46,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4600,
+    "bonusBasisPoint": 9200,
+    "bonusPercent": 92
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 47,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4700,
+    "bonusBasisPoint": 9400,
+    "bonusPercent": 94
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 48,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4800,
+    "bonusBasisPoint": 9600,
+    "bonusPercent": 96
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 49,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 4900,
+    "bonusBasisPoint": 9800,
+    "bonusPercent": 98
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 50,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5000,
+    "bonusBasisPoint": 10000,
+    "bonusPercent": 100
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 51,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5100,
+    "bonusBasisPoint": 10200,
+    "bonusPercent": 102
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 52,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5200,
+    "bonusBasisPoint": 10400,
+    "bonusPercent": 104
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 53,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5300,
+    "bonusBasisPoint": 10600,
+    "bonusPercent": 106
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 54,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5400,
+    "bonusBasisPoint": 10800,
+    "bonusPercent": 108
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 55,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5500,
+    "bonusBasisPoint": 11000,
+    "bonusPercent": 110
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 56,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5600,
+    "bonusBasisPoint": 11200,
+    "bonusPercent": 112
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 57,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5699,
+    "bonusBasisPoint": 11398,
+    "bonusPercent": 113.98
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 58,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5800,
+    "bonusBasisPoint": 11600,
+    "bonusPercent": 116
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 59,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 5900,
+    "bonusBasisPoint": 11800,
+    "bonusPercent": 118
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 60,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6000,
+    "bonusBasisPoint": 12000,
+    "bonusPercent": 120
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 61,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6100,
+    "bonusBasisPoint": 12200,
+    "bonusPercent": 122
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 62,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6200,
+    "bonusBasisPoint": 12400,
+    "bonusPercent": 124
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 63,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6300,
+    "bonusBasisPoint": 12600,
+    "bonusPercent": 126
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 64,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6400,
+    "bonusBasisPoint": 12800,
+    "bonusPercent": 128
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 65,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6500,
+    "bonusBasisPoint": 13000,
+    "bonusPercent": 130
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 66,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6600,
+    "bonusBasisPoint": 13200,
+    "bonusPercent": 132
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 67,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6700,
+    "bonusBasisPoint": 13400,
+    "bonusPercent": 134
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 68,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6800,
+    "bonusBasisPoint": 13600,
+    "bonusPercent": 136
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 69,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 6899,
+    "bonusBasisPoint": 13798,
+    "bonusPercent": 137.98
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 70,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7000,
+    "bonusBasisPoint": 14000,
+    "bonusPercent": 140
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 71,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7100,
+    "bonusBasisPoint": 14200,
+    "bonusPercent": 142
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 72,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7200,
+    "bonusBasisPoint": 14400,
+    "bonusPercent": 144
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 73,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7300,
+    "bonusBasisPoint": 14600,
+    "bonusPercent": 146
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 74,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7400,
+    "bonusBasisPoint": 14800,
+    "bonusPercent": 148
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 75,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7500,
+    "bonusBasisPoint": 15000,
+    "bonusPercent": 150
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 76,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7600,
+    "bonusBasisPoint": 15200,
+    "bonusPercent": 152
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 77,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7700,
+    "bonusBasisPoint": 15400,
+    "bonusPercent": 154
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 78,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7800,
+    "bonusBasisPoint": 15600,
+    "bonusPercent": 156
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 79,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 7900,
+    "bonusBasisPoint": 15800,
+    "bonusPercent": 158
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 80,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8000,
+    "bonusBasisPoint": 16000,
+    "bonusPercent": 160
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 81,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8100,
+    "bonusBasisPoint": 16200,
+    "bonusPercent": 162
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 82,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8200,
+    "bonusBasisPoint": 16400,
+    "bonusPercent": 164
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 83,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8300,
+    "bonusBasisPoint": 16600,
+    "bonusPercent": 166
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 84,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8400,
+    "bonusBasisPoint": 16800,
+    "bonusPercent": 168
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 85,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8500,
+    "bonusBasisPoint": 17000,
+    "bonusPercent": 170
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 86,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8600,
+    "bonusBasisPoint": 17200,
+    "bonusPercent": 172
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 87,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8700,
+    "bonusBasisPoint": 17400,
+    "bonusPercent": 174
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 88,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8800,
+    "bonusBasisPoint": 17600,
+    "bonusPercent": 176
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 89,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 8900,
+    "bonusBasisPoint": 17800,
+    "bonusPercent": 178
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 90,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9000,
+    "bonusBasisPoint": 18000,
+    "bonusPercent": 180
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 91,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9100,
+    "bonusBasisPoint": 18200,
+    "bonusPercent": 182
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 92,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9200,
+    "bonusBasisPoint": 18400,
+    "bonusPercent": 184
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 93,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9300,
+    "bonusBasisPoint": 18600,
+    "bonusPercent": 186
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 94,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9400,
+    "bonusBasisPoint": 18800,
+    "bonusPercent": 188
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 95,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9500,
+    "bonusBasisPoint": 19000,
+    "bonusPercent": 190
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 96,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9600,
+    "bonusBasisPoint": 19200,
+    "bonusPercent": 192
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 97,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9700,
+    "bonusBasisPoint": 19400,
+    "bonusPercent": 194
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 98,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9800,
+    "bonusBasisPoint": 19600,
+    "bonusPercent": 196
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 99,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 9900,
+    "bonusBasisPoint": 19800,
+    "bonusPercent": 198
+  },
+  {
+    "constellationOrder": 10,
+    "areaPercent": 100,
+    "multiplierRaw": "20000",
+    "areaBasisPoint": 10000,
+    "bonusBasisPoint": 20000,
+    "bonusPercent": 200
+  }
+]

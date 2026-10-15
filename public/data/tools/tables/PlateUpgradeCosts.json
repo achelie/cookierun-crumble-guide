@@ -1,0 +1,352 @@
+[
+  {
+    "plateGrade": 0,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 1,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 1,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 2,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 2,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 3,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 3,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 4,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 4,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 5,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 5,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 6,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "1000"
+    }
+  },
+  {
+    "plateGrade": 6,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 7,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "2500"
+    }
+  },
+  {
+    "plateGrade": 7,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 8,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "2500"
+    }
+  },
+  {
+    "plateGrade": 8,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 9,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "2500"
+    }
+  },
+  {
+    "plateGrade": 9,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 10,
+    "declineProtectItemId": 0,
+    "declineProtectAmount": 0,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "2500"
+    }
+  },
+  {
+    "plateGrade": 10,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 11,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 1,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "2500"
+    }
+  },
+  {
+    "plateGrade": 11,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 12,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 2,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "4000"
+    }
+  },
+  {
+    "plateGrade": 12,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 13,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 2,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "4000"
+    }
+  },
+  {
+    "plateGrade": 13,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 14,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 2,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "4000"
+    }
+  },
+  {
+    "plateGrade": 14,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 15,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 2,
+    "destroyProtectItemId": 0,
+    "destroyProtectAmount": 0,
+    "destroyRecoveryItemId": 0,
+    "destroyRecoveryAmount": 0,
+    "greatSuccessRefundRate": {
+      "value": "4000"
+    }
+  },
+  {
+    "plateGrade": 15,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 17,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 3,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 2,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 20,
+    "greatSuccessRefundRate": {
+      "value": "4000"
+    }
+  },
+  {
+    "plateGrade": 16,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 18,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 3,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 2,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 20,
+    "greatSuccessRefundRate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 17,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 19,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 4,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 3,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 30,
+    "greatSuccessRefundRate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 18,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 20,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 4,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 4,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 40,
+    "greatSuccessRefundRate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 19,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 25,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 4,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 5,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 50,
+    "greatSuccessRefundRate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 20,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 26,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 5,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 5,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 60,
+    "greatSuccessRefundRate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 21,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 27,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 5,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 5,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 65,
+    "greatSuccessRefundRate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 22,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 28,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 5,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 5,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 70,
+    "greatSuccessRefundRate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 23,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 29,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 5,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 5,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 75,
+    "greatSuccessRefundRate": {
+      "value": "5000"
+    }
+  },
+  {
+    "plateGrade": 24,
+    "upgradeItemId": 1723076124,
+    "upgradeItemAmount": 31,
+    "declineProtectItemId": 1423199017,
+    "declineProtectAmount": 5,
+    "destroyProtectItemId": 1423199017,
+    "destroyProtectAmount": 5,
+    "destroyRecoveryItemId": 1423199017,
+    "destroyRecoveryAmount": 80,
+    "greatSuccessRefundRate": {
+      "value": "10000"
+    }
+  }
+]

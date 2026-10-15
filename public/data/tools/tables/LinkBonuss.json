@@ -1,0 +1,112 @@
+[
+  {
+    "constellationOrder": 1,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "2000"
+    }
+  },
+  {
+    "constellationOrder": 2,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "3000"
+    }
+  },
+  {
+    "constellationOrder": 3,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "4000"
+    }
+  },
+  {
+    "constellationOrder": 4,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "5000"
+    }
+  },
+  {
+    "constellationOrder": 5,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "6000"
+    }
+  },
+  {
+    "constellationOrder": 6,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "8000"
+    }
+  },
+  {
+    "constellationOrder": 7,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "10000"
+    }
+  },
+  {
+    "constellationOrder": 8,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "13000"
+    }
+  },
+  {
+    "constellationOrder": 9,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "16000"
+    }
+  },
+  {
+    "constellationOrder": 10,
+    "statBoostIds": [
+      1626138600,
+      2085906729,
+      1658823655
+    ],
+    "statBoostMultiplier": {
+      "value": "20000"
+    }
+  }
+]

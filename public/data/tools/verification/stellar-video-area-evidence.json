@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 1,
+  "scope": "Normal public browser playback of the two requested YouTube sources, seeking and viewport screenshots only. No video download, account login, captcha bypass, emulator action or webpage mutation.",
+  "sample": {
+    "sourceUrl": "https://www.youtube.com/watch?v=-OKFpHNkOm0",
+    "timeLink": "https://www.youtube.com/watch?v=-OKFpHNkOm0&t=32s",
+    "title": "Get 100% Area WITHOUT Wasting Shuffles — Stellar Link Guide | CookieRun: Crumble",
+    "channel": "Jozhua",
+    "publishedDateDisplayedByYouTube": "2026-08-08",
+    "observedVideoDurationSeconds": 233.281,
+    "frameTimeSeconds": 32,
+    "frameTimeDisplay": "00:32",
+    "captureMetadataAtUtc": "2026-10-14T19:00:23.910Z",
+    "captureMetadataAtHongKong": "2026-10-15 03:00:23 +08:00",
+    "playerState": {
+      "paused": true,
+      "videoWidth": 1280,
+      "videoHeight": 720,
+      "viewportWidth": 1920,
+      "viewportHeight": 1080
+    },
+    "frameEvidence": {
+      "path": "jozhua-0032.png",
+      "bytes": 917774,
+      "sha256": "220b4afee929cb6d9ea65d4bad06351624c27f0a050d0e3fceb9ec3f5950301a",
+      "kind": "Normal browser viewport PNG; no source-video SHA is claimed."
+    },
+    "clockConvention": "12 visible circle slots, array starts at top 12 o'clock then proceeds clockwise 1 through 11. Each value is the game's numbered star rank.",
+    "clockwiseRanksFrom12": [
+      11,
+      8,
+      4,
+      2,
+      9,
+      10,
+      1,
+      3,
+      6,
+      7,
+      12,
+      5
+    ],
+    "lockedRanksVisible": [],
+    "lockInterpretation": "No lock glyph is visible at any of the twelve numbered stars; shuffle fee10 is consistent with this.",
+    "constellation": 1,
+    "placedStars": 12,
+    "unlockedStars": 12,
+    "displayedAreaInteger": 71,
+    "displayedAmplificationPercent": {
+      "attack": "14.20",
+      "defense": "14.20",
+      "health": "14.20"
+    },
+    "displayedShuffleCost": 10,
+    "displayedCurrencyBalance": 340,
+    "displayedUnlockProgress": "194/200",
+    "geometry": {
+      "rankOrderedCoordinates": [
+        [
+          1.2246467991473532e-16,
+          -1
+        ],
+        [
+          1,
+          6.123233995736766e-17
+        ],
+        [
+          -0.4999999999999997,
+          -0.8660254037844388
+        ],
+        [
+          0.8660254037844386,
+          0.5000000000000001
+        ],
+        [
+          -0.5000000000000004,
+          0.8660254037844384
+        ],
+        [
+          -0.8660254037844385,
+          -0.5000000000000004
+        ],
+        [
+          -1,
+          -1.8369701987210297e-16
+        ],
+        [
+          0.49999999999999994,
+          0.8660254037844387
+        ],
+        [
+          0.8660254037844387,
+          -0.4999999999999998
+        ],
+        [
+          0.49999999999999994,
+          -0.8660254037844387
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -0.8660254037844386,
+          0.5000000000000001
+        ]
+      ],
+      "intersections": [
+        {
+          "segmentStartRanks": [
+            1,
+            8
+          ],
+          "point": [
+            0.788675134594813,
+            -0.21132486540518702
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            1,
+            10
+          ],
+          "point": [
+            0.4226497308103742,
+            -0.5773502691896258
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            2,
+            8
+          ],
+          "point": [
+            0.7679491924311228,
+            -0.13397459621556132
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            2,
+            10
+          ],
+          "point": [
+            0.3660254037844387,
+            -0.36602540378443876
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            2,
+            12
+          ],
+          "point": [
+            -0.1830127018922192,
+            -0.6830127018922195
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            3,
+            8
+          ],
+          "point": [
+            0.6547005383792515,
+            0.28867513459481287
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            3,
+            10
+          ],
+          "point": [
+            0.2886751345948129,
+            -0.07735026918962584
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            3,
+            12
+          ],
+          "point": [
+            -0.23205080756887708,
+            -0.5980762113533161
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            4,
+            7
+          ],
+          "point": [
+            0.1830127018922192,
+            0.6830127018922192
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            4,
+            8
+          ],
+          "point": [
+            0.5773502691896257,
+            0.5773502691896257
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            4,
+            10
+          ],
+          "point": [
+            0.07735026918962573,
+            0.7113248654051869
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            4,
+            11
+          ],
+          "point": [
+            -0.31698729810778103,
+            0.8169872981077804
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            5,
+            7
+          ],
+          "point": [
+            -0.6830127018922195,
+            0.18301270189221885
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            5,
+            11
+          ],
+          "point": [
+            -0.5490381056766583,
+            0.6830127018922192
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            5,
+            12
+          ],
+          "point": [
+            -0.6830127018922193,
+            0.18301270189221952
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            7,
+            10
+          ],
+          "point": [
+            0.09807621135331601,
+            0.6339745962155613
+          ]
+        },
+        {
+          "segmentStartRanks": [
+            7,
+            12
+          ],
+          "point": [
+            -0.6830127018922192,
+            0.18301270189221927
+          ]
+        }
+      ],
+      "boundedAtomicFaces": [
+        {
+          "area": 0.17264973081037416,
+          "winding": 1,
+          "vertices": [
+            [
+              1.2246467991473532e-16,
+              -1
+            ],
+            [
+              0.4226497308103742,
+              -0.5773502691896258
+            ],
+            [
+              0.3660254037844387,
+              -0.36602540378443876
+            ],
+            [
+              -0.1830127018922192,
+              -0.6830127018922195
+            ]
+          ]
+        },
+        {
+          "area": 0.13397459621556135,
+          "winding": -1,
+          "vertices": [
+            [
+              0.4226497308103742,
+              -0.5773502691896258
+            ],
+            [
+              0.49999999999999994,
+              -0.8660254037844387
+            ],
+            [
+              0.8660254037844387,
+              -0.49999999999999967
+            ],
+            [
+              0.788675134594813,
+              -0.21132486540518702
+            ]
+          ]
+        },
+        {
+          "area": 0.06698729810778067,
+          "winding": 0,
+          "vertices": [
+            [
+              0.4226497308103742,
+              -0.5773502691896258
+            ],
+            [
+              0.788675134594813,
+              -0.21132486540518702
+            ],
+            [
+              0.7679491924311228,
+              -0.13397459621556132
+            ],
+            [
+              0.3660254037844387,
+              -0.36602540378443876
+            ]
+          ]
+        },
+        {
+          "area": 0.010362971081845071,
+          "winding": 1,
+          "vertices": [
+            [
+              0.788675134594813,
+              -0.21132486540518702
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0.7679491924311228,
+              -0.13397459621556132
+            ]
+          ]
+        },
+        {
+          "area": 0.16506350946109663,
+          "winding": -1,
+          "vertices": [
+            [
+              0.7679491924311228,
+              -0.13397459621556132
+            ],
+            [
+              0.6547005383792515,
+              0.28867513459481287
+            ],
+            [
+              0.2886751345948129,
+              -0.07735026918962584
+            ],
+            [
+              0.3660254037844387,
+              -0.36602540378443876
+            ]
+          ]
+        },
+        {
+          "area": 0.12638837486628374,
+          "winding": 0,
+          "vertices": [
+            [
+              0.3660254037844387,
+              -0.36602540378443876
+            ],
+            [
+              0.2886751345948129,
+              -0.07735026918962584
+            ],
+            [
+              -0.23205080756887708,
+              -0.5980762113533161
+            ],
+            [
+              -0.1830127018922192,
+              -0.6830127018922195
+            ]
+          ]
+        },
+        {
+          "area": 0.017949192431122682,
+          "winding": -1,
+          "vertices": [
+            [
+              -0.1830127018922192,
+              -0.6830127018922195
+            ],
+            [
+              -0.23205080756887708,
+              -0.5980762113533161
+            ],
+            [
+              -0.4999999999999998,
+              -0.8660254037844388
+            ]
+          ]
+        },
+        {
+          "area": 0.6415608175648391,
+          "winding": 1,
+          "vertices": [
+            [
+              -0.23205080756887708,
+              -0.5980762113533161
+            ],
+            [
+              0.2886751345948129,
+              -0.07735026918962584
+            ],
+            [
+              0.09807621135331601,
+              0.6339745962155613
+            ],
+            [
+              -0.6830127018922193,
+              0.18301270189221952
+            ]
+          ]
+        },
+        {
+          "area": 0.2462068893253611,
+          "winding": 0,
+          "vertices": [
+            [
+              0.2886751345948129,
+              -0.07735026918962584
+            ],
+            [
+              0.6547005383792515,
+              0.28867513459481287
+            ],
+            [
+              0.5773502691896257,
+              0.5773502691896257
+            ],
+            [
+              0.1830127018922192,
+              0.6830127018922192
+            ],
+            [
+              0.09807621135331601,
+              0.6339745962155613
+            ]
+          ]
+        },
+        {
+          "area": 0.03867513459481289,
+          "winding": 1,
+          "vertices": [
+            [
+              0.6547005383792515,
+              0.28867513459481287
+            ],
+            [
+              0.8660254037844386,
+              0.5
+            ],
+            [
+              0.5773502691896257,
+              0.5773502691896257
+            ]
+          ]
+        },
+        {
+          "area": 0.05283121635129681,
+          "winding": -1,
+          "vertices": [
+            [
+              0.5773502691896257,
+              0.5773502691896257
+            ],
+            [
+              0.5,
+              0.8660254037844387
+            ],
+            [
+              0.1830127018922192,
+              0.6830127018922192
+            ]
+          ]
+        },
+        {
+          "area": 0.003793110674638788,
+          "winding": 1,
+          "vertices": [
+            [
+              0.1830127018922192,
+              0.6830127018922192
+            ],
+            [
+              0.07735026918962573,
+              0.7113248654051869
+            ],
+            [
+              0.09807621135331601,
+              0.6339745962155613
+            ]
+          ]
+        },
+        {
+          "area": 0.052831216351296895,
+          "winding": 1,
+          "vertices": [
+            [
+              0.07735026918962573,
+              0.7113248654051869
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              -0.31698729810778103,
+              0.8169872981077804
+            ]
+          ]
+        },
+        {
+          "area": 0.2282576968942384,
+          "winding": 2,
+          "vertices": [
+            [
+              0.07735026918962573,
+              0.7113248654051869
+            ],
+            [
+              -0.31698729810778103,
+              0.8169872981077804
+            ],
+            [
+              -0.5490381056766583,
+              0.6830127018922192
+            ],
+            [
+              -0.6830127018922193,
+              0.18301270189221952
+            ],
+            [
+              0.09807621135331601,
+              0.6339745962155613
+            ]
+          ]
+        },
+        {
+          "area": 0.017949192431122724,
+          "winding": 1,
+          "vertices": [
+            [
+              -0.31698729810778103,
+              0.8169872981077804
+            ],
+            [
+              -0.5000000000000004,
+              0.8660254037844384
+            ],
+            [
+              -0.5490381056766583,
+              0.6830127018922192
+            ]
+          ]
+        },
+        {
+          "area": 0.06698729810778055,
+          "winding": 1,
+          "vertices": [
+            [
+              -0.5490381056766583,
+              0.6830127018922192
+            ],
+            [
+              -0.8660254037844386,
+              0.5000000000000001
+            ],
+            [
+              -0.6830127018922193,
+              0.18301270189221952
+            ]
+          ]
+        },
+        {
+          "area": 0.09150635094610972,
+          "winding": -1,
+          "vertices": [
+            [
+              -0.6830127018922193,
+              0.18301270189221952
+            ],
+            [
+              -1,
+              -2.220446049250313e-16
+            ],
+            [
+              -0.8660254037844385,
+              -0.5000000000000004
+            ]
+          ]
+        }
+      ],
+      "candidatePercentWithRegular12GonDenominator": {
+        "absoluteShoelace": 33.33333333333332,
+        "unionAllBoundedFaces": 71.1324865405187,
+        "evenoddFill": 48.87114456739658,
+        "nonzeroWindingFill": 56.47973446387119
+      },
+      "candidatePercentWithDiskDenominator": {
+        "absoluteShoelace": 31.83098861837906,
+        "unionAllBoundedFaces": 67.9265210840476,
+        "evenoddFill": 46.66850539475875
+      },
+      "checks": {
+        "eulerBoundedFaceCount": true,
+        "faceWindingWeightedAreaEqualsSignedShoelace": true,
+        "allFaceWindingMagnitudesOne": false
+      }
+    },
+    "candidateIntegerOutputs": {
+      "absoluteShoelace": {
+        "floor": 33,
+        "nearest": 33
+      },
+      "unionAllBoundedFaces": {
+        "floor": 71,
+        "nearest": 71
+      },
+      "evenoddFill": {
+        "floor": 48,
+        "nearest": 49
+      },
+      "nonzeroWindingFill": {
+        "floor": 56,
+        "nearest": 56
+      }
+    },
+    "buildBoundary": "This is a recording published2026-08-08. The game build shown is not identified; do not bind this observation to the currently extracted1.5.002 or claim present-server observation."
+  },
+  "conclusions": [
+    "A complete star-position and area pair is directly visible in the original game UI at00:32, independent of the author's title, overlays or narration.",
+    "All bounded-face union computes71.1324865405%, agreeing with displayed71 under floor or nearest rounding.",
+    "Absolute shoelace33.3333333333%, evenodd48.8711445674% and nonzero-winding56.4797344639% disagree markedly with the visible71%.",
+    "The candidate arrangement has17 crossings, three winding0 bounded faces and one winding2 face. This recording separates the all-closed-regions union candidate from standard evenodd and nonzero filling, beyond the two previous screenshots whose face windings were all±1.",
+    "The area fractional part is0.1324865, so this sample does not distinguish floor from nearest. No integer-rounding conclusion is established."
+  ],
+  "accessAttempts": [
+    {
+      "url": "https://www.youtube.com/watch?v=-OKFpHNkOm0",
+      "initialOpen": "Playable; title, channel and publication date visible.",
+      "initialFrameTime20": {
+        "metadataAtUtc": "2026-10-14T18:59:53.206Z",
+        "frame": {
+          "path": "jozhua-0020.png",
+          "bytes": 1062697,
+          "sha256": "ac7d54df8f9278d1fa73a6846c37ab3385a65c8c264ba676be1783155285a90d",
+          "kind": "Normal browser viewport PNG; no source-video SHA is claimed."
+        },
+        "usage": "Not used as the primary pair: a creator title overlay hides the top star."
+      },
+      "completeFrameTime32": "Primary pair retained above.",
+      "seekTime75": {
+        "requestedAtUtc": "2026-10-14T19:01:09.333Z",
+        "status": "Native YouTube playback failure",
+        "visibleMessage": "出了点问题。请刷新或稍后重试。",
+        "frame": {
+          "path": "jozhua-0075.png",
+          "bytes": 20098,
+          "sha256": "7b813786ae2427febfba944c55d74084cf40af2f8626c9a9f07500819eecbebf",
+          "kind": "Normal browser viewport PNG; no source-video SHA is claimed."
+        }
+      },
+      "prequeuedFollowups": [
+        {
+          "requestedTimeSeconds": 115,
+          "status": "Same native error frame; no usable sample",
+          "frame": {
+            "path": "jozhua-0115.png",
+            "bytes": 20098,
+            "sha256": "7b813786ae2427febfba944c55d74084cf40af2f8626c9a9f07500819eecbebf",
+            "kind": "Normal browser viewport PNG; no source-video SHA is claimed."
+          }
+        },
+        {
+          "requestedTimeSeconds": 155,
+          "status": "Same native error frame; no usable sample",
+          "frame": {
+            "path": "jozhua-0155.png",
+            "bytes": 20098,
+            "sha256": "7b813786ae2427febfba944c55d74084cf40af2f8626c9a9f07500819eecbebf",
+            "kind": "Normal browser viewport PNG; no source-video SHA is claimed."
+          }
+        }
+      ],
+      "clientReadFailure": "Failed to read: connection timed out (os error10060).",
+      "boundary": "Later requests were prequeued before error inspection. After inspecting the failure, requests to this source stopped; no reload, alternate downloader or access bypass was attempted."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=56uWUy1r87M",
+      "title": "เจาะลึก Stellar Link! ปั้นทีมให้โหดขึ้น | CookieRun: Crumble",
+      "channel": "Loongjump",
+      "observedDurationSeconds": 14496.021,
+      "initialMetadataAtUtc": "2026-10-14T19:03:52.422Z",
+      "seekTimeSeconds": 120,
+      "seekRequestedAtUtc": "2026-10-14T19:04:19.699Z",
+      "status": "First seek produced native YouTube playback error; no usable game sample.",
+      "visibleMessage": "出了点问题。请刷新或稍后重试。",
+      "frame": {
+        "path": "loongjump-0120.png",
+        "bytes": 33409,
+        "sha256": "61dc9e885511cb6a6e4a3687d3e1f11f1f55d34762065f53303aec034e2b295f",
+        "kind": "Normal browser viewport PNG; no source-video SHA is claimed."
+      },
+      "boundary": "No repeated video request or access bypass after this observed failure."
+    }
+  ],
+  "additionalPublicSearchBoundary": {
+    "queries": [
+      "\"CookieRun Crumble\" \"Stellar Link\" screenshot",
+      "\"CookieRun Crumble\" \"Stellar Link\" \"area\" reddit",
+      "site:reddit.com \"CookieRun Crumble\" \"Stellar\" \"area\"",
+      "site:youtube.com/watch \"CookieRun Crumble\" \"Stellar Link\" -Jozhua -Loongjump -F2P",
+      "site:forum.devsisters.com \"星際連線\""
+    ],
+    "result": "Known crumbles.fun screenshots/simulator and secondary prose appeared; no additional directly readable primary UI image pair was found in this bounded search. Secondary prose or simulated values were not used as algorithm evidence."
+  },
+  "followupAccessEvidence": "stellar-reddit-access-boundary.json",
+  "ownedBrowserCleanup": {
+    "sessions": [
+      "stellar-public-video",
+      "stellar-public-video-2",
+      "stellar-public-reddit"
+    ],
+    "command": "agent-browser --session <owned-session> close",
+    "outcome": "All three returned Browser closed with exit code0; no other session closed."
+  },
+  "limitations": [
+    "No complete observed layout with bounded-face area fractional part greater than0.5 was acquired, so integer rounding remains unverified.",
+    "The public recording is older than the current extracted game resource snapshot and lacks a proven game build version.",
+    "Stars and numeric UI values are manually read from preserved screenshots. Candidate calculations use ideal regular12-position geometry, not pixel-area measurements.",
+    "The diagram supports the all-bounded-regions candidate for one challenging arrangement; it does not substitute for exhaustive current-server tests or a server implementation."
+  ],
+  "reproduction": {
+    "script": "stellar-video-candidate-calculation.py",
+    "scriptSha256": "f673248d2bf1833aa7afe835d6f2b6f9ff8a5d211b631e8b688e3db13b25f318",
+    "reusedCandidateGeometry": {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261015-01\\stellar-public-geometry-candidates.py",
+      "sha256": "4a3ee72b4b16d55fb3b7940b0f7fbc1c3426948e0a989809b7bc0507563d3662"
+    },
+    "command": "python stellar-video-candidate-calculation.py",
+    "checks": {
+      "planarEulerFaceCount": true,
+      "windingWeightedFaceAreaEqualsSignedShoelace": true
+    }
+  }
+}
