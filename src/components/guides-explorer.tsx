@@ -1,5 +1,7 @@
 "use client";
 
+import { I18nElement } from "@/i18n/elements";
+import { useTranslator } from "@/i18n/provider";
 import { useEffect } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { GuideCard } from "@/components/guide-card";
@@ -8,13 +10,14 @@ import { guideCategories, type GuideSummary } from "@/data/guides";
 import { filterGuides, normalizeGuideCategory, paginateGuides } from "@/lib/guides";
 
 export function GuidesExplorer({ guides }: { guides: GuideSummary[] }) {
+  const t = useTranslator();
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const query = searchParams.get("q") ?? "";
   const rawCategory = searchParams.get("category") ?? "all";
   const category = normalizeGuideCategory(rawCategory);
-  const filtered = filterGuides(guides, { query, category });
+  const filtered = filterGuides(guides, { query, category }, t);
   const pagination = paginateGuides(filtered, searchParams.get("page") ?? "1");
 
   function updateParams(updates: Record<string, string | number | undefined>) {
@@ -38,71 +41,71 @@ export function GuidesExplorer({ guides }: { guides: GuideSummary[] }) {
   }, [category, pagination.page, rawCategory, searchParams]);
 
   return (
-    <div className="guides-explorer">
-      <div className="guides-controls">
-        <label className="guides-search">
-          <span className="sr-only">Search guides</span>
+    <I18nElement as="div" className="guides-explorer">
+      <I18nElement as="div" className="guides-controls">
+        <I18nElement as="label" className="guides-search">
+          <I18nElement as="span" className="sr-only">Search guides</I18nElement>
           <AppIcon name="search" size={19} />
-          <input
+          <I18nElement as="input"
             type="search"
             value={query}
             placeholder="Search guides, tags, or topics"
             onChange={(event) => updateParams({ q: event.target.value, page: 1 })}
           />
-        </label>
-        <div className="guides-categories" aria-label="Guide categories">
-          <button type="button" className={category === "all" ? "is-active" : ""} onClick={() => updateParams({ category: "all", page: 1 })}>
-            All <span>{guides.length}</span>
-          </button>
+        </I18nElement>
+        <I18nElement as="div" className="guides-categories" aria-label="Guide categories">
+          <I18nElement as="button" type="button" className={category === "all" ? "is-active" : ""} onClick={() => updateParams({ category: "all", page: 1 })}>
+            All <I18nElement as="span">{guides.length}</I18nElement>
+          </I18nElement>
           {guideCategories.map((item) => {
             const count = guides.filter((guide) => guide.category === item.slug).length;
             if (count === 0) return null;
             return (
-              <button key={item.slug} type="button" className={category === item.slug ? "is-active" : ""} onClick={() => updateParams({ category: item.slug, page: 1 })}>
-                {item.label} <span>{count}</span>
-              </button>
+              <I18nElement as="button" key={item.slug} type="button" className={category === item.slug ? "is-active" : ""} onClick={() => updateParams({ category: item.slug, page: 1 })}>
+                {item.label} <I18nElement as="span">{count}</I18nElement>
+              </I18nElement>
             );
           })}
-        </div>
-      </div>
+        </I18nElement>
+      </I18nElement>
 
-      <div className="guides-result-line">
-        <strong>{pagination.total} {pagination.total === 1 ? "guide" : "guides"}</strong>
-        {(query || category !== "all") && <span>matching your filters</span>}
-      </div>
+      <I18nElement as="div" className="guides-result-line">
+        <I18nElement as="strong">{pagination.total} {pagination.total === 1 ? "guide" : "guides"}</I18nElement>
+        {(query || category !== "all") && <I18nElement as="span">matching your filters</I18nElement>}
+      </I18nElement>
 
       {pagination.items.length > 0 ? (
         <>
-          <div className="guides-grid">
+          <I18nElement as="div" className="guides-grid">
             {pagination.items.map((guide, index) => <GuideCard key={guide.slug} guide={guide} featured={index === 0} />)}
-          </div>
-          <nav className="guides-pagination" aria-label="Guides pagination">
-            <button type="button" disabled={pagination.page === 1} onClick={() => updateParams({ page: pagination.page - 1 })}>
+          </I18nElement>
+          <I18nElement as="nav" className="guides-pagination" aria-label="Guides pagination">
+            <I18nElement as="button" type="button" disabled={pagination.page === 1} onClick={() => updateParams({ page: pagination.page - 1 })}>
               <AppIcon name="chevron-left" size={16} />Previous
-            </button>
-            <span>Page <strong>{pagination.page}</strong> of {pagination.pageCount}</span>
-            <button type="button" disabled={pagination.page === pagination.pageCount} onClick={() => updateParams({ page: pagination.page + 1 })}>
+            </I18nElement>
+            <I18nElement as="span">Page <I18nElement as="strong">{pagination.page}</I18nElement> of {pagination.pageCount}</I18nElement>
+            <I18nElement as="button" type="button" disabled={pagination.page === pagination.pageCount} onClick={() => updateParams({ page: pagination.page + 1 })}>
               Next<AppIcon name="chevron" size={16} />
-            </button>
-          </nav>
+            </I18nElement>
+          </I18nElement>
         </>
       ) : (
-        <div className="guides-empty">
+        <I18nElement as="div" className="guides-empty">
           <AppIcon name="book" size={34} />
-          <h2>No guide fits that search.</h2>
-          <p>Clear the filters and the whole notebook comes back.</p>
-          <button type="button" onClick={() => router.replace(pathname, { scroll: false })}>Clear search and category</button>
-        </div>
+          <I18nElement as="h2">No guide fits that search.</I18nElement>
+          <I18nElement as="p">Clear the filters and the whole notebook comes back.</I18nElement>
+          <I18nElement as="button" type="button" onClick={() => router.replace(pathname, { scroll: false })}>Clear search and category</I18nElement>
+        </I18nElement>
       )}
-    </div>
+    </I18nElement>
   );
 }
 
 export function GuidesExplorerFallback({ guides }: { guides: GuideSummary[] }) {
   return (
-    <div className="guides-explorer" aria-busy="true">
-      <div className="guides-controls guides-controls--loading"><div /><div /></div>
-      <div className="guides-grid">{guides[0] && <GuideCard guide={guides[0]} featured />}</div>
-    </div>
+    <I18nElement as="div" className="guides-explorer" aria-busy="true">
+      <I18nElement as="div" className="guides-controls guides-controls--loading"><I18nElement as="div" /><I18nElement as="div" /></I18nElement>
+      <I18nElement as="div" className="guides-grid">{guides[0] && <GuideCard guide={guides[0]} featured />}</I18nElement>
+    </I18nElement>
   );
 }

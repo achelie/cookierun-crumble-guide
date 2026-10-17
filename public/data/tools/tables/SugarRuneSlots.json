@@ -1,0 +1,34 @@
+[
+  {
+    "slotOrder": 0,
+    "requiredCookieGrade": 0
+  },
+  {
+    "slotOrder": 1,
+    "requiredCookieGrade": 2
+  },
+  {
+    "slotOrder": 2,
+    "requiredCookieGrade": 4
+  },
+  {
+    "slotOrder": 3,
+    "requiredCookieGrade": 6
+  },
+  {
+    "slotOrder": 4,
+    "requiredCookieGrade": 8
+  },
+  {
+    "slotOrder": 5,
+    "requiredCookieGrade": 8
+  },
+  {
+    "slotOrder": 6,
+    "requiredCookieGrade": 10
+  },
+  {
+    "slotOrder": 7,
+    "requiredCookieGrade": 10
+  }
+]

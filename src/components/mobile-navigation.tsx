@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { I18nElement } from "@/i18n/elements";
+import { LocaleLink as Link } from "@/i18n/elements";
 import { useEffect, useRef } from "react";
 import { AppIcon, type IconName } from "@/components/ui/icon";
 
@@ -92,7 +93,7 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
 
   return (
     <>
-      <button
+      <I18nElement as="button"
         ref={triggerRef}
         className="mobile-nav-toggle"
         type="button"
@@ -102,9 +103,9 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
         onClick={openMenu}
       >
         <AppIcon name="menu" size={25} />
-      </button>
+      </I18nElement>
 
-      <dialog
+      <I18nElement as="dialog"
         ref={dialogRef}
         id="mobile-navigation"
         className="mobile-nav-drawer"
@@ -136,27 +137,27 @@ export function MobileNavigation({ items }: { items: MobileNavigationItem[] }) {
           }
         }}
       >
-        <div className="mobile-nav-drawer__panel">
-          <div className="mobile-nav-drawer__head">
-            <div>
-              <span>Explore</span>
-              <strong>Crumble Guide</strong>
-            </div>
-            <button type="button" aria-label="Close navigation menu" autoFocus onClick={() => closeMenu()}>
+        <I18nElement as="div" className="mobile-nav-drawer__panel">
+          <I18nElement as="div" className="mobile-nav-drawer__head">
+            <I18nElement as="div">
+              <I18nElement as="span">Explore</I18nElement>
+              <I18nElement as="strong">Crumble Guide</I18nElement>
+            </I18nElement>
+            <I18nElement as="button" type="button" aria-label="Close navigation menu" autoFocus onClick={() => closeMenu()}>
               <AppIcon name="x" size={23} />
-            </button>
-          </div>
-          <nav aria-label="Mobile primary navigation">
+            </I18nElement>
+          </I18nElement>
+          <I18nElement as="nav" aria-label="Mobile primary navigation">
             {items.map((item) => (
               <Link key={item.href} href={item.href} onClick={() => closeMenu(true)}>
-                <span><AppIcon name={item.icon} size={20} /></span>
-                <strong>{item.label}</strong>
+                <I18nElement as="span"><AppIcon name={item.icon} size={20} /></I18nElement>
+                <I18nElement as="strong">{item.label}</I18nElement>
                 <AppIcon name="chevron" size={17} />
               </Link>
             ))}
-          </nav>
-        </div>
-      </dialog>
+          </I18nElement>
+        </I18nElement>
+      </I18nElement>
     </>
   );
 }

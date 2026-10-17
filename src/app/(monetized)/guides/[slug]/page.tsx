@@ -1,5 +1,6 @@
+import { I18nElement } from "@/i18n/elements";
 import type { Metadata } from "next";
-import Link from "next/link";
+import { LocaleLink as Link } from "@/i18n/elements";
 import { notFound } from "next/navigation";
 import { GuideCard } from "@/components/guide-card";
 import { GuideCover } from "@/components/guide-cover";
@@ -11,6 +12,8 @@ import { getGuideBySlug, getGuideCategory, guides } from "@/data/guides";
 import { loadGuideContent } from "@/lib/guide-content";
 import { getRelatedGuides } from "@/lib/guides";
 import { absoluteUrl, siteName, siteUrl } from "@/lib/seo";
+import { alternateLanguages, localeConfig, localeFromSegment, localizedPath } from "@/i18n/config";
+import { getTranslator } from "@/i18n/dictionaries";
 
 const dateFormatter = new Intl.DateTimeFormat("en", {
   month: "long",
@@ -19,7 +22,7 @@ const dateFormatter = new Intl.DateTimeFormat("en", {
   timeZone: "UTC",
 });
 
-type GuidePageProps = { params: Promise<{ slug: string }> };
+type GuidePageProps = { params: Promise<{ slug: string; locale?: string }> };
 
 export const dynamicParams = false;
 
@@ -28,39 +31,46 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: GuidePageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug, locale: segment } = await params;
+  const locale = segment ? localeFromSegment(segment) : "en";
+  if (!locale) return {};
+  const t = getTranslator(locale);
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
-  const url = `${siteUrl}/guides/${guide.slug}/`;
+  const path = `/guides/${guide.slug}/`;
+  const url = siteUrl + localizedPath(path, locale);
   const coverCookie = cookieById.get(guide.coverCookieIds[0]);
   const socialImage = absoluteUrl(coverCookie?.image ?? "/opengraph-image");
 
   return {
-    title: { absolute: guide.seoTitle },
-    description: guide.seoDescription,
+    title: { absolute: t(guide.seoTitle) },
+    description: t(guide.seoDescription),
     authors: [{ name: guide.author }],
-    alternates: { canonical: url },
+    alternates: { canonical: url, languages: alternateLanguages(path, siteUrl) },
     openGraph: {
       type: "article",
-      title: guide.seoTitle,
-      description: guide.seoDescription,
+      title: t(guide.seoTitle),
+      description: t(guide.seoDescription),
+      locale: localeConfig[locale].og,
       url,
       siteName,
       publishedTime: `${guide.publishedAt}T00:00:00Z`,
       modifiedTime: `${guide.updatedAt}T00:00:00Z`,
       authors: [guide.author],
-      tags: guide.tags,
-      images: [{ url: socialImage, alt: coverCookie?.name ?? guide.title }],
+      tags: guide.tags.map(t),
+      images: [{ url: socialImage, alt: t(coverCookie?.name ?? guide.title) }],
     },
-    twitter: { card: "summary_large_image", title: guide.seoTitle, description: guide.seoDescription, images: [socialImage] },
+    twitter: { card: "summary_large_image", title: t(guide.seoTitle), description: t(guide.seoDescription), images: [socialImage] },
   };
 }
 
 export default async function GuideDetailPage({ params }: GuidePageProps) {
-  const { slug } = await params;
+  const { slug, locale: segment } = await params;
+  const locale = segment ? localeFromSegment(segment) : "en";
+  if (!locale) notFound();
   const guide = getGuideBySlug(slug);
   if (!guide) notFound();
-  const Content = await loadGuideContent(guide.slug);
+  const Content = await loadGuideContent(guide.slug, locale);
   if (!Content) notFound();
   const category = getGuideCategory(guide.category);
   const related = getRelatedGuides(guide, guides);
@@ -110,37 +120,37 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
   };
 
   return (
-    <div className="page-shell guide-detail">
+    <I18nElement as="div" className="page-shell guide-detail">
       <StructuredData data={jsonLd} />
       <Link className="guide-back" href="/guides/"><AppIcon name="chevron-left" size={17} />All guides</Link>
 
-      <header className="guide-hero">
-        <div className="guide-hero__copy">
+      <I18nElement as="header" className="guide-hero">
+        <I18nElement as="div" className="guide-hero__copy">
           <Link className="guide-card__category" href={`/guides/?category=${category.slug}`}>{category.label}</Link>
-          <h1>{guide.title}</h1>
-          <p>{guide.excerpt}</p>
-          <div className="guide-hero__meta">
-            <span><AppIcon name="calendar" size={16} />Updated {dateFormatter.format(new Date(`${guide.updatedAt}T00:00:00Z`))}</span>
-            <span><AppIcon name="clock" size={16} />{guide.readingMinutes} min read</span>
-            <span>By {guide.author}</span>
-          </div>
-        </div>
+          <I18nElement as="h1">{guide.title}</I18nElement>
+          <I18nElement as="p">{guide.excerpt}</I18nElement>
+          <I18nElement as="div" className="guide-hero__meta">
+            <I18nElement as="span"><AppIcon name="calendar" size={16} />Updated {dateFormatter.format(new Date(`${guide.updatedAt}T00:00:00Z`))}</I18nElement>
+            <I18nElement as="span"><AppIcon name="clock" size={16} />{guide.readingMinutes} min read</I18nElement>
+            <I18nElement as="span">By {guide.author}</I18nElement>
+          </I18nElement>
+        </I18nElement>
         <GuideCover cookieIds={guide.coverCookieIds} compact priority />
-      </header>
+      </I18nElement>
 
-      <div className="guide-reading-layout">
+      <I18nElement as="div" className="guide-reading-layout">
         <QuickNavigation items={guide.toc} />
-        <article className="guide-prose">
+        <I18nElement as="article" className="guide-prose">
           <Content />
-        </article>
-      </div>
+        </I18nElement>
+      </I18nElement>
 
       {related.length > 0 && (
-        <section className="related-guides">
-          <div className="section-heading"><h2>Related guides</h2></div>
-          <div className="related-guides__grid">{related.map((item) => <GuideCard key={item.slug} guide={item} compact />)}</div>
-        </section>
+        <I18nElement as="section" className="related-guides">
+          <I18nElement as="div" className="section-heading"><I18nElement as="h2">Related guides</I18nElement></I18nElement>
+          <I18nElement as="div" className="related-guides__grid">{related.map((item) => <GuideCard key={item.slug} guide={item} compact />)}</I18nElement>
+        </I18nElement>
       )}
-    </div>
+    </I18nElement>
   );
 }

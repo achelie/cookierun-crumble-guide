@@ -41,6 +41,91 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    slug: "cookie-run-crumble-chardonnay-auto-story-team",
+    title: "Chardonnay auto team: Stop babysitting story bosses",
+    seoTitle: "Chardonnay Auto Story Team & Boss Swaps | CookieRun: Crumble",
+    seoDescription: "Build a Chardonnay auto story team in CookieRun: Crumble, fix knock-up bosses, replace low-star Bari, and choose promotions without wasting crystals.",
+    excerpt: "Keep story stages moving with Chardonnay, Bari, and Cherry Cola. Copy all twelve Cookies, then use one Pet change or a clear replacement when a boss stops auto.",
+    category: "team-building",
+    tags: [
+      "Chardonnay",
+      "Auto Story",
+      "Princess Bari",
+      "Cherry Cola",
+      "Boss Swaps"
+    ],
+    publishedAt: "2026-10-16",
+    updatedAt: "2026-10-16",
+    readingMinutes: 8,
+    author: "Crumble Guide",
+    coverCookieIds: [
+      "chardonnay",
+      "cookie0081",
+      "cookie0250"
+    ],
+    relatedGuideSlugs: [
+      "cookie-run-crumble-bari-story-boss-team-presets",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-power-guide-stage-damage"
+    ],
+    toc: [
+      {
+        id: "chardonnay-story-lineup",
+        label: "Copy the complete story team"
+      },
+      {
+        id: "boss-targeting",
+        label: "Why boss targeting works better"
+      },
+      {
+        id: "knock-up-pet-swap",
+        label: "Change one Pet for knock-ups"
+      },
+      {
+        id: "bari-replacements",
+        label: "Replace Bari for your account"
+      },
+      {
+        id: "chardonnay-runes",
+        label: "Build Chardonnay for support"
+      },
+      {
+        id: "promotion-crystal-priorities",
+        label: "Choose promotions and banners"
+      },
+      {
+        id: "dimensional-rift-goal",
+        label: "Push toward Dimensional Rift"
+      },
+      {
+        id: "auto-stage-checklist",
+        label: "Test the next failed stage"
+      },
+      {
+        id: "chardonnay-story-faq",
+        label: "Chardonnay story team FAQ"
+      }
+    ],
+    faq: [
+      {
+        question: "Can this team clear every story boss automatically?",
+        answer: "Treat it as a story baseline. Promotion, Runes, team Power, and the boss mechanic still affect the result. Candy Shade Pouch helps with knock-ups, and Moon Rabbit offers a survival alternative when the default formation fails."
+      },
+      {
+        question: "Who replaces Bari if I do not own her?",
+        answer: "Try Scorpion for damage, a strongly promoted Wind Archer for damage and team Power, or Moon Rabbit when you need protection. Keep the other eleven slots steady while comparing the replacement."
+      },
+      {
+        question: "Does Chardonnay replace Macaron in this formation?",
+        answer: "Yes. Chardonnay takes Macaron's support slot in this preset. Favor Skill Amp for Chardonnay, keep the remaining support group, and test the team before changing more members."
+      },
+      {
+        question: "Which Pet should I remove for Candy Shade Pouch?",
+        answer: "Remove Chargemellow. Keep Hot Doggie and Holy Baby Drop, then test Candy Shade Pouch against repeated knock-ups. Return to the default trio when that protection no longer helps the fight."
+      }
+    ]
+  },
+  {
     slug: "cookie-run-crumble-bari-story-boss-team-presets",
     title: "Bari story teams: Stop rebuilding for every boss",
     seoTitle: "Princess Bari Story Teams & Boss Swaps | CookieRun: Crumble",
@@ -897,7 +982,7 @@ export const guides: GuideSummary[] = [
     category: "cookies",
     tags: ["Skill Amp", "Sugar Runes", "Devil Cookie", "Patch Notes", "Cookie Builds"],
     publishedAt: "2026-08-29",
-    updatedAt: "2026-08-29",
+    updatedAt: "2026-10-17",
     readingMinutes: 8,
     author: "Crumble Guide",
     coverCookieIds: ["cookie0023", "cookie0103", "cookie0136"],
@@ -919,10 +1004,10 @@ export const guides: GuideSummary[] = [
     ],
     faq: [
       { question: "Did CookieRun: Crumble nerf Skill Amp?", answer: "Skill Amp still boosts damage, healing, shields, and eligible buffs. It no longer strengthens debuffs that reduce target stats, and DEF Down cannot push a target below zero DEF. The stat is narrower, not useless." },
-      { question: "Which Cookies receive the Sugar Rune refund?", answer: "The refund group includes Devil, Pancake, Dark Choco, GingerBrave, Onion, Cocoa, Angel, Ion Cookie Robot, Nameless Cake Hound, Gumball, and Vampire Cookie." },
+      { question: "Which Cookies receive the Sugar Rune refund?", answer: "The original refund summary lists Devil, Pancake, Dark Choco, GingerBrave, Onion, Cocoa, Angel, Ion Cookie Robot, Nameless Cake Hound, Gumball, and Vampire Cookie. Check the GingerBrave entry against the notice: current game data gives ATK Down to GingerBright." },
       { question: "Is Devil Cookie still worth using?", answer: "Devil can still help against targets with enough DEF, but Skill Amp no longer improves his main debuff. Build enough survival to cast reliably, then test Focus or Skill Haste if the fight needs them." },
       { question: "When is the Sugar Rune refund?", answer: "The announced refund is scheduled for September 1. It covers Sugar Rune reroll investment on the listed affected Cookies." },
-      { question: "Does Skill Amp improve Pinot Noir's anti-heal?", answer: "No. Healing Received Down ignores Skill Amp. The stat may still help eligible parts of Pinot Noir's kit, including the resistance buff, so judge it by the matchup rather than the anti-heal number." },
+      { question: "Does Skill Amp improve Pinot Noir's anti-heal?", answer: "No. Healing Received Down and Knock-up Resistance Up both ignore Skill Amp. Do not roll it to strengthen either effect; use Focus when enemy Resistance blocks the debuff." },
     ],
   },
   {
@@ -934,7 +1019,7 @@ export const guides: GuideSummary[] = [
     category: "cookies",
     tags: ["Pinot Noir Cookie", "Cookie Build", "Multi-strike", "PvP", "Free to Play"],
     publishedAt: "2026-08-28",
-    updatedAt: "2026-08-29",
+    updatedAt: "2026-10-17",
     readingMinutes: 8,
     author: "Crumble Guide",
     coverCookieIds: ["cookie4010", "cookie0515", "cookie0063"],
@@ -956,7 +1041,7 @@ export const guides: GuideSummary[] = [
     ],
     faq: [
       { question: "Is Pinot Noir Cookie worth pulling?", answer: "Pinot Noir is a strong target for Multi-strike and PvP accounts because the kit combines a synergy grant with Healing Received Down and Knock-up Resistance Up. Accounts that still lack basic five-star damage dealers should fix those promotion gaps before chasing a luxury ten-star support." },
-      { question: "What are the best Sugar Rune stats for Pinot Noir Cookie?", answer: "Healing Received Down ignores Skill Amp. Keep the stat only when stronger Knock-up Resistance Up matters. Focus helps against resistant bosses, and Accuracy has occasional use when attacks miss. Skill Haste is less urgent because the important effects already overlap their cooldowns." },
+      { question: "What are the best Sugar Rune stats for Pinot Noir Cookie?", answer: "Healing Received Down and Knock-up Resistance Up both ignore Skill Amp. Focus helps against resistant bosses, and Accuracy has occasional use when attacks miss. Skill Haste is less urgent because the important effects already overlap their cooldowns." },
       { question: "Does Pinot Noir need five stars?", answer: "Five stars is the best first stopping point. It raises the Multi-strike grant to two points and improves the healing reduction. Pinot Noir works earlier, but that promotion makes team building much easier." },
       { question: "Who works well with Pinot Noir Cookie?", answer: "Rye, Melon Soda, Macaron, Herb, and Space Doughnut's Royal Excellence all receive Multi-strike. Pick two or three that fit the mode, then add frontline and healing instead of filling every slot with damage." },
       { question: "Is Chargemellow worth using with Pinot Noir?", answer: "Yes, when the pet's extra Multi-strike point activates the core. Chargemellow also raises ATK for synergy receivers, which helps damage dealers and improves Herb Cookie's healing." },
@@ -1189,40 +1274,88 @@ export const guides: GuideSummary[] = [
   },
   {
     slug: "cookie-run-crumble-gear-sugar-rune-stats-guide",
-    title: "CookieRun: Crumble Gear Guide: Stop Letting Bad Stats Fake Your Power",
-    seoTitle: "CookieRun: Crumble Gear & Sugar Rune Guide | Best Stats",
-    seoDescription: "CookieRun: Crumble gear and Sugar Rune guide with the best stats for supports, DPS, tanks, and debuffers, plus reroll rules that protect rare materials.",
-    excerpt: "A bigger power number can still make your team worse. Learn which Oven gear and Sugar Rune stats deserve a lock, and which rolls only look expensive.",
+    title: "CookieRun: Crumble Sugar Runes: Stop Wasting Rerolls",
+    seoTitle: "CookieRun: Crumble Sugar Rune Guide | Best Stats by Cookie",
+    seoDescription: "Pick Sugar Rune stats for DPS, healers, buffers, Bari, Moon Rabbit, and more in CookieRun: Crumble. Keep useful SR rolls and stop wasting reroll materials.",
+    excerpt: "Cherry Cola needs to survive. Milk needs ATK for more than healing. Choose Rune stats that fit each Cookie's job, and keep the SR rolls that already work.",
     category: "cookies",
-    tags: ["Gear", "Sugar Runes", "Stats", "Cookie Builds", "Progression"],
+    tags: [
+      "Sugar Runes",
+      "Gear",
+      "Cookie Builds",
+      "Skill Amp",
+      "Skill Haste"
+    ],
     publishedAt: "2026-08-22",
-    updatedAt: "2026-08-22",
-    readingMinutes: 7,
+    updatedAt: "2026-10-17",
+    readingMinutes: 8,
     author: "Crumble Guide",
-    coverCookieIds: ["cookie0181", "cookie0023", "cookie0059"],
+    coverCookieIds: [
+      "cookie0181",
+      "cookie0023",
+      "cookie0059"
+    ],
     relatedGuideSlugs: [
-      "cookie-run-crumble-power-guide-stage-damage",
+      "cookie-run-crumble-skill-amp-fix-rune-refund",
       "cookie-run-crumble-accuracy-focus-guide",
-      "cookie-run-crumble-rye-cookie-build-team",
+      "cookie-run-crumble-princess-bari-cookie-build-team"
     ],
     toc: [
-      { id: "check-the-failure", label: "Check why the team failed" },
-      { id: "stat-glossary", label: "Know what every stat buys" },
-      { id: "power-breakpoints", label: "Respect power breakpoints" },
-      { id: "judge-oven-gear", label: "Judge Oven gear in 20 seconds" },
-      { id: "runes-by-role", label: "Build Sugar Runes by role" },
-      { id: "focus-debuffers", label: "Use Focus on debuffers" },
-      { id: "upgrade-budget", label: "Control upgrades and rerolls" },
-      { id: "quick-build-sheet", label: "Use the quick build sheet" },
-      { id: "gear-rune-faq", label: "Gear and Sugar Rune FAQ" },
+      {
+        id: "upgrade-budget",
+        label: "Spend less on rerolls"
+      },
+      {
+        id: "damage-runes",
+        label: "Build damage dealers"
+      },
+      {
+        id: "healer-runes",
+        label: "Strengthen healing"
+      },
+      {
+        id: "buff-scaling",
+        label: "Read each buff"
+      },
+      {
+        id: "focus-debuffers",
+        label: "Keep debuffs active"
+      },
+      {
+        id: "charge-survival",
+        label: "Protect Charge Cookies"
+      },
+      {
+        id: "shields-and-summons",
+        label: "Build shields and summons"
+      },
+      {
+        id: "check-the-failure",
+        label: "Check gear and test"
+      },
+      {
+        id: "gear-rune-faq",
+        label: "Sugar Rune FAQ"
+      }
     ],
     faq: [
-      { question: "What are the best general gear stats in CookieRun: Crumble?", answer: "Skill Amp and Skill Haste are the safest general gear stats because damage dealers, supports, and tanks all rely on skills. Add ATK and CRIT stats for damage, Damage Reduction for fragile tanks, and Focus for debuff consistency." },
-      { question: "Should I always equip the item with higher combat power?", answer: "Use the higher-power item when it crosses a stage damage breakpoint. After the penalty is gone, compare the substats and the actual clear because Accuracy or Evasion can raise displayed power without fixing the team's problem." },
-      { question: "What should I lock on support Sugar Runes?", answer: "Lock strong Skill Amp and Skill Haste lines on supports used across several modes. Consider ATK when the Cookie's healing or support effect scales with it, and stop when the increasing lock cost threatens the rest of the main team." },
-      { question: "Does Scorpion Cookie need Focus?", answer: "Focus makes Venom Sting applications more consistent against Resistance. A full offense build can still clear bosses by restarting until the applications land, so choose Focus for repeatable clears and offense for a one-clear push." },
-      { question: "When is an SSR Sugar Rune worth keeping?", answer: "Keep an SSR Sugar Rune when its stat fits the Cookie, the roll is strong enough to matter, and the Cookie stays in your active teams. Rarity alone does not make a poor-fit stat useful." },
-    ],
+      {
+        question: "Should free players chase SSR Sugar Runes?",
+        answer: "Useful SR rolls are enough to build a working set. Keep a suitable SSR when it appears, but do not spend the whole budget chasing one exact stat or the highest value within its rarity."
+      },
+      {
+        question: "Is Skill Haste the best stat for every Cookie?",
+        answer: "No. Pure damage dealers usually prefer ATK%, CRIT Chance, CRIT DMG, or Skill Amp. Haste becomes more useful when you need faster stacking, repeated control, or better coverage on effects such as Moon Rabbit's debuffs."
+      },
+      {
+        question: "Should every support use ATK%?",
+        answer: "No. Herb, Grapevine, and Milk benefit through ATK-based healing, and Milk's buff also scales with personal ATK. Macaron and Cheesecake do not strengthen their buffs by stacking their own ATK. Read the scaling line first."
+      },
+      {
+        question: "Does Skill Amp improve every defensive effect?",
+        answer: "No. Ion's shield can benefit, while the separate Damage Reduction effect does not. Nameless Cake Hound's Damage Reduction also does not scale with Skill Amp. Evaluate each effect separately before locking the stat."
+      }
+    ]
   },
   {
     slug: "cookie-run-crumble-beginner-progression-guide",

@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-10-17",
+    "guide": "cookie-run-crumble-pinot-noir-cookie-build",
+    "authority": "AdditionalEffectText.Desc.IgnoreAmp4010",
+    "sourceText": "Healing Down and Lift RES are not affected by Skill AMP.",
+    "correction": "Both Healing Received Down and Knock-up Resistance Up ignore Skill Amp. Removed the contradictory recommendation to roll Skill Amp for stronger resistance support from the English guide and matching FAQ data; localized editions follow the corrected source.",
+    "source": "http://127.0.0.1:6868/api/localizations?language=en&q=AdditionalEffectText.Desc.IgnoreAmp4010",
+    "alsoCorrected": [
+      "cookie-run-crumble-skill-amp-fix-rune-refund",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide"
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "guide": "cookie-run-crumble-skill-amp-fix-rune-refund",
+    "authority": "Skills resourceKey cookie0001 / cookie0003, version 1.5.002",
+    "sourceText": "GingerBrave: Brave Dash deals damage and knockback. GingerBright: Jolly Candy deals damage and reduces ATK.",
+    "correction": "Removed the ATK Down attribution to GingerBrave. Kept the original historical 11-name refund summary with a specific instruction to cross-check that name against the original notice; current skill data does not independently establish historical refund eligibility.",
+    "source": "http://127.0.0.1:6868/data/i18n/en/site-data.json"
+  }
+]

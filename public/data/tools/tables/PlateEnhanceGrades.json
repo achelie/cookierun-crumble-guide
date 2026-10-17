@@ -1,0 +1,3122 @@
+[
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1709987735,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1716987672,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1630297419,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2122889389,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1573976360,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1755378296,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1152090225,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1337408565,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1788780175,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1463734478,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 2142653995,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 0,
+    "mainOptionAmplifyRate": {
+      "value": "0"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 1,
+    "mainOptionAmplifyRate": {
+      "value": "300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 2,
+    "mainOptionAmplifyRate": {
+      "value": "600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 3,
+    "mainOptionAmplifyRate": {
+      "value": "900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 4,
+    "mainOptionAmplifyRate": {
+      "value": "1200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "0"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 5,
+    "mainOptionAmplifyRate": {
+      "value": "1500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 6,
+    "mainOptionAmplifyRate": {
+      "value": "2100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 7,
+    "mainOptionAmplifyRate": {
+      "value": "2700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 8,
+    "mainOptionAmplifyRate": {
+      "value": "3300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 9,
+    "mainOptionAmplifyRate": {
+      "value": "3900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "3000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 10,
+    "mainOptionAmplifyRate": {
+      "value": "4500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 11,
+    "mainOptionAmplifyRate": {
+      "value": "5700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 12,
+    "mainOptionAmplifyRate": {
+      "value": "6900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 13,
+    "mainOptionAmplifyRate": {
+      "value": "8100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 14,
+    "mainOptionAmplifyRate": {
+      "value": "9300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "7000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 15,
+    "mainOptionAmplifyRate": {
+      "value": "10500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 16,
+    "mainOptionAmplifyRate": {
+      "value": "12300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 17,
+    "mainOptionAmplifyRate": {
+      "value": "14100"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 18,
+    "mainOptionAmplifyRate": {
+      "value": "15900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 19,
+    "mainOptionAmplifyRate": {
+      "value": "17700"
+    },
+    "subOptionAmplifyRate": {
+      "value": "13000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 20,
+    "mainOptionAmplifyRate": {
+      "value": "20000"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 21,
+    "mainOptionAmplifyRate": {
+      "value": "22300"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 22,
+    "mainOptionAmplifyRate": {
+      "value": "24600"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 23,
+    "mainOptionAmplifyRate": {
+      "value": "26900"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 24,
+    "mainOptionAmplifyRate": {
+      "value": "29200"
+    },
+    "subOptionAmplifyRate": {
+      "value": "20000"
+    }
+  },
+  {
+    "plateEnhanceOptionGroupId": 1949430956,
+    "plateGrade": 25,
+    "mainOptionAmplifyRate": {
+      "value": "31500"
+    },
+    "subOptionAmplifyRate": {
+      "value": "28000"
+    }
+  }
+]

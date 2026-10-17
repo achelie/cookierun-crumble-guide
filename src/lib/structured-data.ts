@@ -54,6 +54,24 @@ export function homeSchema(page: SeoPageDefinition) {
   ]);
 }
 
+export function informationPageSchema(page: SeoPageDefinition) {
+  const url = absoluteUrl(page.path);
+  return schemaGraph([
+    {
+      "@type": page.path === "/about/" ? "AboutPage" : page.path === "/contact/" ? "ContactPage" : "WebPage",
+      "@id": `${url}#page`,
+      url,
+      name: page.h1,
+      description: page.description,
+      inLanguage: "en",
+      dateModified: page.updatedAt,
+      isPartOf: { "@id": `${siteUrl}/#website` },
+      breadcrumb: { "@id": `${url}#breadcrumb` },
+    },
+    breadcrumbNode(page),
+  ]);
+}
+
 export function collectionPageSchema(
   page: SeoPageDefinition,
   items: SchemaNode[],

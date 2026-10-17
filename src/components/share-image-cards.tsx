@@ -1,5 +1,6 @@
 "use client";
 
+import { I18nElement } from "@/i18n/elements";
 import { forwardRef } from "react";
 import {
   cookieById,
@@ -19,19 +20,19 @@ import type { TierBuilderState } from "@/lib/tier-builder-state";
 
 function ExportBadges({ element, role }: { element: Element; role: Role }) {
   return (
-    <span className="export-taxonomy" aria-hidden="true">
-      <span><img src={elementDefinitions[element].image} alt="" /></span>
-      <span><img src={roleDefinitions[role].image} alt="" /></span>
-    </span>
+    <I18nElement as="span" className="export-taxonomy" aria-hidden="true">
+      <I18nElement as="span"><I18nElement as="img" src={elementDefinitions[element].image} alt="" /></I18nElement>
+      <I18nElement as="span"><I18nElement as="img" src={roleDefinitions[role].image} alt="" /></I18nElement>
+    </I18nElement>
   );
 }
 
 function ExportSynergyBadge({ value, active = false }: { value: Synergy; active?: boolean }) {
   return (
-    <span className={`export-synergy-badge${active ? " is-active" : ""}`} title={synergyDefinitions[value].label}>
-      <img src={synergyDefinitions[value].image} alt="" />
-      <img src={synergyBadgeImages.grantedArrow} alt="" />
-    </span>
+    <I18nElement as="span" className={`export-synergy-badge${active ? " is-active" : ""}`} title={synergyDefinitions[value].label}>
+      <I18nElement as="img" src={synergyDefinitions[value].image} alt="" />
+      <I18nElement as="img" src={synergyBadgeImages.grantedArrow} alt="" />
+    </I18nElement>
   );
 }
 
@@ -41,59 +42,59 @@ export const TeamShareCard = forwardRef<HTMLDivElement, { cookieIds: (string | n
     const summary = calculateTeamSynergies(selectedCookies);
 
     return (
-      <div className="export-stage" aria-hidden="true" inert>
-        <div className="team-share-card" ref={ref}>
-          <header className="share-card__header">
-            <div><span>My formation</span><strong>CookieRun: Crumble Team</strong></div>
-            <b>{selectedCookies.length}/12 Cookies</b>
-          </header>
+      <I18nElement as="div" className="export-stage" aria-hidden="true" inert>
+        <I18nElement as="div" className="team-share-card" ref={ref}>
+          <I18nElement as="header" className="share-card__header">
+            <I18nElement as="div"><I18nElement as="span">My formation</I18nElement><I18nElement as="strong">CookieRun: Crumble Team</I18nElement></I18nElement>
+            <I18nElement as="b">{selectedCookies.length}/12 Cookies</I18nElement>
+          </I18nElement>
 
-          <div className="team-share-card__cookies">
+          <I18nElement as="div" className="team-share-card__cookies">
             {cookieIds.map((id, index) => {
               const cookie = id ? cookieById.get(id) : undefined;
               return (
-                <div className={`team-share-slot${cookie ? ` is-filled rarity-${cookie.rarity.toLowerCase()}` : ""}`} key={index}>
+                <I18nElement as="div" className={`team-share-slot${cookie ? ` is-filled rarity-${cookie.rarity.toLowerCase()}` : ""}`} key={index}>
                   {cookie ? <>
                     <ExportBadges element={cookie.element} role={cookie.role} />
-                    <span className="export-rarity">{cookie.rarity}</span>
-                    <img className="team-share-slot__portrait" src={cookie.image} alt="" />
-                    <span className="team-share-slot__number">{index + 1}</span>
-                    <small>{cookie.name}</small>
-                  </> : <span className="team-share-slot__empty">{index + 1}</span>}
-                </div>
+                    <I18nElement as="span" className="export-rarity">{cookie.rarity}</I18nElement>
+                    <I18nElement as="img" className="team-share-slot__portrait" src={cookie.image} alt="" />
+                    <I18nElement as="span" className="team-share-slot__number">{index + 1}</I18nElement>
+                    <I18nElement as="small">{cookie.name}</I18nElement>
+                  </> : <I18nElement as="span" className="team-share-slot__empty">{index + 1}</I18nElement>}
+                </I18nElement>
               );
             })}
-          </div>
+          </I18nElement>
 
-          <div className="team-share-card__support">
-            <section>
-              <div className="share-card__section-label"><span>Pets</span><b>{petIds.filter(Boolean).length}/3</b></div>
-              <div className="team-share-pets">
+          <I18nElement as="div" className="team-share-card__support">
+            <I18nElement as="section">
+              <I18nElement as="div" className="share-card__section-label"><I18nElement as="span">Pets</I18nElement><I18nElement as="b">{petIds.filter(Boolean).length}/3</I18nElement></I18nElement>
+              <I18nElement as="div" className="team-share-pets">
                 {petIds.map((id, index) => {
                   const pet = id ? petById.get(id) : undefined;
-                  return <div className={`team-share-pet${pet ? " is-filled" : ""}`} key={index}>
-                    {pet ? <><img src={pet.image} alt="" /><small>{pet.name}</small></> : <span>{index + 1}</span>}
-                  </div>;
+                  return <I18nElement as="div" className={`team-share-pet${pet ? " is-filled" : ""}`} key={index}>
+                    {pet ? <><I18nElement as="img" src={pet.image} alt="" /><I18nElement as="small">{pet.name}</I18nElement></> : <I18nElement as="span">{index + 1}</I18nElement>}
+                  </I18nElement>;
                 })}
-              </div>
-            </section>
+              </I18nElement>
+            </I18nElement>
 
-            <section className="team-share-synergies">
-              <div className="team-share-synergy is-granted">
-                <span>Granted</span>
-                <div>{summary.granted.length ? summary.granted.map((value) => <ExportSynergyBadge key={value} value={value} />) : <small>None yet</small>}</div>
-              </div>
-              <div className="team-share-synergy is-active">
-                <span>Active</span>
-                <div>{summary.active.length ? summary.active.map((value) => <ExportSynergyBadge key={value} value={value} active />) : <small>Needs a matching receiver</small>}</div>
-                <b>{summary.activeApplications} matches</b>
-              </div>
-            </section>
-          </div>
+            <I18nElement as="section" className="team-share-synergies">
+              <I18nElement as="div" className="team-share-synergy is-granted">
+                <I18nElement as="span">Granted</I18nElement>
+                <I18nElement as="div">{summary.granted.length ? summary.granted.map((value) => <ExportSynergyBadge key={value} value={value} />) : <I18nElement as="small">None yet</I18nElement>}</I18nElement>
+              </I18nElement>
+              <I18nElement as="div" className="team-share-synergy is-active">
+                <I18nElement as="span">Active</I18nElement>
+                <I18nElement as="div">{summary.active.length ? summary.active.map((value) => <ExportSynergyBadge key={value} value={value} active />) : <I18nElement as="small">Needs a matching receiver</I18nElement>}</I18nElement>
+                <I18nElement as="b">{summary.activeApplications} matches</I18nElement>
+              </I18nElement>
+            </I18nElement>
+          </I18nElement>
 
-          <footer className="share-card__watermark" data-export-watermark="true">www.cookieruncrumbles.com</footer>
-        </div>
-      </div>
+          <I18nElement as="footer" className="share-card__watermark" data-export-watermark="true">www.cookieruncrumbles.com</I18nElement>
+        </I18nElement>
+      </I18nElement>
     );
   },
 );
@@ -102,33 +103,33 @@ export const TierShareCard = forwardRef<HTMLDivElement, { state: TierBuilderStat
   const rankedCount = tierRanks.reduce((count, rank) => count + state[rank].length, 0);
 
   return (
-    <div className="export-stage" aria-hidden="true" inert>
-      <div className="tier-share-card" ref={ref}>
-        <header className="share-card__header">
-          <div><span>My ranking</span><strong>CookieRun: Crumble Tier List</strong></div>
-          <b>{rankedCount} Cookies ranked</b>
-        </header>
-        <div className="tier-share-card__board">
+    <I18nElement as="div" className="export-stage" aria-hidden="true" inert>
+      <I18nElement as="div" className="tier-share-card" ref={ref}>
+        <I18nElement as="header" className="share-card__header">
+          <I18nElement as="div"><I18nElement as="span">My ranking</I18nElement><I18nElement as="strong">CookieRun: Crumble Tier List</I18nElement></I18nElement>
+          <I18nElement as="b">{rankedCount} Cookies ranked</I18nElement>
+        </I18nElement>
+        <I18nElement as="div" className="tier-share-card__board">
           {tierRanks.map((rank) => (
-            <section className={`tier-share-row tier-share-row--${rank.toLowerCase()}`} key={rank}>
-              <div className="tier-share-rank"><strong>{rank}</strong><span>Tier</span></div>
-              <div className="tier-share-units">
+            <I18nElement as="section" className={`tier-share-row tier-share-row--${rank.toLowerCase()}`} key={rank}>
+              <I18nElement as="div" className="tier-share-rank"><I18nElement as="strong">{rank}</I18nElement><I18nElement as="span">Tier</I18nElement></I18nElement>
+              <I18nElement as="div" className="tier-share-units">
                 {state[rank].map((id) => {
                   const cookie = cookieById.get(id);
-                  return cookie ? <div className={`tier-share-cookie rarity-${cookie.rarity.toLowerCase()}`} key={id}>
+                  return cookie ? <I18nElement as="div" className={`tier-share-cookie rarity-${cookie.rarity.toLowerCase()}`} key={id}>
                     <ExportBadges element={cookie.element} role={cookie.role} />
-                    <span className="export-rarity">{cookie.rarity}</span>
-                    <img src={cookie.image} alt="" />
-                    <small>{cookie.name}</small>
-                  </div> : null;
+                    <I18nElement as="span" className="export-rarity">{cookie.rarity}</I18nElement>
+                    <I18nElement as="img" src={cookie.image} alt="" />
+                    <I18nElement as="small">{cookie.name}</I18nElement>
+                  </I18nElement> : null;
                 })}
-                {!state[rank].length && <span className="tier-share-empty">No Cookies placed</span>}
-              </div>
-            </section>
+                {!state[rank].length && <I18nElement as="span" className="tier-share-empty">No Cookies placed</I18nElement>}
+              </I18nElement>
+            </I18nElement>
           ))}
-        </div>
-        <footer className="share-card__watermark" data-export-watermark="true">www.cookieruncrumbles.com</footer>
-      </div>
-    </div>
+        </I18nElement>
+        <I18nElement as="footer" className="share-card__watermark" data-export-watermark="true">www.cookieruncrumbles.com</I18nElement>
+      </I18nElement>
+    </I18nElement>
   );
 });

@@ -1,18 +1,19 @@
+import { I18nElement } from "@/i18n/elements";
 import { type GuideTocItem } from "@/data/guides";
 
 export function QuickNavigation({ items }: { items: GuideTocItem[] }) {
   return (
-    <aside className="quick-nav">
-      <details open>
-        <summary>Quick Navigation</summary>
-        <ol>
+    <I18nElement as="aside" className="quick-nav">
+      <I18nElement as="details" open>
+        <I18nElement as="summary">Quick Navigation</I18nElement>
+        <I18nElement as="ol">
           {items.map((item, index) => (
-            <li key={item.id}>
-              <a href={`#${item.id}`}><span>{String(index + 1).padStart(2, "0")}</span>{item.label}</a>
-            </li>
+            <I18nElement as="li" key={item.id}>
+              <I18nElement as="a" href={`#${item.id}`}><I18nElement as="span">{String(index + 1).padStart(2, "0")}</I18nElement>{item.label}</I18nElement>
+            </I18nElement>
           ))}
-        </ol>
-      </details>
-    </aside>
+        </I18nElement>
+      </I18nElement>
+    </I18nElement>
   );
 }

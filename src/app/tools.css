@@ -1,0 +1,17 @@
+/* Tool directory entries use the site design; tool interiors retain source styles. */
+.calculator-directory { display: grid; gap: 14px; margin-bottom: 24px; }
+.calculator-directory > a { display: grid; grid-template-columns: 74px minmax(0,1fr) auto; align-items: center; gap: 22px; padding: 22px 26px; border: 1px solid var(--line); border-radius: var(--radius-card); background: radial-gradient(ellipse at 0 10%,color-mix(in srgb,var(--accent-soft),transparent 55%),transparent 65%),linear-gradient(125deg,var(--paper-2),var(--paper)); box-shadow: 0 8px 25px var(--shadow); transition: border-color var(--duration-fast) var(--ease-smooth-out),transform var(--duration-fast) var(--ease-smooth-out); }
+.calculator-directory > a:hover { border-color: var(--accent); transform: translateX(3px); }
+.calculator-directory img { width: 64px; height: 70px; object-fit: contain; filter: drop-shadow(0 6px 8px var(--shadow)); }
+.calculator-directory span { display: grid; gap: 5px; }
+.calculator-directory strong { font-family: var(--font-display),sans-serif; font-size: var(--text-card); font-weight: 500; }
+.calculator-directory small { color: var(--muted); font-size: .86rem; line-height: 1.5; }
+.calculator-directory b { display: flex; align-items: center; gap: 5px; font-size: .82rem; color: var(--accent-dark); }
+@media (max-width: 760px) {
+  .calculator-directory > a { grid-template-columns: 45px minmax(0,1fr); gap: 15px; padding: 20px; }
+  .calculator-directory img { width: 45px; height: 55px; }
+  .calculator-directory b { grid-column: 2; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .calculator-directory > a { transition: none; }
+}

@@ -1,0 +1,26 @@
+{
+  "evidenceId": "local-plate-current-unlock-gate-20261015-v1",
+  "observedAtUtc": "2026-10-15T13:25:14.489438+00:00",
+  "provider": "ordinary ADB input and screen capture; not REA Evidence",
+  "status": "actual-game-entry-locked; refunds-not-observed",
+  "capture": {
+    "file": "049-plating-entry\\observation.json",
+    "sha256": "d91b74ea3f9e377247bae7809d5f11183fd9d6aec1b2371ce238b274b0bf4267"
+  },
+  "screenshot": {
+    "file": "049-plating-entry/screen.png",
+    "sha256": "c948b1a9f7b5b4992b2b43fded8478a418cb0edf0c28aa09da32fb51d4e3ed23"
+  },
+  "visibleMessage": "Complete Quest1035: Clear8-30 and meet the Sugarsmith.",
+  "stageDisplayed": "Repeating Stage7-23",
+  "requiredQuest": 1035,
+  "requiredStage": "8-30",
+  "whichPrerequisiteUnmet": "not distinguished; combined gate remains active",
+  "userSteering": "User will progress/unlock the account and notify us. No further progression requested from agent.",
+  "plateEnhancementAttempts": 0,
+  "refundScopeVerified": false,
+  "refundIntegerRoundingVerified": false,
+  "limitations": [
+    "A locked entry does not expose grade/protection/refund UI. Displayed repeating stage is not proof of maximum cleared stage."
+  ]
+}

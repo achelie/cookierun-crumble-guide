@@ -1,4 +1,5 @@
-import Image from "next/image";
+import { I18nElement } from "@/i18n/elements";
+import { LocaleImage as Image } from "@/i18n/elements";
 import { elementDefinitions, roleDefinitions, type Element, type Role } from "@/data/cookies";
 
 export function CookieTaxonomyBadges({ element, role, compact = false }: { element: Element; role: Role; compact?: boolean }) {
@@ -6,13 +7,13 @@ export function CookieTaxonomyBadges({ element, role, compact = false }: { eleme
   const roleDefinition = roleDefinitions[role];
 
   return (
-    <div className={`cookie-taxonomy-badges${compact ? " cookie-taxonomy-badges--compact" : ""}`}>
-      <span className="cookie-taxonomy-badge cookie-taxonomy-badge--element" role="img" aria-label={`${elementDefinition.label} element`} title={`${elementDefinition.label} element`}>
+    <I18nElement as="div" className={`cookie-taxonomy-badges${compact ? " cookie-taxonomy-badges--compact" : ""}`}>
+      <I18nElement as="span" className="cookie-taxonomy-badge cookie-taxonomy-badge--element" role="img" aria-label={`${elementDefinition.label} element`} title={`${elementDefinition.label} element`}>
         <Image src={elementDefinition.image} alt="" width={28} height={28} />
-      </span>
-      <span className="cookie-taxonomy-badge cookie-taxonomy-badge--role" role="img" aria-label={`${roleDefinition.label} role`} title={`${roleDefinition.label} role`}>
+      </I18nElement>
+      <I18nElement as="span" className="cookie-taxonomy-badge cookie-taxonomy-badge--role" role="img" aria-label={`${roleDefinition.label} role`} title={`${roleDefinition.label} role`}>
         <Image src={roleDefinition.image} alt="" width={28} height={28} />
-      </span>
-    </div>
+      </I18nElement>
+    </I18nElement>
   );
 }

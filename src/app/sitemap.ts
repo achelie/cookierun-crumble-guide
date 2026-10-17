@@ -2,7 +2,8 @@ import type { MetadataRoute } from "next";
 import { cookieById, cookies } from "@/data/cookies";
 import { guides } from "@/data/guides";
 import { pets } from "@/data/pets";
-import { absoluteUrl, seoPages } from "@/lib/seo";
+import { absoluteUrl, seoPages, siteUrl } from "@/lib/seo";
+import { locales, localizedPath, alternateLanguages } from "@/i18n/config";
 
 export const dynamic = "force-static";
 
@@ -24,5 +25,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       return cookie ? [absoluteUrl(cookie.image)] : [];
     }),
   }));
-  return [...routes, ...guideRoutes];
+  return [...routes, ...guideRoutes].flatMap((route) => {
+    const path = new URL(route.url).pathname;
+    const languages = alternateLanguages(path, siteUrl);
+
+    return locales.map((locale) => ({
+      ...route,
+      url: absoluteUrl(localizedPath(path, locale)),
+      alternates: { languages },
+    }));
+  });
 }

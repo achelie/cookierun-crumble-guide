@@ -1,4 +1,5 @@
-import Image from "next/image";
+import { I18nElement } from "@/i18n/elements";
+import { LocaleImage as Image } from "@/i18n/elements";
 import { synergyBadgeImages, synergyDefinitions, type Synergy } from "@/data/cookies";
 
 type SynergyDirection = "granted" | "received" | "active";
@@ -8,9 +9,9 @@ export function SynergyBadge({ value, direction }: { value: Synergy; direction: 
   const arrow = direction === "received" ? synergyBadgeImages.receivedArrow : synergyBadgeImages.grantedArrow;
 
   return (
-    <span className={`synergy-badge synergy-badge--${direction}`} role="img" aria-label={`${direction} ${definition.label} synergy`} title={definition.label}>
+    <I18nElement as="span" className={`synergy-badge synergy-badge--${direction}`} role="img" aria-label={`${direction} ${definition.label} synergy`} title={definition.label}>
       <Image className="synergy-badge__icon" src={definition.image} alt="" width={34} height={34} />
       <Image className="synergy-badge__arrow" src={arrow} alt="" width={14} height={14} />
-    </span>
+    </I18nElement>
   );
 }

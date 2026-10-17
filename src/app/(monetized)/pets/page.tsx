@@ -1,3 +1,4 @@
+import { I18nElement } from "@/i18n/elements";
 import type { Metadata } from "next";
 import { EntityCodex } from "@/components/entity-codex";
 import { SeoPageHeader } from "@/components/seo-page-header";
@@ -18,5 +19,5 @@ export default function PetsPage() {
     description: pet.effects.length ? pet.effects.join("; ") : `${pet.rarity} CookieRun: Crumble Pet`,
     additionalProperty: { "@type": "PropertyValue", name: "Rarity", value: pet.rarity },
   }));
-  return <div className="page-shell"><StructuredData data={collectionPageSchema(page, schemaItems)} /><SeoPageHeader page={page} icon="paw" /><EntityCodex items={pets} kind="pet" /></div>;
+  return <I18nElement as="div" className="page-shell"><StructuredData data={collectionPageSchema(page, schemaItems)} /><SeoPageHeader page={page} icon="paw" /><EntityCodex items={pets} kind="pet" /></I18nElement>;
 }

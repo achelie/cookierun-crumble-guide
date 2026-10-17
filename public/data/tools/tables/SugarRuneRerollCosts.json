@@ -1,0 +1,42 @@
+[
+  {
+    "lockedSlotCount": 0,
+    "requiredItemId": 1415772669,
+    "requiredAmount": "20"
+  },
+  {
+    "lockedSlotCount": 1,
+    "requiredItemId": 1415772669,
+    "requiredAmount": "40"
+  },
+  {
+    "lockedSlotCount": 2,
+    "requiredItemId": 1415772669,
+    "requiredAmount": "80"
+  },
+  {
+    "lockedSlotCount": 3,
+    "requiredItemId": 1415772669,
+    "requiredAmount": "120"
+  },
+  {
+    "lockedSlotCount": 4,
+    "requiredItemId": 1415772669,
+    "requiredAmount": "180"
+  },
+  {
+    "lockedSlotCount": 5,
+    "requiredItemId": 1415772669,
+    "requiredAmount": "240"
+  },
+  {
+    "lockedSlotCount": 6,
+    "requiredItemId": 1415772669,
+    "requiredAmount": "300"
+  },
+  {
+    "lockedSlotCount": 7,
+    "requiredItemId": 1415772669,
+    "requiredAmount": "400"
+  }
+]

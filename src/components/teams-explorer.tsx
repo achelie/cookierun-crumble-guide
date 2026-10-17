@@ -1,5 +1,6 @@
 "use client";
 
+import { I18nElement } from "@/i18n/elements";
 import { useEffect, useRef } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { TeamShowcase } from "@/components/team-showcase";
@@ -58,43 +59,43 @@ export function TeamsExplorer({ teams }: { teams: RecommendedTeam[] }) {
   }, [category, pagination.page, pathname, rawCategory, rawPage, router, searchParams]);
 
   return (
-    <div className="teams-explorer">
-      <div className="teams-filters" role="group" aria-label="Team categories">
+    <I18nElement as="div" className="teams-explorer">
+      <I18nElement as="div" className="teams-filters" role="group" aria-label="Team categories">
         {[{ slug: "all", label: "All" } as const, ...teamCategories].map((item) => (
-          <button
+          <I18nElement as="button"
             key={item.slug}
             type="button"
             aria-pressed={category === item.slug}
             className={category === item.slug ? "is-active" : ""}
             onClick={() => updateCategory(item.slug)}
           >
-            {item.label}<span>{filterTeams(teams, item.slug).length}</span>
-          </button>
+            {item.label}<I18nElement as="span">{filterTeams(teams, item.slug).length}</I18nElement>
+          </I18nElement>
         ))}
-      </div>
-      <p className="teams-result-line" role="status">{pagination.total} {pagination.total === 1 ? "team" : "teams"}{category !== "all" && ` in ${teamCategories.find((item) => item.slug === category)?.label}`}</p>
-      <section ref={listRef} className="recommended-teams" aria-label="Recommended teams">
+      </I18nElement>
+      <I18nElement as="p" className="teams-result-line" role="status">{pagination.total} {pagination.total === 1 ? "team" : "teams"}{category !== "all" && ` in ${teamCategories.find((item) => item.slug === category)?.label}`}</I18nElement>
+      <I18nElement as="section" ref={listRef} className="recommended-teams" aria-label="Recommended teams">
         {pagination.items.map((team) => <TeamShowcase team={team} key={team.id} />)}
-      </section>
-      <nav className="teams-pagination" aria-label="Teams pagination">
-        <button type="button" disabled={pagination.page === 1} onClick={() => updatePage(pagination.page - 1, true)}>
+      </I18nElement>
+      <I18nElement as="nav" className="teams-pagination" aria-label="Teams pagination">
+        <I18nElement as="button" type="button" disabled={pagination.page === 1} onClick={() => updatePage(pagination.page - 1, true)}>
           <AppIcon name="chevron-left" size={16} />Previous
-        </button>
-        <span>Page <strong>{pagination.page}</strong> of {pagination.pageCount}</span>
-        <button type="button" disabled={pagination.page === pagination.pageCount} onClick={() => updatePage(pagination.page + 1, true)}>
+        </I18nElement>
+        <I18nElement as="span">Page <strong>{pagination.page}</strong> of {pagination.pageCount}</I18nElement>
+        <I18nElement as="button" type="button" disabled={pagination.page === pagination.pageCount} onClick={() => updatePage(pagination.page + 1, true)}>
           Next<AppIcon name="chevron" size={16} />
-        </button>
-      </nav>
-    </div>
+        </I18nElement>
+      </I18nElement>
+    </I18nElement>
   );
 }
 
 export function TeamsExplorerFallback({ teams }: { teams: RecommendedTeam[] }) {
   return (
-    <div className="teams-explorer" aria-busy="true">
-      <section className="recommended-teams" aria-label="Recommended teams">
+    <I18nElement as="div" className="teams-explorer" aria-busy="true">
+      <I18nElement as="section" className="recommended-teams" aria-label="Recommended teams">
         {teams.slice(0, teamsPageSize).map((team) => <TeamShowcase team={team} key={team.id} />)}
-      </section>
-    </div>
+      </I18nElement>
+    </I18nElement>
   );
 }

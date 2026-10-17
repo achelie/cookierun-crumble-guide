@@ -1,0 +1,276 @@
+{
+  "evidenceId": "official-stellar-probability-comparison-20261016-v1",
+  "checkedAtUtc": "2026-10-15T18:29:23.056855+00:00",
+  "officialUrl": "https://cs-cookieruncrumble.devsisters.com/hc/zh-tw/articles/60511654951321-%E6%98%9F%E9%9A%9B%E9%80%A3%E7%B7%9A%E6%A9%9F%E7%8E%87%E8%A9%B3%E6%83%85",
+  "sourceRepresentation": "Retained web-reader text with original line labels; not downloaded HTML",
+  "inputs": [
+    {
+      "path": "evidence/official-stellar-probabilities-20261016/inputs/d7f28216b227-official-zh-web-extract.txt",
+      "sha256": "d7f28216b227911134a61208af653704f573481acd1d5ebd4bd54ae7bd39409d",
+      "bytes": 2741,
+      "originalPath": "evidence/official-stellar-probabilities-20261016/official-zh-web-extract.txt"
+    },
+    {
+      "path": "evidence/official-stellar-probabilities-20261016/inputs/b4070ca9a088-stellar-link.json",
+      "sha256": "b4070ca9a088e469d2c11dad841606c0e1a732eaa18d55fcc6da0c2b54a57008",
+      "bytes": 63881,
+      "originalPath": "local-site/public/data/stellar-link.json"
+    },
+    {
+      "path": "evidence/official-stellar-probabilities-20261016/inputs/41b533478167-stellar-link-math.mjs",
+      "sha256": "41b5334781675e1c4f73b105c207394e4e5a3e8f86508b630659f9eee3474fda",
+      "bytes": 7181,
+      "originalPath": "local-site/public/stellar-link-math.mjs"
+    },
+    {
+      "path": "evidence/official-stellar-probabilities-20261016/inputs/6ccf07ddeb75-stellar-link-geometry.mjs",
+      "sha256": "6ccf07ddeb75e38618b6a10d6cb4a220c2724e3693686d66c371ca8ad19b8bec",
+      "bytes": 2227,
+      "originalPath": "local-site/public/stellar-link-geometry.mjs"
+    }
+  ],
+  "method": {
+    "sampleSpace": "Ordered distinct positions, not unordered subsets or area buckets",
+    "modelCount": "P(12,n) = 12!/(12-n)!",
+    "publicationRounding": "Decimal 100/count rounded half-up to each official literal precision",
+    "localProbabilityImplementation": "No RNG or roll-probability forecast in the planner; comparing its valid ordered state model"
+  },
+  "counts": {
+    "starCounts": 10,
+    "configurationCounts": 10,
+    "probabilityFractions": 10,
+    "publishedPercentages": 10
+  },
+  "officialRules": {
+    "uniformOrderedPlacements": true,
+    "areaAndBonusAreComputedFromPlacement": true,
+    "lockedStarsRemainFixed": true,
+    "remainingLegalPlacementsUniform": true
+  },
+  "derivedRule": {
+    "lockedConfigurationCount": "P(12-L,N-L)",
+    "status": "Combinatorial derivation from fixed locked ordinal-position assignments; not a separately published table"
+  },
+  "localModelProbe": {
+    "pointCount": 12,
+    "checks": [
+      {
+        "stars": 3,
+        "distinctPositions": 3,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      },
+      {
+        "stars": 4,
+        "distinctPositions": 4,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      },
+      {
+        "stars": 5,
+        "distinctPositions": 5,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      },
+      {
+        "stars": 6,
+        "distinctPositions": 6,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      },
+      {
+        "stars": 7,
+        "distinctPositions": 7,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      },
+      {
+        "stars": 8,
+        "distinctPositions": 8,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      },
+      {
+        "stars": 9,
+        "distinctPositions": 9,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      },
+      {
+        "stars": 10,
+        "distinctPositions": 10,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      },
+      {
+        "stars": 11,
+        "distinctPositions": 11,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      },
+      {
+        "stars": 12,
+        "distinctPositions": 12,
+        "duplicateRejected": true,
+        "outOfRangeRejected": true,
+        "lockedOrdinalAndPositionPreserved": true
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "stars": 3,
+      "totalConfigurations": 1320,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 1320,
+      "publishedPercent": "0.0758",
+      "sourceLine": 29,
+      "localModelConfigurations": 1320,
+      "localPercentAtPublishedPrecision": "0.0758",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    },
+    {
+      "stars": 4,
+      "totalConfigurations": 11880,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 11880,
+      "publishedPercent": "0.00842",
+      "sourceLine": 30,
+      "localModelConfigurations": 11880,
+      "localPercentAtPublishedPrecision": "0.00842",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    },
+    {
+      "stars": 5,
+      "totalConfigurations": 95040,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 95040,
+      "publishedPercent": "0.00105",
+      "sourceLine": 31,
+      "localModelConfigurations": 95040,
+      "localPercentAtPublishedPrecision": "0.00105",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    },
+    {
+      "stars": 6,
+      "totalConfigurations": 665280,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 665280,
+      "publishedPercent": "0.000150",
+      "sourceLine": 32,
+      "localModelConfigurations": 665280,
+      "localPercentAtPublishedPrecision": "0.000150",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    },
+    {
+      "stars": 7,
+      "totalConfigurations": 3991680,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 3991680,
+      "publishedPercent": "0.0000251",
+      "sourceLine": 33,
+      "localModelConfigurations": 3991680,
+      "localPercentAtPublishedPrecision": "0.0000251",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    },
+    {
+      "stars": 8,
+      "totalConfigurations": 19958400,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 19958400,
+      "publishedPercent": "0.00000501",
+      "sourceLine": 34,
+      "localModelConfigurations": 19958400,
+      "localPercentAtPublishedPrecision": "0.00000501",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    },
+    {
+      "stars": 9,
+      "totalConfigurations": 79833600,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 79833600,
+      "publishedPercent": "0.00000125",
+      "sourceLine": 35,
+      "localModelConfigurations": 79833600,
+      "localPercentAtPublishedPrecision": "0.00000125",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    },
+    {
+      "stars": 10,
+      "totalConfigurations": 239500800,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 239500800,
+      "publishedPercent": "0.000000418",
+      "sourceLine": 36,
+      "localModelConfigurations": 239500800,
+      "localPercentAtPublishedPrecision": "4.18E-7",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    },
+    {
+      "stars": 11,
+      "totalConfigurations": 479001600,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 479001600,
+      "publishedPercent": "0.000000209",
+      "sourceLine": 37,
+      "localModelConfigurations": 479001600,
+      "localPercentAtPublishedPrecision": "2.09E-7",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    },
+    {
+      "stars": 12,
+      "totalConfigurations": 479001600,
+      "probabilityNumerator": 1,
+      "probabilityDenominator": 479001600,
+      "publishedPercent": "0.000000209",
+      "sourceLine": 38,
+      "localModelConfigurations": 479001600,
+      "localPercentAtPublishedPrecision": "2.09E-7",
+      "countMatch": true,
+      "fractionMatch": true,
+      "publishedPercentMatch": true
+    }
+  ],
+  "mismatches": [],
+  "allComparedFieldsMatch": true,
+  "notCoveredByArticle": [
+    "reset fees",
+    "unlock gates",
+    "constellation multipliers",
+    "exact area algorithm and integer rounding",
+    "independence across rerolls",
+    "probability of an area target or a bonus target"
+  ],
+  "actions": {
+    "emulatorActions": 0,
+    "gameTransactions": 0,
+    "calculationValuesChanged": false
+  }
+}

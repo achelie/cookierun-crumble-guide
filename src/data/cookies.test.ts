@@ -23,7 +23,7 @@ describe("cookie catalog", () => {
   });
 
   it("keeps all current cookie IDs unique", () => {
-    expect(cookies).toHaveLength(76);
+    expect(cookies).toHaveLength(77);
     expect(new Set(cookies.map(({ id }) => id)).size).toBe(cookies.length);
   });
 
@@ -31,6 +31,16 @@ describe("cookie catalog", () => {
     expect(cookies.find(({ id }) => id === "cookie4013")?.name).toBe("Brightseeker Cookie");
     expect(cookies.find(({ id }) => id === "cookie0532")?.buffs).toEqual(["DEF Up", "Boss DMG Up"]);
     expect(cookies.find(({ id }) => id === "cookie4010")?.grantedSynergies).toEqual(["Multi-strike"]);
+    expect(cookies.find(({ id }) => id === "chardonnay")).toMatchObject({
+      name: "Chardonnay Cookie",
+      rarity: "SSR",
+      image: "/images/cookies/chardonnay.webp",
+      element: "Grass",
+      role: "Support",
+      grantedSynergies: ["Multi-shot"],
+      receivedSynergies: ["Projectile Speed"],
+      buffs: ["CRIT Chance Up", "Knockback Resistance Up"],
+    });
   });
 
   it("uses only declared taxonomy values", () => {

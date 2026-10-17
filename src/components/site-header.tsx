@@ -1,7 +1,9 @@
-import Image from "next/image";
-import Link from "next/link";
+import { I18nElement } from "@/i18n/elements";
+import { LocaleImage as Image } from "@/i18n/elements";
+import { LocaleLink as Link } from "@/i18n/elements";
 import { MobileNavigation, type MobileNavigationItem } from "@/components/mobile-navigation";
 import { AppIcon } from "@/components/ui/icon";
+import { LanguageSwitcher } from "@/components/language-switcher";
 
 const nav: MobileNavigationItem[] = [
   { href: "/cookies/", label: "Cookies", icon: "cookie" },
@@ -15,22 +17,23 @@ const nav: MobileNavigationItem[] = [
 
 export function SiteHeader() {
   return (
-    <header className="site-header">
-      <div className="site-header__inner">
+    <I18nElement as="header" className="site-header">
+      <I18nElement as="div" className="site-header__inner">
         <Link href="/" className="brand-mark" aria-label="CookieRun Crumble Guide home">
-          <span className="brand-mark__chip"><Image src="/favicon.png" alt="" width={42} height={42} priority /></span>
-          <span>CRUMBLE<span>GUIDE</span></span>
+          <I18nElement as="span" className="brand-mark__chip"><Image src="/favicon.png" alt="" width={42} height={42} priority /></I18nElement>
+          <I18nElement as="span">CRUMBLE<I18nElement as="span">GUIDE</I18nElement></I18nElement>
         </Link>
-        <nav aria-label="Primary navigation" className="site-nav">
+        <I18nElement as="nav" aria-label="Primary navigation" className="site-nav">
           {nav.map((item) => (
             <Link key={item.href} href={item.href}>
               <AppIcon name={item.icon} size={17} />
-              <span>{item.label}</span>
+              <I18nElement as="span">{item.label}</I18nElement>
             </Link>
           ))}
-        </nav>
+        </I18nElement>
         <MobileNavigation items={nav} />
-      </div>
-    </header>
+        <LanguageSwitcher />
+      </I18nElement>
+    </I18nElement>
   );
 }

@@ -24,9 +24,42 @@ export type RecommendedTeam = {
   };
 };
 
-export const teamsUpdatedAt = "2026-09-27";
+export const teamsUpdatedAt = "2026-10-16";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "chardonnay-auto-story",
+    category: "story",
+    name: "Chardonnay Auto Story Team",
+    kicker: "Keep auto moving, then change the slot that failed",
+    description: "Chardonnay replaces Macaron beside Bari and Cherry Cola. Start with Hot Doggie, Holy Baby Drop, and Chargemellow; use Candy Shade Pouch instead of Chargemellow against knock-ups. Replace underbuilt Bari with Scorpion, a better-promoted Wind Archer, or Moon Rabbit for survival. If Bari stays, Moon Rabbit can replace Dark Choco when the team keeps dying.",
+    cookies: [
+      "cookie4013",
+      "cookie0515",
+      "cookie0037",
+      "cookie0018",
+      "cookie4019",
+      "cookie0250",
+      "chardonnay",
+      "cookie4010",
+      "cookie0126",
+      "cookie0081",
+      "cookie0518",
+      "cookie0103"
+    ],
+    pets: [
+      "pet0111",
+      "pet4001",
+      "pet4005"
+    ],
+    updatedAt: "2026-10-16",
+    guideReference: {
+      href: "/guides/cookie-run-crumble-chardonnay-auto-story-team/",
+      leadIn: "The ",
+      anchor: "Chardonnay auto story guide",
+      followUp: " covers targeting, Pet changes, and promotion priorities."
+    }
+  },
   {
     id: "moon-rabbit-general-purpose",
     category: "story",

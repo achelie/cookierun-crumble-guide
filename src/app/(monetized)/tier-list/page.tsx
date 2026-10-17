@@ -1,5 +1,6 @@
+import { I18nElement } from "@/i18n/elements";
 import type { Metadata } from "next";
-import Link from "next/link";
+import { LocaleLink as Link } from "@/i18n/elements";
 import { SeoPageHeader } from "@/components/seo-page-header";
 import { StructuredData } from "@/components/structured-data";
 import { TierBoard } from "@/components/tier-board";
@@ -24,20 +25,20 @@ export default function TierListPage() {
     }] : [];
   }));
   return (
-    <div className="page-shell">
+    <I18nElement as="div" className="page-shell">
       <StructuredData data={collectionPageSchema(page, schemaItems)} />
-      <SeoPageHeader page={page} icon="trophy" />
-      <aside className="page-crosslink" aria-label="Related team recommendations">
+      <SeoPageHeader page={page} icon="trophy" showUpdatedAt />
+      <I18nElement as="aside" className="page-crosslink" aria-label="Related team recommendations">
         <AppIcon name="users" size={16} />
-        <span>Want to turn these rankings into a working lineup?</span>
+        <I18nElement as="span">Want to turn these rankings into a working lineup?</I18nElement>
         <Link href="/teams/">Browse tested teams<AppIcon name="chevron" size={14} /></Link>
-      </aside>
-      <aside className="builder-inline-link" aria-label="Tier List Builder">
+      </I18nElement>
+      <I18nElement as="aside" className="builder-inline-link" aria-label="Tier List Builder">
         <AppIcon name="tools" size={15} />
-        <span>Want your own ranking?</span>
+        <I18nElement as="span">Want your own ranking?</I18nElement>
         <Link href="/tools/tier-builder/">Open Tier Builder<AppIcon name="chevron" size={13} /></Link>
-      </aside>
+      </I18nElement>
       <TierBoard />
-    </div>
+    </I18nElement>
   );
 }

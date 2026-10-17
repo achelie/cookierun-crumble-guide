@@ -1,0 +1,37 @@
+[
+  {
+    "lockedStarshard": 0,
+    "requiredItemId": 1075390700,
+    "requireAmount": "10"
+  },
+  {
+    "lockedStarshard": 1,
+    "requiredItemId": 1075390700,
+    "requireAmount": "10"
+  },
+  {
+    "lockedStarshard": 2,
+    "requiredItemId": 1075390700,
+    "requireAmount": "30"
+  },
+  {
+    "lockedStarshard": 3,
+    "requiredItemId": 1075390700,
+    "requireAmount": "60"
+  },
+  {
+    "lockedStarshard": 4,
+    "requiredItemId": 1075390700,
+    "requireAmount": "100"
+  },
+  {
+    "lockedStarshard": 5,
+    "requiredItemId": 1075390700,
+    "requireAmount": "150"
+  },
+  {
+    "lockedStarshard": 6,
+    "requiredItemId": 1075390700,
+    "requireAmount": "220"
+  }
+]

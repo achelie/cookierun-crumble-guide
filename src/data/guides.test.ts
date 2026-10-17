@@ -83,6 +83,34 @@ function expectPublishableGuide(source: string, maxWords = 1_500) {
 }
 
 describe("guide registry", () => {
+  it("keeps the Chardonnay screenshot formation identical in the guide and Story teams", () => {
+    const slug = "cookie-run-crumble-chardonnay-auto-story-team";
+    const guide = guides.find((item) => item.slug === slug);
+    const content = readFileSync(new URL(`../content/guides/${slug}.mdx`, import.meta.url), "utf8");
+    const cookies = ["cookie4013", "cookie0515", "cookie0037", "cookie0018", "cookie4019", "cookie0250", "chardonnay", "cookie4010", "cookie0126", "cookie0081", "cookie0518", "cookie0103"];
+    const pets = ["pet0111", "pet4001", "pet4005"];
+    expect(content).toContain(`cookieIds={${JSON.stringify(cookies).replace(/,/g, ", ")}}`);
+    expect(content).toContain(`petIds={${JSON.stringify(pets).replace(/,/g, ", ")}}`);
+    expect(recommendedTeams[0]).toMatchObject({
+      id: "chardonnay-auto-story", category: "story", cookies, pets,
+      updatedAt: "2026-10-16", guideReference: { href: `/guides/${slug}/` },
+    });
+    expectPublishableGuide(content, 1_800);
+    const readable = guideProse(content.replace(/<GuideSection id="[^"]+" title="([^"]+)">/g, "$1"))
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1");
+    expect(readable.match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length).toBeGreaterThanOrEqual(1_500);
+    const sectionIds = [...content.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
+    expect([...content.matchAll(/\]\(\/[^)]+\)/g)]).toHaveLength(4);
+    expect(guide?.publishedAt).toBe("2026-10-16");
+    expect(guide?.updatedAt).toBe("2026-10-16");
+    expect(guide?.faq).toHaveLength(4);
+    for (const faq of guide?.faq ?? []) {
+      expect(content).toContain(`### ${faq.question}`);
+      expect(content).toContain(faq.answer);
+    }
+  });
+
   it("preserves all three story preset screenshots in the guide and Teams", () => {
     const slug = "cookie-run-crumble-bari-story-boss-team-presets";
     const guide = guides.find((item) => item.slug === slug);
@@ -495,7 +523,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-bari-story-boss-team-presets");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-chardonnay-auto-story-team");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 
@@ -509,7 +537,21 @@ describe("guide registry", () => {
   });
 
   it("keeps the gear guide concise, original, and free of production notes", () => {
-    expectPublishableGuide(gearRuneGuideSource);
+    expectPublishableGuide(gearRuneGuideSource, 1_800);
+    const readable = guideProse(gearRuneGuideSource
+      .replace(/<GuideSection id="[^"]+" title="([^"]+)">/g, "$1"))
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1");
+    expect(readable.match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length).toBeGreaterThanOrEqual(1_500);
+    const guide = guides.find((item) => item.slug === "cookie-run-crumble-gear-sugar-rune-stats-guide");
+    expect(guide?.publishedAt).toBe("2026-08-22");
+    expect(guide?.updatedAt).toBe("2026-10-17");
+    const sectionIds = [...gearRuneGuideSource.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]);
+    expect(sectionIds).toEqual(guide?.toc.map((item) => item.id));
+    expect([...gearRuneGuideSource.matchAll(/\]\(\/[^)]+\)/g)]).toHaveLength(4);
+    for (const faq of guide?.faq ?? []) {
+      expect(gearRuneGuideSource).toContain(`### ${faq.question}`);
+      expect(gearRuneGuideSource).toContain(faq.answer);
+    }
   });
 
   it("keeps the Cool Mint guide concise, original, and free of production notes", () => {

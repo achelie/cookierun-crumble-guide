@@ -1,4 +1,5 @@
-import Image from "next/image";
+import { I18nElement } from "@/i18n/elements";
+import { LocaleImage as Image } from "@/i18n/elements";
 import { cookieById } from "@/data/cookies";
 
 export function GuideCover({
@@ -13,15 +14,15 @@ export function GuideCover({
   const coverCookies = cookieIds.map((id) => cookieById.get(id)).filter((cookie) => cookie !== undefined);
 
   return (
-    <div className={`guide-cover${compact ? " guide-cover--compact" : ""}`} aria-label={`${coverCookies.map((cookie) => cookie.name).join(", ")} cover art`}>
-      <span className="guide-cover__stamp">FIELD NOTES</span>
+    <I18nElement as="div" className={`guide-cover${compact ? " guide-cover--compact" : ""}`} aria-label={`${coverCookies.map((cookie) => cookie.name).join(", ")} cover art`}>
+      <I18nElement as="span" className="guide-cover__stamp">FIELD NOTES</I18nElement>
       {coverCookies.map((cookie, index) => (
-        <figure key={cookie.id} className={`guide-cover__cookie guide-cover__cookie--${index + 1}`}>
+        <I18nElement as="figure" key={cookie.id} className={`guide-cover__cookie guide-cover__cookie--${index + 1}`}>
           <Image src={cookie.image} alt={cookie.name} width={360} height={360} priority={priority && index === 0} />
-          {!compact && <figcaption>{cookie.name}</figcaption>}
-        </figure>
+          {!compact && <I18nElement as="figcaption">{cookie.name}</I18nElement>}
+        </I18nElement>
       ))}
-      <span className="guide-cover__rule" aria-hidden="true" />
-    </div>
+      <I18nElement as="span" className="guide-cover__rule" aria-hidden="true" />
+    </I18nElement>
   );
 }

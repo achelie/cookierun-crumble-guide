@@ -1,11 +1,14 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
+import { useLocale } from "@/i18n/provider";
+import { localizedPath } from "@/i18n/config";
 import { useEffect } from "react";
 
 const tierKeys = ["s", "a", "b", "c", "d"];
 
 export function LegacyToolsQueryRedirect() {
+  const locale = useLocale();
   const params = useSearchParams();
   const router = useRouter();
 
@@ -18,8 +21,8 @@ export function LegacyToolsQueryRedirect() {
     const next = new URLSearchParams(params.toString());
     next.delete("tool");
     const query = next.size ? `?${next.toString()}` : "";
-    router.replace(`/tools/${isTeam ? "team-builder" : "tier-builder"}/${query}`);
-  }, [params, router]);
+    router.replace(localizedPath(`/tools/${isTeam ? "team-builder" : "tier-builder"}/${query}`, locale));
+  }, [params, router, locale]);
 
   return null;
 }

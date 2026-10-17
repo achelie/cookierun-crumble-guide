@@ -33,6 +33,7 @@ describe("guide filtering", () => {
   it("searches the title, excerpt, category label, and tags", () => {
     expect(filterGuides(guides, { query: "Skill Amp" }).map((item) => item.slug)).toEqual([
       "cookie-run-crumble-skill-amp-fix-rune-refund",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
     ]);
     expect(filterGuides(guides, { query: "beginner guide" }).map((item) => item.slug)).toEqual([
       "cookie-run-crumble-fast-account-growth-guide",

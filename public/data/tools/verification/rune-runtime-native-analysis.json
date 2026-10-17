@@ -1,0 +1,1499 @@
+{
+  "evidenceId": "local-rune-runtime-native-analysis-v1",
+  "status": "verified_client_code_derivations_with_server_unknowns",
+  "authority": "Offline analysis of parent-owned bounded runtime captures; not REA-generated native analysis evidence",
+  "artifact": {
+    "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\database\\recovery-evidence\\libil2cpp.so",
+    "sha256": "fcc143924fde79f877d9b370dfd7ed5d4acd4e2ace128e206c3359d45035060e",
+    "addressConvention": "recovered Offset is raw file offset; native il2cpp address=Offset+0x4000"
+  },
+  "captures": [
+    {
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T14:38:53.322364+00:00",
+      "serial": "emulator-5554",
+      "package": "com.devsisters.cc",
+      "pid": 3507,
+      "loadBase": "0x763842062000",
+      "mapsSha256": "3100dc354598b1ba7b2127aed349a7aae58a6ef68641501cd28e61d090902536"
+    },
+    {
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T14:38:57.445591+00:00",
+      "serial": "emulator-5554",
+      "package": "com.devsisters.cc",
+      "pid": 3507,
+      "loadBase": "0x763842062000",
+      "mapsSha256": "ced19f467a8a2af114b0081601f4972c54404543874041e95db543348e149acb"
+    },
+    {
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T14:44:53.967037+00:00",
+      "serial": "emulator-5554",
+      "package": "com.devsisters.cc",
+      "pid": 3507,
+      "loadBase": "0x763842062000",
+      "mapsSha256": "0399cb6382808f0a89bebc561292d9500273b88d1578c6957eee3f1786e71946"
+    },
+    {
+      "provider": "ordinary ADB read-only /proc client code ranges + capstone",
+      "reaEvidence": false,
+      "observedAt": "2026-10-14T14:44:57.080259+00:00",
+      "serial": "emulator-5554",
+      "package": "com.devsisters.cc",
+      "pid": 3507,
+      "loadBase": "0x763842062000",
+      "mapsSha256": "98a30e395bccece82d0eae38bc2a41f247c47fd23fecc3e0cab674a182f38863"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\capture.json",
+      "sha256": "8d2850e48205f584b617000fad153af3857346f5dc5c0f68e05d6e1f66ef39d2"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-02\\capture.json",
+      "sha256": "0760d954159a38ba54fe0dd1144080d21935ace432611d8596dda4ebcb26a8da"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-03\\capture.json",
+      "sha256": "aed1415018274e0678cccbc3bd4b765c3e9035dc9b0b09f4a2d47e57a20e52cd"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-04\\capture.json",
+      "sha256": "b2b7185c3df15cafa78dcba66ecaf0b6ec5cfcd5e19bc065acbec8fa88636dc9"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-extra-metadata.json",
+      "sha256": "970f08942f856791b18fe0df253c1c2b2e336e3a7f9af5bf9c020b5b6a7aa40b"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-helper-metadata.json",
+      "sha256": "a220185c2639bf8afd0824b8adaf84b16d1aea5e47572a84978deb4b9c51e5cd"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-method-requests.json",
+      "sha256": "f7053492e74b115be69b5876ea2c8f3726426238d0fef04083a50b31c6a09e21"
+    },
+    {
+      "path": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\local-site\\sugar-rune-data-report.json",
+      "sha256": "52e5cf655948928ee46bd9eb3f49505c346448f077d576b12cfd87a6f0a8c389"
+    }
+  ],
+  "verifiedClientRules": {
+    "basisPoint": {
+      "methods": [
+        {
+          "status": "bound loaded client code",
+          "className": "Crumble.BasisPoint",
+          "method": "ToDouble",
+          "nativeRva": "0x628030d",
+          "fileOffset": "0x627c30d",
+          "sha256": "aaba655c82479742b6e477521111780a15f27482fc7fa434a7c5cb4130a3713a",
+          "length": 14,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\001-Crumble_BasisPoint-ToDouble-627c30d.bin"
+        },
+        {
+          "status": "bound loaded client code",
+          "className": "Crumble.BasisPoint",
+          "method": "FromInteger",
+          "nativeRva": "0x628031b",
+          "fileOffset": "0x627c31b",
+          "sha256": "4748042c5768a9e4ab0f91e23000654a0dc0fc519953b4b1bc24435cf68af5bb",
+          "length": 8,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\002-Crumble_BasisPoint-FromInteger-627c31b.bin"
+        },
+        {
+          "status": "bound loaded client code",
+          "className": "Crumble.BasisPoint",
+          "method": "Floor",
+          "nativeRva": "0x62802f1",
+          "fileOffset": "0x627c2f1",
+          "sha256": "0903f74f58f898c678ff41728a10691fee1e75f54fd2f57b3ce88d6f072cc015",
+          "length": 28,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\000-Crumble_BasisPoint-Floor-627c2f1.bin"
+        }
+      ],
+      "formula": "ToDouble = raw / 10000.0; FromInteger = integer * 10000; Floor truncates raw/10000 toward zero",
+      "constant": {
+        "nativeAddress": "0x1fbe890",
+        "fileOffset": "0x1fbe890",
+        "bytesHex": "000000000088c340",
+        "sha256": "2d6351abbe718b4f19aa015c71600a1bb880f4633b6b00461fdf85004d3e5eff",
+        "double": 10000
+      },
+      "displayConvention": "Given the configured percent / flat display unit, percent labels use raw/100; flat labels raw/10000. The raw numeric conversion is now native verified; formatter labels are supported by configured defaultUnit."
+    },
+    "singleOutcomeProbability": {
+      "methods": [
+        {
+          "status": "bound loaded client code",
+          "className": "Crumble.Table.SugarRunePiecePoolTable",
+          "method": ".ctor",
+          "nativeRva": "0x6331b48",
+          "fileOffset": "0x632db48",
+          "sha256": "4110e365a5bc82b546535d60d9f8d9cb836dc97322f8331af34015198a629bd5",
+          "length": 794,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-02\\001-Crumble_Table_SugarRunePiecePoolTable-_ctor-632db48.bin"
+        },
+        {
+          "status": "bound loaded client code",
+          "className": "Crumble.Table.SugarRunePiecePoolTable",
+          "method": "GetSugarRuneGachaRate",
+          "nativeRva": "0x6331e62",
+          "fileOffset": "0x632de62",
+          "sha256": "a062c4ba5da8a315369a3599cac81ac32aac5c9497b34b2be0a61d6007185751",
+          "length": 119,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\006-Crumble_Table_SugarRunePiecePoolTable-GetSugarRuneGachaRate-632de62.bin"
+        },
+        {
+          "status": "bound loaded client code",
+          "className": "Crumble.Table.SugarRunePiecePoolTable",
+          "method": "GetCategorizedGachaRate",
+          "nativeRva": "0x6331ed9",
+          "fileOffset": "0x632ded9",
+          "sha256": "88723f2df0823cc73a46e08b610db7a4e5f2a1e525c0672dc0d2799c6df201f9",
+          "length": 113,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\007-Crumble_Table_SugarRunePiecePoolTable-GetCategorizedGachaRate-632ded9.bin"
+        }
+      ],
+      "formula": "weight / sum(all row weights)",
+      "weightTotal": 13050,
+      "rarityWeights": [
+        {
+          "rarity": "C",
+          "weight": 6500,
+          "probability": 0.49808429118773945
+        },
+        {
+          "rarity": "U",
+          "weight": 3510,
+          "probability": 0.2689655172413793
+        },
+        {
+          "rarity": "R",
+          "weight": 2340,
+          "probability": 0.1793103448275862
+        },
+        {
+          "rarity": "SR",
+          "weight": 560,
+          "probability": 0.04291187739463601
+        },
+        {
+          "rarity": "SSR",
+          "weight": 140,
+          "probability": 0.010727969348659003
+        }
+      ],
+      "anchors": [
+        {
+          "address": "0x6331eb3",
+          "bytes": "488b0424",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rsp]"
+        },
+        {
+          "address": "0x6331eb7",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x6331eba",
+          "bytes": "7418",
+          "mnemonic": "je",
+          "operands": "0x6331ed4"
+        },
+        {
+          "address": "0x6331ebc",
+          "bytes": "0f57c0",
+          "mnemonic": "xorps",
+          "operands": "xmm0, xmm0"
+        },
+        {
+          "address": "0x6331ebf",
+          "bytes": "f20f2a4028",
+          "mnemonic": "cvtsi2sd",
+          "operands": "xmm0, dword ptr [rax + 0x28]"
+        },
+        {
+          "address": "0x6331ec4",
+          "bytes": "f20f2a4b28",
+          "mnemonic": "cvtsi2sd",
+          "operands": "xmm1, dword ptr [rbx + 0x28]"
+        },
+        {
+          "address": "0x6331ec9",
+          "bytes": "f20f5ec1",
+          "mnemonic": "divsd",
+          "operands": "xmm0, xmm1"
+        },
+        {
+          "address": "0x6331cd6",
+          "bytes": "418b4628",
+          "mnemonic": "mov",
+          "operands": "eax, dword ptr [r14 + 0x28]"
+        },
+        {
+          "address": "0x6331cda",
+          "bytes": "488b4c2410",
+          "mnemonic": "mov",
+          "operands": "rcx, qword ptr [rsp + 0x10]"
+        },
+        {
+          "address": "0x6331cdf",
+          "bytes": "014128",
+          "mnemonic": "add",
+          "operands": "dword ptr [rcx + 0x28], eax"
+        }
+      ],
+      "boundary": "Confirms current client official probability display, not server random sampling or independence."
+    },
+    "cost": {
+      "method": {
+        "status": "bound loaded client code",
+        "className": "Crumble.SugarRuneGameBoostCalculator",
+        "method": "GetDiscountedRerollCost",
+        "nativeRva": "0x64aeee6",
+        "fileOffset": "0x64aaee6",
+        "sha256": "9c005246634b65af314a275ad99de855f64f8b93175004a97cc78def76053a59",
+        "length": 209,
+        "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\004-Crumble_SugarRuneGameBoostCalculator-GetDiscountedRerollCost-64aaee6.bin"
+      },
+      "formula": "max(0, baseCost - trunc(effectiveDiscountPercent * baseCost / 100))",
+      "rounding": "For nonnegative effective discount, the reduction is floor(baseCost*discount/100); remaining cost equals ceil(baseCost*(1-discount/100)). This differs from flooring the remaining cost when reduction is fractional.",
+      "discountInputs": {
+        "status": "bound loaded client code",
+        "className": "Crumble.SugarRuneGameBoostCalculator",
+        "method": "GetBoostValue",
+        "nativeRva": "0x64aefb7",
+        "fileOffset": "0x64aafb7",
+        "sha256": "8cc916da4921b9426d776ba3938ac5c110e8e374e053b4b74498d7356169ef84",
+        "length": 734,
+        "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\005-Crumble_SugarRuneGameBoostCalculator-GetBoostValue-64aafb7.bin"
+      },
+      "activeFilter": {
+        "method": {
+          "status": "bound loaded client code",
+          "className": "<GetActiveBoosts>d__0",
+          "method": "MoveNext",
+          "nativeRva": "0x64af2d2",
+          "fileOffset": "0x64ab2d2",
+          "sha256": "c33f507addd6fadbd2b5ede5a48f04befb86804e9a00473f35c0bd56b5c16928",
+          "length": 981,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-04\\001-_GetActiveBoosts_d__0-MoveNext-64ab2d2.bin"
+        },
+        "rule": "Enumerates GameBoostRecordSet.Values, captures clock.Now once, rejects out-of-range optional time window, nonpositive Count and unknown table ID. It yields every remaining record and matched GameBoostInfo. This method and the inspected GetBoostValue do not read OverridePriority.",
+        "anchors": [
+          {
+            "address": "0x64af513",
+            "bytes": "4989c7",
+            "mnemonic": "mov",
+            "operands": "r15, rax"
+          },
+          {
+            "address": "0x64af516",
+            "bytes": "4885c0",
+            "mnemonic": "test",
+            "operands": "rax, rax"
+          },
+          {
+            "address": "0x64af519",
+            "bytes": "0f8402010000",
+            "mnemonic": "je",
+            "operands": "0x64af621"
+          },
+          {
+            "address": "0x64af51f",
+            "bytes": "41807f1800",
+            "mnemonic": "cmp",
+            "operands": "byte ptr [r15 + 0x18], 0"
+          },
+          {
+            "address": "0x64af524",
+            "bytes": "743b",
+            "mnemonic": "je",
+            "operands": "0x64af561"
+          },
+          {
+            "address": "0x64af526",
+            "bytes": "4c89ff",
+            "mnemonic": "mov",
+            "operands": "rdi, r15"
+          },
+          {
+            "address": "0x64af529",
+            "bytes": "4883c718",
+            "mnemonic": "add",
+            "operands": "rdi, 0x18"
+          },
+          {
+            "address": "0x64af52d",
+            "bytes": "488b7500",
+            "mnemonic": "mov",
+            "operands": "rsi, qword ptr [rbp]"
+          },
+          {
+            "address": "0x64af531",
+            "bytes": "e8f2ddd403",
+            "mnemonic": "call",
+            "operands": "0xa1fd328"
+          },
+          {
+            "address": "0x64af536",
+            "bytes": "4889442420",
+            "mnemonic": "mov",
+            "operands": "qword ptr [rsp + 0x20], rax"
+          },
+          {
+            "address": "0x64af53b",
+            "bytes": "4889542428",
+            "mnemonic": "mov",
+            "operands": "qword ptr [rsp + 0x28], rdx"
+          },
+          {
+            "address": "0x64af540",
+            "bytes": "488b0424",
+            "mnemonic": "mov",
+            "operands": "rax, qword ptr [rsp]"
+          },
+          {
+            "address": "0x64af544",
+            "bytes": "488b7060",
+            "mnemonic": "mov",
+            "operands": "rsi, qword ptr [rax + 0x60]"
+          },
+          {
+            "address": "0x64af548",
+            "bytes": "4c89f7",
+            "mnemonic": "mov",
+            "operands": "rdi, r14"
+          },
+          {
+            "address": "0x64af54b",
+            "bytes": "ba01000000",
+            "mnemonic": "mov",
+            "operands": "edx, 1"
+          },
+          {
+            "address": "0x64af550",
+            "bytes": "b901000000",
+            "mnemonic": "mov",
+            "operands": "ecx, 1"
+          },
+          {
+            "address": "0x64af555",
+            "bytes": "4531c0",
+            "mnemonic": "xor",
+            "operands": "r8d, r8d"
+          },
+          {
+            "address": "0x64af558",
+            "bytes": "e80163e0ff",
+            "mnemonic": "call",
+            "operands": "0x62b585e"
+          },
+          {
+            "address": "0x64af55d",
+            "bytes": "84c0",
+            "mnemonic": "test",
+            "operands": "al, al"
+          },
+          {
+            "address": "0x64af55f",
+            "bytes": "7432",
+            "mnemonic": "je",
+            "operands": "0x64af593"
+          },
+          {
+            "address": "0x64af561",
+            "bytes": "41837f3400",
+            "mnemonic": "cmp",
+            "operands": "dword ptr [r15 + 0x34], 0"
+          },
+          {
+            "address": "0x64af566",
+            "bytes": "7e2b",
+            "mnemonic": "jle",
+            "operands": "0x64af593"
+          },
+          {
+            "address": "0x64af568",
+            "bytes": "488b0424",
+            "mnemonic": "mov",
+            "operands": "rax, qword ptr [rsp]"
+          },
+          {
+            "address": "0x64af56c",
+            "bytes": "488b7850",
+            "mnemonic": "mov",
+            "operands": "rdi, qword ptr [rax + 0x50]"
+          },
+          {
+            "address": "0x64af570",
+            "bytes": "4885ff",
+            "mnemonic": "test",
+            "operands": "rdi, rdi"
+          },
+          {
+            "address": "0x64af573",
+            "bytes": "0f84ad000000",
+            "mnemonic": "je",
+            "operands": "0x64af626"
+          },
+          {
+            "address": "0x64af579",
+            "bytes": "418b7710",
+            "mnemonic": "mov",
+            "operands": "esi, dword ptr [r15 + 0x10]"
+          },
+          {
+            "address": "0x64af57d",
+            "bytes": "488d05ac095007",
+            "mnemonic": "lea",
+            "operands": "rax, [rip + 0x75009ac]"
+          },
+          {
+            "address": "0x64af584",
+            "bytes": "488b08",
+            "mnemonic": "mov",
+            "operands": "rcx, qword ptr [rax]"
+          },
+          {
+            "address": "0x64af587",
+            "bytes": "4889da",
+            "mnemonic": "mov",
+            "operands": "rdx, rbx"
+          },
+          {
+            "address": "0x64af58a",
+            "bytes": "e8c9643d04",
+            "mnemonic": "call",
+            "operands": "0xa885a58"
+          },
+          {
+            "address": "0x64af58f",
+            "bytes": "84c0",
+            "mnemonic": "test",
+            "operands": "al, al"
+          },
+          {
+            "address": "0x64af591",
+            "bytes": "7537",
+            "mnemonic": "jne",
+            "operands": "0x64af5ca"
+          }
+        ]
+      },
+      "aggregation": "Sum gameBoostValues[0] * record.Count for every active valid type9 record. GameBoostData.GetValue reads record.Count and delegates to GameBoostInfo.GetValue; type9 uses index0 then multiplies byCount. No max-discount selection or priority override occurs in this inspected path.",
+      "valueMethods": [
+        {
+          "status": "bound loaded client code",
+          "className": "GameBoostData",
+          "method": "GetValue",
+          "nativeRva": "0x625632e",
+          "fileOffset": "0x625232e",
+          "sha256": "b4666a1c8a4e617507f52387e6d678f1979527be6bd5fdbd80fa313b0fb902e2",
+          "length": 34,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-03\\000-GameBoostData-GetValue-625232e.bin"
+        },
+        {
+          "status": "bound loaded client code",
+          "className": "Crumble.Table.GameBoostInfo",
+          "method": "GetValue",
+          "nativeRva": "0x6302aed",
+          "fileOffset": "0x62feaed",
+          "sha256": "2583bb5182ce221028eecb40626544a8a61de49dd0f7eaa1b2a64eee6194856e",
+          "length": 128,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-02\\000-Crumble_Table_GameBoostInfo-GetValue-62feaed.bin"
+        }
+      ],
+      "example": "One active10% record with Count1 plus one active5% record with Count1 → effective15%; base20→17 and base400→340. This does not assert the user owns both records.",
+      "nonnegativeClamp": {
+        "status": "not yet captured"
+      },
+      "anchors": [
+        {
+          "address": "0x64aef53",
+          "bytes": "4863cd",
+          "mnemonic": "movsxd",
+          "operands": "rcx, ebp"
+        },
+        {
+          "address": "0x64aef56",
+          "bytes": "490fafce",
+          "mnemonic": "imul",
+          "operands": "rcx, r14"
+        },
+        {
+          "address": "0x64aef5a",
+          "bytes": "48baf5285c8fc2f5285c",
+          "mnemonic": "movabs",
+          "operands": "rdx, 0x5c28f5c28f5c28f5"
+        },
+        {
+          "address": "0x64aef64",
+          "bytes": "4889c8",
+          "mnemonic": "mov",
+          "operands": "rax, rcx"
+        },
+        {
+          "address": "0x64aef67",
+          "bytes": "48f7ea",
+          "mnemonic": "imul",
+          "operands": "rdx"
+        },
+        {
+          "address": "0x64aef6a",
+          "bytes": "4829ca",
+          "mnemonic": "sub",
+          "operands": "rdx, rcx"
+        },
+        {
+          "address": "0x64aef6d",
+          "bytes": "4889d6",
+          "mnemonic": "mov",
+          "operands": "rsi, rdx"
+        },
+        {
+          "address": "0x64aef70",
+          "bytes": "48c1ee3f",
+          "mnemonic": "shr",
+          "operands": "rsi, 0x3f"
+        },
+        {
+          "address": "0x64aef74",
+          "bytes": "48c1fa06",
+          "mnemonic": "sar",
+          "operands": "rdx, 6"
+        },
+        {
+          "address": "0x64aef78",
+          "bytes": "4801d6",
+          "mnemonic": "add",
+          "operands": "rsi, rdx"
+        },
+        {
+          "address": "0x64aef7b",
+          "bytes": "4c01f6",
+          "mnemonic": "add",
+          "operands": "rsi, r14"
+        },
+        {
+          "address": "0x64aef7e",
+          "bytes": "31ff",
+          "mnemonic": "xor",
+          "operands": "edi, edi"
+        },
+        {
+          "address": "0x64aef80",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x64aef82",
+          "bytes": "e80b93a005",
+          "mnemonic": "call",
+          "operands": "0xbeb8292"
+        },
+        {
+          "address": "0x64af189",
+          "bytes": "4885d2",
+          "mnemonic": "test",
+          "operands": "rdx, rdx"
+        },
+        {
+          "address": "0x64af18c",
+          "bytes": "0f84a3000000",
+          "mnemonic": "je",
+          "operands": "0x64af235"
+        },
+        {
+          "address": "0x64af192",
+          "bytes": "396a1c",
+          "mnemonic": "cmp",
+          "operands": "dword ptr [rdx + 0x1c], ebp"
+        },
+        {
+          "address": "0x64af195",
+          "bytes": "0f8516ffffff",
+          "mnemonic": "jne",
+          "operands": "0x64af0b1"
+        },
+        {
+          "address": "0x64af19b",
+          "bytes": "488d7c2420",
+          "mnemonic": "lea",
+          "operands": "rdi, [rsp + 0x20]"
+        },
+        {
+          "address": "0x64af1a0",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x64af1a2",
+          "bytes": "e88771daff",
+          "mnemonic": "call",
+          "operands": "0x625632e"
+        },
+        {
+          "address": "0x64af1a7",
+          "bytes": "01c3",
+          "mnemonic": "add",
+          "operands": "ebx, eax"
+        }
+      ],
+      "default": "Account active records were not read; web calculator should default to0% and allow the effective summed discount or exact observed cost."
+    },
+    "lockedCount": {
+      "method": {
+        "status": "bound loaded client code",
+        "className": "Crumble.SugarRunePresenter",
+        "method": "GetCurrentLockedPieceCount",
+        "nativeRva": "0x65af4fa",
+        "fileOffset": "0x65ab4fa",
+        "sha256": "0b6b752727379dbaa332cd980a97558a77fdd331488d0a51c800a7536be72156",
+        "length": 286,
+        "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\014-Crumble_SugarRunePresenter-GetCurrentLockedPieceCount-65ab4fa.bin"
+      },
+      "predicate": {
+        "status": "bound loaded client code",
+        "className": "<>c",
+        "method": "<GetCurrentLockedPieceCount>b__66_0",
+        "nativeRva": "0x65b2ffe",
+        "fileOffset": "0x65aeffe",
+        "sha256": "5ca1859fb7060e01777a3dd39d186aee9c9a8c8730dc9357568fc8ee16b170d5",
+        "length": 16,
+        "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-03\\003-__c-_GetCurrentLockedPieceCount_b__66_0-65aeffe.bin"
+      },
+      "predicateRule": "The bound16-byte predicate returns movzx eax, byte ptr[sugarRunePiece+0x14] (IsLocked), with no grade or active-state test.",
+      "formula": "Uses the whole SugarRune.Pieces collection and does not read grade / SugarRuneSlotTable during lock aggregation. Native SetEngravingButtonState clamps resulting locked count to 0..costTable.Count-1 (currently0..7) for cost lookup.",
+      "anchors": [
+        {
+          "address": "0x65af545",
+          "bytes": "488b8318010000",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rbx + 0x118]"
+        },
+        {
+          "address": "0x65af54c",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x65af54f",
+          "bytes": "0f84be000000",
+          "mnemonic": "je",
+          "operands": "0x65af613"
+        },
+        {
+          "address": "0x65af555",
+          "bytes": "488b4060",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [rax + 0x60]"
+        },
+        {
+          "address": "0x65af559",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x65af55c",
+          "bytes": "0f84b1000000",
+          "mnemonic": "je",
+          "operands": "0x65af613"
+        },
+        {
+          "address": "0x65af562",
+          "bytes": "488b5810",
+          "mnemonic": "mov",
+          "operands": "rbx, qword ptr [rax + 0x10]"
+        },
+        {
+          "address": "0x65b1dc2",
+          "bytes": "4c89f7",
+          "mnemonic": "mov",
+          "operands": "rdi, r14"
+        },
+        {
+          "address": "0x65b1dc5",
+          "bytes": "e830d7ffff",
+          "mnemonic": "call",
+          "operands": "0x65af4fa"
+        },
+        {
+          "address": "0x65b1dca",
+          "bytes": "498bbe98000000",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [r14 + 0x98]"
+        },
+        {
+          "address": "0x65b1dd1",
+          "bytes": "4885ff",
+          "mnemonic": "test",
+          "operands": "rdi, rdi"
+        },
+        {
+          "address": "0x65b1dd4",
+          "bytes": "0f84c8000000",
+          "mnemonic": "je",
+          "operands": "0x65b1ea2"
+        },
+        {
+          "address": "0x65b1dda",
+          "bytes": "89c3",
+          "mnemonic": "mov",
+          "operands": "ebx, eax"
+        },
+        {
+          "address": "0x65b1ddc",
+          "bytes": "4531ff",
+          "mnemonic": "xor",
+          "operands": "r15d, r15d"
+        },
+        {
+          "address": "0x65b1ddf",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x65b1de1",
+          "bytes": "e84507d8ff",
+          "mnemonic": "call",
+          "operands": "0x633252b"
+        },
+        {
+          "address": "0x65b1de6",
+          "bytes": "498bbea8000000",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [r14 + 0xa8]"
+        },
+        {
+          "address": "0x65b1ded",
+          "bytes": "4885ff",
+          "mnemonic": "test",
+          "operands": "rdi, rdi"
+        },
+        {
+          "address": "0x65b1df0",
+          "bytes": "0f84ac000000",
+          "mnemonic": "je",
+          "operands": "0x65b1ea2"
+        },
+        {
+          "address": "0x65b1df6",
+          "bytes": "ffc8",
+          "mnemonic": "dec",
+          "operands": "eax"
+        },
+        {
+          "address": "0x65b1df8",
+          "bytes": "39c3",
+          "mnemonic": "cmp",
+          "operands": "ebx, eax"
+        },
+        {
+          "address": "0x65b1dfa",
+          "bytes": "0f4cc3",
+          "mnemonic": "cmovl",
+          "operands": "eax, ebx"
+        },
+        {
+          "address": "0x65b1dfd",
+          "bytes": "85db",
+          "mnemonic": "test",
+          "operands": "ebx, ebx"
+        },
+        {
+          "address": "0x65b1dff",
+          "bytes": "410f48c7",
+          "mnemonic": "cmovs",
+          "operands": "eax, r15d"
+        },
+        {
+          "address": "0x65b1e03",
+          "bytes": "89c6",
+          "mnemonic": "mov",
+          "operands": "esi, eax"
+        },
+        {
+          "address": "0x65b1e05",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x65b1e07",
+          "bytes": "e8dad0efff",
+          "mnemonic": "call",
+          "operands": "0x64aeee6"
+        }
+      ],
+      "implication": "Inactive locked slots must be included in cost. Active effect totals and target-slot counts must remain separate from the cost lock count."
+    },
+    "autoStop": {
+      "method": {
+        "status": "bound loaded client code",
+        "className": "Crumble.SugarRunePresenter",
+        "method": "CheckFilteringResult",
+        "nativeRva": "0x65b0fc8",
+        "fileOffset": "0x65acfc8",
+        "sha256": "dcea8ac014bb1717ead4f26287f5a848981112a3b34c6f022d1c4184e6900692",
+        "length": 593,
+        "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\011-Crumble_SugarRunePresenter-CheckFilteringResult-65acfc8.bin"
+      },
+      "formula": "Skip every IsLocked piece. If targetActiveSlotsOnly=true, skip pieces with requiredGrade>currentGrade. For remaining pieces require rarity>=selected rarity; accept any selected calculateType, or any calculateType when no type selected. Return true on first match.",
+      "anchors": [
+        {
+          "address": "0x65b1085",
+          "bytes": "80781400",
+          "mnemonic": "cmp",
+          "operands": "byte ptr [rax + 0x14], 0"
+        },
+        {
+          "address": "0x65b1089",
+          "bytes": "740e",
+          "mnemonic": "je",
+          "operands": "0x65b1099"
+        },
+        {
+          "address": "0x65b108b",
+          "bytes": "41ffc6",
+          "mnemonic": "inc",
+          "operands": "r14d"
+        },
+        {
+          "address": "0x65b108e",
+          "bytes": "453b7718",
+          "mnemonic": "cmp",
+          "operands": "r14d, dword ptr [r15 + 0x18]"
+        },
+        {
+          "address": "0x65b1092",
+          "bytes": "7cd9",
+          "mnemonic": "jl",
+          "operands": "0x65b106d"
+        },
+        {
+          "address": "0x65b1094",
+          "bytes": "e966010000",
+          "mnemonic": "jmp",
+          "operands": "0x65b11ff"
+        },
+        {
+          "address": "0x65b1099",
+          "bytes": "807b6c00",
+          "mnemonic": "cmp",
+          "operands": "byte ptr [rbx + 0x6c], 0"
+        },
+        {
+          "address": "0x65b109d",
+          "bytes": "744c",
+          "mnemonic": "je",
+          "operands": "0x65b10eb"
+        },
+        {
+          "address": "0x65b109f",
+          "bytes": "488bbb18010000",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rbx + 0x118]"
+        },
+        {
+          "address": "0x65b10a6",
+          "bytes": "4885ff",
+          "mnemonic": "test",
+          "operands": "rdi, rdi"
+        },
+        {
+          "address": "0x65b10a9",
+          "bytes": "0f8465010000",
+          "mnemonic": "je",
+          "operands": "0x65b1214"
+        },
+        {
+          "address": "0x65b10af",
+          "bytes": "31f6",
+          "mnemonic": "xor",
+          "operands": "esi, esi"
+        },
+        {
+          "address": "0x65b10b1",
+          "bytes": "e84a0bf3ff",
+          "mnemonic": "call",
+          "operands": "0x64e1c00"
+        },
+        {
+          "address": "0x65b10b6",
+          "bytes": "488bbb90000000",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rbx + 0x90]"
+        },
+        {
+          "address": "0x65b10bd",
+          "bytes": "4885ff",
+          "mnemonic": "test",
+          "operands": "rdi, rdi"
+        },
+        {
+          "address": "0x65b10c0",
+          "bytes": "0f844e010000",
+          "mnemonic": "je",
+          "operands": "0x65b1214"
+        },
+        {
+          "address": "0x65b10c6",
+          "bytes": "89c5",
+          "mnemonic": "mov",
+          "operands": "ebp, eax"
+        },
+        {
+          "address": "0x65b10c8",
+          "bytes": "4489f6",
+          "mnemonic": "mov",
+          "operands": "esi, r14d"
+        },
+        {
+          "address": "0x65b10cb",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x65b10cd",
+          "bytes": "e8e51ad8ff",
+          "mnemonic": "call",
+          "operands": "0x6332bb7"
+        },
+        {
+          "address": "0x65b10d2",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x65b10d5",
+          "bytes": "0f8439010000",
+          "mnemonic": "je",
+          "operands": "0x65b1214"
+        },
+        {
+          "address": "0x65b10db",
+          "bytes": "8b7014",
+          "mnemonic": "mov",
+          "operands": "esi, dword ptr [rax + 0x14]"
+        },
+        {
+          "address": "0x65b10de",
+          "bytes": "89ef",
+          "mnemonic": "mov",
+          "operands": "edi, ebp"
+        },
+        {
+          "address": "0x65b10e0",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x65b10e2",
+          "bytes": "e84218d0ff",
+          "mnemonic": "call",
+          "operands": "0x62b2929"
+        },
+        {
+          "address": "0x65b10e7",
+          "bytes": "84c0",
+          "mnemonic": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x65b10e9",
+          "bytes": "75a0",
+          "mnemonic": "jne",
+          "operands": "0x65b108b"
+        },
+        {
+          "address": "0x65b115f",
+          "bytes": "418b4c2414",
+          "mnemonic": "mov",
+          "operands": "ecx, dword ptr [r12 + 0x14]"
+        },
+        {
+          "address": "0x65b1164",
+          "bytes": "3b4b68",
+          "mnemonic": "cmp",
+          "operands": "ecx, dword ptr [rbx + 0x68]"
+        },
+        {
+          "address": "0x65b1167",
+          "bytes": "0f8c1effffff",
+          "mnemonic": "jl",
+          "operands": "0x65b108b"
+        },
+        {
+          "address": "0x65b116d",
+          "bytes": "8b6818",
+          "mnemonic": "mov",
+          "operands": "ebp, dword ptr [rax + 0x18]"
+        },
+        {
+          "address": "0x65b1170",
+          "bytes": "4c8b6348",
+          "mnemonic": "mov",
+          "operands": "r12, qword ptr [rbx + 0x48]"
+        },
+        {
+          "address": "0x65b1174",
+          "bytes": "4d85e4",
+          "mnemonic": "test",
+          "operands": "r12, r12"
+        },
+        {
+          "address": "0x65b1177",
+          "bytes": "7441",
+          "mnemonic": "je",
+          "operands": "0x65b11ba"
+        },
+        {
+          "address": "0x65b1179",
+          "bytes": "488d05e0c33907",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x739c3e0]"
+        },
+        {
+          "address": "0x65b1180",
+          "bytes": "488b30",
+          "mnemonic": "mov",
+          "operands": "rsi, qword ptr [rax]"
+        },
+        {
+          "address": "0x65b1183",
+          "bytes": "498b0424",
+          "mnemonic": "mov",
+          "operands": "rax, qword ptr [r12]"
+        },
+        {
+          "address": "0x65b1187",
+          "bytes": "0fb7882e010000",
+          "mnemonic": "movzx",
+          "operands": "ecx, word ptr [rax + 0x12e]"
+        },
+        {
+          "address": "0x65b118e",
+          "bytes": "4885c9",
+          "mnemonic": "test",
+          "operands": "rcx, rcx"
+        },
+        {
+          "address": "0x65b1191",
+          "bytes": "741b",
+          "mnemonic": "je",
+          "operands": "0x65b11ae"
+        },
+        {
+          "address": "0x65b1193",
+          "bytes": "488b90b0000000",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax + 0xb0]"
+        },
+        {
+          "address": "0x65b119a",
+          "bytes": "c1e104",
+          "mnemonic": "shl",
+          "operands": "ecx, 4"
+        },
+        {
+          "address": "0x65b119d",
+          "bytes": "31ff",
+          "mnemonic": "xor",
+          "operands": "edi, edi"
+        },
+        {
+          "address": "0x65b119f",
+          "bytes": "4839343a",
+          "mnemonic": "cmp",
+          "operands": "qword ptr [rdx + rdi], rsi"
+        },
+        {
+          "address": "0x65b11a3",
+          "bytes": "7419",
+          "mnemonic": "je",
+          "operands": "0x65b11be"
+        },
+        {
+          "address": "0x65b11a5",
+          "bytes": "4883c710",
+          "mnemonic": "add",
+          "operands": "rdi, 0x10"
+        },
+        {
+          "address": "0x65b11a9",
+          "bytes": "4839f9",
+          "mnemonic": "cmp",
+          "operands": "rcx, rdi"
+        },
+        {
+          "address": "0x65b11ac",
+          "bytes": "75f1",
+          "mnemonic": "jne",
+          "operands": "0x65b119f"
+        },
+        {
+          "address": "0x65b11ae",
+          "bytes": "4c89e7",
+          "mnemonic": "mov",
+          "operands": "rdi, r12"
+        },
+        {
+          "address": "0x65b11b1",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x65b11b3",
+          "bytes": "e83cb5afff",
+          "mnemonic": "call",
+          "operands": "0x60ac6f4"
+        },
+        {
+          "address": "0x65b11b8",
+          "bytes": "eb16",
+          "mnemonic": "jmp",
+          "operands": "0x65b11d0"
+        },
+        {
+          "address": "0x65b11ba",
+          "bytes": "31ff",
+          "mnemonic": "xor",
+          "operands": "edi, edi"
+        },
+        {
+          "address": "0x65b11bc",
+          "bytes": "eb23",
+          "mnemonic": "jmp",
+          "operands": "0x65b11e1"
+        },
+        {
+          "address": "0x65b11be",
+          "bytes": "48634c3a08",
+          "mnemonic": "movsxd",
+          "operands": "rcx, dword ptr [rdx + rdi + 8]"
+        },
+        {
+          "address": "0x65b11c3",
+          "bytes": "48c1e104",
+          "mnemonic": "shl",
+          "operands": "rcx, 4"
+        },
+        {
+          "address": "0x65b11c7",
+          "bytes": "4801c8",
+          "mnemonic": "add",
+          "operands": "rax, rcx"
+        },
+        {
+          "address": "0x65b11ca",
+          "bytes": "480538010000",
+          "mnemonic": "add",
+          "operands": "rax, 0x138"
+        },
+        {
+          "address": "0x65b11d0",
+          "bytes": "488b7008",
+          "mnemonic": "mov",
+          "operands": "rsi, qword ptr [rax + 8]"
+        },
+        {
+          "address": "0x65b11d4",
+          "bytes": "4c89e7",
+          "mnemonic": "mov",
+          "operands": "rdi, r12"
+        },
+        {
+          "address": "0x65b11d7",
+          "bytes": "ff10",
+          "mnemonic": "call",
+          "operands": "qword ptr [rax]"
+        },
+        {
+          "address": "0x65b11d9",
+          "bytes": "85c0",
+          "mnemonic": "test",
+          "operands": "eax, eax"
+        },
+        {
+          "address": "0x65b11db",
+          "bytes": "741d",
+          "mnemonic": "je",
+          "operands": "0x65b11fa"
+        },
+        {
+          "address": "0x65b11dd",
+          "bytes": "488b7b48",
+          "mnemonic": "mov",
+          "operands": "rdi, qword ptr [rbx + 0x48]"
+        },
+        {
+          "address": "0x65b11e1",
+          "bytes": "488d05989f4107",
+          "mnemonic": "lea",
+          "operands": "rax, [rip + 0x7419f98]"
+        },
+        {
+          "address": "0x65b11e8",
+          "bytes": "488b10",
+          "mnemonic": "mov",
+          "operands": "rdx, qword ptr [rax]"
+        },
+        {
+          "address": "0x65b11eb",
+          "bytes": "89ee",
+          "mnemonic": "mov",
+          "operands": "esi, ebp"
+        },
+        {
+          "address": "0x65b11ed",
+          "bytes": "e83ce61c02",
+          "mnemonic": "call",
+          "operands": "0x877f82e"
+        },
+        {
+          "address": "0x65b11f2",
+          "bytes": "84c0",
+          "mnemonic": "test",
+          "operands": "al, al"
+        },
+        {
+          "address": "0x65b11f4",
+          "bytes": "0f8491feffff",
+          "mnemonic": "je",
+          "operands": "0x65b108b"
+        }
+      ],
+      "implication": "Locked matching outcomes cannot trigger game auto-stop. A desired count>1 or minimum value is a web planning target, not an official auto-stop setting."
+    },
+    "slots": {
+      "method": {
+        "status": "bound loaded client code",
+        "className": "Crumble.Table.SugarRuneSlotTable",
+        "method": "IsSlotUnlocked",
+        "nativeRva": "0x6332c51",
+        "fileOffset": "0x632ec51",
+        "sha256": "04f290470424c4072a759609b2bea0c701b6f4b31b3c563eca47422e10bcf372",
+        "length": 321,
+        "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\008-Crumble_Table_SugarRuneSlotTable-IsSlotUnlocked-632ec51.bin"
+      },
+      "config": [
+        {
+          "order": 0,
+          "requiredGrade": 0
+        },
+        {
+          "order": 1,
+          "requiredGrade": 2
+        },
+        {
+          "order": 2,
+          "requiredGrade": 4
+        },
+        {
+          "order": 3,
+          "requiredGrade": 6
+        },
+        {
+          "order": 4,
+          "requiredGrade": 8
+        },
+        {
+          "order": 5,
+          "requiredGrade": 8
+        },
+        {
+          "order": 6,
+          "requiredGrade": 10
+        },
+        {
+          "order": 7,
+          "requiredGrade": 10
+        }
+      ],
+      "formula": "Out-of-range slot false; otherwise passes currentGrade and configuredRequiredGrade to comparison helper at0x62b293b. Inclusive threshold semantics are supported by official slot text / configured progression, while this tiny external comparison helper was not captured in this pass.",
+      "anchors": [
+        {
+          "address": "0x6332c87",
+          "bytes": "85ed",
+          "mnemonic": "test",
+          "operands": "ebp, ebp"
+        },
+        {
+          "address": "0x6332c89",
+          "bytes": "0f88b9000000",
+          "mnemonic": "js",
+          "operands": "0x6332d48"
+        },
+        {
+          "address": "0x6332c8f",
+          "bytes": "4d8b7e10",
+          "mnemonic": "mov",
+          "operands": "r15, qword ptr [r14 + 0x10]"
+        },
+        {
+          "address": "0x6332c93",
+          "bytes": "4d85ff",
+          "mnemonic": "test",
+          "operands": "r15, r15"
+        },
+        {
+          "address": "0x6332c96",
+          "bytes": "0f84f1000000",
+          "mnemonic": "je",
+          "operands": "0x6332d8d"
+        },
+        {
+          "address": "0x6332d72",
+          "bytes": "4885c0",
+          "mnemonic": "test",
+          "operands": "rax, rax"
+        },
+        {
+          "address": "0x6332d75",
+          "bytes": "7416",
+          "mnemonic": "je",
+          "operands": "0x6332d8d"
+        },
+        {
+          "address": "0x6332d77",
+          "bytes": "8b7014",
+          "mnemonic": "mov",
+          "operands": "esi, dword ptr [rax + 0x14]"
+        },
+        {
+          "address": "0x6332d7a",
+          "bytes": "89df",
+          "mnemonic": "mov",
+          "operands": "edi, ebx"
+        },
+        {
+          "address": "0x6332d7c",
+          "bytes": "31d2",
+          "mnemonic": "xor",
+          "operands": "edx, edx"
+        },
+        {
+          "address": "0x6332d7e",
+          "bytes": "4883c408",
+          "mnemonic": "add",
+          "operands": "rsp, 8"
+        },
+        {
+          "address": "0x6332d82",
+          "bytes": "5b",
+          "mnemonic": "pop",
+          "operands": "rbx"
+        },
+        {
+          "address": "0x6332d83",
+          "bytes": "415e",
+          "mnemonic": "pop",
+          "operands": "r14"
+        },
+        {
+          "address": "0x6332d85",
+          "bytes": "415f",
+          "mnemonic": "pop",
+          "operands": "r15"
+        },
+        {
+          "address": "0x6332d87",
+          "bytes": "5d",
+          "mnemonic": "pop",
+          "operands": "rbp"
+        },
+        {
+          "address": "0x6332d88",
+          "bytes": "e9aefbf7ff",
+          "mnemonic": "jmp",
+          "operands": "0x62b293b"
+        }
+      ]
+    },
+    "serverBoundary": {
+      "methods": [
+        {
+          "status": "bound loaded client code",
+          "className": "<EngravingSugarRunePiecesAsync>d__14",
+          "method": "MoveNext",
+          "nativeRva": "0x63ff11f",
+          "fileOffset": "0x63fb11f",
+          "sha256": "270e0226386563de782fdc18a8e92886fec76afd6f6190a9bd85efa20ad08027",
+          "length": 2199,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\010-_EngravingSugarRunePiecesAsync_d__14-MoveNext-63fb11f.bin"
+        },
+        {
+          "status": "bound loaded client code",
+          "className": "<AutoEngravingSugarRunePiecesAsync>d__15",
+          "method": "MoveNext",
+          "nativeRva": "0x63fd81f",
+          "fileOffset": "0x63f981f",
+          "sha256": "47c700b29c737f55a998efe82503481c130676f28b843877abd16b11e2c22682",
+          "length": 2472,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-01\\009-_AutoEngravingSugarRunePiecesAsync_d__15-MoveNext-63f981f.bin"
+        }
+      ],
+      "observation": "CookieApi reads lock bitfield and total table.Count, creates SugarRune request through injected _sugarRuneClient and _sender, then awaits a response. Client SugarRunePiecePoolTable is used for UI rates, not called for draw selection in these API bodies.",
+      "responseConversion": [
+        {
+          "status": "bound loaded client code",
+          "className": "<>c__DisplayClass14_0",
+          "method": "<EngravingSugarRunePiecesAsync>b__0",
+          "nativeRva": "0x63fd430",
+          "fileOffset": "0x63f9430",
+          "sha256": "7a11603e47342de0485eb09cbdc171c0137100af250cc9022a57bb71ac8f929b",
+          "length": 561,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-03\\001-__c__DisplayClass14_0-_EngravingSugarRunePiecesAsync_b__0-63f9430.bin"
+        },
+        {
+          "status": "bound loaded client code",
+          "className": "<>c__DisplayClass15_0",
+          "method": "<AutoEngravingSugarRunePiecesAsync>b__0",
+          "nativeRva": "0x63fd668",
+          "fileOffset": "0x63f9668",
+          "sha256": "30ae5a347f1c56e8cfb93f7dc2e2232e8ff96dffc2b684a720487c194fca312d",
+          "length": 439,
+          "file": "E:\\code\\sy\\rea\\output\\cookieruncrumble\\evidence\\tools-runtime-20261014-01\\rune-capture-03\\002-__c__DisplayClass15_0-_AutoEngravingSugarRunePiecesAsync_b__0-63f9668.bin"
+        }
+      ],
+      "boundary": "Observed client asynchronous request path does not recover server RNG. No paid Sugar Rune reroll was performed by this offline analysis."
+    }
+  },
+  "mathVerification": {
+    "magicDivisionChecks": 202202,
+    "range": "baseCost0..1000 and discount0..100",
+    "result": "native signed multiply/shift expression matches negative product division toward zero and stated rounded reduction",
+    "rarityWeightsChecked": 5
+  },
+  "unknown": [
+    "Server draw implementation, cross-slot and cross-attempt independence, hidden exclusions or pity.",
+    "Current account active GameBoost records and exact effective discount; native client aggregation and filter are now established.",
+    "Actual paid roll, response probabilities and server rounding not directly observed.",
+    "Exact time-window endpoint inclusivity delegated to0x62b585e was not decoded; active aggregation uses that predicate with boolean arguments1/1.",
+    "Exact game auto-stop implementation on server has not been observed; native client stop is established."
+  ],
+  "limitations": [
+    "No native function execution; semantics derived from captured x86-64 instructions.",
+    "Cpp2IL stub bodies not used as implementation evidence.",
+    "Runtime capture is ordinary read-only ADB with source hash matching; REA device/start/screenshot evidence is preserved separately in capture metadata.",
+    "A Bernoulli/binomial independent-draw forecast remains an explicit server assumption even though displayed single-slot probability is now verified."
+  ]
+}
