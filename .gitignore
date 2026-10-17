@@ -12,3 +12,5 @@ cloudflare-env.d.ts
 output
 temp-team
 /guides/
+__pycache__/
+*.pyc

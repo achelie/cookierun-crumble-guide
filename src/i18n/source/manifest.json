@@ -1,0 +1,21 @@
+{
+  "source": "http://127.0.0.1:6868",
+  "version": "1.5.002",
+  "sourceDate": "2026-10-14",
+  "locales": [
+    "zh-Hant",
+    "ja",
+    "ko",
+    "th"
+  ],
+  "entities": 134,
+  "messages": 2428,
+  "guides": 28,
+  "generatedAt": "2026-10-16T17:57:54.467Z",
+  "cookies": 77,
+  "pets": 57,
+  "translatedGuides": 112,
+  "completedAt": "2026-10-17",
+  "runtimeSourceDependency": false,
+  "reviewStatus": "source terminology reused; missing prose translated and reviewed; MDX structure, numbers, entities, links and placeholders verified"
+}

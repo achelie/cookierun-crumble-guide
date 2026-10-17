@@ -48,7 +48,7 @@ for (const tool of ['sugar-runes', 'stellar-link', 'plate-enhancement']) {
   assert.ok(!template.includes('href="#table-'));
   const runtime = fs.readFileSync(path.join(output, 'tools/replica', tool + '.mjs'), 'utf8');
   for (const [, url] of runtime.matchAll(/(?:["'`])(\/(?:images|data)\/[^"'`\s<>]+)/g)) if (!url.includes('${')) present(url);
-  assert.ok(runtime.includes('export function mount(root)'));
+  assert.ok(/export function mount\(root,localization=\{\}\)/.test(runtime));
   assert.ok(runtime.includes('controller.abort()'));
 }
 for (const file of fs.readdirSync(path.join(output, 'data/tools/tables'))) {

@@ -14,8 +14,13 @@ function downloadBlob(blob: Blob, filename: string) {
   const anchor = document.createElement("a");
   anchor.download = filename;
   anchor.href = url;
+  anchor.hidden = true;
+  document.body.append(anchor);
   anchor.click();
-  window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+  window.setTimeout(() => {
+    anchor.remove();
+    URL.revokeObjectURL(url);
+  }, 10000);
 }
 
 export async function downloadNodeAsPng(node: HTMLElement, filename: string): Promise<void> {

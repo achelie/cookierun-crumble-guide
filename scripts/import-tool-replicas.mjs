@@ -3,6 +3,8 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { createRequire } from 'node:module';
 import { customEnglish } from './tool-english.mjs';
+import { localizeToolModules } from './i18n/tools.mjs';
+import { capToolType } from './i18n/type-scale.mjs';
 
 const require = createRequire(import.meta.url);
 const postcss = require('postcss');
@@ -190,7 +192,7 @@ export function importReplicas({ root, source, rewrite, write, sha, integrity })
   // English column headings have a larger intrinsic width than the source.
   // Keep the original grid and make its existing table scroller contain them.
   css += '\n.tool-replica .r-reference-grid>section,.tool-replica .st-setup>label{min-width:0}\n.tool-replica .st-overview .b-tag{white-space:normal;overflow-wrap:anywhere}\n';
-  fs.writeFileSync(path.join(output, 'tools.css'), css);
+  fs.writeFileSync(path.join(output, 'tools.css'), capToolType(css));
   for (const tool of ['sugar-runes', 'stellar-link', 'plate-enhancement']) {
     const file = path.join(input, 'tools', tool, 'index.html');
     let html = fs.readFileSync(file, 'utf8').match(/<main\b[\s\S]*?<\/main>/)[0];
@@ -207,4 +209,5 @@ export function importReplicas({ root, source, rewrite, write, sha, integrity })
   fs.writeFileSync(path.join(root, 'output/tool-translation-missing.txt'), [...missing].join('\n\n'));
   if (missing.size) throw new Error(missing.size + ' English strings missing; see output/tool-translation-missing.txt');
   console.log('Imported original DOM, styles, runtime, and English provenance (' + en.size + ' database rows).');
+  localizeToolModules(root);
 }

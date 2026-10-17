@@ -1,6 +1,8 @@
 # CookieRun: Crumble Guide MVP
 
-一个无数据库、无后端的 CookieRun: Crumble 英文攻略站。生产域名按 `https://www.cookieruncrumbles.com` 配置。
+一个无数据库、无后端的 CookieRun: Crumble 攻略站，支持英语、繁中、日语、韩语和泰语。生产域名为 `https://www.cookieruncrumbles.com`。
+
+英语沿用根路径；新增语言分别使用 `/zh-tw/`、`/ja/`、`/ko/` 和 `/th/`。`/sitemap.xml` 从页面注册表和攻略数据生成 225 个正式网址，每个网址包含五种语言的互相对应关系，以及指向英语页的 `x-default`；`/robots.txt` 公布同一个 sitemap。语言数据和 112 篇补译攻略均保存在仓库中，正常构建和线上访问不依赖来源资料站或翻译服务。维护与验收记录见 [docs/i18n.md](docs/i18n.md)。
 
 ## 本地开发
 
@@ -21,18 +23,17 @@ npm run deploy
 ## 数据与图片
 
 - Cookie、Pet、Tier List 和 Codes 使用 2026-08-19 的公开游戏数据快照。
-- 70 张 Cookie 图片保存在 `public/images/cookies/`。
-- 54 张 Pet 图片保存在 `public/images/pets/`。
+- 77 个 Cookie 和 57 个 Pet 的图鉴图片保存在 `public/images/cookies/` 与 `public/images/pets/`。
 - 页面运行时不 hotlink 外部图片。
 - 本站为非官方粉丝攻略站，游戏名称与美术资源版权归 Devsisters 所有。
 
 ## 游戏规划工具
 
-`/tools/` 包含两个 Builder 和三个计算工具：Sugar Runes、Stellar Link、Plate Enhancement。计算在浏览器中完成，不需要游戏账号、数据库或本地 Python 服务。
+`/tools/` 先展示三个计算工具：Sugar Runes、Stellar Link、Plate Enhancement，再展示 Team Builder 和 Tier List Builder。五种语言共用同一顺序。计算在浏览器中完成，不需要游戏账号、数据库或本地 Python 服务。
 
 - 数据为游戏 1.5.002 的 2026-10-14 快照；来源核实记录截至 2026-10-16。
 - 原版 HTML 模板保存在 `src/data/tools/replica/`；原版 CSS 与交互模块导入到 `public/tools/replica/`。React 只负责挂载和销毁，计算使用原始独立模块。
-- 工具内布局、字号、颜色、搜索下拉菜单和素材保留来源原样，仅英文文本与静态路径适配；本站页头、页脚和底层纹理继续保留。工具内原版字号与颜色是本次明确的一比一需求例外。
+- 工具保留来源布局、颜色、搜索下拉菜单和素材，适配五种语言和静态路径；本站页头、页脚和底层纹理继续保留。所有工具文字遵守全站 26px 上限，只有强度榜页面既有的档位标签保留字号例外。
 - 按站内界面需求省略三个工具底部的规则核实和原始配置表折叠区；原始资料仍可直接下载。
 - 英文运行数据在 `public/data/tools/en/`；映射和官方 localization key 来源在 `public/data/tools/english-provenance.json`。优先使用数据库的 20,575 条英文文本、`nameEn` 与 `names.en`；自定义说明由 `scripts/tool-english.mjs` 维护，导入遇到未译界面文案会失败。
 - 游戏原图在 `public/images/tools/`，按字节复制，不复用本站其他裁剪或重新压缩。原始数据、九张关联表及既有证据在 `public/data/tools/`；下载记录保留原文。

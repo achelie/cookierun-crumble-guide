@@ -1,0 +1,2779 @@
+{
+  "date": "2026-10-17",
+  "mappings": [
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/",
+      "primaryIntent": "game overview and starting points",
+      "primaryQuery": "薑餅人放置大戰爭攻略",
+      "queryStatus": "verified-related-query",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [
+        "TW-90d"
+      ],
+      "notes": "Observed as a rising related query; not an absolute volume estimate."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/cookies/",
+      "primaryIntent": "/cookies/",
+      "primaryQuery": "薑餅人放置大戰爭角色",
+      "queryStatus": "verified-related-query",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [
+        "TW-90d"
+      ],
+      "notes": "Observed as a rising related query; not an absolute volume estimate."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/pets/",
+      "primaryIntent": "/pets/",
+      "primaryQuery": "CookieRun：Crumble 寵物列表",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/tier-list/",
+      "primaryIntent": "/tier-list/",
+      "primaryQuery": "薑餅人放置大戰爭 強度榜",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/teams/",
+      "primaryIntent": "/teams/",
+      "primaryQuery": "薑餅人放置大戰爭 推薦隊伍",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/codes/",
+      "primaryIntent": "/codes/",
+      "primaryQuery": "薑餅人放置大戰爭序號",
+      "queryStatus": "verified-related-query",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [
+        "TW-90d"
+      ],
+      "notes": "Observed as a rising related query; not an absolute volume estimate."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/tools/",
+      "primaryIntent": "/tools/",
+      "primaryQuery": "薑餅人放置大戰爭 工具",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/tools/sugar-runes/",
+      "primaryIntent": "/tools/sugar-runes/",
+      "primaryQuery": "糖符文計算器",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/tools/stellar-link/",
+      "primaryIntent": "/tools/stellar-link/",
+      "primaryQuery": "星際連線計算器",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/tools/plate-enhancement/",
+      "primaryIntent": "/tools/plate-enhancement/",
+      "primaryQuery": "裝備盤強化計算器",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/tools/team-builder/",
+      "primaryIntent": "/tools/team-builder/",
+      "primaryQuery": "薑餅人放置大戰爭 隊伍編成器",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/tools/tier-builder/",
+      "primaryIntent": "/tools/tier-builder/",
+      "primaryQuery": "薑餅人放置大戰爭 強度榜製作器",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/",
+      "primaryIntent": "/guides/",
+      "primaryQuery": "CookieRun：Crumble 各類指南",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/about/",
+      "primaryIntent": "/about/",
+      "primaryQuery": "關於 Crumble Guide",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/contact/",
+      "primaryIntent": "/contact/",
+      "primaryQuery": "聯絡 Crumble 指南團隊",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/privacy/",
+      "primaryIntent": "/privacy/",
+      "primaryQuery": "隱私權政策",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/disclaimer/",
+      "primaryIntent": "/disclaimer/",
+      "primaryQuery": "玩家攻略站免責聲明",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-chardonnay-auto-story-team/",
+      "primaryIntent": "cookie-run-crumble-chardonnay-auto-story-team",
+      "primaryQuery": "夏多內自動隊：主線王不用一直手動顧",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-bari-story-boss-team-presets/",
+      "primaryIntent": "cookie-run-crumble-bari-story-boss-team-presets",
+      "primaryQuery": "鉢里主線隊：別每遇到一隻王就重組",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-princess-bari-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-princess-bari-cookie-build-team",
+      "primaryQuery": "鉢里公主配裝：讓突擊隊別一進場就倒",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-arena-power-gap-guide/",
+      "primaryIntent": "cookie-run-crumble-arena-power-gap-guide",
+      "primaryQuery": "戰鬥力更高還是輸？先修競技場真正計入的數值",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-sugar-rune-investment-priority/",
+      "primaryIntent": "cookie-run-crumble-sugar-rune-investment-priority",
+      "primaryQuery": "糖符文優先順序：別再把材料花錯人",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-cherry-cola-auto-stage-team/",
+      "primaryIntent": "cookie-run-crumble-cherry-cola-auto-stage-team",
+      "primaryQuery": "櫻桃可樂自動隊：不用每關都手動顧",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-cherry-cola-cookie-guide/",
+      "primaryIntent": "cookie-run-crumble-cherry-cola-cookie-guide",
+      "primaryQuery": "櫻桃可樂：5 星就能停手，不浪費抽數嗎？",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-dungeon-milk-buff-guide/",
+      "primaryIntent": "cookie-run-crumble-dungeon-milk-buff-guide",
+      "primaryQuery": "薑餅人放置大戰爭 碎屑副本攻略：最強餅乾可能反而拖低傷害",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-endgame-grind-guide/",
+      "primaryIntent": "cookie-run-crumble-endgame-grind-guide",
+      "primaryQuery": "薑餅人放置大戰爭 後期攻略：當養成變成每天交作業",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-equipment-choice-guide/",
+      "primaryIntent": "cookie-run-crumble-equipment-choice-guide",
+      "primaryQuery": "薑餅人放置大戰爭 裝備攻略：別再留下錯的升級",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-arena-healing-down-team-guide/",
+      "primaryIntent": "cookie-run-crumble-arena-healing-down-team-guide",
+      "primaryQuery": "薑餅人放置大戰爭 競技場攻略：別在治療落下前就輸了",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-level-100-exp-priority-guide/",
+      "primaryIntent": "cookie-run-crumble-level-100-exp-priority-guide",
+      "primaryQuery": "CookieRun：Crumble 經驗值指南：誰該率先升到 100 級？",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-pinot-noir-multistrike-scorpion-teams/",
+      "primaryIntent": "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams",
+      "primaryQuery": "薑餅人放置大戰爭 組隊攻略：抄黑皮諾隊還是輸，先找敗因",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-fast-account-growth-guide/",
+      "primaryIntent": "cookie-run-crumble-fast-account-growth-guide",
+      "primaryQuery": "薑餅人放置大戰爭 快速成長攻略：別浪費每日戰鬥力",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-strawberry-crepe-cookie-build-team",
+      "primaryQuery": "薑餅人放置大戰爭 草莓可麗餅配裝：別再當純坦養",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-guild-conquest-team-guide/",
+      "primaryIntent": "cookie-run-crumble-guild-conquest-team-guide",
+      "primaryQuery": "薑餅人放置大戰爭 公會討伐戰攻略：提高皮納塔傷害",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-gingercraven-boss-guide/",
+      "primaryIntent": "cookie-run-crumble-gingercraven-boss-guide",
+      "primaryQuery": "薑餅人放置大戰爭 懦弱餅乾攻略：別再倒在最後一波",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-brightseeker-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-brightseeker-cookie-build-team",
+      "primaryQuery": "薑餅人放置大戰爭 活潑探子配裝：擺脫蠍子重試循環",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-skill-amp-fix-rune-refund/",
+      "primaryIntent": "cookie-run-crumble-skill-amp-fix-rune-refund",
+      "primaryQuery": "薑餅人放置大戰爭 技能增幅修正：退款前先檢查這些餅乾",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-pinot-noir-cookie-build/",
+      "primaryIntent": "cookie-run-crumble-pinot-noir-cookie-build",
+      "primaryQuery": "薑餅人放置大戰爭 黑皮諾配裝：讓補師隊補不回來",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-resource-guide-account-traps/",
+      "primaryIntent": "cookie-run-crumble-resource-guide-account-traps",
+      "primaryQuery": "CookieRun：Crumble 資源指南：耗掉你數天時間的 8 大陷阱",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-tips-hidden-mechanics/",
+      "primaryIntent": "cookie-run-crumble-tips-hidden-mechanics",
+      "primaryQuery": "薑餅人放置大戰爭 技巧：9 個默默浪費進度的錯誤",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-power-guide-stage-damage/",
+      "primaryIntent": "cookie-run-crumble-power-guide-stage-damage",
+      "primaryQuery": "CookieRun：Crumble 戰鬥力指南：為何你的傷害突然暴跌？",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-accuracy-focus-guide/",
+      "primaryIntent": "cookie-run-crumble-accuracy-focus-guide",
+      "primaryQuery": "薑餅人放置大戰爭 命中與專注攻略：技能為什麼一直打空",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-rye-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-rye-cookie-build-team",
+      "primaryQuery": "薑餅人放置大戰爭 黑麥配裝：別在 5 星前就下定論",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-cool-mint-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-cool-mint-cookie-build-team",
+      "primaryQuery": "薑餅人放置大戰爭 清涼薄荷配裝：補強脆弱召喚物",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-gear-sugar-rune-stats-guide/",
+      "primaryIntent": "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "primaryQuery": "薑餅人放置大戰爭 糖符文：別再浪費重洗材料",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TW",
+      "locale": "zh-Hant",
+      "target": "https://www.cookieruncrumbles.com/zh-tw/guides/cookie-run-crumble-beginner-progression-guide/",
+      "primaryIntent": "cookie-run-crumble-beginner-progression-guide",
+      "primaryQuery": "薑餅人放置大戰爭 新手攻略：排好養成路線",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "薑餅人放置大戰爭",
+      "brandEvidence": [
+        "TW-12m",
+        "TW-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/",
+      "primaryIntent": "game overview and starting points",
+      "primaryQuery": "クッキーラン：クランブル ガイド",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/cookies/",
+      "primaryIntent": "/cookies/",
+      "primaryQuery": "クッキーラン：クランブル クッキー一覧",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/pets/",
+      "primaryIntent": "/pets/",
+      "primaryQuery": "クッキーラン：クランブル ペット一覧",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/tier-list/",
+      "primaryIntent": "/tier-list/",
+      "primaryQuery": "クッキーラン：クランブル 最強ランキング",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/teams/",
+      "primaryIntent": "/teams/",
+      "primaryQuery": "クッキーラン：クランブル 最強編成",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/codes/",
+      "primaryIntent": "/codes/",
+      "primaryQuery": "クッキーラン：クランブル コード一覧",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/tools/",
+      "primaryIntent": "/tools/",
+      "primaryQuery": "クッキーラン：クランブル ツール",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/tools/sugar-runes/",
+      "primaryIntent": "/tools/sugar-runes/",
+      "primaryQuery": "シュガールーン計算ツール",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/tools/stellar-link/",
+      "primaryIntent": "/tools/stellar-link/",
+      "primaryQuery": "ステラリンク計算ツール",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/tools/plate-enhancement/",
+      "primaryIntent": "/tools/plate-enhancement/",
+      "primaryQuery": "プレート強化計算ツール",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/tools/team-builder/",
+      "primaryIntent": "/tools/team-builder/",
+      "primaryQuery": "クッキーラン：クランブル チームビルダー",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/tools/tier-builder/",
+      "primaryIntent": "/tools/tier-builder/",
+      "primaryQuery": "クッキーラン：クランブル 最強ランキングメーカー",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/",
+      "primaryIntent": "/guides/",
+      "primaryQuery": "クッキーラン：クランブル ガイド一覧",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/about/",
+      "primaryIntent": "/about/",
+      "primaryQuery": "クランブルガイドについて",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/contact/",
+      "primaryIntent": "/contact/",
+      "primaryQuery": "クランブルガイドへお問い合わせ",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/privacy/",
+      "primaryIntent": "/privacy/",
+      "primaryQuery": "プライバシーポリシー",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/disclaimer/",
+      "primaryIntent": "/disclaimer/",
+      "primaryQuery": "ファンガイド免責事項",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "officialAlias": null,
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-chardonnay-auto-story-team/",
+      "primaryIntent": "cookie-run-crumble-chardonnay-auto-story-team",
+      "primaryQuery": "シャルドネ自動チーム：ストーリーボスの監視から解放されよう",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-bari-story-boss-team-presets/",
+      "primaryIntent": "cookie-run-crumble-bari-story-boss-team-presets",
+      "primaryQuery": "鉢里公主のストーリー編成：ボスごとの作り直しを減らす",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-princess-bari-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-princess-bari-cookie-build-team",
+      "primaryQuery": "鉢里公主の育成：突撃組が到着直後に倒れるなら",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-arena-power-gap-guide/",
+      "primaryIntent": "cookie-run-crumble-arena-power-gap-guide",
+      "primaryQuery": "戦闘力が上でもアリーナで負ける？効く能力を見直そう",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-sugar-rune-investment-priority/",
+      "primaryIntent": "cookie-run-crumble-sugar-rune-investment-priority",
+      "primaryQuery": "ルーンの優先順：使うクッキーから育てよう",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-cherry-cola-auto-stage-team/",
+      "primaryIntent": "cookie-run-crumble-cherry-cola-auto-stage-team",
+      "primaryQuery": "チェリーコーラ味クッキー 自動チーム：すべてのストーリーステージで手動監視から解放されよう",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-cherry-cola-cookie-guide/",
+      "primaryIntent": "cookie-run-crumble-cherry-cola-cookie-guide",
+      "primaryQuery": "チェリーコーラは5つ星で止める？ 召喚の使いすぎを防ぐ",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-dungeon-milk-buff-guide/",
+      "primaryIntent": "cookie-run-crumble-dungeon-milk-buff-guide",
+      "primaryQuery": "クッキーラン：クランブル ダンジョンガイド：最も強いクッキーが、実はダメージを下げている可能性",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-endgame-grind-guide/",
+      "primaryIntent": "cookie-run-crumble-endgame-grind-guide",
+      "primaryQuery": "クッキーラン：クランブル エンドゲームガイド：進行が宿題のように感じ始めたとき",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-equipment-choice-guide/",
+      "primaryIntent": "cookie-run-crumble-equipment-choice-guide",
+      "primaryQuery": "クッキーラン：クランブル 装備ガイド：間違った強化をやめましょう",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-arena-healing-down-team-guide/",
+      "primaryIntent": "cookie-run-crumble-arena-healing-down-team-guide",
+      "primaryQuery": "クッキーラン：クランブル アリーナガイド：回復が発動する前に敗北するのを防ぐ",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-level-100-exp-priority-guide/",
+      "primaryIntent": "cookie-run-crumble-level-100-exp-priority-guide",
+      "primaryQuery": "クッキーラン：クランブル EXPガイド：最初にレベル100にするべきクッキーは？",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-pinot-noir-multistrike-scorpion-teams/",
+      "primaryIntent": "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams",
+      "primaryQuery": "クッキーラン：クランブル チームガイド：真似したピノノワール味クッキーチームが失敗する理由",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-fast-account-growth-guide/",
+      "primaryIntent": "cookie-run-crumble-fast-account-growth-guide",
+      "primaryQuery": "クッキーラン：クランブル 高速進行ガイド：毎日のパワーを無駄にしない方法",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-strawberry-crepe-cookie-build-team",
+      "primaryQuery": "クッキーラン：クランブル 苺クレープ味クッキーのビルド：タンクのようにビルドするのはやめましょう",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-guild-conquest-team-guide/",
+      "primaryIntent": "cookie-run-crumble-guild-conquest-team-guide",
+      "primaryQuery": "クッキーラン：クランブル ギルド討伐戦ガイド：ピニャータへのダメージを改善",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-gingercraven-boss-guide/",
+      "primaryIntent": "cookie-run-crumble-gingercraven-boss-guide",
+      "primaryQuery": "クッキーラン：クランブル 卑怯なクッキーガイド：最終押しで敗北するのを防ぐ",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-brightseeker-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-brightseeker-cookie-build-team",
+      "primaryQuery": "クッキーラン：クランブル ブライトシーカー編成：サソリ味クッキーのリセットループから脱出",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-skill-amp-fix-rune-refund/",
+      "primaryIntent": "cookie-run-crumble-skill-amp-fix-rune-refund",
+      "primaryQuery": "クッキーラン：クランブル スキル増幅の修正：返還前にこれらのクッキーを再構築しましょう",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-pinot-noir-cookie-build/",
+      "primaryIntent": "cookie-run-crumble-pinot-noir-cookie-build",
+      "primaryQuery": "クッキーラン：クランブル ピノノワール味クッキー編成：ヒーラー編成を確実に痛めつける",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-resource-guide-account-traps/",
+      "primaryIntent": "cookie-run-crumble-resource-guide-account-traps",
+      "primaryQuery": "クッキーラン：クランブル リソースガイド：あなたを数日損なう8つの罠",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-tips-hidden-mechanics/",
+      "primaryIntent": "cookie-run-crumble-tips-hidden-mechanics",
+      "primaryQuery": "クッキーラン：クランブル 便利なヒント：知らずに進行を無駄にしている9つのミス",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-power-guide-stage-damage/",
+      "primaryIntent": "cookie-run-crumble-power-guide-stage-damage",
+      "primaryQuery": "クッキーラン：クランブル 戦闘力ガイド：ダメージが急激に下がる理由",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-accuracy-focus-guide/",
+      "primaryIntent": "cookie-run-crumble-accuracy-focus-guide",
+      "primaryQuery": "クッキーラン：クランブル 命中＆集中ガイド：スキルがなぜか外れる理由",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-rye-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-rye-cookie-build-team",
+      "primaryQuery": "クッキーラン：クランブル ライ麦味クッキー編成：星5未満で判断しないようにしよう",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-cool-mint-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-cool-mint-cookie-build-team",
+      "primaryQuery": "クッキーラン：クランブル クールミント味クッキー編成：脆い召喚を改善",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-gear-sugar-rune-stats-guide/",
+      "primaryIntent": "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "primaryQuery": "クッキーラン：クランブル シュガールーン：リロールの無駄をやめましょう",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "JP",
+      "locale": "ja",
+      "target": "https://www.cookieruncrumbles.com/ja/guides/cookie-run-crumble-beginner-progression-guide/",
+      "primaryIntent": "cookie-run-crumble-beginner-progression-guide",
+      "primaryQuery": "クッキーラン：クランブル 初心者ガイド：進行ルートの見直し",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "クッキーラン クランブル",
+      "brandEvidence": [
+        "JP-12m",
+        "JP-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/",
+      "primaryIntent": "game overview and starting points",
+      "primaryQuery": "쿠키런 크럼블 가이드",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/cookies/",
+      "primaryIntent": "/cookies/",
+      "primaryQuery": "쿠키런 크럼블 쿠키 목록",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/pets/",
+      "primaryIntent": "/pets/",
+      "primaryQuery": "쿠키런 크럼블 펫 목록",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/tier-list/",
+      "primaryIntent": "/tier-list/",
+      "primaryQuery": "쿠키런 키우기 등급표",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/teams/",
+      "primaryIntent": "/teams/",
+      "primaryQuery": "쿠키런 크럼블 최강 팀",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/codes/",
+      "primaryIntent": "/codes/",
+      "primaryQuery": "쿠키런 크럼블 코드",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/tools/",
+      "primaryIntent": "/tools/",
+      "primaryQuery": "쿠키런 크럼블 도구",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/tools/sugar-runes/",
+      "primaryIntent": "/tools/sugar-runes/",
+      "primaryQuery": "슈가룬 계산기",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/tools/stellar-link/",
+      "primaryIntent": "/tools/stellar-link/",
+      "primaryQuery": "스텔라 링크 계산기",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/tools/plate-enhancement/",
+      "primaryIntent": "/tools/plate-enhancement/",
+      "primaryQuery": "플레이트 강화 계산기",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/tools/team-builder/",
+      "primaryIntent": "/tools/team-builder/",
+      "primaryQuery": "쿠키런 크럼블 팀 빌더",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/tools/tier-builder/",
+      "primaryIntent": "/tools/tier-builder/",
+      "primaryQuery": "쿠키런 크럼블 티어리스트 메이커",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/",
+      "primaryIntent": "/guides/",
+      "primaryQuery": "쿠키런 크럼블 가이드",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/about/",
+      "primaryIntent": "/about/",
+      "primaryQuery": "크럼블 가이드 소개",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/contact/",
+      "primaryIntent": "/contact/",
+      "primaryQuery": "크럼블 가이드 문의",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/privacy/",
+      "primaryIntent": "/privacy/",
+      "primaryQuery": "개인정보처리방침",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/disclaimer/",
+      "primaryIntent": "/disclaimer/",
+      "primaryQuery": "팬 가이드 면책 조항",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "officialAlias": "쿠키런 키우기",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-chardonnay-auto-story-team/",
+      "primaryIntent": "cookie-run-crumble-chardonnay-auto-story-team",
+      "primaryQuery": "샤르도네 자동 조합: 스토리 보스를 덜 손보는 방법",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-bari-story-boss-team-presets/",
+      "primaryIntent": "cookie-run-crumble-bari-story-boss-team-presets",
+      "primaryQuery": "바리공주 스토리 조합: 보스마다 팀을 다시 짜지 마세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-princess-bari-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-princess-bari-cookie-build-team",
+      "primaryQuery": "바리공주 육성: 돌격형이 도착하자마자 쓰러진다면",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-arena-power-gap-guide/",
+      "primaryIntent": "cookie-run-crumble-arena-power-gap-guide",
+      "primaryQuery": "전투력이 높은데 아레나에서 진다면? 적용 능력치를 보세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-sugar-rune-investment-priority/",
+      "primaryIntent": "cookie-run-crumble-sugar-rune-investment-priority",
+      "primaryQuery": "슈가룬 투자 순서: 다음 강화는 누구에게 줄까요?",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-cherry-cola-auto-stage-team/",
+      "primaryIntent": "cookie-run-crumble-cherry-cola-auto-stage-team",
+      "primaryQuery": "체리콜라 자동 조합: 매 스테이지를 손으로 지키지 마세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-cherry-cola-cookie-guide/",
+      "primaryIntent": "cookie-run-crumble-cherry-cola-cookie-guide",
+      "primaryQuery": "체리콜라맛 쿠키: 5성에서 뽑기를 멈춰도 될까요?",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-dungeon-milk-buff-guide/",
+      "primaryIntent": "cookie-run-crumble-dungeon-milk-buff-guide",
+      "primaryQuery": "크럼블 던전: 가장 센 쿠키가 피해량을 낮출 수도 있습니다",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-endgame-grind-guide/",
+      "primaryIntent": "cookie-run-crumble-endgame-grind-guide",
+      "primaryQuery": "후반 성장 공략: 게임이 숙제처럼 느껴지기 시작했다면",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-equipment-choice-guide/",
+      "primaryIntent": "cookie-run-crumble-equipment-choice-guide",
+      "primaryQuery": "장비 선택: 더 좋아 보여도 잘못된 교체일 수 있습니다",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-arena-healing-down-team-guide/",
+      "primaryIntent": "cookie-run-crumble-arena-healing-down-team-guide",
+      "primaryQuery": "아레나 조합: 회복이 들어오기 전에 지고 있다면",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-level-100-exp-priority-guide/",
+      "primaryIntent": "cookie-run-crumble-level-100-exp-priority-guide",
+      "primaryQuery": "경험치 공략: 첫 100레벨은 누구에게 줄까요?",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-pinot-noir-multistrike-scorpion-teams/",
+      "primaryIntent": "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams",
+      "primaryQuery": "피노누아 조합을 따라 했는데도 지는 이유",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-fast-account-growth-guide/",
+      "primaryIntent": "cookie-run-crumble-fast-account-growth-guide",
+      "primaryQuery": "빠른 성장 순서: 매일 얻을 전투력을 놓치지 마세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-strawberry-crepe-cookie-build-team",
+      "primaryQuery": "딸기크레페 육성: 탱커 세팅만 고집하지 마세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-guild-conquest-team-guide/",
+      "primaryIntent": "cookie-run-crumble-guild-conquest-team-guide",
+      "primaryQuery": "길드 토벌전 공략: 피냐타 피해량이 낮을 때",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-gingercraven-boss-guide/",
+      "primaryIntent": "cookie-run-crumble-gingercraven-boss-guide",
+      "primaryQuery": "비겁한 쿠키 공략: 마지막 밀어내기에서 살아남으세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-brightseeker-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-brightseeker-cookie-build-team",
+      "primaryQuery": "브라이트시커 육성: 전갈 재시작 반복에서 벗어나세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-skill-amp-fix-rune-refund/",
+      "primaryIntent": "cookie-run-crumble-skill-amp-fix-rune-refund",
+      "primaryQuery": "스킬증폭 수정: 환급 전에 다시 볼 쿠키 세팅",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-pinot-noir-cookie-build/",
+      "primaryIntent": "cookie-run-crumble-pinot-noir-cookie-build",
+      "primaryQuery": "피노누아 육성: 적 힐러가 피해를 지우지 못하게 하세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-resource-guide-account-traps/",
+      "primaryIntent": "cookie-run-crumble-resource-guide-account-traps",
+      "primaryQuery": "재화 공략: 며칠의 성장을 날리는 함정 8가지",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-tips-hidden-mechanics/",
+      "primaryIntent": "cookie-run-crumble-tips-hidden-mechanics",
+      "primaryQuery": "성장을 조용히 낭비하는 실수 9가지",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-power-guide-stage-damage/",
+      "primaryIntent": "cookie-run-crumble-power-guide-stage-damage",
+      "primaryQuery": "전투력 공략: 피해량이 갑자기 줄어드는 이유",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-accuracy-focus-guide/",
+      "primaryIntent": "cookie-run-crumble-accuracy-focus-guide",
+      "primaryQuery": "명중·집중 공략: 스킬과 디버프가 계속 실패한다면",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-rye-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-rye-cookie-build-team",
+      "primaryQuery": "호밀맛 쿠키 육성: 5성 전에 성능을 단정하지 마세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-cool-mint-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-cool-mint-cookie-build-team",
+      "primaryQuery": "쿨링민트 육성: 약한 소환수를 보완하는 방법",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-gear-sugar-rune-stats-guide/",
+      "primaryIntent": "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "primaryQuery": "슈가룬 공략: 옵션 재설정 재료를 아끼세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "KR",
+      "locale": "ko",
+      "target": "https://www.cookieruncrumbles.com/ko/guides/cookie-run-crumble-beginner-progression-guide/",
+      "primaryIntent": "cookie-run-crumble-beginner-progression-guide",
+      "primaryQuery": "초보자 공략: 막힌 성장 순서를 바로잡으세요",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "쿠키런 크럼블",
+      "brandEvidence": [
+        "KR-12m",
+        "KR-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/",
+      "primaryIntent": "game overview and starting points",
+      "primaryQuery": "คู่มือ CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/cookies/",
+      "primaryIntent": "/cookies/",
+      "primaryQuery": "รายการคุกกี้สำหรับ CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/pets/",
+      "primaryIntent": "/pets/",
+      "primaryQuery": "รายการเพ็ทสำหรับ CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/tier-list/",
+      "primaryIntent": "/tier-list/",
+      "primaryQuery": "อันดับคุกกี้ CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/teams/",
+      "primaryIntent": "/teams/",
+      "primaryQuery": "ทีมที่ดีที่สุดสำหรับ CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/codes/",
+      "primaryIntent": "/codes/",
+      "primaryQuery": "รหัสสำหรับ CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/tools/",
+      "primaryIntent": "/tools/",
+      "primaryQuery": "เครื่องมือ CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/tools/sugar-runes/",
+      "primaryIntent": "/tools/sugar-runes/",
+      "primaryQuery": "เครื่องคำนวณชูการ์รูน",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/tools/stellar-link/",
+      "primaryIntent": "/tools/stellar-link/",
+      "primaryQuery": "เครื่องคำนวณสเตลลาร์ลิงก์",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/tools/plate-enhancement/",
+      "primaryIntent": "/tools/plate-enhancement/",
+      "primaryQuery": "เครื่องคำนวณเสริมแกร่งเพลท",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/tools/team-builder/",
+      "primaryIntent": "/tools/team-builder/",
+      "primaryQuery": "เครื่องมือจัดทีม CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/tools/tier-builder/",
+      "primaryIntent": "/tools/tier-builder/",
+      "primaryQuery": "เครื่องมือทำตารางอันดับ CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/",
+      "primaryIntent": "/guides/",
+      "primaryQuery": "คู่มือ CookieRun: Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/about/",
+      "primaryIntent": "/about/",
+      "primaryQuery": "เกี่ยวกับคู่มือ Crumble",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/contact/",
+      "primaryIntent": "/contact/",
+      "primaryQuery": "ติดต่อ Crumble Guide",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/privacy/",
+      "primaryIntent": "/privacy/",
+      "primaryQuery": "นโยบายความเป็นส่วนตัว",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/disclaimer/",
+      "primaryIntent": "/disclaimer/",
+      "primaryQuery": "ข้อจำกัดความรับผิดของคู่มือแฟนเกม",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "officialAlias": null,
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "Brand has local interest. Exact longer query has insufficient evidence and remains auxiliary."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-chardonnay-auto-story-team/",
+      "primaryIntent": "cookie-run-crumble-chardonnay-auto-story-team",
+      "primaryQuery": "ทีมอัตโนมัติของคุกกี้รสชาร์ดอนเนย์: หยุดคอยดูแลบอสเนื้อเรื่องทุกตัว",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-bari-story-boss-team-presets/",
+      "primaryIntent": "cookie-run-crumble-bari-story-boss-team-presets",
+      "primaryQuery": "ทีมเรื่องราวของคุกกี้เจ้าหญิงบารี: หยุดสร้างทีมใหม่ทุกครั้งเมื่อเจอหัวหน้าแต่ละตัว",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-princess-bari-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-princess-bari-cookie-build-team",
+      "primaryQuery": "บิลด์เจ้าหญิงบารี: ให้ทีมจู่โจมรอดตั้งแต่พุ่งเข้าถึง",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-arena-power-gap-guide/",
+      "primaryIntent": "cookie-run-crumble-arena-power-gap-guide",
+      "primaryQuery": "พลังสูงกว่ายังแพ้อารีน่า? แก้ค่าสถานะที่นับจริง",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-sugar-rune-investment-priority/",
+      "primaryIntent": "cookie-run-crumble-sugar-rune-investment-priority",
+      "primaryQuery": "ลำดับชูการ์รูน: หยุดลงทุนให้คุกกี้ผิดตัว",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-cherry-cola-auto-stage-team/",
+      "primaryIntent": "cookie-run-crumble-cherry-cola-auto-stage-team",
+      "primaryQuery": "ทีมอัตโนมัติของคุกกี้รสเชอร์รี่โคล่า: หยุดคอยดูแลทุกสเตจเนื้อเรื่อง",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-cherry-cola-cookie-guide/",
+      "primaryIntent": "cookie-run-crumble-cherry-cola-cookie-guide",
+      "primaryQuery": "คุกกี้รสเชอร์รี่โคล่า: ดาว 5 ดวงเพียงพอแล้วหรือยังที่จะหยุดสูญเสียการสุ่ม?",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-dungeon-milk-buff-guide/",
+      "primaryIntent": "cookie-run-crumble-dungeon-milk-buff-guide",
+      "primaryQuery": "คู่มือดันเจี้ยนสำหรับ CookieRun: Crumble: คุกกี้ที่แข็งแกร่งที่สุดของคุณอาจกำลังทำให้คุณเสียดาเมจ",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-endgame-grind-guide/",
+      "primaryIntent": "cookie-run-crumble-endgame-grind-guide",
+      "primaryQuery": "คู่มือท้ายเกม CookieRun: Crumble เมื่อความก้าวหน้าเริ่มเหมือนการบ้าน",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-equipment-choice-guide/",
+      "primaryIntent": "cookie-run-crumble-equipment-choice-guide",
+      "primaryQuery": "คู่มืออุปกรณ์ CookieRun: Crumble: เลิกเก็บการอัปเกรดผิดชิ้น",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-arena-healing-down-team-guide/",
+      "primaryIntent": "cookie-run-crumble-arena-healing-down-team-guide",
+      "primaryQuery": "CookieRun: Crumble คู่มืออารีน่า: เอาตัวรอดให้ทันใช้สกิลฟื้นฟู",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-level-100-exp-priority-guide/",
+      "primaryIntent": "cookie-run-crumble-level-100-exp-priority-guide",
+      "primaryQuery": "คู่มือ EXP สำหรับ CookieRun: Crumble: ใครสมควรได้รับเลเวล 100 แรกของคุณ",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-pinot-noir-multistrike-scorpion-teams/",
+      "primaryIntent": "cookie-run-crumble-pinot-noir-multistrike-scorpion-teams",
+      "primaryQuery": "ไกด์ทีม CookieRun: Crumble: เหตุผลที่ทีมปิโนต์นัวร์ที่คุณลอกมายังไม่ผ่าน",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-fast-account-growth-guide/",
+      "primaryIntent": "cookie-run-crumble-fast-account-growth-guide",
+      "primaryQuery": "คู่มือการพัฒนาอย่างรวดเร็วสำหรับ CookieRun: Crumble: หยุดสูญเสียพลังประจำวันโดยเปล่าประโยชน์",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-strawberry-crepe-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-strawberry-crepe-cookie-build-team",
+      "primaryQuery": "บิลด์เครปสตรอเบอร์รี่ CookieRun: Crumble เลิกปั้นแบบแทงก์ล้วน",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-guild-conquest-team-guide/",
+      "primaryIntent": "cookie-run-crumble-guild-conquest-team-guide",
+      "primaryQuery": "คู่มือการโจมตีปราสาทกลุ่มสำหรับ CookieRun: Crumble: แก้ปัญหาดาเมจปิเนียต้าของคุณ",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-gingercraven-boss-guide/",
+      "primaryIntent": "cookie-run-crumble-gingercraven-boss-guide",
+      "primaryQuery": "คู่มือคุกกี้จินเจอร์คราเวนสำหรับ CookieRun: Crumble: หยุดแพ้ในช่วงการโจมตีรอบสุดท้าย",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-brightseeker-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-brightseeker-cookie-build-team",
+      "primaryQuery": "การสร้างคุกกี้นักล่าแสงสำหรับ CookieRun: Crumble: หลุดพ้นจากวงจรรีเซ็ตของคุกกี้รสแมงป่อง",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-skill-amp-fix-rune-refund/",
+      "primaryIntent": "cookie-run-crumble-skill-amp-fix-rune-refund",
+      "primaryQuery": "CookieRun: Crumble แก้ขยายสกิล: ปรับบิลด์คุกกี้เหล่านี้ก่อนรับของคืน",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-pinot-noir-cookie-build/",
+      "primaryIntent": "cookie-run-crumble-pinot-noir-cookie-build",
+      "primaryQuery": "การสร้างคุกกี้รสปิโนต์นัวร์สำหรับ CookieRun: Crumble: ทำให้ทีมฮีลเลอร์ต้องเจ็บปวดต่อไป",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-resource-guide-account-traps/",
+      "primaryIntent": "cookie-run-crumble-resource-guide-account-traps",
+      "primaryQuery": "คู่มือทรัพยากรสำหรับ CookieRun: Crumble: กับดัก 8 ที่ทำให้คุณเสียเวลาหลายวัน",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-tips-hidden-mechanics/",
+      "primaryIntent": "cookie-run-crumble-tips-hidden-mechanics",
+      "primaryQuery": "เคล็ดลับ CookieRun: Crumble: 9 ความผิดพลาดที่ค่อย ๆ กินความคืบหน้า",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-power-guide-stage-damage/",
+      "primaryIntent": "cookie-run-crumble-power-guide-stage-damage",
+      "primaryQuery": "คู่มือพลังต่อสู้สำหรับ CookieRun: Crumble: ทำไมดาเมจของคุณถึงลดลงอย่างกะทันหัน",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-accuracy-focus-guide/",
+      "primaryIntent": "cookie-run-crumble-accuracy-focus-guide",
+      "primaryQuery": "คู่มือ CookieRun: Crumble เรื่องตรงเป้า & โฟกัส: ทำไมทักษะของคุณถึงพลาดบ่อยนัก",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-rye-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-rye-cookie-build-team",
+      "primaryQuery": "CookieRun: Crumble วิธีปั้นคุกกี้รสข้าวไรย์: อย่าเพิ่งตัดสินก่อน 5 ดาว",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-cool-mint-cookie-build-team/",
+      "primaryIntent": "cookie-run-crumble-cool-mint-cookie-build-team",
+      "primaryQuery": "CookieRun: Crumble วิธีปั้นคูลมินต์: ช่วยสิ่งซัมม่อนให้ยืนไหว",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-gear-sugar-rune-stats-guide/",
+      "primaryIntent": "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "primaryQuery": "ชูการ์รูน CookieRun: Crumble: เลิกสุ่มใหม่เสียเปล่า",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    },
+    {
+      "region": "TH",
+      "locale": "th",
+      "target": "https://www.cookieruncrumbles.com/th/guides/cookie-run-crumble-beginner-progression-guide/",
+      "primaryIntent": "cookie-run-crumble-beginner-progression-guide",
+      "primaryQuery": "CookieRun: Crumble คู่มือมือใหม่: วางแผนอัปเกรดให้ไปต่อได้",
+      "queryStatus": "auxiliary-long-tail-not-verified",
+      "verifiedBrand": "CookieRun Crumble",
+      "brandEvidence": [
+        "TH-12m",
+        "TH-90d"
+      ],
+      "queryEvidence": [],
+      "notes": "A distinct guide intent; exact long-tail demand has not been established."
+    }
+  ]
+}

@@ -19,7 +19,7 @@ export function normalizeGuideCategory(value?: string): GuideCategorySlug | "all
     : "all";
 }
 
-export function filterGuides(items: GuideSummary[], filters: GuideFilters) {
+export function filterGuides(items: GuideSummary[], filters: GuideFilters, t: (text: string) => string = (text) => text) {
   const category = normalizeGuideCategory(filters.category);
   const query = filters.query?.trim().toLocaleLowerCase() ?? "";
 
@@ -32,7 +32,7 @@ export function filterGuides(items: GuideSummary[], filters: GuideFilters) {
       guide.excerpt,
       getGuideCategory(guide.category).label,
       ...guide.tags,
-    ].join(" ").toLocaleLowerCase();
+    ].flatMap((text) => [text, t(text)]).join(" ").toLocaleLowerCase();
 
     return searchable.includes(query);
   });

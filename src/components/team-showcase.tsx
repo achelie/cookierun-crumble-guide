@@ -1,5 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
+import { I18nElement } from "@/i18n/elements";
+import { LocaleImage as Image } from "@/i18n/elements";
+import { LocaleLink as Link } from "@/i18n/elements";
 import { CookieTaxonomyBadges } from "@/components/cookie-taxonomy-badges";
 import { PetSlots } from "@/components/pet-slots";
 import { SynergySummary } from "@/components/synergy-summary";
@@ -20,34 +21,34 @@ export function TeamShowcase({ team }: { team: RecommendedTeam }) {
   const selectedPets = team.pets.map((id) => petById.get(id));
 
   return (
-    <article className="team-showcase">
-      <div className="team-showcase__copy">
-        <span>{team.kicker}</span>
-        <h2>{team.name}</h2>
-        <p>
+    <I18nElement as="article" className="team-showcase">
+      <I18nElement as="div" className="team-showcase__copy">
+        <I18nElement as="span">{team.kicker}</I18nElement>
+        <I18nElement as="h2">{team.name}</I18nElement>
+        <I18nElement as="p">
           {team.description}
           {team.guideReference && (
-            <> {team.guideReference.leadIn}<Link href={team.guideReference.href}>{team.guideReference.anchor}</Link>{team.guideReference.followUp}</>
+            <> <I18nElement as="span">{team.guideReference.leadIn}<Link href={team.guideReference.href}>{team.guideReference.anchor}</Link>{team.guideReference.followUp}</I18nElement></>
           )}
-        </p>
-        <div className="team-showcase__meta">
-          <span className="team-category-badge">{teamCategories.find((category) => category.slug === team.category)?.label}</span>
+        </I18nElement>
+        <I18nElement as="div" className="team-showcase__meta">
+          <I18nElement as="span" className="team-category-badge">{teamCategories.find((category) => category.slug === team.category)?.label}</I18nElement>
           <AppIcon name="calendar" size={15} />
-          <span>Updated {dateFormatter.format(new Date(`${team.updatedAt}T00:00:00Z`))}</span>
-        </div>
-      </div>
-      <div className="team-showcase__formation">
-        <div className="team-lineup" aria-label={`${team.name} lineup`}>
+          <I18nElement as="span">Updated {dateFormatter.format(new Date(`${team.updatedAt}T00:00:00Z`))}</I18nElement>
+        </I18nElement>
+      </I18nElement>
+      <I18nElement as="div" className="team-showcase__formation">
+        <I18nElement as="div" className="team-lineup" aria-label={`${team.name} lineup`}>
           {selectedCookies.map((cookie, slot) => (
-              <div className="team-unit" key={`${cookie.id}-${slot}`} title={cookie.name}>
+              <I18nElement as="div" className="team-unit" key={`${cookie.id}-${slot}`} title={cookie.name}>
                 <CookieTaxonomyBadges element={cookie.element} role={cookie.role} compact />
                 <Image src={cookie.image} alt={cookie.name} width={120} height={120} sizes="80px" />
-                <span className="team-unit__slot">{slot + 1}</span>
-              </div>
+                <I18nElement as="span" className="team-unit__slot">{slot + 1}</I18nElement>
+              </I18nElement>
           ))}
-        </div>
-        <div className="team-showcase__support"><PetSlots pets={selectedPets} /><SynergySummary cookies={selectedCookies} /></div>
-      </div>
-    </article>
+        </I18nElement>
+        <I18nElement as="div" className="team-showcase__support"><PetSlots pets={selectedPets} /><SynergySummary cookies={selectedCookies} /></I18nElement>
+      </I18nElement>
+    </I18nElement>
   );
 }

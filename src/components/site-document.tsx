@@ -3,6 +3,10 @@ import { Fredoka, Nunito_Sans } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { seoPages, siteName, siteUrl } from "@/lib/seo";
+import { LocaleProvider } from "@/i18n/provider";
+import { I18nElement } from "@/i18n/elements";
+import { getMessages } from "@/i18n/dictionaries";
+import { alternateLanguages, type Locale } from "@/i18n/config";
 import "@/app/globals.css";
 
 const display = Fredoka({ subsets: ["latin"], variable: "--font-display", weight: ["500", "600", "700"] });
@@ -14,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: seoPages.home.title, template: "%s" },
   description: seoPages.home.description,
-  alternates: { canonical: "/" },
+  alternates: { canonical: "/", languages: alternateLanguages("/", siteUrl) },
   applicationName: "Crumble Guide",
   creator: siteName,
   publisher: siteName,
@@ -52,9 +56,9 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#d94f3f", colorScheme: "light dark" };
 
-export function SiteDocument({ children, advertising = false }: Readonly<{ children: React.ReactNode; advertising?: boolean }>) {
+export function SiteDocument({ children, advertising = false, locale = "en" }: Readonly<{ children: React.ReactNode; advertising?: boolean; locale?: Locale }>) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable}`}>
+    <html lang={locale} className={`${display.variable} ${body.variable}`}>
       <head>
         {advertising && <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7443237558968985" crossOrigin="anonymous" />}
         <script
@@ -64,10 +68,12 @@ export function SiteDocument({ children, advertising = false }: Readonly<{ child
         />
       </head>
       <body>
-        <a className="skip-link" href="#main-content">Skip to content</a>
+        <LocaleProvider locale={locale} messages={getMessages(locale)}>
+        <I18nElement as="a" className="skip-link" href="#main-content">Skip to content</I18nElement>
         <SiteHeader />
         <main id="main-content">{children}</main>
         <SiteFooter />
+        </LocaleProvider>
       </body>
     </html>
   );

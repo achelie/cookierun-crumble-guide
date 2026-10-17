@@ -1,5 +1,6 @@
+import { I18nElement } from "@/i18n/elements";
 import type { Metadata } from "next";
-import Link from "next/link";
+import { LocaleLink as Link } from "@/i18n/elements";
 import { CodeList } from "@/components/code-list";
 import { SeoPageHeader } from "@/components/seo-page-header";
 import { StructuredData } from "@/components/structured-data";
@@ -14,7 +15,7 @@ export const metadata: Metadata = pageMetadata(page);
 
 export default function CodesPage() {
   return (
-    <div className="page-shell">
+    <I18nElement as="div" className="page-shell">
       <StructuredData data={collectionPageSchema(page, codes.map((code) => ({
         "@type": "Thing",
         name: code.code,
@@ -22,7 +23,7 @@ export default function CodesPage() {
       })))} />
       <SeoPageHeader page={page} icon="ticket" />
       <CodeList items={codes} />
-      <div className="redeem-callout"><div><span>Official redemption</span><h2>Ready to cash in?</h2><p>The reward arrives through in-game mail after a successful redemption.</p></div><Link href="https://coupon.devplay.com/coupon/cc/en" target="_blank" rel="noreferrer">Open DevPlay <AppIcon name="external" size={18} /></Link></div>
-    </div>
+      <I18nElement as="div" className="redeem-callout"><I18nElement as="div"><I18nElement as="span">Official redemption</I18nElement><I18nElement as="h2">Ready to cash in?</I18nElement><I18nElement as="p">The reward arrives through in-game mail after a successful redemption.</I18nElement></I18nElement><Link href="https://coupon.devplay.com/coupon/cc/en" target="_blank" rel="noreferrer">Open DevPlay <AppIcon name="external" size={18} /></Link></I18nElement>
+    </I18nElement>
   );
 }

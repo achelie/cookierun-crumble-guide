@@ -1,4 +1,5 @@
 import type { Cookie } from "@/data/cookies";
+import { entitySearchText } from "@/i18n/entities";
 
 export type CookieFilters = {
   query: string;
@@ -10,7 +11,7 @@ export type CookieFilters = {
 export function filterCookies(cookies: Cookie[], filters: CookieFilters) {
   const needle = filters.query.trim().toLowerCase();
   return cookies.filter((cookie) =>
-    (!needle || cookie.name.toLowerCase().includes(needle))
+    (!needle || `${cookie.name.toLowerCase()} ${entitySearchText(cookie.id)}`.includes(needle))
     && (filters.rarity === "All" || cookie.rarity === filters.rarity)
     && (filters.element === "All" || cookie.element === filters.element)
     && (filters.role === "All" || cookie.role === filters.role),

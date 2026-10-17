@@ -1,3 +1,4 @@
+import { I18nElement } from "@/i18n/elements";
 import type { Metadata } from "next";
 import { EntityCodex } from "@/components/entity-codex";
 import { SeoPageHeader } from "@/components/seo-page-header";
@@ -21,5 +22,5 @@ export default function CookiesPage() {
       { "@type": "PropertyValue", name: "Role", value: cookie.role },
     ],
   }));
-  return <div className="page-shell"><StructuredData data={collectionPageSchema(page, schemaItems)} /><SeoPageHeader page={page} icon="cookie" /><EntityCodex items={cookies} kind="cookie" /></div>;
+  return <I18nElement as="div" className="page-shell"><StructuredData data={collectionPageSchema(page, schemaItems)} /><SeoPageHeader page={page} icon="cookie" /><EntityCodex items={cookies} kind="cookie" /></I18nElement>;
 }

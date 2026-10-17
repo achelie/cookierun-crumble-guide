@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-17",
+  "scope": "Local implementation and verification; no commit, push, deployment or GSC changes",
+  "status": "passed-with-documented-limitations",
+  "content": {
+    "locales": ["en", "zh-Hant", "ja", "ko", "th"],
+    "newPrefixes": ["/zh-tw/", "/ja/", "/ko/", "/th/"],
+    "requiredMessagesPerNewLocale": 2428,
+    "missingRequiredMessages": 0,
+    "originalGuides": 28,
+    "translatedGuides": 112,
+    "mappedCookies": 77,
+    "mappedPets": 57,
+    "sourceVersion": "1.5.002",
+    "sourceDate": "2026-10-14",
+    "runtimeSourceDependency": false,
+    "checks": [
+      "All localized MDX compiles; sections, entity IDs, team arrays, numeric tokens and source publication dates correspond",
+      "Every localized guide links naturally to its current-language tier list and teams page",
+      "Tool data retains numeric values, IDs and calculation rules",
+      "Missing prose translated and reviewed; game terms traced to offline source snapshots",
+      "Source factual corrections and historical uncertainty documented in src/i18n/source/corrections.json"
+    ]
+  },
+  "automated": {
+    "vitest": {"status": "passed", "tests": 139, "suites": 30},
+    "typescript": {"command": "npx tsc --noEmit", "status": "passed"},
+    "staticBuild": {"command": "npm run build", "status": "passed"},
+    "i18nIntegrity": {"command": "npm run verify:i18n", "status": "passed"},
+    "staticSeo": {
+      "command": "node scripts/verify-i18n-static.mjs",
+      "status": "passed",
+      "pages": 225,
+      "guidePagesIncludingEnglish": 140,
+      "canonical": 225,
+      "alternateLinksIncludingXDefault": 1350,
+      "structuredDataPages": 225,
+      "advertisingLayoutBoundaries": 225,
+      "internalLinks": 8320,
+      "sitemapPages": 225
+    },
+    "toolStaticAssets": {
+      "command": "node scripts/verify-tools-static.mjs",
+      "status": "passed",
+      "calculators": 3,
+      "assets": 267,
+      "downloadReferences": 60
+    },
+    "diffWhitespace": "passed"
+  },
+  "browser": {
+    "origin": "http://localhost:3005",
+    "viewports": [{"width": 1440, "height": 1000}, {"width": 390, "height": 844}],
+    "pageTypesPerLocale": 16,
+    "localeCount": 5,
+    "pageViewportCases": 160,
+    "issuesAfterCorrections": 0,
+    "checks": [
+      "Correct html lang and localized main content",
+      "Visible text at most 26px, except existing tier-rank strong labels",
+      "No horizontal document overflow",
+      "Desktop and mobile navigation, guide, directory, tools and trust pages",
+      "Language switch preserves current page, query parameters and formation anchor",
+      "Shared formation restores selected entity IDs and localized names"
+    ],
+    "rawReport": "output/i18n/browser-report.json",
+    "screenshots": "output/i18n/screenshots/",
+    "unknownPaths": {
+      "paths": ["/fr/", "/ja/does-not-exist/", "/th/guides/not-a-guide/", "/guides/not-a-guide/"],
+      "developmentStatus": 404,
+      "staticProductionStatus": 404
+    },
+    "calculatorParity": {
+      "locales": ["en", "zh-Hant", "ja", "ko", "th"],
+      "sugarRunes": {
+        "status": "passed",
+        "input": {"budget": 1000, "attempts": 20, "discount": 15},
+        "observedValues": ["99.3293%", "17", "82.196%", "12.1", "205.64", "340"],
+        "savedStateRestoredAcrossLanguages": true
+      },
+      "stellarLink": {
+        "status": "passed",
+        "input": {"budget": 1500, "attempts": 30},
+        "observedValues": ["10", "150", "300"],
+        "savedStateRestoredAcrossLanguages": true
+      },
+      "plateEnhancement": {
+        "status": "passed",
+        "sameInputNumericOutputMatches": true,
+        "crossLanguageRestoredState": {"grade": 2, "protectDecline": false}
+      }
+    },
+    "pngExport": {
+      "generationAndDownloadUi": "passed; localized download success message displayed",
+      "downloadedFileAndPixels": "not-verified",
+      "limitation": "The browser download event was not exposed to automation. Browser security policy blocked opening the internal download manager; no bypass was attempted. Actual file persistence and exported pixels require a manual check."
+    }
+  },
+  "keywordResearch": {
+    "status": "completed-with-sparse-long-tail-data-labelled",
+    "regions": ["TW", "JP", "KR", "TH"],
+    "periods": ["12 months", "90 days"],
+    "comparisons": 8,
+    "searchType": "Google Web Search",
+    "newPageIntentMappings": 180,
+    "report": "docs/seo/keyword-research-2026-10-17.md",
+    "evidence": "docs/seo/keyword-evidence.json",
+    "observedChartData": "docs/seo/trends-observed-data.csv",
+    "limitations": [
+      "Trends indices are relative interest, never monthly search volume",
+      "Sparse long-tail phrases remain auxiliary and are not labelled verified",
+      "TW 90-day capture includes the visible summary and recent rows; other seven comparisons include full chart tables"
+    ]
+  },
+  "followupTranslationAudit": {
+    "date": "2026-10-17",
+    "translatedPages": 180,
+    "runtimeStates": 68,
+    "criticalDesktopMobileCases": 16,
+    "ordinaryEnglishResidueAfterFixes": 0,
+    "report": "docs/i18n-audit-2026-10-17.md",
+    "note": "This follow-up replaces the earlier long-paragraph-only language check; it also checks short labels, attributes, structured data, menus and builder actions."
+  },
+  "buildNotes": [
+    "Next 16 still emits some metadataBase warnings; all 225 exported page canonical, alternate and social metadata values were inspected and use production URLs rather than localhost",
+    "Development uses normal routing to return 404 for unknown dynamic parameters; production remains a static export"
+  ]
+}

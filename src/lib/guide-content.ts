@@ -1,8 +1,11 @@
 import type { ComponentType } from "react";
+import type { Locale } from "@/i18n/config";
+import { localizedGuideLoaders } from "@/i18n/guide-loaders";
 
 type GuideModule = { default: ComponentType };
 
 const guideLoaders: Record<string, () => Promise<GuideModule>> = {
+  "cookie-run-crumble-chardonnay-auto-story-team": () => import("@/content/guides/cookie-run-crumble-chardonnay-auto-story-team.mdx"),
   "cookie-run-crumble-bari-story-boss-team-presets": () => import("@/content/guides/cookie-run-crumble-bari-story-boss-team-presets.mdx"),
   "cookie-run-crumble-princess-bari-cookie-build-team": () => import("@/content/guides/cookie-run-crumble-princess-bari-cookie-build-team.mdx"),
   "cookie-run-crumble-arena-power-gap-guide": () => import("@/content/guides/cookie-run-crumble-arena-power-gap-guide.mdx"),
@@ -34,8 +37,8 @@ const guideLoaders: Record<string, () => Promise<GuideModule>> = {
 
 export const guideContentSlugs = Object.keys(guideLoaders);
 
-export async function loadGuideContent(slug: string) {
-  const loader = guideLoaders[slug];
+export async function loadGuideContent(slug: string, locale: Locale = "en") {
+  const loader = locale === "en" ? guideLoaders[slug] : localizedGuideLoaders[locale]?.[slug];
   if (!loader) return undefined;
   const module = await loader();
   return module.default;

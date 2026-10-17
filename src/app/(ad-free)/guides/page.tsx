@@ -1,3 +1,4 @@
+import { I18nElement } from "@/i18n/elements";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { GuidesExplorer, GuidesExplorerFallback } from "@/components/guides-explorer";
@@ -13,7 +14,7 @@ export const metadata: Metadata = pageMetadata(page);
 
 export default function GuidesPage() {
   return (
-    <div className="page-shell guides-page">
+    <I18nElement as="div" className="page-shell guides-page">
       <StructuredData data={collectionPageSchema(page, guides.map((guide) => ({
         "@type": "Article",
         headline: guide.title,
@@ -26,6 +27,6 @@ export default function GuidesPage() {
       <Suspense fallback={<GuidesExplorerFallback guides={guides} />}>
         <GuidesExplorer guides={guides} />
       </Suspense>
-    </div>
+    </I18nElement>
   );
 }

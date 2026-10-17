@@ -1,6 +1,7 @@
+import {createToolI18n} from './i18n.mjs';
 // Imported from REA; edit the importer and English map, then re-import.
 // Image options use the existing select values and change events as their data model.
-export function createIconSelects(renderOption, {selector = '#rune-tool select:not(#rune-rarity)', listId = 'rune-icon-options', root = document.body, signal} = {}) {
+export function createIconSelects(renderOption, {selector = '#rune-tool select:not(#rune-rarity)', listId = 'rune-icon-options', root = document.body, signal, i18n = createToolI18n()} = {}) {
   const controls = new Map();
   let current = null;
   let visible = [];
@@ -12,7 +13,7 @@ export function createIconSelects(renderOption, {selector = '#rune-tool select:n
   const menu = document.createElement('div');
   menu.className = 'r-picker-menu';
   menu.hidden = true;
-  menu.innerHTML = "<div class=\"r-picker-head\"><strong></strong><button type=\"button\" aria-label=\"Close options\">×</button></div><input class=\"r-picker-search\" type=\"search\" aria-label=\"Search options\" placeholder=\"Search name, rarity or value…\" autocomplete=\"off\"><div id=\"rune-icon-options\" class=\"r-picker-options\" role=\"listbox\"></div><p class=\"r-picker-empty\" hidden>No matching options</p>";
+  menu.innerHTML = i18n.html("<div class=\"r-picker-head\"><strong></strong><button type=\"button\" aria-label=\"Close options\">×</button></div><input class=\"r-picker-search\" type=\"search\" aria-label=\"Search options\" placeholder=\"Search name, rarity or value…\" autocomplete=\"off\"><div id=\"rune-icon-options\" class=\"r-picker-options\" role=\"listbox\"></div><p class=\"r-picker-empty\" hidden>No matching options</p>");
   root.append(shade, menu);
   const title = menu.querySelector('strong');
   const search = menu.querySelector('input');
@@ -37,10 +38,10 @@ export function createIconSelects(renderOption, {selector = '#rune-tool select:n
     const item = renderOption(control.select, option);
     const markup = item.html;
     if (control.markup !== markup) {
-      control.button.innerHTML = '<span class="r-picker-value">' + markup + '</span><span class="r-picker-chevron" aria-hidden="true">⌄</span>';
+      control.button.innerHTML = i18n.html('<span class="r-picker-value">' + markup + '</span><span class="r-picker-chevron" aria-hidden="true">⌄</span>');
       control.markup = markup;
     }
-    control.button.setAttribute('aria-label', control.label + ": " + option.textContent.trim());
+    control.button.setAttribute('aria-label', i18n.text(control.label + ": " + option.textContent.trim()));
   }
 
   function close(restore = false) {
@@ -110,7 +111,7 @@ export function createIconSelects(renderOption, {selector = '#rune-tool select:n
         const heading = document.createElement('div');
         heading.className = 'r-picker-group';
         heading.setAttribute('role', 'presentation');
-        heading.textContent = item.group;
+        heading.textContent = i18n.text(item.group);
         list.append(heading);
       }
       previousGroup = item.group;
@@ -118,11 +119,11 @@ export function createIconSelects(renderOption, {selector = '#rune-tool select:n
       button.type = 'button';
       button.className = 'r-picker-option';
       button.setAttribute('role', 'option');
-      button.setAttribute('aria-label', item.label);
+      button.setAttribute('aria-label', i18n.text(item.label));
       button.setAttribute('aria-selected', String(item.value === current.select.value));
       button.tabIndex = -1;
       button.dataset.optionValue = item.value;
-      button.innerHTML = item.html + '<span class="r-picker-check" aria-hidden="true">✓</span>';
+      button.innerHTML = i18n.html(item.html + '<span class="r-picker-check" aria-hidden="true">✓</span>');
       button.addEventListener('click', () => choose(item),{signal});
       button.addEventListener('pointermove', () => {
         active = index;
@@ -143,8 +144,8 @@ export function createIconSelects(renderOption, {selector = '#rune-tool select:n
     close();
     current = control;
     control.button.setAttribute('aria-expanded', 'true');
-    title.textContent = control.label;
-    list.setAttribute('aria-label', control.label);
+    title.textContent = i18n.text(control.label);
+    list.setAttribute('aria-label', i18n.text(control.label));
     search.hidden = control.select.options.length < 15;
     search.value = '';
     menu.hidden = shade.hidden = false;

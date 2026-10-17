@@ -1,5 +1,5 @@
 /* Tool directory entries use the site design; tool interiors retain source styles. */
-.calculator-directory { display: grid; gap: 14px; margin-top: 24px; }
+.calculator-directory { display: grid; gap: 14px; margin-bottom: 24px; }
 .calculator-directory > a { display: grid; grid-template-columns: 74px minmax(0,1fr) auto; align-items: center; gap: 22px; padding: 22px 26px; border: 1px solid var(--line); border-radius: var(--radius-card); background: radial-gradient(ellipse at 0 10%,color-mix(in srgb,var(--accent-soft),transparent 55%),transparent 65%),linear-gradient(125deg,var(--paper-2),var(--paper)); box-shadow: 0 8px 25px var(--shadow); transition: border-color var(--duration-fast) var(--ease-smooth-out),transform var(--duration-fast) var(--ease-smooth-out); }
 .calculator-directory > a:hover { border-color: var(--accent); transform: translateX(3px); }
 .calculator-directory img { width: 64px; height: 70px; object-fit: contain; filter: drop-shadow(0 6px 8px var(--shadow)); }
