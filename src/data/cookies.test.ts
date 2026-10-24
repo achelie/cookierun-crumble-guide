@@ -1,6 +1,7 @@
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
+import catalogSource from "./catalog-source.json";
 import {
   buffDefinitions,
   cookies,
@@ -23,7 +24,7 @@ describe("cookie catalog", () => {
   });
 
   it("keeps all current cookie IDs unique", () => {
-    expect(cookies).toHaveLength(77);
+    expect(cookies).toHaveLength(82);
     expect(new Set(cookies.map(({ id }) => id)).size).toBe(cookies.length);
   });
 
@@ -51,6 +52,23 @@ describe("cookie catalog", () => {
       cookie.receivedSynergies.forEach((value) => expect(synergyDefinitions[value]).toBeDefined());
       cookie.buffs.forEach((value) => expect(buffDefinitions[value]).toBeDefined());
     }
+  });
+
+  it("matches imported identities and combat tags in the 1.6.002 snapshot", () => {
+    for (const source of catalogSource.cookies) {
+      const id = source.resourceKey === "cookie4011" ? "chardonnay" : source.resourceKey;
+      expect(cookies.find((cookie) => cookie.id === id), id).toMatchObject({
+        name: source.names.en,
+        rarity: source.rarity,
+        element: source.element,
+        role: source.role,
+        grantedSynergies: source.grantedSynergies,
+        receivedSynergies: source.receivedSynergies,
+      });
+    }
+    expect(cookies.filter(({ name }) => name === "Chardonnay Cookie")).toHaveLength(1);
+    expect(cookies.find(({ id }) => id === "cookie4014")?.buffs).toEqual(["Shield", "Summon Skill Haste Up"]);
+    expect(cookies.find(({ id }) => id === "cookie0677")?.buffs).toEqual(["Crowd Control Removal", "Healing"]);
   });
 
   it("ships every referenced game image locally", () => {

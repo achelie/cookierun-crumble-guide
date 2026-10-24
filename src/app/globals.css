@@ -287,6 +287,7 @@ main { min-height: 70dvh; }
 .pet-card__effects p { margin: 0; color: color-mix(in srgb, var(--muted), transparent 17%); font-size: 0.75rem; font-weight: 750; }
 .rarity-tssr { --rarity-color: #c45636; }
 .rarity-ssr { --rarity-color: #d68a1e; }
+.rarity-sp { --rarity-color: #ba5745; }
 .rarity-sr { --rarity-color: #a04e7a; }
 .rarity-r { --rarity-color: #3e7492; }
 .rarity-u { --rarity-color: #537d52; }

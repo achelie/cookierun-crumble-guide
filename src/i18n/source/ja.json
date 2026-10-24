@@ -11986,7 +11986,18 @@
     "Brightseeker": "ブライトシーカークッキー",
     "Toothpaste": "歯磨きチョコクッキー",
     "Chardonnay": "シャルドネ味クッキー",
-    "Bari": "鉢里公主味クッキー"
+    "Bari": "鉢里公主味クッキー",
+    "Summon Skill Haste Up": "召喚獣のスキル加速上昇",
+    "Crowd Control Removal": "行動制限を解除",
+    "Summons gain ATK": "召喚獣の攻撃力上昇",
+    "All allies gain Damage Reduction": "味方全体のダメージ軽減上昇",
+    "SP": "SP",
+    "Pomni Cookie": "ポムニクッキー",
+    "Ragatha Cookie": "ラガタクッキー",
+    "Kinger Cookie": "キンガークッキー",
+    "Caine Cookie": "ケインクッキー",
+    "Bubble": "バブル",
+    "Flowercopter": "フラワーコプター"
   },
   "origins": {
     "0": "game-localization:DimensionStageSeason.SeasonName.2014075507",
@@ -18045,7 +18056,7 @@
     "Latte Cookie": "game-localization:CookieTalkScript.Name.2128748656.5",
     "Macaron Animals": "game-localization:CookieTalkScript.Name.1809280272.2",
     "Eclair Cookie": "game-localization:CookieTalkScript.Name.2002863340.4",
-    "Readyberry Cookie": "game-localization:CookieTalkScript.Name.2095648977.4",
+    "Readyberry Cookie": "rea-1.6.002:official-entity-name",
     "Blueberry Pie Cookie": "game-localization:CookieTalkScript.Name.2031468324.4",
     "Implant Gang Member 1": "game-localization:CookieTalkScript.Name.1764252939.2",
     "Implant Gang Member 2": "game-localization:CookieTalkScript.Name.1621695500.4",
@@ -23971,6 +23982,17 @@
     "Brightseeker": "game-entity-short:cookie4013",
     "Toothpaste": "game-entity-short:cookie4017",
     "Chardonnay": "game-entity-short:cookie4011",
-    "Bari": "game-entity-short:cookie0081"
+    "Bari": "game-entity-short:cookie0081",
+    "Summon Skill Haste Up": "rea-1.6.002:reviewed-effect-summary",
+    "Crowd Control Removal": "rea-1.6.002:reviewed-effect-summary",
+    "Summons gain ATK": "rea-1.6.002:reviewed-effect-summary",
+    "All allies gain Damage Reduction": "rea-1.6.002:reviewed-effect-summary",
+    "SP": "rea-1.6.002:reviewed-effect-summary",
+    "Pomni Cookie": "rea-1.6.002:official-entity-name",
+    "Ragatha Cookie": "rea-1.6.002:official-entity-name",
+    "Kinger Cookie": "rea-1.6.002:official-entity-name",
+    "Caine Cookie": "rea-1.6.002:official-entity-name",
+    "Bubble": "rea-1.6.002:official-entity-name",
+    "Flowercopter": "rea-1.6.002:official-entity-name"
   }
 }

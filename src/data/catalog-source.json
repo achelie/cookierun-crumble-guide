@@ -1,0 +1,215 @@
+{
+  "version": "1.6.002",
+  "updatedAt": "2026-10-25",
+  "snapshot": "updates/20261025-1.6.002",
+  "counts": {
+    "cookies": 82,
+    "pets": 59
+  },
+  "files": {
+    "database/decoded/Cookies.json": "2d322e6e56540fbf36b2eb06b6eb528381933e41408efc88c590d85435f253b7",
+    "database/decoded/Pets.json": "a3794849732a3633771a2ba5a55c14afb8b97da604df29dd4a846882a7804133",
+    "database/decoded/Skills.json": "1e17d48e556f00771b264995d80c5b364f19f206db179309f80fb47ee44bbb3e",
+    "database/decoded/Passives.json": "b8a5f115fc087b769721b9f77f669d5d2c91fa40d4ea23a8b6742401a968caba",
+    "database/decoded/PetBattleTeamPassives.json": "a38fcb309a00f79ebe8b9d4abc74e58c9e8fc5de6cfe0cb5fa6176c63744bc2f"
+  },
+  "cookies": [
+    {
+      "resourceKey": "cookie4011",
+      "names": {
+        "en": "Chardonnay Cookie",
+        "zh-Hant": "夏多內葡萄餅乾",
+        "ko": "샤르도네맛 쿠키",
+        "ja": "シャルドネ味クッキー",
+        "th": "คุกกี้รสชาร์ดอนเนย์"
+      },
+      "rarity": "SSR",
+      "element": "Grass",
+      "role": "Support",
+      "grantedSynergies": [
+        "Multi-shot"
+      ],
+      "receivedSynergies": [
+        "Projectile Speed"
+      ],
+      "skillDescriptionEn": [
+        "Unleashes a barrier of verdance, increasing CRIT% and Push RES while granting Volley Synergy to herself and allies in a linear pattern. Deals damage to enemies within the same range."
+      ]
+    },
+    {
+      "resourceKey": "cookie4014",
+      "names": {
+        "en": "Readyberry Cookie",
+        "zh-Hant": "準備好莓餅乾",
+        "ko": "레디베리 쿠키",
+        "ja": "レディベリークッキー",
+        "th": "คุกกี้เรดี้เบอร์รี่"
+      },
+      "rarity": "TSSR",
+      "element": "Grass",
+      "role": "Support",
+      "grantedSynergies": [],
+      "receivedSynergies": [
+        "Duration",
+        "Area"
+      ],
+      "skillDescriptionEn": [
+        "Fights with PS-2, who fires missiles that damage enemies.\nGrants Shields to allies and their summons.\nIncreases ally summons' Skill Haste and grants them shields upon summoning."
+      ],
+      "image": {
+        "source": "site/dist/assets/20781633e346872b1d01635f.webp",
+        "sha256": "d932750d0b1baa879ae63545799b19b4c75dc3a3c62daddbfb688805727895ed"
+      }
+    },
+    {
+      "resourceKey": "cookie0672",
+      "names": {
+        "en": "Pomni Cookie",
+        "zh-Hant": "帕姆尼餅乾",
+        "ko": "폼니 쿠키",
+        "ja": "ポムニクッキー",
+        "th": "คุกกี้พอมนี่"
+      },
+      "rarity": "SP",
+      "element": "Grass",
+      "role": "Ranged",
+      "grantedSynergies": [],
+      "receivedSynergies": [
+        "Duration"
+      ],
+      "skillDescriptionEn": [
+        "Creates obstacles and fires a bullet that bounces off them, dealing damage to enemies."
+      ],
+      "image": {
+        "source": "site/dist/assets/af4a48625af5df90122dda3e.webp",
+        "sha256": "55fd3cfbeb3f511efc9373960e66f3cc4aefd36ba43bb592f1ee7047b7bdb759"
+      }
+    },
+    {
+      "resourceKey": "cookie0674",
+      "names": {
+        "en": "Ragatha Cookie",
+        "zh-Hant": "雅嘉塔餅乾",
+        "ko": "래거사 쿠키",
+        "ja": "ラガタクッキー",
+        "th": "คุกกี้รากาธา"
+      },
+      "rarity": "SP",
+      "element": "Grass",
+      "role": "Defense",
+      "grantedSynergies": [],
+      "receivedSynergies": [
+        "Duration"
+      ],
+      "skillDescriptionEn": [
+        "Reaches out hand, dealing damage to enemies.\nReduces DMG taken by herself, and recovers after the skill ends."
+      ],
+      "image": {
+        "source": "site/dist/assets/66dab622e94640159a914586.webp",
+        "sha256": "a7a27f4a86906f73817d33877b0cf0277e62b4539e9cf947ecf10d81bfd42580"
+      }
+    },
+    {
+      "resourceKey": "cookie0677",
+      "names": {
+        "en": "Kinger Cookie",
+        "zh-Hant": "金戈餅乾",
+        "ko": "킹어 쿠키",
+        "ja": "キンガークッキー",
+        "th": "คุกกี้คิงเกอร์"
+      },
+      "rarity": "SP",
+      "element": "Light",
+      "role": "Support",
+      "grantedSynergies": [],
+      "receivedSynergies": [
+        "Multi-shot"
+      ],
+      "skillDescriptionEn": [
+        "Releases a butterfly, removing Crowd Control on allies and healing them."
+      ],
+      "image": {
+        "source": "site/dist/assets/8968fa0327fd793ff7b5930e.webp",
+        "sha256": "89cca154952abc5cd0b309b8e966131605e7e63ab46f3707155af1b8f91c56de"
+      }
+    },
+    {
+      "resourceKey": "cookie0678",
+      "names": {
+        "en": "Caine Cookie",
+        "zh-Hant": "凱恩餅乾",
+        "ko": "케인 쿠키",
+        "ja": "ケインクッキー",
+        "th": "คุกกี้เคน"
+      },
+      "rarity": "SP",
+      "element": "Fire",
+      "role": "Support",
+      "grantedSynergies": [
+        "Duration"
+      ],
+      "receivedSynergies": [
+        "Area"
+      ],
+      "skillDescriptionEn": [
+        "Snaps fingers to deal damage to enemies.\nSnaps fingers to raise allies' ATK and grant Duration Synergy."
+      ],
+      "image": {
+        "source": "site/dist/assets/174ab51fbc7980c4e6b04dcd.webp",
+        "sha256": "339bc704bf9168f78ff43bfbaf44fb6c4bcad233855e4cbfdaf89a1caee9f725"
+      }
+    }
+  ],
+  "pets": [
+    {
+      "resourceKey": "pet4006",
+      "names": {
+        "en": "Bubble",
+        "zh-Hant": "泡泡",
+        "ko": "버블",
+        "ja": "バブル",
+        "th": "บับเบิ้ล"
+      },
+      "rarity": "SP",
+      "basePassive": {
+        "id": 1871228997,
+        "descriptions": {
+          "en": "Ally DMG Reduction +<color>8%</color>",
+          "ja": "味方のダメージ減少<color>8%</color>増加",
+          "ko": "아군 피해감소 <color>8%</color> 증가",
+          "th": "เพิ่มการลดความเสียหายของเพื่อนร่วมทีม <color>8%</color>",
+          "zh-Hant": "我方傷害減少+<color>8%</color>"
+        }
+      },
+      "image": {
+        "source": "site/dist/assets/e71dfaf218ff75c6ee81c483.webp",
+        "sha256": "90a64e990f5ff6bc3c6706f95ee45abad4dc8bea8db87a3e4429cffc94817d28"
+      }
+    },
+    {
+      "resourceKey": "pet0011",
+      "names": {
+        "en": "Flowercopter",
+        "zh-Hant": "小花直升機",
+        "ko": "플라워콥터",
+        "ja": "フラワーコプター",
+        "th": "คอปเตอร์ดอกไม้"
+      },
+      "rarity": "SSR",
+      "basePassive": {
+        "id": 1299053213,
+        "descriptions": {
+          "en": "Summon ATK +<color>20%</color>",
+          "ja": "召喚獣の攻撃力<color>20%</color>増加",
+          "ko": "소환수 공격력 <color>20%</color> 증가",
+          "th": "เพิ่มพลังโจมตีสิ่งซัมม่อน <color>20%</color>",
+          "zh-Hant": "召喚物攻擊力+<color>20%</color>"
+        }
+      },
+      "image": {
+        "source": "site/dist/assets/f96e9792810fcfd047db2913.webp",
+        "sha256": "81a1877c0d683505c132374149dd548f670dc9ab39e4387afb0c0e816ebeaf57"
+      }
+    }
+  ]
+}

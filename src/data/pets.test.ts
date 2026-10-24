@@ -2,12 +2,24 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { pets } from "./pets";
+import catalogSource from "./catalog-source.json";
 
 describe("pet catalog", () => {
-  it("keeps all 57 IDs unique and defines an effect list for every pet", () => {
-    expect(pets).toHaveLength(57);
+  it("keeps all 59 IDs unique and defines an effect list for every pet", () => {
+    expect(pets).toHaveLength(59);
     expect(new Set(pets.map(({ id }) => id)).size).toBe(pets.length);
     for (const pet of pets) expect(pet.effects, `${pet.name} effects`).toBeInstanceOf(Array);
+  });
+
+  it("matches both new 1.6.002 pet identities and companion effects", () => {
+    for (const source of catalogSource.pets) {
+      expect(pets.find(({ id }) => id === source.resourceKey)).toMatchObject({
+        name: source.names.en,
+        rarity: source.rarity,
+      });
+    }
+    expect(pets.find(({ id }) => id === "pet0011")?.effects).toEqual(["Summons gain ATK"]);
+    expect(pets.find(({ id }) => id === "pet4006")?.effects).toEqual(["All allies gain Damage Reduction"]);
   });
 
   it("includes the current registered effects", () => {

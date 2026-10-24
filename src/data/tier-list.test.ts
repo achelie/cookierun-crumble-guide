@@ -7,8 +7,8 @@ describe("combined tier list", () => {
     const rankedIds = tierRanks.flatMap((rank) => tierList[rank]);
     const catalogIds = cookies.map(({ id }) => id);
 
-    expect(rankedIds).toHaveLength(cookies.length);
-    expect(new Set(rankedIds).size).toBe(cookies.length);
+    expect(rankedIds).toHaveLength(77);
+    expect(new Set(rankedIds).size).toBe(rankedIds.length);
     rankedIds.forEach((id) => expect(catalogIds).toContain(id));
   });
 
@@ -42,11 +42,12 @@ describe("combined tier list", () => {
     ]);
   });
 
-  it("puts every Cookie outside S through C into D Tier", () => {
-    const placedIds = new Set([...tierList.S, ...tierList.A, ...tierList.B, ...tierList.C]);
-    const expectedDTier = cookies.map(({ id }) => id).filter((id) => !placedIds.has(id));
-
-    expect(tierList.D).toEqual(expectedDTier);
+  it("keeps newly imported Cookies unranked until their ranking is reviewed", () => {
+    const rankedIds = tierRanks.flatMap((rank) => tierList[rank]);
+    for (const id of ["cookie4014", "cookie0672", "cookie0674", "cookie0677", "cookie0678"]) {
+      expect(cookies.some((cookie) => cookie.id === id)).toBe(true);
+      expect(rankedIds).not.toContain(id);
+    }
     expect(tierUpdatedAt).toBe("2026-10-09");
   });
 });

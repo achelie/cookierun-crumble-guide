@@ -6,6 +6,8 @@ import { I18nElement, LocaleLink } from "./elements";
 import { createTranslator, formatMessage, translateHtml, translateSchema } from "./translate";
 import { filterCookies } from "@/lib/filter-cookies";
 import { cookies } from "@/data/cookies";
+import catalogSource from "@/data/catalog-source.json";
+import { entitySearchText } from "./entities";
 import { getTranslator } from "./dictionaries";
 
 describe("language routing", () => {
@@ -112,5 +114,16 @@ describe("localized rendering", () => {
   it("finds the same Cookie through every source language name", () => {
     const filters = { query: "딸기맛", rarity: "All", role: "All", element: "All" };
     expect(filterCookies(cookies, filters).some(cookie => cookie.id === "cookie0002")).toBe(true);
+  });
+  it("translates and finds new 1.6.002 entities in every supported language", () => {
+    for (const source of [...catalogSource.cookies, ...catalogSource.pets]) {
+      for (const locale of ["zh-Hant", "ja", "ko", "th"] as const) {
+        expect(getTranslator(locale)(source.names.en)).toBe(source.names[locale]);
+        const id = source.resourceKey === "cookie4011" ? "chardonnay" : source.resourceKey;
+        expect(entitySearchText(id)).toContain(source.names[locale].toLocaleLowerCase());
+      }
+    }
+    expect(filterCookies(cookies, { query: "", rarity: "SP", role: "All", element: "All" })).toHaveLength(4);
+    expect(filterCookies(cookies, { query: "帕姆尼", rarity: "SP", role: "Ranged", element: "Grass" })[0]?.id).toBe("cookie0672");
   });
 });

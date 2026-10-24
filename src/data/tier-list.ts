@@ -1,5 +1,3 @@
-import { cookies } from "./cookies";
-
 // Combined PvP and PvE ranking updated on 2026-10-09.
 export const tierRanks = ["S", "A", "B", "C", "D"] as const;
 export type TierRank = (typeof tierRanks)[number];
@@ -24,11 +22,15 @@ const placedTierList: Record<Exclude<TierRank, "D">, string[]> = {
   ],
 };
 
-const placedCookieIds = new Set(Object.values(placedTierList).flat());
-
 export const tierList: Record<TierRank, string[]> = {
   ...placedTierList,
-  D: cookies.map(({ id }) => id).filter((id) => !placedCookieIds.has(id)),
+  // Keep this ranking snapshot fixed when the catalog gains unreviewed Cookies.
+  D: [
+    "cookie0001", "cookie0002", "cookie0007", "cookie0008", "cookie0009", "cookie0010", "cookie0011", "cookie0012",
+    "cookie0013", "cookie0015", "cookie0020", "cookie0025", "cookie0028", "cookie0034", "cookie0042", "cookie0045",
+    "cookie0047", "cookie0050", "cookie0052", "cookie0056", "cookie0058", "cookie0101", "cookie0106", "cookie0107",
+    "cookie0195", "cookie0502", "cookie0522", "cookie4001", "cookie4002", "cookie4021", "cookie4022", "cookie4023",
+  ],
 };
 
 export const tierUpdatedAt = "2026-10-09";

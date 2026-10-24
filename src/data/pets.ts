@@ -1,7 +1,7 @@
 import type { Rarity } from "./cookies";
 
-// Catalog checked against https://crumblehub.co/en on 2026-09-24.
-export const petsUpdatedAt = "2026-09-24";
+// Catalog checked against the local REA 1.6.002 snapshot; see catalog-source.json.
+export const petsUpdatedAt = "2026-10-25";
 
 export type Pet = {
   id: string;
@@ -12,6 +12,7 @@ export type Pet = {
 };
 
 const effectsById: Partial<Record<string, string[]>> = {
+  pet0011: ["Summons gain ATK"],
   pet0029: ["CRIT Chance Up"],
   pet0037: ["Water allies gain CRIT DMG"],
   pet0046: ["Fire allies gain ATK"],
@@ -50,11 +51,13 @@ const effectsById: Partial<Record<string, string[]>> = {
   pet4003: ["Max HP Up"],
   pet4004: ["All allies gain CRIT DMG"],
   pet4005: ["Grants Multi-strike synergy", "Multi-strike receivers gain ATK"],
+  pet4006: ["All allies gain Damage Reduction"],
 };
 
 const raw = [
   ["pet0001", "Choco Drop", "C"], ["pet0002", "Cheese Drop", "C"],
   ["pet0005", "Dust Unicorn", "C"], ["pet0010", "Unpeeled Garlic", "C"],
+  ["pet0011", "Flowercopter", "SSR"],
   ["pet0012", "Little Ghost", "R"], ["pet0017", "Dragon's Tail", "U"],
   ["pet0018", "Brain Gum", "U"], ["pet0019", "Mocha Delight", "U"],
   ["pet0020", "Celestial Star", "U"], ["pet0028", "Flame Bat", "U"],
@@ -83,6 +86,7 @@ const raw = [
   ["pet4001", "Holy Baby Drop", "SSR"], ["pet4002", "Toofie", "R"],
   ["pet4003", "Majestic King Choco Drop", "SSR"], ["pet4004", "Sweet n' Sour", "SSR"],
   ["pet4005", "Chargemellow", "SSR"],
+  ["pet4006", "Bubble", "SP"],
 ] as const;
 
 export const pets: Pet[] = raw.map(([id, name, rarity]) => ({

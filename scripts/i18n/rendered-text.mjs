@@ -7,7 +7,7 @@ const retainedTerms=[
  'CRUMBLE','CookieRun','Crumble','English','AboutAds','Cloudflare','Ahrefs','DevPlay','Google',
  'Tier List','tier list','Guild Conquest','Extra-Stuffed Piñata','Lucky Rewards','Roguelike PvE',
  'Stellar Link','Multi-strike','CRIT DMG','Mov SPD','Skill Haste','Rapid AoE','knock-ups','knock-up',
- 'PvP','PvE','AoE','AOE','AFK','F2P','ATK','DEF','HP','EXP','FAQ','TSSR','SSR','SR','CRIT',
+ 'PvP','PvE','AoE','AOE','AFK','F2P','ATK','DEF','HP','EXP','FAQ','TSSR','SSR','SP','SR','CRIT',
  'URL','CSV','JSON','PNG','IP','ID','EEA','KST','MID','EPIC','ETERNAL','MAGIC','RARE',
  'Power','Accuracy','Focus','Miss','Redberry','Twisted','Super','Upgrade','Break','Plating','Epic','Excellent','Magic','DOWN','UP','OK','Dr.','Free to Play','Arena','vs','referrer',
  'Cookie','www.cookieruncrumbles.com',

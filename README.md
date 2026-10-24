@@ -22,8 +22,8 @@ npm run deploy
 
 ## 数据与图片
 
-- Cookie、Pet、Tier List 和 Codes 使用 2026-08-19 的公开游戏数据快照。
-- 77 个 Cookie 和 57 个 Pet 的图鉴图片保存在 `public/images/cookies/` 与 `public/images/pets/`。
+- Cookie 与 Pet 图鉴已同步游戏 1.6.002 的 2026-10-25 本地 REA 快照，来源和校验值保存在 `src/data/catalog-source.json`。Tier List 与 Codes 各自维护更新时间；新 Cookie 在评估前不自动加入强度排行。
+- 82 个 Cookie 和 59 个 Pet 的图鉴图片保存在 `public/images/cookies/` 与 `public/images/pets/`。
 - 页面运行时不 hotlink 外部图片。
 - 本站为非官方粉丝攻略站，游戏名称与美术资源版权归 Devsisters 所有。
 
