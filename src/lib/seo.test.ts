@@ -3,6 +3,7 @@ import sitemap from "@/app/sitemap";
 import robots from "@/app/robots";
 import { guides } from "@/data/guides";
 import { locales, localizedPath } from "@/i18n/config";
+import { guidePathSupportsLocale } from "@/i18n/guide-availability";
 import { pageMetadata } from "@/lib/metadata";
 import { absoluteUrl, seoPages } from "@/lib/seo";
 import { collectionPageSchema, homeSchema, webApplicationSchema } from "@/lib/structured-data";
@@ -51,19 +52,19 @@ describe("SEO page registry", () => {
   });
 
   it("exposes the Teams update date in search-facing copy", () => {
-    expect(seoPages.teams.summary).toContain("Updated October 16, 2026");
-    expect(seoPages.teams.description).toContain("Updated October 16, 2026");
-    expect(seoPages.teams.updatedAt).toBe("2026-10-16");
+    expect(seoPages.teams.summary).toContain("Updated October 27, 2026");
+    expect(seoPages.teams.description).toContain("Updated October 27, 2026");
+    expect(seoPages.teams.updatedAt).toBe("2026-10-27");
   });
 
   it("keeps the tier list update date consistent without embedding it in summary copy", () => {
     const page = seoPages.tierList;
-    expect(page.updatedAt).toBe("2026-10-09");
+    expect(page.updatedAt).toBe("2026-10-26");
     expect(page.summary).not.toMatch(/updated|October|2026/i);
     expect(page.description).not.toMatch(/updated|October|2026/i);
     expect(collectionPageSchema(page, [])["@graph"][0].dateModified).toBe(page.updatedAt);
     expect(sitemap().find((entry) => entry.url === absoluteUrl(page.path))?.lastModified)
-      .toEqual(new Date("2026-10-09T00:00:00Z"));
+      .toEqual(new Date("2026-10-26T00:00:00Z"));
   });
 });
 
@@ -75,7 +76,7 @@ describe("localized sitemap", () => {
   const entries = sitemap();
 
   it("lists every formal page once per language without query URLs", () => {
-    const expected = paths.flatMap((path) => locales.map((locale) => absoluteUrl(localizedPath(path, locale))));
+    const expected = paths.flatMap((path) => locales.filter((locale) => guidePathSupportsLocale(path, locale)).map((locale) => absoluteUrl(localizedPath(path, locale))));
     expect(entries.map((entry) => entry.url).sort()).toEqual(expected.sort());
     expect(new Set(entries.map((entry) => entry.url)).size).toBe(expected.length);
     expect(entries.every((entry) => !new URL(entry.url).search && !new URL(entry.url).hash)).toBe(true);
@@ -84,10 +85,10 @@ describe("localized sitemap", () => {
   it("publishes reciprocal language sets and an English x-default for every page", () => {
     for (const path of paths) {
       const languages = Object.fromEntries([
-        ...locales.map((locale) => [locale, absoluteUrl(localizedPath(path, locale))]),
+        ...locales.filter((locale) => guidePathSupportsLocale(path, locale)).map((locale) => [locale, absoluteUrl(localizedPath(path, locale))]),
         ["x-default", absoluteUrl(path)],
       ]);
-      for (const locale of locales) {
+      for (const locale of locales.filter((locale) => guidePathSupportsLocale(path, locale))) {
         const entry = entries.find((item) => item.url === languages[locale]);
         expect(entry?.alternates?.languages).toEqual(languages);
         expect(entry?.lastModified).toBeInstanceOf(Date);

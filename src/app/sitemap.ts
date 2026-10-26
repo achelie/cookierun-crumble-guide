@@ -4,6 +4,7 @@ import { guides } from "@/data/guides";
 import { pets } from "@/data/pets";
 import { absoluteUrl, seoPages, siteUrl } from "@/lib/seo";
 import { locales, localizedPath, alternateLanguages } from "@/i18n/config";
+import { guidePathSupportsLocale } from "@/i18n/guide-availability";
 
 export const dynamic = "force-static";
 
@@ -29,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const path = new URL(route.url).pathname;
     const languages = alternateLanguages(path, siteUrl);
 
-    return locales.map((locale) => ({
+    return locales.filter((locale) => guidePathSupportsLocale(path, locale)).map((locale) => ({
       ...route,
       url: absoluteUrl(localizedPath(path, locale)),
       alternates: { languages },

@@ -14,6 +14,7 @@ import { getRelatedGuides } from "@/lib/guides";
 import { absoluteUrl, siteName, siteUrl } from "@/lib/seo";
 import { alternateLanguages, localeConfig, localeFromSegment, localizedPath } from "@/i18n/config";
 import { getTranslator } from "@/i18n/dictionaries";
+import { guideSupportsLocale } from "@/i18n/guide-availability";
 
 const dateFormatter = new Intl.DateTimeFormat("en", {
   month: "long",
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
   if (!locale) return {};
   const t = getTranslator(locale);
   const guide = getGuideBySlug(slug);
-  if (!guide) return {};
+  if (!guide || !guideSupportsLocale(slug, locale)) return {};
   const path = `/guides/${guide.slug}/`;
   const url = siteUrl + localizedPath(path, locale);
   const coverCookie = cookieById.get(guide.coverCookieIds[0]);
@@ -69,11 +70,11 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
   const locale = segment ? localeFromSegment(segment) : "en";
   if (!locale) notFound();
   const guide = getGuideBySlug(slug);
-  if (!guide) notFound();
+  if (!guide || !guideSupportsLocale(slug, locale)) notFound();
   const Content = await loadGuideContent(guide.slug, locale);
   if (!Content) notFound();
   const category = getGuideCategory(guide.category);
-  const related = getRelatedGuides(guide, guides);
+  const related = getRelatedGuides(guide, guides.filter((item) => guideSupportsLocale(item.slug, locale)));
   const canonical = `${siteUrl}/guides/${guide.slug}/`;
   const socialImage = absoluteUrl(cookieById.get(guide.coverCookieIds[0])?.image ?? "/opengraph-image");
   const articleJsonLd = {

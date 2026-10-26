@@ -38,8 +38,8 @@ describe("recommended teams", () => {
   });
 
   it("puts the newly added formations first with the latest date", () => {
-    expect(teamsUpdatedAt).toBe("2026-10-16");
-    expect(recommendedTeams.slice(12, 15).map((team) => team.id)).toEqual([
+    expect(teamsUpdatedAt).toBe("2026-10-27");
+    expect(recommendedTeams.filter((team) => team.updatedAt === "2026-09-26").map((team) => team.id)).toEqual([
       "bari-cherry-cola-story", "story-knock-up-resistance", "bari-gingercraven-power",
     ]);
     expect(recommendedTeams.slice(-3).map((team) => team.id)).toEqual([
@@ -55,7 +55,7 @@ describe("recommended teams", () => {
   });
 
   it("replaces August 31 teams with the seven ordered September formations", () => {
-    expect(recommendedTeams).toHaveLength(27);
+    expect(recommendedTeams).toHaveLength(33);
     expect(recommendedTeams.some((team) => team.updatedAt === "2026-08-31")).toBe(false);
     const expected = [
     {
@@ -299,8 +299,8 @@ const latestFormations = [
 
 describe("September 27 formations", () => {
   it("preserves all eleven ordered lineups and their categories", () => {
-    latestFormations.forEach(([id, category, cookies, pets], index) => {
-      expect(recommendedTeams[index + 1]).toMatchObject({
+    latestFormations.forEach(([id, category, cookies, pets]) => {
+      expect(recommendedTeams.find((team) => team.id === id)).toMatchObject({
         id, category, updatedAt: "2026-09-27",
         cookies: cookies.split(" ").map((code) => `cookie${code}`),
         pets: pets.split(" ").map((code) => `pet${code}`),

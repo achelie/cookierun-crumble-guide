@@ -4,6 +4,7 @@ export const guideCategories = [
   { slug: "cookies", label: "Cookies" },
   { slug: "pets", label: "Pets" },
   { slug: "stages-bosses", label: "Stages & Bosses" },
+  { slug: "guild-conquest", label: "Guild Conquest" },
   { slug: "events-codes", label: "Events & Codes" },
 ] as const;
 
@@ -40,6 +41,87 @@ export type GuideSummary = {
 export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
+  {
+    "slug": "cookie-run-crumble-caine-guild-conquest-team",
+    "title": "Guild Conquest score stuck? Try the Caine swap",
+    "seoTitle": "Caine Guild Conquest Team & Builds | CookieRun: Crumble",
+    "seoDescription": "Build a Caine Guild Conquest team in CookieRun: Crumble. Copy all 12 Cookies and three Pets, replace Cheesecake, and compare Skill Amp and Skill Haste presets.",
+    "excerpt": "Try Caine in Cheesecake's slot before rebuilding twelve Cookies. Copy the full Piñata team, keep Milk, and compare two stat presets with a saved baseline.",
+    "category": "guild-conquest",
+    "tags": [
+      "Guild Conquest",
+      "Caine Cookie",
+      "Cheesecake Swap",
+      "Milk Cookie",
+      "Extra-Stuffed Piñata"
+    ],
+    "publishedAt": "2026-10-26",
+    "updatedAt": "2026-10-27",
+    "readingMinutes": 8,
+    "author": "Crumble Guide",
+    "coverCookieIds": [
+      "cookie0678",
+      "cookie4019",
+      "cookie0532"
+    ],
+    "relatedGuideSlugs": [
+      "cookie-run-crumble-guild-conquest-team-guide",
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-dungeon-milk-buff-guide"
+    ],
+    "toc": [
+      {
+        "id": "caine-lineup",
+        "label": "Copy the complete Caine Guild Conquest lineup"
+      },
+      {
+        "id": "cheesecake-swap",
+        "label": "Replace Cheesecake and keep Milk"
+      },
+      {
+        "id": "caine-stars",
+        "label": "Try three-star Caine before chasing five stars"
+      },
+      {
+        "id": "caine-pets",
+        "label": "Keep the three Pets for the first comparison"
+      },
+      {
+        "id": "caine-stat-presets",
+        "label": "Compare the two stat presets fairly"
+      },
+      {
+        "id": "test-caine-damage",
+        "label": "Watch the opening, then record the finish"
+      },
+      {
+        "id": "level-tuning",
+        "label": "Leave exact level tuning until the team works"
+      },
+      {
+        "id": "caine-faq",
+        "label": "Caine Guild Conquest FAQ"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who does Caine replace in Guild Conquest?",
+        "answer": "Caine replaces Cheesecake in this setup. Keep the other eleven Cookies, including Milk Cookie's Crunchy Strong Pediatrician, steady while testing the change. Save the Cheesecake version so you can compare the two without rebuilding it from memory."
+      },
+      {
+        "question": "Can I use Caine at three stars?",
+        "answer": "Yes, three-star Caine is worth testing here. Five stars is not a prerequisite for trying the swap. His result still depends on your roster and builds, so compare completed attempts before committing more upgrade materials."
+      },
+      {
+        "question": "Which Pets go with the Caine team?",
+        "answer": "Use Hot Doggie, Octo Wasabi, and Holy Baby Drop. Keep all three unchanged during your first Cookie comparison so a Pet swap does not confuse the result. Record their current levels before making later upgrades."
+      },
+      {
+        "question": "Is Skill Amp and Skill Haste always the better preset?",
+        "answer": "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment."
+      }
+    ]
+  },
   {
     slug: "cookie-run-crumble-chardonnay-auto-story-team",
     title: "Chardonnay auto team: Stop babysitting story bosses",
@@ -870,7 +952,7 @@ export const guides: GuideSummary[] = [
     seoTitle: "CookieRun: Crumble Guild Conquest Teams | Piñata Guide",
     seoDescription: "Build the best CookieRun: Crumble Guild Conquest teams for Extra-Stuffed Piñata, with 12-Cookie lineups, Pets, Sugar Runes, swaps, and retry rules.",
     excerpt: "Low Guild Conquest damage is usually a lineup problem, not a Power problem. Copy two 12-Cookie Piñata teams, then use retries to chase the clean run.",
-    category: "stages-bosses",
+    category: "guild-conquest",
     tags: ["Guild Conquest", "Extra-Stuffed Piñata", "Boss Teams", "Scorpion Cookie", "Brightseeker Cookie"],
     publishedAt: "2026-09-01",
     updatedAt: "2026-09-01",

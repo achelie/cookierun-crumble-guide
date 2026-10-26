@@ -2726,6 +2726,418 @@
     ],
     "sha256": "72812493a047d89d0c6613bbb175bddd7b8f1e2d3f24e38c407ddaca25bc630a"
   },
+  "cookie-run-crumble-caine-guild-conquest-team": {
+    "text": "import { GuideSection, GuideTeamFormation } from \"@/components/guide-mdx\";\n\nYour Guild Conquest team survives, the damage counter keeps moving, and the final score still refuses to budge. Before you tear up twelve builds, try Caine Cookie in Cheesecake's slot. Keep Milk Cookie's Crunchy Strong Pediatrician and the rest of your working formation in place.\n\nCaine's support fits this Piñata setup well enough to deserve an early test, including at three stars. You can check the swap before chasing five-star promotions or rebuilding your entire stat setup. The useful question is whether your existing attackers finish with more damage when Caine joins them.\n\n<GuideSection id=\"caine-lineup\" title=\"Copy the complete Caine Guild Conquest lineup\">\n\nThe formation has twelve Cookies. Read each row from left to right, and copy both rows before adjusting individual slots.\n\n<div className=\"guide-roster-table\"><table><caption>Cookie order in the formation</caption><thead><tr><th scope=\"col\">Row</th><th scope=\"col\">Cookies, left to right</th></tr></thead><tbody><tr><th scope=\"row\">Top</th><td>Brightseeker, Scorpion, Melon Soda, Pinot Noir, Skating Queen, Dark Choco</td></tr><tr><th scope=\"row\">Bottom</th><td>Grapevine, Rye, Caine, Pomegranate, Milk Cookie's Crunchy Strong Pediatrician, Tea Knight</td></tr></tbody></table></div>\n\n<GuideTeamFormation\n  title=\"Caine Guild Conquest team\"\n  description=\"The same twelve Cookies in row order, with Hot Doggie, Octo Wasabi, and Holy Baby Drop.\"\n  cookieIds={[\"cookie4013\", \"cookie0181\", \"cookie3001\", \"cookie4010\", \"cookie0018\", \"cookie0103\", \"cookie4003\", \"cookie0515\", \"cookie0678\", \"cookie0126\", \"cookie4019\", \"cookie0532\"]}\n  petIds={[\"pet0111\", \"pet0110\", \"pet4001\"]}\n/>\n\nBrightseeker, Scorpion, Melon Soda, and Rye fill the main attacking slots. Their builds still matter after Caine joins. Dark Choco supplies DEF Down, and Tea Knight adds Boss DMG Up. Keep those jobs covered while comparing the support swap, since removing either changes the help your attackers receive.\n\nSkating Queen adds CRIT DMG, Pomegranate supplies Skill Amp Up, and Pinot Noir helps with knock-up resistance. Those are different jobs. Replacing one with another attacker can change the fight even when the new formation has more Power. Start with the complete roster so you can see how it behaves before making that trade.\n\nPromotion and stat quality affect how this team performs on your account. Start with the full formation, then compare changes against your saved result. A stronger-looking roster still needs a completed fight before you can judge it.\n\nUse the [recommended teams](/teams/) to keep this preset separate from your story and Arena lineups. Guild Conquest asks you to squeeze damage out of a boss fight, so a comfortable story preset can leave useful support missing here.\n\n</GuideSection>\n\n<GuideSection id=\"cheesecake-swap\" title=\"Replace Cheesecake and keep Milk\">\n\nIf you already run a similar team with Cheesecake, make that one replacement first. Caine takes Cheesecake's place. Milk stays. Changing both would remove the pairing you came to test and leave you with a result that answers a different question.\n\nCaine works well alongside Milk's penetration and the wider lineup. Treat that as the reason to test their overlap, without assigning a made-up damage multiplier to it. A cleaner opening is encouraging, but the completed fight tells you whether the swap helps your account.\n\nSave your Cheesecake preset before editing it. Give the Caine version the same attackers, Pets, and other settings for the comparison. If you upgrade Rye between attempts or change three supports together, you lose track of which change raised the score.\n\nPlayers still building the older core can use the [Piñata team guide](/guides/cookie-run-crumble-guild-conquest-team-guide/) for Wind Archer and Milky Way alternatives. Those are separate starting points. This formation already includes Brightseeker and Tea Knight, so copying only its Caine slot does not give a smaller roster the whole team.\n\n</GuideSection>\n\n<GuideSection id=\"caine-stars\" title=\"Try three-star Caine before chasing five stars\">\n\nThree stars is a reasonable point to put Caine through a trial. The recommendation extends below five stars, but it does not establish a universal minimum or prove that every low-star copy beats a fully built Cheesecake. Your other Cookies still have to do their jobs.\n\nStart with the Caine you own. Let him run beside Milk and compare the finished score with your saved preset. If the team improves consistently, you have an account-specific reason to keep using him. If it does not, inspect the rest of the setup before spending more resources on a star target.\n\nCheck the [Cookie tier list](/tier-list/) when deciding which character deserves your next upgrade across several modes. For this particular slot, keep a record of the Guild Conquest result too. A general ranking cannot tell you whether your current Caine build fits your current Milk setup.\n\n</GuideSection>\n\n<GuideSection id=\"caine-pets\" title=\"Keep the three Pets for the first comparison\">\n\nUse Hot Doggie, Octo Wasabi, and Holy Baby Drop. Copy the Pet identities before adjusting their upgrades or trying substitutes. Keep a note of each Pet's level with your saved preset, so that a later upgrade does not get mixed into the Cookie comparison.\n\nHot Doggie supplies Skill Amp Up. Holy Baby Drop raises allied ATK. Octo Wasabi grants Duration synergy and raises ATK for its receivers. These effects help explain why the Pet package belongs with the formation. Replacing one also changes the support your Cookies receive.\n\nKeep the trio steady while comparing Cheesecake and Caine. Once you choose the stronger Cookie preset, you can test a Pet change on its own. Otherwise, a better result might come from the new Pet, and you would credit Caine for an improvement you never isolated.\n\n</GuideSection>\n\n<GuideSection id=\"caine-stat-presets\" title=\"Compare the two stat presets fairly\">\n\nTwo approaches are worth comparing: Skill Amp with ATK and some Skill Haste, or a setup focused on Skill Amp and Skill Haste. There is no confirmed winning ratio here. Neither approach comes with a reliable percentage split you should copy onto every Cookie.\n\nSkill Amp supports eligible skill effects. Skill Haste affects how often skills return, while ATK contributes another offensive stat. Individual skills use those stats differently, so the team needs more judgment than selecting the same three labels twelve times. The [gear and Sugar Rune stat guide](/guides/cookie-run-crumble-gear-sugar-rune-stats-guide/) explains the underlying choices.\n\nBegin with the preset closest to your current equipment. Save it, run it, and write down the final damage. Then switch to your Amp-and-Haste version without replacing Cookies or Pets. Compare under the same boss conditions so that the stat change remains the main difference.\n\nAvoid stripping useful ATK rolls just to make the second preset look tidy. You are testing a direction, and your available gear may favor one version heavily. Keep the old preset recoverable. A theory about cast frequency is a poor excuse to destroy the setup that already earns your guild a dependable score.\n\n</GuideSection>\n\n<GuideSection id=\"test-caine-damage\" title=\"Watch the opening, then record the finish\">\n\nCaine can make the damage counter look livelier almost immediately. Use the opening to check that you loaded the intended preset and that the team begins normally. Do not stop there. An early lead can disappear if important Cookies fall or their later casts fail to line up well.\n\nRun each version three times as a practical starting test. Record every final result, along with any early death. This is a comparison method, not a game requirement. If one setup posts a huge outlier and two weak attempts, give it another pass before calling it your new default.\n\nKeep your notes short enough that you will actually use them:\n\n* Preset name and whether it uses Cheesecake or Caine.\n* Final damage for each attempt.\n* Caine's stars and the stat approach you changed.\n* Any early death or obvious interruption.\n\nCompare the ordinary results as well as the personal best. You want to know whether the swap helps repeatedly, and whether its best run is worth pursuing. One exciting opening does not answer either question by itself.\n\n</GuideSection>\n\n<GuideSection id=\"level-tuning\" title=\"Leave exact level tuning until the team works\">\n\nThere is no confirmed Cookie-by-Cookie level recipe for this Caine formation. Avoid copying a precise low-level support setup just because someone says it raises damage. A specific recommendation needs a clear explanation of which effect changes and a repeatable score comparison.\n\nFirst get the complete formation working with your existing levels. Then compare the Caine swap and the two stat directions. Level experiments belong after those checks, when you can return to a saved baseline and tell whether the adjustment helped.\n\nIf your score disappoints, check the roster against both rows. Grapevine occupies the first bottom slot, and Tea Knight occupies the last. Neither is a spare portrait. Also check the exact Milk variant: this preset uses Milk Cookie's Crunchy Strong Pediatrician. Similar names make copying a team surprisingly easy to get wrong.\n\nWhen the same Cookie dies early across attempts, address that survival problem before interpreting a low score as proof against Caine. When the team survives and the score stays flat, return to the saved Cheesecake preset for a direct comparison. Keep the stronger result while you investigate the next change.\n\n</GuideSection>\n\n<GuideSection id=\"caine-faq\" title=\"Caine Guild Conquest FAQ\">\n\n### Who does Caine replace in Guild Conquest?\n\nCaine replaces Cheesecake in this setup. Keep the other eleven Cookies, including Milk Cookie's Crunchy Strong Pediatrician, steady while testing the change. Save the Cheesecake version so you can compare the two without rebuilding it from memory.\n\n### Can I use Caine at three stars?\n\nYes, three-star Caine is worth testing here. Five stars is not a prerequisite for trying the swap. His result still depends on your roster and builds, so compare completed attempts before committing more upgrade materials.\n\n### Which Pets go with the Caine team?\n\nUse Hot Doggie, Octo Wasabi, and Holy Baby Drop. Keep all three unchanged during your first Cookie comparison so a Pet swap does not confuse the result. Record their current levels before making later upgrades.\n\n### Is Skill Amp and Skill Haste always the better preset?\n\nNo confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.\n\n</GuideSection>\n",
+    "segments": [
+      {
+        "start": 76,
+        "end": 356,
+        "text": "Your Guild Conquest team survives, the damage counter keeps moving, and the final score still refuses to budge. Before you tear up twelve builds, try Caine Cookie in Cheesecake's slot. Keep Milk Cookie's Crunchy Strong Pediatrician and the rest of your working formation in place.",
+        "kind": "text"
+      },
+      {
+        "start": 358,
+        "end": 659,
+        "text": "Caine's support fits this Piñata setup well enough to deserve an early test, including at three stars. You can check the swap before chasing five-star promotions or rebuilding your entire stat setup. The useful question is whether your existing attackers finish with more damage when Caine joins them.",
+        "kind": "text"
+      },
+      {
+        "start": 749,
+        "end": 870,
+        "text": "The formation has twelve Cookies. Read each row from left to right, and copy both rows before adjusting individual slots.",
+        "kind": "text"
+      },
+      {
+        "start": 924,
+        "end": 953,
+        "text": "Cookie order in the formation",
+        "kind": "text"
+      },
+      {
+        "start": 990,
+        "end": 993,
+        "text": "Row",
+        "kind": "text"
+      },
+      {
+        "start": 1014,
+        "end": 1036,
+        "text": "Cookies, left to right",
+        "kind": "text"
+      },
+      {
+        "start": 1081,
+        "end": 1084,
+        "text": "Top",
+        "kind": "text"
+      },
+      {
+        "start": 1093,
+        "end": 1166,
+        "text": "Brightseeker, Scorpion, Melon Soda, Pinot Noir, Skating Queen, Dark Choco",
+        "kind": "text"
+      },
+      {
+        "start": 1196,
+        "end": 1202,
+        "text": "Bottom",
+        "kind": "text"
+      },
+      {
+        "start": 1211,
+        "end": 1300,
+        "text": "Grapevine, Rye, Caine, Pomegranate, Milk Cookie's Crunchy Strong Pediatrician, Tea Knight",
+        "kind": "text"
+      },
+      {
+        "start": 1356,
+        "end": 1389,
+        "text": "Caine Guild Conquest team",
+        "kind": "attribute",
+        "name": "title"
+      },
+      {
+        "start": 1392,
+        "end": 1493,
+        "text": "The same twelve Cookies in row order, with Hot Doggie, Octo Wasabi, and Holy Baby Drop.",
+        "kind": "attribute",
+        "name": "description"
+      },
+      {
+        "start": 1726,
+        "end": 2029,
+        "text": "Brightseeker, Scorpion, Melon Soda, and Rye fill the main attacking slots. Their builds still matter after Caine joins. Dark Choco supplies DEF Down, and Tea Knight adds Boss DMG Up. Keep those jobs covered while comparing the support swap, since removing either changes the help your attackers receive.",
+        "kind": "text"
+      },
+      {
+        "start": 2031,
+        "end": 2355,
+        "text": "Skating Queen adds CRIT DMG, Pomegranate supplies Skill Amp Up, and Pinot Noir helps with knock-up resistance. Those are different jobs. Replacing one with another attacker can change the fight even when the new formation has more Power. Start with the complete roster so you can see how it behaves before making that trade.",
+        "kind": "text"
+      },
+      {
+        "start": 2357,
+        "end": 2590,
+        "text": "Promotion and stat quality affect how this team performs on your account. Start with the full formation, then compare changes against your saved result. A stronger-looking roster still needs a completed fight before you can judge it.",
+        "kind": "text"
+      },
+      {
+        "start": 2592,
+        "end": 2600,
+        "text": "Use the ",
+        "kind": "text"
+      },
+      {
+        "start": 2601,
+        "end": 2618,
+        "text": "recommended teams",
+        "kind": "text"
+      },
+      {
+        "start": 2628,
+        "end": 2824,
+        "text": " to keep this preset separate from your story and Arena lineups. Guild Conquest asks you to squeeze damage out of a boss fight, so a comfortable story preset can leave useful support missing here.",
+        "kind": "text"
+      },
+      {
+        "start": 693,
+        "end": 746,
+        "text": "Copy the complete Caine Guild Conquest lineup",
+        "kind": "attribute",
+        "name": "title"
+      },
+      {
+        "start": 2921,
+        "end": 3167,
+        "text": "If you already run a similar team with Cheesecake, make that one replacement first. Caine takes Cheesecake's place. Milk stays. Changing both would remove the pairing you came to test and leave you with a result that answers a different question.",
+        "kind": "text"
+      },
+      {
+        "start": 3169,
+        "end": 3442,
+        "text": "Caine works well alongside Milk's penetration and the wider lineup. Treat that as the reason to test their overlap, without assigning a made-up damage multiplier to it. A cleaner opening is encouraging, but the completed fight tells you whether the swap helps your account.",
+        "kind": "text"
+      },
+      {
+        "start": 3444,
+        "end": 3698,
+        "text": "Save your Cheesecake preset before editing it. Give the Caine version the same attackers, Pets, and other settings for the comparison. If you upgrade Rye between attempts or change three supports together, you lose track of which change raised the score.",
+        "kind": "text"
+      },
+      {
+        "start": 3700,
+        "end": 3750,
+        "text": "Players still building the older core can use the ",
+        "kind": "text"
+      },
+      {
+        "start": 3751,
+        "end": 3768,
+        "text": "Piñata team guide",
+        "kind": "text"
+      },
+      {
+        "start": 3824,
+        "end": 4043,
+        "text": " for Wind Archer and Milky Way alternatives. Those are separate starting points. This formation already includes Brightseeker and Tea Knight, so copying only its Caine slot does not give a smaller roster the whole team.",
+        "kind": "text"
+      },
+      {
+        "start": 2878,
+        "end": 2918,
+        "text": "Replace Cheesecake and keep Milk",
+        "kind": "attribute",
+        "name": "title"
+      },
+      {
+        "start": 4150,
+        "end": 4418,
+        "text": "Three stars is a reasonable point to put Caine through a trial. The recommendation extends below five stars, but it does not establish a universal minimum or prove that every low-star copy beats a fully built Cheesecake. Your other Cookies still have to do their jobs.",
+        "kind": "text"
+      },
+      {
+        "start": 4420,
+        "end": 4713,
+        "text": "Start with the Caine you own. Let him run beside Milk and compare the finished score with your saved preset. If the team improves consistently, you have an account-specific reason to keep using him. If it does not, inspect the rest of the setup before spending more resources on a star target.",
+        "kind": "text"
+      },
+      {
+        "start": 4715,
+        "end": 4725,
+        "text": "Check the ",
+        "kind": "text"
+      },
+      {
+        "start": 4726,
+        "end": 4742,
+        "text": "Cookie tier list",
+        "kind": "text"
+      },
+      {
+        "start": 4756,
+        "end": 5006,
+        "text": " when deciding which character deserves your next upgrade across several modes. For this particular slot, keep a record of the Guild Conquest result too. A general ranking cannot tell you whether your current Caine build fits your current Milk setup.",
+        "kind": "text"
+      },
+      {
+        "start": 4093,
+        "end": 4147,
+        "text": "Try three-star Caine before chasing five stars",
+        "kind": "attribute",
+        "name": "title"
+      },
+      {
+        "start": 5110,
+        "end": 5364,
+        "text": "Use Hot Doggie, Octo Wasabi, and Holy Baby Drop. Copy the Pet identities before adjusting their upgrades or trying substitutes. Keep a note of each Pet's level with your saved preset, so that a later upgrade does not get mixed into the Cookie comparison.",
+        "kind": "text"
+      },
+      {
+        "start": 5366,
+        "end": 5639,
+        "text": "Hot Doggie supplies Skill Amp Up. Holy Baby Drop raises allied ATK. Octo Wasabi grants Duration synergy and raises ATK for its receivers. These effects help explain why the Pet package belongs with the formation. Replacing one also changes the support your Cookies receive.",
+        "kind": "text"
+      },
+      {
+        "start": 5641,
+        "end": 5903,
+        "text": "Keep the trio steady while comparing Cheesecake and Caine. Once you choose the stronger Cookie preset, you can test a Pet change on its own. Otherwise, a better result might come from the new Pet, and you would credit Caine for an improvement you never isolated.",
+        "kind": "text"
+      },
+      {
+        "start": 5055,
+        "end": 5107,
+        "text": "Keep the three Pets for the first comparison",
+        "kind": "attribute",
+        "name": "title"
+      },
+      {
+        "start": 6006,
+        "end": 6264,
+        "text": "Two approaches are worth comparing: Skill Amp with ATK and some Skill Haste, or a setup focused on Skill Amp and Skill Haste. There is no confirmed winning ratio here. Neither approach comes with a reliable percentage split you should copy onto every Cookie.",
+        "kind": "text"
+      },
+      {
+        "start": 6266,
+        "end": 6534,
+        "text": "Skill Amp supports eligible skill effects. Skill Haste affects how often skills return, while ATK contributes another offensive stat. Individual skills use those stats differently, so the team needs more judgment than selecting the same three labels twelve times. The ",
+        "kind": "text"
+      },
+      {
+        "start": 6535,
+        "end": 6565,
+        "text": "gear and Sugar Rune stat guide",
+        "kind": "text"
+      },
+      {
+        "start": 6623,
+        "end": 6656,
+        "text": " explains the underlying choices.",
+        "kind": "text"
+      },
+      {
+        "start": 6658,
+        "end": 6933,
+        "text": "Begin with the preset closest to your current equipment. Save it, run it, and write down the final damage. Then switch to your Amp-and-Haste version without replacing Cookies or Pets. Compare under the same boss conditions so that the stat change remains the main difference.",
+        "kind": "text"
+      },
+      {
+        "start": 6935,
+        "end": 7244,
+        "text": "Avoid stripping useful ATK rolls just to make the second preset look tidy. You are testing a direction, and your available gear may favor one version heavily. Keep the old preset recoverable. A theory about cast frequency is a poor excuse to destroy the setup that already earns your guild a dependable score.",
+        "kind": "text"
+      },
+      {
+        "start": 5960,
+        "end": 6003,
+        "text": "Compare the two stat presets fairly",
+        "kind": "attribute",
+        "name": "title"
+      },
+      {
+        "start": 7352,
+        "end": 7631,
+        "text": "Caine can make the damage counter look livelier almost immediately. Use the opening to check that you loaded the intended preset and that the team begins normally. Do not stop there. An early lead can disappear if important Cookies fall or their later casts fail to line up well.",
+        "kind": "text"
+      },
+      {
+        "start": 7633,
+        "end": 7913,
+        "text": "Run each version three times as a practical starting test. Record every final result, along with any early death. This is a comparison method, not a game requirement. If one setup posts a huge outlier and two weak attempts, give it another pass before calling it your new default.",
+        "kind": "text"
+      },
+      {
+        "start": 7915,
+        "end": 7976,
+        "text": "Keep your notes short enough that you will actually use them:",
+        "kind": "text"
+      },
+      {
+        "start": 7980,
+        "end": 8032,
+        "text": "Preset name and whether it uses Cheesecake or Caine.",
+        "kind": "text"
+      },
+      {
+        "start": 8035,
+        "end": 8065,
+        "text": "Final damage for each attempt.",
+        "kind": "text"
+      },
+      {
+        "start": 8068,
+        "end": 8116,
+        "text": "Caine's stars and the stat approach you changed.",
+        "kind": "text"
+      },
+      {
+        "start": 8119,
+        "end": 8159,
+        "text": "Any early death or obvious interruption.",
+        "kind": "text"
+      },
+      {
+        "start": 8161,
+        "end": 8379,
+        "text": "Compare the ordinary results as well as the personal best. You want to know whether the swap helps repeatedly, and whether its best run is worth pursuing. One exciting opening does not answer either question by itself.",
+        "kind": "text"
+      },
+      {
+        "start": 7300,
+        "end": 7349,
+        "text": "Watch the opening, then record the finish",
+        "kind": "attribute",
+        "name": "title"
+      },
+      {
+        "start": 8486,
+        "end": 8766,
+        "text": "There is no confirmed Cookie-by-Cookie level recipe for this Caine formation. Avoid copying a precise low-level support setup just because someone says it raises damage. A specific recommendation needs a clear explanation of which effect changes and a repeatable score comparison.",
+        "kind": "text"
+      },
+      {
+        "start": 8768,
+        "end": 9017,
+        "text": "First get the complete formation working with your existing levels. Then compare the Caine swap and the two stat directions. Level experiments belong after those checks, when you can return to a saved baseline and tell whether the adjustment helped.",
+        "kind": "text"
+      },
+      {
+        "start": 9019,
+        "end": 9347,
+        "text": "If your score disappoints, check the roster against both rows. Grapevine occupies the first bottom slot, and Tea Knight occupies the last. Neither is a spare portrait. Also check the exact Milk variant: this preset uses Milk Cookie's Crunchy Strong Pediatrician. Similar names make copying a team surprisingly easy to get wrong.",
+        "kind": "text"
+      },
+      {
+        "start": 9349,
+        "end": 9659,
+        "text": "When the same Cookie dies early across attempts, address that survival problem before interpreting a low score as proof against Caine. When the team survives and the score stays flat, return to the saved Cheesecake preset for a direct comparison. Keep the stronger result while you investigate the next change.",
+        "kind": "text"
+      },
+      {
+        "start": 8430,
+        "end": 8483,
+        "text": "Leave exact level tuning until the team works",
+        "kind": "attribute",
+        "name": "title"
+      },
+      {
+        "start": 9746,
+        "end": 9787,
+        "text": "Who does Caine replace in Guild Conquest?",
+        "kind": "text"
+      },
+      {
+        "start": 9789,
+        "end": 10036,
+        "text": "Caine replaces Cheesecake in this setup. Keep the other eleven Cookies, including Milk Cookie's Crunchy Strong Pediatrician, steady while testing the change. Save the Cheesecake version so you can compare the two without rebuilding it from memory.",
+        "kind": "text"
+      },
+      {
+        "start": 10042,
+        "end": 10073,
+        "text": "Can I use Caine at three stars?",
+        "kind": "text"
+      },
+      {
+        "start": 10075,
+        "end": 10297,
+        "text": "Yes, three-star Caine is worth testing here. Five stars is not a prerequisite for trying the swap. His result still depends on your roster and builds, so compare completed attempts before committing more upgrade materials.",
+        "kind": "text"
+      },
+      {
+        "start": 10303,
+        "end": 10337,
+        "text": "Which Pets go with the Caine team?",
+        "kind": "text"
+      },
+      {
+        "start": 10339,
+        "end": 10549,
+        "text": "Use Hot Doggie, Octo Wasabi, and Holy Baby Drop. Keep all three unchanged during your first Cookie comparison so a Pet swap does not confuse the result. Record their current levels before making later upgrades.",
+        "kind": "text"
+      },
+      {
+        "start": 10555,
+        "end": 10609,
+        "text": "Is Skill Amp and Skill Haste always the better preset?",
+        "kind": "text"
+      },
+      {
+        "start": 10611,
+        "end": 10858,
+        "text": "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.",
+        "kind": "text"
+      },
+      {
+        "start": 9707,
+        "end": 9739,
+        "text": "Caine Guild Conquest FAQ",
+        "kind": "attribute",
+        "name": "title"
+      }
+    ],
+    "sha256": "b0d5f06324a4738eb678e199b2a7a0ebb6487a6028b07fe45f0c5d1340b73136"
+  },
   "cookie-run-crumble-chardonnay-auto-story-team": {
     "text": "import { GuideSection, GuideTeamFormation } from \"@/components/guide-mdx\";\r\n\r\nAn auto team loses its appeal when you have to drag it back onto the boss every few stages. Bari and Cherry Cola now have a better chance of staying on the right target, and Chardonnay takes the support slot that Macaron held in earlier story setups. That gives this formation a useful job: push ordinary stages with fewer interruptions, then change the part that caused a difficult boss attempt to fail.\r\n\r\nStart with the full twelve-Cookie lineup below. Keep a second Pet setup ready for knock-ups, and resist the urge to replace half the team after one loss. This is a developed roster, so the names alone will not reproduce its progress on a fresh account.\r\n\r\n<GuideSection id=\"chardonnay-story-lineup\" title=\"Copy the Chardonnay story preset\">\r\n\r\nThe first row, from left to right, is Brightseeker, Rye, Cheesecake, Skating Queen, Milk Cookie's Crunchy Strong Pediatrician, and Cherry Cola.\r\n\r\nThe second row is Chardonnay, Pinot Noir, Pomegranate, Princess Bari, Strawberry Crepe, and Dark Choco. Use Hot Doggie, Holy Baby Drop, and Chargemellow in that order. Milk carries the captain marker in this setup.\r\n\r\n<GuideTeamFormation\r\n  title=\"Chardonnay, Bari and Cherry Cola story team\"\r\n  description=\"Copy both rows in order, keep Milk as captain, and start with Hot Doggie, Holy Baby Drop, and Chargemellow.\"\r\n  cookieIds={[\"cookie4013\", \"cookie0515\", \"cookie0037\", \"cookie0018\", \"cookie4019\", \"cookie0250\", \"chardonnay\", \"cookie4010\", \"cookie0126\", \"cookie0081\", \"cookie0518\", \"cookie0103\"]}\r\n  petIds={[\"pet0111\", \"pet4001\", \"pet4005\"]}\r\n/>\r\n\r\nChardonnay occupies Macaron's former place in this story formation. Keep the rest of the support group while you establish a baseline. Adding Chardonnay and changing several damage dealers at once makes it harder to tell which adjustment helped.\r\n\r\nSave the preset before trying replacements. The same formation is available on the [Teams page](/teams/), with its twelve Cookies and three Pets together. Match the members and Pet order first. Lower promotions can still justify the replacements below.\r\n\r\n</GuideSection>\r\n\r\n<GuideSection id=\"boss-targeting\" title=\"Why Bari and Cherry Cola chase the boss more reliably\">\r\n\r\nBari and Cherry Cola prioritize high-ATK enemies. Earlier boss encounters could send them after the extra enemies instead, leaving the boss alive while your strongest melee attackers worked through the wrong targets.\r\n\r\nThe targeting rule still favors high ATK. In the adjusted story encounters, bosses have higher ATK than their accompanying enemies. That gives these two Cookies a clearer route to the boss. That matters because another damage upgrade cannot help much when the attacker keeps hitting something else.\r\n\r\nTry the updated formation on auto before carrying over an old positioning workaround. Watch where Bari and Cherry Cola go once the boss and extra enemies appear. If they reach the boss but the team still loses, check survival, interruptions, or overall damage next.\r\n\r\nThis improvement does not remove every obstacle from automatic progression. A Cookie can select the right target and still spend the fight airborne. That is where the Pet change earns its place.\r\n\r\n</GuideSection>\r\n\r\n<GuideSection id=\"knock-up-pet-swap\" title=\"Replace Chargemellow when knock-ups stop the team\">\r\n\r\nThe default Pets cover three jobs. Hot Doggie adds Skill Amp, Holy Baby Drop raises allied ATK, and Chargemellow supports Multi-strike users. Keep this setup for ordinary stages and bosses that let the team keep attacking.\r\n\r\n**Against a knock-up boss, replace Chargemellow with Candy Shade Pouch.** Keep Hot Doggie and Holy Baby Drop. The pouch gives the squad Knock-up Resistance and additional HP. Cool Mint and the hammer-wielding Choco Werehound boss are examples where this adjustment deserves an early test.\r\n\r\nYou give up Chargemellow's Multi-strike contribution in exchange for more time spent attacking, buffing, and recovering. Compare the whole attempt. A smaller damage bonus can produce a better clear when the alternative leaves your support Cookies unable to cast.\r\n\r\nChardonnay's Knockback Resistance and the pouch's Knock-up Resistance address different disruptions. Do not assume that adding Chardonnay makes every control-focused Pet unnecessary. Keep the pouch preset ready and switch when the boss repeatedly lifts your team.\r\n\r\n</GuideSection>\r\n\r\n<GuideSection id=\"bari-replacements\" title=\"Replace Bari according to the reason you are stuck\">\r\n\r\nA low-promotion Bari can feel weaker than the name suggests. You can still test the team while building her, but you also have three practical replacement paths.\r\n\r\nScorpion is a damage alternative when Bari is missing or underbuilt. Make that swap in Bari's slot and leave the rest of the preset alone for the first comparison. It gives you a manageable test instead of a completely different lineup.\r\n\r\nWind Archer is another option when your copy has much stronger promotion. A highly promoted TSSR can contribute substantial team Power. Story damage depends partly on the team's Power relative to the stage, so the replacement can help beyond its own attacks. The [story Power guide](/guides/cookie-run-crumble-power-guide-stage-damage/) explains why that comparison matters.\r\n\r\nChoose Moon Rabbit when staying alive is the problem. If Bari is unavailable, Moon Rabbit can take her place. If Bari is already working, replace Dark Choco instead. That second swap removes a DEF Down slot, so judge whether the extra protection makes up for the lost damage support.\r\n\r\nDo not make all three changes together. A surviving team that times out needs a different response from one that collapses before its first recovery cycle.\r\n\r\n</GuideSection>\r\n\r\n<GuideSection id=\"chardonnay-runes\" title=\"Build Chardonnay for the support slot\">\r\n\r\nChardonnay is the default support choice in this preset, replacing Macaron rather than joining alongside her. Chardonnay brings a CRIT Chance buff, Knockback Resistance, and Multi-shot synergy support. Use this slot to support the rest of the formation, including the attackers who need help staying on the boss.\r\n\r\nSkill Amp is the recommended Sugar Rune direction for Chardonnay. Keep the focus on the support contribution before chasing a set of personal damage stats. A usable build lets you test the formation sooner; the team does not require a perfect collection of SSR rolls before its first attempt.\r\n\r\nUse the [Sugar Rune stat guide](/guides/cookie-run-crumble-gear-sugar-rune-stats-guide/) when the rest of the roster needs work. Copying the Cookie list should not mean giving every Cookie the same Rune set. A fragile Charge attacker and a support buffer have different reasons for failing.\r\n\r\n</GuideSection>\r\n\r\n<GuideSection id=\"promotion-crystal-priorities\" title=\"Set promotion targets before spending crystals\">\r\n\r\nHigher promotions help, but you do not need to wait until every slot matches a finished account. Try the formation at your current investment, identify the weak point, and work toward useful milestones.\r\n\r\nChardonnay and Moon Rabbit have five-star targets in this progression route. After those initial goals, further Chardonnay investment toward ten stars becomes a longer project if your budget allows it. Continue building Bari when she is part of your story plan, without treating a poorly performing low-star copy as the only available choice.\r\n\r\nThe [tier list](/tier-list/) helps compare these investments with the rest of your roster. Check where a Cookie fits, then ask whether more copies will improve the team you actually use. Another promotion on a useful support may solve more fights than raising a specialist you rarely field.\r\n\r\nFavor the relevant Cookie pickup banners for crystal spending. Regular premium pulls miss the pickup-event benefits, while Pet pulls do not advance the Cookie-promotion requirements behind Stellar Link. Cookie promotions feed that account progression, which gives the choice a benefit beyond one lineup.\r\n\r\n</GuideSection>\r\n\r\n<GuideSection id=\"dimensional-rift-goal\" title=\"Finish story with the Dimensional Rift in mind\">\r\n\r\nReaching the end of the current story opens the route into Dimensional Rift. Its seasonal exchange and progression rewards add a reason to push rather than leave an almost-finished chapter sitting untouched.\r\n\r\nCheck the current exchange and milestone rewards when you arrive. If you cannot reach the content before the season ends, finishing more story still prepares the account for the next opening. Do not turn a closing season into an excuse to empty every crystal balance.\r\n\r\nKeep both Pet setups saved as you work through the remaining stages. If a Cookie replacement gets you past a wall, note which problem it solved before carrying that change into every later fight.\r\n\r\n</GuideSection>\r\n\r\n<GuideSection id=\"auto-stage-checklist\" title=\"Test one difficult stage before leaving auto running\">\r\n\r\n1. Copy all twelve Cookies and the default three Pets. Keep Milk as captain for the initial test.\r\n2. Watch Bari and Cherry Cola when the boss appears. Confirm that they engage the boss instead of spending the attempt on accompanying enemies.\r\n3. If repeated knock-ups interrupt the team, swap Chargemellow for Candy Shade Pouch and repeat that stage.\r\n4. If the team still dies, try Moon Rabbit in Dark Choco's slot, or in Bari's slot when Bari is missing or underbuilt.\r\n5. If everyone survives but the timer runs out, compare Scorpion or your better-promoted Wind Archer with Bari before buying another upgrade.\r\n\r\nOnce the changed setup clears the problem stage, return to auto and watch the next boss transition. Save the successful variant so the next interruption takes one preset change instead of another round of rebuilding.\r\n\r\n</GuideSection>\r\n\r\n<GuideSection id=\"chardonnay-story-faq\" title=\"Chardonnay auto story team FAQ\">\r\n\r\n### Can this team clear every story boss automatically?\r\n\r\nTreat it as a story baseline. Promotion, Runes, team Power, and the boss mechanic still affect the result. Candy Shade Pouch helps with knock-ups, and Moon Rabbit offers a survival alternative when the default formation fails.\r\n\r\n### Who replaces Bari if I do not own her?\r\n\r\nTry Scorpion for damage, a strongly promoted Wind Archer for damage and team Power, or Moon Rabbit when you need protection. Keep the other eleven slots steady while comparing the replacement.\r\n\r\n### Does Chardonnay replace Macaron in this formation?\r\n\r\nYes. Chardonnay takes Macaron's support slot in this preset. Favor Skill Amp for Chardonnay, keep the remaining support group, and test the team before changing more members.\r\n\r\n### Which Pet should I remove for Candy Shade Pouch?\r\n\r\nRemove Chargemellow. Keep Hot Doggie and Holy Baby Drop, then test Candy Shade Pouch against repeated knock-ups. Return to the default trio when that protection no longer helps the fight.\r\n\r\n</GuideSection>\r\n",
     "segments": [

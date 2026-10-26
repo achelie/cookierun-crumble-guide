@@ -1,3 +1,5 @@
+import { guidePathSupportsLocale } from "./guide-availability";
+
 export const locales = ["en", "zh-Hant", "ja", "ko", "th"] as const;
 export type Locale = (typeof locales)[number];
 export const localeConfig: Record<Locale, { prefix: string; label: string; og: string; gameName: string }> = {
@@ -24,11 +26,12 @@ export function localizedPath(path: string, locale: Locale): string {
   const value = unlocalizedPath(path);
   const pathname = value.split(/[?#]/)[0];
   if (!pagePath.test(pathname)) return path;
+  if (!guidePathSupportsLocale(value, locale)) return value;
   return `${localeConfig[locale].prefix}${value}`;
 }
 export function alternateLanguages(path: string, origin: string) {
   return Object.fromEntries([
-    ...locales.map((locale) => [locale, origin + localizedPath(path, locale)]),
+    ...locales.filter((locale) => guidePathSupportsLocale(unlocalizedPath(path), locale)).map((locale) => [locale, origin + localizedPath(path, locale)]),
     ["x-default", origin + localizedPath(path, "en")],
   ]);
 }

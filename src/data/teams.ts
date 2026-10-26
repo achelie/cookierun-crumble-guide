@@ -1,6 +1,7 @@
 export const teamCategories = [
   { slug: "story", label: "Story" },
   { slug: "bosses", label: "Bosses" },
+  { slug: "guild-conquest", label: "Guild Conquest" },
   { slug: "dungeons", label: "Dungeons" },
   { slug: "pvp", label: "PvP" },
 ] as const;
@@ -24,9 +25,92 @@ export type RecommendedTeam = {
   };
 };
 
-export const teamsUpdatedAt = "2026-10-16";
+export const teamsUpdatedAt = "2026-10-27";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "caine-exp-dungeon-860",
+    category: "dungeons",
+    name: "Caine EXP Dungeon Team",
+    kicker: "Keep the ranged damage and healing together",
+    description: "Keep Little Ghost beside Holy Baby Drop and Hot Doggie for this EXP setup. Milky Way, Scorpion, Brightseeker, and Witchberry join Caine and the support core. When taking a corner, try the lower-left at 7 o'clock.",
+    cookies: ["cookie0573", "chardonnay", "cookie0181", "cookie0126", "cookie2006", "cookie4019", "cookie4013", "cookie0048", "cookie0678", "cookie0023", "cookie0027", "cookie0063"],
+    pets: ["pet4001", "pet0111", "pet0012"],
+    updatedAt: "2026-10-27",
+  },
+  {
+    id: "caine-coin-dungeon-863",
+    category: "dungeons",
+    name: "Caine Coin Dungeon Team",
+    kicker: "Clear coin waves from the lower-left corner",
+    description: "Wind Archer joins Brightseeker and Twizzly Gummy, with Strawberry Shortcake in slot 6. Use Holy Baby Drop, Hot Doggie, and Furball Pup. Try the lower-left corner at 7 o'clock when repositioning.",
+    cookies: ["cookie0070", "cookie4013", "cookie0678", "cookie0126", "cookie2006", "cookie0072", "cookie0573", "chardonnay", "cookie4010", "cookie0018", "cookie0527", "cookie4019"],
+    pets: ["pet4001", "pet0111", "pet0053"],
+    updatedAt: "2026-10-27",
+  },
+  {
+    id: "caine-dough-dungeon-863",
+    category: "dungeons",
+    name: "Caine Dough Dungeon Team",
+    kicker: "Run Caine with Pomni and Ragatha",
+    description: "Pomni and Ragatha join Caine in this Dough preset. Keep Cream Puff and Strawberry Shortcake in their pictured slots, with Holy Baby Drop, Hot Doggie, and Furball Pup. Try the lower-left corner at 7 o'clock.",
+    cookies: ["cookie0070", "chardonnay", "cookie0678", "cookie2006", "cookie0072", "cookie4019", "cookie0573", "cookie0048", "cookie0126", "cookie0513", "cookie0672", "cookie0674"],
+    pets: ["pet4001", "pet0111", "pet0053"],
+    updatedAt: "2026-10-27",
+  },
+  {
+    id: "caine-research-stone-dungeon-828",
+    category: "dungeons",
+    name: "Caine Research Stone Dungeon Team",
+    kicker: "Keep Pomni beside the support core",
+    description: "Use the Research Stone formation with Pomni, Melon Soda, and Rockstar. Keep Holy Baby Drop, Hot Doggie, and Furball Pup as the Pet trio. Move toward 7 o'clock when taking a corner.",
+    cookies: ["cookie0070", "cookie0048", "cookie0678", "cookie0126", "cookie2006", "cookie0027", "chardonnay", "cookie3001", "cookie4010", "cookie0018", "cookie0672", "cookie4019"],
+    pets: ["pet4001", "pet0111", "pet0053"],
+    updatedAt: "2026-10-27",
+  },
+  {
+    id: "caine-snow-crystal-dungeon-834",
+    category: "dungeons",
+    name: "Caine Snow Crystal Dungeon Team",
+    kicker: "Add HP and damage reduction with your Pets",
+    description: "Schwarzwälder, Nameless Cake Hound, Ion, and Moon Rabbit join the Snow Crystal team. Use Holy Baby Drop, Majestic King Choco Drop, and Icy Birdie for this preset. Try the lower-left corner at 7 o'clock when repositioning.",
+    cookies: ["cookie4013", "cookie0181", "cookie0678", "cookie0570", "cookie4024", "cookie0063", "chardonnay", "cookie0515", "cookie0126", "cookie4019", "cookie0136", "cookie4025"],
+    pets: ["pet4001", "pet4003", "pet0230"],
+    updatedAt: "2026-10-27",
+  },
+  {
+    "id": "caine-guild-conquest",
+    "category": "guild-conquest",
+    "name": "Caine Guild Conquest Team",
+    "kicker": "Try the Cheesecake swap before rebuilding",
+    "description": "Caine replaces Cheesecake beside Milk. Copy both rows and keep Hot Doggie, Octo Wasabi, and Holy Baby Drop for the first comparison. Three-star Caine is worth testing; compare completed runs before chasing promotions or exact level tuning.",
+    "cookies": [
+      "cookie4013",
+      "cookie0181",
+      "cookie3001",
+      "cookie4010",
+      "cookie0018",
+      "cookie0103",
+      "cookie4003",
+      "cookie0515",
+      "cookie0678",
+      "cookie0126",
+      "cookie4019",
+      "cookie0532"
+    ],
+    "pets": [
+      "pet0111",
+      "pet0110",
+      "pet4001"
+    ],
+    "updatedAt": "2026-10-26",
+    "guideReference": {
+      "href": "/guides/cookie-run-crumble-caine-guild-conquest-team/",
+      "leadIn": "The ",
+      "anchor": "Caine Guild Conquest guide",
+      "followUp": " covers the swap and two stat presets."
+    }
+  },
   {
     id: "chardonnay-auto-story",
     category: "story",
@@ -445,7 +529,7 @@ export const recommendedTeams: RecommendedTeam[] = [
   },
   {
     id: "wind-archer-guild-conquest",
-    category: "bosses",
+    category: "guild-conquest",
     name: "Wind Archer Guild Conquest Team",
     kicker: "A higher ceiling for Guild Conquest bosses",
     description: "Use this when a Guild Conquest boss survives your final push. Wind Archer, Scorpion, Rye, and Melon Soda carry the damage window, while Pomegranate, Milk, and the support core keep buffs, healing, DEF Down, and Lift Resistance online. If Wind Archer is underpromoted, use Milky Way only when its stars and Runes are clearly ahead.",

@@ -91,7 +91,7 @@ describe("guide registry", () => {
     const pets = ["pet0111", "pet4001", "pet4005"];
     expect(content).toContain(`cookieIds={${JSON.stringify(cookies).replace(/,/g, ", ")}}`);
     expect(content).toContain(`petIds={${JSON.stringify(pets).replace(/,/g, ", ")}}`);
-    expect(recommendedTeams[0]).toMatchObject({
+    expect(recommendedTeams.find((team) => team.id === "chardonnay-auto-story")).toMatchObject({
       id: "chardonnay-auto-story", category: "story", cookies, pets,
       updatedAt: "2026-10-16", guideReference: { href: `/guides/${slug}/` },
     });
@@ -523,7 +523,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-chardonnay-auto-story-team");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-caine-guild-conquest-team");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 

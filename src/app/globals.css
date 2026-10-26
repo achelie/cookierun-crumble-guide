@@ -697,6 +697,11 @@ button.builder-slot { padding: 0; border-style: solid; cursor: pointer; }
 .guide-prose li { padding-left: 5px; }
 .guide-prose li::marker { color: var(--accent-dark); font-weight: 900; }
 .guide-prose strong { color: var(--ink); }
+.guide-roster-table { margin: 0 0 24px; }
+.guide-roster-table table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem; }
+.guide-roster-table caption { margin-bottom: 8px; text-align: left; font-size: 0.85rem; color: var(--muted); }
+.guide-roster-table th, .guide-roster-table td { padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.guide-roster-table th:first-child { width: 5.5em; }
 .guide-prose a { color: var(--accent-dark); font-weight: 850; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent), transparent 45%); text-decoration-thickness: 2px; text-underline-offset: 3px; }
 .guide-prose a:hover { text-decoration-color: var(--accent-dark); }
 .guide-tip { position: relative; margin: 25px 0 28px; padding: 19px 22px 19px 25px; overflow: hidden; border: 1px solid color-mix(in srgb, var(--accent), var(--line) 48%); border-radius: 15px; background: linear-gradient(130deg, color-mix(in srgb, var(--accent-soft), var(--paper) 72%), color-mix(in srgb, var(--paper-2), transparent 4%)); }

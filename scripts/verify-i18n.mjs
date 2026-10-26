@@ -11,6 +11,7 @@ const read=async file=>JSON.parse(await fs.readFile(file,'utf8'));
 const locales=['zh-Hant','ja','ko','th'];
 const sourceMessages=await read('src/i18n/source/messages.json');
 const {guides}=loadTypeScript('src/data/guides.ts');
+const {guideSupportsLocale}=loadTypeScript('src/i18n/guide-availability.ts');
 const {cookies}=loadTypeScript('src/data/cookies.ts');
 const {pets}=loadTypeScript('src/data/pets.ts');
 const entities=await read('src/i18n/source/entities.json');
@@ -55,6 +56,7 @@ for(const locale of locales){
  }
  let completed=0;
  for(const guide of guides){
+  if(!guideSupportsLocale(guide.slug,locale))continue;
   const targetPath=`src/content/guides/${locale}/${guide.slug}.mdx`;
   const target=await fs.readFile(targetPath,'utf8').catch(()=>undefined);
   if(!target){check(false,`${locale}: missing guide ${guide.slug}`);continue;}
@@ -70,7 +72,7 @@ for(const locale of locales){
  for(const name of ['sugar-runes','stellar-link','plate-enhancement','site-data']){
   try{assert.deepEqual(mechanics(await read(`public/data/tools/${locale}/${name}.json`)),mechanics(await read(`public/data/tools/en/${name}.json`)));}catch{check(false,`${locale}: changed IDs, numeric inputs or rules in ${name}`);}
  }
- console.log(`${locale}: ${sourceMessages.length-missing.length}/${sourceMessages.length} messages, ${completed}/${guides.length} guides`);
+ console.log(`${locale}: ${sourceMessages.length-missing.length}/${sourceMessages.length} messages, ${completed}/${guides.filter(guide=>guideSupportsLocale(guide.slug,locale)).length} guides`);
 }
 const {alternateLanguages,locales:allLocales,localizedPath}=loadTypeScript('src/i18n/config.ts');
 const {seoPages,siteUrl}=loadTypeScript('src/lib/seo.ts');
@@ -79,4 +81,4 @@ for(const path of [...Object.values(seoPages).map(page=>page.path),...guides.map
  for(const locale of allLocales)assert.deepEqual(alternateLanguages(localizedPath(path,locale),siteUrl),expected);
 }
 if(errors.length){console.error(errors.slice(0,35).join('\n'));if(errors.length>35)console.error(`... ${errors.length-35} further errors`);if(!partial)process.exitCode=1;}
-else console.log(`Offline localization gate passed: ${cookies.length} Cookies, ${pets.length} Pets, ${guides.length*locales.length} translated guides.`);
+else console.log(`Offline localization gate passed: ${cookies.length} Cookies, ${pets.length} Pets, ${guides.reduce((count,guide)=>count+locales.filter(locale=>guideSupportsLocale(guide.slug,locale)).length,0)} translated guides.`);

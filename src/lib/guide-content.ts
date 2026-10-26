@@ -5,6 +5,7 @@ import { localizedGuideLoaders } from "@/i18n/guide-loaders";
 type GuideModule = { default: ComponentType };
 
 const guideLoaders: Record<string, () => Promise<GuideModule>> = {
+  "cookie-run-crumble-caine-guild-conquest-team": () => import("@/content/guides/cookie-run-crumble-caine-guild-conquest-team.mdx"),
   "cookie-run-crumble-chardonnay-auto-story-team": () => import("@/content/guides/cookie-run-crumble-chardonnay-auto-story-team.mdx"),
   "cookie-run-crumble-bari-story-boss-team-presets": () => import("@/content/guides/cookie-run-crumble-bari-story-boss-team-presets.mdx"),
   "cookie-run-crumble-princess-bari-cookie-build-team": () => import("@/content/guides/cookie-run-crumble-princess-bari-cookie-build-team.mdx"),

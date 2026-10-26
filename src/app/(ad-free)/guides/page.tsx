@@ -8,14 +8,19 @@ import { guides } from "@/data/guides";
 import { pageMetadata } from "@/lib/metadata";
 import { absoluteUrl, seoPages } from "@/lib/seo";
 import { collectionPageSchema } from "@/lib/structured-data";
+import { localeFromSegment } from "@/i18n/config";
+import { guideSupportsLocale } from "@/i18n/guide-availability";
 
 const page = seoPages.guides;
 export const metadata: Metadata = pageMetadata(page);
 
-export default function GuidesPage() {
+export default async function GuidesPage({params}: {params?: Promise<{locale?: string}>} = {}) {
+  const segment = (await params)?.locale;
+  const locale = segment ? localeFromSegment(segment) ?? "en" : "en";
+  const availableGuides = guides.filter((guide) => guideSupportsLocale(guide.slug, locale));
   return (
     <I18nElement as="div" className="page-shell guides-page">
-      <StructuredData data={collectionPageSchema(page, guides.map((guide) => ({
+      <StructuredData data={collectionPageSchema(page, availableGuides.map((guide) => ({
         "@type": "Article",
         headline: guide.title,
         description: guide.seoDescription,
@@ -24,8 +29,8 @@ export default function GuidesPage() {
         dateModified: guide.updatedAt,
       })))} />
       <SeoPageHeader page={page} icon="book" />
-      <Suspense fallback={<GuidesExplorerFallback guides={guides} />}>
-        <GuidesExplorer guides={guides} />
+      <Suspense fallback={<GuidesExplorerFallback guides={availableGuides} />}>
+        <GuidesExplorer guides={availableGuides} />
       </Suspense>
     </I18nElement>
   );
