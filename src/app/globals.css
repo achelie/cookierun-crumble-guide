@@ -756,6 +756,7 @@ button.builder-slot { padding: 0; border-style: solid; cursor: pointer; }
 .redeem-callout { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin-top: 70px; padding: 32px 38px; border-radius: var(--radius-card); color: #fff5e9; background: radial-gradient(circle at 88% 10%, #df6d59, transparent 30%), linear-gradient(130deg, #762726, #a93831); box-shadow: 0 20px 48px rgba(93, 31, 29, 0.28); }
 .redeem-callout span { color: #f5c4b4; }
 .redeem-callout h2 { margin: 0; font-family: var(--font-display), sans-serif; font-size: var(--text-section); line-height: 1.2; }
+.redeem-callout ol { display: grid; gap: 8px; max-width: 54ch; margin: 16px 0 0; padding-left: 1.4em; list-style: decimal; }
 .redeem-callout p { max-width: 54ch; margin: 10px 0 0; color: #f3d4c9; }
 .redeem-callout a { flex: none; border-color: #fff0e7; color: #7b2926; background: #fff0e7; box-shadow: 0 8px 0 #54201f; }
 

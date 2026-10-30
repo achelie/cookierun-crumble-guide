@@ -2751,7 +2751,13 @@
     "Which Pets go with the Caine team?": "케인 덱에는 어떤 펫을 쓰나요?",
     "Use Hot Doggie, Octo Wasabi, and Holy Baby Drop. Keep all three unchanged during your first Cookie comparison so a Pet swap does not confuse the result. Record their current levels before making later upgrades.": "핫도그도그, 와사비 문어, 갓난갓방울을 사용하세요. 첫 쿠키 비교에서는 세 펫을 고정해 펫 교체 효과가 결과에 섞이지 않게 합니다. 이후 강화하기 전에 현재 레벨을 기록하세요.",
     "Is Skill Amp and Skill Haste always the better preset?": "스킬증폭과 스킬가속 세팅이 항상 더 좋은가요?",
-    "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.": "모든 계정에서 더 좋다고 확정된 세팅은 없습니다. 같은 편성과 펫으로 스킬증폭·공격력·일부 스킬가속 세팅과 증폭·가속 중심 세팅을 비교하세요. 보유 장비로 전투 종료 결과가 더 좋은 프리셋을 남기면 됩니다."
+    "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.": "모든 계정에서 더 좋다고 확정된 세팅은 없습니다. 같은 편성과 펫으로 스킬증폭·공격력·일부 스킬가속 세팅과 증폭·가속 중심 세팅을 비교하세요. 보유 장비로 전투 종료 결과가 더 좋은 프리셋을 남기면 됩니다.",
+    "How to redeem codes": "쿠폰 코드 사용 방법",
+    "In the game, open Settings and find your DevPlay account under Account.": "게임에서 설정을 열고 계정 메뉴에서 DevPlay 계정을 확인하세요.",
+    "Open the official coupon page and enter your DevPlay account and an active coupon code.": "공식 쿠폰 페이지에서 DevPlay 계정과 유효한 쿠폰 코드를 입력하세요.",
+    "Complete any verification and select Claim Reward.": "필요한 인증을 마친 뒤 보상 받기를 선택하세요.",
+    "Restart the game and check your in-game mail for the reward.": "게임을 다시 시작하고 게임 내 우편함에서 보상을 확인하세요.",
+    "Each code can be used once per account. Expired codes cannot be redeemed.": "각 코드는 계정당 한 번만 사용할 수 있습니다. 만료된 코드는 사용할 수 없습니다."
   },
   "origins": {
     "(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px": "translated-draft-cache",

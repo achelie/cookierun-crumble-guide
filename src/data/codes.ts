@@ -1,5 +1,5 @@
-// Public coupon snapshot checked on 2026-08-29.
-export const codesUpdatedAt = "2026-08-29";
+// Public coupon lists checked on 2026-10-31.
+export const codesUpdatedAt = "2026-10-31";
 export type CodeReward = {
   label: string;
   amount: string;

@@ -2759,7 +2759,13 @@
     "Which Pets go with the Caine team?": "凱恩隊伍要帶哪些寵物？",
     "Use Hot Doggie, Octo Wasabi, and Holy Baby Drop. Keep all three unchanged during your first Cookie comparison so a Pet swap does not confuse the result. Record their current levels before making later upgrades.": "使用熱狗狗、芥末章魚和新生神滴露。第一次比較餅乾時，固定這三隻，避免寵物替換混淆結果。之後要升級前，先記下目前等級。",
     "Is Skill Amp and Skill Haste always the better preset?": "技能增幅與技能加速一定比較好嗎？",
-    "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.": "沒有適用所有帳號的確定贏家。在相同隊員與寵物下，比較技能增幅、攻擊力加一些技能加速，以及技能增幅與技能加速兩種方向。保留現有裝備能打出較好完整結算的預設。"
+    "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.": "沒有適用所有帳號的確定贏家。在相同隊員與寵物下，比較技能增幅、攻擊力加一些技能加速，以及技能增幅與技能加速兩種方向。保留現有裝備能打出較好完整結算的預設。",
+    "How to redeem codes": "如何兌換序號",
+    "In the game, open Settings and find your DevPlay account under Account.": "在遊戲中開啟設定，在「帳號」查看你的 DevPlay 帳號。",
+    "Open the official coupon page and enter your DevPlay account and an active coupon code.": "開啟官方兌換頁面，輸入 DevPlay 帳號和有效序號。",
+    "Complete any verification and select Claim Reward.": "完成所需驗證，然後選擇領取獎勵。",
+    "Restart the game and check your in-game mail for the reward.": "重新啟動遊戲，然後到遊戲內信箱領取獎勵。",
+    "Each code can be used once per account. Expired codes cannot be redeemed.": "每個帳號只能使用每個序號一次，過期序號無法兌換。"
   },
   "origins": {
     "(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px": "native-reviewed",

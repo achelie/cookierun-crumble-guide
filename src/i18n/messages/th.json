@@ -2786,7 +2786,13 @@
     "Which Pets go with the Caine team?": "ทีมเคนควรใช้เพ็ตตัวไหน?",
     "Use Hot Doggie, Octo Wasabi, and Holy Baby Drop. Keep all three unchanged during your first Cookie comparison so a Pet swap does not confuse the result. Record their current levels before making later upgrades.": "ใช้ ฮอทดอกกี้, หมึกวาซาบิ และ เบบี้เทพหยด เก็บทั้งสามตัวเดิมในการเทียบคุกกี้ครั้งแรก เพื่อไม่ให้การเปลี่ยนเพ็ตทำให้ผลสับสน จดเลเวลปัจจุบันก่อนอัปเกรดภายหลัง",
     "Is Skill Amp and Skill Haste always the better preset?": "ขยายสกิลกับเร่งสกิลดีกว่าเสมอไหม?",
-    "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.": "ยังไม่มีแบบที่ยืนยันว่าชนะสำหรับทุกบัญชี ใช้ทีมและเพ็ตเดิมเทียบขยายสกิล พลังโจมตี และเร่งสกิลบางส่วนกับแบบเน้นขยายและเร่งสกิล เก็บพรีเซ็ตที่ทำผลหลังจบได้ดีกว่าด้วยอุปกรณ์ที่คุณมี"
+    "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.": "ยังไม่มีแบบที่ยืนยันว่าชนะสำหรับทุกบัญชี ใช้ทีมและเพ็ตเดิมเทียบขยายสกิล พลังโจมตี และเร่งสกิลบางส่วนกับแบบเน้นขยายและเร่งสกิล เก็บพรีเซ็ตที่ทำผลหลังจบได้ดีกว่าด้วยอุปกรณ์ที่คุณมี",
+    "How to redeem codes": "วิธีแลกโค้ด",
+    "In the game, open Settings and find your DevPlay account under Account.": "เปิดการตั้งค่าในเกม แล้วดูบัญชี DevPlay ในเมนูบัญชี",
+    "Open the official coupon page and enter your DevPlay account and an active coupon code.": "เปิดหน้าคูปองทางการ แล้วกรอกบัญชี DevPlay และโค้ดที่ยังใช้ได้",
+    "Complete any verification and select Claim Reward.": "ทำการยืนยันหากมี แล้วกดรับรางวัล",
+    "Restart the game and check your in-game mail for the reward.": "รีสตาร์ตเกมแล้วตรวจสอบรางวัลในจดหมายเกม",
+    "Each code can be used once per account. Expired codes cannot be redeemed.": "แต่ละโค้ดใช้ได้หนึ่งครั้งต่อบัญชี และโค้ดที่หมดอายุแล้วแลกไม่ได้"
   },
   "origins": {
     "(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px": "translated-draft-cached",

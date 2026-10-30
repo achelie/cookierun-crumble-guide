@@ -17,7 +17,7 @@ describe("coupon data", () => {
   });
 
   it("keeps both August launch coupons in the expired archive", () => {
-    expect(codesUpdatedAt).toBe("2026-08-29");
+    expect(codesUpdatedAt).toBe("2026-10-31");
     expect(codes).toHaveLength(2);
     expect(codes.filter((code) => code.status === "active")).toHaveLength(0);
     expect(codes.filter((code) => code.status === "expired").map((code) => code.code)).toEqual([

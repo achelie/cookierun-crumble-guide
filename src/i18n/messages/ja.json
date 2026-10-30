@@ -2741,7 +2741,13 @@
     "Which Pets go with the Caine team?": "ケインのチームにはどのペットを使いますか？",
     "Use Hot Doggie, Octo Wasabi, and Holy Baby Drop. Keep all three unchanged during your first Cookie comparison so a Pet swap does not confuse the result. Record their current levels before making later upgrades.": "ホットドッグドッグ、わさびダコ、ベビードロップを使います。最初のクッキー比較では3体を固定し、ペット変更の効果を混ぜないでください。後から強化する前に、現在のレベルを記録しておきます。",
     "Is Skill Amp and Skill Haste always the better preset?": "スキル増幅とスキル加速の構成が必ず強いですか？",
-    "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.": "どのアカウントでも勝つと確定した構成はありません。同じクッキーとペットで、スキル増幅、攻撃力、少しのスキル加速を使う構成と、増幅・加速寄りの構成を比べます。手持ちの装備で終了時の結果がよい方を保存してください。"
+    "No confirmed winner applies to every account. Compare Skill Amp, ATK, and some Skill Haste against the Amp-and-Haste approach with the same lineup and Pets. Keep the saved preset that produces stronger completed runs with your available equipment.": "どのアカウントでも勝つと確定した構成はありません。同じクッキーとペットで、スキル増幅、攻撃力、少しのスキル加速を使う構成と、増幅・加速寄りの構成を比べます。手持ちの装備で終了時の結果がよい方を保存してください。",
+    "How to redeem codes": "コードの交換方法",
+    "In the game, open Settings and find your DevPlay account under Account.": "ゲーム内で設定を開き、「アカウント」でDevPlayアカウントを確認します。",
+    "Open the official coupon page and enter your DevPlay account and an active coupon code.": "公式クーポンページを開き、DevPlayアカウントと有効なコードを入力します。",
+    "Complete any verification and select Claim Reward.": "必要な認証を済ませ、報酬受け取りを選びます。",
+    "Restart the game and check your in-game mail for the reward.": "ゲームを再起動し、ゲーム内メールで報酬を確認します。",
+    "Each code can be used once per account. Expired codes cannot be redeemed.": "各コードは1アカウントにつき1回のみ使用できます。期限切れのコードは使えません。"
   },
   "origins": {
     "(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px": "preserved-technical-identifier",
