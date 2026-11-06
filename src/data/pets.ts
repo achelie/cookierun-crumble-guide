@@ -1,7 +1,7 @@
 import type { Rarity } from "./cookies";
 
-// Catalog checked against the local REA 1.6.002 snapshot; see catalog-source.json.
-export const petsUpdatedAt = "2026-10-25";
+// Catalog checked against the local REA 1.6.102 snapshot; see catalog-source.json.
+export const petsUpdatedAt = "2026-11-06";
 
 export type Pet = {
   id: string;
@@ -45,6 +45,8 @@ const effectsById: Partial<Record<string, string[]>> = {
   pet0239: ["Charge allies gain Damage Reduction"],
   pet0243: ["Defense allies gain Dodge"],
   pet0252: ["Ranged allies gain Accuracy"],
+  pet0303: ["All allies gain Accuracy"],
+  pet0304: ["All allies gain Knockback Resistance"],
   pet0517: ["Support allies gain Focus Chance"],
   pet1004: ["Max HP Up"],
   pet4001: ["All allies gain ATK"],
@@ -82,6 +84,7 @@ const raw = [
   ["pet0228", "Candy Shade Pouch", "SSR"], ["pet0230", "Icy Birdie", "SR"],
   ["pet0239", "Eggbeak", "SSR"],
   ["pet0243", "Breadog", "SSR"], ["pet0252", "Berry Angrybeak", "SSR"],
+  ["pet0303", "Ketch-UP", "SSR"], ["pet0304", "GO-Mayo", "SSR"],
   ["pet0517", "Constable Whiskers", "SSR"], ["pet1004", "Soda Dollop", "SR"],
   ["pet4001", "Holy Baby Drop", "SSR"], ["pet4002", "Toofie", "R"],
   ["pet4003", "Majestic King Choco Drop", "SSR"], ["pet4004", "Sweet n' Sour", "SSR"],

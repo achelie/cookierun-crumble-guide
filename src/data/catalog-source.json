@@ -1,17 +1,17 @@
 {
-  "version": "1.6.002",
-  "updatedAt": "2026-10-25",
-  "snapshot": "updates/20261025-1.6.002",
+  "version": "1.6.102",
+  "updatedAt": "2026-11-06",
+  "snapshot": "updates/20261106-1.6.102",
   "counts": {
-    "cookies": 82,
-    "pets": 59
+    "cookies": 85,
+    "pets": 61
   },
   "files": {
-    "database/decoded/Cookies.json": "2d322e6e56540fbf36b2eb06b6eb528381933e41408efc88c590d85435f253b7",
-    "database/decoded/Pets.json": "a3794849732a3633771a2ba5a55c14afb8b97da604df29dd4a846882a7804133",
-    "database/decoded/Skills.json": "1e17d48e556f00771b264995d80c5b364f19f206db179309f80fb47ee44bbb3e",
-    "database/decoded/Passives.json": "b8a5f115fc087b769721b9f77f669d5d2c91fa40d4ea23a8b6742401a968caba",
-    "database/decoded/PetBattleTeamPassives.json": "a38fcb309a00f79ebe8b9d4abc74e58c9e8fc5de6cfe0cb5fa6176c63744bc2f"
+    "database/decoded/Cookies.json": "36f24498acdedae810c60629c44d7d64d18d643df00c413c857bf5aefc53eaec",
+    "database/decoded/Pets.json": "903efb293d9663eb7e902af36c0dcbbc7e6dba6938c16d8ebe2e285d7bf2300e",
+    "database/decoded/Skills.json": "e238b801205b014eeb5e6bd5d291cbc5649405b3a7f91f50d3772d73168ebe5e",
+    "database/decoded/Passives.json": "202fd21a0302902fa75045420ca7a378e2a9305c729c5a33c9661fc25dce838d",
+    "database/decoded/PetBattleTeamPassives.json": "210e99b327efdbd49a2acd2c9b5b81496a33fc6fa7790c48a1850763cde6dda4"
   },
   "cookies": [
     {
@@ -158,6 +158,78 @@
         "source": "site/dist/assets/174ab51fbc7980c4e6b04dcd.webp",
         "sha256": "339bc704bf9168f78ff43bfbaf44fb6c4bcad233855e4cbfdaf89a1caee9f725"
       }
+    },
+    {
+      "resourceKey": "cookie0673",
+      "names": {
+        "en": "Jax Cookie",
+        "zh-Hant": "賈克斯餅乾",
+        "ko": "잭스 쿠키",
+        "ja": "ジャックスクッキー",
+        "th": "คุกกี้แจ๊กซ์"
+      },
+      "rarity": "SP",
+      "element": "Fire",
+      "role": "Charge",
+      "grantedSynergies": [],
+      "receivedSynergies": [
+        "Duration"
+      ],
+      "skillDescriptionEn": [
+        "Swings bat to knock back and deal damage to enemies.\nTosses a stun grenade at a high-ATK enemy, dealing damage to surrounding enemies and reducing DEF."
+      ],
+      "image": {
+        "source": "site/dist/assets/4bb54d2b6bdd5736d2002fda.webp",
+        "sha256": "2e88835aa173e381c45b564ddd68376db26612e8b93315d10623bb0907cc9f19"
+      }
+    },
+    {
+      "resourceKey": "cookie0675",
+      "names": {
+        "en": "Gangle Cookie",
+        "zh-Hant": "安歌餅乾",
+        "ko": "갱글 쿠키",
+        "ja": "ガングルクッキー",
+        "th": "คุกกี้แกงเกิ้ล"
+      },
+      "rarity": "SP",
+      "element": "Fire",
+      "role": "Ranged",
+      "grantedSynergies": [],
+      "receivedSynergies": [
+        "Duration"
+      ],
+      "skillDescriptionEn": [
+        "Wraps ribbon around high-ATK enemies, reducing their SPD and ATK and dealing damage over time."
+      ],
+      "image": {
+        "source": "site/dist/assets/26f65465ed6a1c65727c3ff8.webp",
+        "sha256": "df295fa26050922f64e30c22daee5ccb8b6399f4e0c4448a3c65c1982f4001f7"
+      }
+    },
+    {
+      "resourceKey": "cookie0676",
+      "names": {
+        "en": "Zooble Cookie",
+        "zh-Hant": "祖波餅乾",
+        "ko": "주블 쿠키",
+        "ja": "ズーブルクッキー",
+        "th": "คุกกี้ซูเบิ้ล"
+      },
+      "rarity": "SP",
+      "element": "Water",
+      "role": "Ranged",
+      "grantedSynergies": [],
+      "receivedSynergies": [
+        "Multi-shot"
+      ],
+      "skillDescriptionEn": [
+        "Mixes up carbonated juices before firing off the fizz, dealing damage to enemies ahead."
+      ],
+      "image": {
+        "source": "site/dist/assets/97bf65b0bca7311c377d44a6.webp",
+        "sha256": "87314449cae64902ec2c0e63d50d32d5516a7ce9be39e8a3567c172623e37c46"
+      }
     }
   ],
   "pets": [
@@ -209,6 +281,56 @@
       "image": {
         "source": "site/dist/assets/f96e9792810fcfd047db2913.webp",
         "sha256": "81a1877c0d683505c132374149dd548f670dc9ab39e4387afb0c0e816ebeaf57"
+      }
+    },
+    {
+      "resourceKey": "pet0303",
+      "names": {
+        "en": "Ketch-UP",
+        "zh-Hant": "噗唧番茄醬",
+        "ko": "토마토 찹찹",
+        "ja": "トマトチャプチャプ",
+        "th": "เคทชัปกระโดดสับ"
+      },
+      "rarity": "SSR",
+      "basePassive": {
+        "id": 1507577899,
+        "descriptions": {
+          "en": "Ally Accuracy +<color>30</color>",
+          "ja": "味方の命中<color>30</color>増加",
+          "ko": "아군 명중 <color>30</color> 증가",
+          "th": "เพิ่มความแม่นยำของเพื่อนร่วมทีม <color>30</color>",
+          "zh-Hant": "我方命中+<color>30</color>"
+        }
+      },
+      "image": {
+        "source": "site/dist/assets/3a33a0b25029c474a5dfe76a.webp",
+        "sha256": "db6ff5dacb444160689eb7495dfd4aac1c883d2f635af2e924e02cd8e02f8850"
+      }
+    },
+    {
+      "resourceKey": "pet0304",
+      "names": {
+        "en": "GO-Mayo",
+        "zh-Hant": "滑溜美乃滋",
+        "ko": "멈추지 마요",
+        "ja": "トマラネーズ",
+        "th": "มายองเนสลื่นปรื๊ด"
+      },
+      "rarity": "SSR",
+      "basePassive": {
+        "id": 1715500026,
+        "descriptions": {
+          "en": "Ally Push RES +<color>15%</color>",
+          "ja": "味方のノックバック抵抗<color>15%</color>増加",
+          "ko": "아군 밀치기 저항 <color>15%</color> 증가",
+          "th": "เพิ่มต้านทานน็อคแบ็คของเพื่อนร่วมทีม <color>15%</color>",
+          "zh-Hant": "我方擊退抵抗+<color>15%</color>"
+        }
+      },
+      "image": {
+        "source": "site/dist/assets/e8142fd70ece935955ab3f13.webp",
+        "sha256": "35457492b136dd91221e031a67f250805c2afa451f68dd18f91ac2b7a51acd1c"
       }
     }
   ]

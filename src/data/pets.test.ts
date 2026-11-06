@@ -5,13 +5,13 @@ import { pets } from "./pets";
 import catalogSource from "./catalog-source.json";
 
 describe("pet catalog", () => {
-  it("keeps all 59 IDs unique and defines an effect list for every pet", () => {
-    expect(pets).toHaveLength(59);
+  it("keeps all catalog IDs unique and defines an effect list for every pet", () => {
+    expect(pets).toHaveLength(catalogSource.counts.pets);
     expect(new Set(pets.map(({ id }) => id)).size).toBe(pets.length);
     for (const pet of pets) expect(pet.effects, `${pet.name} effects`).toBeInstanceOf(Array);
   });
 
-  it("matches both new 1.6.002 pet identities and companion effects", () => {
+  it("matches imported pet identities and companion effects", () => {
     for (const source of catalogSource.pets) {
       expect(pets.find(({ id }) => id === source.resourceKey)).toMatchObject({
         name: source.names.en,
@@ -20,6 +20,8 @@ describe("pet catalog", () => {
     }
     expect(pets.find(({ id }) => id === "pet0011")?.effects).toEqual(["Summons gain ATK"]);
     expect(pets.find(({ id }) => id === "pet4006")?.effects).toEqual(["All allies gain Damage Reduction"]);
+    expect(pets.find(({ id }) => id === "pet0303")?.effects).toEqual(["All allies gain Accuracy"]);
+    expect(pets.find(({ id }) => id === "pet0304")?.effects).toEqual(["All allies gain Knockback Resistance"]);
   });
 
   it("includes the current registered effects", () => {

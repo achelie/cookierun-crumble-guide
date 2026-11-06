@@ -24,7 +24,7 @@ describe("cookie catalog", () => {
   });
 
   it("keeps all current cookie IDs unique", () => {
-    expect(cookies).toHaveLength(82);
+    expect(cookies).toHaveLength(catalogSource.counts.cookies);
     expect(new Set(cookies.map(({ id }) => id)).size).toBe(cookies.length);
   });
 
@@ -54,7 +54,7 @@ describe("cookie catalog", () => {
     }
   });
 
-  it("matches imported identities and combat tags in the 1.6.002 snapshot", () => {
+  it("matches imported identities and combat tags in the current snapshot", () => {
     for (const source of catalogSource.cookies) {
       const id = source.resourceKey === "cookie4011" ? "chardonnay" : source.resourceKey;
       expect(cookies.find((cookie) => cookie.id === id), id).toMatchObject({
@@ -69,6 +69,8 @@ describe("cookie catalog", () => {
     expect(cookies.filter(({ name }) => name === "Chardonnay Cookie")).toHaveLength(1);
     expect(cookies.find(({ id }) => id === "cookie4014")?.buffs).toEqual(["Shield", "Summon Skill Haste Up"]);
     expect(cookies.find(({ id }) => id === "cookie0677")?.buffs).toEqual(["Crowd Control Removal", "Healing"]);
+    expect(cookies.find(({ id }) => id === "cookie0673")?.buffs).toEqual(["DEF Down"]);
+    expect(cookies.find(({ id }) => id === "cookie0675")?.buffs).toEqual(["Move Speed Down", "ATK Down"]);
   });
 
   it("ships every referenced game image locally", () => {

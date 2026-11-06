@@ -45,7 +45,7 @@ describe("combined tier list", () => {
 
   it("keeps newly imported Cookies unranked until their ranking is reviewed", () => {
     const rankedIds = tierRanks.flatMap((rank) => tierList[rank]);
-    for (const id of ["cookie0677"]) {
+    for (const id of ["cookie0677", "cookie0673", "cookie0675", "cookie0676"]) {
       expect(cookies.some((cookie) => cookie.id === id)).toBe(true);
       expect(rankedIds).not.toContain(id);
     }

@@ -47,10 +47,8 @@ describe("home navigation", () => {
   it("renders the current roster totals from the data arrays", () => {
     const html = renderToStaticMarkup(<HomePage />);
 
-    expect(cookies).toHaveLength(82);
-    expect(pets).toHaveLength(59);
-    expect(html).toContain("82 Cookies");
-    expect(html).toContain("59 Pets");
+    expect(html).toContain(`${cookies.length} Cookies`);
+    expect(html).toContain(`${pets.length} Pets`);
     expect(html).not.toContain("70 Cookies");
     expect(html).not.toContain("54 Pets");
   });

@@ -11997,7 +11997,14 @@
     "Kinger Cookie": "キンガークッキー",
     "Caine Cookie": "ケインクッキー",
     "Bubble": "バブル",
-    "Flowercopter": "フラワーコプター"
+    "Flowercopter": "フラワーコプター",
+    "Jax Cookie": "ジャックスクッキー",
+    "Gangle Cookie": "ガングルクッキー",
+    "Zooble Cookie": "ズーブルクッキー",
+    "Ketch-UP": "トマトチャプチャプ",
+    "GO-Mayo": "トマラネーズ",
+    "All allies gain Accuracy": "味方全員の命中が上昇",
+    "All allies gain Knockback Resistance": "味方全員のノックバック抵抗が上昇"
   },
   "origins": {
     "0": "game-localization:DimensionStageSeason.SeasonName.2014075507",
@@ -23993,6 +24000,13 @@
     "Kinger Cookie": "rea-1.6.002:official-entity-name",
     "Caine Cookie": "rea-1.6.002:official-entity-name",
     "Bubble": "rea-1.6.002:official-entity-name",
-    "Flowercopter": "rea-1.6.002:official-entity-name"
+    "Flowercopter": "rea-1.6.002:official-entity-name",
+    "Jax Cookie": "rea-1.6.102:official-entity-name",
+    "Gangle Cookie": "rea-1.6.102:official-entity-name",
+    "Zooble Cookie": "rea-1.6.102:official-entity-name",
+    "Ketch-UP": "rea-1.6.102:official-entity-name",
+    "GO-Mayo": "rea-1.6.102:official-entity-name",
+    "All allies gain Accuracy": "rea-1.6.102:reviewed-effect-summary",
+    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary"
   }
 }

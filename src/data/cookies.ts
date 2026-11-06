@@ -1,6 +1,6 @@
 export const rarities = ["TSSR", "SSR", "SP", "SR", "R", "U", "C"] as const;
-// Catalog checked against the local REA 1.6.002 snapshot; see catalog-source.json.
-export const cookiesUpdatedAt = "2026-10-25";
+// Catalog checked against the local REA 1.6.102 snapshot; see catalog-source.json.
+export const cookiesUpdatedAt = "2026-11-06";
 export type Rarity = (typeof rarities)[number];
 
 export const elements = ["Fire", "Water", "Grass", "Light", "Dark"] as const;
@@ -149,7 +149,10 @@ export const cookies: Cookie[] = [
   { id: "chardonnay", name: "Chardonnay Cookie", rarity: "SSR", image: "/images/cookies/chardonnay.webp", element: "Grass", role: "Support", grantedSynergies: ["Multi-shot"], receivedSynergies: ["Projectile Speed"], buffs: ["CRIT Chance Up", "Knockback Resistance Up"] },
   { id: "cookie4014", name: "Readyberry Cookie", rarity: "TSSR", image: "/images/cookies/cookie4014.webp", element: "Grass", role: "Support", grantedSynergies: [], receivedSynergies: ["Duration", "Area"], buffs: ["Shield", "Summon Skill Haste Up"] },
   { id: "cookie0672", name: "Pomni Cookie", rarity: "SP", image: "/images/cookies/cookie0672.webp", element: "Grass", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: [] },
+  { id: "cookie0673", name: "Jax Cookie", rarity: "SP", image: "/images/cookies/cookie0673.webp", element: "Fire", role: "Charge", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: ["DEF Down"] },
   { id: "cookie0674", name: "Ragatha Cookie", rarity: "SP", image: "/images/cookies/cookie0674.webp", element: "Grass", role: "Defense", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: ["Damage Taken Down", "Healing"] },
+  { id: "cookie0675", name: "Gangle Cookie", rarity: "SP", image: "/images/cookies/cookie0675.webp", element: "Fire", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: ["Move Speed Down", "ATK Down"] },
+  { id: "cookie0676", name: "Zooble Cookie", rarity: "SP", image: "/images/cookies/cookie0676.webp", element: "Water", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Multi-shot"], buffs: [] },
   { id: "cookie0677", name: "Kinger Cookie", rarity: "SP", image: "/images/cookies/cookie0677.webp", element: "Light", role: "Support", grantedSynergies: [], receivedSynergies: ["Multi-shot"], buffs: ["Crowd Control Removal", "Healing"] },
   { id: "cookie0678", name: "Caine Cookie", rarity: "SP", image: "/images/cookies/cookie0678.webp", element: "Fire", role: "Support", grantedSynergies: ["Duration"], receivedSynergies: ["Area"], buffs: ["ATK Up"] },
 ];

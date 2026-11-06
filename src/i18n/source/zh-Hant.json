@@ -11995,7 +11995,14 @@
     "Kinger Cookie": "金戈餅乾",
     "Caine Cookie": "凱恩餅乾",
     "Bubble": "泡泡",
-    "Flowercopter": "小花直升機"
+    "Flowercopter": "小花直升機",
+    "Jax Cookie": "賈克斯餅乾",
+    "Gangle Cookie": "安歌餅乾",
+    "Zooble Cookie": "祖波餅乾",
+    "Ketch-UP": "噗唧番茄醬",
+    "GO-Mayo": "滑溜美乃滋",
+    "All allies gain Accuracy": "我方全體命中增加",
+    "All allies gain Knockback Resistance": "我方全體擊退抵抗增加"
   },
   "origins": {
     "0": "game-localization:DimensionStageSeason.SeasonName.2014075507",
@@ -23989,6 +23996,13 @@
     "Kinger Cookie": "rea-1.6.002:official-entity-name",
     "Caine Cookie": "rea-1.6.002:official-entity-name",
     "Bubble": "rea-1.6.002:official-entity-name",
-    "Flowercopter": "rea-1.6.002:official-entity-name"
+    "Flowercopter": "rea-1.6.002:official-entity-name",
+    "Jax Cookie": "rea-1.6.102:official-entity-name",
+    "Gangle Cookie": "rea-1.6.102:official-entity-name",
+    "Zooble Cookie": "rea-1.6.102:official-entity-name",
+    "Ketch-UP": "rea-1.6.102:official-entity-name",
+    "GO-Mayo": "rea-1.6.102:official-entity-name",
+    "All allies gain Accuracy": "rea-1.6.102:reviewed-effect-summary",
+    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary"
   }
 }
