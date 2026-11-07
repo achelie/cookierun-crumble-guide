@@ -1,5 +1,5 @@
 // Restrict a guide only while its localized pages are unpublished.
-const englishOnlyGuides = new Set<string>();
+const englishOnlyGuides = new Set<string>(["cookie-run-crumble-jax-cookie-build-team"]);
 
 export function guideSupportsLocale(slug: string, locale: string) {
   return locale === "en" || !englishOnlyGuides.has(slug);

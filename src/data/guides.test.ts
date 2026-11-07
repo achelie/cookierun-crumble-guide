@@ -83,6 +83,31 @@ function expectPublishableGuide(source: string, maxWords = 1_500) {
 }
 
 describe("guide registry", () => {
+  it("publishes the Jax formation and matching FAQ from the requested lineup", () => {
+    const slug = "cookie-run-crumble-jax-cookie-build-team";
+    const guide = guides.find((item) => item.slug === slug);
+    const content = readFileSync(new URL(`../content/guides/${slug}.mdx`, import.meta.url), "utf8");
+    const team = recommendedTeams.find((item) => item.id === "jax-event-boss");
+    expect(content).toContain(`cookieIds={${JSON.stringify(team?.cookies).replace(/,/g, ", ")}}`);
+    expect(content).toContain(`petIds={${JSON.stringify(team?.pets).replace(/,/g, ", ")}}`);
+    const readable = guideProse(content.replace(/<GuideSection id="[^"]+" title="([^"]+)">/g, "$1"))
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1");
+    const words = readable.match(/[A-Za-z0-9]+(?:['-][A-Za-z0-9]+)*/g)?.length ?? 0;
+    expect(words).toBeGreaterThanOrEqual(1_500);
+    expect(words).toBeLessThanOrEqual(1_800);
+    expectPublishableGuide(content, 1_800);
+    expect([...content.matchAll(/\]\(\/[^)]+\)/g)].length).toBeLessThanOrEqual(4);
+    expect(content).toContain("](/tier-list/)");
+    expect(content).toContain("](/teams/)");
+    expect([...content.matchAll(/<GuideSection id="([^"]+)"/g)].map((match) => match[1]))
+      .toEqual(guide?.toc.map((item) => item.id));
+    expect(guide?.faq).toHaveLength(4);
+    for (const faq of guide?.faq ?? []) {
+      expect(content).toContain(`### ${faq.question}`);
+      expect(content).toContain(faq.answer);
+    }
+  });
+
   it("keeps the Chardonnay screenshot formation identical in the guide and Story teams", () => {
     const slug = "cookie-run-crumble-chardonnay-auto-story-team";
     const guide = guides.find((item) => item.slug === slug);
@@ -523,7 +548,7 @@ describe("guide registry", () => {
   });
 
   it("publishes the newest guide at the top and keeps the old test article removed", () => {
-    expect(guides[0]?.slug).toBe("cookie-run-crumble-caine-guild-conquest-team");
+    expect(guides[0]?.slug).toBe("cookie-run-crumble-jax-cookie-build-team");
     expect(guides.some((guide) => guide.slug === "build-your-first-team-without-wasting-upgrades")).toBe(false);
   });
 

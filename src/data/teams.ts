@@ -25,9 +25,25 @@ export type RecommendedTeam = {
   };
 };
 
-export const teamsUpdatedAt = "2026-10-27";
+export const teamsUpdatedAt = "2026-11-07";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "jax-event-boss",
+    category: "bosses",
+    name: "Jax Event Boss Team",
+    kicker: "Test Jax beside Caine and Scorpion",
+    description: "Jax replaces Dark Choco in this event boss lineup. Keep Caine, Scorpion, and the support core together, with Octo Wasabi, Holy Baby Drop, and Hot Doggie as the Pets. Compare completed runs before committing to the swap.",
+    cookies: ["cookie4013", "cookie0181", "cookie0678", "cookie0126", "cookie4019", "cookie0063", "chardonnay", "cookie3001", "cookie4010", "cookie0018", "cookie0518", "cookie0673"],
+    pets: ["pet0110", "pet4001", "pet0111"],
+    updatedAt: "2026-11-07",
+    guideReference: {
+      href: "/guides/cookie-run-crumble-jax-cookie-build-team/",
+      leadIn: "The ",
+      anchor: "Jax Cookie guide",
+      followUp: " covers his skill and build options.",
+    },
+  },
   {
     id: "caine-exp-dungeon-860",
     category: "dungeons",

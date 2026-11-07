@@ -7,14 +7,14 @@ describe("combined tier list", () => {
     const rankedIds = tierRanks.flatMap((rank) => tierList[rank]);
     const catalogIds = cookies.map(({ id }) => id);
 
-    expect(rankedIds).toHaveLength(81);
+    expect(rankedIds).toHaveLength(82);
     expect(new Set(rankedIds).size).toBe(rankedIds.length);
     rankedIds.forEach((id) => expect(catalogIds).toContain(id));
   });
 
   it("keeps the reference tier sizes", () => {
     expect(Object.fromEntries(tierRanks.map((rank) => [rank, tierList[rank].length]))).toEqual({
-      S: 15,
+      S: 16,
       A: 14,
       B: 9,
       C: 11,
@@ -24,7 +24,7 @@ describe("combined tier list", () => {
 
   it("matches the supplied S through C ranking order", () => {
     expect(tierList.S).toEqual([
-      "cookie0678", "chardonnay", "cookie4025", "cookie0081",
+      "cookie0673", "cookie0678", "chardonnay", "cookie4025", "cookie0081",
       "cookie4013", "cookie4010", "cookie0070", "cookie0250", "cookie4019", "cookie0126", "cookie0532", "cookie0103",
       "cookie0181", "cookie0059", "cookie0003",
     ]);
@@ -45,10 +45,10 @@ describe("combined tier list", () => {
 
   it("keeps newly imported Cookies unranked until their ranking is reviewed", () => {
     const rankedIds = tierRanks.flatMap((rank) => tierList[rank]);
-    for (const id of ["cookie0677", "cookie0673", "cookie0675", "cookie0676"]) {
+    for (const id of ["cookie0677", "cookie0675", "cookie0676"]) {
       expect(cookies.some((cookie) => cookie.id === id)).toBe(true);
       expect(rankedIds).not.toContain(id);
     }
-    expect(tierUpdatedAt).toBe("2026-10-26");
+    expect(tierUpdatedAt).toBe("2026-11-07");
   });
 });

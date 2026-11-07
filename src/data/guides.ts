@@ -42,6 +42,87 @@ export const guidePageSize = 5;
 
 export const guides: GuideSummary[] = [
   {
+    "slug": "cookie-run-crumble-jax-cookie-build-team",
+    "title": "Jax Cookie build: Is his DEF Down worth the swap?",
+    "seoTitle": "Jax Cookie Build, DEF Down & Team | CookieRun: Crumble",
+    "seoDescription": "Build Jax Cookie in CookieRun: Crumble with ATK Amp, compare his DEF Down with Dark Choco, and copy the complete Caine boss team and Pets.",
+    "excerpt": "Jax swings hard and lowers DEF. Test his ATK-focused build, compare Dark Choco, and copy the complete twelve-Cookie boss formation.",
+    "category": "cookies",
+    "tags": [
+      "Jax Cookie",
+      "Sugar Runes",
+      "DEF Down",
+      "Caine Cookie",
+      "Boss Team"
+    ],
+    "publishedAt": "2026-11-07",
+    "updatedAt": "2026-11-07",
+    "readingMinutes": 8,
+    "author": "Crumble Guide",
+    "coverCookieIds": [
+      "cookie0673",
+      "cookie0678",
+      "cookie0181"
+    ],
+    "relatedGuideSlugs": [
+      "cookie-run-crumble-gear-sugar-rune-stats-guide",
+      "cookie-run-crumble-caine-guild-conquest-team",
+      "cookie-run-crumble-strawberry-crepe-cookie-build-team"
+    ],
+    "toc": [
+      {
+        "id": "jax-lineup",
+        "label": "Copy the Jax boss team"
+      },
+      {
+        "id": "jax-skill",
+        "label": "Understand the bat and grenade"
+      },
+      {
+        "id": "jax-runes",
+        "label": "Start Jax's Sugar Runes with ATK Amp"
+      },
+      {
+        "id": "promotion",
+        "label": "What extra stars add to Jax"
+      },
+      {
+        "id": "dark-choco-swap",
+        "label": "Compare Jax with Dark Choco"
+      },
+      {
+        "id": "jax-pets",
+        "label": "Keep the Pet package steady"
+      },
+      {
+        "id": "battle-test",
+        "label": "Test the team without wasting upgrades"
+      },
+      {
+        "id": "jax-faq",
+        "label": "Jax Cookie FAQ"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What are the best Sugar Rune stats for Jax Cookie?",
+        "answer": "Start with ATK Amp and test CRIT Chance, CRIT DMG, or Skill Haste alongside it. These are early build options, not a confirmed best stat ratio. Compare saved Rune pages in the same fight before spending heavily on rerolls."
+      },
+      {
+        "question": "Can Jax Cookie replace Dark Choco?",
+        "answer": "Jax can take Dark Choco's slot in a DEF Down comparison. Keep the other Cookies and Pets unchanged, then check the target's debuff and the completed result. Promotions, equipment, and enemy targeting can change which version works better for your account."
+      },
+      {
+        "question": "Does Skill Amp increase Jax's DEF Down?",
+        "answer": "No. Skill Amp does not increase the amount of Jax's stat-reducing DEF Down debuff. That restriction should not be taken as proof that Skill Amp has no effect on every damage component of his skill."
+      },
+      {
+        "question": "Is Jax worth using at two stars?",
+        "answer": "A two-star Jax without Sugar Runes can be tried in a strong team. Compare him with your current Cookie before investing more. The early trial does not prove that a two-star Jax will beat every highly promoted alternative."
+      }
+    ]
+  },
+  {
     "slug": "cookie-run-crumble-caine-guild-conquest-team",
     "title": "Guild Conquest score stuck? Try the Caine swap",
     "seoTitle": "Caine Guild Conquest Team & Builds | CookieRun: Crumble",

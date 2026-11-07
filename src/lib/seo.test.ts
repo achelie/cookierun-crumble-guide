@@ -52,19 +52,19 @@ describe("SEO page registry", () => {
   });
 
   it("exposes the Teams update date in search-facing copy", () => {
-    expect(seoPages.teams.summary).toContain("Updated October 27, 2026");
-    expect(seoPages.teams.description).toContain("Updated October 27, 2026");
-    expect(seoPages.teams.updatedAt).toBe("2026-10-27");
+    expect(seoPages.teams.summary).toContain("Updated November 7, 2026");
+    expect(seoPages.teams.description).toContain("Updated November 7, 2026");
+    expect(seoPages.teams.updatedAt).toBe("2026-11-07");
   });
 
   it("keeps the tier list update date consistent without embedding it in summary copy", () => {
     const page = seoPages.tierList;
-    expect(page.updatedAt).toBe("2026-10-26");
+    expect(page.updatedAt).toBe("2026-11-07");
     expect(page.summary).not.toMatch(/updated|October|2026/i);
     expect(page.description).not.toMatch(/updated|October|2026/i);
     expect(collectionPageSchema(page, [])["@graph"][0].dateModified).toBe(page.updatedAt);
     expect(sitemap().find((entry) => entry.url === absoluteUrl(page.path))?.lastModified)
-      .toEqual(new Date("2026-10-26T00:00:00Z"));
+      .toEqual(new Date("2026-11-07T00:00:00Z"));
   });
 });
 
