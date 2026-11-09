@@ -16,13 +16,22 @@ function SynergyList({ values, direction }: { values: Synergy[]; direction: "gra
 
 export function CookieCard({ cookie, eager = false }: { cookie: Cookie; eager?: boolean }) {
   const href = cookieDetailPathById.get(cookie.id);
+  const art = (
+    <>
+      <CookieTaxonomyBadges element={cookie.element} role={cookie.role} />
+      <Image src={cookie.image} alt={cookie.name} width={280} height={280} loading={eager ? "eager" : "lazy"} sizes="(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px" />
+    </>
+  );
 
   return (
     <I18nElement as="article" className={`cookie-card rarity-${cookie.rarity.toLowerCase()}`}>
-      <I18nElement as="div" className="cookie-card__art">
-        <CookieTaxonomyBadges element={cookie.element} role={cookie.role} />
-        <Image src={cookie.image} alt={cookie.name} width={280} height={280} loading={eager ? "eager" : "lazy"} sizes="(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px" />
-      </I18nElement>
+      {href ? (
+        <LocaleLink href={href} prefetch={false} className="cookie-card__art" aria-label={cookie.name} tabIndex={-1}>
+          {art}
+        </LocaleLink>
+      ) : (
+        <I18nElement as="div" className="cookie-card__art">{art}</I18nElement>
+      )}
       <I18nElement as="div" className="cookie-card__body">
         <I18nElement as="div" className="cookie-card__identity">
           <I18nElement as="h3">
