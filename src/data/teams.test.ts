@@ -37,6 +37,13 @@ describe("recommended teams", () => {
     }
   });
 
+  it("keeps the pictured Zooble Guild Conquest formation in order", () => {
+    const team = recommendedTeams.find((candidate) => candidate.id === "zooble-pomni-guild-conquest");
+    expect(team?.category).toBe("guild-conquest");
+    expect(team?.cookies).toEqual(["chardonnay", "cookie0676", "cookie4010", "cookie0018", "cookie0040", "cookie0103", "cookie0181", "cookie0678", "cookie0126", "cookie0672", "cookie4019", "cookie0532"]);
+    expect(team?.pets).toEqual(["pet0111", "pet0110", "pet4001"]);
+  });
+
   it("keeps the pictured Jax event boss formation in order", () => {
     const team = recommendedTeams.find((candidate) => candidate.id === "jax-event-boss");
     expect(team?.category).toBe("bosses");
@@ -45,7 +52,7 @@ describe("recommended teams", () => {
   });
 
   it("puts the newly added formations first with the latest date", () => {
-    expect(teamsUpdatedAt).toBe("2026-11-07");
+    expect(teamsUpdatedAt).toBe("2026-11-09");
     expect(recommendedTeams.filter((team) => team.updatedAt === "2026-09-26").map((team) => team.id)).toEqual([
       "bari-cherry-cola-story", "story-knock-up-resistance", "bari-gingercraven-power",
     ]);
@@ -62,7 +69,7 @@ describe("recommended teams", () => {
   });
 
   it("replaces August 31 teams with the seven ordered September formations", () => {
-    expect(recommendedTeams).toHaveLength(34);
+    expect(recommendedTeams).toHaveLength(35);
     expect(recommendedTeams.some((team) => team.updatedAt === "2026-08-31")).toBe(false);
     const expected = [
     {

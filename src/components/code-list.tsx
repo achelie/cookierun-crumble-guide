@@ -35,12 +35,12 @@ export function CodeList({ items }: { items: RedeemCode[] }) {
               <I18nElement as="ul" className="code-card__rewards">
                 {item.rewards.map((reward) => (
                   <I18nElement as="li" key={reward.label}>
-                    <I18nElement as="span" className="code-card__reward-icon"><Image src={reward.image} alt="" width={52} height={52} /></I18nElement>
+                    <I18nElement as="span" className="code-card__reward-icon">{reward.image ? <Image src={reward.image} alt="" width={52} height={52} /> : <AppIcon name="ticket" size={26} />}</I18nElement>
                     <I18nElement as="span"><I18nElement as="small">{reward.label}</I18nElement><I18nElement as="strong">{reward.amount}</I18nElement></I18nElement>
                   </I18nElement>
                 ))}
               </I18nElement>
-              <I18nElement as="p">Expires {item.expires}</I18nElement>
+              {item.expires ? <I18nElement as="p">Expires {item.expires}</I18nElement> : <I18nElement as="p">Expiry date unknown</I18nElement>}
             </I18nElement>
           )) : (
             <I18nElement as="div" className="empty-state empty-state--small codes-empty-state">

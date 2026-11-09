@@ -53,11 +53,10 @@ describe("home navigation", () => {
     expect(html).not.toContain("54 Pets");
   });
 
-  it("does not invite visitors to copy codes when none are active", () => {
+  it("shows the current active code on the home page", () => {
     const html = renderToStaticMarkup(<HomePage />);
 
-    expect(html).toContain("0 active codes");
-    expect(html).toContain("Check code status");
-    expect(html).not.toContain("Grab every current reward before it expires.");
+    expect(html).toContain("1 active code");
+    expect(html).toContain("Copy codes");
   });
 });

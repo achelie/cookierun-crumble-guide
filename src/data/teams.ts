@@ -25,9 +25,19 @@ export type RecommendedTeam = {
   };
 };
 
-export const teamsUpdatedAt = "2026-11-07";
+export const teamsUpdatedAt = "2026-11-09";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "zooble-pomni-guild-conquest",
+    category: "guild-conquest",
+    name: "Zooble and Pomni Guild Conquest Team",
+    kicker: "Clear mini piñatas and focus the boss",
+    description: "Zooble replaces Brightseeker in this Guild Conquest lineup. Dark Choco supplies DEF Down, while the Skill Haste and Skill Amp preset supports the team.",
+    cookies: ["chardonnay", "cookie0676", "cookie4010", "cookie0018", "cookie0040", "cookie0103", "cookie0181", "cookie0678", "cookie0126", "cookie0672", "cookie4019", "cookie0532"],
+    pets: ["pet0111", "pet0110", "pet4001"],
+    updatedAt: "2026-11-09",
+  },
   {
     id: "jax-event-boss",
     category: "bosses",

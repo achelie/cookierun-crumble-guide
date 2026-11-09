@@ -19,7 +19,7 @@ export default function CodesPage() {
       <StructuredData data={collectionPageSchema(page, codes.map((code) => ({
         "@type": "Thing",
         name: code.code,
-        description: `${code.rewards.map((reward) => `${reward.amount} ${reward.label}`).join(", ")}. Expires ${code.expires}.`,
+        description: `${code.rewards.map((reward) => `${reward.amount} ${reward.label}`).join(", ")}${code.expires ? `. Expires ${code.expires}.` : "."}`,
       })))} />
       <SeoPageHeader page={page} icon="ticket" showUpdatedAt />
       <CodeList items={codes} />

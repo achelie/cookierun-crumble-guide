@@ -3,7 +3,7 @@
 const retainedTerms=[
  'CookieRun: Crumble Guide','CookieRun: Crumble','CookieRun Crumble','Crumble Guide',
  'Cloudflare Web Analytics','Ahrefs Web Analytics','Google AdSense','Fan Kit','User-Agent',
- 'COOKIERUNCRUMBLE1ST','COOKIERUNCRUMBLENO1','cookieruncrumbles.com','Devsisters',
+ 'COOKIERUNCRUMBLE1ST','COOKIERUNCRUMBLENO1','CAINECOOKIEKNOWS','cookieruncrumbles.com','Devsisters',
  'CRUMBLE','CookieRun','Crumble','English','AboutAds','Cloudflare','Ahrefs','DevPlay','Google',
  'Tier List','tier list','Guild Conquest','Extra-Stuffed Piñata','Lucky Rewards','Roguelike PvE',
  'Stellar Link','Multi-strike','CRIT DMG','Mov SPD','Skill Haste','Rapid AoE','knock-ups','knock-up',

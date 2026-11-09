@@ -2715,6 +2715,11 @@
     "Make a free CookieRun: Crumble tier list. Drag all 85 Cookies from S to D, load the current ranking, share the URL, and download a PNG.": "免費製作薑餅人放置大戰爭 強度榜。將全部 85 隻餅乾拖入 S 到 D 級，載入現行排名、分享網址，並下載 PNG 圖片。",
     "Search all 61 Pets and compare rarity and companion effects.": "搜尋全部 61 隻寵物，比較稀有度與同行效果。",
     "Search all 85 Cookies by rarity, element, role, Synergy, and buff.": "依稀有度、屬性、定位、綜效與增益，搜尋全部 85 隻餅乾。",
+    "Updated November 9, 2026. Copy 35 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "2026 年 11 月 9 日更新。複製 35 套主線、公會討伐戰、頭目、副本與競技場隊伍，每套都有寵物與快速配置說明。",
+    "Updated November 9, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "2026 年 11 月 9 日更新。查看薑餅人放置大戰爭公會討伐戰、主線頭目、副本與競技場隊伍，包含 12 名餅乾的順序、寵物與配置技巧。",
+    "Zooble and Pomni Guild Conquest Team": "祖波與帕姆尼公會討伐戰隊伍",
+    "Clear mini piñatas and focus the boss": "清除小皮納塔，集中攻擊首領",
+    "Zooble replaces Brightseeker in this Guild Conquest lineup. Dark Choco supplies DEF Down, while the Skill Haste and Skill Amp preset supports the team.": "這支公會討伐戰隊伍以祖波取代活潑探子。黑巧克力提供防禦力降低，裝備預設則使用技能加速與技能增幅。",
     "Jax Event Boss Team": "賈克斯 活動首領隊伍",
     "Test Jax beside Caine and Scorpion": "讓 賈克斯 與凱恩、蠍子一起上場",
     "Jax replaces Dark Choco in this event boss lineup. Keep Caine, Scorpion, and the support core together, with Octo Wasabi, Holy Baby Drop, and Hot Doggie as the Pets. Compare completed runs before committing to the swap.": "在這支活動首領隊伍中，用 賈克斯 取代黑巧克力餅乾。保留凱恩、蠍子與輔助陣容，寵物使用章魚芥末、神聖寶貝水滴和熱狗。決定換人前，先比較完整戰鬥的結果。",
@@ -2779,7 +2784,10 @@
     "Ketch-UP": "噗唧番茄醬",
     "GO-Mayo": "滑溜美乃滋",
     "All allies gain Accuracy": "我方全體命中增加",
-    "All allies gain Knockback Resistance": "我方全體擊退抵抗增加"
+    "All allies gain Knockback Resistance": "我方全體擊退抵抗增加",
+    "Red Doors": "紅門",
+    "Expiry date unknown": "到期日期未知",
+    "{0} Red Doors.": "{0} 個紅門。"
   },
   "origins": {
     "(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px": "native-reviewed",
@@ -5522,6 +5530,9 @@
     "Ketch-UP": "rea-1.6.102:official-entity-name",
     "GO-Mayo": "rea-1.6.102:official-entity-name",
     "All allies gain Accuracy": "rea-1.6.102:reviewed-effect-summary",
-    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary"
+    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary",
+    "Red Doors": "manual-reviewed",
+    "Expiry date unknown": "manual-reviewed",
+    "{0} Red Doors.": "manual-reviewed"
   }
 }

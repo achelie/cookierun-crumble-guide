@@ -52,9 +52,9 @@ describe("SEO page registry", () => {
   });
 
   it("exposes the Teams update date in search-facing copy", () => {
-    expect(seoPages.teams.summary).toContain("Updated November 7, 2026");
-    expect(seoPages.teams.description).toContain("Updated November 7, 2026");
-    expect(seoPages.teams.updatedAt).toBe("2026-11-07");
+    expect(seoPages.teams.summary).toContain("Updated November 9, 2026");
+    expect(seoPages.teams.description).toContain("Updated November 9, 2026");
+    expect(seoPages.teams.updatedAt).toBe("2026-11-09");
   });
 
   it("keeps the tier list update date consistent without embedding it in summary copy", () => {

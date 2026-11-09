@@ -2742,6 +2742,11 @@
     "Make a free CookieRun: Crumble tier list. Drag all 85 Cookies from S to D, load the current ranking, share the URL, and download a PNG.": "สร้าง Tier List CookieRun: Crumble ฟรี ลากคุกกี้ทั้ง 85 ตัวจาก S ถึง D โหลดอันดับปัจจุบัน แชร์ URL และดาวน์โหลด PNG",
     "Search all 61 Pets and compare rarity and companion effects.": "ค้นหาเพ็ตทั้ง 61 ตัว เปรียบเทียบความหายากและผลคู่หู",
     "Search all 85 Cookies by rarity, element, role, Synergy, and buff.": "ค้นหาคุกกี้ทั้ง 85 ตัวตามความหายาก ธาตุ บทบาท ซินเนอร์จี และบัฟ",
+    "Updated November 9, 2026. Copy 35 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "อัปเดต 9 พฤศจิกายน 2026 คัดลอก 35 ทีมสำหรับเนื้อเรื่อง ศึกพิชิตกิลด์ บอส ดันเจี้ยน และอารีน่า ทุกทีมมีเพ็ตและคำแนะนำการจัดทีม",
+    "Updated November 9, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "อัปเดต 9 พฤศจิกายน 2026 ทีม CookieRun: Crumble สำหรับศึกพิชิตกิลด์ บอสเนื้อเรื่อง ดันเจี้ยน และอารีน่า พร้อมลำดับคุกกี้ 12 ตัว เพ็ต และคำแนะนำการจัดทีม",
+    "Zooble and Pomni Guild Conquest Team": "ทีมคุกกี้ซูเบิ้ลและคุกกี้พอมนี่สำหรับศึกพิชิตกิลด์",
+    "Clear mini piñatas and focus the boss": "กำจัดปินยาต้าตัวเล็กแล้วโจมตีบอส",
+    "Zooble replaces Brightseeker in this Guild Conquest lineup. Dark Choco supplies DEF Down, while the Skill Haste and Skill Amp preset supports the team.": "ทีมศึกพิชิตกิลด์นี้ใช้คุกกี้ซูเบิ้ลแทนคุกกี้นักล่าแสง คุกกี้ดาร์กช็อกโก้ช่วยลดพลังป้องกัน ส่วนชุดพรีเซ็ตใช้ความเร็วสกิลและเพิ่มพลังสกิล",
     "Jax Event Boss Team": "ทีม คุกกี้แจ๊กซ์ สำหรับบอสอีเวนต์",
     "Test Jax beside Caine and Scorpion": "ลองใช้ คุกกี้แจ๊กซ์ ร่วมกับ คุกกี้เคน และ คุกกี้รสแมงป่อง",
     "Jax replaces Dark Choco in this event boss lineup. Keep Caine, Scorpion, and the support core together, with Octo Wasabi, Holy Baby Drop, and Hot Doggie as the Pets. Compare completed runs before committing to the swap.": "ใช้ คุกกี้แจ๊กซ์ แทน คุกกี้ดาร์กช็อกโก้ ในทีมบอสอีเวนต์นี้ โดยคง คุกกี้เคน, คุกกี้รสแมงป่อง และตัวซัพพอร์ตไว้ ใช้ หมึกวาซาบิ, เบบี้เทพหยด และ ฮอทดอกกี้ เป็นเพ็ต แล้วเปรียบเทียบผลหลังจบการต่อสู้ก่อนตัดสินใจเปลี่ยนทีม",
@@ -2806,7 +2811,10 @@
     "Ketch-UP": "เคทชัปกระโดดสับ",
     "GO-Mayo": "มายองเนสลื่นปรื๊ด",
     "All allies gain Accuracy": "เพิ่มความแม่นยำของเพื่อนร่วมทีมทั้งหมด",
-    "All allies gain Knockback Resistance": "เพิ่มต้านทานน็อคแบ็คของเพื่อนร่วมทีมทั้งหมด"
+    "All allies gain Knockback Resistance": "เพิ่มต้านทานน็อคแบ็คของเพื่อนร่วมทีมทั้งหมด",
+    "Red Doors": "ประตูสีแดง",
+    "Expiry date unknown": "ไม่ทราบวันหมดอายุ",
+    "{0} Red Doors.": "ประตูสีแดง {0} ชิ้น"
   },
   "origins": {
     "(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px": "translated-draft-cached",
@@ -5576,6 +5584,9 @@
     "Ketch-UP": "rea-1.6.102:official-entity-name",
     "GO-Mayo": "rea-1.6.102:official-entity-name",
     "All allies gain Accuracy": "rea-1.6.102:reviewed-effect-summary",
-    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary"
+    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary",
+    "Red Doors": "manual-reviewed",
+    "Expiry date unknown": "manual-reviewed",
+    "{0} Red Doors.": "manual-reviewed"
   }
 }

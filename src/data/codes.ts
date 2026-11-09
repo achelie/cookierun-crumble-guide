@@ -1,19 +1,24 @@
-// Public coupon lists checked on 2026-10-31.
-export const codesUpdatedAt = "2026-10-31";
+// Coupon list updated on 2026-11-09.
+export const codesUpdatedAt = "2026-11-09";
 export type CodeReward = {
   label: string;
   amount: string;
-  image: string;
+  image?: string;
 };
 
 export type RedeemCode = {
   code: string;
   rewards: CodeReward[];
-  expires: string;
+  expires?: string;
   status: "active" | "expired";
 };
 
 export const codes: RedeemCode[] = [
+  {
+    code: "CAINECOOKIEKNOWS",
+    rewards: [{ label: "Red Doors", amount: "100", image: "/images/rewards/digital-circus-ticket.png" }],
+    status: "active",
+  },
   {
     code: "COOKIERUNCRUMBLENO1",
     rewards: [
