@@ -8,6 +8,8 @@ import { AppIcon } from "@/components/ui/icon";
 import { cookieById, type Cookie } from "@/data/cookies";
 import { petById } from "@/data/pets";
 import { teamCategories, type RecommendedTeam } from "@/data/teams";
+import { cookieDetailPathById } from "@/lib/cookie-detail-paths";
+import styles from "./team-showcase.module.css";
 
 const dateFormatter = new Intl.DateTimeFormat("en", {
   month: "short",
@@ -39,13 +41,25 @@ export function TeamShowcase({ team }: { team: RecommendedTeam }) {
       </I18nElement>
       <I18nElement as="div" className="team-showcase__formation">
         <I18nElement as="div" className="team-lineup" aria-label={`${team.name} lineup`}>
-          {selectedCookies.map((cookie, slot) => (
-              <I18nElement as="div" className="team-unit" key={`${cookie.id}-${slot}`} title={cookie.name}>
+          {selectedCookies.map((cookie, slot) => {
+            const href = cookieDetailPathById.get(cookie.id);
+            const key = `${cookie.id}-${slot}`;
+            const unit = (
+              <>
                 <CookieTaxonomyBadges element={cookie.element} role={cookie.role} compact />
-                <Image src={cookie.image} alt={cookie.name} width={120} height={120} sizes="80px" />
+                <Image src={cookie.image} alt={href ? "" : cookie.name} width={120} height={120} sizes="80px" />
                 <I18nElement as="span" className="team-unit__slot">{slot + 1}</I18nElement>
-              </I18nElement>
-          ))}
+              </>
+            );
+            return href ? (
+              <Link href={href} prefetch={false} className={`team-unit ${styles.cookieLink}`} key={key} title={cookie.name} aria-label={cookie.name}>
+                {unit}
+                <span className={styles.detailIcon} aria-hidden="true"><AppIcon name="chevron" size={12} /></span>
+              </Link>
+            ) : (
+              <I18nElement as="div" className="team-unit" key={key} title={cookie.name}>{unit}</I18nElement>
+            );
+          })}
         </I18nElement>
         <I18nElement as="div" className="team-showcase__support"><PetSlots pets={selectedPets} /><SynergySummary cookies={selectedCookies} /></I18nElement>
       </I18nElement>

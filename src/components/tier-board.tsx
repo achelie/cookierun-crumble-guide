@@ -2,6 +2,12 @@ import { I18nElement } from "@/i18n/elements";
 import { CookieMiniCard } from "@/components/cookie-mini-card";
 import { cookieById } from "@/data/cookies";
 import { tierList, tierRanks } from "@/data/tier-list";
+import { cookieDetailRoutes } from "@/lib/cookie-detail-paths";
+
+const unrankedCookies = cookieDetailRoutes.flatMap(({ id, rank }) => {
+  const cookie = cookieById.get(id);
+  return !rank && cookie ? [cookie] : [];
+});
 
 export function TierBoard() {
   return (
@@ -19,6 +25,14 @@ export function TierBoard() {
           </I18nElement>
         ))}
       </I18nElement>
+      {unrankedCookies.length > 0 ? (
+        <section id="unranked-cookies" className="tier-unranked" aria-labelledby="unranked-cookies-title">
+          <I18nElement as="h2" id="unranked-cookies-title" className="tier-unranked__title">Unranked Cookies</I18nElement>
+          <div className="tier-units">
+            {unrankedCookies.map((cookie) => <CookieMiniCard key={cookie.id} cookie={cookie} />)}
+          </div>
+        </section>
+      ) : null}
     </I18nElement>
   );
 }

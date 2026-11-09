@@ -1,9 +1,12 @@
 import { describe, expect, it } from "vitest";
 import sitemap from "@/app/sitemap";
 import robots from "@/app/robots";
+import { cookies } from "@/data/cookies";
 import { guides } from "@/data/guides";
+import { tierList, tierRanks } from "@/data/tier-list";
 import { locales, localizedPath } from "@/i18n/config";
 import { guidePathSupportsLocale } from "@/i18n/guide-availability";
+import { cookieDetailRoutes } from "@/lib/cookie-detail-paths";
 import { pageMetadata } from "@/lib/metadata";
 import { absoluteUrl, seoPages } from "@/lib/seo";
 import { collectionPageSchema, homeSchema, webApplicationSchema } from "@/lib/structured-data";
@@ -72,8 +75,22 @@ describe("localized sitemap", () => {
   const paths = [
     ...Object.values(seoPages).map((page) => page.path),
     ...guides.map((guide) => `/guides/${guide.slug}/`),
+    ...cookieDetailRoutes.map((route) => route.path),
   ];
   const entries = sitemap();
+
+  it("includes one detail route per Cookie and preserves the published tiers", () => {
+    const ids = cookieDetailRoutes.map(({ id }) => id);
+    const detailPaths = cookieDetailRoutes.map(({ path }) => path);
+    expect(ids.sort()).toEqual(cookies.map(({ id }) => id).sort());
+    expect(new Set(detailPaths).size).toBe(cookies.length);
+
+    for (const { id, slug, path, rank } of cookieDetailRoutes) {
+      expect(slug).toMatch(/^[a-z0-9]+(?:-[a-z0-9]+)*$/);
+      expect(path).toBe(`/cookies/${slug}/`);
+      expect(rank).toBe(tierRanks.find((tier) => tierList[tier].includes(id)));
+    }
+  });
 
   it("lists every formal page once per language without query URLs", () => {
     const expected = paths.flatMap((path) => locales.filter((locale) => guidePathSupportsLocale(path, locale)).map((locale) => absoluteUrl(localizedPath(path, locale))));

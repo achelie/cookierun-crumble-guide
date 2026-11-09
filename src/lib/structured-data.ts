@@ -7,7 +7,7 @@ export function schemaGraph(nodes: SchemaNode[]) {
 }
 
 export function breadcrumbNode(
-  page: SeoPageDefinition,
+  page: Pick<SeoPageDefinition, "path" | "breadcrumb">,
   parent?: { name: string; path: string },
 ): SchemaNode {
   const crumbs = [

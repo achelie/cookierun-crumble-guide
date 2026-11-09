@@ -5,14 +5,25 @@ import {loadTypeScript} from './i18n/load-source.mjs';
 const {locales,localeConfig,localizedPath,alternateLanguages}=loadTypeScript('src/i18n/config.ts');
 const {seoPages,siteUrl}=loadTypeScript('src/lib/seo.ts');
 const {guides}=loadTypeScript('src/data/guides.ts');
-const paths=[...Object.values(seoPages).map(page=>page.path),...guides.map(guide=>`/guides/${guide.slug}/`)];
+const {recommendedTeams}=loadTypeScript('src/data/teams.ts');
+const {teamsPageSize}=loadTypeScript('src/lib/team-pagination.ts');
+const {guidePathSupportsLocale}=loadTypeScript('src/i18n/guide-availability.ts');
+const {cookieDetailRoutes}=loadTypeScript('src/lib/cookie-detail-paths.ts');
+const detailRoutesByPath=new Map(cookieDetailRoutes.map(route=>[route.path,route]));
+const firstTeamPageIds=new Set(recommendedTeams.slice(0,teamsPageSize).flatMap(team=>team.cookies));
+const paths=[
+ ...Object.values(seoPages).map(page=>page.path),
+ ...guides.map(guide=>`/guides/${guide.slug}/`),
+ ...cookieDetailRoutes.map(route=>route.path),
+];
+const publishedPaths=locale=>paths.filter(route=>guidePathSupportsLocale(route,locale));
 const adFree=new Set(['/about/','/contact/','/privacy/','/disclaimer/','/guides/','/tools/']);
 const attribute=(tag,name)=>tag.match(new RegExp('(?:^|\\s)'+name+'="([^"]*)"'))?.[1];
-const report={pages:0,guidePages:0,locales:locales.length,canonical:0,alternateLinks:0,schemas:0,adBoundaries:0,internalLinks:0};
+const report={pages:0,guidePages:0,cookiePages:0,locales:locales.length,canonical:0,alternateLinks:0,schemas:0,adBoundaries:0,internalLinks:0};
 const sitemap=await fs.readFile('out/sitemap.xml','utf8');
 const entries=[...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)].map(match=>match[1]);
-assert.equal(entries.length,paths.length*locales.length,'Unexpected sitemap page count');
-for(const locale of locales)for(const route of paths){
+assert.equal(entries.length,locales.reduce((count,locale)=>count+publishedPaths(locale).length,0),'Unexpected sitemap page count');
+for(const locale of locales)for(const route of publishedPaths(locale)){
  const localized=localizedPath(route,locale),canonical=siteUrl+localized;
  const html=await fs.readFile(path.join('out',localized,'index.html'),'utf8');
  assert.ok(html.includes(`<html lang="${locale}"`),`${localized}: incorrect html lang`);
@@ -44,6 +55,27 @@ for(const locale of locales)for(const route of paths){
  if(route.startsWith('/guides/')&&route!=='/guides/'){
   assert.ok(content.includes(`href="${localizedPath('/tier-list/',locale)}"`),`${localized}: tier link missing`);
   assert.ok(content.includes(`href="${localizedPath('/teams/',locale)}"`),`${localized}: team link missing`);report.guidePages++;
+ }
+ const detail=detailRoutesByPath.get(route);
+ if(detail||route==='/cookies/'||route==='/tier-list/'||route==='/teams/'){
+  const main=content.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1];
+  assert.ok(main,`${localized}: main content missing`);
+  const mainLinks=new Set([...main.matchAll(/<a\b[^>]*href="([^"]*)"/g)].map(match=>match[1]));
+  if(detail){
+   assert.ok(mainLinks.has(localizedPath('/cookies/',locale)),`${localized}: Cookies link missing`);
+   assert.ok(mainLinks.has(localizedPath('/teams/',locale)),`${localized}: Teams link missing`);
+   assert.ok(mainLinks.has('#collection-rewards'),`${localized}: Collection rewards link missing`);
+   assert.ok(main.includes('id="collection-rewards"'),`${localized}: Collection rewards section missing`);
+   assert.ok(mainLinks.has('#sugar-runes'),`${localized}: Sugar Rune recommendations link missing`);
+   assert.ok(main.includes('id="sugar-runes"'),`${localized}: Sugar Rune recommendations section missing`);
+   const tierPath=detail.rank?'/tier-list/':'/tier-list/#unranked-cookies';
+   assert.ok(mainLinks.has(localizedPath(tierPath,locale)),`${localized}: Tier List link missing`);
+   report.cookiePages++;
+  }else{
+   const linkedCookies=route==='/teams/'?cookieDetailRoutes.filter(({id})=>firstTeamPageIds.has(id)):cookieDetailRoutes;
+   for(const {path}of linkedCookies)assert.ok(mainLinks.has(localizedPath(path,locale)),`${localized}: Cookie link missing: ${path}`);
+   if(route==='/tier-list/')assert.ok(main.includes('id="unranked-cookies"'),`${localized}: unranked anchor missing`);
+  }
  }
  report.pages++;
 }

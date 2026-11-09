@@ -22,21 +22,34 @@ export default async function Layout({children, params}: {children: React.ReactN
   const relative=path.relative(base,file).replaceAll('\\','/');const output=path.join(target,relative);await fs.mkdir(path.dirname(output),{recursive:true});
   const route='/'+relative.replace(/(?:^|\/)page.tsx$/,'/').replace(/^\//,'');
   const source='@/app/'+group+'/'+relative.replace(/\.tsx$/,'');
-  if(relative.includes('[slug]')){
+  if(relative==='guides/[slug]/page.tsx'){
    await fs.writeFile(output,`import View, { generateMetadata as guideMetadata } from "${source}";
 import { getGuideLocale } from "@/i18n/server";
-export { generateStaticParams } from "${source}";
+import { guides } from "@/data/guides";
+import { guideSupportsLocale } from "@/i18n/guide-availability";
+export function generateStaticParams({params}: {params: {locale: string}}) {
+  const locale = getGuideLocale(params.locale);
+  return guides.filter((guide) => guideSupportsLocale(guide.slug, locale)).map((guide) => ({slug: guide.slug}));
+}
 export const dynamicParams = false;
 type Props = {params: Promise<{locale:string;slug:string}>};
 export async function generateMetadata({params}:Props) {const p=await params;getGuideLocale(p.locale);return guideMetadata({params:Promise.resolve(p)});}
 export default async function Page({params}:Props) {const p=await params;getGuideLocale(p.locale);return <View params={Promise.resolve(p)} />;}
 `);
+  }else if(relative==='cookies/[slug]/page.tsx'){
+   await fs.writeFile(output,`export { default, generateMetadata, generateStaticParams } from "${source}";
+
+export const dynamicParams = false;
+`);
   }else{
+   const render=relative==='guides/page.tsx'
+    ? 'export default async function Page({params}:Props) {getGuideLocale((await params).locale);return <View params={params} />;}'
+    : 'export default function Page() {return <View />;}';
    await fs.writeFile(output,`import View from "${source}";
 import { metadataForPath, getGuideLocale } from "@/i18n/server";
 type Props = {params: Promise<{locale:string}>};
 export async function generateMetadata({params}:Props) {return metadataForPath("${route}",getGuideLocale((await params).locale));}
-export default function Page() {return <View />;}
+${render}
 `);
   }
  }

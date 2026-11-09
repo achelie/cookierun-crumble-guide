@@ -76,7 +76,12 @@ for(const locale of locales){
 }
 const {alternateLanguages,locales:allLocales,localizedPath}=loadTypeScript('src/i18n/config.ts');
 const {seoPages,siteUrl}=loadTypeScript('src/lib/seo.ts');
-for(const path of [...Object.values(seoPages).map(page=>page.path),...guides.map(guide=>`/guides/${guide.slug}/`)]){
+const {cookieDetailRoutes}=loadTypeScript('src/lib/cookie-detail-paths.ts');
+for(const path of [
+ ...Object.values(seoPages).map(page=>page.path),
+ ...guides.map(guide=>`/guides/${guide.slug}/`),
+ ...cookieDetailRoutes.map(route=>route.path),
+]){
  const expected=alternateLanguages(path,siteUrl);
  for(const locale of allLocales)assert.deepEqual(alternateLanguages(localizedPath(path,locale),siteUrl),expected);
 }
