@@ -10,6 +10,7 @@ const {teamsPageSize}=loadTypeScript('src/lib/team-pagination.ts');
 const {guidePathSupportsLocale}=loadTypeScript('src/i18n/guide-availability.ts');
 const {cookieDetailRoutes}=loadTypeScript('src/lib/cookie-detail-paths.ts');
 const detailRoutesByPath=new Map(cookieDetailRoutes.map(route=>[route.path,route]));
+const hasUnrankedCookies=cookieDetailRoutes.some(({rank})=>!rank);
 const firstTeamPageIds=new Set(recommendedTeams.slice(0,teamsPageSize).flatMap(team=>team.cookies));
 const paths=[
  ...Object.values(seoPages).map(page=>page.path),
@@ -74,7 +75,7 @@ for(const locale of locales)for(const route of publishedPaths(locale)){
   }else{
    const linkedCookies=route==='/teams/'?cookieDetailRoutes.filter(({id})=>firstTeamPageIds.has(id)):cookieDetailRoutes;
    for(const {path}of linkedCookies)assert.ok(mainLinks.has(localizedPath(path,locale)),`${localized}: Cookie link missing: ${path}`);
-   if(route==='/tier-list/')assert.ok(main.includes('id="unranked-cookies"'),`${localized}: unranked anchor missing`);
+   if(route==='/tier-list/')assert.equal(main.includes('id="unranked-cookies"'),hasUnrankedCookies,`${localized}: unexpected unranked section visibility`);
   }
  }
  report.pages++;
