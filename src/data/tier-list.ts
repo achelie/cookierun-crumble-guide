@@ -3,21 +3,21 @@ export type TierRank = (typeof tierRanks)[number];
 
 const placedTierList: Record<Exclude<TierRank, "D">, string[]> = {
   S: [
-    "cookie0673", "cookie0678", "chardonnay", "cookie4025", "cookie0081",
+    "cookie0678", "cookie0676", "cookie0672", "chardonnay", "cookie4025", "cookie0081",
     "cookie4013", "cookie4010", "cookie0070", "cookie0250", "cookie4019", "cookie0126", "cookie0532", "cookie0103",
     "cookie0181", "cookie0059", "cookie0003",
   ],
   A: [
-    "cookie0676", "cookie4014", "cookie0672", "cookie0674",
+    "cookie0673", "cookie4014",
     "cookie0518", "cookie0018", "cookie3001", "cookie4024", "cookie0573", "cookie0513", "cookie0063",
     "cookie0515", "cookie0037", "cookie4003", "cookie0023",
   ],
   B: [
-    "cookie0675", "cookie0677", "cookie4018", "cookie0136", "cookie4017", "cookie4006",
+    "cookie0675", "cookie0674", "cookie4018", "cookie0136", "cookie4017", "cookie4006",
     "cookie0027", "cookie0040", "cookie0054", "cookie0503", "cookie0038",
   ],
   C: [
-    "cookie4012", "cookie0570", "cookie1004", "cookie0048", "cookie0527", "cookie0511", "cookie0072",
+    "cookie0677", "cookie4012", "cookie0570", "cookie1004", "cookie0048", "cookie0527", "cookie0511", "cookie0072",
     "cookie0035", "cookie0053", "cookie0069", "cookie2006",
   ],
 };
@@ -33,4 +33,4 @@ export const tierList: Record<TierRank, string[]> = {
   ],
 };
 
-export const tierUpdatedAt = "2026-11-09";
+export const tierUpdatedAt = "2026-11-10";
