@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 
-const tierListPage = readFileSync(new URL("./tier-list/page.tsx", import.meta.url), "utf8");
+const tierListPage = readFileSync(new URL("../../components/tier-list-view.tsx", import.meta.url), "utf8");
 const teamsPage = readFileSync(new URL("./teams/page.tsx", import.meta.url), "utf8");
 
 describe("content hub cross-links", () => {

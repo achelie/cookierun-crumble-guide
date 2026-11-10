@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { I18nElement } from "@/i18n/elements";
 import { CookieMiniCard } from "@/components/cookie-mini-card";
 import { cookieById } from "@/data/cookies";
@@ -9,7 +10,7 @@ const unrankedCookies = cookieDetailRoutes.flatMap(({ id, rank }) => {
   return !rank && cookie ? [cookie] : [];
 });
 
-export function TierBoard() {
+export function TierBoard({ children }: { children?: ReactNode }) {
   return (
     <I18nElement as="section" className="tier-shell" aria-label="Combined PvP and PvE Cookie tier list">
       <I18nElement as="div" className="tier-board">
@@ -25,6 +26,7 @@ export function TierBoard() {
           </I18nElement>
         ))}
       </I18nElement>
+      {children}
       {unrankedCookies.length > 0 ? (
         <section id="unranked-cookies" className="tier-unranked" aria-labelledby="unranked-cookies-title">
           <I18nElement as="h2" id="unranked-cookies-title" className="tier-unranked__title">Unranked Cookies</I18nElement>
