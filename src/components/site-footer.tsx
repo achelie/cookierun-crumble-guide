@@ -1,5 +1,6 @@
 import { I18nElement } from "@/i18n/elements";
 import { LocaleLink as Link } from "@/i18n/elements";
+import { PrivacySettings } from "@/components/ads/privacy-settings";
 
 export function SiteFooter() {
   return (
@@ -20,6 +21,7 @@ export function SiteFooter() {
         <Link href="/contact/">Contact</Link>
         <Link href="/privacy/">Privacy</Link>
         <Link href="/disclaimer/">Disclaimer</Link>
+        <PrivacySettings />
       </I18nElement>
       <I18nElement as="div" className="site-footer__legal">
         <I18nElement as="a" href="mailto:contact@cookieruncrumbles.com">contact@cookieruncrumbles.com</I18nElement>

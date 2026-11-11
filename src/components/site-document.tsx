@@ -8,6 +8,7 @@ import { I18nElement } from "@/i18n/elements";
 import { getMessages } from "@/i18n/dictionaries";
 import { alternateLanguages, type Locale } from "@/i18n/config";
 import "@/app/globals.css";
+import "@/app/ads.css";
 
 const display = Fredoka({ subsets: ["latin"], variable: "--font-display", weight: ["500", "600", "700"] });
 const body = Nunito_Sans({ subsets: ["latin"], variable: "--font-body", weight: ["400", "600", "700", "800"] });
@@ -56,11 +57,10 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#d94f3f", colorScheme: "light dark" };
 
-export function SiteDocument({ children, advertising = false, locale = "en" }: Readonly<{ children: React.ReactNode; advertising?: boolean; locale?: Locale }>) {
+export function SiteDocument({ children, locale = "en" }: Readonly<{ children: React.ReactNode; locale?: Locale }>) {
   return (
     <html lang={locale} className={`${display.variable} ${body.variable}`}>
       <head>
-        {advertising && <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7443237558968985" crossOrigin="anonymous" />}
         <script
           src={ahrefsAnalyticsSrc}
           data-key={ahrefsAnalyticsKey}

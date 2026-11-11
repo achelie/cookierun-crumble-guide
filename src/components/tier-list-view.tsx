@@ -1,4 +1,7 @@
 import { SeoPageHeader } from "@/components/seo-page-header";
+import { AdSlot } from "@/components/ads/ad-slot";
+import { AdRail } from "@/components/ads/ad-rail";
+import { adOptions } from "@/lib/ads/config";
 import { StructuredData } from "@/components/structured-data";
 import { TierBoard } from "@/components/tier-board";
 import { TierRecommendationSection } from "@/components/tier-recommendations";
@@ -35,9 +38,13 @@ export function TierListView({ locale }: { locale: Locale }) {
         <I18nElement as="span">Want your own ranking?</I18nElement>
         <Link href="/tools/tier-builder/">Open Tier Builder<AppIcon name="chevron" size={13} /></Link>
       </I18nElement>
-      <TierBoard>
-        <TierRecommendationSection locale={locale} />
-      </TierBoard>
+      <div className="ad-rail-anchor">
+        <TierBoard>
+          <TierRecommendationSection locale={locale} />
+        </TierBoard>
+        <AdSlot placement="tier-after-ranks" eligible={schemaItems.length > 0} />
+        {adOptions.tierSidebar ? <AdRail placement="tier-sidebar" eligible={schemaItems.length > 0} /> : null}
+      </div>
     </I18nElement>
   );
 }

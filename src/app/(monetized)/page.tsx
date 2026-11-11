@@ -1,4 +1,5 @@
 import { I18nElement } from "@/i18n/elements";
+import { AdSlot } from "@/components/ads/ad-slot";
 import { LocaleImage as Image } from "@/i18n/elements";
 import { LocaleLink as Link } from "@/i18n/elements";
 import { StructuredData } from "@/components/structured-data";
@@ -131,6 +132,7 @@ export default function Home() {
         </I18nElement>
       </I18nElement>
 
+      <AdSlot placement="home-after-browse" />
       <I18nElement as="section" className="builder-shortcuts" aria-labelledby="builder-shortcuts-title">
         <I18nElement as="div" className="builder-shortcuts__heading">
           <I18nElement as="div">

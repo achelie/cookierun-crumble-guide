@@ -5,6 +5,7 @@ import { useTranslator } from "@/i18n/provider";
 import { useEffect } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { GuideCard } from "@/components/guide-card";
+import { AdSlot } from "@/components/ads/ad-slot";
 import { AppIcon } from "@/components/ui/icon";
 import { guideCategories, type GuideSummary } from "@/data/guides";
 import { filterGuides, normalizeGuideCategory, paginateGuides } from "@/lib/guides";
@@ -74,11 +75,13 @@ export function GuidesExplorer({ guides }: { guides: GuideSummary[] }) {
         {(query || category !== "all") && <I18nElement as="span">matching your filters</I18nElement>}
       </I18nElement>
 
+      <I18nElement as="div" className="guides-grid">
+        {pagination.items.slice(0, 3).map((guide, index) => <GuideCard key={guide.slug} guide={guide} featured={index === 0} />)}
+        <AdSlot placement="guides-after-first-rows" eligible={pagination.items.length >= 5} />
+        {pagination.items.slice(3).map((guide) => <GuideCard key={guide.slug} guide={guide} />)}
+      </I18nElement>
       {pagination.items.length > 0 ? (
         <>
-          <I18nElement as="div" className="guides-grid">
-            {pagination.items.map((guide, index) => <GuideCard key={guide.slug} guide={guide} featured={index === 0} />)}
-          </I18nElement>
           <I18nElement as="nav" className="guides-pagination" aria-label="Guides pagination">
             <I18nElement as="button" type="button" disabled={pagination.page === 1} onClick={() => updateParams({ page: pagination.page - 1 })}>
               <AppIcon name="chevron-left" size={16} />Previous

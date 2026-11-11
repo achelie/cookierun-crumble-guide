@@ -4,6 +4,9 @@ import { I18nElement } from "@/i18n/elements";
 import { useEffect, useRef } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { TeamShowcase } from "@/components/team-showcase";
+import { AdSlot } from "@/components/ads/ad-slot";
+import { SecondAd } from "@/components/ads/ad-rail";
+import { adOptions } from "@/lib/ads/config";
 import { AppIcon } from "@/components/ui/icon";
 import { teamCategories, type RecommendedTeam } from "@/data/teams";
 import { filterTeams, normalizeTeamCategory, paginateTeams, teamsPageSize, type TeamFilter } from "@/lib/team-pagination";
@@ -74,8 +77,14 @@ export function TeamsExplorer({ teams }: { teams: RecommendedTeam[] }) {
         ))}
       </I18nElement>
       <I18nElement as="p" className="teams-result-line" role="status">{pagination.total} {pagination.total === 1 ? "team" : "teams"}{category !== "all" && ` in ${teamCategories.find((item) => item.slug === category)?.label}`}</I18nElement>
-      <I18nElement as="section" ref={listRef} className="recommended-teams" aria-label="Recommended teams">
-        {pagination.items.map((team) => <TeamShowcase team={team} key={team.id} />)}
+      <I18nElement as="section" ref={listRef} className="recommended-teams ad-rail-anchor" aria-label="Recommended teams">
+        {pagination.items.slice(0, 2).map((team) => <TeamShowcase team={team} key={team.id} />)}
+        <AdSlot placement="teams-after-second" eligible={pagination.items.length >= 2} />
+        {pagination.items.slice(2, 4).map((team) => <TeamShowcase team={team} key={team.id} />)}
+        <AdSlot placement="teams-after-fourth" eligible={pagination.items.length >= 4} />
+        {pagination.items.slice(4, 6).map((team) => <TeamShowcase team={team} key={team.id} />)}
+        <SecondAd mode={adOptions.teamsSecond} inline="teams-after-sixth" rail="teams-sidebar" eligible={pagination.items.length >= 6} />
+        {pagination.items.slice(6).map((team) => <TeamShowcase team={team} key={team.id} />)}
       </I18nElement>
       <I18nElement as="nav" className="teams-pagination" aria-label="Teams pagination">
         <I18nElement as="button" type="button" disabled={pagination.page === 1} onClick={() => updatePage(pagination.page - 1, true)}>

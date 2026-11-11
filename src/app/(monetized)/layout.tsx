@@ -4,5 +4,5 @@ export const metadata = siteMetadata;
 export const viewport = siteViewport;
 
 export default function AdSenseContentLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <SiteDocument advertising>{children}</SiteDocument>;
+  return <SiteDocument>{children}</SiteDocument>;
 }

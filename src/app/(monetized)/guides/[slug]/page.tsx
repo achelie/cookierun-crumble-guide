@@ -1,4 +1,6 @@
 import { I18nElement } from "@/i18n/elements";
+import { GuideAds } from "@/components/ads/guide-ads";
+import { guideAdRules } from "@/lib/ads/config";
 import type { Metadata } from "next";
 import { LocaleLink as Link } from "@/i18n/elements";
 import { notFound } from "next/navigation";
@@ -74,6 +76,10 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
   const Content = await loadGuideContent(guide.slug, locale);
   if (!Content) notFound();
   const category = getGuideCategory(guide.category);
+  const { minimumMinutes, minimumSections, longMinutes, longSections } = guideAdRules;
+  const answer = guide.readingMinutes >= minimumMinutes && guide.toc.length >= minimumSections ? guide.toc[0]?.id : undefined;
+  const middle = answer && guide.readingMinutes >= longMinutes && guide.toc.length >= longSections
+    ? guide.toc[Math.floor(guide.toc.length / 2) - 1]?.id : undefined;
   const related = getRelatedGuides(guide, guides.filter((item) => guideSupportsLocale(item.slug, locale)));
   const canonical = `${siteUrl}/guides/${guide.slug}/`;
   const socialImage = absoluteUrl(cookieById.get(guide.coverCookieIds[0])?.image ?? "/opengraph-image");
@@ -142,7 +148,7 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
       <I18nElement as="div" className="guide-reading-layout">
         <QuickNavigation items={guide.toc} />
         <I18nElement as="article" className="guide-prose">
-          <Content />
+          <GuideAds sections={{ answer, middle }}><Content /></GuideAds>
         </I18nElement>
       </I18nElement>
 
