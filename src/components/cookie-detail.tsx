@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CookieProfileAd } from "@/components/ads/cookie-profile-ad";
+import { AdSlot } from "@/components/ads/ad-slot";
 import { SkillMetrics } from "@/components/cookie-skill-metrics";
 import { CookieStarUpgrades } from "@/components/cookie-star-upgrades";
 import { AppIcon } from "@/components/ui/icon";
@@ -243,7 +243,7 @@ export function CookieDetail({ entry }: { entry: CookieDetailEntry }) {
           />
         </div>
 
-        <CookieProfileAd sidebarClassName={styles.sidebar} eligible={profile.skills.some((skill) => skill.description && skill.metrics.length > 0) && baseStats.length > 0}>
+        <div className={styles.sidebar}>
           <div className={styles.combat}>
             <section id="base-stats" aria-labelledby="base-stats-title">
               <I18nElement as="h2" id="base-stats-title">Base stats</I18nElement>
@@ -286,7 +286,10 @@ export function CookieDetail({ entry }: { entry: CookieDetailEntry }) {
             </section>
           </div>
           <CollectionRewards rewards={profile.codexRewards} locale={locale} />
-        </CookieProfileAd>
+        </div>
+        {baseStats.length > 0 && profile.skills.some((skill) => skill.description && skill.metrics.length > 0) ? (
+          <div className="cookie-profile-ad"><AdSlot placement="cookie-after-profile" /></div>
+        ) : null}
       </div>
     </article>
   );

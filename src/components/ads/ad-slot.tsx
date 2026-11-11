@@ -5,19 +5,19 @@ import { adMode, adPublisher, getAdLayout, getAdPlacement, type AdPlacement } fr
 import { canRequestAds, startAdSense, subscribeToAds } from "@/lib/ads/google";
 import { useLocale } from "@/i18n/provider";
 
-type Props = { placement: AdPlacement; eligible?: boolean; sidebar?: boolean };
+type Props = { placement: AdPlacement; eligible?: boolean };
 type Unit = NonNullable<ReturnType<typeof getAdPlacement>>;
 
 const labels = { en: "Advertisements", "zh-Hant": "廣告", ja: "広告", ko: "광고", th: "โฆษณา" };
 const serverSnapshot = () => false;
 
-export function AdSlot({ placement, eligible = true, sidebar = false }: Props) {
+export function AdSlot({ placement, eligible = true }: Props) {
   const unit = getAdPlacement(placement);
   if (!unit) return null;
-  return <ConfiguredAdSlot placement={placement} eligible={eligible} sidebar={sidebar} unit={unit} />;
+  return <ConfiguredAdSlot placement={placement} eligible={eligible} unit={unit} />;
 }
 
-function ConfiguredAdSlot({ placement, eligible, sidebar, unit }: Required<Props> & { unit: Unit }) {
+function ConfiguredAdSlot({ placement, eligible, unit }: Required<Props> & { unit: Unit }) {
   const label = labels[useLocale()];
   const ready = useSyncExternalStore(subscribeToAds, canRequestAds, serverSnapshot);
   const target = useRef<HTMLDivElement>(null);
@@ -52,7 +52,7 @@ function ConfiguredAdSlot({ placement, eligible, sidebar, unit }: Required<Props
       const width = host.getBoundingClientRect().width;
       const layout = getAdLayout(window.innerWidth);
       const displayFormat = format === "adaptive" ? (layout === "desktop" && width >= 600 ? "horizontal" : "rectangle") : format;
-      const minWidth = sidebar ? 300 : displayFormat === "horizontal" ? 250 : 300;
+      const minWidth = displayFormat === "horizontal" ? 250 : 300;
       if (width < minWidth) return;
 
       attempted.current = true;
@@ -70,7 +70,7 @@ function ConfiguredAdSlot({ placement, eligible, sidebar, unit }: Required<Props
         ins.dataset.adFormat = "fluid";
       } else {
         ins.dataset.adFormat = displayFormat;
-        ins.dataset.fullWidthResponsive = String(displayFormat === "horizontal" && !sidebar);
+        ins.dataset.fullWidthResponsive = String(displayFormat === "horizontal");
       }
 
       completion = new MutationObserver(() => {
@@ -100,7 +100,7 @@ function ConfiguredAdSlot({ placement, eligible, sidebar, unit }: Required<Props
       completion?.disconnect();
       window.clearTimeout(deadline);
     };
-  }, [allowed, format, retired, sidebar, slot]);
+  }, [allowed, format, retired, slot]);
 
   if (!eligible || retired || (adMode === "live" && !ready)) return null;
   return (

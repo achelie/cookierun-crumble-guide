@@ -54,15 +54,3 @@
 .cookie-profile-ad { grid-column: 1 / -1; min-inline-size: 0; }
 .cookie-profile-ad:not(:has(.ad-slot)), .tool-reference-ad:not(:has(.ad-slot)) { display: none; }
 .tool-reference-ad { padding-block: 16px 28px; }
-
-.ad-rail-anchor, .guide-prose { position: relative; }
-.ad-rail { display: none; }
-@media (min-width: 2000px) {
-  .ad-rail {
-    display: block;
-    position: absolute;
-    inset-inline-start: calc(100% + 24px);
-    inline-size: 300px;
-  }
-  .ad-rail-anchor > .ad-rail { inset-block-start: 0; }
-}
