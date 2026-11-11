@@ -243,9 +243,14 @@
 .reference section { scroll-margin-top: 92px; min-width: 0; }
 
 .skillReference {
+  container: cookie-profile-main / inline-size;
   display: grid;
   gap: 30px;
   min-width: 0;
+}
+
+@container cookie-profile-main (width < 300px) {
+  .skillReference > :global(.ad-slot[data-ad-placement="cookie-after-profile"]) { display: none; }
 }
 
 .runeHeading {

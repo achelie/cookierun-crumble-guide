@@ -1,4 +1,4 @@
-import View from "@/app/(ad-free)/guides/page";
+import View from "@/app/(monetized)/guides/page";
 import { metadataForPath, getGuideLocale } from "@/i18n/server";
 type Props = {params: Promise<{locale:string}>};
 export async function generateMetadata({params}:Props) {return metadataForPath("/guides/",getGuideLocale((await params).locale));}

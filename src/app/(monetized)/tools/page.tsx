@@ -1,4 +1,5 @@
 import { I18nElement } from "@/i18n/elements";
+import { AdSlot } from "@/components/ads/ad-slot";
 import type { Metadata } from "next";
 import { LocaleImage as Image } from "@/i18n/elements";
 import { LocaleLink as Link } from "@/i18n/elements";
@@ -70,6 +71,7 @@ export default function ToolsPage() {
           </I18nElement>
         </Link>
       </I18nElement>
+      <AdSlot placement="tools-after-directory" />
     </I18nElement>
   );
 }

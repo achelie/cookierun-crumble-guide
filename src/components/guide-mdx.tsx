@@ -1,4 +1,5 @@
 import { I18nElement } from "@/i18n/elements";
+import { GuideSectionAd } from "@/components/ads/guide-ads";
 import { LocaleImage as Image } from "@/i18n/elements";
 import type { ReactNode } from "react";
 import { CookieTaxonomyBadges } from "@/components/cookie-taxonomy-badges";
@@ -9,10 +10,13 @@ import { petById } from "@/data/pets";
 
 export function GuideSection({ id, title, children }: { id: string; title: string; children: ReactNode }) {
   return (
-    <I18nElement as="section" className="guide-section" id={id}>
-      <I18nElement as="h2">{title}</I18nElement>
-      {children}
-    </I18nElement>
+    <>
+      <I18nElement as="section" className="guide-section" id={id}>
+        <I18nElement as="h2">{title}</I18nElement>
+        {children}
+      </I18nElement>
+      <GuideSectionAd id={id} />
+    </>
   );
 }
 

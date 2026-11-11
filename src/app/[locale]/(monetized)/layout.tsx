@@ -8,5 +8,5 @@ export function generateStaticParams() { return translatedLocales.map(locale => 
 export default async function Layout({children, params}: {children: React.ReactNode; params: Promise<{locale: string}>}) {
   const locale = localeFromSegment((await params).locale);
   if (!locale) notFound();
-  return <SiteDocument locale={locale} advertising>{children}</SiteDocument>;
+  return <SiteDocument locale={locale}>{children}</SiteDocument>;
 }

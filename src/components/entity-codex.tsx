@@ -1,7 +1,9 @@
 "use client";
 
 import { I18nElement } from "@/i18n/elements";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { AdSlot } from "@/components/ads/ad-slot";
+import { getAdPlacement } from "@/lib/ads/config";
 import { CookieCard } from "@/components/cookie-card";
 import { EntityCard } from "@/components/entity-card";
 import { AppIcon } from "@/components/ui/icon";
@@ -22,6 +24,20 @@ export function EntityCodex(props: EntityCodexProps) {
   const [rarity, setRarity] = useState("All");
   const [element, setElement] = useState("All");
   const [role, setRole] = useState("All");
+  const grid = useRef<HTMLDivElement>(null);
+  const [rowEnd, setRowEnd] = useState(0);
+  const placement = props.kind === "cookie" ? "cookies-after-first-rows" : "pets-after-first-rows";
+  const hasAd = Boolean(getAdPlacement(placement));
+  useEffect(() => {
+    const node = grid.current;
+    if (!node || !hasAd) return;
+    const observer = new ResizeObserver(() => {
+      const columns = getComputedStyle(node).gridTemplateColumns.split(" ").length;
+      setRowEnd(columns === 5 ? 5 : Math.ceil(6 / columns) * columns);
+    });
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [hasAd]);
   const rarityOptions = useMemo(() => {
     const availableRarities = new Set(props.items.map((item) => item.rarity));
     return ["All", ...rarities.filter((option) => availableRarities.has(option))];
@@ -41,6 +57,10 @@ export function EntityCodex(props: EntityCodexProps) {
     setElement("All");
     setRole("All");
   }
+
+  const cards = props.kind === "cookie"
+    ? (filtered as Cookie[]).map((item, index) => <CookieCard key={item.id} cookie={item} eager={index < 4} />)
+    : (filtered as Pet[]).map((item) => <EntityCard key={item.id} {...item} />);
 
   return (
     <I18nElement as="section" className={`codex codex--${props.kind}`} aria-label={`${props.kind} collection`}>
@@ -80,20 +100,19 @@ export function EntityCodex(props: EntityCodexProps) {
         <I18nElement as="p" className="result-count"><I18nElement as="strong">{filtered.length}</I18nElement> of {props.items.length}</I18nElement>
       </I18nElement>
 
-      {filtered.length ? (
-        <I18nElement as="div" className={props.kind === "cookie" ? "cookie-grid" : "entity-grid"}>
-          {props.kind === "cookie"
-            ? (filtered as Cookie[]).map((item, index) => <CookieCard key={item.id} cookie={item} eager={index < 4} />)
-            : (filtered as Pet[]).map((item) => <EntityCard key={item.id} {...item} />)}
-        </I18nElement>
-      ) : (
+      <div ref={grid} className={props.kind === "cookie" ? "cookie-grid" : "entity-grid"} data-ad-row-end={rowEnd || undefined}>
+        {cards.slice(0, 6)}
+        <AdSlot placement={placement} eligible={rowEnd > 0 && filtered.length > rowEnd} />
+        {cards.slice(6)}
+      </div>
+      {!filtered.length ? (
         <I18nElement as="div" className="empty-state">
           <AppIcon name="search" size={28} />
           <I18nElement as="strong">No crumbs found.</I18nElement>
           <I18nElement as="p">Try a shorter name or loosen one filter.</I18nElement>
           <I18nElement as="button" type="button" onClick={resetFilters}>Reset filters</I18nElement>
         </I18nElement>
-      )}
+      ) : null}
     </I18nElement>
   );
 }

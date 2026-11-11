@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AdSlot } from "@/components/ads/ad-slot";
 import { SkillMetrics } from "@/components/cookie-skill-metrics";
 import { CookieStarUpgrades } from "@/components/cookie-star-upgrades";
 import { AppIcon } from "@/components/ui/icon";
@@ -148,6 +149,8 @@ export function CookieDetail({ entry }: { entry: CookieDetailEntry }) {
   const numberFormat = new Intl.NumberFormat(locale, { maximumFractionDigits: 3 });
   const percentFormat = new Intl.NumberFormat(locale, { style: "percent", maximumFractionDigits: 3 });
   const baseStats = profile.stats.filter(({ key, unit }) => Object.hasOwn(statLabels, key) && (unit === "" || unit === "%"));
+  const hasProfileAd = profile.runeRecommendations.length > 0 && profile.promotions.length > 0
+    && baseStats.length > 0 && profile.skills.some((skill) => skill.description && skill.metrics.length > 0);
   return (
     <article className={`page-shell ${styles.page}`} data-screen-label="Cookie profile" data-element={cookie.element}>
       <I18nElement as="nav" className={styles.crumbs} aria-label="Breadcrumb">
@@ -234,6 +237,7 @@ export function CookieDetail({ entry }: { entry: CookieDetailEntry }) {
             </section>
           ) : null}
           <SugarRuneRecommendations recommendations={profile.runeRecommendations} />
+          {hasProfileAd ? <AdSlot placement="cookie-after-profile" /> : null}
           <CookieStarUpgrades
             promotions={profile.promotions}
             skills={profile.skills.map(({ id, name, metrics }) => ({ id, name, metrics }))}

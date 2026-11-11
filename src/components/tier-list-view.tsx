@@ -1,4 +1,5 @@
 import { SeoPageHeader } from "@/components/seo-page-header";
+import { AdSlot } from "@/components/ads/ad-slot";
 import { StructuredData } from "@/components/structured-data";
 import { TierBoard } from "@/components/tier-board";
 import { TierRecommendationSection } from "@/components/tier-recommendations";
@@ -38,6 +39,7 @@ export function TierListView({ locale }: { locale: Locale }) {
       <TierBoard>
         <TierRecommendationSection locale={locale} />
       </TierBoard>
+      <AdSlot placement="tier-after-ranks" eligible={schemaItems.length > 0} />
     </I18nElement>
   );
 }
