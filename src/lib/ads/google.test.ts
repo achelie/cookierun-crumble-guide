@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { allowsEuropeanAds } from "./google";
+import { allowsEuropeanAds, isGppReady } from "./google";
 
 const consent = {
   cmpStatus: "loaded",
@@ -27,7 +27,16 @@ describe("AdSense consent and configuration", () => {
     expect(allowsEuropeanAds(consent, true)).toBe(true);
     expect(allowsEuropeanAds({ ...consent, vendor: { consents: {} } }, true)).toBe(false);
     expect(allowsEuropeanAds({ ...consent, purpose: { consents: { 1: true, 3: true, 4: false } } }, true)).toBe(false);
-    expect(allowsEuropeanAds({ cmpStatus: "loaded", eventStatus: "tcloaded", gdprApplies: false }, true)).toBe(true);
+    expect(allowsEuropeanAds({ cmpStatus: "loaded", gdprApplies: false }, true)).toBe(true);
+  });
+
+  it("waits for GPP to report applicable sections and their signals", () => {
+    const outside = { cmpStatus: "loaded", signalStatus: "ready", applicableSections: [-1] };
+    expect(isGppReady(outside, true)).toBe(true);
+    expect(isGppReady({ ...outside, signalStatus: "not ready" }, true)).toBe(false);
+    expect(isGppReady({ ...outside, applicableSections: [] }, true)).toBe(false);
+    expect(isGppReady({ ...outside, applicableSections: [7] }, true)).toBe(false);
+    expect(isGppReady({ ...outside, applicableSections: [7], gppString: "mock-gpp-string" }, true)).toBe(true);
   });
 
   it("requires both production switches", async () => {

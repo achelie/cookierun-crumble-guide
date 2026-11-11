@@ -57,7 +57,7 @@ NEXT_PUBLIC_ADSENSE_IN_ARTICLE=2512707489
 3. 在 **Privacy & messaging → US state regulations** 为实际站点发布州法规消息。用当地连接检查 Google 提供的 **Do Not Sell or Share** 入口，验证退出后再次访问仍生效。打开真实浏览器 GPC，在适用州验证请求进入 RDP，并检查后台相应设置。Google 通过 GPP 与适用地区的 GPC 处理信号，代码不按站点语言推断地区。US 入口由 Google 在加载 CMP 的页面渲染，AdSense 的自定义覆盖 API 仅支持 Ad Manager。 [美国消息](https://support.google.com/adsense/answer/10961479?hl=en) · [RDP 与 GPC](https://support.google.com/adsense/answer/14182916?hl=en) · [Privacy & Messaging API](https://developers.google.com/funding-choices/fc-api-docs)
 4. 打开 `https://cookieruncrumbles.com/ads.txt` 和 `https://www.cookieruncrumbles.com/ads.txt`，两条路径都应最终返回 HTTP 200 及 `google.com, pub-7443237558968985, DIRECT, f08c47fec0942fa0`。本次两条路径均已验证，裸域最终跳至 `www`。在 AdSense 的 **Sites** 中确认抓取状态。 [Google ads.txt 抓取说明](https://support.google.com/adsense/answer/7679060?hl=en)
 5. 仓库当前使用 Ahrefs Web Analytics，未找到 GA4。单独复核 Ahrefs 和 Cloudflare 的配置、隐私披露及适用同意要求。由站长结合目标受众、营销和内容判断是否需要儿童定向处理，并复核现有隐私政策措辞。 [儿童定向处理说明](https://support.google.com/webmasters/answer/3221080?hl=en)
-6. 确认前述账户设置后再把两个开关同时设为 `true`。Google 的 AdSense 脚本也负责启动 CMP。每个文档最多加载一次。手动广告请求还会等脚本加载、TCF 有效决策及已知的美国隐私状态。欧洲只在 TCF 明确对 Google 给出所需同意时请求。拒绝或状态未知时页面正常工作且不会发手动广告请求。 [Google TCF 集成](https://support.google.com/adsense/answer/9804260)
+6. 确认前述账户设置后再把两个开关同时设为 `true`。Google 的 AdSense 脚本也负责启动 CMP。每个文档最多加载一次。手动广告请求会等待脚本加载、TCF 状态可用及 GPP 信号就绪。欧洲只在 TCF 明确对 Google 给出所需同意时请求。GPP 报告没有适用地区规则时可继续请求，有适用规则时等同意字符串就绪，由 Google 处理退出信号。欧洲拒绝或状态未知时不会发手动广告请求。 [Google TCF 集成](https://support.google.com/adsense/answer/9804260) · [GPP API](https://developers.google.com/funding-choices/fc-api-docs)
 
 ## 验收和回滚
 

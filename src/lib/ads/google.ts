@@ -9,9 +9,16 @@ type TcData = {
   vendor?: { consents?: Record<number, boolean> };
 };
 
+type GppStatus = {
+  cmpStatus?: string;
+  signalStatus?: string;
+  applicableSections?: number[];
+  gppString?: string;
+};
+
 type PrivacyCallbacks = {
   CONSENT_API_READY?: () => void;
-  INITIAL_US_STATES_OPT_OUT_DATA_READY?: () => void;
+  CONSENT_DATA_READY?: () => void;
 };
 
 type PrivacyCallback = PrivacyCallbacks | (() => void);
@@ -19,10 +26,6 @@ type PrivacyCallback = PrivacyCallbacks | (() => void);
 type GooglePrivacy = {
   callbackQueue?: { push(callback: PrivacyCallback): unknown };
   showRevocationMessage?: () => void;
-  usstatesoptout?: {
-    getInitialUsStatesOptOutStatus(): number;
-    InitialUsStatesOptOutStatusEnum: Record<"DOES_NOT_APPLY" | "NOT_OPTED_OUT" | "OPTED_OUT", number>;
-  };
 };
 
 declare global {
@@ -30,25 +33,35 @@ declare global {
     adsbygoogle?: { push(request: Record<string, never>): unknown };
     googlefc?: GooglePrivacy;
     __tcfapi?: (command: "addEventListener", version: number, callback: (data: TcData, success: boolean) => void) => void;
+    __gpp?: (command: "addEventListener", callback: (data: { pingData?: GppStatus }, success: boolean) => void) => void;
   }
 }
 
 export function allowsEuropeanAds(data: TcData, success: boolean) {
-  if (!success || data?.cmpStatus !== "loaded" || !["tcloaded", "useractioncomplete"].includes(data.eventStatus ?? "")) return false;
+  if (!success || data?.cmpStatus !== "loaded") return false;
   if (data.gdprApplies === false) return true;
-  return data.gdprApplies === true && Boolean(data.tcString) && data.vendor?.consents?.[755] === true
+  const hasChoice = data.eventStatus === "tcloaded" || data.eventStatus === "useractioncomplete";
+  return data.gdprApplies === true && hasChoice && Boolean(data.tcString) && data.vendor?.consents?.[755] === true
     && [1, 3, 4].every((purpose) => data.purpose?.consents?.[purpose] === true);
+}
+
+export function isGppReady(data: GppStatus | undefined, success: boolean) {
+  if (!success || data?.cmpStatus !== "loaded" || data.signalStatus !== "ready") return false;
+  const sections = data.applicableSections;
+  if (!sections?.length) return false;
+  if (sections.length === 1 && sections[0] === -1) return true;
+  return Boolean(data.gppString) && sections.every((section) => Number.isInteger(section) && section > 0);
 }
 
 const listeners = new Set<() => void>();
 let started = false;
 let scriptReady = false;
 let europeAllowed = false;
-let usReady = false;
+let gppReady = false;
 let awaitingChoice = false;
 let gdprApplies: boolean | undefined;
 
-export function canRequestAds() { return scriptReady && europeAllowed && usReady && !awaitingChoice; }
+export function canRequestAds() { return scriptReady && europeAllowed && gppReady && !awaitingChoice; }
 export function subscribeToAds(listener: () => void) {
   listeners.add(listener);
   return () => { listeners.delete(listener); };
@@ -70,14 +83,12 @@ export function startAdSense() {
         notify();
       });
     },
-    INITIAL_US_STATES_OPT_OUT_DATA_READY: () => {
-      const us = window.googlefc?.usstatesoptout;
-      const status = us?.getInitialUsStatesOptOutStatus?.();
-      const states = us?.InitialUsStatesOptOutStatusEnum;
-      // Google consumes the opt-out and applicable GPC signals and applies RDP.
-      usReady = states !== undefined && status !== undefined
-        && [states.DOES_NOT_APPLY, states.NOT_OPTED_OUT, states.OPTED_OUT].includes(status);
-      notify();
+    CONSENT_DATA_READY: () => {
+      window.__gpp?.("addEventListener", (data, success) => {
+        // Google consumes the GPP string and applies applicable opt-out and GPC signals.
+        gppReady = isGppReady(data?.pingData, success);
+        notify();
+      });
     },
   });
 
