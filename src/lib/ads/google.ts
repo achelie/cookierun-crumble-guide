@@ -16,12 +16,10 @@ type GppStatus = {
   gppString?: string;
 };
 
-type PrivacyCallbacks = {
-  CONSENT_API_READY?: () => void;
-  CONSENT_DATA_READY?: () => void;
-};
-
-type PrivacyCallback = PrivacyCallbacks | (() => void);
+type PrivacyCallback =
+  | { CONSENT_API_READY: () => void; CONSENT_DATA_READY?: never }
+  | { CONSENT_DATA_READY: () => void; CONSENT_API_READY?: never }
+  | (() => void);
 
 type GooglePrivacy = {
   callbackQueue?: { push(callback: PrivacyCallback): unknown };
@@ -83,6 +81,8 @@ export function startAdSense() {
         notify();
       });
     },
+  });
+  queue.push({
     CONSENT_DATA_READY: () => {
       window.__gpp?.("addEventListener", (data, success) => {
         // Google consumes the GPP string and applies applicable opt-out and GPC signals.

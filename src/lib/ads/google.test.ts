@@ -13,6 +13,7 @@ const consent = {
 describe("AdSense consent and configuration", () => {
   afterEach(() => {
     vi.unstubAllEnvs();
+    vi.unstubAllGlobals();
     vi.resetModules();
   });
 
@@ -37,6 +38,27 @@ describe("AdSense consent and configuration", () => {
     expect(isGppReady({ ...outside, applicableSections: [] }, true)).toBe(false);
     expect(isGppReady({ ...outside, applicableSections: [7] }, true)).toBe(false);
     expect(isGppReady({ ...outside, applicableSections: [7], gppString: "mock-gpp-string" }, true)).toBe(true);
+  });
+
+  it("initializes only after Google delivers both consent callbacks and the script loads", async () => {
+    const script = new EventTarget();
+    const callbacks = new Map<string, () => void>();
+    vi.stubGlobal("window", {
+      googlefc: { callbackQueue: { push(entry: Record<string, () => void>) {
+        const callback = Object.entries(entry).at(-1);
+        if (callback) callbacks.set(...callback);
+      } } },
+      __tcfapi: ((_command, _version, callback) => callback({ cmpStatus: "loaded", gdprApplies: false }, true)) satisfies NonNullable<Window["__tcfapi"]>,
+      __gpp: ((_command, callback) => callback({ pingData: { cmpStatus: "loaded", signalStatus: "ready", applicableSections: [-1] } }, true)) satisfies NonNullable<Window["__gpp"]>,
+    });
+    vi.stubGlobal("document", { createElement: () => script, head: { append: vi.fn() } });
+    const { startAdSense, canRequestAds } = await import("./google");
+    startAdSense();
+    script.dispatchEvent(new Event("load"));
+    callbacks.get("CONSENT_DATA_READY")?.();
+    expect(canRequestAds()).toBe(false);
+    callbacks.get("CONSENT_API_READY")?.();
+    expect(canRequestAds()).toBe(true);
   });
 
   it("requires both production switches", async () => {
