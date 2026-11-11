@@ -9,7 +9,7 @@
 | 首页 Browse the guide 入口组之后 | `home-after-browse` | 横向 Display | 横向 Display | 基础 |
 | 工具目录两组完整工具卡之后 | `tools-after-directory` | 横向 Display | 横向 Display | 基础 |
 | Cookies 和 Pets 第一批完整行之后 | `cookies-after-first-rows`、`pets-after-first-rows` | 矩形 Display | 容器宽至少 600px 时横向 Display | 基础 |
-| Cookie 档案的技能、属性、战斗和收藏资料之后 | `cookie-after-profile` | 矩形 Display | 矩形 Display | 基础。至少有基础属性，以及一项有说明和数值的技能 |
+| Cookie 档案主资料列，完整推荐符文区（含 Planner 按钮）之后、升星区之前 | `cookie-after-profile` | 矩形 Display | 主列至少 600px 时横向 Display，否则矩形 Display | 基础。需要符文和升星资料、基础属性，以及一项有说明和数值的技能 |
 | 完整 S 档与 A 档之间 | `tier-between-s-and-a` | 矩形 Display | 横向 Display | 基础 |
 | S–D 榜单及补充排名资料之后 | `tier-after-ranks` | 矩形 Display | 横向 Display | 基础 |
 | 队伍第 2 个完整队伍之后 | `teams-after-second` | 矩形 Display | 横向 Display | 基础 |

@@ -51,6 +51,5 @@
 .cookie-grid[data-ad-row-end="8"] > :nth-child(n+9 of :not(.ad-slot)),
 .entity-grid[data-ad-row-end="8"] > :nth-child(n+9 of :not(.ad-slot)) { order: 2; }
 
-.cookie-profile-ad { grid-column: 1 / -1; min-inline-size: 0; }
-.cookie-profile-ad:not(:has(.ad-slot)), .tool-reference-ad:not(:has(.ad-slot)) { display: none; }
+.tool-reference-ad:not(:has(.ad-slot)) { display: none; }
 .tool-reference-ad { padding-block: 16px 28px; }

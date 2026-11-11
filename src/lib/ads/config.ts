@@ -25,7 +25,7 @@ const placements = {
   "tools-after-directory": "horizontal",
   "cookies-after-first-rows": "adaptive",
   "pets-after-first-rows": "adaptive",
-  "cookie-after-profile": "rectangle",
+  "cookie-after-profile": "adaptive",
   "tier-between-s-and-a": "adaptive",
   "tier-after-ranks": "adaptive",
   "teams-after-second": "adaptive",
