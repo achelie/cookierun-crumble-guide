@@ -1,10 +1,13 @@
 import gameData from "@/data/cookie-details.generated.json";
 import { cookieRuneRecommendations } from "@/data/cookie-runes";
-import { cookieById, type Cookie } from "@/data/cookies";
+import { cookieById, cookiesUpdatedAt, type Cookie } from "@/data/cookies";
+import { tierUpdatedAt } from "@/data/tier-list";
 import type { Locale } from "@/i18n/config";
 import { cookieDetailRoutes } from "@/lib/cookie-detail-paths";
 
 export const cookieDetailGameVersion = "1.6.102";
+export const cookieDetailsUpdatedAt = cookiesUpdatedAt;
+export const cookiePageUpdatedAt = cookiesUpdatedAt > tierUpdatedAt ? cookiesUpdatedAt : tierUpdatedAt;
 
 type LocalizedText = Record<Locale, string>;
 type GameCodexReward = {
@@ -68,6 +71,10 @@ export type CookieDetailEntry = (typeof cookieDetailRoutes)[number] & {
   locale: Locale;
   profile: CookieProfile;
 };
+
+export function maxCookieStars(profile: CookieDetailEntry["profile"]) {
+  return Math.max(0, ...profile.promotions.map(({ stars }) => stars));
+}
 
 const profiles: Record<string, GameProfile> = gameData.profiles;
 const promotions: Record<string, CookiePromotion[]> = gameData.promotions;

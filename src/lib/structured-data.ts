@@ -1,10 +1,28 @@
-import { absoluteUrl, siteName, siteUrl, type SeoPageDefinition } from "@/lib/seo";
+import { absoluteUrl, type SeoPageDefinition } from "@/lib/seo";
+import { siteDescriptions, siteName, siteUrl } from "@/lib/site-identity";
+import type { Locale } from "@/i18n/config";
 
 type SchemaNode = Record<string, unknown>;
 
-export function schemaGraph(nodes: SchemaNode[]) {
-  return { "@context": "https://schema.org", "@graph": nodes };
+export const websiteId = `${siteUrl}/#website`;
+export const organizationId = `${siteUrl}/#organization`;
+export const websiteRef = { "@id": websiteId };
+export const organizationRef = { "@id": organizationId };
+
+const siteEntities: SchemaNode[] = [
+  { "@type": "WebSite", "@id": websiteId, url: `${siteUrl}/`, name: siteName, publisher: organizationRef },
+  {
+    "@type": "Organization", "@id": organizationId, name: siteName, url: `${siteUrl}/`,
+    logo: { "@type": "ImageObject", url: absoluteUrl("/favicon.png"), width: 96, height: 96 },
+  },
+];
+
+export function schemaGraph(nodes: SchemaNode[], locale: Locale = "en"): { "@context": string; "@graph": SchemaNode[] } {
+  // Keep canonical IDs the same across locales and resolve references within each document.
+  return { "@context": "https://schema.org", "@graph": [...nodes, ...siteEntities.map((node) => ({ ...node, description: siteDescriptions[locale] }))] };
 }
+
+export const propertyValue = (name: string, value: string | number) => ({ "@type": "PropertyValue", name, value });
 
 export function breadcrumbNode(
   page: Pick<SeoPageDefinition, "path" | "breadcrumb">,
@@ -29,29 +47,15 @@ export function breadcrumbNode(
 }
 
 export function homeSchema(page: SeoPageDefinition) {
-  return schemaGraph([
-    {
-      "@type": "WebSite",
-      "@id": `${siteUrl}/#website`,
-      url: `${siteUrl}/`,
-      name: siteName,
-      description: page.description,
-      inLanguage: "en",
-      publisher: { "@id": `${siteUrl}/#organization` },
-    },
-    {
-      "@type": "Organization",
-      "@id": `${siteUrl}/#organization`,
-      name: siteName,
-      url: `${siteUrl}/`,
-      logo: {
-        "@type": "ImageObject",
-        url: absoluteUrl("/favicon.png"),
-        width: 96,
-        height: 96,
-      },
-    },
-  ]);
+  return schemaGraph([{
+    "@type": "WebPage",
+    "@id": `${siteUrl}/#page`,
+    url: absoluteUrl(page.path),
+    name: page.h1,
+    dateModified: page.updatedAt,
+    inLanguage: "en",
+    isPartOf: websiteRef,
+  }]);
 }
 
 export function informationPageSchema(page: SeoPageDefinition) {
@@ -62,10 +66,10 @@ export function informationPageSchema(page: SeoPageDefinition) {
       "@id": `${url}#page`,
       url,
       name: page.h1,
-      description: page.description,
+      description: page.summary,
       inLanguage: "en",
       dateModified: page.updatedAt,
-      isPartOf: { "@id": `${siteUrl}/#website` },
+      isPartOf: websiteRef,
       breadcrumb: { "@id": `${url}#breadcrumb` },
     },
     breadcrumbNode(page),
@@ -88,7 +92,7 @@ export function collectionPageSchema(
       description: page.description,
       inLanguage: "en",
       dateModified: page.updatedAt,
-      isPartOf: { "@id": `${siteUrl}/#website` },
+      isPartOf: websiteRef,
       breadcrumb: { "@id": `${url}#breadcrumb` },
       mainEntity: { "@id": listId },
     },
@@ -108,7 +112,6 @@ export function collectionPageSchema(
 
 export function webApplicationSchema(
   page: SeoPageDefinition,
-  features: string[],
   parent: { name: string; path: string } = { name: "Tools", path: "/tools/" },
 ) {
   const url = absoluteUrl(page.path);
@@ -118,13 +121,11 @@ export function webApplicationSchema(
       "@id": `${url}#application`,
       name: page.h1,
       url,
-      description: page.description,
+      description: page.summary,
       applicationCategory: "GameApplication",
-      operatingSystem: "Any",
-      browserRequirements: "Requires JavaScript and a modern web browser",
       isAccessibleForFree: true,
-      offers: { "@type": "Offer", price: 0, priceCurrency: "USD" },
-      featureList: features,
+      isPartOf: websiteRef,
+      publisher: organizationRef,
       inLanguage: "en",
       dateModified: page.updatedAt,
     },

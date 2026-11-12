@@ -29,6 +29,16 @@ export const teamsUpdatedAt = "2026-11-09";
 
 export const recommendedTeams: RecommendedTeam[] = [
   {
+    id: "season-8-arena-opening-burst",
+    category: "pvp",
+    name: "Season 8 Arena Opening Burst Team",
+    kicker: "Open with Princess Bari, Oven Wanderer, and Cherry Cola",
+    description: "Use Nameless Cake Hound as the flag holder. Fluffy Cheese Cat and Floral Froglet support the opening push, while Icy Birdie helps the team absorb hits. Be careful against evasion-heavy defenses and Gangle teams that can stall the opening attack.",
+    cookies: ["cookie4013", "cookie4012", "cookie4010", "cookie0081", "cookie0136", "cookie0063", "chardonnay", "cookie0678", "cookie0126", "cookie4024", "cookie0250", "cookie4025"],
+    pets: ["pet0047", "pet0184", "pet0230"],
+    updatedAt: "2026-11-09",
+  },
+  {
     id: "zooble-pomni-guild-conquest",
     category: "guild-conquest",
     name: "Zooble and Pomni Guild Conquest Team",

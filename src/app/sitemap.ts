@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { cookieById, cookies } from "@/data/cookies";
 import { guides } from "@/data/guides";
 import { pets } from "@/data/pets";
-import { tierUpdatedAt } from "@/data/tier-list";
+import { cookiePageUpdatedAt } from "@/lib/cookie-details";
 import { cookieDetailRoutes } from "@/lib/cookie-detail-paths";
 import { absoluteUrl, seoPages, siteUrl } from "@/lib/seo";
 import { locales, localizedPath, alternateLanguages } from "@/i18n/config";
@@ -32,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const cookie = cookieById.get(id);
     return {
       url: absoluteUrl(path),
-      lastModified: new Date(`${tierUpdatedAt}T00:00:00Z`),
+      lastModified: new Date(`${cookiePageUpdatedAt}T00:00:00Z`),
       images: cookie ? [absoluteUrl(cookie.image)] : undefined,
     };
   });

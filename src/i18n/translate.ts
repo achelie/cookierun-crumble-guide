@@ -1,4 +1,5 @@
 import { localizedPath, type Locale } from "./config";
+import { siteDescriptions, siteName } from "@/lib/site-identity";
 
 export type Messages = Record<string, string>;
 export type Translator = (text: string) => string;
@@ -97,10 +98,16 @@ export function createTranslator(messages: Messages, locale: Locale): Translator
 // numeric inputs, query state, component names or downloaded evidence records.
 export function translateSchema(value: unknown, t: Translator, locale: Locale, origin: string, key = ""): unknown {
   if (Array.isArray(value)) return value.map((item) => translateSchema(item, t, locale, origin, key));
-  if (value && typeof value === "object") return Object.fromEntries(Object.entries(value).map(([name, item]) => [name, translateSchema(item, t, locale, origin, name)]));
+  if (value && typeof value === "object") {
+    const node = value as Record<string, unknown>;
+    if (node["@id"] === `${origin}/#website` || node["@id"] === `${origin}/#organization`) {
+      return node.description ? { ...node, description: siteDescriptions[locale] } : value;
+    }
+    return Object.fromEntries(Object.entries(node).map(([name, item]) => [name, translateSchema(item, t, locale, origin, name)]));
+  }
   if (typeof value !== "string") return value;
   if (key === "inLanguage") return locale;
   if (value.startsWith(origin + "/") && ["url", "@id", "item", "isPartOf", "mainEntityOfPage"].includes(key)) return origin + localizedPath(value.slice(origin.length), locale);
-  if (["name", "headline", "description", "text", "keywords", "featureList", "browserRequirements"].includes(key)) return t(value);
+  if (["name", "headline", "description", "text", "keywords", "featureList", "browserRequirements", "value"].includes(key) && value !== siteName) return t(value);
   return value;
 }

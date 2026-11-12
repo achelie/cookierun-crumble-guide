@@ -4,6 +4,8 @@ import { LocaleLink as Link } from "@/i18n/elements";
 import { TrustPage, type TrustSection } from "@/components/trust-page";
 import { pageMetadata } from "@/lib/metadata";
 import { seoPages } from "@/lib/seo";
+import { dataMethod } from "@/data/data-method";
+import type { Locale } from "@/i18n/config";
 
 const page = seoPages.about;
 export const metadata: Metadata = pageMetadata(page);
@@ -31,6 +33,13 @@ const sections: TrustSection[] = [
   },
 ];
 
-export default function AboutPage() {
-  return <TrustPage page={page} icon="info" updatedLabel="Updated August 28, 2026" note={<I18nElement as="p">Independent guides, practical testing, and corrections without the corporate fog machine.</I18nElement>} sections={sections} />;
+export default function AboutPage() { return <AboutView locale="en" />; }
+
+export function AboutView({ locale }: { locale: Locale }) {
+  const method = dataMethod[locale];
+  return <TrustPage page={page} icon="info" note={<I18nElement as="p">Independent guides, practical testing, and corrections without the corporate fog machine.</I18nElement>} sections={[
+    ...sections.slice(0, 2),
+    { id: "data-sources", title: method.title, content: method.paragraphs.map((text) => <p key={text}>{text}</p>) },
+    ...sections.slice(2),
+  ]} />;
 }

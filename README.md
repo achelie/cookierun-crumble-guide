@@ -2,7 +2,7 @@
 
 一个无数据库、无后端的 CookieRun: Crumble 攻略站，支持英语、繁中、日语、韩语和泰语。生产域名为 `https://www.cookieruncrumbles.com`。
 
-英语沿用根路径；新增语言分别使用 `/zh-tw/`、`/ja/`、`/ko/` 和 `/th/`。`/sitemap.xml` 从页面注册表和攻略数据生成 225 个正式网址，每个网址包含五种语言的互相对应关系，以及指向英语页的 `x-default`；`/robots.txt` 公布同一个 sitemap。语言数据和 112 篇补译攻略均保存在仓库中，正常构建和线上访问不依赖来源资料站或翻译服务。维护与验收记录见 [docs/i18n.md](docs/i18n.md)。
+英语沿用根路径；其他语言分别使用 `/zh-tw/`、`/ja/`、`/ko/` 和 `/th/`。`/sitemap.xml` 从页面注册表、角色图鉴与攻略数据生成正式网址，列出已发布的语言对应关系，并以英语页为 `x-default`；`/robots.txt` 公布同一个 sitemap。语言数据与攻略译文均保存在仓库中，正常构建和线上访问不依赖来源资料站或翻译服务。维护与验收记录见 [docs/i18n.md](docs/i18n.md)。
 
 ## 本地开发
 
@@ -19,6 +19,10 @@ npm run deploy
 ```
 
 网站使用 Next.js 静态导出，Cloudflare Workers Assets 发布 `out/`。`npm run preview` 会在本地 `workerd` 环境中运行。
+
+`npm run build` 只构建和验证；不会请求 IndexNow。`npm run deploy` 在发布成功、生产 key 和 sitemap 可读取后，才提交新增、修改和删除的 URL。比较基线来自发布前的生产 sitemap；同一发布工作区还保留正文和 schema 的摘要，用于发现同日的内容变更。失败只记日志；同一工作区可用 `npm run indexnow:submit` 重试待提交批次，无需再次部署。更换发布机器时，如需保留同日差异和重试状态，可在 CI 持久化忽略目录 `.wrangler/indexnow/`。
+
+改正文、数据或推荐后，更新对应数据文件或攻略条目的日期；仅改模板或加摘要，不给旧攻略重刷复核日期。FAQ 的可见 MDX 是唯一发布来源：FAQ 区块的 ID 包含 `faq`，每组由三级标题和一个纯文本段落组成。详细检查见 [GEO 审计与验收](docs/geo-audit.md)。
 
 ## 数据与图片
 

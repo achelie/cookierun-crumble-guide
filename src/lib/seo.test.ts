@@ -116,7 +116,7 @@ describe("localized sitemap", () => {
 
   it("advertises the public sitemap and allows crawlers in robots.txt", () => {
     expect(robots()).toEqual({
-      rules: { userAgent: "*", allow: "/" },
+      rules: { userAgent: "*", allow: "/", disallow: ["/api/", "/admin/", "/*?q=", "/*?*&q=", "/*?search=", "/*?*&search="] },
       sitemap: absoluteUrl("/sitemap.xml"),
       host: new URL(absoluteUrl("/")).origin,
     });
@@ -128,7 +128,7 @@ describe("SEO structured data", () => {
     const schemas = [
       homeSchema(seoPages.home),
       collectionPageSchema(seoPages.cookies, [{ "@type": "Thing", name: "GingerBrave" }]),
-      webApplicationSchema(seoPages.teamBuilder, ["Drag-and-drop ordering"]),
+      webApplicationSchema(seoPages.teamBuilder),
     ];
 
     for (const schema of schemas) {

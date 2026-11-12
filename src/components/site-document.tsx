@@ -3,6 +3,7 @@ import { Fredoka, Nunito_Sans } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { seoPages, siteName, siteUrl } from "@/lib/seo";
+import { socialImageUrl } from "@/lib/site-identity";
 import { LocaleProvider } from "@/i18n/provider";
 import { I18nElement } from "@/i18n/elements";
 import { getMessages } from "@/i18n/dictionaries";
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   title: { default: seoPages.home.title, template: "%s" },
   description: seoPages.home.description,
   alternates: { canonical: "/", languages: alternateLanguages("/", siteUrl) },
-  applicationName: "Crumble Guide",
+  applicationName: siteName,
   creator: siteName,
   publisher: siteName,
   robots: {
@@ -45,13 +46,13 @@ export const metadata: Metadata = {
     siteName,
     type: "website",
     locale: "en_US",
-    images: [{ url: "/opengraph-image", alt: seoPages.home.h1 }],
+    images: [{ url: socialImageUrl, alt: siteName }],
   },
   twitter: {
     card: "summary_large_image",
     title: seoPages.home.title,
     description: seoPages.home.description,
-    images: ["/opengraph-image"],
+    images: [socialImageUrl],
   },
 };
 

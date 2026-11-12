@@ -8,6 +8,13 @@ import { GuideCard } from "@/components/guide-card";
 import { GuideCover } from "@/components/guide-cover";
 import { QuickNavigation } from "@/components/quick-navigation";
 import { StructuredData } from "@/components/structured-data";
+import { DirectAnswer } from "@/components/direct-answer";
+import { LastUpdated } from "@/components/last-updated";
+import { getGuideAnswer } from "@/data/guide-answers";
+import { guideFaqFromMdx } from "@/lib/guide-faq";
+import { organizationRef, schemaGraph, websiteRef } from "@/lib/structured-data";
+import { siteTitle } from "@/lib/site-identity";
+import { contentDate } from "@/lib/direct-answers";
 import { AppIcon } from "@/components/ui/icon";
 import { cookieById } from "@/data/cookies";
 import { getGuideBySlug, getGuideCategory, guides } from "@/data/guides";
@@ -18,12 +25,7 @@ import { alternateLanguages, localeConfig, localeFromSegment, localizedPath } fr
 import { getTranslator } from "@/i18n/dictionaries";
 import { guideSupportsLocale } from "@/i18n/guide-availability";
 
-const dateFormatter = new Intl.DateTimeFormat("en", {
-  month: "long",
-  day: "numeric",
-  year: "numeric",
-  timeZone: "UTC",
-});
+const publishedLabel = { en: "Published:", "zh-Hant": "發布：", ja: "公開：", ko: "게시:", th: "เผยแพร่:" };
 
 type GuidePageProps = { params: Promise<{ slug: string; locale?: string }> };
 
@@ -44,26 +46,27 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
   const url = siteUrl + localizedPath(path, locale);
   const coverCookie = cookieById.get(guide.coverCookieIds[0]);
   const socialImage = absoluteUrl(coverCookie?.image ?? "/opengraph-image");
+  const title = `${t(guide.seoTitle).split(" | ")[0]} | ${siteTitle}`;
 
   return {
-    title: { absolute: t(guide.seoTitle) },
+    title: { absolute: title },
     description: t(guide.seoDescription),
-    authors: [{ name: guide.author }],
+    authors: [{ name: siteName }],
     alternates: { canonical: url, languages: alternateLanguages(path, siteUrl) },
     openGraph: {
       type: "article",
-      title: t(guide.seoTitle),
+      title,
       description: t(guide.seoDescription),
       locale: localeConfig[locale].og,
       url,
       siteName,
       publishedTime: `${guide.publishedAt}T00:00:00Z`,
       modifiedTime: `${guide.updatedAt}T00:00:00Z`,
-      authors: [guide.author],
+      authors: [siteName],
       tags: guide.tags.map(t),
       images: [{ url: socialImage, alt: t(coverCookie?.name ?? guide.title) }],
     },
-    twitter: { card: "summary_large_image", title: t(guide.seoTitle), description: t(guide.seoDescription), images: [socialImage] },
+    twitter: { card: "summary_large_image", title, description: t(guide.seoDescription), images: [socialImage] },
   };
 }
 
@@ -73,7 +76,7 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
   if (!locale) notFound();
   const guide = getGuideBySlug(slug);
   if (!guide || !guideSupportsLocale(slug, locale)) notFound();
-  const Content = await loadGuideContent(guide.slug, locale);
+  const [Content, faq] = await Promise.all([loadGuideContent(guide.slug, locale), guideFaqFromMdx(guide.slug, locale)]);
   if (!Content) notFound();
   const category = getGuideCategory(guide.category);
   const { minimumMinutes, minimumSections, longMinutes, longSections } = guideAdRules;
@@ -81,65 +84,65 @@ export default async function GuideDetailPage({ params }: GuidePageProps) {
   const middle = answer && guide.readingMinutes >= longMinutes && guide.toc.length >= longSections
     ? guide.toc[Math.floor(guide.toc.length / 2) - 1]?.id : undefined;
   const related = getRelatedGuides(guide, guides.filter((item) => guideSupportsLocale(item.slug, locale)));
-  const canonical = `${siteUrl}/guides/${guide.slug}/`;
+  const directAnswer = getGuideAnswer(guide.slug, locale);
+  if (!directAnswer) throw new Error(`Missing direct answer for ${guide.slug} (${locale})`);
+  const t = getTranslator(locale);
+  const canonical = absoluteUrl(localizedPath(`/guides/${guide.slug}/`, locale));
   const socialImage = absoluteUrl(cookieById.get(guide.coverCookieIds[0])?.image ?? "/opengraph-image");
-  const articleJsonLd = {
-    "@type": "BlogPosting",
-    headline: guide.title,
-    description: guide.seoDescription,
-    datePublished: guide.publishedAt,
-    dateModified: guide.updatedAt,
-    author: { "@type": "Organization", name: guide.author },
-    publisher: {
-      "@type": "Organization",
-      name: siteName,
-      url: siteUrl,
-      logo: { "@type": "ImageObject", url: absoluteUrl("/favicon.png"), width: 96, height: 96 },
+  const jsonLd = schemaGraph([
+    {
+      "@type": "BlogPosting",
+      "@id": `${canonical}#article`,
+      headline: t(guide.title),
+      description: t(guide.excerpt),
+      datePublished: guide.publishedAt,
+      dateModified: guide.updatedAt,
+      author: organizationRef,
+      publisher: organizationRef,
+      isPartOf: websiteRef,
+      image: socialImage,
+      mainEntityOfPage: canonical,
+      url: canonical,
+      inLanguage: locale,
+      isAccessibleForFree: true,
     },
-    image: socialImage,
-    mainEntityOfPage: canonical,
-    url: canonical,
-    keywords: guide.tags.join(", "),
-    inLanguage: "en",
-    isAccessibleForFree: true,
-  };
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      articleJsonLd,
-      {
-        "@type": "FAQPage",
-        mainEntity: guide.faq.map((item) => ({
-          "@type": "Question",
-          name: item.question,
-          acceptedAnswer: { "@type": "Answer", text: item.answer },
-        })),
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
-          { "@type": "ListItem", position: 2, name: "Guides", item: `${siteUrl}/guides/` },
-          { "@type": "ListItem", position: 3, name: guide.title, item: canonical },
-        ],
-      },
-    ],
-  };
+    ...(faq.length ? [{
+      "@type": "FAQPage",
+      "@id": `${canonical}#faq`,
+      url: canonical,
+      inLanguage: locale,
+      mainEntity: faq.map(({ question, answer }) => ({
+        "@type": "Question",
+        name: question,
+        acceptedAnswer: { "@type": "Answer", text: answer },
+      })),
+    }] : []),
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: t("Home"), item: absoluteUrl(localizedPath("/", locale)) },
+        { "@type": "ListItem", position: 2, name: t("Guides"), item: absoluteUrl(localizedPath("/guides/", locale)) },
+        { "@type": "ListItem", position: 3, name: t(guide.title), item: canonical },
+      ],
+    },
+  ], locale);
 
   return (
     <I18nElement as="div" className="page-shell guide-detail">
-      <StructuredData data={jsonLd} />
+      <StructuredData data={jsonLd} localized />
       <Link className="guide-back" href="/guides/"><AppIcon name="chevron-left" size={17} />All guides</Link>
 
       <I18nElement as="header" className="guide-hero">
         <I18nElement as="div" className="guide-hero__copy">
           <Link className="guide-card__category" href={`/guides/?category=${category.slug}`}>{category.label}</Link>
           <I18nElement as="h1">{guide.title}</I18nElement>
+          <DirectAnswer date={guide.updatedAt} locale={locale} cutoff>{directAnswer}</DirectAnswer>
           <I18nElement as="p">{guide.excerpt}</I18nElement>
           <I18nElement as="div" className="guide-hero__meta">
-            <I18nElement as="span"><AppIcon name="calendar" size={16} />Updated {dateFormatter.format(new Date(`${guide.updatedAt}T00:00:00Z`))}</I18nElement>
+            <LastUpdated date={guide.updatedAt} />
+            <span>{publishedLabel[locale]} <time dateTime={guide.publishedAt}>{contentDate(guide.publishedAt, locale)}</time></span>
             <I18nElement as="span"><AppIcon name="clock" size={16} />{guide.readingMinutes} min read</I18nElement>
-            <I18nElement as="span">By {guide.author}</I18nElement>
+            <I18nElement as="span">By <span>{siteName}</span></I18nElement>
           </I18nElement>
         </I18nElement>
         <GuideCover cookieIds={guide.coverCookieIds} compact priority />

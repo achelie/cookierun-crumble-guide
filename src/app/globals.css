@@ -154,6 +154,20 @@ main { min-height: 70dvh; }
 .seo-page-heading__crumbs a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .seo-page-heading h1 { margin: 0; font-family: var(--font-display), sans-serif; font-size: var(--text-title); font-weight: 700; letter-spacing: -0.025em; line-height: 1.2; }
 .seo-page-heading p { max-width: 78ch; margin: 5px 0 0; color: var(--muted); font-size: 0.94rem; line-height: 1.4; }
+.content-date { color: var(--muted); font-size: 0.8rem; font-weight: 750; line-height: 1.45; }
+p[data-direct-answer] {
+  max-width: 72ch;
+  margin: 0.65rem 0;
+  padding: 0.65rem 0.8rem;
+  border-inline-start: 3px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  background: linear-gradient(110deg, color-mix(in srgb, var(--paper-2), var(--accent) 7%), transparent);
+  color: var(--ink);
+  font-size: 0.94rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+p[data-direct-answer] .content-date { display: block; margin-top: 0.3rem; }
 .page-crosslink { width: fit-content; max-width: 100%; display: flex; align-items: center; flex-wrap: wrap; gap: 5px 8px; margin: -8px 0 22px; padding-left: 10px; border-left: 3px solid color-mix(in srgb, var(--accent), var(--line) 22%); color: var(--muted); font-size: 0.84rem; line-height: 1.4; }
 .page-crosslink > svg { flex: none; color: var(--accent-dark); }
 .page-crosslink a { display: inline-flex; align-items: center; gap: 2px; color: var(--accent-dark); font-weight: 850; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent), transparent 48%); text-underline-offset: 3px; }
@@ -278,7 +292,7 @@ main { min-height: 70dvh; }
 .cookie-taxonomy-badges--compact { top: 5px; left: 5px; gap: 2px; }
 .cookie-taxonomy-badges--compact .cookie-taxonomy-badge { width: 23px; height: 23px; border-radius: 7px; }
 .cookie-taxonomy-badges--compact .cookie-taxonomy-badge img { width: 19px; height: 19px; }
-.pet-card { height: 410px; display: grid; grid-template-rows: minmax(0, 1fr) auto; }
+.pet-card { height: 410px; display: grid; grid-template-rows: minmax(0, 1fr) auto; scroll-margin-top: 6rem; }
 .pet-card .entity-card__art { min-height: 0; aspect-ratio: auto; overflow: hidden; }
 .pet-card .entity-card__copy { min-height: 0; }
 .pet-card__effects { margin-top: 12px; padding-top: 10px; border-top: 1px solid color-mix(in srgb, var(--line), transparent 18%); }

@@ -4,9 +4,9 @@ import { guides } from "@/data/guides";
 import { pets, petsUpdatedAt } from "@/data/pets";
 import { recommendedTeams, teamsUpdatedAt } from "@/data/teams";
 import { tierList, tierRanks, tierUpdatedAt } from "@/data/tier-list";
+import { siteUrl } from "@/lib/site-identity";
 
-export const siteUrl = "https://www.cookieruncrumbles.com";
-export const siteName = "CookieRun: Crumble Guide";
+export { siteName, siteUrl } from "@/lib/site-identity";
 export const siteUpdatedAt = "2026-08-30";
 
 export type SeoPageDefinition = {
@@ -41,6 +41,7 @@ const guideUpdatedAt = guides.reduce(
   (latest, guide) => guide.updatedAt > latest ? guide.updatedAt : latest,
   "1970-01-01",
 );
+const latestDate = (...dates: string[]) => dates.sort().at(-1)!;
 
 export const seoPages = {
   home: {
@@ -50,7 +51,7 @@ export const seoPages = {
     summary: "Tier list, all Cookies and Pets, best teams, active codes, beginner tips, and free builders in one quick fan guide.",
     description: `CookieRun: Crumble guide with the latest tier list, all ${cookies.length} Cookies, ${pets.length} Pets, best teams, active codes, beginner tips, and free team-building tools.`,
     breadcrumb: "Home",
-    updatedAt: siteUpdatedAt,
+    updatedAt: latestDate(siteUpdatedAt, tierUpdatedAt, cookiesUpdatedAt, petsUpdatedAt, teamsUpdatedAt, codesUpdatedAt, guideUpdatedAt),
   },
   cookies: {
     path: "/cookies/",
@@ -140,7 +141,7 @@ export const seoPages = {
     summary: "Drag 12 Cookies and 3 Pets into exact slots, check Synergy, and save the formation.",
     description: "Build a free CookieRun: Crumble team with 12 Cookie slots and 3 Pets. Drag to reorder, check Synergy, share the URL, and download a PNG.",
     breadcrumb: "Team Builder",
-    updatedAt: siteUpdatedAt,
+    updatedAt: latestDate(siteUpdatedAt, cookiesUpdatedAt, petsUpdatedAt),
   },
   tierBuilder: {
     path: "/tools/tier-builder/",
@@ -149,7 +150,7 @@ export const seoPages = {
     summary: `Drag all ${cookies.length} Cookies from S to D, load the current ranking, and download the result.`,
     description: `Make a free CookieRun: Crumble tier list. Drag all ${cookies.length} Cookies from S to D, load the current ranking, share the URL, and download a PNG.`,
     breadcrumb: "Tier List Maker",
-    updatedAt: siteUpdatedAt,
+    updatedAt: latestDate(siteUpdatedAt, cookiesUpdatedAt, tierUpdatedAt),
   },
   guides: {
     path: "/guides/",
@@ -165,9 +166,9 @@ export const seoPages = {
     title: "About Crumble Guide | How We Test and Update",
     h1: "About Crumble Guide",
     summary: "Meet the independent editorial team behind the guides, rankings, and tools on this site.",
-    description: "Meet the Crumble Guide Editorial Team and learn how we test CookieRun: Crumble mechanics, mark estimates, update guides, and correct mistakes.",
+    description: "See how Crumble Guide checks CookieRun: Crumble game data, tests lineups, marks estimates, revises guides, and handles corrections.",
     breadcrumb: "About",
-    updatedAt: siteUpdatedAt,
+    updatedAt: "2026-11-12",
   },
   contact: {
     path: "/contact/",
@@ -185,7 +186,7 @@ export const seoPages = {
     summary: "A plain-English account of the limited data used to run, measure, protect, and fund this site.",
     description: "Read how CookieRun: Crumble Guide uses Cloudflare, Ahrefs Web Analytics, email, cookies, identifiers, consent choices, and Google AdSense.",
     breadcrumb: "Privacy",
-    updatedAt: siteUpdatedAt,
+    updatedAt: "2026-08-28",
   },
   disclaimer: {
     path: "/disclaimer/",
@@ -194,7 +195,7 @@ export const seoPages = {
     summary: "The short version: this is an independent player guide, not an official Devsisters website.",
     description: "Read the independence, Fan Kit, intellectual property, accuracy, external-link, and no-endorsement notices for this unofficial player guide.",
     breadcrumb: "Disclaimer",
-    updatedAt: siteUpdatedAt,
+    updatedAt: "2026-08-28",
   },
 } as const satisfies Record<string, SeoPageDefinition>;
 

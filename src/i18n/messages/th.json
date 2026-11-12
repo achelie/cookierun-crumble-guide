@@ -2742,7 +2742,10 @@
     "Make a free CookieRun: Crumble tier list. Drag all 85 Cookies from S to D, load the current ranking, share the URL, and download a PNG.": "สร้าง Tier List CookieRun: Crumble ฟรี ลากคุกกี้ทั้ง 85 ตัวจาก S ถึง D โหลดอันดับปัจจุบัน แชร์ URL และดาวน์โหลด PNG",
     "Search all 61 Pets and compare rarity and companion effects.": "ค้นหาเพ็ตทั้ง 61 ตัว เปรียบเทียบความหายากและผลคู่หู",
     "Search all 85 Cookies by rarity, element, role, Synergy, and buff.": "ค้นหาคุกกี้ทั้ง 85 ตัวตามความหายาก ธาตุ บทบาท ซินเนอร์จี และบัฟ",
-    "Updated November 9, 2026. Copy 35 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "อัปเดต 9 พฤศจิกายน 2026 คัดลอก 35 ทีมสำหรับเนื้อเรื่อง ศึกพิชิตกิลด์ บอส ดันเจี้ยน และอารีน่า ทุกทีมมีเพ็ตและคำแนะนำการจัดทีม",
+    "Updated November 9, 2026. Copy 36 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "อัปเดต 9 พฤศจิกายน 2026 คัดลอก 36 ทีมสำหรับเนื้อเรื่อง ศึกพิชิตกิลด์ บอส ดันเจี้ยน และอารีน่า ทุกทีมมีเพ็ตและคำแนะนำการจัดทีม",
+    "Season 8 Arena Opening Burst Team": "ทีมอารีน่าซีซัน 8 เน้นดาเมจช่วงเปิดเกม",
+    "Open with Princess Bari, Oven Wanderer, and Cherry Cola": "เปิดเกมด้วยคุกกี้เจ้าหญิงบารี คุกกี้นักท่องเตาอบ และคุกกี้รสเชอร์รี่โคล่า",
+    "Use Nameless Cake Hound as the flag holder. Fluffy Cheese Cat and Floral Froglet support the opening push, while Icy Birdie helps the team absorb hits. Be careful against evasion-heavy defenses and Gangle teams that can stall the opening attack.": "ให้เจ้าตูบเค้กนิรนามถือธง แมวเหมียวชีสกับกบดอกไม้ช่วยเสริมการบุกช่วงเปิดเกม ส่วนนกน้ำแข็งหวานเจี๊ยบช่วยลดดาเมจที่ทีมได้รับ ระวังทีมตั้งรับที่หลบเก่งและทีมคุกกี้แกงเกิ้ลที่ทำให้เปิดเกมได้ช้าลง",
     "Updated November 9, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "อัปเดต 9 พฤศจิกายน 2026 ทีม CookieRun: Crumble สำหรับศึกพิชิตกิลด์ บอสเนื้อเรื่อง ดันเจี้ยน และอารีน่า พร้อมลำดับคุกกี้ 12 ตัว เพ็ต และคำแนะนำการจัดทีม",
     "Zooble and Pomni Guild Conquest Team": "ทีมคุกกี้ซูเบิ้ลและคุกกี้พอมนี่สำหรับศึกพิชิตกิลด์",
     "Clear mini piñatas and focus the boss": "กำจัดปินยาต้าตัวเล็กแล้วโจมตีบอส",
@@ -5707,6 +5710,10 @@
     "Gives this Cookie more chances to apply its debuff.": "native-reviewed",
     "Helps this Cookie survive long enough to cast again.": "native-reviewed",
     "Helps the debuff get past enemy Resistance.": "native-reviewed",
-    "Helps poison stacks land against resistant enemies.": "native-reviewed"
+    "Helps poison stacks land against resistant enemies.": "native-reviewed",
+    "Updated November 9, 2026. Copy 36 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "native-reviewed",
+    "Season 8 Arena Opening Burst Team": "native-reviewed",
+    "Open with Princess Bari, Oven Wanderer, and Cherry Cola": "native-reviewed",
+    "Use Nameless Cake Hound as the flag holder. Fluffy Cheese Cat and Floral Froglet support the opening push, while Icy Birdie helps the team absorb hits. Be careful against evasion-heavy defenses and Gangle teams that can stall the opening attack.": "native-reviewed"
   }
 }

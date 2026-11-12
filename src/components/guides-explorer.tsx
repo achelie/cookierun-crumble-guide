@@ -108,7 +108,9 @@ export function GuidesExplorerFallback({ guides }: { guides: GuideSummary[] }) {
   return (
     <I18nElement as="div" className="guides-explorer" aria-busy="true">
       <I18nElement as="div" className="guides-controls guides-controls--loading"><I18nElement as="div" /><I18nElement as="div" /></I18nElement>
-      <I18nElement as="div" className="guides-grid">{guides[0] && <GuideCard guide={guides[0]} featured />}</I18nElement>
+      <I18nElement as="div" className="guides-grid">
+        {paginateGuides(guides).items.map((guide, index) => <GuideCard key={guide.slug} guide={guide} featured={index === 0} />)}
+      </I18nElement>
     </I18nElement>
   );
 }

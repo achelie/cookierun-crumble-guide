@@ -1,3 +1,6 @@
+import { DirectAnswer } from "@/components/direct-answer";
+import { toolAnswers } from "@/lib/tool-answers";
+import type { Locale } from "@/i18n/config";
 import { I18nElement } from "@/i18n/elements";
 import { AdSlot } from "@/components/ads/ad-slot";
 import type { Metadata } from "next";
@@ -24,7 +27,9 @@ const calculators = [
 ];
 export const metadata: Metadata = pageMetadata(page);
 
-export default function ToolsPage() {
+export default function ToolsPage() { return <ToolsView locale="en" />; }
+
+export function ToolsView({ locale }: { locale: Locale }) {
   const teamCookies = ["cookie0070", "cookie0181", "cookie3001"].flatMap((id) => {
     const cookie = cookieById.get(id);
     return cookie ? [cookie] : [];
@@ -37,12 +42,12 @@ export default function ToolsPage() {
   return (
     <I18nElement as="div" className="page-shell page-shell--tools">
       <StructuredData data={collectionPageSchema(page, [
-        ...calculators.map(({ page }) => ({ "@type": "WebApplication", name: page.h1, url: absoluteUrl(page.path), description: page.description, applicationCategory: "GameApplication", operatingSystem: "Any", isAccessibleForFree: true })),
-        { "@type": "WebApplication", name: seoPages.teamBuilder.h1, url: absoluteUrl(seoPages.teamBuilder.path), description: seoPages.teamBuilder.description, applicationCategory: "GameApplication", operatingSystem: "Any", isAccessibleForFree: true },
-        { "@type": "WebApplication", name: seoPages.tierBuilder.h1, url: absoluteUrl(seoPages.tierBuilder.path), description: seoPages.tierBuilder.description, applicationCategory: "GameApplication", operatingSystem: "Any", isAccessibleForFree: true },
+        ...calculators.map(({ page }) => ({ "@type": "WebApplication", name: page.h1, url: absoluteUrl(page.path), description: page.description, applicationCategory: "GameApplication", isAccessibleForFree: true })),
+        { "@type": "WebApplication", name: seoPages.teamBuilder.h1, url: absoluteUrl(seoPages.teamBuilder.path), description: seoPages.teamBuilder.description, applicationCategory: "GameApplication", isAccessibleForFree: true },
+        { "@type": "WebApplication", name: seoPages.tierBuilder.h1, url: absoluteUrl(seoPages.tierBuilder.path), description: seoPages.tierBuilder.description, applicationCategory: "GameApplication", isAccessibleForFree: true },
       ])} />
       <Suspense fallback={null}><LegacyToolsQueryRedirect /></Suspense>
-      <SeoPageHeader page={page} icon="tools" />
+      <SeoPageHeader page={page} icon="tools" answer={<DirectAnswer date={page.updatedAt} locale={locale}>{toolAnswers.tools[locale]}</DirectAnswer>} />
       <I18nElement as="section" className="calculator-directory" aria-label="Game calculators">
         {calculators.map(tool => <Link key={tool.page.path} href={tool.page.path}><Image src={tool.image} alt="" width={74} height={80} /><I18nElement as="span"><I18nElement as="strong">{tool.name}</I18nElement><I18nElement as="small">{tool.description}</I18nElement></I18nElement><I18nElement as="b">Open calculator<AppIcon name="chevron" size={17} /></I18nElement></Link>)}
       </I18nElement>

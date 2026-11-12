@@ -2697,7 +2697,10 @@
     "Make a free CookieRun: Crumble tier list. Drag all 85 Cookies from S to D, load the current ranking, share the URL, and download a PNG.": "無料のクッキーラン：クランブル最強ランキングを作成しましょう。S～Dランクまでの全85体のクッキーをドラッグ＆ドロップし、現在のランキングを読み込み、URLを共有、PNGをダウンロードできます。",
     "Search all 61 Pets and compare rarity and companion effects.": "ペット全61体を検索し、レア度と仲間効果を比較できます。",
     "Search all 85 Cookies by rarity, element, role, Synergy, and buff.": "全85体のクッキーを、レア度、属性、役割、シナジー、バフで検索できます。",
-    "Updated November 9, 2026. Copy 35 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "2026年11月9日更新。ストーリー、ギルド討伐戦、ボス、ダンジョン、アリーナ用の35チームをコピー。各編成にペットと設定のヒントを掲載。",
+    "Updated November 9, 2026. Copy 36 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "2026年11月9日更新。ストーリー、ギルド討伐戦、ボス、ダンジョン、アリーナ用の36チームをコピー。各編成にペットと設定のヒントを掲載。",
+    "Season 8 Arena Opening Burst Team": "シーズン8 アリーナ開幕速攻編成",
+    "Open with Princess Bari, Oven Wanderer, and Cherry Cola": "鉢里公主、オーブン放浪者、チェリーコーラで開幕から攻める",
+    "Use Nameless Cake Hound as the flag holder. Fluffy Cheese Cat and Floral Froglet support the opening push, while Icy Birdie helps the team absorb hits. Be careful against evasion-heavy defenses and Gangle teams that can stall the opening attack.": "旗持ちは名もなきわんケーキ。ふわふわチーズ猫と花ガエルで初動を支え、ブルーアイスバードで被ダメージを抑えます。回避率の高い防衛編成や、初動を遅らせるガングルクッキー入りの編成には注意。",
     "Updated November 9, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "2026年11月9日更新。クッキーラン：クランブルのギルド討伐戦、ストーリーボス、ダンジョン、アリーナ用チーム。12体のクッキーの順番、ペット、設定のヒントを確認できます。",
     "Zooble and Pomni Guild Conquest Team": "ズーブルとポムニのギルド討伐戦編成",
     "Clear mini piñatas and focus the boss": "小さなピニャータを倒し、ボスに集中",
@@ -5617,6 +5620,10 @@
     "Gives this Cookie more chances to apply its debuff.": "native-reviewed",
     "Helps this Cookie survive long enough to cast again.": "native-reviewed",
     "Helps the debuff get past enemy Resistance.": "native-reviewed",
-    "Helps poison stacks land against resistant enemies.": "native-reviewed"
+    "Helps poison stacks land against resistant enemies.": "native-reviewed",
+    "Updated November 9, 2026. Copy 36 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "native-reviewed",
+    "Season 8 Arena Opening Burst Team": "native-reviewed",
+    "Open with Princess Bari, Oven Wanderer, and Cherry Cola": "native-reviewed",
+    "Use Nameless Cake Hound as the flag holder. Fluffy Cheese Cat and Floral Froglet support the opening push, while Icy Birdie helps the team absorb hits. Be careful against evasion-heavy defenses and Gangle teams that can stall the opening attack.": "native-reviewed"
   }
 }

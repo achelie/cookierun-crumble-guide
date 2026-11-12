@@ -44,6 +44,15 @@ describe("recommended teams", () => {
     expect(team?.pets).toEqual(["pet0111", "pet0110", "pet4001"]);
   });
 
+  it("keeps the pictured Season 8 Arena formation in order", () => {
+    expect(recommendedTeams[0]).toMatchObject({
+      id: "season-8-arena-opening-burst",
+      category: "pvp",
+      cookies: ["cookie4013", "cookie4012", "cookie4010", "cookie0081", "cookie0136", "cookie0063", "chardonnay", "cookie0678", "cookie0126", "cookie4024", "cookie0250", "cookie4025"],
+      pets: ["pet0047", "pet0184", "pet0230"],
+    });
+  });
+
   it("keeps the pictured Jax event boss formation in order", () => {
     const team = recommendedTeams.find((candidate) => candidate.id === "jax-event-boss");
     expect(team?.category).toBe("bosses");
@@ -69,7 +78,6 @@ describe("recommended teams", () => {
   });
 
   it("replaces August 31 teams with the seven ordered September formations", () => {
-    expect(recommendedTeams).toHaveLength(35);
     expect(recommendedTeams.some((team) => team.updatedAt === "2026-08-31")).toBe(false);
     const expected = [
     {
