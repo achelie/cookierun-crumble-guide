@@ -4,10 +4,9 @@ import { CookieDetail } from "@/components/cookie-detail";
 import { StructuredData } from "@/components/structured-data";
 import { alternateLanguages, localeConfig, localeFromSegment, localizedPath } from "@/i18n/config";
 import { cookieDetailRoutes } from "@/lib/cookie-detail-paths";
-import { cookiePageUpdatedAt, getCookieDetail, maxCookieStars } from "@/lib/cookie-details";
+import { cookiePageUpdatedAt, getCookieDetail } from "@/lib/cookie-details";
 import { absoluteUrl, siteName, siteUrl } from "@/lib/seo";
-import { breadcrumbNode, propertyValue, schemaGraph, websiteRef } from "@/lib/structured-data";
-import { elementDefinitions, roleDefinitions } from "@/data/cookies";
+import { breadcrumbNode, schemaGraph, websiteRef } from "@/lib/structured-data";
 import { siteTitle } from "@/lib/site-identity";
 
 type Props = { params: Promise<{ slug: string; locale?: string }> };
@@ -57,7 +56,7 @@ export default async function CookieDetailPage({ params }: Props) {
   const entry = await findEntry(params);
   if (!entry) notFound();
 
-  const { cookie, locale, path, profile } = entry;
+  const { locale, path, profile } = entry;
   const url = absoluteUrl(path);
   const data = schemaGraph([
     {
@@ -71,15 +70,10 @@ export default async function CookieDetailPage({ params }: Props) {
       isPartOf: websiteRef,
       breadcrumb: { "@id": `${url}#breadcrumb` },
       mainEntity: {
-        "@type": "Product",
+        "@type": "Thing",
         name: profile.name,
         image: absoluteUrl(profile.portrait),
-        additionalProperty: [
-          propertyValue("Rarity", cookie.rarity),
-          propertyValue("Element", elementDefinitions[cookie.element].label),
-          propertyValue("Role", roleDefinitions[cookie.role].label),
-          propertyValue("Star upgrades", maxCookieStars(profile)),
-        ],
+        url,
       },
     },
     breadcrumbNode({ path, breadcrumb: profile.name }, { path: "/cookies/", name: "Cookies" }),

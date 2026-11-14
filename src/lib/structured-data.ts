@@ -22,8 +22,6 @@ export function schemaGraph(nodes: SchemaNode[], locale: Locale = "en"): { "@con
   return { "@context": "https://schema.org", "@graph": [...nodes, ...siteEntities.map((node) => ({ ...node, description: siteDescriptions[locale] }))] };
 }
 
-export const propertyValue = (name: string, value: string | number) => ({ "@type": "PropertyValue", name, value });
-
 export function breadcrumbNode(
   page: Pick<SeoPageDefinition, "path" | "breadcrumb">,
   parent?: { name: string; path: string },

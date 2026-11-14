@@ -63,12 +63,18 @@ for (const [, url, modified] of manifest) {
   if (/^\/cookies\/[^/]+\/$/.test(local)) {
     const cookie = nodes.find((node) => node["@type"] === "WebPage")?.mainEntity;
     const heading = extract(visible, /<h1\b[^>]*>([\s\S]*?)<\/h1>/g)[0];
+    assert.equal(cookie?.["@type"], "Thing", path);
     assert.equal(cookie?.name.replace(/\s+/g, " ").trim(), text(heading), path);
-    assert.equal(cookie.additionalProperty.length, 4, path);
-    for (const { value } of cookie.additionalProperty) assert.ok(text(answers[0]).includes(String(value)), `${path}: missing visible ${value}`);
+    assert.equal(cookie.url, url, path);
   }
 
   const list = nodes.find((node) => node["@type"] === "ItemList");
+  if (local === "/cookies/" || local === "/pets/") {
+    const collection = nodes.find((node) => node["@type"] === "CollectionPage");
+    assert.ok(list && collection, `${path}: missing catalog structured data`);
+    assert.equal(collection.mainEntity?.["@id"], list["@id"], path);
+    for (const { item } of list.itemListElement) assert.equal(item["@type"], "Thing", path);
+  }
   if (list) {
     const visibleCount = {
       "/cookies/": () => articleCount(visible, "cookie-card"),
