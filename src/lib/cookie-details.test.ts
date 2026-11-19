@@ -27,9 +27,10 @@ describe("Cookie detail game data", () => {
     const expected = Array.from({ length: 11 }, (_, stars) => ({
       stars, amount: 100, name: "水晶", image: "/images/rewards/crystal.webp",
     }));
+    const withoutCollection = new Set(["readyberry-cookie", "crescent-guardian", "rippling-moonlight"]);
     for (const { slug } of cookieDetailRoutes) {
       const { profile } = getCookieDetail(slug, "zh-Hant")!;
-      expect(profile.codexRewards, slug).toEqual(slug === "readyberry-cookie" ? [] : expected);
+      expect(profile.codexRewards, slug).toEqual(withoutCollection.has(slug) ? [] : expected);
     }
   });
 

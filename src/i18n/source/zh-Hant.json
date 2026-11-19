@@ -12002,7 +12002,16 @@
     "Ketch-UP": "噗唧番茄醬",
     "GO-Mayo": "滑溜美乃滋",
     "All allies gain Accuracy": "我方全體命中增加",
-    "All allies gain Knockback Resistance": "我方全體擊退抵抗增加"
+    "All allies gain Knockback Resistance": "我方全體擊退抵抗增加",
+    "Moonlight Cookie's Crescent Guardian": "守護城市的新月月光魔法師餅乾",
+    "Sea Fairy Cookie's Rippling Moonlight": "月光餘波盪漾海妖精餅乾",
+    "Space Doughnut's Healthy Bagel": "貝果三明治宇宙甜甜圈",
+    "Cucumber Cookie": "小黃瓜餅乾",
+    "Muscle Cookie's Green Broccoli Giant": "綠花椰巨人肌肉餅乾",
+    "Dreamcatcher's Night Sky Suncatcher": "追逐晨曦星光捕夢網",
+    "Wave Drop": "海浪滴露",
+    "Chain receivers gain Skill Amp": "獲得連鎖綜效的隊友技能增幅提升",
+    "Shields allies at the start of battle": "戰鬥開始時賦予我方餅乾護盾"
   },
   "origins": {
     "0": "game-localization:DimensionStageSeason.SeasonName.2014075507",
@@ -24003,6 +24012,15 @@
     "Ketch-UP": "rea-1.6.102:official-entity-name",
     "GO-Mayo": "rea-1.6.102:official-entity-name",
     "All allies gain Accuracy": "rea-1.6.102:reviewed-effect-summary",
-    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary"
+    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary",
+    "Moonlight Cookie's Crescent Guardian": "rea-1.7.002:official-entity-name",
+    "Sea Fairy Cookie's Rippling Moonlight": "rea-1.7.002:official-entity-name",
+    "Space Doughnut's Healthy Bagel": "rea-1.7.002:official-entity-name",
+    "Cucumber Cookie": "rea-1.7.002:official-entity-name",
+    "Muscle Cookie's Green Broccoli Giant": "rea-1.7.002:official-entity-name",
+    "Dreamcatcher's Night Sky Suncatcher": "rea-1.7.002:official-entity-name",
+    "Wave Drop": "rea-1.7.002:official-entity-name",
+    "Chain receivers gain Skill Amp": "rea-1.7.002:reviewed-effect-summary",
+    "Shields allies at the start of battle": "rea-1.7.002:reviewed-effect-summary"
   }
 }

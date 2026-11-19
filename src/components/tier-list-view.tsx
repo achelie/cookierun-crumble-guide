@@ -1,4 +1,5 @@
 import { SeoPageHeader } from "@/components/seo-page-header";
+import { DirectAnswer } from "@/components/direct-answer";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { StructuredData } from "@/components/structured-data";
 import { TierBoard } from "@/components/tier-board";
@@ -10,6 +11,8 @@ import type { Locale } from "@/i18n/config";
 import { I18nElement, LocaleLink as Link } from "@/i18n/elements";
 import { absoluteUrl, seoPages } from "@/lib/seo";
 import { collectionPageSchema } from "@/lib/structured-data";
+import { tierAnswer } from "@/lib/direct-answers";
+import { cookieDetailPathById } from "@/lib/cookie-detail-paths";
 
 const page = seoPages.tierList;
 export function TierListView({ locale }: { locale: Locale }) {
@@ -19,13 +22,13 @@ export function TierListView({ locale }: { locale: Locale }) {
       "@type": "Thing",
       name: cookie.name,
       image: absoluteUrl(cookie.image),
-      additionalProperty: { "@type": "PropertyValue", name: "Tier", value: rank },
+      url: absoluteUrl(cookieDetailPathById.get(id)!),
     }] : [];
   }));
   return (
     <I18nElement as="div" className="page-shell">
       <StructuredData data={collectionPageSchema(page, schemaItems)} />
-      <SeoPageHeader page={page} icon="trophy" showUpdatedAt />
+      <SeoPageHeader page={page} icon="trophy" answer={<DirectAnswer date={page.updatedAt} locale={locale}>{tierAnswer(tierList.S.length, schemaItems.length)[locale]}</DirectAnswer>} />
       <I18nElement as="aside" className="page-crosslink" aria-label="Related team recommendations">
         <AppIcon name="users" size={16} />
         <I18nElement as="span">Want to turn these rankings into a working lineup?</I18nElement>

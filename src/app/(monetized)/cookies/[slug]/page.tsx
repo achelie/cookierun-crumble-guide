@@ -4,9 +4,10 @@ import { CookieDetail } from "@/components/cookie-detail";
 import { StructuredData } from "@/components/structured-data";
 import { alternateLanguages, localeConfig, localeFromSegment, localizedPath } from "@/i18n/config";
 import { cookieDetailRoutes } from "@/lib/cookie-detail-paths";
-import { getCookieDetail } from "@/lib/cookie-details";
+import { cookiePageUpdatedAt, getCookieDetail } from "@/lib/cookie-details";
 import { absoluteUrl, siteName, siteUrl } from "@/lib/seo";
-import { breadcrumbNode, schemaGraph } from "@/lib/structured-data";
+import { breadcrumbNode, schemaGraph, websiteRef } from "@/lib/structured-data";
+import { siteTitle } from "@/lib/site-identity";
 
 type Props = { params: Promise<{ slug: string; locale?: string }> };
 
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const { locale, path, profile } = entry;
   const url = absoluteUrl(localizedPath(path, locale));
-  const title = `${profile.name} | ${localeConfig[locale].gameName}`;
+  const title = `${profile.name} | ${siteTitle}`;
   const words = profile.description.replace(/\s+/g, " ").trim();
   const characters = Array.from(words);
   const description = characters.length > 160 ? `${characters.slice(0, 159).join("").trimEnd()}…` : words;
@@ -63,13 +64,16 @@ export default async function CookieDetailPage({ params }: Props) {
       "@id": `${url}#page`,
       url,
       name: profile.name,
-      description: profile.description,
+      ...(profile.description ? { description: profile.description } : {}),
       inLanguage: locale,
+      dateModified: cookiePageUpdatedAt,
+      isPartOf: websiteRef,
       breadcrumb: { "@id": `${url}#breadcrumb` },
       mainEntity: {
         "@type": "Thing",
         name: profile.name,
         image: absoluteUrl(profile.portrait),
+        url,
       },
     },
     breadcrumbNode({ path, breadcrumb: profile.name }, { path: "/cookies/", name: "Cookies" }),

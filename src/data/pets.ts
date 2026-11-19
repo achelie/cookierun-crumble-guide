@@ -1,7 +1,7 @@
 import type { Rarity } from "./cookies";
 
-// Catalog checked against the local REA 1.6.102 snapshot; see catalog-source.json.
-export const petsUpdatedAt = "2026-11-06";
+// Catalog checked against the local REA 1.7.002 snapshot; see catalog-source.json.
+export const petsUpdatedAt = "2026-11-19";
 
 export type Pet = {
   id: string;
@@ -54,6 +54,8 @@ const effectsById: Partial<Record<string, string[]>> = {
   pet4004: ["All allies gain CRIT DMG"],
   pet4005: ["Grants Multi-strike synergy", "Multi-strike receivers gain ATK"],
   pet4006: ["All allies gain Damage Reduction"],
+  pet4007: ["Grants Chain synergy", "Chain receivers gain Skill Amp"],
+  pet0068: ["Shields allies at the start of battle"],
 };
 
 const raw = [
@@ -90,6 +92,8 @@ const raw = [
   ["pet4003", "Majestic King Choco Drop", "SSR"], ["pet4004", "Sweet n' Sour", "SSR"],
   ["pet4005", "Chargemellow", "SSR"],
   ["pet4006", "Bubble", "SP"],
+  ["pet4007", "Dreamcatcher's Night Sky Suncatcher", "SSR"],
+  ["pet0068", "Wave Drop", "SSR"],
 ] as const;
 
 export const pets: Pet[] = raw.map(([id, name, rarity]) => ({

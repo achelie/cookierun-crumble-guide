@@ -1,6 +1,6 @@
 export const rarities = ["TSSR", "SSR", "SP", "SR", "R", "U", "C"] as const;
-// Catalog checked against the local REA 1.6.102 snapshot; see catalog-source.json.
-export const cookiesUpdatedAt = "2026-11-06";
+// Catalog checked against the local REA 1.7.002 snapshot; see catalog-source.json.
+export const cookiesUpdatedAt = "2026-11-19";
 export type Rarity = (typeof rarities)[number];
 
 export const elements = ["Fire", "Water", "Grass", "Light", "Dark"] as const;
@@ -155,6 +155,11 @@ export const cookies: Cookie[] = [
   { id: "cookie0676", name: "Zooble Cookie", rarity: "SP", image: "/images/cookies/cookie0676.webp", element: "Water", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Multi-shot"], buffs: [] },
   { id: "cookie0677", name: "Kinger Cookie", rarity: "SP", image: "/images/cookies/cookie0677.webp", element: "Light", role: "Support", grantedSynergies: [], receivedSynergies: ["Multi-shot"], buffs: ["Crowd Control Removal", "Healing"] },
   { id: "cookie0678", name: "Caine Cookie", rarity: "SP", image: "/images/cookies/cookie0678.webp", element: "Fire", role: "Support", grantedSynergies: ["Duration"], receivedSynergies: ["Area"], buffs: ["ATK Up"] },
+  { id: "cookie4026", name: "Moonlight Cookie's Crescent Guardian", rarity: "TSSR", image: "/images/cookies/cookie4026.webp", element: "Light", role: "Support", grantedSynergies: ["Area"], receivedSynergies: ["Chain"], buffs: ["Skill Amp Up", "Healing"] },
+  { id: "cookie4027", name: "Sea Fairy Cookie's Rippling Moonlight", rarity: "TSSR", image: "/images/cookies/cookie4027.webp", element: "Water", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Duration", "Area"], buffs: [] },
+  { id: "cookie4028", name: "Space Doughnut's Healthy Bagel", rarity: "SSR", image: "/images/cookies/cookie4028.webp", element: "Grass", role: "Ranged", grantedSynergies: [], receivedSynergies: ["Multi-shot"], buffs: [] },
+  { id: "cookie0077", name: "Cucumber Cookie", rarity: "SR", image: "/images/cookies/cookie0077.webp", element: "Grass", role: "Defense", grantedSynergies: [], receivedSynergies: ["Duration"], buffs: ["DEF Down", "Move Speed Down"] },
+  { id: "cookie4029", name: "Muscle Cookie's Green Broccoli Giant", rarity: "SR", image: "/images/cookies/cookie4029.webp", element: "Grass", role: "Support", grantedSynergies: ["Projectile Speed"], receivedSynergies: ["Area"], buffs: ["Healing"] },
 ];
 
 export const cookieById = new Map(cookies.map((cookie) => [cookie.id, cookie]));

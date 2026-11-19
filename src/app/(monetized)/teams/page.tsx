@@ -11,16 +11,25 @@ import { recommendedTeams } from "@/data/teams";
 import { pageMetadata } from "@/lib/metadata";
 import { seoPages } from "@/lib/seo";
 import { collectionPageSchema } from "@/lib/structured-data";
+import { DirectAnswer } from "@/components/direct-answer";
+import { teamsAnswer } from "@/lib/direct-answers";
+import { teamsPageSize } from "@/lib/team-pagination";
+import type { Locale } from "@/i18n/config";
 
 const page = seoPages.teams;
 export const metadata: Metadata = pageMetadata(page);
 
 export default function TeamsPage() {
+  return <TeamsView locale="en" />;
+}
+
+export function TeamsView({ locale }: { locale: Locale }) {
+  const firstPage = recommendedTeams.slice(0, teamsPageSize);
   return (
     <I18nElement as="div" className="page-shell page-shell--teams">
-      <StructuredData data={collectionPageSchema(page, recommendedTeams.map((team) => ({ "@type": "CreativeWork", name: team.name, description: team.description })))} />
+      <StructuredData data={collectionPageSchema(page, firstPage.map((team) => ({ "@type": "CreativeWork", name: team.name, description: team.description })))} />
       <Suspense fallback={null}><LegacyTeamQueryRedirect /></Suspense>
-      <SeoPageHeader page={page} icon="users" />
+      <SeoPageHeader page={page} icon="users" answer={<DirectAnswer date={page.updatedAt} locale={locale}>{teamsAnswer(recommendedTeams.length, firstPage.length)[locale]}</DirectAnswer>} />
       <I18nElement as="aside" className="page-crosslink" aria-label="Related Cookie rankings">
         <AppIcon name="trophy" size={16} />
         <I18nElement as="span">Not sure which Cookie deserves your next upgrade?</I18nElement>

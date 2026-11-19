@@ -9,7 +9,7 @@ import { useEffect, useRef } from 'react';
 type OriginalModule = { mount: (root: HTMLElement, options?: {locale: Locale; t: (text: string) => string}) => () => void };
 
 // The imported DOM owns its controls. React only owns this mount boundary.
-export function OriginalTool({ tool, html }: { tool: string; html: string }) {
+export function OriginalTool({ tool, html, answerHtml }: { tool: string; html: string; answerHtml: string }) {
   const locale = useLocale();
   const t = useTranslator();
   const ref = useRef<HTMLDivElement>(null);
@@ -28,5 +28,6 @@ export function OriginalTool({ tool, html }: { tool: string; html: string }) {
     });
     return () => { disposed = true; cleanup?.(); };
   }, [tool, locale, t]);
-  return <I18nElement as="div" ref={ref} className="tool-replica" lang={locale} dangerouslySetInnerHTML={{ __html: translateHtml(html, t, locale) }} />;
+  const body = translateHtml(html, t, locale).replace(/<\/h1>/i, (closingTag) => closingTag + answerHtml);
+  return <I18nElement as="div" ref={ref} className="tool-replica" lang={locale} dangerouslySetInnerHTML={{ __html: body }} />;
 }

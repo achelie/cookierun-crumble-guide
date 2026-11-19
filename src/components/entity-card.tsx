@@ -2,9 +2,9 @@ import { I18nElement } from "@/i18n/elements";
 import { LocaleImage as Image } from "@/i18n/elements";
 import type { Pet } from "@/data/pets";
 
-export function EntityCard({ name, rarity, image, effects }: Pet) {
+export function EntityCard({ id, name, rarity, image, effects }: Pet) {
   return (
-    <I18nElement as="article" className={`entity-card pet-card rarity-${rarity.toLowerCase()}`}>
+    <I18nElement as="article" id={id} className={`entity-card pet-card rarity-${rarity.toLowerCase()}`}>
       <I18nElement as="div" className="entity-card__art">
         <Image src={image} alt={name} width={280} height={280} sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 220px" />
       </I18nElement>

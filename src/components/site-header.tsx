@@ -19,7 +19,7 @@ export function SiteHeader() {
   return (
     <I18nElement as="header" className="site-header">
       <I18nElement as="div" className="site-header__inner">
-        <Link href="/" className="brand-mark" aria-label="CookieRun Crumble Guide home">
+        <Link href="/" className="brand-mark" aria-label="Crumble Guide">
           <I18nElement as="span" className="brand-mark__chip"><Image src="/favicon.png" alt="" width={42} height={42} priority /></I18nElement>
           <I18nElement as="span">CRUMBLE<I18nElement as="span">GUIDE</I18nElement></I18nElement>
         </Link>

@@ -1,12 +1,13 @@
 import { I18nElement } from "@/i18n/elements";
 import { LocaleLink as Link } from "@/i18n/elements";
 import { PrivacySettings } from "@/components/ads/privacy-settings";
+import { siteName } from "@/lib/site-identity";
 
 export function SiteFooter() {
   return (
     <I18nElement as="footer" className="site-footer">
       <I18nElement as="div" className="site-footer__intro">
-        <I18nElement as="strong">CookieRun: Crumble Guide</I18nElement>
+        <strong>{siteName}</strong>
         <I18nElement as="p">Fast answers for cookies, pets, teams, tiers, guides, and codes.</I18nElement>
       </I18nElement>
       <I18nElement as="nav" aria-label="Guide navigation" className="site-footer__nav">

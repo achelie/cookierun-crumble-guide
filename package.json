@@ -4,14 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/verify-i18n.mjs && next build && node scripts/verify-i18n-rendered.mjs && node scripts/prepare-cloudflare-static.mjs",
+    "build": "node scripts/verify-i18n.mjs && next build && node scripts/verify-i18n-rendered.mjs && node scripts/verify-geo.mjs && node scripts/prepare-cloudflare-static.mjs",
     "start": "wrangler dev",
     "test": "vitest run",
     "verify:i18n": "node scripts/verify-i18n.mjs",
     "verify:i18n:rendered": "node scripts/verify-i18n-rendered.mjs",
+    "verify:geo": "node scripts/verify-geo.mjs",
     "test:watch": "vitest",
     "preview": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run build && node scripts/publish-cloudflare.mjs",
+    "indexnow:submit": "node scripts/publish-cloudflare.mjs --retry-indexnow",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {

@@ -88,6 +88,11 @@ const slugsById: Readonly<Record<string, string>> = {
   cookie0675: "gangle-cookie",
   cookie0676: "zooble-cookie",
   cookie0677: "kinger-cookie",
+  cookie4026: "crescent-guardian",
+  cookie4027: "rippling-moonlight",
+  cookie4028: "healthy-bagel",
+  cookie0077: "cucumber-cookie",
+  cookie4029: "green-broccoli-giant",
 };
 
 const rankById = new Map(

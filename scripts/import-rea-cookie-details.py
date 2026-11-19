@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 IMAGE_DIR = PUBLIC / "images/cookie-details"
 LOCALES = ("en", "ja", "ko", "th", "zh-Hant")
-SOURCE_VERSION = "1.6.102"
+SOURCE_VERSION = "1.7.002"
 
 PROMOTION_STATS = (
     ("gradeAttackPointIncreaseMultiplier", "baseAttackPoint", 100, "%"),
@@ -154,6 +154,8 @@ def spawner_rows(components):
 
 def child_prefabs(components):
     names = [row["SkillPrefab"] for row in spawner_rows(components)]
+    # Summoned characters cast their attacks through their own skill spawner.
+    names.extend(row["SkillPrefab"] for row in components.get("SkillEntitySpawnerModel", {}).get("Models", []))
     reproduce = components.get("SkillEntityReproduceModel", {})
     # The final chained entity occupies the next skill child slot.
     if reproduce.get("UseFinalSkillPrefab"):

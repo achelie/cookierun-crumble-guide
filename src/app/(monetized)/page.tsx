@@ -11,6 +11,7 @@ import { pets } from "@/data/pets";
 import { recommendedTeams } from "@/data/teams";
 import { tierUpdatedAt } from "@/data/tier-list";
 import { seoPages } from "@/lib/seo";
+import { LastUpdated } from "@/components/last-updated";
 import { homeSchema } from "@/lib/structured-data";
 import { GameTitle } from "@/components/game-title";
 
@@ -98,6 +99,7 @@ export default function Home() {
           <I18nElement as="span" className="eyebrow">Unofficial player guide</I18nElement>
           <GameTitle />
           <I18nElement as="p">{seoPages.home.summary}</I18nElement>
+          <LastUpdated date={seoPages.home.updatedAt} />
           <I18nElement as="div" className="hero-actions">
             <Link href="/tier-list/">View {tierMonth} Tier List <AppIcon name="chevron" size={18} /></Link>
             <Link href={`/guides/${beginnerGuide.slug}/`} className="secondary-link">Start the Beginner Guide</Link>

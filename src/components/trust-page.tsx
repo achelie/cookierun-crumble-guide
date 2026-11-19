@@ -22,7 +22,7 @@ export function TrustPage({
 }: {
   page: SeoPageDefinition;
   icon: IconName;
-  updatedLabel: string;
+  updatedLabel?: string;
   note: ReactNode;
   sections: TrustSection[];
 }) {
@@ -32,7 +32,7 @@ export function TrustPage({
       <SeoPageHeader page={page} icon={icon} />
       <I18nElement as="div" className="trust-page__layout">
         <I18nElement as="aside" className="trust-page__rail">
-          <I18nElement as="span">{updatedLabel}</I18nElement>
+          {updatedLabel && <I18nElement as="span">{updatedLabel}</I18nElement>}
           <I18nElement as="div">{note}</I18nElement>
           <I18nElement as="nav" aria-label="On this page">
             {sections.map((section) => <Link key={section.id} href={`#${section.id}`}>{section.title}</Link>)}

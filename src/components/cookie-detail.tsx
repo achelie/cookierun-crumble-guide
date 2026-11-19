@@ -1,3 +1,7 @@
+import { DirectAnswer } from "@/components/direct-answer";
+import { LastUpdated } from "@/components/last-updated";
+import { cookieAnswer } from "@/lib/direct-answers";
+import { getTranslator } from "@/i18n/dictionaries";
 import Image from "next/image";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { SkillMetrics } from "@/components/cookie-skill-metrics";
@@ -6,7 +10,7 @@ import { AppIcon } from "@/components/ui/icon";
 import { SynergyBadge } from "@/components/synergy-badge";
 import { buffDefinitions, elementDefinitions, roleDefinitions, synergyDefinitions, type Synergy } from "@/data/cookies";
 import { I18nElement, LocaleLink } from "@/i18n/elements";
-import { cookieDetailGameVersion, type CookieDetailEntry } from "@/lib/cookie-details";
+import { cookieDetailGameVersion, cookieDetailsUpdatedAt, cookiePageUpdatedAt, maxCookieStars, type CookieDetailEntry } from "@/lib/cookie-details";
 import styles from "./cookie-detail.module.css";
 
 const statLabels: Record<string, string> = {
@@ -146,6 +150,8 @@ export function CookieDetail({ entry }: { entry: CookieDetailEntry }) {
   const { cookie, locale, profile, rank } = entry;
   const element = elementDefinitions[cookie.element];
   const role = roleDefinitions[cookie.role];
+  const t = getTranslator(locale);
+  const answer = cookieAnswer(profile.name, cookie.rarity, t(element.label), t(role.label), maxCookieStars(profile))[locale];
   const numberFormat = new Intl.NumberFormat(locale, { maximumFractionDigits: 3 });
   const percentFormat = new Intl.NumberFormat(locale, { style: "percent", maximumFractionDigits: 3 });
   const baseStats = profile.stats.filter(({ key, unit }) => Object.hasOwn(statLabels, key) && (unit === "" || unit === "%"));
@@ -170,6 +176,8 @@ export function CookieDetail({ entry }: { entry: CookieDetailEntry }) {
               <h1>{profile.name}</h1>
             </div>
           </div>
+          <DirectAnswer date={cookieDetailsUpdatedAt} locale={locale} cutoff>{answer}</DirectAnswer>
+          <LastUpdated date={cookiePageUpdatedAt} />
           <ul className={styles.taxonomy}>
             <li><I18nElement as="span">{cookie.rarity}</I18nElement></li>
             <li><Image src={element.image} alt="" width={24} height={24} /><I18nElement as="span">{element.label}</I18nElement></li>

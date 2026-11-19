@@ -1,3 +1,6 @@
+import { DirectAnswer } from "@/components/direct-answer";
+import { toolAnswers } from "@/lib/tool-answers";
+import type { Locale } from "@/i18n/config";
 import { I18nElement } from "@/i18n/elements";
 import type { Metadata } from "next";
 import { LocaleLink as Link } from "@/i18n/elements";
@@ -14,11 +17,13 @@ import { webApplicationSchema } from "@/lib/structured-data";
 const page = seoPages.tierBuilder;
 export const metadata: Metadata = pageMetadata(page);
 
-export default function TierBuilderPage() {
+export default function TierBuilderPage() { return <BuilderView locale="en" />; }
+
+export function BuilderView({ locale }: { locale: Locale }) {
   return (
     <I18nElement as="div" className="page-shell page-shell--builder">
-      <StructuredData data={webApplicationSchema(page, ["S-to-D Cookie ranking", "Drag-and-drop ordering", "Current ranking preset", "Shareable URL", "PNG download"])} />
-      <SeoPageHeader page={page} icon="trophy" parent={{ label: "Tools", href: "/tools/" }} />
+      <StructuredData data={webApplicationSchema(page)} />
+      <SeoPageHeader page={page} icon="trophy" parent={{ label: "Tools", href: "/tools/" }} answer={<DirectAnswer date={page.updatedAt} locale={locale}>{toolAnswers.tierBuilder[locale]}</DirectAnswer>} />
       <I18nElement as="nav" className="builder-route-nav" aria-label="Builder navigation">
         <Link href="/tools/"><AppIcon name="tools" size={17} />All tools</Link>
         <Link href="/tools/team-builder/">Open Team Builder<AppIcon name="chevron" size={17} /></Link>

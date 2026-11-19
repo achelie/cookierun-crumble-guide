@@ -1,3 +1,4 @@
+import { LastUpdated } from "@/components/last-updated";
 import { I18nElement } from "@/i18n/elements";
 import { LocaleImage as Image } from "@/i18n/elements";
 import { LocaleLink as Link } from "@/i18n/elements";
@@ -10,13 +11,6 @@ import { petById } from "@/data/pets";
 import { teamCategories, type RecommendedTeam } from "@/data/teams";
 import { cookieDetailPathById } from "@/lib/cookie-detail-paths";
 import styles from "./team-showcase.module.css";
-
-const dateFormatter = new Intl.DateTimeFormat("en", {
-  month: "short",
-  day: "numeric",
-  year: "numeric",
-  timeZone: "UTC",
-});
 
 export function TeamShowcase({ team }: { team: RecommendedTeam }) {
   const selectedCookies = team.cookies.map((id) => cookieById.get(id)).filter((cookie): cookie is Cookie => Boolean(cookie));
@@ -36,7 +30,7 @@ export function TeamShowcase({ team }: { team: RecommendedTeam }) {
         <I18nElement as="div" className="team-showcase__meta">
           <I18nElement as="span" className="team-category-badge">{teamCategories.find((category) => category.slug === team.category)?.label}</I18nElement>
           <AppIcon name="calendar" size={15} />
-          <I18nElement as="span">Updated {dateFormatter.format(new Date(`${team.updatedAt}T00:00:00Z`))}</I18nElement>
+          <I18nElement as="span"><LastUpdated date={team.updatedAt} /></I18nElement>
         </I18nElement>
       </I18nElement>
       <I18nElement as="div" className="team-showcase__formation">

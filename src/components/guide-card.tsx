@@ -1,15 +1,9 @@
+import { LastUpdated } from "@/components/last-updated";
 import { I18nElement } from "@/i18n/elements";
 import { LocaleLink as Link } from "@/i18n/elements";
 import { GuideCover } from "@/components/guide-cover";
 import { AppIcon } from "@/components/ui/icon";
 import { getGuideCategory, type GuideSummary } from "@/data/guides";
-
-const dateFormatter = new Intl.DateTimeFormat("en", {
-  month: "short",
-  day: "numeric",
-  year: "numeric",
-  timeZone: "UTC",
-});
 
 export function GuideCard({
   guide,
@@ -33,7 +27,7 @@ export function GuideCard({
         <Heading><Link href={`/guides/${guide.slug}/`}>{guide.title}</Link></Heading>
         {!compact && <I18nElement as="p">{guide.excerpt}</I18nElement>}
         <I18nElement as="div" className="guide-card__meta">
-          {!compact && <I18nElement as="span"><AppIcon name="calendar" size={15} />Updated {dateFormatter.format(new Date(`${guide.updatedAt}T00:00:00Z`))}</I18nElement>}
+          {!compact && <I18nElement as="span"><AppIcon name="calendar" size={15} /><LastUpdated date={guide.updatedAt} /></I18nElement>}
           <I18nElement as="span"><AppIcon name="clock" size={15} />{guide.readingMinutes} min read</I18nElement>
         </I18nElement>
         <Link className="guide-card__read" href={`/guides/${guide.slug}/`}>Read guide <AppIcon name="chevron" size={16} /></Link>

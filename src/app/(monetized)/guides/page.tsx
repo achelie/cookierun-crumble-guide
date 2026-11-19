@@ -10,6 +10,7 @@ import { absoluteUrl, seoPages } from "@/lib/seo";
 import { collectionPageSchema } from "@/lib/structured-data";
 import { localeFromSegment } from "@/i18n/config";
 import { guideSupportsLocale } from "@/i18n/guide-availability";
+import { paginateGuides } from "@/lib/guides";
 
 const page = seoPages.guides;
 export const metadata: Metadata = pageMetadata(page);
@@ -20,12 +21,11 @@ export default async function GuidesPage({params}: {params?: Promise<{locale?: s
   const availableGuides = guides.filter((guide) => guideSupportsLocale(guide.slug, locale));
   return (
     <I18nElement as="div" className="page-shell guides-page">
-      <StructuredData data={collectionPageSchema(page, availableGuides.map((guide) => ({
+      <StructuredData data={collectionPageSchema(page, paginateGuides(availableGuides).items.map((guide) => ({
         "@type": "Article",
         headline: guide.title,
-        description: guide.seoDescription,
+        description: guide.excerpt,
         url: absoluteUrl(`/guides/${guide.slug}/`),
-        datePublished: guide.publishedAt,
         dateModified: guide.updatedAt,
       })))} />
       <SeoPageHeader page={page} icon="book" />

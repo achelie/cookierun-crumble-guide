@@ -37,5 +37,5 @@ const sections: TrustSection[] = [
 ];
 
 export default function DisclaimerPage() {
-  return <TrustPage page={page} icon="scale" updatedLabel="Updated August 28, 2026" note={<I18nElement as="p">CookieRun belongs to Devsisters. The opinions, mistakes, and questionable team experiments here belong to us.</I18nElement>} sections={sections} />;
+  return <TrustPage page={page} icon="scale" note={<I18nElement as="p">CookieRun belongs to Devsisters. The opinions, mistakes, and questionable team experiments here belong to us.</I18nElement>} sections={sections} />;
 }

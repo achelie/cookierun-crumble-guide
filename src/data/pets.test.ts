@@ -22,6 +22,8 @@ describe("pet catalog", () => {
     expect(pets.find(({ id }) => id === "pet4006")?.effects).toEqual(["All allies gain Damage Reduction"]);
     expect(pets.find(({ id }) => id === "pet0303")?.effects).toEqual(["All allies gain Accuracy"]);
     expect(pets.find(({ id }) => id === "pet0304")?.effects).toEqual(["All allies gain Knockback Resistance"]);
+    expect(pets.find(({ id }) => id === "pet4007")?.effects).toEqual(["Grants Chain synergy", "Chain receivers gain Skill Amp"]);
+    expect(pets.find(({ id }) => id === "pet0068")?.effects).toEqual(["Shields allies at the start of battle"]);
   });
 
   it("includes the current registered effects", () => {
