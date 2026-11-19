@@ -12004,7 +12004,16 @@
     "Ketch-UP": "토마토 찹찹",
     "GO-Mayo": "멈추지 마요",
     "All allies gain Accuracy": "아군 전체 명중 증가",
-    "All allies gain Knockback Resistance": "아군 전체 밀치기 저항 증가"
+    "All allies gain Knockback Resistance": "아군 전체 밀치기 저항 증가",
+    "Moonlight Cookie's Crescent Guardian": "도시를 지키는 초승달 달빛술사 쿠키",
+    "Sea Fairy Cookie's Rippling Moonlight": "달빛에 흔들리는 잔물결 바다요정 쿠키",
+    "Space Doughnut's Healthy Bagel": "베이글 샌드위치 에일리언 도넛",
+    "Cucumber Cookie": "오이맛 쿠키",
+    "Muscle Cookie's Green Broccoli Giant": "브로콜리 녹색 괴물 근육맛 쿠키",
+    "Dreamcatcher's Night Sky Suncatcher": "새벽빛 선캐쳐 별빛 드림캐쳐",
+    "Wave Drop": "파도방울",
+    "Chain receivers gain Skill Amp": "연쇄 시너지를 받는 아군의 스킬증폭 증가",
+    "Shields allies at the start of battle": "전투 시작 시 아군 쿠키에게 보호막 부여"
   },
   "origins": {
     "0": "game-localization:DimensionStageSeason.SeasonName.2014075507",
@@ -24007,6 +24016,15 @@
     "Ketch-UP": "rea-1.6.102:official-entity-name",
     "GO-Mayo": "rea-1.6.102:official-entity-name",
     "All allies gain Accuracy": "rea-1.6.102:reviewed-effect-summary",
-    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary"
+    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary",
+    "Moonlight Cookie's Crescent Guardian": "rea-1.7.002:official-entity-name",
+    "Sea Fairy Cookie's Rippling Moonlight": "rea-1.7.002:official-entity-name",
+    "Space Doughnut's Healthy Bagel": "rea-1.7.002:official-entity-name",
+    "Cucumber Cookie": "rea-1.7.002:official-entity-name",
+    "Muscle Cookie's Green Broccoli Giant": "rea-1.7.002:official-entity-name",
+    "Dreamcatcher's Night Sky Suncatcher": "rea-1.7.002:official-entity-name",
+    "Wave Drop": "rea-1.7.002:official-entity-name",
+    "Chain receivers gain Skill Amp": "rea-1.7.002:reviewed-effect-summary",
+    "Shields allies at the start of battle": "rea-1.7.002:reviewed-effect-summary"
   }
 }

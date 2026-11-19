@@ -5,7 +5,7 @@ import { tierUpdatedAt } from "@/data/tier-list";
 import type { Locale } from "@/i18n/config";
 import { cookieDetailRoutes } from "@/lib/cookie-detail-paths";
 
-export const cookieDetailGameVersion = "1.6.102";
+export const cookieDetailGameVersion = "1.7.002";
 export const cookieDetailsUpdatedAt = cookiesUpdatedAt;
 export const cookiePageUpdatedAt = cookiesUpdatedAt > tierUpdatedAt ? cookiesUpdatedAt : tierUpdatedAt;
 

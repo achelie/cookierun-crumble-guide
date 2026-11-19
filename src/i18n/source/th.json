@@ -1939,7 +1939,7 @@
     "Majestic King Choco Drop": "ราชาหยดช็อกโก้สุดขรึม",
     "Sweet n' Sour": "สองหมีคู่หู",
     "Chargemellow": "ถ่านแมลโลว์",
-    "Candy Shade Pouch": "Candy Shade Pouch [EN]",
+    "Candy Shade Pouch": "ถุงลูกอมนำโชค",
     "Continuum Cog": "เฟืองนิรันดร์",
     "Damage Down buffs are not affected by Skill AMP.": "บัฟลดความเสียหายจะไม่ได้รับผลจากการขยายสกิล",
     "Debuff Application Rate when the caster's Focus equals the target's RES. The rate increases with higher caster Focus or lower target RES.": "อัตราการใช้ดีบัฟสำเร็จจะเกิดขึ้นเมื่อ \"โฟกัสของผู้ใช้สกิล = ต้านทานของศัตรู\" และยิ่งเพิ่มขึ้นเมื่อโฟกัสของผู้ใช้สกิลสูง หรือต้านทานของเป้าหมายต่ำ",
@@ -12004,7 +12004,16 @@
     "Ketch-UP": "เคทชัปกระโดดสับ",
     "GO-Mayo": "มายองเนสลื่นปรื๊ด",
     "All allies gain Accuracy": "เพิ่มความแม่นยำของเพื่อนร่วมทีมทั้งหมด",
-    "All allies gain Knockback Resistance": "เพิ่มต้านทานน็อคแบ็คของเพื่อนร่วมทีมทั้งหมด"
+    "All allies gain Knockback Resistance": "เพิ่มต้านทานน็อคแบ็คของเพื่อนร่วมทีมทั้งหมด",
+    "Moonlight Cookie's Crescent Guardian": "คุกกี้แสงจันทร์ จันทร์เสี้ยวพิทักษ์เมือง",
+    "Sea Fairy Cookie's Rippling Moonlight": "คุกกี้นางฟ้าทะเล ระลอกคลื่นพลิ้วไหวใต้แสงจันทร์",
+    "Space Doughnut's Healthy Bagel": "โดนัทอวกาศ แซนด์วิชเบเกิล",
+    "Cucumber Cookie": "คุกกี้รสแตงกวา",
+    "Muscle Cookie's Green Broccoli Giant": "คุกกี้นักกล้าม ยักษ์บรอกโคลีเขียว",
+    "Dreamcatcher's Night Sky Suncatcher": "ดรีมแคตเชอร์แสงดาว ซันแคตเชอร์แสงแห่งอรุณ",
+    "Wave Drop": "หยดคลื่น",
+    "Chain receivers gain Skill Amp": "เพิ่มขยายสกิลให้เพื่อนร่วมทีมที่ได้รับซินเนอร์จี้ผูกมัด",
+    "Shields allies at the start of battle": "มอบเกราะป้องกันให้เพื่อนร่วมทีมเมื่อเริ่มการต่อสู้"
   },
   "origins": {
     "0": "game-localization:DimensionStageSeason.SeasonName.2014075507",
@@ -13942,7 +13951,7 @@
     "Majestic King Choco Drop": "game-entity:pet4003",
     "Sweet n' Sour": "game-entity:pet4004",
     "Chargemellow": "game-entity:pet4005",
-    "Candy Shade Pouch": "game-entity:pet0228",
+    "Candy Shade Pouch": "rea-1.7.002:official-entity-name",
     "Continuum Cog": "game-entity:pet0167",
     "Damage Down buffs are not affected by Skill AMP.": "game-localization:AdditionalEffectText.Desc.DamageDecreaseIgnoreAmp",
     "Debuff Application Rate when the caster's Focus equals the target's RES. The rate increases with higher caster Focus or lower target RES.": "game-localization:AdditionalEffectText.Desc.DebuffRate",
@@ -24007,6 +24016,15 @@
     "Ketch-UP": "rea-1.6.102:official-entity-name",
     "GO-Mayo": "rea-1.6.102:official-entity-name",
     "All allies gain Accuracy": "rea-1.6.102:reviewed-effect-summary",
-    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary"
+    "All allies gain Knockback Resistance": "rea-1.6.102:reviewed-effect-summary",
+    "Moonlight Cookie's Crescent Guardian": "rea-1.7.002:official-entity-name",
+    "Sea Fairy Cookie's Rippling Moonlight": "rea-1.7.002:official-entity-name",
+    "Space Doughnut's Healthy Bagel": "rea-1.7.002:official-entity-name",
+    "Cucumber Cookie": "rea-1.7.002:official-entity-name",
+    "Muscle Cookie's Green Broccoli Giant": "rea-1.7.002:official-entity-name",
+    "Dreamcatcher's Night Sky Suncatcher": "rea-1.7.002:official-entity-name",
+    "Wave Drop": "rea-1.7.002:official-entity-name",
+    "Chain receivers gain Skill Amp": "rea-1.7.002:reviewed-effect-summary",
+    "Shields allies at the start of battle": "rea-1.7.002:reviewed-effect-summary"
   }
 }
