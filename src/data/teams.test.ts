@@ -45,7 +45,7 @@ describe("recommended teams", () => {
   });
 
   it("keeps the pictured Season 8 Arena formation in order", () => {
-    expect(recommendedTeams[0]).toMatchObject({
+    expect(recommendedTeams.find((team) => team.id === "season-8-arena-opening-burst")).toMatchObject({
       id: "season-8-arena-opening-burst",
       category: "pvp",
       cookies: ["cookie4013", "cookie4012", "cookie4010", "cookie0081", "cookie0136", "cookie0063", "chardonnay", "cookie0678", "cookie0126", "cookie4024", "cookie0250", "cookie4025"],
@@ -61,7 +61,11 @@ describe("recommended teams", () => {
   });
 
   it("puts the newly added formations first with the latest date", () => {
-    expect(teamsUpdatedAt).toBe("2026-11-09");
+    expect(teamsUpdatedAt).toBe("2026-11-21");
+    expect(recommendedTeams.filter((team) => team.category === "dungeons").slice(0, 5).map((team) => [team.id, team.updatedAt])).toEqual([
+      "healthy-bagel-exp-dungeon", "healthy-bagel-coin-dungeon", "healthy-bagel-dough-dungeon",
+      "healthy-bagel-research-stone-dungeon", "healthy-bagel-rune-crystal-dungeon",
+    ].map((id) => [id, teamsUpdatedAt]));
     expect(recommendedTeams.filter((team) => team.updatedAt === "2026-09-26").map((team) => team.id)).toEqual([
       "bari-cherry-cola-story", "story-knock-up-resistance", "bari-gingercraven-power",
     ]);
