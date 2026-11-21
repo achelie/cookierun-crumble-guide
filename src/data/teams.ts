@@ -25,9 +25,74 @@ export type RecommendedTeam = {
   };
 };
 
-export const teamsUpdatedAt = "2026-11-09";
+export const teamsUpdatedAt = "2026-11-21";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "healthy-bagel-exp-dungeon",
+    category: "dungeons",
+    name: "Healthy Bagel EXP Dungeon Team",
+    kicker: "Hold your starting position with GO-Mayo",
+    description: "Give Healthy Bagel Skill Haste for more sandwich throws. GO-Mayo in the third Pet slot helps the team resist knockback.",
+    cookies: [
+      "cookie0070", "cookie4013", "cookie4027", "cookie0676", "cookie0678", "cookie4028",
+      "cookie0028", "chardonnay", "cookie0181", "cookie4026", "cookie0126", "cookie4019",
+    ],
+    pets: ["pet0111", "pet0110", "pet0304"],
+    updatedAt: "2026-11-21",
+  },
+  {
+    id: "healthy-bagel-coin-dungeon",
+    category: "dungeons",
+    name: "Healthy Bagel Coin Dungeon Team",
+    kicker: "Take the lower-left corner for coin waves",
+    description: "If you haven't pulled Moonlight, try another damage dealer in slot 3. Watch Pomegranate in slot 4, since she can go down during the run.",
+    cookies: [
+      "cookie4013", "cookie4027", "cookie4026", "cookie0126", "cookie4028", "cookie4019",
+      "chardonnay", "cookie0676", "cookie0678", "cookie0018", "cookie0672", "cookie4014",
+    ],
+    pets: ["pet0111", "pet4001", "pet0110"],
+    updatedAt: "2026-11-21",
+  },
+  {
+    id: "healthy-bagel-dough-dungeon",
+    category: "dungeons",
+    name: "Healthy Bagel Dough Dungeon Team",
+    kicker: "Pair Readyberry with Sea Fairy's summons",
+    description: "Move left or take the lower-left corner. Sea Fairy's water drops count as summons, so they benefit from Readyberry's summon Skill Haste. Ragatha takes the last slot in the bottom row.",
+    cookies: [
+      "cookie0070", "cookie4027", "cookie4026", "cookie0126", "cookie0672", "cookie4014",
+      "chardonnay", "cookie0676", "cookie0678", "cookie4028", "cookie4019", "cookie0674",
+    ],
+    pets: ["pet0111", "pet0110", "pet4001"],
+    updatedAt: "2026-11-21",
+  },
+  {
+    id: "healthy-bagel-research-stone-dungeon",
+    category: "dungeons",
+    name: "Healthy Bagel Research Stone Dungeon Team",
+    kicker: "Swap Witchberry for Healthy Bagel",
+    description: "Give Healthy Bagel Skill Haste to throw sandwiches more often. A direct hit deals damage before the vegetables scatter.",
+    cookies: [
+      "cookie0070", "chardonnay", "cookie0676", "cookie0678", "cookie4028", "cookie4019",
+      "cookie4013", "cookie4027", "cookie4026", "cookie0126", "cookie0672", "cookie4014",
+    ],
+    pets: ["pet0111", "pet4001", "pet0110"],
+    updatedAt: "2026-11-21",
+  },
+  {
+    id: "healthy-bagel-rune-crystal-dungeon",
+    category: "dungeons",
+    name: "Healthy Bagel Rune Crystal Dungeon Team",
+    kicker: "Use Bubble to reduce incoming damage",
+    description: "Put Octo Wasabi and Kiwi Bird in the Pet slots after Bubble. Place Ion at the right end of the top row, with Moon Rabbit directly below.",
+    cookies: [
+      "cookie4013", "cookie4027", "cookie0678", "cookie0018", "cookie4019", "cookie0136",
+      "chardonnay", "cookie4026", "cookie0126", "cookie4028", "cookie4024", "cookie4025",
+    ],
+    pets: ["pet4006", "pet0110", "pet0052"],
+    updatedAt: "2026-11-21",
+  },
   {
     id: "season-8-arena-opening-burst",
     category: "pvp",

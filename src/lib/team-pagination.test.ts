@@ -31,12 +31,12 @@ function guideFormations() {
 
 describe("teams pagination", () => {
   it("filters all teams before calculating category pages", () => {
-    expect(filterTeams(recommendedTeams, "all")).toHaveLength(36);
-    for (const [category, total] of [["story", 8], ["bosses", 8], ["guild-conquest", 3], ["dungeons", 12], ["pvp", 5]] as const) {
+    expect(filterTeams(recommendedTeams, "all")).toHaveLength(41);
+    for (const [category, total, pages] of [["story", 8, 2], ["bosses", 8, 2], ["guild-conquest", 3, 1], ["dungeons", 17, 3], ["pvp", 5, 1]] as const) {
       const filtered = filterTeams(recommendedTeams, category);
       expect(filtered).toHaveLength(total);
       expect(filtered.every((team) => team.category === category)).toBe(true);
-      expect(paginateTeams(filtered, 99).pageCount).toBe(category === "story" || category === "dungeons" || category === "bosses" ? 2 : 1);
+      expect(paginateTeams(filtered, 99).pageCount).toBe(pages);
     }
     expect(paginateTeams(filterTeams(recommendedTeams, "guild-conquest"), 2)).toMatchObject({page: 1, total: 3});
     expect(paginateTeams(filterTeams(recommendedTeams, "pvp"), 4)).toMatchObject({ page: 1, total: 5 });
@@ -51,10 +51,10 @@ describe("teams pagination", () => {
     }
     expect(paginateTeams([], 99)).toMatchObject({ items: [], page: 1, pageCount: 1, total: 0 });
   });
-  it("shows 36 teams across six pages", () => {
+  it("shows 41 teams across six pages", () => {
     expect(teamsPageSize).toBe(7);
-    expect([1, 2, 3, 4, 5, 6].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([7, 7, 7, 7, 7, 1]);
-    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 6, total: 36 });
+    expect([1, 2, 3, 4, 5, 6].map((page) => paginateTeams(recommendedTeams, page).items.length)).toEqual([7, 7, 7, 7, 7, 6]);
+    expect(paginateTeams(recommendedTeams, 1)).toMatchObject({ page: 1, pageCount: 6, total: 41 });
   });
 
   it("normalizes missing, malformed, negative, and oversized page values", () => {
