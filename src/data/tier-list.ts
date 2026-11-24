@@ -4,7 +4,7 @@ export type TierRank = (typeof tierRanks)[number];
 const placedTierList: Record<Exclude<TierRank, "D">, string[]> = {
   S: [
     "cookie4028", "cookie4026", "cookie0678", "chardonnay", "cookie4010",
-    "cookie0250", "cookie4019", "cookie0126", "cookie0181", "cookie0063",
+    "cookie4019", "cookie0126", "cookie0181", "cookie0063",
   ],
   A: [
     "cookie4027", "cookie4013", "cookie0672", "cookie0676", "cookie4014",
@@ -15,7 +15,7 @@ const placedTierList: Record<Exclude<TierRank, "D">, string[]> = {
     "cookie0059", "cookie0037", "cookie4017", "cookie4006", "cookie0070",
     "cookie0040", "cookie0513", "cookie4003", "cookie0673", "cookie0077",
     "cookie0081", "cookie4029", "cookie0515", "cookie0027", "cookie0023",
-    "cookie0054", "cookie3001", "cookie0503", "cookie0038",
+    "cookie0054", "cookie3001", "cookie0503", "cookie0038", "cookie0250",
   ],
   C: [
     "cookie0677", "cookie4012", "cookie0570", "cookie1004", "cookie0048",
