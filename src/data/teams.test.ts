@@ -61,11 +61,19 @@ describe("recommended teams", () => {
   });
 
   it("puts the newly added formations first with the latest date", () => {
-    expect(teamsUpdatedAt).toBe("2026-11-21");
+    expect(teamsUpdatedAt).toBe("2026-11-24");
+    expect(recommendedTeams[0]).toMatchObject({
+      id: "moonlight-healthy-bagel-guild-conquest", category: "guild-conquest", updatedAt: teamsUpdatedAt,
+      cookies: [
+        "chardonnay", "cookie0678", "cookie0126", "cookie4028", "cookie4019", "cookie0532",
+        "cookie4026", "cookie4010", "cookie0018", "cookie0672", "cookie0103", "cookie4014",
+      ],
+      pets: ["pet0111", "pet0110", "pet0228"],
+    });
     expect(recommendedTeams.filter((team) => team.category === "dungeons").slice(0, 5).map((team) => [team.id, team.updatedAt])).toEqual([
       "healthy-bagel-exp-dungeon", "healthy-bagel-coin-dungeon", "healthy-bagel-dough-dungeon",
       "healthy-bagel-research-stone-dungeon", "healthy-bagel-rune-crystal-dungeon",
-    ].map((id) => [id, teamsUpdatedAt]));
+    ].map((id) => [id, "2026-11-21"]));
     expect(recommendedTeams.filter((team) => team.updatedAt === "2026-09-26").map((team) => team.id)).toEqual([
       "bari-cherry-cola-story", "story-knock-up-resistance", "bari-gingercraven-power",
     ]);

@@ -2853,8 +2853,8 @@
     "Wave Drop": "海浪滴露",
     "Chain receivers gain Skill Amp": "獲得連鎖綜效的隊友技能增幅提升",
     "Shields allies at the start of battle": "戰鬥開始時賦予我方餅乾護盾",
-    "Updated November 21, 2026. Copy 41 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "2026 年 11 月 21 日更新。複製 41 套主線、公會討伐戰、頭目、副本與競技場隊伍，每套都有寵物與快速配置說明。",
-    "Updated November 21, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "2026 年 11 月 21 日更新。查看薑餅人放置大戰爭公會討伐戰、主線頭目、副本與競技場隊伍，包含 12 名餅乾的順序、寵物與配置技巧。",
+    "Updated November 24, 2026. Copy 42 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "2026 年 11 月 24 日更新。複製 42 套主線、公會討伐戰、頭目、副本與競技場隊伍，每套都有寵物與快速配置說明。",
+    "Updated November 24, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "2026 年 11 月 24 日更新。查看薑餅人放置大戰爭公會討伐戰、主線頭目、副本與競技場隊伍，包含 12 名餅乾的順序、寵物與配置技巧。",
     "Healthy Bagel EXP Dungeon Team": "貝果三明治經驗值副本隊",
     "Hold your starting position with GO-Mayo": "帶滑溜美乃滋，留在原地打",
     "Give Healthy Bagel Skill Haste for more sandwich throws. GO-Mayo in the third Pet slot helps the team resist knockback.": "貝果三明治優先配技能加速，讓它多丟幾次三明治。第三個寵物欄放滑溜美乃滋，幫全隊抵抗擊退。",
@@ -2871,7 +2871,10 @@
     "Use Bubble to reduce incoming damage": "帶泡泡幫全隊減傷",
     "Put Octo Wasabi and Kiwi Bird in the Pet slots after Bubble. Place Ion at the right end of the top row, with Moon Rabbit directly below.": "泡泡後面依序放芥末章魚和奇異鳥。上排最右邊放離子餅乾機器人，正下方放月兔。",
     "{0} teams in {1}": "{1}共 {0} 套隊伍",
-    "{0} teams": "共 {0} 套隊伍"
+    "{0} teams": "共 {0} 套隊伍",
+    "Moonlight and Healthy Bagel Guild Conquest Team": "月光魔法師與貝果三明治公會討伐戰隊伍",
+    "Give Healthy Bagel Skill Haste for more sandwich throws": "貝果三明治配技能加速，多丟幾次三明治",
+    "Check ATK after entering the Extra-Stuffed Piñata fight. Keep the other attackers below Caine. Give Caine one ATK rune and fill his other slots with Skill Amp. When Moonlight and Pomegranate buff the same ally, only the higher Skill Amp applies.": "打重量級皮納塔時，進場後確認其他輸出餅乾的攻擊力都低於凱恩。凱恩帶一顆攻擊符文，其餘配技能增幅。月光魔法師和石榴同時替一名隊友加技能增幅時，只取較高的效果。"
   },
   "origins": {
     "(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px": "native-reviewed",
@@ -5685,8 +5688,8 @@
     "Wave Drop": "rea-1.7.002:official-entity-name",
     "Chain receivers gain Skill Amp": "rea-1.7.002:reviewed-effect-summary",
     "Shields allies at the start of battle": "rea-1.7.002:reviewed-effect-summary",
-    "Updated November 21, 2026. Copy 41 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "manual-reviewed",
-    "Updated November 21, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "manual-reviewed",
+    "Updated November 24, 2026. Copy 42 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "manual-reviewed",
+    "Updated November 24, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "manual-reviewed",
     "Healthy Bagel EXP Dungeon Team": "manual-reviewed",
     "Hold your starting position with GO-Mayo": "manual-reviewed",
     "Give Healthy Bagel Skill Haste for more sandwich throws. GO-Mayo in the third Pet slot helps the team resist knockback.": "manual-reviewed",
@@ -5703,6 +5706,9 @@
     "Use Bubble to reduce incoming damage": "manual-reviewed",
     "Put Octo Wasabi and Kiwi Bird in the Pet slots after Bubble. Place Ion at the right end of the top row, with Moon Rabbit directly below.": "manual-reviewed",
     "{0} teams in {1}": "manual-reviewed",
-    "{0} teams": "manual-reviewed"
+    "{0} teams": "manual-reviewed",
+    "Moonlight and Healthy Bagel Guild Conquest Team": "manual-reviewed",
+    "Give Healthy Bagel Skill Haste for more sandwich throws": "manual-reviewed",
+    "Check ATK after entering the Extra-Stuffed Piñata fight. Keep the other attackers below Caine. Give Caine one ATK rune and fill his other slots with Skill Amp. When Moonlight and Pomegranate buff the same ally, only the higher Skill Amp applies.": "manual-reviewed"
   }
 }
