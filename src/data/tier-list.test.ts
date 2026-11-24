@@ -14,9 +14,9 @@ describe("combined tier list", () => {
 
   it("keeps the reference tier sizes", () => {
     expect(Object.fromEntries(tierRanks.map((rank) => [rank, tierList[rank].length]))).toEqual({
-      S: 10,
+      S: 9,
       A: 10,
-      B: 24,
+      B: 25,
       C: 14,
       D: 32,
     });
@@ -25,7 +25,7 @@ describe("combined tier list", () => {
   it("matches the supplied S through D ranking order", () => {
     expect(tierList.S).toEqual([
       "cookie4028", "cookie4026", "cookie0678", "chardonnay", "cookie4010",
-      "cookie0250", "cookie4019", "cookie0126", "cookie0181", "cookie0063",
+      "cookie4019", "cookie0126", "cookie0181", "cookie0063",
     ]);
     expect(tierList.A).toEqual([
       "cookie4027", "cookie4013", "cookie0672", "cookie0676", "cookie4014",
@@ -36,7 +36,7 @@ describe("combined tier list", () => {
       "cookie0059", "cookie0037", "cookie4017", "cookie4006", "cookie0070",
       "cookie0040", "cookie0513", "cookie4003", "cookie0673", "cookie0077",
       "cookie0081", "cookie4029", "cookie0515", "cookie0027", "cookie0023",
-      "cookie0054", "cookie3001", "cookie0503", "cookie0038",
+      "cookie0054", "cookie3001", "cookie0503", "cookie0038", "cookie0250",
     ]);
     expect(tierList.C).toEqual([
       "cookie0677", "cookie4012", "cookie0570", "cookie1004", "cookie0048",

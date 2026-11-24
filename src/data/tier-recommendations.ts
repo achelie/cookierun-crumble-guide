@@ -117,16 +117,6 @@ export const tierRecommendations: Readonly<Record<string, Recommendation>> = {
       "มอบซินเนอร์จี้โจมตีต่อเนื่อง ช่วยให้เพื่อนไม่ถูกยก และลดการฟื้นฟูของศัตรู มีที่ทั้งในทีมตีบอสและทีมอารีน่าบุกเร็ว แม้ดาเมจส่วนตัวจะไม่สูงสุด",
     ],
   },
-  cookie0250: {
-    source: guide("cherry-cola-auto-stage-team"),
-    reason: [
-      "After several swings she dives at a high-ATK enemy. Bari’s protection helps her stay in range long enough to get there, which is why the pair works for auto story and opening pressure in Arena.",
-      "揮砍幾次後，她會突進高攻敵人。鉢里公主能保她撐到突進，這組合適合自動推主線，也能在競技場開場施壓。",
-      "何度か斬りつけた後、攻撃力の高い敵に突進します。バリ姫に守ってもらうと突進まで生き残りやすく、ストーリーのオート周回やアリーナの先手に向きます。",
-      "몇 번 벤 뒤 공격력이 높은 적에게 돌진합니다. 바리 공주가 돌진까지 버티도록 도와주기 때문에 둘을 쓰면 스테이지 자동 전투와 아레나 초반 압박에 좋습니다.",
-      "หลังฟันหลายครั้งจะพุ่งใส่ศัตรูพลังโจมตีสูง เจ้าหญิงบารีช่วยให้เธอยืนได้นานพอจะพุ่ง ทั้งคู่จึงเหมาะกับออโต้เนื้อเรื่องและเปิดเกมกดดันในอารีน่า",
-    ],
-  },
   cookie4019: {
     source: guide("caine-guild-conquest-team"),
     reason: [
