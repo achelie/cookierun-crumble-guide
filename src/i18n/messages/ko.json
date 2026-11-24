@@ -2845,8 +2845,8 @@
     "Wave Drop": "파도방울",
     "Chain receivers gain Skill Amp": "연쇄 시너지를 받는 아군의 스킬증폭 증가",
     "Shields allies at the start of battle": "전투 시작 시 아군 쿠키에게 보호막 부여",
-    "Updated November 21, 2026. Copy 41 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "2026년 11월 21일 업데이트. 스토리, 길드 토벌전, 보스, 던전, 아레나용 팀 41개를 복사하세요. 각 팀에 펫과 간단한 설정 팁을 담았습니다.",
-    "Updated November 21, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "2026년 11월 21일 업데이트. 쿠키런 키우기 길드 토벌전, 스토리 보스, 던전, 아레나 팀을 확인하세요. 쿠키 12종의 순서, 펫, 설정 팁을 제공합니다.",
+    "Updated November 24, 2026. Copy 42 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "2026년 11월 24일 업데이트. 스토리, 길드 토벌전, 보스, 던전, 아레나용 팀 42개를 복사하세요. 각 팀에 펫과 간단한 설정 팁을 담았습니다.",
+    "Updated November 24, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "2026년 11월 24일 업데이트. 쿠키런 키우기 길드 토벌전, 스토리 보스, 던전, 아레나 팀을 확인하세요. 쿠키 12종의 순서, 펫, 설정 팁을 제공합니다.",
     "Healthy Bagel EXP Dungeon Team": "베이글 샌드위치 경험치 던전 덱",
     "Hold your starting position with GO-Mayo": "멈추지 마요와 함께 시작 위치에서 싸우세요",
     "Give Healthy Bagel Skill Haste for more sandwich throws. GO-Mayo in the third Pet slot helps the team resist knockback.": "베이글 샌드위치는 스킬가속을 챙기면 샌드위치를 더 자주 던집니다. 세 번째 펫 칸에 멈추지 마요를 넣어 아군의 넉백 저항을 올리세요.",
@@ -2863,7 +2863,10 @@
     "Use Bubble to reduce incoming damage": "버블로 아군 전체가 받는 피해를 줄이세요",
     "Put Octo Wasabi and Kiwi Bird in the Pet slots after Bubble. Place Ion at the right end of the top row, with Moon Rabbit directly below.": "버블 다음 두 칸에는 와사비 문어와 키위새를 순서대로 넣으세요. 윗줄 오른쪽 끝에 이온맛 쿠키로봇을, 바로 아래에 달토끼를 놓으세요.",
     "{0} teams in {1}": "{1} 조합 {0}개",
-    "{0} teams": "총 {0}개 조합"
+    "{0} teams": "총 {0}개 조합",
+    "Moonlight and Healthy Bagel Guild Conquest Team": "달빛술사와 베이글 샌드위치 길드 토벌전 덱",
+    "Give Healthy Bagel Skill Haste for more sandwich throws": "베이글 샌드위치에 스킬가속을 챙겨 샌드위치를 더 자주 던지세요",
+    "Check ATK after entering the Extra-Stuffed Piñata fight. Keep the other attackers below Caine. Give Caine one ATK rune and fill his other slots with Skill Amp. When Moonlight and Pomegranate buff the same ally, only the higher Skill Amp applies.": "지나치게 무거워진 피냐타 전투에 들어가면 다른 딜러의 공격력이 케인보다 낮은지 확인하세요. 케인에게는 공격력 룬 하나를 주고 나머지는 스킬증폭으로 채우세요. 달빛술사와 석류맛 쿠키가 같은 아군에게 스킬증폭을 걸면 높은 쪽만 적용됩니다."
   },
   "origins": {
     "(max-width: 640px) 43vw, (max-width: 1024px) 29vw, 210px": "translated-draft-cache",
@@ -5669,8 +5672,8 @@
     "Wave Drop": "rea-1.7.002:official-entity-name",
     "Chain receivers gain Skill Amp": "rea-1.7.002:reviewed-effect-summary",
     "Shields allies at the start of battle": "rea-1.7.002:reviewed-effect-summary",
-    "Updated November 21, 2026. Copy 41 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "manual-reviewed",
-    "Updated November 21, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "manual-reviewed",
+    "Updated November 24, 2026. Copy 42 teams for story, Guild Conquest, bosses, dungeons, and Arena. Each includes Pets and quick setup tips.": "manual-reviewed",
+    "Updated November 24, 2026. CookieRun: Crumble teams for Guild Conquest, story bosses, dungeons, and Arena, with 12 ordered Cookies, Pets, and setup tips.": "manual-reviewed",
     "Healthy Bagel EXP Dungeon Team": "manual-reviewed",
     "Hold your starting position with GO-Mayo": "manual-reviewed",
     "Give Healthy Bagel Skill Haste for more sandwich throws. GO-Mayo in the third Pet slot helps the team resist knockback.": "manual-reviewed",
@@ -5687,6 +5690,9 @@
     "Use Bubble to reduce incoming damage": "manual-reviewed",
     "Put Octo Wasabi and Kiwi Bird in the Pet slots after Bubble. Place Ion at the right end of the top row, with Moon Rabbit directly below.": "manual-reviewed",
     "{0} teams in {1}": "manual-reviewed",
-    "{0} teams": "manual-reviewed"
+    "{0} teams": "manual-reviewed",
+    "Moonlight and Healthy Bagel Guild Conquest Team": "manual-reviewed",
+    "Give Healthy Bagel Skill Haste for more sandwich throws": "manual-reviewed",
+    "Check ATK after entering the Extra-Stuffed Piñata fight. Keep the other attackers below Caine. Give Caine one ATK rune and fill his other slots with Skill Amp. When Moonlight and Pomegranate buff the same ally, only the higher Skill Amp applies.": "manual-reviewed"
   }
 }

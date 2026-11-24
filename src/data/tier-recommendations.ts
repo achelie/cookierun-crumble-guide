@@ -17,6 +17,46 @@ const guide = <Slug extends string>(slug: Slug) => `/guides/cookie-run-crumble-$
 const teams = <Category extends string>(category: Category) => `/teams/?category=${category}` as const;
 
 export const tierRecommendations: Readonly<Record<string, Recommendation>> = {
+  cookie4028: {
+    source: teams("dungeons"),
+    reason: [
+      "Give Healthy Bagel Skill Haste to throw sandwiches more often. A sandwich can hit an enemy directly before the ingredients scatter, which helps clear waves in the EXP and Research Stone dungeons.",
+      "貝果三明治配技能加速，能更常丟出三明治。三明治先砸中敵人，餡料接著散開，適合清經驗值和研究石副本的怪群。",
+      "スキル加速を上げるとサンドを投げる回数が増えます。直撃でダメージを与えたあとに具材が飛び散るので、経験値や研究石ダンジョンの敵の群れに向いています。",
+      "스킬가속을 올리면 샌드위치를 더 자주 던집니다. 샌드위치가 적을 직접 맞힌 뒤 재료가 흩어져 경험치 던전과 연구석 던전에서 몰려오는 적을 정리하기 좋습니다.",
+      "เน้นเร่งสกิลให้แซนด์วิชเบเกิลเพื่อให้ขว้างได้บ่อยขึ้น แซนด์วิชที่โดนศัตรูจะสร้างความเสียหายก่อนที่ไส้จะกระจายออก เหมาะกับการกวาดฝูงศัตรูในดันเจี้ยน EXP และหินวิจัย",
+    ],
+  },
+  cookie4026: {
+    source: teams("guild-conquest"),
+    reason: [
+      "Moonlight raises allied Skill Amp and heals low-HP allies with bouncing stars. In Guild Conquest she can reach Cookies outside Pomegranate’s buff. Allies who receive both buffs use the higher bonus.",
+      "月光魔法師提高隊友的技能增幅，星星還會在低血量隊友之間彈跳補血。打公會討伐時，她能照顧石榴沒加到的隊友。兩者同時加到同一隻餅乾時，只取較高的增幅。",
+      "味方のスキル増幅を上げ、跳ねる星で体力の低い味方を回復します。ギルド討伐ではザクロの強化が届かない味方も支えられます。両方の強化を受けた味方には高い方の効果が適用されます。",
+      "아군의 스킬증폭을 높이고 체력이 낮은 아군 사이를 튕기는 별로 회복시킵니다. 길드 토벌전에서는 석류맛 쿠키의 버프가 닿지 않는 아군도 지원합니다. 두 버프를 모두 받으면 높은 쪽만 적용됩니다.",
+      "แสงจันทร์เพิ่มขยายสกิลให้ทีมและส่งดาวเด้งไปรักษาเพื่อนที่เลือดน้อย ในศึกกิลด์เธอช่วยเสริมให้เพื่อนที่ไม่ได้รับบัฟจากทับทิมได้ ถ้าเพื่อนรับทั้งสองบัฟจะใช้ค่าที่สูงกว่า",
+    ],
+  },
+  cookie4027: {
+    source: teams("dungeons"),
+    reason: [
+      "Sea Fairy summons droplets that strike groups and lift enemies. In the Dough Dungeon, pair her with Readyberry so the droplets benefit from summon Skill Haste.",
+      "海妖精召喚的水滴會攻擊聚在一起的敵人並將他們擊飛。打麵團副本時搭配準備好莓，水滴也能吃到召喚物技能加速。",
+      "海の妖精が召喚する水滴は、密集した敵を攻撃して打ち上げます。生地ダンジョンでレディベリーと組ませると、水滴にも召喚物のスキル加速が効きます。",
+      "바다요정이 소환한 물방울은 모여 있는 적을 공격해 띄웁니다. 반죽 던전에서 레디베리와 함께 쓰면 물방울도 소환수 스킬가속 효과를 받습니다.",
+      "นางฟ้าทะเลเรียกหยดน้ำมาโจมตีและยกศัตรูที่รวมกลุ่มกัน ในดันเจี้ยนแป้งให้จับคู่กับเรดี้เบอร์รี่เพื่อให้หยดน้ำได้รับผลเร่งสกิลสิ่งอัญเชิญ",
+    ],
+  },
+  cookie0136: {
+    source: teams("dungeons"),
+    reason: [
+      "Ion shields itself and low-HP allies when it charges. After transforming, it shields the whole team. Use it in the Rune Crystal Dungeon when your attackers need time to recover.",
+      "離子餅乾機器人衝鋒時會替自己和低血量隊友套盾，變身後再替全隊套盾。打符文結晶副本時，可以用它替輸出餅乾爭取回血的時間。",
+      "突進時に自分と体力の低い味方にシールドを張り、変身後は味方全員を守ります。ルーン結晶ダンジョンで攻撃役の回復が間に合わないときに役立ちます。",
+      "돌진할 때 자신과 체력이 낮은 아군에게 보호막을 주고, 변신하면 아군 전체에 보호막을 씌웁니다. 룬결정 던전에서 딜러가 회복할 시간을 벌어 줍니다.",
+      "โรบอตไอออนพุ่งชนพร้อมสร้างโล่ให้ตัวเองและเพื่อนที่เลือดน้อย เมื่อแปลงร่างจะให้โล่ทั้งทีม ใช้ในดันเจี้ยนผลึกรูนเพื่อให้ตัวทำดาเมจมีเวลาฟื้นเลือด",
+    ],
+  },
   cookie0678: {
     source: guide("caine-guild-conquest-team"),
     reason: [
@@ -57,26 +97,6 @@ export const tierRecommendations: Readonly<Record<string, Recommendation>> = {
       "คลื่นโจมตีศัตรูและเพิ่มโอกาสคริติคอลกับต้านการผลักให้เพื่อนในแนวคลื่น ช่วยให้ทีมเจ้าหญิงบารีกับเชอร์รี่โคล่าเล่นเนื้อเรื่องแบบออโต้ง่ายขึ้น เช็กตำแหน่งตัวหลักก่อนเปลี่ยนอุปกรณ์",
     ],
   },
-  cookie4025: {
-    source: teams("pvp"),
-    reason: [
-      "She cuts nearby enemies’ ATK and crit chance while taking a frontline slot. That buys time in Arena and on story runs where the team dies before its damage dealers get going.",
-      "她能扛前排，同時壓低附近敵人的攻擊力和暴擊率。競技場被開場打崩，或主線打手還沒出招就倒下時，她能幫隊伍撐住。",
-      "前衛を務めながら近くの敵の攻撃力と会心率を下げます。アリーナやストーリーで火力役が動く前に崩れるとき、攻撃の時間を稼げます。",
-      "앞줄에 서면서 주변 적의 공격력과 치명타 확률을 낮춥니다. 아레나나 스테이지에서 딜러가 스킬을 쓰기도 전에 쓰러질 때 시간을 벌어 줍니다.",
-      "ยืนแนวหน้าและลดพลังโจมตีกับโอกาสคริติคอลของศัตรูใกล้ตัว ช่วยซื้อเวลาในอารีน่าหรือด่านเนื้อเรื่องที่ตัวทำดาเมจยังไม่ทันออกสกิล",
-    ],
-  },
-  cookie0081: {
-    source: guide("princess-bari-cookie-build-team"),
-    reason: [
-      "She dives at a high-ATK target and protects fellow Charge Cookies from disruption. That makes her a strong story and Arena opener. Give her time to survive the opening before judging the damage.",
-      "她會突進攻擊高攻目標，還能保護其他突擊型隊友不被打亂。主線和競技場都適合由她開場，先確保她撐過第一波再看輸出。",
-      "攻撃力の高い敵に突進し、味方の突撃型を妨害から守ります。ストーリーでもアリーナでも先手を取れる一人。火力を比べる前に、開幕を生き残れるか見ましょう。",
-      "공격력이 높은 적에게 돌진하고 아군 돌격형이 방해받지 않도록 돕습니다. 스테이지와 아레나의 선봉에 잘 맞습니다. 피해량을 보기 전에 첫 공세를 버티는지 확인하세요.",
-      "พุ่งใส่ศัตรูพลังโจมตีสูงและป้องกันเพื่อนสายจู่โจมจากการขัดจังหวะ จึงเปิดเกมได้ดีทั้งเนื้อเรื่องและอารีน่า ให้เธอรอดช่วงเปิดก่อนค่อยดูดาเมจ",
-    ],
-  },
   cookie4013: {
     source: guide("brightseeker-cookie-build-team"),
     reason: [
@@ -95,16 +115,6 @@ export const tierRecommendations: Readonly<Record<string, Recommendation>> = {
       "連打シナジーを付与し、味方を打ち上げから守り、敵の回復も抑えます。本人の火力が一番でなくても、ボスの火力編成と速攻アリーナ編成の両方で役割があります。",
       "연타 시너지를 주고 아군의 띄우기를 막으며 적의 회복도 줄입니다. 본인 피해량이 가장 높지 않아도 보스 딜 조합과 아레나 속공 조합 모두에 들어갈 이유가 있습니다.",
       "มอบซินเนอร์จี้โจมตีต่อเนื่อง ช่วยให้เพื่อนไม่ถูกยก และลดการฟื้นฟูของศัตรู มีที่ทั้งในทีมตีบอสและทีมอารีน่าบุกเร็ว แม้ดาเมจส่วนตัวจะไม่สูงสุด",
-    ],
-  },
-  cookie0070: {
-    source: guide("guild-conquest-team-guide"),
-    reason: [
-      "His piercing shot hits a line of enemies. That pays off in Coin Dungeon and piñata fights when you can line up the wave, especially if he is already one of your better-promoted attackers.",
-      "穿透箭能打一整條線。金幣副本和皮納塔戰把怪排成一線就能發揮，尤其適合已經把他升到較高星級的玩家。",
-      "貫通矢で一直線の敵を攻撃します。コインダンジョンやピニャータ戦で敵を一列に集めると強く、すでに昇級が進んでいるなら特に使いやすいです。",
-      "관통 화살로 일직선의 적을 맞힙니다. 코인 던전이나 피냐타전에서 몹을 한 줄에 모으면 강하고, 이미 승급이 잘 된 딜러라면 더욱 쓸 만합니다.",
-      "ลูกธนูทะลุศัตรูเป็นแนวตรง คุ้มในดันเจี้ยนเหรียญและศึกปิญาตาเมื่อจัดให้ศัตรูเรียงแนวได้ ยิ่งดีถ้าเขาเป็นตัวโจมตีที่มีดาวสูงอยู่แล้ว",
     ],
   },
   cookie0250: {
@@ -147,16 +157,6 @@ export const tierRecommendations: Readonly<Record<string, Recommendation>> = {
       "เพิ่มดาเมจที่เพื่อนทำใส่บอสในศึกกิลด์ เป็นหน้าที่เฉพาะในทีมเคน จุดเด่นนี้ใช้เฉพาะโหมดดังกล่าว อย่าคาดหวังบัฟแบบเดียวกันในอารีน่า",
     ],
   },
-  cookie0103: {
-    source: guide("jax-cookie-build-team"),
-    reason: [
-      "His lightning lowers DEF and pushes enemies back, giving the rest of the team a better damage window. He is the benchmark for Jax swaps: check that DEF Down lands on the boss before judging either run.",
-      "閃電會降防和擊退，給全隊更好的輸出窗口。試用傑克斯時可以用他作基準，先確認降防真的掛到王身上再比成績。",
-      "雷で敵の防御力を下げて押し返し、味方が火力を出す時間を作ります。ジャックスとの入れ替え比較では、防御力ダウンがボスに付いたかを先に見ましょう。",
-      "번개로 적을 밀쳐내고 방어력을 낮춰 팀의 딜 타이밍을 만듭니다. 잭스와 교체 비교를 할 때는 먼저 보스에게 방어력 감소가 들어갔는지 보세요.",
-      "สายฟ้าผลักศัตรูและลดพลังป้องกัน เปิดจังหวะให้ทีมทำดาเมจ ใช้เขาเป็นตัวเทียบกับแจ็กซ์ โดยเช็กก่อนว่าบอสติดลดป้องกันจริง",
-    ],
-  },
   cookie0181: {
     source: guide("accuracy-focus-guide"),
     reason: [
@@ -165,36 +165,6 @@ export const tierRecommendations: Readonly<Record<string, Recommendation>> = {
       "毒を重ねられる長いボス戦で火力が伸びます。攻撃が外れるなら命中、当たっても毒を弾かれるなら効果命中を確認しましょう。重ねる時間が必要です。",
       "독 중첩 덕분에 긴 보스전에서 높은 피해를 낼 수 있습니다. 공격이 빗나가면 명중, 공격은 맞는데 독이 저항당하면 효과 적중을 확인하세요. 중첩을 쌓을 시간이 필요합니다.",
       "พิษซ้อนได้จึงทำดาเมจสูงในศึกบอสยาว ถ้าโจมตีพลาดให้ดูค่าความแม่นยำ ถ้าโจมตีโดนแต่พิษถูกต้านให้ดูค่าการติดเอฟเฟกต์ ต้องให้เวลาเธอสะสมพิษ",
-    ],
-  },
-  cookie0059: {
-    source: guide("chardonnay-auto-story-team"),
-    reason: [
-      "She raises allies’ crit chance and grants Range, two useful perks in story, dungeon, and Arena lineups. If Chardonnay already covers crit, compare the two slots before doubling up.",
-      "她提高隊友暴擊率並提供範圍連攜，主線、副本、競技場都用得到。夏多內已經提供暴擊率時，先比較兩個位置的實際收益再決定要不要一起上。",
-      "味方の会心率を上げ、範囲シナジーを付与します。ストーリー、ダンジョン、アリーナのどれにも出番があります。シャルドネで会心率を補えているなら、二人を並べる前に効果を比べましょう。",
-      "아군 치명타 확률을 올리고 범위 시너지를 줘 스테이지, 던전, 아레나에 두루 쓰입니다. 샤르도네로 치명타를 챙겼다면 두 자리를 함께 쓰기 전에 효율을 비교하세요.",
-      "เพิ่มโอกาสคริติคอลและมอบซินเนอร์จี้ระยะให้เพื่อน ใช้ได้ทั้งเนื้อเรื่อง ดันเจี้ยน และอารีน่า ถ้าชาร์ดอเนย์เพิ่มคริติคอลอยู่แล้ว ให้เทียบผลก่อนใส่ทั้งคู่",
-    ],
-  },
-  cookie0003: {
-    source: guide("arena-power-gap-guide"),
-    reason: [
-      "Early accounts can use his ATK Down to survive GingerCraven or a punishing dungeon. Keep the slot while it prevents wipes, then compare your team Power and clear time once you can already survive.",
-      "新手可以靠他的降攻撐過薑餅巨怪或難打的副本。只要能防滅團就值得留；隊伍能活下來後，再比較換人的戰力和通關時間。",
-      "序盤は攻撃力ダウンでジンジャークレイヴンや厳しいダンジョンを耐えやすくなります。全滅を防いでいる間は残し、安定したら交代時の戦闘力とクリアタイムを比べましょう。",
-      "초반에는 공격력 감소로 진저크레이븐이나 까다로운 던전을 버틸 수 있습니다. 전멸을 막아 주는 동안 쓰고, 생존이 안정되면 교체 전후 전투력과 클리어 시간을 비교하세요.",
-      "ช่วงต้นเกมใช้ลดพลังโจมตีเพื่อรอดจากจินเจอร์เครเวนหรือดันเจี้ยนยากได้ เก็บไว้ตราบที่ยังช่วยกันทีมล้ม พอรอดได้แล้วค่อยเทียบพลังทีมกับเวลาเคลียร์หลังสลับตัว",
-    ],
-  },
-  cookie0673: {
-    source: guide("jax-cookie-build-team"),
-    reason: [
-      "His bat hits hard and his grenade lowers DEF, making him a good single-boss swap for Dark Choco. Adds can draw the grenade away from the boss, which makes him less dependable in wave fights.",
-      "球棒打得痛，手榴彈還能降防，打單體王時可試著換下黑巧克力。小怪會搶走手榴彈的目標，所以怪群戰比較不穩。",
-      "バットの一撃が強く、手榴弾で防御力も下げられるので、単体ボスならダークチョコとの交代候補です。取り巻きに手榴弾が向くことがあり、敵が多い戦いでは安定しません。",
-      "방망이 피해가 강하고 수류탄으로 방어력을 낮춰 단일 보스에서 다크초코 대신 시험해 볼 만합니다. 잡몹 쪽으로 수류탄이 빗나갈 수 있어 웨이브에서는 덜 안정적입니다.",
-      "ไม้ตีแรงและระเบิดลดพลังป้องกัน จึงน่าลองแทนดาร์กช็อกโก้เมื่อสู้บอสตัวเดียว ลูกน้องอาจล่อระเบิดออกจากบอส ทำให้สู้ศัตรูเป็นระลอกได้ไม่สม่ำเสมอ",
     ],
   },
   cookie4014: {
@@ -227,16 +197,6 @@ export const tierRecommendations: Readonly<Record<string, Recommendation>> = {
       "เพื่อนที่เหยียบน้ำแข็งจะได้ดาเมจคริติคอลและซินเนอร์จี้ลูกโซ่ เหมาะกับศึกกิลด์และเนื้อเรื่อง แต่ต้องวางตำแหน่งให้ตัวทำดาเมจเดินผ่านน้ำแข็ง",
     ],
   },
-  cookie3001: {
-    source: guide("pinot-noir-multistrike-scorpion-teams"),
-    reason: [
-      "Her fast forward shots fit a Rapid Fire team with Pinot Noir and give boss lineups a steady attacker. Point her at the target; the shots are less useful when the fight spreads out.",
-      "向前方快速連射，適合搭配黑皮諾的連打隊，打王時能穩定補輸出。把她對準主要目標，敵人散開時連射比較難打滿。",
-      "前方への素早い連射がピノ・ノワールの連打編成と好相性で、ボス戦の安定した火力になります。狙いたい敵へ向けましょう。敵が散ると弾が届きにくくなります。",
-      "빠른 전방 연사로 피노 누아의 연타 덱에 잘 맞고 보스전에서 꾸준히 피해를 넣습니다. 주 대상 쪽을 향하게 하세요. 적이 흩어지면 연사를 온전히 맞히기 어렵습니다.",
-      "ยิงไปข้างหน้าได้เร็ว เข้ากับทีมโจมตีต่อเนื่องของปิโนต์นัวร์และทำดาเมจบอสได้สม่ำเสมอ หันให้ตรงเป้าหมาย เพราะเมื่อศัตรูกระจายตัวกระสุนจะเข้าไม่ครบ",
-    ],
-  },
   cookie4024: {
     source: guide("arena-healing-down-team-guide"),
     reason: [
@@ -247,26 +207,6 @@ export const tierRecommendations: Readonly<Record<string, Recommendation>> = {
       "ลดดาเมจที่เพื่อนใกล้ตัวได้รับและผลักศัตรูรอบข้าง เหมาะเป็นตัวถือธงในอารีน่าและช่วยทีมที่ฮีลอย่างเดียวไม่พอรอดช่วงเปิด",
     ],
   },
-  cookie0573: {
-    source: teams("dungeons"),
-    reason: [
-      "Her train hits and pushes enemies in its path, helping clear Coin, Dough, and EXP waves. Place her so the train crosses the pack; she is less compelling against a lone boss.",
-      "夢境列車沿路打傷並擊退敵人，金幣、麵團和經驗副本都能拿來清怪。讓列車穿過怪群；只剩單體王時就沒那麼突出。",
-      "列車が進路上の敵を攻撃して押し返し、コイン・生地・経験値ダンジョンの敵を片付けます。群れを横切る向きに置きましょう。単体ボスでは優先度が下がります。",
-      "기차가 지나가는 적을 공격하고 밀쳐 코인, 반죽, 경험치 던전의 웨이브 정리에 좋습니다. 기차가 몹을 가로지르도록 배치하세요. 단일 보스전에서는 우선순위가 낮습니다.",
-      "รถไฟโจมตีและผลักศัตรูตามทาง ช่วยกวาดดันเจี้ยนเหรียญ แป้งโด และค่าประสบการณ์ จัดให้รถไฟวิ่งผ่านฝูงมอนสเตอร์ ถ้าเจอบอสตัวเดียวจะเด่นน้อยลง",
-    ],
-  },
-  cookie0513: {
-    source: teams("dungeons"),
-    reason: [
-      "His wide attacks and black hole help control packed waves. Use him in the Dough Dungeon or with Witchberry in Plaque Tower when clearing groups is what holds you back.",
-      "大範圍攻擊和黑洞適合壓住密集怪群。麵團副本清不動怪，或徽章塔被怪群卡住時，可以用他；塔隊也有他和魔法莓果的組合。",
-      "広い攻撃範囲とブラックホールで密集した敵を抑えます。群れを処理できないときは生地ダンジョンで起用したり、プレートタワーでウィッチベリーと組ませたりできます。",
-      "넓은 공격 범위와 블랙홀로 몰린 적을 제어합니다. 몹 정리가 막히면 반죽 던전이나 마녀베리와 함께하는 플레이트 탑 조합에서 써 보세요.",
-      "การโจมตีวงกว้างกับหลุมดำช่วยคุมศัตรูที่กระจุกตัว ลองใช้ในดันเจี้ยนแป้งโดหรือคู่กับวิชเบอร์รี่ในหอคอยแผ่นป้ายเมื่อทีมติดปัญหาเคลียร์มอนสเตอร์",
-    ],
-  },
   cookie0063: {
     source: guide("arena-healing-down-team-guide"),
     reason: [
@@ -275,46 +215,6 @@ export const tierRecommendations: Readonly<Record<string, Recommendation>> = {
       "近くの味方を回復して一斉射撃シナジーを付与します。もう一回スキルを回せば勝てるときに便利です。アリーナで回復を抑えられるなら、シールド役や妨害役と比べましょう。",
       "주변 아군을 회복시키고 일제 사격 시너지를 줍니다. 스킬 한 번만 더 쓰면 이길 수 있는 전투에 좋습니다. 아레나에서 회복 감소에 막힌다면 보호막이나 제어 요원과 비교해 보세요.",
       "ฮีลเพื่อนใกล้ตัวและมอบซินเนอร์จี้ยิงพร้อมกัน เหมาะเมื่อทีมต้องการรอดเพื่อออกสกิลอีกหนึ่งรอบ ถ้าอารีน่าลดการฮีลจนไม่คุ้ม ให้ลองเทียบกับตัวโล่หรือตัวคุมศัตรู",
-    ],
-  },
-  cookie0515: {
-    source: guide("rye-cookie-build-team"),
-    reason: [
-      "Rapid pistol shots give her an affordable boss damage slot, especially with Pinot Noir. Keep her if she is already well promoted; extra investment is harder to justify when the team needs area damage instead.",
-      "快速手槍連射讓她成為好養的打王輸出，搭黑皮諾尤其合拍。星級已經高就值得留；隊伍缺的是範圍輸出時，不必硬把資源投給她。",
-      "素早いピストル連射で、育てやすいボス火力役になります。ピノ・ノワールとは特に好相性です。昇級が進んでいれば使い続け、範囲火力が不足するなら他を優先しましょう。",
-      "빠른 권총 연사로 육성 부담이 낮은 보스 딜러입니다. 특히 피노 누아와 잘 맞습니다. 승급이 높다면 유지하되, 팀에 범위 피해가 부족하면 다른 곳에 투자하세요.",
-      "ยิงปืนรัวจึงเป็นตัวทำดาเมจบอสที่ปั้นไม่แพง โดยเฉพาะคู่กับปิโนต์นัวร์ ถ้าดาวสูงอยู่แล้วให้ใช้ต่อ แต่ถ้าทีมขาดดาเมจวงกว้างให้ลงทรัพยากรกับตัวอื่นก่อน",
-    ],
-  },
-  cookie0037: {
-    source: guide("beginner-progression-guide"),
-    reason: [
-      "She gives developing teams ATK and Volley, and Plaque Tower floor 21 offers a way to get her. Compare her slot with Caine or Milk once their ATK support is built; overlapping ATK buffs do not fully stack.",
-      "她能給成形中的隊伍加攻和齊射連攜，徽章塔 21 層就有取得機會。凱恩或牛奶養起來後可以比較一下，重複的加攻效果不會完整疊加。",
-      "育成途中の編成に攻撃力と一斉射撃シナジーを補い、プレートタワー21階でも入手できます。ケインやミルクが育ったら交代を比較しましょう。攻撃力バフは完全には重なりません。",
-      "육성 중인 팀에 공격력과 일제 사격 시너지를 주고 플레이트 탑 21층에서 얻을 수 있습니다. 케인이나 우유가 성장하면 교체를 비교하세요. 공격력 버프는 온전히 중첩되지 않습니다.",
-      "เพิ่มพลังโจมตีและซินเนอร์จี้ยิงพร้อมกันให้ทีมช่วงปั้น หาได้จากหอคอยแผ่นป้ายชั้น 21 เมื่อเคนหรือมิลค์พร้อมแล้วให้ลองเทียบ เพราะบัฟพลังโจมตีไม่ซ้อนกันเต็มที่",
-    ],
-  },
-  cookie4003: {
-    source: guide("caine-guild-conquest-team"),
-    reason: [
-      "Her barrels heal allies with low HP and grant Rapid Fire, useful when a boss or dungeon lineup needs both recovery and faster attackers. If Pinot Noir already supplies the synergy, judge the slot by the healing.",
-      "木桶會補低血量隊友並提供連打連攜，打王或副本同時缺續航和連打時很實用。黑皮諾已經給連打時，就看她的治療能不能值回一個位置。",
-      "樽でHPが低い味方を回復し、連打シナジーを付与します。ボス戦やダンジョンで回復と連打の両方が欲しいときに便利です。ピノ・ノワールが連打を補うなら、回復の効果で採用を決めましょう。",
-      "통으로 체력이 낮은 아군을 회복시키고 연타 시너지를 줍니다. 보스나 던전 조합에 회복과 연타가 모두 필요할 때 유용합니다. 피노 누아가 이미 연타를 준다면 회복량을 보고 자리를 정하세요.",
-      "ถังช่วยฮีลเพื่อนเลือดต่ำและมอบซินเนอร์จี้โจมตีต่อเนื่อง ใช้ได้เมื่อทีมบอสหรือดันเจี้ยนต้องการทั้งสองอย่าง ถ้าปิโนต์นัวร์ให้ซินเนอร์จี้อยู่แล้ว ให้ตัดสินจากประโยชน์ของการฮีล",
-    ],
-  },
-  cookie0023: {
-    source: guide("accuracy-focus-guide"),
-    reason: [
-      "His spear gives early and midgame teams a cheap DEF Down option. Bring him when the debuff helps the whole team, and check Focus if the boss takes the hit without getting the debuff.",
-      "長矛讓前中期隊伍有好養的降防角。全隊能利用降防窗口時就帶上他；王有吃到傷害卻沒被降防，就先查效果命中。",
-      "槍で防御力を下げられる、序盤から中盤の育てやすい候補です。味方全体が防御力ダウンを生かせるときに採用し、ボスに当たっても弱体化しないなら効果命中を確認しましょう。",
-      "창으로 방어력을 낮춰 초중반에 육성 부담이 적은 선택지입니다. 팀 전체가 방어력 감소를 활용할 수 있을 때 쓰고, 공격은 맞는데 보스 방어력이 그대로라면 효과 적중을 확인하세요.",
-      "หอกลดพลังป้องกันได้ด้วยต้นทุนปั้นต่ำในช่วงต้นถึงกลางเกม ใช้เมื่อทั้งทีมได้ประโยชน์จากการลดป้องกัน ถ้าแทงโดนบอสแต่ไม่ติดผล ให้เช็กค่าการติดเอฟเฟกต์",
     ],
   },
 };

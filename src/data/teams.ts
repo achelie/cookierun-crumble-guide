@@ -25,9 +25,22 @@ export type RecommendedTeam = {
   };
 };
 
-export const teamsUpdatedAt = "2026-11-21";
+export const teamsUpdatedAt = "2026-11-24";
 
 export const recommendedTeams: RecommendedTeam[] = [
+  {
+    id: "moonlight-healthy-bagel-guild-conquest",
+    category: "guild-conquest",
+    name: "Moonlight and Healthy Bagel Guild Conquest Team",
+    kicker: "Give Healthy Bagel Skill Haste for more sandwich throws",
+    description: "Check ATK after entering the Extra-Stuffed Piñata fight. Keep the other attackers below Caine. Give Caine one ATK rune and fill his other slots with Skill Amp. When Moonlight and Pomegranate buff the same ally, only the higher Skill Amp applies.",
+    cookies: [
+      "chardonnay", "cookie0678", "cookie0126", "cookie4028", "cookie4019", "cookie0532",
+      "cookie4026", "cookie4010", "cookie0018", "cookie0672", "cookie0103", "cookie4014",
+    ],
+    pets: ["pet0111", "pet0110", "pet0228"],
+    updatedAt: "2026-11-24",
+  },
   {
     id: "healthy-bagel-exp-dungeon",
     category: "dungeons",
